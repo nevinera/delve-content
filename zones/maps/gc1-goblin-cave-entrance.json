@@ -1,0 +1,135 @@
+{
+  "identifier": "cave_entrance",
+  "name": "Cave Entrance",
+  "imageUrl": "../backgrounds/gc1-goblin-cave-entrance.webp",
+  "pixelDimensions": { "width": 2048, "height": 1536 },
+  "feetDimensions": { "width": 200.0, "height": 150.0 },
+  "barriers": [
+    {
+      "type": "wall",
+      "locations": [
+        { "x": 42.5, "y": 0.0 },
+        { "x": 50.0, "y": 10.0 },
+        { "x": 22.0, "y": 30.0 },
+        { "x": 19.0, "y": 47.0 },
+        { "x": 29.0, "y": 55.0 },
+        { "x": 54.0, "y": 66.0 },
+        { "x": 55.0, "y": 74.0 },
+        { "x": 42.0, "y": 75.0 },
+        { "x": 28.0, "y": 97.0 },
+        { "x": 19.0, "y": 112.0 },
+        { "x": 24.0, "y": 122.0 },
+        { "x": 37.0, "y": 118.0 },
+        { "x": 50.0, "y": 120.0 }
+      ]
+    },
+    {
+      "type": "wall",
+      "locations": [
+        { "x": 70.0, "y": 120.0 },
+        { "x": 75.0, "y": 117.0 },
+        { "x": 85.0, "y": 118.0 },
+        { "x": 93.0, "y": 128.0 },
+        { "x": 111.0, "y": 125.0 },
+        { "x": 133.0, "y": 91.0 },
+        { "x": 112.0, "y": 84.0 },
+        { "x": 99.0, "y": 93.0 },
+        { "x": 91.0, "y": 85.0 },
+        { "x": 103.0, "y": 71.0 },
+        { "x": 94.0, "y": 58.0 },
+        { "x": 72.0, "y": 54.0 },
+        { "x": 70.0, "y": 35.0 },
+        { "x": 77.0, "y": 21.0 },
+        { "x": 91.0, "y": 15.0 },
+        { "x": 91.0, "y": 0.0 }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "identifier": "clearing_entrance",
+      "type": "line",
+      "start": { "x": 91.0, "y": 0.0 },
+      "end": { "x": 42.5, "y": 0.0 }
+    },
+    {
+      "identifier": "cave_mouth",
+      "type": "line",
+      "start": { "x": 50.0, "y": 120.0 },
+      "end": { "x": 70.0, "y": 120.0 }
+    }
+  ],
+  "units": [
+    {
+      "unitType": "goblin",
+      "position": { "x": 35.0, "y": 45.0, "angle": 0.0 },
+      "hostility": "hostile",
+      "identifier": "goblin_a",
+      "links": ["goblin_b", "goblin_c"],
+      "movement": { "type": "wander", "location": { "x": 35.0, "y": 45.0 }, "radius": 10.0, "speed": 0.3, "waitTime": [2.0, 5.0] }
+    },
+    {
+      "unitType": "goblin",
+      "position": { "x": 31.0, "y": 35.0, "angle": 0.0 },
+      "hostility": "hostile",
+      "identifier": "goblin_b",
+      "links": ["goblin_a", "goblin_c"],
+      "movement": { "type": "wander", "location": { "x": 31.0, "y": 35.0 }, "radius": 8.0, "speed": 0.3, "waitTime": [2.0, 5.0] }
+    },
+    {
+      "unitType": "goblin",
+      "position": { "x": 46.0, "y": 43.0, "angle": 0.0 },
+      "hostility": "hostile",
+      "identifier": "goblin_c",
+      "links": ["goblin_a", "goblin_b"],
+      "movement": { "type": "wander", "location": { "x": 46.0, "y": 43.0 }, "radius": 10.0, "speed": 0.3, "waitTime": [2.0, 5.0] }
+    },
+    {
+      "unitType": "goblin",
+      "position": { "x": 85.0, "y": 75.0, "angle": 22.5 },
+      "hostility": "hostile",
+      "movement": { "type": "still" }
+    },
+    {
+      "unitType": "goblin",
+      "position": { "x": 71.0, "y": 97.0, "angle": 270.0 },
+      "hostility": "hostile",
+      "identifier": "goblin_e",
+      "links": ["goblin_f", "goblin_g"],
+      "movement": { "type": "still" }
+    },
+    {
+      "unitType": "goblin",
+      "position": { "x": 66.0, "y": 103.5, "angle": 225.0 },
+      "hostility": "hostile",
+      "identifier": "goblin_f",
+      "links": ["goblin_e", "goblin_g"],
+      "movement": { "type": "still" }
+    },
+    {
+      "unitType": "goblin",
+      "position": { "x": 47.0, "y": 92.0, "angle": 247.5 },
+      "hostility": "hostile",
+      "identifier": "goblin_g",
+      "links": ["goblin_e", "goblin_f"],
+      "movement": { "type": "still" }
+    },
+    {
+      "unitType": "goblin",
+      "position": { "x": 98.0, "y": 112.0, "angle": 0.0 },
+      "hostility": "hostile",
+      "identifier": "goblin_patrol",
+      "movement": {
+        "type": "patrol",
+        "choose": "return",
+        "steps": [
+          { "position": { "x": 98.0,  "y": 112.0, "angle": 135.0 }, "movementRate": 0.4, "waitTime": 12.0 },
+          { "position": { "x": 112.0, "y": 97.0,  "angle": 280.0 }, "movementRate": 0.4, "waitTime": 12.0 },
+          { "position": { "x": 84.0,  "y": 102.0, "angle": 220.0 }, "movementRate": 0.4, "waitTime": 12.0 },
+          { "position": { "x": 72.0,  "y": 87.0,  "angle": 285.0 }, "movementRate": 0.4, "waitTime": 12.0 },
+          { "position": { "x": 62.0,  "y": 90.0,  "angle": 105.0 }, "movementRate": 0.4, "waitTime": 12.0 }
+        ]
+      }
+    }
+  ]
+}
