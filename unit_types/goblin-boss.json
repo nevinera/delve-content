@@ -1,0 +1,100 @@
+{
+  "name": "Goblin Boss",
+  "description": "A hulking goblin chieftain - dangerous and hard to put down.",
+  "tokenImageUrl": [
+    "./tokens/goblin-boss-1.webp",
+    "./tokens/goblin-boss-2.webp",
+    "./tokens/goblin-boss-3.webp"
+  ],
+  "tokenRadius": 3.0,
+  "speedFactor": 0.9,
+  "maxHP": 80,
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100.0,
+    "defaultValue": 100.0,
+    "returnRate": 10.0,
+    "isFluid": true
+  },
+  "targeting": { "type": "aggroTable" },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": ["Pound", "Enrage", "Stab"]
+  },
+  "powers": [
+    {
+      "name": "Stab",
+      "description": "A heavy stab at the target.",
+      "maxRange": 5.0,
+      "castTime": null,
+      "globalCooldown": 1.5,
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5.0,
+          "amount": [4.0, 6.0],
+          "tags": ["physical", "melee"]
+        }
+      ]
+    },
+    {
+      "name": "Enrage",
+      "description": "Flies into a rage, increasing damage and attack speed.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 10.0,
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 10.0,
+          "status": {
+            "name": "Enraged",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "effects": [
+              { "type": "stat", "statName": "damageDone", "modifierType": "multiply", "amount": 1.1 },
+              { "type": "stat", "statName": "attackSpeed", "modifierType": "multiply", "amount": 1.2 }
+            ]
+          },
+          "tags": ["buff"]
+        }
+      ]
+    },
+    {
+      "name": "Pound",
+      "description": "A powerful blow that dazes the target.",
+      "maxRange": 5.0,
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 4.5,
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5.0,
+          "amount": [1.0, 3.0],
+          "tags": ["physical", "melee"]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "range": 5.0,
+          "duration": 3.0,
+          "status": {
+            "name": "Dazed",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              { "type": "stat", "statName": "movementSpeed", "modifierType": "multiply", "amount": 0.8 },
+              { "type": "stat", "statName": "strength", "modifierType": "multiply", "amount": 0.8 }
+            ]
+          },
+          "tags": ["debuff"]
+        }
+      ]
+    }
+  ]
+}

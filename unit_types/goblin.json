@@ -1,0 +1,64 @@
+{
+  "name": "Goblin",
+  "description": "A scrappy goblin that stabs anything within reach.",
+  "tokenImageUrl": [
+    "./tokens/goblin-1.webp",
+    "./tokens/goblin-2.webp",
+    "./tokens/goblin-3.webp"
+  ],
+  "tokenRadius": 2.0,
+  "speedFactor": 1.0,
+  "maxHP": 20,
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100.0,
+    "defaultValue": 100.0,
+    "returnRate": 10.0,
+    "isFluid": true
+  },
+  "targeting": { "type": "aggroTable" },
+  "tactics": { "type": "randomAvailable" },
+  "powers": [
+    {
+      "name": "Stab",
+      "description": "A quick stab at the target.",
+      "maxRange": 5.0,
+      "castTime": null,
+      "globalCooldown": 1.5,
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5.0,
+          "amount": [2.0, 3.0],
+          "tags": ["physical", "melee"]
+        }
+      ]
+    },
+    {
+      "name": "Enrage",
+      "description": "Flies into a rage, increasing damage and attack speed.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 10.0,
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 10.0,
+          "status": {
+            "name": "Enraged",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "effects": [
+              { "type": "stat", "statName": "damageDone", "modifierType": "multiply", "amount": 1.1 },
+              { "type": "stat", "statName": "attackSpeed", "modifierType": "multiply", "amount": 1.2 }
+            ]
+          },
+          "tags": ["buff"]
+        }
+      ]
+    }
+  ]
+}
