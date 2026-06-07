@@ -1,0 +1,24 @@
+{
+  "name": "Goblin Cave",
+  "description": "A damp cave carved out by generations of goblin raiders.",
+  "private": true,
+  "unitTypes": {
+    "goblin":      { "$ref": "../unit_types/goblin.json",      "referenceTo": "unit_type" },
+    "goblin_boss": { "$ref": "../unit_types/goblin-boss.json", "referenceTo": "unit_type" }
+  },
+  "maps": [
+    { "$ref": "./maps/gc1-goblin-cave-entrance.json", "referenceTo": "map" },
+    { "$ref": "./maps/gc2-goblin-cave-interior.json", "referenceTo": "map" }
+  ],
+  "zoneLinks": [
+    {
+      "connectionA": { "map": "cave_entrance", "connection": "cave_mouth" },
+      "connectionB": { "map": "cave_interior", "connection": "entrance" },
+      "oneWay": false,
+      "requiredKey": null
+    }
+  ],
+  "entryPoints": {
+    "cave_entrance/clearing_entrance": null
+  }
+}
