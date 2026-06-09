@@ -31,6 +31,15 @@
           "maxRange": 5.0,
           "castTime": null,
           "globalCooldown": 1.5,
+          "graphicEffects": [
+            {
+              "sourceURL": "./goblin-cave/effects/graphics/stab-impact.webp",
+              "duration": 0.3,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            }
+          ],
           "effects": [
             {
               "type": "harm",
@@ -47,6 +56,15 @@
           "castTime": null,
           "globalCooldown": 1.0,
           "cooldown": 10.0,
+          "graphicEffects": [
+            {
+              "sourceURL": "./goblin-cave/effects/graphics/enrage-burst.webp",
+              "duration": 0.5,
+              "from": "self",
+              "when": "immediate",
+              "condition": "always"
+            }
+          ],
           "effects": [
             {
               "type": "status",
@@ -98,6 +116,15 @@
           "maxRange": 5.0,
           "castTime": null,
           "globalCooldown": 1.5,
+          "graphicEffects": [
+            {
+              "sourceURL": "./goblin-cave/effects/graphics/stab-impact.webp",
+              "duration": 0.3,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            }
+          ],
           "effects": [
             {
               "type": "harm",
@@ -114,6 +141,15 @@
           "castTime": null,
           "globalCooldown": 1.0,
           "cooldown": 10.0,
+          "graphicEffects": [
+            {
+              "sourceURL": "./goblin-cave/effects/graphics/enrage-burst.webp",
+              "duration": 0.5,
+              "from": "self",
+              "when": "immediate",
+              "condition": "always"
+            }
+          ],
           "effects": [
             {
               "type": "status",
@@ -139,6 +175,22 @@
           "castTime": null,
           "globalCooldown": 1.0,
           "cooldown": 4.5,
+          "graphicEffects": [
+            {
+              "sourceURL": "./goblin-cave/effects/graphics/pound-impact.webp",
+              "duration": 0.4,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            },
+            {
+              "sourceURL": "./goblin-cave/effects/graphics/dazed-debuff.webp",
+              "duration": 0.6,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            }
+          ],
           "effects": [
             {
               "type": "harm",
