@@ -22,7 +22,7 @@
       ],
       "soundEffects": [
         {
-          "sourceURL": "./sounds/punch.wav",
+          "sourceURL": "./sounds/punch.ogg",
           "duration": 0.12,
           "location": "affected",
           "when": "impact",
@@ -54,7 +54,7 @@
       ],
       "soundEffects": [
         {
-          "sourceURL": "./sounds/recover.wav",
+          "sourceURL": "./sounds/recover.ogg",
           "duration": 0.33,
           "location": "self",
           "when": "immediate",

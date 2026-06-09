@@ -42,7 +42,7 @@
           ],
           "soundEffects": [
             {
-              "sourceURL": "../unit_types/sounds/stab.wav",
+              "sourceURL": "../unit_types/sounds/stab.ogg",
               "duration": 0.17,
               "location": "affected",
               "when": "impact",
@@ -76,7 +76,7 @@
           ],
           "soundEffects": [
             {
-              "sourceURL": "../unit_types/sounds/enrage.wav",
+              "sourceURL": "../unit_types/sounds/enrage.ogg",
               "duration": 0.65,
               "location": "self",
               "when": "immediate",
@@ -145,7 +145,7 @@
           ],
           "soundEffects": [
             {
-              "sourceURL": "../unit_types/sounds/stab.wav",
+              "sourceURL": "../unit_types/sounds/stab.ogg",
               "duration": 0.17,
               "location": "affected",
               "when": "impact",
@@ -179,7 +179,7 @@
           ],
           "soundEffects": [
             {
-              "sourceURL": "../unit_types/sounds/enrage.wav",
+              "sourceURL": "../unit_types/sounds/enrage.ogg",
               "duration": 0.65,
               "location": "self",
               "when": "immediate",
@@ -229,7 +229,7 @@
           ],
           "soundEffects": [
             {
-              "sourceURL": "../unit_types/sounds/pound.wav",
+              "sourceURL": "../unit_types/sounds/pound.ogg",
               "duration": 0.08,
               "location": "affected",
               "when": "impact",
