@@ -356,6 +356,7 @@
           "unitType": "goblin",
           "position": { "x": 85.0, "y": 75.0, "angle": 22.5 },
           "hostility": "hostile",
+          "identifier": "goblin_d",
           "movement": { "type": "still" }
         },
         {
@@ -636,6 +637,7 @@
           "unitType": "goblin",
           "position": { "x": 54.9, "y": 127.2, "angle": 112.5 },
           "hostility": "hostile",
+          "identifier": "goblin_patrol",
           "movement": {
             "type": "patrol",
             "choose": "loop",
