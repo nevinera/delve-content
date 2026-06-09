@@ -26,6 +26,24 @@
       "maxRange": 5.0,
       "castTime": null,
       "globalCooldown": 1.5,
+      "graphicEffects": [
+        {
+          "sourceURL": "./graphics/stab-impact.webp",
+          "duration": 0.3,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit"
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": "./sounds/stab.wav",
+          "duration": 0.17,
+          "location": "affected",
+          "when": "impact",
+          "condition": "onHit"
+        }
+      ],
       "effects": [
         {
           "type": "harm",
@@ -42,6 +60,24 @@
       "castTime": null,
       "globalCooldown": 1.0,
       "cooldown": 10.0,
+      "graphicEffects": [
+        {
+          "sourceURL": "./graphics/enrage-burst.webp",
+          "duration": 0.5,
+          "from": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": "./sounds/enrage.wav",
+          "duration": 0.65,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
       "effects": [
         {
           "type": "status",

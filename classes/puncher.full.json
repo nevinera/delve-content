@@ -12,10 +12,19 @@
       "globalCooldown": 1.5,
       "graphicEffects": [
         {
-          "sourceURL": "../classes/effects/graphics/punch-impact.webp",
+          "sourceURL": "./graphics/punch-impact.webp",
           "duration": 0.3,
           "from": "self",
           "to": "affected",
+          "when": "impact",
+          "condition": "onHit"
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": "./sounds/punch.wav",
+          "duration": 0.12,
+          "location": "affected",
           "when": "impact",
           "condition": "onHit"
         }
@@ -36,9 +45,18 @@
       "globalCooldown": 10.0,
       "graphicEffects": [
         {
-          "sourceURL": "../classes/effects/graphics/recover-glow.webp",
+          "sourceURL": "./graphics/recover-glow.webp",
           "duration": 0.8,
           "from": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": "./sounds/recover.wav",
+          "duration": 0.33,
+          "location": "self",
           "when": "immediate",
           "condition": "always"
         }
