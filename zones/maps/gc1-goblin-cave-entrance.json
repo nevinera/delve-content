@@ -62,7 +62,7 @@
   "units": [
     {
       "unitType": "goblin",
-      "position": { "x": 35.0, "y": 45.0, "angle": 0.0 },
+      "position": { "x": 35.0, "y": 45.0, "angle": 120.0 },
       "hostility": "hostile",
       "identifier": "goblin_a",
       "links": ["goblin_b", "goblin_c"],
@@ -70,7 +70,7 @@
     },
     {
       "unitType": "goblin",
-      "position": { "x": 31.0, "y": 35.0, "angle": 0.0 },
+      "position": { "x": 31.0, "y": 35.0, "angle": 100.0 },
       "hostility": "hostile",
       "identifier": "goblin_b",
       "links": ["goblin_a", "goblin_c"],
@@ -78,7 +78,7 @@
     },
     {
       "unitType": "goblin",
-      "position": { "x": 46.0, "y": 43.0, "angle": 0.0 },
+      "position": { "x": 46.0, "y": 43.0, "angle": 91.0 },
       "hostility": "hostile",
       "identifier": "goblin_c",
       "links": ["goblin_a", "goblin_b"],

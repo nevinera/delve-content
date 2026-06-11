@@ -502,7 +502,7 @@
                     "position": {
                         "x": 35.0,
                         "y": 45.0,
-                        "angle": 0.0
+                        "angle": 120.0
                     },
                     "hostility": "hostile",
                     "identifier": "goblin_x",
@@ -529,7 +529,7 @@
                     "position": {
                         "x": 31.0,
                         "y": 35.0,
-                        "angle": 0.0
+                        "angle": 100.0
                     },
                     "hostility": "hostile",
                     "identifier": "goblin_y",
@@ -556,7 +556,7 @@
                     "position": {
                         "x": 46.0,
                         "y": 43.0,
-                        "angle": 0.0
+                        "angle": 91.0
                     },
                     "hostility": "hostile",
                     "identifier": "goblin_z",
