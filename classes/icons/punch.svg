@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <g fill="white">
+    <!-- Four finger tops, tallest in the middle -->
+    <rect x="8"  y="7"  width="11" height="18" rx="5"/>
+    <rect x="21" y="4"  width="11" height="21" rx="5"/>
+    <rect x="34" y="4"  width="11" height="21" rx="5"/>
+    <rect x="47" y="7"  width="9"  height="18" rx="4"/>
+    <!-- Main fist body -->
+    <rect x="6" y="22" width="50" height="30" rx="5"/>
+    <!-- Thumb protruding right -->
+    <rect x="48" y="36" width="14" height="11" rx="5"/>
+    <!-- Wrist -->
+    <rect x="10" y="46" width="38" height="14" rx="5"/>
+  </g>
+</svg>
