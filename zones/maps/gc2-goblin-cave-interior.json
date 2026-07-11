@@ -121,8 +121,8 @@
     {
       "identifier": "entrance",
       "type": "line",
-      "start": { "x": 75.7, "y": 0.0 },
-      "end":   { "x": 57.4, "y": 0.0 }
+      "start": { "x": 57.4, "y": 0.0 },
+      "end":   { "x": 75.7, "y": 0.0 }
     }
   ],
   "units": [
