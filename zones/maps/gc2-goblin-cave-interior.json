@@ -130,32 +130,32 @@
       "unitType": "goblin",
       "position": { "x": 111.9, "y": 66.5, "angle": 160.0 },
       "hostility": "hostile",
-      "identifier": "goblin_a",
-      "links": ["goblin_b", "goblin_c", "goblin_d"],
+      "identifier": "goblin_2a",
+      "links": ["goblin_2b", "goblin_2c", "goblin_2d"],
       "movement": { "type": "still" }
     },
     {
       "unitType": "goblin",
       "position": { "x": 123.6, "y": 61.5, "angle": 250.0 },
       "hostility": "hostile",
-      "identifier": "goblin_b",
-      "links": ["goblin_a", "goblin_c", "goblin_d"],
+      "identifier": "goblin_2b",
+      "links": ["goblin_2a", "goblin_2c", "goblin_2d"],
       "movement": { "type": "still" }
     },
     {
       "unitType": "goblin",
       "position": { "x": 107.1, "y": 53.5, "angle": 58.0 },
       "hostility": "hostile",
-      "identifier": "goblin_c",
-      "links": ["goblin_a", "goblin_b", "goblin_d"],
+      "identifier": "goblin_2c",
+      "links": ["goblin_2a", "goblin_2b", "goblin_2d"],
       "movement": { "type": "still" }
     },
     {
       "unitType": "goblin",
       "position": { "x": 116.7, "y": 49.8, "angle": 348.0 },
       "hostility": "hostile",
-      "identifier": "goblin_d",
-      "links": ["goblin_a", "goblin_b", "goblin_c"],
+      "identifier": "goblin_2d",
+      "links": ["goblin_2a", "goblin_2b", "goblin_2c"],
       "movement": {
         "type": "patrol",
         "choose": "return",
@@ -170,32 +170,32 @@
       "unitType": "goblin",
       "position": { "x": 75.0,  "y": 54.7, "angle": 157.5 },
       "hostility": "hostile",
-      "identifier": "goblin_e",
-      "links": ["goblin_f", "goblin_g", "goblin_h"],
+      "identifier": "goblin_2e",
+      "links": ["goblin_2f", "goblin_2g", "goblin_2h"],
       "movement": { "type": "still" }
     },
     {
       "unitType": "goblin",
       "position": { "x": 56.3, "y": 56.4, "angle": 90.0 },
       "hostility": "hostile",
-      "identifier": "goblin_f",
-      "links": ["goblin_e", "goblin_g", "goblin_h"],
+      "identifier": "goblin_2f",
+      "links": ["goblin_2e", "goblin_2g", "goblin_2h"],
       "movement": { "type": "still" }
     },
     {
       "unitType": "goblin",
       "position": { "x": 52.3, "y": 63.0, "angle": 135.0 },
       "hostility": "hostile",
-      "identifier": "goblin_g",
-      "links": ["goblin_e", "goblin_f", "goblin_h"],
+      "identifier": "goblin_2g",
+      "links": ["goblin_2e", "goblin_2f", "goblin_2h"],
       "movement": { "type": "still" }
     },
     {
       "unitType": "goblin",
       "position": { "x": 64.6, "y": 65.6, "angle": 157.5 },
       "hostility": "hostile",
-      "identifier": "goblin_h",
-      "links": ["goblin_e", "goblin_f", "goblin_g"],
+      "identifier": "goblin_2h",
+      "links": ["goblin_2e", "goblin_2f", "goblin_2g"],
       "movement": { "type": "still" }
     }
   ,
@@ -203,32 +203,32 @@
       "unitType": "goblin",
       "position": { "x": 18.8, "y": 119.0, "angle": 90.0 },
       "hostility": "hostile",
-      "identifier": "goblin_i",
-      "links": ["goblin_j", "goblin_k", "goblin_l"],
+      "identifier": "goblin_2i",
+      "links": ["goblin_2j", "goblin_2k", "goblin_2l"],
       "movement": { "type": "still" }
     },
     {
       "unitType": "goblin",
       "position": { "x": 18.5, "y": 127.3, "angle": 112.5 },
       "hostility": "hostile",
-      "identifier": "goblin_j",
-      "links": ["goblin_i", "goblin_k", "goblin_l"],
+      "identifier": "goblin_2j",
+      "links": ["goblin_2i", "goblin_2k", "goblin_2l"],
       "movement": { "type": "still" }
     },
     {
       "unitType": "goblin",
       "position": { "x": 23.4, "y": 133.9, "angle": 112.5 },
       "hostility": "hostile",
-      "identifier": "goblin_k",
-      "links": ["goblin_i", "goblin_j", "goblin_l"],
+      "identifier": "goblin_2k",
+      "links": ["goblin_2i", "goblin_2j", "goblin_2l"],
       "movement": { "type": "still" }
     },
     {
       "unitType": "goblin",
       "position": { "x": 30.4, "y": 136.4, "angle": 225.0 },
       "hostility": "hostile",
-      "identifier": "goblin_l",
-      "links": ["goblin_i", "goblin_j", "goblin_k"],
+      "identifier": "goblin_2l",
+      "links": ["goblin_2i", "goblin_2j", "goblin_2k"],
       "movement": { "type": "still" }
     }
   ,
@@ -255,32 +255,32 @@
       "unitType": "goblin_boss",
       "position": { "x": 107.9, "y": 164.9, "angle": 45.0 },
       "hostility": "hostile",
-      "identifier": "goblin_boss_a",
-      "links": ["goblin_m", "goblin_n", "goblin_o"],
+      "identifier": "goblin_boss_2a",
+      "links": ["goblin_2m", "goblin_2n", "goblin_2o"],
       "movement": { "type": "still" }
     },
     {
       "unitType": "goblin",
       "position": { "x": 113.3, "y": 161.6, "angle": 315.0 },
       "hostility": "hostile",
-      "identifier": "goblin_m",
-      "links": ["goblin_boss_a", "goblin_n", "goblin_o"],
+      "identifier": "goblin_2m",
+      "links": ["goblin_boss_2a", "goblin_2n", "goblin_2o"],
       "movement": { "type": "still" }
     },
     {
       "unitType": "goblin",
       "position": { "x": 97.1, "y": 165.4, "angle": 315.0 },
       "hostility": "hostile",
-      "identifier": "goblin_n",
-      "links": ["goblin_boss_a", "goblin_m", "goblin_o"],
+      "identifier": "goblin_2n",
+      "links": ["goblin_boss_2a", "goblin_2m", "goblin_2o"],
       "movement": { "type": "still" }
     },
     {
       "unitType": "goblin",
       "position": { "x": 106.8, "y": 157.4, "angle": 0.0 },
       "hostility": "hostile",
-      "identifier": "goblin_o",
-      "links": ["goblin_boss_a", "goblin_m", "goblin_n"],
+      "identifier": "goblin_2o",
+      "links": ["goblin_boss_2a", "goblin_2m", "goblin_2n"],
       "movement": {
         "type": "patrol",
         "choose": "return",
