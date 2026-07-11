@@ -1108,11 +1108,11 @@
                     "identifier": "entrance",
                     "type": "line",
                     "start": {
-                        "x": 75.7,
+                        "x": 57.4,
                         "y": 0.0
                     },
                     "end": {
-                        "x": 57.4,
+                        "x": 75.7,
                         "y": 0.0
                     }
                 }
