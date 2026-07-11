@@ -44,7 +44,8 @@
       "name": "Recover",
       "iconURL": "./icons/recover.svg",
       "castTime": null,
-      "globalCooldown": 10.0,
+      "globalCooldown": 1.5,
+      "cooldown": 10.0,
       "graphicEffects": [
         {
           "sourceURL": "./graphics/recover-glow.webp",
