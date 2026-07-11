@@ -164,8 +164,7 @@
           { "position": { "x": 98.5,  "y": 37.8, "angle": 225.0 }, "movementRate": 0.3, "waitTime": 20.0 }
         ]
       }
-    }
-  ,
+    },
     {
       "unitType": "goblin",
       "position": { "x": 75.0,  "y": 54.7, "angle": 157.5 },
@@ -235,6 +234,7 @@
     {
       "unitType": "goblin",
       "position": { "x": 54.9, "y": 127.2, "angle": 112.5 },
+      "identifier": "goblin_2m",
       "hostility": "hostile",
       "movement": {
         "type": "patrol",

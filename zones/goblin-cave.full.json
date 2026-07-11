@@ -1362,6 +1362,7 @@
             "y": 127.2,
             "angle": 112.5
           },
+          "identifier": "goblin_2m",
           "hostility": "hostile",
           "movement": {
             "type": "patrol",
