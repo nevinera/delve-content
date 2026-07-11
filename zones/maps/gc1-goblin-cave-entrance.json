@@ -87,6 +87,7 @@
     {
       "unitType": "goblin",
       "position": { "x": 85.0, "y": 75.0, "angle": 22.5 },
+      "identifier": "goblin_1d",
       "hostility": "hostile",
       "movement": { "type": "still" }
     },
