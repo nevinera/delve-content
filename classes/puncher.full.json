@@ -18,7 +18,8 @@
           "from": "self",
           "to": "affected",
           "when": "impact",
-          "condition": "onHit"
+          "condition": "onHit",
+          "color": "#ff0000"
         }
       ],
       "soundEffects": [
@@ -51,8 +52,11 @@
           "sourceURL": "./graphics/recover-glow.webp",
           "duration": 0.8,
           "from": "self",
+          "to": "self",
           "when": "immediate",
-          "condition": "always"
+          "condition": "always",
+          "color": "#00ff00",
+          "scale": 1.5
         }
       ],
       "soundEffects": [
