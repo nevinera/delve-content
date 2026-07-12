@@ -50,7 +50,7 @@
       "graphicEffects": [
         {
           "sourceURL": "./graphics/recover-glow.webp",
-          "duration": 0.8,
+          "duration": 1.4,
           "from": "self",
           "to": "self",
           "when": "immediate",
