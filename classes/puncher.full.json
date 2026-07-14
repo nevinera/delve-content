@@ -5,6 +5,7 @@
     "major": "8B4513",
     "minor": "F4A460"
   },
+  "primary_stat": "strength",
   "powers": [
     {
       "name": "Punch",
