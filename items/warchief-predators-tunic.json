@@ -1,0 +1,12 @@
+{
+  "identifier": "warchief-predators-tunic",
+  "name": "Warchief's Predator's Tunic",
+  "slot": "chest",
+  "ilvl": 584,
+  "stats": {
+    "agility": 35,
+    "stamina": 50,
+    "crit_rating": 11,
+    "haste_rating": 9
+  }
+}

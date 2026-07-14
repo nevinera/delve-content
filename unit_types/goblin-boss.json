@@ -17,6 +17,15 @@
     "returnRate": 10.0,
     "isFluid": true
   },
+  "lootTable": {
+    "warchief-battlechestplate": 17,
+    "warchief-savage-breastplate": 17,
+    "warchief-scaled-vest": 17,
+    "warchief-predators-tunic": 17,
+    "warchief-embroidered-robe": 16,
+    "warchief-hexweave-vestments": 16
+  },
+  "lootCount": 1,
   "targeting": { "type": "aggroTable" },
   "tactics": {
     "type": "priorityRotation",
