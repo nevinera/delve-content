@@ -1545,7 +1545,7 @@
           "hostility": "hostile",
           "identifier": "goblin_boss_2a",
           "links": [
-            "goblin_2m",
+            "goblin_2p",
             "goblin_2n",
             "goblin_2o"
           ],
@@ -1561,7 +1561,7 @@
             "angle": 315.0
           },
           "hostility": "hostile",
-          "identifier": "goblin_2m",
+          "identifier": "goblin_2p",
           "links": [
             "goblin_boss_2a",
             "goblin_2n",
@@ -1582,7 +1582,7 @@
           "identifier": "goblin_2n",
           "links": [
             "goblin_boss_2a",
-            "goblin_2m",
+            "goblin_2p",
             "goblin_2o"
           ],
           "movement": {
@@ -1600,7 +1600,7 @@
           "identifier": "goblin_2o",
           "links": [
             "goblin_boss_2a",
-            "goblin_2m",
+            "goblin_2p",
             "goblin_2n"
           ],
           "movement": {

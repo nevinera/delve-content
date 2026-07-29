@@ -256,14 +256,14 @@
       "position": { "x": 107.9, "y": 164.9, "angle": 45.0 },
       "hostility": "hostile",
       "identifier": "goblin_boss_2a",
-      "links": ["goblin_2m", "goblin_2n", "goblin_2o"],
+      "links": ["goblin_2p", "goblin_2n", "goblin_2o"],
       "movement": { "type": "still" }
     },
     {
       "unitType": "goblin",
       "position": { "x": 113.3, "y": 161.6, "angle": 315.0 },
       "hostility": "hostile",
-      "identifier": "goblin_2m",
+      "identifier": "goblin_2p",
       "links": ["goblin_boss_2a", "goblin_2n", "goblin_2o"],
       "movement": { "type": "still" }
     },
@@ -272,7 +272,7 @@
       "position": { "x": 97.1, "y": 165.4, "angle": 315.0 },
       "hostility": "hostile",
       "identifier": "goblin_2n",
-      "links": ["goblin_boss_2a", "goblin_2m", "goblin_2o"],
+      "links": ["goblin_boss_2a", "goblin_2p", "goblin_2o"],
       "movement": { "type": "still" }
     },
     {
@@ -280,7 +280,7 @@
       "position": { "x": 106.8, "y": 157.4, "angle": 0.0 },
       "hostility": "hostile",
       "identifier": "goblin_2o",
-      "links": ["goblin_boss_2a", "goblin_2m", "goblin_2n"],
+      "links": ["goblin_boss_2a", "goblin_2p", "goblin_2n"],
       "movement": {
         "type": "patrol",
         "choose": "return",
