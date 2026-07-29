@@ -1,0 +1,49 @@
+{
+  "identifier": "small_cave",
+  "name": "Small Cave",
+  "imageUrl": "../backgrounds/sc1-small-cave.jpg",
+  "pixelDimensions": { "width": 1024, "height": 768 },
+  "feetDimensions": { "width": 200.0, "height": 150.0 },
+  "barriers": [
+    {
+      "type": "wall",
+      "locations": [
+        { "x": 104.3, "y": 0.0 },
+        { "x": 104.1, "y": 10.9 },
+        { "x": 118.2, "y": 28.1 },
+        { "x": 124.8, "y": 32.2 },
+        { "x": 126.6, "y": 39.8 },
+        { "x": 122.7, "y": 41.4 },
+        { "x": 122.9, "y": 67.4 },
+        { "x": 102.1, "y": 77.5 },
+        { "x": 90.6,  "y": 74.6 },
+        { "x": 78.9,  "y": 66.8 },
+        { "x": 71.5,  "y": 55.5 },
+        { "x": 63.9,  "y": 43.4 },
+        { "x": 66.2,  "y": 39.3 },
+        { "x": 68.9,  "y": 31.1 },
+        { "x": 73.4,  "y": 26.8 },
+        { "x": 71.3,  "y": 19.7 },
+        { "x": 84.6,  "y": 12.1 },
+        { "x": 84.6,  "y": 0.0 }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "identifier": "entrance",
+      "type": "line",
+      "start": { "x": 104.3, "y": 0.0 },
+      "end":   { "x": 84.6,  "y": 0.0 }
+    }
+  ],
+  "units": [
+    {
+      "unitType": "goblin",
+      "identifier": "goblin_1",
+      "hostility": "hostile",
+      "position": { "x": 94.7, "y": 52.1, "angle": 180.0 },
+      "movement": { "type": "wander", "location": { "x": 94.7, "y": 52.1 }, "radius": 10.0, "speed": 0.3, "waitTime": [2.0, 5.0] }
+    }
+  ]
+}

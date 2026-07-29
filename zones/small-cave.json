@@ -1,0 +1,14 @@
+{
+  "name": "Small Cave",
+  "description": "A cramped cave, barely large enough to shelter its single occupant.",
+  "private": true,
+  "unitTypes": {
+    "goblin": { "$ref": "../unit_types/goblin.json", "referenceTo": "unit_type" }
+  },
+  "maps": [
+    { "$ref": "./maps/sc1-small-cave.json", "referenceTo": "map" }
+  ],
+  "entryPoints": {
+    "small_cave/entrance": null
+  }
+}

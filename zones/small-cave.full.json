@@ -1,0 +1,265 @@
+{
+  "name": "Small Cave",
+  "description": "A cramped cave, barely large enough to shelter its single occupant.",
+  "private": true,
+  "unitTypes": {
+    "goblin": {
+      "name": "Goblin",
+      "description": "A scrappy goblin that stabs anything within reach.",
+      "tokenImageUrl": [
+        "../unit_types/tokens/goblin-1.webp",
+        "../unit_types/tokens/goblin-2.webp",
+        "../unit_types/tokens/goblin-3.webp"
+      ],
+      "tokenRadius": 2.0,
+      "speedFactor": 1.0,
+      "maxHP": 20,
+      "resource": {
+        "name": "energy",
+        "color": "AADD00",
+        "max": 100.0,
+        "defaultValue": 100.0,
+        "returnRate": 10.0,
+        "isFluid": true
+      },
+      "targeting": {
+        "type": "aggroTable"
+      },
+      "tactics": {
+        "type": "randomAvailable"
+      },
+      "powers": [
+        {
+          "name": "Stab",
+          "description": "A quick stab at the target.",
+          "maxRange": 5.0,
+          "castTime": null,
+          "globalCooldown": 1.5,
+          "graphicEffects": [
+            {
+              "sourceURL": "../unit_types/graphics/stab-impact.webp",
+              "duration": 0.3,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": "../unit_types/sounds/stab.ogg",
+              "duration": 0.17,
+              "location": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bTarget",
+              "range": 5.0,
+              "amount": [
+                2.0,
+                3.0
+              ],
+              "tags": [
+                "physical",
+                "melee"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enrage",
+          "description": "Flies into a rage, increasing damage and attack speed.",
+          "castTime": null,
+          "globalCooldown": 1.0,
+          "cooldown": 10.0,
+          "graphicEffects": [
+            {
+              "sourceURL": "../unit_types/graphics/enrage-burst.webp",
+              "duration": 0.5,
+              "from": "self",
+              "when": "immediate",
+              "condition": "always"
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": "../unit_types/sounds/enrage.ogg",
+              "duration": 0.65,
+              "location": "self",
+              "when": "immediate",
+              "condition": "always"
+            }
+          ],
+          "effects": [
+            {
+              "type": "status",
+              "affects": "self",
+              "duration": 10.0,
+              "status": {
+                "name": "Enraged",
+                "treatAs": "buff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "damageDone",
+                    "modifierType": "multiply",
+                    "amount": 1.1
+                  },
+                  {
+                    "type": "stat",
+                    "statName": "attackSpeed",
+                    "modifierType": "multiply",
+                    "amount": 1.2
+                  }
+                ]
+              },
+              "tags": [
+                "buff"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "maps": [
+    {
+      "identifier": "small_cave",
+      "name": "Small Cave",
+      "imageUrl": "backgrounds/sc1-small-cave.jpg",
+      "pixelDimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "feetDimensions": {
+        "width": 200.0,
+        "height": 150.0
+      },
+      "barriers": [
+        {
+          "type": "wall",
+          "locations": [
+            {
+              "x": 104.3,
+              "y": 0.0
+            },
+            {
+              "x": 104.1,
+              "y": 10.9
+            },
+            {
+              "x": 118.2,
+              "y": 28.1
+            },
+            {
+              "x": 124.8,
+              "y": 32.2
+            },
+            {
+              "x": 126.6,
+              "y": 39.8
+            },
+            {
+              "x": 122.7,
+              "y": 41.4
+            },
+            {
+              "x": 122.9,
+              "y": 67.4
+            },
+            {
+              "x": 102.1,
+              "y": 77.5
+            },
+            {
+              "x": 90.6,
+              "y": 74.6
+            },
+            {
+              "x": 78.9,
+              "y": 66.8
+            },
+            {
+              "x": 71.5,
+              "y": 55.5
+            },
+            {
+              "x": 63.9,
+              "y": 43.4
+            },
+            {
+              "x": 66.2,
+              "y": 39.3
+            },
+            {
+              "x": 68.9,
+              "y": 31.1
+            },
+            {
+              "x": 73.4,
+              "y": 26.8
+            },
+            {
+              "x": 71.3,
+              "y": 19.7
+            },
+            {
+              "x": 84.6,
+              "y": 12.1
+            },
+            {
+              "x": 84.6,
+              "y": 0.0
+            }
+          ]
+        }
+      ],
+      "connections": [
+        {
+          "identifier": "entrance",
+          "type": "line",
+          "start": {
+            "x": 104.3,
+            "y": 0.0
+          },
+          "end": {
+            "x": 84.6,
+            "y": 0.0
+          }
+        }
+      ],
+      "units": [
+        {
+          "unitType": "goblin",
+          "identifier": "goblin_1",
+          "hostility": "hostile",
+          "position": {
+            "x": 94.7,
+            "y": 52.1,
+            "angle": 180.0
+          },
+          "movement": {
+            "type": "wander",
+            "location": {
+              "x": 94.7,
+              "y": 52.1
+            },
+            "radius": 10.0,
+            "speed": 0.3,
+            "waitTime": [
+              2.0,
+              5.0
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "entryPoints": {
+    "small_cave/entrance": null
+  }
+}
