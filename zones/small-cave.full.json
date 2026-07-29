@@ -126,6 +126,56 @@
       ]
     }
   },
+  "items": {
+    "warchief-battlechestplate": {
+      "identifier": "warchief-battlechestplate",
+      "name": "Warchief's Battlechestplate",
+      "slot": "chest",
+      "ilvl": 584,
+      "stats": {
+        "strength": 35,
+        "stamina": 50,
+        "versatility_rating": 12,
+        "resilience_rating": 8
+      }
+    },
+    "warchief-savage-breastplate": {
+      "identifier": "warchief-savage-breastplate",
+      "name": "Warchief's Savage Breastplate",
+      "slot": "chest",
+      "ilvl": 584,
+      "stats": {
+        "strength": 35,
+        "stamina": 50,
+        "crit_rating": 11,
+        "haste_rating": 9
+      }
+    },
+    "warchief-scaled-vest": {
+      "identifier": "warchief-scaled-vest",
+      "name": "Warchief's Scaled Vest",
+      "slot": "chest",
+      "ilvl": 584,
+      "stats": {
+        "agility": 35,
+        "stamina": 50,
+        "versatility_rating": 12,
+        "resilience_rating": 8
+      }
+    },
+    "warchief-predators-tunic": {
+      "identifier": "warchief-predators-tunic",
+      "name": "Warchief's Predator's Tunic",
+      "slot": "chest",
+      "ilvl": 584,
+      "stats": {
+        "agility": 35,
+        "stamina": 50,
+        "crit_rating": 11,
+        "haste_rating": 9
+      }
+    }
+  },
   "maps": [
     {
       "identifier": "small_cave",
@@ -254,7 +304,17 @@
               2.0,
               5.0
             ]
-          }
+          },
+          "lootTable": {
+            "warchief-battlechestplate": 25,
+            "warchief-savage-breastplate": 25,
+            "warchief-scaled-vest": 25,
+            "warchief-predators-tunic": 25
+          },
+          "lootCount": [
+            2,
+            3
+          ]
         }
       ]
     }

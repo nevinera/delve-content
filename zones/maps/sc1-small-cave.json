@@ -43,7 +43,14 @@
       "identifier": "goblin_1",
       "hostility": "hostile",
       "position": { "x": 94.7, "y": 52.1, "angle": 180.0 },
-      "movement": { "type": "wander", "location": { "x": 94.7, "y": 52.1 }, "radius": 10.0, "speed": 0.3, "waitTime": [2.0, 5.0] }
+      "movement": { "type": "wander", "location": { "x": 94.7, "y": 52.1 }, "radius": 10.0, "speed": 0.3, "waitTime": [2.0, 5.0] },
+      "lootTable": {
+        "warchief-battlechestplate":   25,
+        "warchief-savage-breastplate": 25,
+        "warchief-scaled-vest":        25,
+        "warchief-predators-tunic":    25
+      },
+      "lootCount": [2, 3]
     }
   ]
 }

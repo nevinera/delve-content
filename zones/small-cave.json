@@ -5,6 +5,12 @@
   "unitTypes": {
     "goblin": { "$ref": "../unit_types/goblin.json", "referenceTo": "unit_type" }
   },
+  "items": {
+    "warchief-battlechestplate":   { "$ref": "../items/warchief-battlechestplate.json",   "referenceTo": "item" },
+    "warchief-savage-breastplate": { "$ref": "../items/warchief-savage-breastplate.json", "referenceTo": "item" },
+    "warchief-scaled-vest":        { "$ref": "../items/warchief-scaled-vest.json",        "referenceTo": "item" },
+    "warchief-predators-tunic":    { "$ref": "../items/warchief-predators-tunic.json",    "referenceTo": "item" }
+  },
   "maps": [
     { "$ref": "./maps/sc1-small-cave.json", "referenceTo": "map" }
   ],
