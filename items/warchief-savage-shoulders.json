@@ -1,0 +1,12 @@
+{
+  "identifier": "warchief-savage-shoulders",
+  "name": "Warchief's Savage Spaulders",
+  "slot": "shoulders",
+  "ilvl": 584,
+  "stats": {
+    "strength": 35,
+    "stamina": 50,
+    "crit_rating": 11,
+    "haste_rating": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "identifier": "warchief-hexweave-head",
+  "name": "Warchief's Hexweave Hood",
+  "slot": "head",
+  "ilvl": 584,
+  "stats": {
+    "intellect": 35,
+    "stamina": 50,
+    "crit_rating": 11,
+    "haste_rating": 9
+  }
+}

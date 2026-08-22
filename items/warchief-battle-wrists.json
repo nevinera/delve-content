@@ -1,0 +1,12 @@
+{
+  "identifier": "warchief-battle-wrists",
+  "name": "Warchief's Battle Bracers",
+  "slot": "wrists",
+  "ilvl": 584,
+  "stats": {
+    "strength": 35,
+    "stamina": 50,
+    "versatility_rating": 12,
+    "resilience_rating": 8
+  }
+}

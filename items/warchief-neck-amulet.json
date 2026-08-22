@@ -1,0 +1,11 @@
+{
+  "identifier": "warchief-neck-amulet",
+  "name": "Warchief's Amulet",
+  "slot": "neck",
+  "ilvl": 584,
+  "stats": {
+    "stamina": 40,
+    "mastery_rating": 11,
+    "versatility_rating": 9
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "warchief-ring-loop-of-command",
+  "name": "Warchief's Loop of Command",
+  "slot": "ring",
+  "ilvl": 584,
+  "stats": {
+    "stamina": 40,
+    "mastery_rating": 11,
+    "versatility_rating": 9
+  }
+}

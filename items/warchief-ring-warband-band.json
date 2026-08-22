@@ -1,0 +1,11 @@
+{
+  "identifier": "warchief-ring-warband-band",
+  "name": "Warchief's Warband Band",
+  "slot": "ring",
+  "ilvl": 584,
+  "stats": {
+    "stamina": 40,
+    "versatility_rating": 12,
+    "resilience_rating": 8
+  }
+}

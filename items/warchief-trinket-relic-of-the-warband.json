@@ -1,0 +1,11 @@
+{
+  "identifier": "warchief-trinket-relic-of-the-warband",
+  "name": "Warchief's Relic of the Warband",
+  "slot": "trinket",
+  "ilvl": 584,
+  "stats": {
+    "stamina": 40,
+    "mastery_rating": 11,
+    "versatility_rating": 9
+  }
+}

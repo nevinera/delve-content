@@ -1,0 +1,12 @@
+{
+  "identifier": "warchief-scaled-waist",
+  "name": "Warchief's Scaled Belt",
+  "slot": "waist",
+  "ilvl": 584,
+  "stats": {
+    "agility": 35,
+    "stamina": 50,
+    "versatility_rating": 12,
+    "resilience_rating": 8
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "identifier": "warchief-scaled-shoulders",
+  "name": "Warchief's Scaled Shoulderguards",
+  "slot": "shoulders",
+  "ilvl": 584,
+  "stats": {
+    "agility": 35,
+    "stamina": 50,
+    "versatility_rating": 12,
+    "resilience_rating": 8
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "warchief-trinket-warchief's-charm",
+  "name": "Warchief's Warchief's Charm",
+  "slot": "trinket",
+  "ilvl": 584,
+  "stats": {
+    "stamina": 40,
+    "versatility_rating": 12,
+    "resilience_rating": 8
+  }
+}

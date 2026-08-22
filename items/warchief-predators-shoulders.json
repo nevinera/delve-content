@@ -1,0 +1,12 @@
+{
+  "identifier": "warchief-predators-shoulders",
+  "name": "Warchief's Predator's Mantle",
+  "slot": "shoulders",
+  "ilvl": 584,
+  "stats": {
+    "agility": 35,
+    "stamina": 50,
+    "crit_rating": 11,
+    "haste_rating": 9
+  }
+}

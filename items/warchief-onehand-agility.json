@@ -1,0 +1,12 @@
+{
+  "identifier": "warchief-onehand-agility",
+  "name": "Warchief's Skinning Knife",
+  "slot": "one_hand",
+  "ilvl": 584,
+  "stats": {
+    "agility": 38,
+    "stamina": 28,
+    "haste_rating": 13
+  },
+  "weapon_dps": 46.0
+}

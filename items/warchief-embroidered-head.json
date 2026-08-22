@@ -1,0 +1,12 @@
+{
+  "identifier": "warchief-embroidered-head",
+  "name": "Warchief's Embroidered Circlet",
+  "slot": "head",
+  "ilvl": 584,
+  "stats": {
+    "intellect": 35,
+    "stamina": 50,
+    "versatility_rating": 12,
+    "resilience_rating": 8
+  }
+}

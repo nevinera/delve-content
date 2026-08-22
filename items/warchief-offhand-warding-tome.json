@@ -1,0 +1,10 @@
+{
+  "identifier": "warchief-offhand-warding-tome",
+  "name": "Warchief's Warding Tome",
+  "slot": "off_hand",
+  "ilvl": 584,
+  "stats": {
+    "versatility_rating": 12,
+    "resilience_rating": 8
+  }
+}

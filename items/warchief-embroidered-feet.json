@@ -1,0 +1,12 @@
+{
+  "identifier": "warchief-embroidered-feet",
+  "name": "Warchief's Embroidered Slippers",
+  "slot": "feet",
+  "ilvl": 584,
+  "stats": {
+    "intellect": 35,
+    "stamina": 50,
+    "versatility_rating": 12,
+    "resilience_rating": 8
+  }
+}

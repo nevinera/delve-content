@@ -1,0 +1,12 @@
+{
+  "identifier": "warchief-hexweave-waist",
+  "name": "Warchief's Hexweave Cincture",
+  "slot": "waist",
+  "ilvl": 584,
+  "stats": {
+    "intellect": 35,
+    "stamina": 50,
+    "crit_rating": 11,
+    "haste_rating": 9
+  }
+}

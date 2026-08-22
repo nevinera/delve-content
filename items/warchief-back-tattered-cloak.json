@@ -1,0 +1,11 @@
+{
+  "identifier": "warchief-back-tattered-cloak",
+  "name": "Warchief's Tattered Cloak",
+  "slot": "back",
+  "ilvl": 584,
+  "stats": {
+    "stamina": 40,
+    "crit_rating": 11,
+    "haste_rating": 9
+  }
+}
