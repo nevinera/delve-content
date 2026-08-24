@@ -913,42 +913,6 @@
         "defence_rating"
       ]
     },
-    "warchief-trinket-battle-totem": {
-      "identifier": "warchief-trinket-battle-totem",
-      "name": "Warchief's Battle Totem",
-      "slot": "trinket",
-      "elvl": 5,
-      "primary": null,
-      "secondaries": [
-        "stamina",
-        "crit_rating",
-        "haste_rating"
-      ]
-    },
-    "warchief-trinket-relic-of-the-warband": {
-      "identifier": "warchief-trinket-relic-of-the-warband",
-      "name": "Warchief's Relic of the Warband",
-      "slot": "trinket",
-      "elvl": 5,
-      "primary": null,
-      "secondaries": [
-        "stamina",
-        "mastery_rating",
-        "versatility_rating"
-      ]
-    },
-    "warchief-trinket-warchief's-charm": {
-      "identifier": "warchief-trinket-warchief's-charm",
-      "name": "Warchief's Warchief's Charm",
-      "slot": "trinket",
-      "elvl": 5,
-      "primary": null,
-      "secondaries": [
-        "stamina",
-        "versatility_rating",
-        "defence_rating"
-      ]
-    },
     "warchief-twohand-agility": {
       "identifier": "warchief-twohand-agility",
       "name": "Warchief's War Spear",
@@ -1180,9 +1144,6 @@
             "warchief-scaled-vest": 10,
             "warchief-scaled-waist": 10,
             "warchief-scaled-wrists": 10,
-            "warchief-trinket-battle-totem": 10,
-            "warchief-trinket-relic-of-the-warband": 10,
-            "warchief-trinket-warchief's-charm": 10,
             "warchief-twohand-agility": 10,
             "warchief-twohand-intellect": 10,
             "warchief-twohand-strength": 10

@@ -274,18 +274,6 @@
       "$ref": "../items/warchief-scaled-wrists.json",
       "referenceTo": "item"
     },
-    "warchief-trinket-battle-totem": {
-      "$ref": "../items/warchief-trinket-battle-totem.json",
-      "referenceTo": "item"
-    },
-    "warchief-trinket-relic-of-the-warband": {
-      "$ref": "../items/warchief-trinket-relic-of-the-warband.json",
-      "referenceTo": "item"
-    },
-    "warchief-trinket-warchief's-charm": {
-      "$ref": "../items/warchief-trinket-warchief's-charm.json",
-      "referenceTo": "item"
-    },
     "warchief-twohand-agility": {
       "$ref": "../items/warchief-twohand-agility.json",
       "referenceTo": "item"
