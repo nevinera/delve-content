@@ -344,73 +344,73 @@
       "identifier": "warchief-battlechestplate",
       "name": "Warchief's Battlechestplate",
       "slot": "chest",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-savage-breastplate": {
       "identifier": "warchief-savage-breastplate",
       "name": "Warchief's Savage Breastplate",
       "slot": "chest",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-scaled-vest": {
       "identifier": "warchief-scaled-vest",
       "name": "Warchief's Scaled Vest",
       "slot": "chest",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-predators-tunic": {
       "identifier": "warchief-predators-tunic",
       "name": "Warchief's Predator's Tunic",
       "slot": "chest",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-embroidered-robe": {
       "identifier": "warchief-embroidered-robe",
       "name": "Warchief's Embroidered Robe",
       "slot": "chest",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-hexweave-vestments": {
       "identifier": "warchief-hexweave-vestments",
       "name": "Warchief's Hexweave Vestments",
       "slot": "chest",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     }
   },
   "maps": [

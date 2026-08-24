@@ -2,11 +2,10 @@
   "identifier": "warchief-twohand-strength",
   "name": "Warchief's Greataxe",
   "slot": "two_hand",
-  "ilvl": 584,
-  "stats": {
-    "strength": 55,
-    "stamina": 40,
-    "versatility_rating": 16
-  },
-  "weapon_dps": 85.0
+  "elvl": 5,
+  "primary": "strength",
+  "secondaries": [
+    "stamina",
+    "versatility_rating"
+  ]
 }

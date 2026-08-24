@@ -2,11 +2,11 @@
   "identifier": "warchief-savage-waist",
   "name": "Warchief's Savage Waistguard",
   "slot": "waist",
-  "ilvl": 584,
-  "stats": {
-    "strength": 35,
-    "stamina": 50,
-    "crit_rating": 11,
-    "haste_rating": 9
-  }
+  "elvl": 5,
+  "primary": "strength",
+  "secondaries": [
+    "stamina",
+    "crit_rating",
+    "haste_rating"
+  ]
 }

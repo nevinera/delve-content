@@ -2,11 +2,10 @@
   "identifier": "warchief-main-agility",
   "name": "Warchief's Huntress's Edge",
   "slot": "main_hand",
-  "ilvl": 584,
-  "stats": {
-    "agility": 40,
-    "stamina": 30,
-    "crit_rating": 14
-  },
-  "weapon_dps": 48.0
+  "elvl": 5,
+  "primary": "agility",
+  "secondaries": [
+    "stamina",
+    "crit_rating"
+  ]
 }

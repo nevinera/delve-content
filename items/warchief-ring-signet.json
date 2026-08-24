@@ -2,10 +2,11 @@
   "identifier": "warchief-ring-signet",
   "name": "Warchief's Signet",
   "slot": "ring",
-  "ilvl": 584,
-  "stats": {
-    "stamina": 40,
-    "crit_rating": 11,
-    "haste_rating": 9
-  }
+  "elvl": 5,
+  "primary": null,
+  "secondaries": [
+    "stamina",
+    "crit_rating",
+    "haste_rating"
+  ]
 }

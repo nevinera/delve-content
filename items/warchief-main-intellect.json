@@ -2,11 +2,10 @@
   "identifier": "warchief-main-intellect",
   "name": "Warchief's Runeblade",
   "slot": "main_hand",
-  "ilvl": 584,
-  "stats": {
-    "intellect": 40,
-    "stamina": 30,
-    "crit_rating": 14
-  },
-  "weapon_dps": 48.0
+  "elvl": 5,
+  "primary": "intellect",
+  "secondaries": [
+    "stamina",
+    "crit_rating"
+  ]
 }

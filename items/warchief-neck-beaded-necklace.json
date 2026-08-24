@@ -2,10 +2,11 @@
   "identifier": "warchief-neck-beaded-necklace",
   "name": "Warchief's Beaded Necklace",
   "slot": "neck",
-  "ilvl": 584,
-  "stats": {
-    "stamina": 40,
-    "versatility_rating": 12,
-    "resilience_rating": 8
-  }
+  "elvl": 5,
+  "primary": null,
+  "secondaries": [
+    "stamina",
+    "versatility_rating",
+    "defence_rating"
+  ]
 }

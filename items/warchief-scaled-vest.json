@@ -2,11 +2,11 @@
   "identifier": "warchief-scaled-vest",
   "name": "Warchief's Scaled Vest",
   "slot": "chest",
-  "ilvl": 584,
-  "stats": {
-    "agility": 35,
-    "stamina": 50,
-    "versatility_rating": 12,
-    "resilience_rating": 8
-  }
+  "elvl": 5,
+  "primary": "agility",
+  "secondaries": [
+    "stamina",
+    "versatility_rating",
+    "defence_rating"
+  ]
 }

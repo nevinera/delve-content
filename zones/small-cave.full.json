@@ -132,847 +132,855 @@
       "identifier": "warchief-back-mantle-of-shadows",
       "name": "Warchief's Mantle of Shadows",
       "slot": "back",
-      "ilvl": 584,
-      "stats": {
-        "stamina": 40,
-        "mastery_rating": 11,
-        "versatility_rating": 9
-      }
+      "elvl": 5,
+      "primary": null,
+      "secondaries": [
+        "stamina",
+        "mastery_rating",
+        "versatility_rating"
+      ]
     },
     "warchief-back-tattered-cloak": {
       "identifier": "warchief-back-tattered-cloak",
       "name": "Warchief's Tattered Cloak",
       "slot": "back",
-      "ilvl": 584,
-      "stats": {
-        "stamina": 40,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": null,
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-back-woven-cape": {
       "identifier": "warchief-back-woven-cape",
       "name": "Warchief's Woven Cape",
       "slot": "back",
-      "ilvl": 584,
-      "stats": {
-        "stamina": 40,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": null,
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-battle-feet": {
       "identifier": "warchief-battle-feet",
       "name": "Warchief's Battle Sabatons",
       "slot": "feet",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-battle-hands": {
       "identifier": "warchief-battle-hands",
       "name": "Warchief's Battle Gauntlets",
       "slot": "hands",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-battle-head": {
       "identifier": "warchief-battle-head",
       "name": "Warchief's Battle Helm",
       "slot": "head",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-battle-legs": {
       "identifier": "warchief-battle-legs",
       "name": "Warchief's Battle Legplates",
       "slot": "legs",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-battle-shoulders": {
       "identifier": "warchief-battle-shoulders",
       "name": "Warchief's Battle Pauldrons",
       "slot": "shoulders",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-battle-waist": {
       "identifier": "warchief-battle-waist",
       "name": "Warchief's Battle Girdle",
       "slot": "waist",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-battle-wrists": {
       "identifier": "warchief-battle-wrists",
       "name": "Warchief's Battle Bracers",
       "slot": "wrists",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-battlechestplate": {
       "identifier": "warchief-battlechestplate",
       "name": "Warchief's Battlechestplate",
       "slot": "chest",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-embroidered-feet": {
       "identifier": "warchief-embroidered-feet",
       "name": "Warchief's Embroidered Slippers",
       "slot": "feet",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-embroidered-hands": {
       "identifier": "warchief-embroidered-hands",
       "name": "Warchief's Embroidered Gloves",
       "slot": "hands",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-embroidered-head": {
       "identifier": "warchief-embroidered-head",
       "name": "Warchief's Embroidered Circlet",
       "slot": "head",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-embroidered-legs": {
       "identifier": "warchief-embroidered-legs",
       "name": "Warchief's Embroidered Skirt",
       "slot": "legs",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-embroidered-robe": {
       "identifier": "warchief-embroidered-robe",
       "name": "Warchief's Embroidered Robe",
       "slot": "chest",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-embroidered-shoulders": {
       "identifier": "warchief-embroidered-shoulders",
       "name": "Warchief's Embroidered Shawl",
       "slot": "shoulders",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-embroidered-waist": {
       "identifier": "warchief-embroidered-waist",
       "name": "Warchief's Embroidered Sash",
       "slot": "waist",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-embroidered-wrists": {
       "identifier": "warchief-embroidered-wrists",
       "name": "Warchief's Embroidered Cuffs",
       "slot": "wrists",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-hexweave-feet": {
       "identifier": "warchief-hexweave-feet",
       "name": "Warchief's Hexweave Sandals",
       "slot": "feet",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-hexweave-hands": {
       "identifier": "warchief-hexweave-hands",
       "name": "Warchief's Hexweave Handwraps",
       "slot": "hands",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-hexweave-head": {
       "identifier": "warchief-hexweave-head",
       "name": "Warchief's Hexweave Hood",
       "slot": "head",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-hexweave-legs": {
       "identifier": "warchief-hexweave-legs",
       "name": "Warchief's Hexweave Leggings",
       "slot": "legs",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-hexweave-shoulders": {
       "identifier": "warchief-hexweave-shoulders",
       "name": "Warchief's Hexweave Amice",
       "slot": "shoulders",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-hexweave-vestments": {
       "identifier": "warchief-hexweave-vestments",
       "name": "Warchief's Hexweave Vestments",
       "slot": "chest",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-hexweave-waist": {
       "identifier": "warchief-hexweave-waist",
       "name": "Warchief's Hexweave Cincture",
       "slot": "waist",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-hexweave-wrists": {
       "identifier": "warchief-hexweave-wrists",
       "name": "Warchief's Hexweave Wraps",
       "slot": "wrists",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-main-agility": {
       "identifier": "warchief-main-agility",
       "name": "Warchief's Huntress's Edge",
       "slot": "main_hand",
-      "ilvl": 584,
-      "stats": {
-        "agility": 40,
-        "stamina": 30,
-        "crit_rating": 14
-      },
-      "weapon_dps": 48.0
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "crit_rating"
+      ]
     },
     "warchief-main-intellect": {
       "identifier": "warchief-main-intellect",
       "name": "Warchief's Runeblade",
       "slot": "main_hand",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 40,
-        "stamina": 30,
-        "crit_rating": 14
-      },
-      "weapon_dps": 48.0
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating"
+      ]
     },
     "warchief-main-strength": {
       "identifier": "warchief-main-strength",
       "name": "Warchief's Warblade",
       "slot": "main_hand",
-      "ilvl": 584,
-      "stats": {
-        "strength": 40,
-        "stamina": 30,
-        "crit_rating": 14
-      },
-      "weapon_dps": 48.0
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "crit_rating"
+      ]
     },
     "warchief-neck-amulet": {
       "identifier": "warchief-neck-amulet",
       "name": "Warchief's Amulet",
       "slot": "neck",
-      "ilvl": 584,
-      "stats": {
-        "stamina": 40,
-        "mastery_rating": 11,
-        "versatility_rating": 9
-      }
+      "elvl": 5,
+      "primary": null,
+      "secondaries": [
+        "stamina",
+        "mastery_rating",
+        "versatility_rating"
+      ]
     },
     "warchief-neck-battle-chain": {
       "identifier": "warchief-neck-battle-chain",
       "name": "Warchief's Battle Chain",
       "slot": "neck",
-      "ilvl": 584,
-      "stats": {
-        "stamina": 40,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": null,
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-neck-beaded-necklace": {
       "identifier": "warchief-neck-beaded-necklace",
       "name": "Warchief's Beaded Necklace",
       "slot": "neck",
-      "ilvl": 584,
-      "stats": {
-        "stamina": 40,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": null,
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-offhand-buckler": {
       "identifier": "warchief-offhand-buckler",
       "name": "Warchief's Buckler",
       "slot": "off_hand",
-      "ilvl": 584,
-      "stats": {
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "shield": true,
+      "primary": null,
+      "secondaries": [
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-offhand-totemic-shield": {
       "identifier": "warchief-offhand-totemic-shield",
       "name": "Warchief's Totemic Shield",
       "slot": "off_hand",
-      "ilvl": 584,
-      "stats": {
-        "mastery_rating": 11,
-        "versatility_rating": 9
-      }
+      "elvl": 5,
+      "shield": true,
+      "primary": null,
+      "secondaries": [
+        "mastery_rating",
+        "versatility_rating"
+      ]
     },
     "warchief-offhand-warding-tome": {
       "identifier": "warchief-offhand-warding-tome",
       "name": "Warchief's Warding Tome",
       "slot": "off_hand",
-      "ilvl": 584,
-      "stats": {
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": null,
+      "secondaries": [
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-onehand-agility": {
       "identifier": "warchief-onehand-agility",
       "name": "Warchief's Skinning Knife",
       "slot": "one_hand",
-      "ilvl": 584,
-      "stats": {
-        "agility": 38,
-        "stamina": 28,
-        "haste_rating": 13
-      },
-      "weapon_dps": 46.0
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "haste_rating"
+      ]
     },
     "warchief-onehand-intellect": {
       "identifier": "warchief-onehand-intellect",
       "name": "Warchief's Spellblade",
       "slot": "one_hand",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 38,
-        "stamina": 28,
-        "haste_rating": 13
-      },
-      "weapon_dps": 46.0
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "haste_rating"
+      ]
     },
     "warchief-onehand-strength": {
       "identifier": "warchief-onehand-strength",
       "name": "Warchief's Camp Cleaver",
       "slot": "one_hand",
-      "ilvl": 584,
-      "stats": {
-        "strength": 38,
-        "stamina": 28,
-        "haste_rating": 13
-      },
-      "weapon_dps": 46.0
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "haste_rating"
+      ]
     },
     "warchief-predators-feet": {
       "identifier": "warchief-predators-feet",
       "name": "Warchief's Predator's Treads",
       "slot": "feet",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-predators-hands": {
       "identifier": "warchief-predators-hands",
       "name": "Warchief's Predator's Claws",
       "slot": "hands",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-predators-head": {
       "identifier": "warchief-predators-head",
       "name": "Warchief's Predator's Cowl",
       "slot": "head",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-predators-legs": {
       "identifier": "warchief-predators-legs",
       "name": "Warchief's Predator's Legwraps",
       "slot": "legs",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-predators-shoulders": {
       "identifier": "warchief-predators-shoulders",
       "name": "Warchief's Predator's Mantle",
       "slot": "shoulders",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-predators-tunic": {
       "identifier": "warchief-predators-tunic",
       "name": "Warchief's Predator's Tunic",
       "slot": "chest",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-predators-waist": {
       "identifier": "warchief-predators-waist",
       "name": "Warchief's Predator's Cord",
       "slot": "waist",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-predators-wrists": {
       "identifier": "warchief-predators-wrists",
       "name": "Warchief's Predator's Bindings",
       "slot": "wrists",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-ring-loop-of-command": {
       "identifier": "warchief-ring-loop-of-command",
       "name": "Warchief's Loop of Command",
       "slot": "ring",
-      "ilvl": 584,
-      "stats": {
-        "stamina": 40,
-        "mastery_rating": 11,
-        "versatility_rating": 9
-      }
+      "elvl": 5,
+      "primary": null,
+      "secondaries": [
+        "stamina",
+        "mastery_rating",
+        "versatility_rating"
+      ]
     },
     "warchief-ring-signet": {
       "identifier": "warchief-ring-signet",
       "name": "Warchief's Signet",
       "slot": "ring",
-      "ilvl": 584,
-      "stats": {
-        "stamina": 40,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": null,
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-ring-warband-band": {
       "identifier": "warchief-ring-warband-band",
       "name": "Warchief's Warband Band",
       "slot": "ring",
-      "ilvl": 584,
-      "stats": {
-        "stamina": 40,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": null,
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-savage-breastplate": {
       "identifier": "warchief-savage-breastplate",
       "name": "Warchief's Savage Breastplate",
       "slot": "chest",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-savage-feet": {
       "identifier": "warchief-savage-feet",
       "name": "Warchief's Savage Warboots",
       "slot": "feet",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-savage-hands": {
       "identifier": "warchief-savage-hands",
       "name": "Warchief's Savage Fists",
       "slot": "hands",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-savage-head": {
       "identifier": "warchief-savage-head",
       "name": "Warchief's Savage Skullcap",
       "slot": "head",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-savage-legs": {
       "identifier": "warchief-savage-legs",
       "name": "Warchief's Savage Greaves",
       "slot": "legs",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-savage-shoulders": {
       "identifier": "warchief-savage-shoulders",
       "name": "Warchief's Savage Spaulders",
       "slot": "shoulders",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-savage-waist": {
       "identifier": "warchief-savage-waist",
       "name": "Warchief's Savage Waistguard",
       "slot": "waist",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-savage-wrists": {
       "identifier": "warchief-savage-wrists",
       "name": "Warchief's Savage Vambraces",
       "slot": "wrists",
-      "ilvl": 584,
-      "stats": {
-        "strength": 35,
-        "stamina": 50,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-scaled-feet": {
       "identifier": "warchief-scaled-feet",
       "name": "Warchief's Scaled Boots",
       "slot": "feet",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-scaled-hands": {
       "identifier": "warchief-scaled-hands",
       "name": "Warchief's Scaled Grips",
       "slot": "hands",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-scaled-head": {
       "identifier": "warchief-scaled-head",
       "name": "Warchief's Scaled Hood",
       "slot": "head",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-scaled-legs": {
       "identifier": "warchief-scaled-legs",
       "name": "Warchief's Scaled Leggings",
       "slot": "legs",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-scaled-shoulders": {
       "identifier": "warchief-scaled-shoulders",
       "name": "Warchief's Scaled Shoulderguards",
       "slot": "shoulders",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-scaled-vest": {
       "identifier": "warchief-scaled-vest",
       "name": "Warchief's Scaled Vest",
       "slot": "chest",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-scaled-waist": {
       "identifier": "warchief-scaled-waist",
       "name": "Warchief's Scaled Belt",
       "slot": "waist",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-scaled-wrists": {
       "identifier": "warchief-scaled-wrists",
       "name": "Warchief's Scaled Wristguards",
       "slot": "wrists",
-      "ilvl": 584,
-      "stats": {
-        "agility": 35,
-        "stamina": 50,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-trinket-battle-totem": {
       "identifier": "warchief-trinket-battle-totem",
       "name": "Warchief's Battle Totem",
       "slot": "trinket",
-      "ilvl": 584,
-      "stats": {
-        "stamina": 40,
-        "crit_rating": 11,
-        "haste_rating": 9
-      }
+      "elvl": 5,
+      "primary": null,
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
     },
     "warchief-trinket-relic-of-the-warband": {
       "identifier": "warchief-trinket-relic-of-the-warband",
       "name": "Warchief's Relic of the Warband",
       "slot": "trinket",
-      "ilvl": 584,
-      "stats": {
-        "stamina": 40,
-        "mastery_rating": 11,
-        "versatility_rating": 9
-      }
+      "elvl": 5,
+      "primary": null,
+      "secondaries": [
+        "stamina",
+        "mastery_rating",
+        "versatility_rating"
+      ]
     },
     "warchief-trinket-warchief's-charm": {
       "identifier": "warchief-trinket-warchief's-charm",
       "name": "Warchief's Warchief's Charm",
       "slot": "trinket",
-      "ilvl": 584,
-      "stats": {
-        "stamina": 40,
-        "versatility_rating": 12,
-        "resilience_rating": 8
-      }
+      "elvl": 5,
+      "primary": null,
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
     },
     "warchief-twohand-agility": {
       "identifier": "warchief-twohand-agility",
       "name": "Warchief's War Spear",
       "slot": "two_hand",
-      "ilvl": 584,
-      "stats": {
-        "agility": 55,
-        "stamina": 40,
-        "versatility_rating": 16
-      },
-      "weapon_dps": 85.0
+      "elvl": 5,
+      "primary": "agility",
+      "secondaries": [
+        "stamina",
+        "versatility_rating"
+      ]
     },
     "warchief-twohand-intellect": {
       "identifier": "warchief-twohand-intellect",
       "name": "Warchief's Runestaff",
       "slot": "two_hand",
-      "ilvl": 584,
-      "stats": {
-        "intellect": 55,
-        "stamina": 40,
-        "versatility_rating": 16
-      },
-      "weapon_dps": 85.0
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "versatility_rating"
+      ]
     },
     "warchief-twohand-strength": {
       "identifier": "warchief-twohand-strength",
       "name": "Warchief's Greataxe",
       "slot": "two_hand",
-      "ilvl": 584,
-      "stats": {
-        "strength": 55,
-        "stamina": 40,
-        "versatility_rating": 16
-      },
-      "weapon_dps": 85.0
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "versatility_rating"
+      ]
     }
   },
   "maps": [

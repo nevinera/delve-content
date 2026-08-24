@@ -2,11 +2,11 @@
   "identifier": "warchief-hexweave-hands",
   "name": "Warchief's Hexweave Handwraps",
   "slot": "hands",
-  "ilvl": 584,
-  "stats": {
-    "intellect": 35,
-    "stamina": 50,
-    "crit_rating": 11,
-    "haste_rating": 9
-  }
+  "elvl": 5,
+  "primary": "intellect",
+  "secondaries": [
+    "stamina",
+    "crit_rating",
+    "haste_rating"
+  ]
 }

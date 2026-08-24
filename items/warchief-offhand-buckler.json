@@ -2,9 +2,11 @@
   "identifier": "warchief-offhand-buckler",
   "name": "Warchief's Buckler",
   "slot": "off_hand",
-  "ilvl": 584,
-  "stats": {
-    "crit_rating": 11,
-    "haste_rating": 9
-  }
+  "elvl": 5,
+  "shield": true,
+  "primary": null,
+  "secondaries": [
+    "crit_rating",
+    "haste_rating"
+  ]
 }

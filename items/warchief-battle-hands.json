@@ -2,11 +2,11 @@
   "identifier": "warchief-battle-hands",
   "name": "Warchief's Battle Gauntlets",
   "slot": "hands",
-  "ilvl": 584,
-  "stats": {
-    "strength": 35,
-    "stamina": 50,
-    "versatility_rating": 12,
-    "resilience_rating": 8
-  }
+  "elvl": 5,
+  "primary": "strength",
+  "secondaries": [
+    "stamina",
+    "versatility_rating",
+    "defence_rating"
+  ]
 }

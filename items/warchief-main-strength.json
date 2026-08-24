@@ -2,11 +2,10 @@
   "identifier": "warchief-main-strength",
   "name": "Warchief's Warblade",
   "slot": "main_hand",
-  "ilvl": 584,
-  "stats": {
-    "strength": 40,
-    "stamina": 30,
-    "crit_rating": 14
-  },
-  "weapon_dps": 48.0
+  "elvl": 5,
+  "primary": "strength",
+  "secondaries": [
+    "stamina",
+    "crit_rating"
+  ]
 }

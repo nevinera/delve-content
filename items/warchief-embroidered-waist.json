@@ -2,11 +2,11 @@
   "identifier": "warchief-embroidered-waist",
   "name": "Warchief's Embroidered Sash",
   "slot": "waist",
-  "ilvl": 584,
-  "stats": {
-    "intellect": 35,
-    "stamina": 50,
-    "versatility_rating": 12,
-    "resilience_rating": 8
-  }
+  "elvl": 5,
+  "primary": "intellect",
+  "secondaries": [
+    "stamina",
+    "versatility_rating",
+    "defence_rating"
+  ]
 }
