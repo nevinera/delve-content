@@ -1,6 +1,7 @@
 {
   "name": "Small Cave",
   "description": "A cramped cave, barely large enough to shelter its single occupant.",
+  "elvl": 5,
   "private": true,
   "unitTypes": {
     "goblin": {
@@ -978,6 +979,7 @@
     {
       "identifier": "small_cave",
       "name": "Small Cave",
+      "elvl": 5,
       "imageUrl": "backgrounds/sc1-small-cave.jpg",
       "pixelDimensions": {
         "width": 1024,

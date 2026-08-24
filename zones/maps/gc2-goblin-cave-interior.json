@@ -1,6 +1,7 @@
 {
   "identifier": "cave_interior",
   "name": "Cave Interior",
+  "elvl": 8,
   "imageUrl": "../backgrounds/gc2-goblin-cave-interior.webp",
   "pixelDimensions": { "width": 1536, "height": 2048 },
   "feetDimensions": { "width": 150.0, "height": 200.0 },

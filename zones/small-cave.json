@@ -1,6 +1,7 @@
 {
   "name": "Small Cave",
   "description": "A cramped cave, barely large enough to shelter its single occupant.",
+  "elvl": 5,
   "private": true,
   "unitTypes": {
     "goblin": {
