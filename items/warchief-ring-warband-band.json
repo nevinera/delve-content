@@ -6,7 +6,6 @@
   "primary": null,
   "secondaries": [
     "stamina",
-    "versatility_rating",
-    "defence_rating"
+    "versatility_rating"
   ]
 }

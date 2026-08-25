@@ -136,8 +136,7 @@
       "primary": null,
       "secondaries": [
         "stamina",
-        "mastery_rating",
-        "versatility_rating"
+        "mastery_rating"
       ]
     },
     "warchief-back-tattered-cloak": {
@@ -148,8 +147,7 @@
       "primary": null,
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-back-woven-cape": {
@@ -160,8 +158,7 @@
       "primary": null,
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-battle-feet": {
@@ -172,8 +169,7 @@
       "primary": "strength",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-battle-hands": {
@@ -184,8 +180,7 @@
       "primary": "strength",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-battle-head": {
@@ -220,8 +215,7 @@
       "primary": "strength",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-battle-waist": {
@@ -232,8 +226,7 @@
       "primary": "strength",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-battle-wrists": {
@@ -244,8 +237,7 @@
       "primary": "strength",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-battlechestplate": {
@@ -256,8 +248,7 @@
       "primary": "strength",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-embroidered-feet": {
@@ -268,8 +259,7 @@
       "primary": "intellect",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-embroidered-hands": {
@@ -280,8 +270,7 @@
       "primary": "intellect",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-embroidered-head": {
@@ -289,11 +278,10 @@
       "name": "Warchief's Embroidered Circlet",
       "slot": "head",
       "elvl": 5,
-      "primary": "intellect",
+      "primary": null,
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-embroidered-legs": {
@@ -328,8 +316,7 @@
       "primary": "intellect",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-embroidered-waist": {
@@ -340,8 +327,7 @@
       "primary": "intellect",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-embroidered-wrists": {
@@ -352,8 +338,7 @@
       "primary": "intellect",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-hexweave-feet": {
@@ -364,8 +349,7 @@
       "primary": "intellect",
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-hexweave-hands": {
@@ -373,11 +357,10 @@
       "name": "Warchief's Hexweave Handwraps",
       "slot": "hands",
       "elvl": 5,
-      "primary": "intellect",
+      "primary": null,
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-hexweave-head": {
@@ -412,8 +395,7 @@
       "primary": "intellect",
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-hexweave-vestments": {
@@ -436,8 +418,7 @@
       "primary": "intellect",
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-hexweave-wrists": {
@@ -448,8 +429,7 @@
       "primary": "intellect",
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-main-agility": {
@@ -597,8 +577,7 @@
       "primary": "agility",
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-predators-hands": {
@@ -609,8 +588,7 @@
       "primary": "agility",
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-predators-head": {
@@ -630,7 +608,7 @@
       "name": "Warchief's Predator's Legwraps",
       "slot": "legs",
       "elvl": 5,
-      "primary": "agility",
+      "primary": null,
       "secondaries": [
         "stamina",
         "crit_rating",
@@ -645,8 +623,7 @@
       "primary": "agility",
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-predators-tunic": {
@@ -669,8 +646,7 @@
       "primary": "agility",
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-predators-wrists": {
@@ -681,8 +657,7 @@
       "primary": "agility",
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-ring-loop-of-command": {
@@ -693,8 +668,7 @@
       "primary": null,
       "secondaries": [
         "stamina",
-        "mastery_rating",
-        "versatility_rating"
+        "mastery_rating"
       ]
     },
     "warchief-ring-signet": {
@@ -705,8 +679,7 @@
       "primary": null,
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-ring-warband-band": {
@@ -717,8 +690,7 @@
       "primary": null,
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-savage-breastplate": {
@@ -741,8 +713,7 @@
       "primary": "strength",
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-savage-hands": {
@@ -753,8 +724,7 @@
       "primary": "strength",
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-savage-head": {
@@ -789,8 +759,7 @@
       "primary": "strength",
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-savage-waist": {
@@ -800,9 +769,7 @@
       "elvl": 5,
       "primary": "strength",
       "secondaries": [
-        "stamina",
-        "crit_rating",
-        "haste_rating"
+        "stamina"
       ]
     },
     "warchief-savage-wrists": {
@@ -813,8 +780,7 @@
       "primary": "strength",
       "secondaries": [
         "stamina",
-        "crit_rating",
-        "haste_rating"
+        "crit_rating"
       ]
     },
     "warchief-scaled-feet": {
@@ -825,8 +791,7 @@
       "primary": "agility",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-scaled-hands": {
@@ -837,8 +802,7 @@
       "primary": "agility",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-scaled-head": {
@@ -870,11 +834,9 @@
       "name": "Warchief's Scaled Shoulderguards",
       "slot": "shoulders",
       "elvl": 5,
-      "primary": "agility",
+      "primary": null,
       "secondaries": [
-        "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "stamina"
       ]
     },
     "warchief-scaled-vest": {
@@ -897,8 +859,7 @@
       "primary": "agility",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-scaled-wrists": {
@@ -909,8 +870,7 @@
       "primary": "agility",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-twohand-agility": {

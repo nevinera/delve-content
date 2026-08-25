@@ -348,8 +348,7 @@
       "primary": "strength",
       "secondaries": [
         "stamina",
-        "versatility_rating",
-        "defence_rating"
+        "versatility_rating"
       ]
     },
     "warchief-savage-breastplate": {

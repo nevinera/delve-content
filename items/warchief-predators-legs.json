@@ -3,7 +3,7 @@
   "name": "Warchief's Predator's Legwraps",
   "slot": "legs",
   "elvl": 5,
-  "primary": "agility",
+  "primary": null,
   "secondaries": [
     "stamina",
     "crit_rating",

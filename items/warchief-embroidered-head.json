@@ -3,10 +3,9 @@
   "name": "Warchief's Embroidered Circlet",
   "slot": "head",
   "elvl": 5,
-  "primary": "intellect",
+  "primary": null,
   "secondaries": [
     "stamina",
-    "versatility_rating",
-    "defence_rating"
+    "versatility_rating"
   ]
 }

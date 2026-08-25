@@ -5,8 +5,6 @@
   "elvl": 5,
   "primary": "strength",
   "secondaries": [
-    "stamina",
-    "crit_rating",
-    "haste_rating"
+    "stamina"
   ]
 }

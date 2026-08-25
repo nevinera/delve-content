@@ -6,7 +6,6 @@
   "primary": null,
   "secondaries": [
     "stamina",
-    "crit_rating",
-    "haste_rating"
+    "crit_rating"
   ]
 }

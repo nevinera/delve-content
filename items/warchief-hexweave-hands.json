@@ -3,10 +3,9 @@
   "name": "Warchief's Hexweave Handwraps",
   "slot": "hands",
   "elvl": 5,
-  "primary": "intellect",
+  "primary": null,
   "secondaries": [
     "stamina",
-    "crit_rating",
-    "haste_rating"
+    "crit_rating"
   ]
 }

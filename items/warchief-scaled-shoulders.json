@@ -3,10 +3,8 @@
   "name": "Warchief's Scaled Shoulderguards",
   "slot": "shoulders",
   "elvl": 5,
-  "primary": "agility",
+  "primary": null,
   "secondaries": [
-    "stamina",
-    "versatility_rating",
-    "defence_rating"
+    "stamina"
   ]
 }

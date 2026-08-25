@@ -6,7 +6,6 @@
   "primary": "intellect",
   "secondaries": [
     "stamina",
-    "versatility_rating",
-    "defence_rating"
+    "versatility_rating"
   ]
 }
