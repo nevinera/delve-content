@@ -22,7 +22,8 @@
       "duration": 0.33,
       "location": "self",
       "when": "immediate",
-      "condition": "always"
+      "condition": "always",
+      "volumeScale": 0.2
     }
   ],
   "effects": [

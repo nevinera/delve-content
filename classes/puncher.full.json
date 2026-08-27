@@ -42,7 +42,8 @@
           "duration": 0.12,
           "location": "affected",
           "when": "impact",
-          "condition": "onHit"
+          "condition": "onHit",
+          "volumeScale": 0.1
         }
       ],
       "effects": [
@@ -85,7 +86,8 @@
           "duration": 0.33,
           "location": "self",
           "when": "immediate",
-          "condition": "always"
+          "condition": "always",
+          "volumeScale": 0.2
         }
       ],
       "effects": [

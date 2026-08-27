@@ -20,7 +20,8 @@
       "duration": 0.12,
       "location": "affected",
       "when": "impact",
-      "condition": "onHit"
+      "condition": "onHit",
+      "volumeScale": 0.1
     }
   ],
   "effects": [
