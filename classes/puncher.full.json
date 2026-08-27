@@ -5,18 +5,29 @@
     "major": "8B4513",
     "minor": "F4A460"
   },
-  "primaryStats": ["strength"],
-  "secondaryStats": ["crit_rating", "haste_rating", "mastery_rating", "versatility_rating", "recovery_rating"],
-  "wields": ["axe", "dagger"],
+  "primaryStats": [
+    "strength"
+  ],
+  "secondaryStats": [
+    "crit_rating",
+    "haste_rating",
+    "mastery_rating",
+    "versatility_rating",
+    "recovery_rating"
+  ],
+  "wields": [
+    "axe",
+    "dagger"
+  ],
   "powers": [
     {
       "name": "Punch",
-      "iconURL": "./icons/punch.svg",
+      "iconURL": "icons/punch.svg",
       "castTime": null,
       "globalCooldown": 0.5,
       "graphicEffects": [
         {
-          "sourceURL": "./graphics/punch-impact.webp",
+          "sourceURL": "graphics/punch-impact.webp",
           "duration": 0.3,
           "from": "self",
           "to": "affected",
@@ -27,7 +38,7 @@
       ],
       "soundEffects": [
         {
-          "sourceURL": "./sounds/punch.ogg",
+          "sourceURL": "sounds/punch.ogg",
           "duration": 0.12,
           "location": "affected",
           "when": "impact",
@@ -38,21 +49,27 @@
         {
           "type": "harm",
           "affects": "bTarget",
-          "amount": [89.0, 140.0],
+          "amount": [
+            89.0,
+            140.0
+          ],
           "range": 5.0,
-          "tags": ["physical", "melee"]
+          "tags": [
+            "physical",
+            "melee"
+          ]
         }
       ]
     },
     {
       "name": "Recover",
-      "iconURL": "./icons/recover.svg",
+      "iconURL": "icons/recover.svg",
       "castTime": null,
       "globalCooldown": 1.5,
       "cooldown": 10.0,
       "graphicEffects": [
         {
-          "sourceURL": "./graphics/recover-glow.webp",
+          "sourceURL": "graphics/recover-glow.webp",
           "duration": 1.4,
           "from": "self",
           "to": "self",
@@ -64,7 +81,7 @@
       ],
       "soundEffects": [
         {
-          "sourceURL": "./sounds/recover.ogg",
+          "sourceURL": "sounds/recover.ogg",
           "duration": 0.33,
           "location": "self",
           "when": "immediate",

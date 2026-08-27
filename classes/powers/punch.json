@@ -1,0 +1,35 @@
+{
+  "name": "Punch",
+  "iconURL": "../icons/punch.svg",
+  "castTime": null,
+  "globalCooldown": 0.5,
+  "graphicEffects": [
+    {
+      "sourceURL": "../graphics/punch-impact.webp",
+      "duration": 0.3,
+      "from": "self",
+      "to": "affected",
+      "when": "impact",
+      "condition": "onHit",
+      "color": "#ff0000"
+    }
+  ],
+  "soundEffects": [
+    {
+      "sourceURL": "../sounds/punch.ogg",
+      "duration": 0.12,
+      "location": "affected",
+      "when": "impact",
+      "condition": "onHit"
+    }
+  ],
+  "effects": [
+    {
+      "type": "harm",
+      "affects": "bTarget",
+      "amount": [89.0, 140.0],
+      "range": 5.0,
+      "tags": ["physical", "melee"]
+    }
+  ]
+}
