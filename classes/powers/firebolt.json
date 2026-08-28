@@ -33,6 +33,7 @@
       "location": "affected",
       "when": "impact",
       "condition": "onHit",
+      "impactTiming": "centered",
       "volumeScale": 0.1
     }
   ],
