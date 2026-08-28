@@ -97,6 +97,61 @@
           "amount": 20.0
         }
       ]
+    },
+    {
+      "name": "Firebolt",
+      "iconURL": "icons/firebolt.png",
+      "maxRange": 40.0,
+      "speed": 60.0,
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "graphicEffects": [
+        {
+          "sourceURL": "graphics/firebolt.sprites2x2.png",
+          "duration": 0.5,
+          "from": "self",
+          "to": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "spriteColumns": 2,
+          "spriteRows": 2,
+          "spriteFrameRate": 8
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": "sounds/punch.ogg",
+          "duration": 0.12,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.1
+        },
+        {
+          "sourceURL": "sounds/punch.ogg",
+          "duration": 0.12,
+          "location": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "impactTiming": "centered",
+          "volumeScale": 0.1
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "amount": [
+            89.0,
+            140.0
+          ],
+          "range": 40.0,
+          "tags": [
+            "magic",
+            "ranged"
+          ]
+        }
+      ]
     }
   ]
 }

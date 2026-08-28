@@ -10,6 +10,7 @@
   "wields": ["axe", "dagger"],
   "powers": [
     { "$ref": "./powers/punch.json", "referenceTo": "power" },
-    { "$ref": "./powers/recover.json", "referenceTo": "power" }
+    { "$ref": "./powers/recover.json", "referenceTo": "power" },
+    { "$ref": "./powers/firebolt.json", "referenceTo": "power" }
   ]
 }
