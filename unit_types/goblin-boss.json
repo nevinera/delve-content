@@ -9,6 +9,8 @@
   "tokenRadius": 3.0,
   "speedFactor": 0.9,
   "maxHP": 80,
+  "dps": 8.0,
+  "attackSpeed": 0.8,
   "resource": {
     "name": "energy",
     "color": "AADD00",
@@ -29,43 +31,9 @@
   "targeting": { "type": "aggroTable" },
   "tactics": {
     "type": "priorityRotation",
-    "powers": ["Pound", "Enrage", "Stab"]
+    "powers": ["Pound", "Enrage"]
   },
   "powers": [
-    {
-      "name": "Stab",
-      "description": "A heavy stab at the target.",
-      "maxRange": 5.0,
-      "castTime": null,
-      "globalCooldown": 1.5,
-      "graphicEffects": [
-        {
-          "sourceURL": "./graphics/stab-impact.webp",
-          "duration": 0.3,
-          "from": "affected",
-          "when": "impact",
-          "condition": "onHit"
-        }
-      ],
-      "soundEffects": [
-        {
-          "sourceURL": "./sounds/stab.ogg",
-          "duration": 0.17,
-          "location": "affected",
-          "when": "impact",
-          "condition": "onHit"
-        }
-      ],
-      "effects": [
-        {
-          "type": "harm",
-          "affects": "bTarget",
-          "range": 5.0,
-          "amount": [4.0, 6.0],
-          "tags": ["physical", "melee"]
-        }
-      ]
-    },
     {
       "name": "Enrage",
       "description": "Flies into a rage, increasing damage and attack speed.",
