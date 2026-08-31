@@ -13,6 +13,12 @@ AI-generated token images sourced from the "Too Many Tokens" D&D pack by IsThisM
 
 Original SVG icons authored for this project - no third-party attribution required.
 
+## Sounds
+
+### classes/sounds/
+
+FireSpell1.wav by alonsotm -- https://freesound.org/s/396501/ -- License: Attribution 4.0
+
 ## Zone Backgrounds
 
 ### zones/backgrounds/
