@@ -1,11 +1,7 @@
 {
   "name": "Goblin Archer",
   "description": "A goblin that keeps its distance and lets arrows do the talking.",
-  "tokenImageUrl": [
-    "./tokens/goblin-1.webp",
-    "./tokens/goblin-2.webp",
-    "./tokens/goblin-3.webp"
-  ],
+  "tokenImageUrl": "./tokens/goblin-archer.webp",
   "tokenRadius": 2.0,
   "speedFactor": 1.0,
   "maxHP": 20,

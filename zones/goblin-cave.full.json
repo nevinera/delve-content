@@ -264,11 +264,7 @@
     "goblin_archer": {
       "name": "Goblin Archer",
       "description": "A goblin that keeps its distance and lets arrows do the talking.",
-      "tokenImageUrl": [
-        "../unit_types/tokens/goblin-1.webp",
-        "../unit_types/tokens/goblin-2.webp",
-        "../unit_types/tokens/goblin-3.webp"
-      ],
+      "tokenImageUrl": "../unit_types/tokens/goblin-archer.webp",
       "tokenRadius": 2.0,
       "speedFactor": 1.0,
       "maxHP": 20,
@@ -293,11 +289,7 @@
     "goblin_shaman": {
       "name": "Goblin Shaman",
       "description": "A goblin channeling crude but effective battle magic.",
-      "tokenImageUrl": [
-        "../unit_types/tokens/goblin-1.webp",
-        "../unit_types/tokens/goblin-2.webp",
-        "../unit_types/tokens/goblin-3.webp"
-      ],
+      "tokenImageUrl": "../unit_types/tokens/goblin-shaman.webp",
       "tokenRadius": 2.0,
       "speedFactor": 1.0,
       "maxHP": 20,
