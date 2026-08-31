@@ -1,0 +1,25 @@
+{
+  "name": "Goblin Archer",
+  "description": "A goblin that keeps its distance and lets arrows do the talking.",
+  "tokenImageUrl": [
+    "./tokens/goblin-1.webp",
+    "./tokens/goblin-2.webp",
+    "./tokens/goblin-3.webp"
+  ],
+  "tokenRadius": 2.0,
+  "speedFactor": 1.0,
+  "maxHP": 20,
+  "dps": 2.0,
+  "attackSpeed": 1.0,
+  "basicAttackRange": 30.0,
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100.0,
+    "defaultValue": 100.0,
+    "returnRate": 10.0,
+    "isFluid": true
+  },
+  "targeting": { "type": "aggroTable" },
+  "tactics": { "type": "randomAvailable" }
+}
