@@ -6,7 +6,8 @@
   "unitTypes": {
     "goblin":        { "$ref": "../unit_types/goblin.json",        "referenceTo": "unit_type" },
     "goblin_boss":   { "$ref": "../unit_types/goblin-boss.json",   "referenceTo": "unit_type" },
-    "goblin_archer": { "$ref": "../unit_types/goblin-archer.json", "referenceTo": "unit_type" }
+    "goblin_archer": { "$ref": "../unit_types/goblin-archer.json", "referenceTo": "unit_type" },
+    "goblin_shaman": { "$ref": "../unit_types/goblin-shaman.json", "referenceTo": "unit_type" }
   },
   "items": {
     "warchief-battlechestplate":  { "$ref": "../items/warchief-battlechestplate.json",  "referenceTo": "item" },

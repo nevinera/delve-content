@@ -289,6 +289,36 @@
       "tactics": {
         "type": "randomAvailable"
       }
+    },
+    "goblin_shaman": {
+      "name": "Goblin Shaman",
+      "description": "A goblin channeling crude but effective battle magic.",
+      "tokenImageUrl": [
+        "../unit_types/tokens/goblin-1.webp",
+        "../unit_types/tokens/goblin-2.webp",
+        "../unit_types/tokens/goblin-3.webp"
+      ],
+      "tokenRadius": 2.0,
+      "speedFactor": 1.0,
+      "maxHP": 20,
+      "dps": 2.5,
+      "attackSpeed": 1.0,
+      "basicAttackRange": 25.0,
+      "basicAttackSchool": "magic",
+      "resource": {
+        "name": "energy",
+        "color": "AADD00",
+        "max": 100.0,
+        "defaultValue": 100.0,
+        "returnRate": 10.0,
+        "isFluid": true
+      },
+      "targeting": {
+        "type": "aggroTable"
+      },
+      "tactics": {
+        "type": "randomAvailable"
+      }
     }
   },
   "items": {
@@ -560,7 +590,7 @@
           }
         },
         {
-          "unitType": "goblin",
+          "unitType": "goblin_shaman",
           "position": {
             "x": 31.0,
             "y": 35.0,
