@@ -2,6 +2,7 @@
   "identifier": "warchief-main-agility",
   "name": "Warchief's Huntress's Edge",
   "slot": "main_hand",
+  "weaponType": "bow",
   "elvl": 5,
   "primary": "agility",
   "secondaries": [

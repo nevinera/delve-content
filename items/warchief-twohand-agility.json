@@ -2,6 +2,7 @@
   "identifier": "warchief-twohand-agility",
   "name": "Warchief's War Spear",
   "slot": "two_hand",
+  "weaponType": "polearm",
   "elvl": 5,
   "primary": "agility",
   "secondaries": [

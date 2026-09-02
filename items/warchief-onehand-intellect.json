@@ -2,6 +2,7 @@
   "identifier": "warchief-onehand-intellect",
   "name": "Warchief's Spellblade",
   "slot": "one_hand",
+  "weaponType": "sword",
   "elvl": 5,
   "primary": "intellect",
   "secondaries": [

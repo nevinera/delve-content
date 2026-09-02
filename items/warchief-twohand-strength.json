@@ -2,6 +2,7 @@
   "identifier": "warchief-twohand-strength",
   "name": "Warchief's Greataxe",
   "slot": "two_hand",
+  "weaponType": "axe",
   "elvl": 5,
   "primary": "strength",
   "secondaries": [

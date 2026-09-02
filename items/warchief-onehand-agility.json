@@ -2,6 +2,7 @@
   "identifier": "warchief-onehand-agility",
   "name": "Warchief's Skinning Knife",
   "slot": "one_hand",
+  "weaponType": "dagger",
   "elvl": 5,
   "primary": "agility",
   "secondaries": [

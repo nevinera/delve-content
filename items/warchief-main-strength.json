@@ -2,6 +2,7 @@
   "identifier": "warchief-main-strength",
   "name": "Warchief's Warblade",
   "slot": "main_hand",
+  "weaponType": "sword",
   "elvl": 5,
   "primary": "strength",
   "secondaries": [

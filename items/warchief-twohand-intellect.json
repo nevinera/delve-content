@@ -2,6 +2,7 @@
   "identifier": "warchief-twohand-intellect",
   "name": "Warchief's Runestaff",
   "slot": "two_hand",
+  "weaponType": "staff",
   "elvl": 5,
   "primary": "intellect",
   "secondaries": [
