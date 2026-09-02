@@ -2,7 +2,7 @@
   "identifier": "small_cave",
   "name": "Small Cave",
   "elvl": 5,
-  "imageUrl": "../backgrounds/sc1-small-cave.jpg",
+  "imageUrl": "./sc1-small-cave.jpg",
   "pixelDimensions": {
     "width": 1024,
     "height": 768

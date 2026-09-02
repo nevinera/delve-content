@@ -1,7 +1,7 @@
 {
   "identifier": "cave_entrance",
   "name": "Cave Entrance",
-  "imageUrl": "../backgrounds/gc1-goblin-cave-entrance.webp",
+  "imageUrl": "./gc1-goblin-cave-entrance.webp",
   "pixelDimensions": { "width": 2048, "height": 1536 },
   "feetDimensions": { "width": 200.0, "height": 150.0 },
   "barriers": [
