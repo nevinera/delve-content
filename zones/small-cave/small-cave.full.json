@@ -403,7 +403,8 @@
       "secondaries": [
         "stamina",
         "crit_rating"
-      ]
+      ],
+      "weaponType": "bow"
     },
     "warchief-main-intellect": {
       "identifier": "warchief-main-intellect",
@@ -414,7 +415,8 @@
       "secondaries": [
         "stamina",
         "crit_rating"
-      ]
+      ],
+      "weaponType": "sword"
     },
     "warchief-main-strength": {
       "identifier": "warchief-main-strength",
@@ -425,7 +427,8 @@
       "secondaries": [
         "stamina",
         "crit_rating"
-      ]
+      ],
+      "weaponType": "sword"
     },
     "warchief-neck-amulet": {
       "identifier": "warchief-neck-amulet",
@@ -507,7 +510,8 @@
       "secondaries": [
         "stamina",
         "haste_rating"
-      ]
+      ],
+      "weaponType": "dagger"
     },
     "warchief-onehand-intellect": {
       "identifier": "warchief-onehand-intellect",
@@ -518,7 +522,8 @@
       "secondaries": [
         "stamina",
         "haste_rating"
-      ]
+      ],
+      "weaponType": "sword"
     },
     "warchief-onehand-strength": {
       "identifier": "warchief-onehand-strength",
@@ -529,7 +534,8 @@
       "secondaries": [
         "stamina",
         "haste_rating"
-      ]
+      ],
+      "weaponType": "axe"
     },
     "warchief-predators-feet": {
       "identifier": "warchief-predators-feet",
@@ -844,7 +850,8 @@
       "secondaries": [
         "stamina",
         "versatility_rating"
-      ]
+      ],
+      "weaponType": "polearm"
     },
     "warchief-twohand-intellect": {
       "identifier": "warchief-twohand-intellect",
@@ -855,7 +862,8 @@
       "secondaries": [
         "stamina",
         "versatility_rating"
-      ]
+      ],
+      "weaponType": "staff"
     },
     "warchief-twohand-strength": {
       "identifier": "warchief-twohand-strength",
@@ -866,7 +874,8 @@
       "secondaries": [
         "stamina",
         "versatility_rating"
-      ]
+      ],
+      "weaponType": "axe"
     }
   },
   "maps": [
