@@ -1,7 +1,7 @@
 {
   "name": "Goblin Shaman",
   "description": "A goblin channeling crude but effective battle magic.",
-  "tokenImageUrl": "./tokens/goblin-shaman.webp",
+  "tokenImageUrl": "../tokens/unit/goblin-shaman.webp",
   "tokenRadius": 2.0,
   "speedFactor": 1.0,
   "maxHP": 20,

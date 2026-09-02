@@ -2,20 +2,20 @@
 
 ## Tokens
 
-### unit_types/tokens/
+### tokens/unit/
 
 AI-generated token images sourced from the "Too Many Tokens" D&D pack by IsThisMyRealName
 (https://github.com/IsThisMyRealName/too-many-tokens-dnd/) - license-free.
 
 ## Class Icons
 
-### classes/icons/
+### graphics/icons/
 
 Original SVG icons authored for this project - no third-party attribution required.
 
 ## Sounds
 
-### classes/sounds/
+### audio/
 
 FireSpell1.wav by alonsotm -- https://freesound.org/s/396501/ -- License: Attribution 4.0
 

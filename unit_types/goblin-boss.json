@@ -2,9 +2,9 @@
   "name": "Goblin Boss",
   "description": "A hulking goblin chieftain - dangerous and hard to put down.",
   "tokenImageUrl": [
-    "./tokens/goblin-boss-1.webp",
-    "./tokens/goblin-boss-2.webp",
-    "./tokens/goblin-boss-3.webp"
+    "../tokens/unit/goblin-boss-1.webp",
+    "../tokens/unit/goblin-boss-2.webp",
+    "../tokens/unit/goblin-boss-3.webp"
   ],
   "tokenRadius": 3.0,
   "speedFactor": 0.9,
@@ -42,7 +42,7 @@
       "cooldown": 10.0,
       "graphicEffects": [
         {
-          "sourceURL": "./graphics/enrage-burst.webp",
+          "sourceURL": "../graphics/effects/enrage-burst.webp",
           "duration": 0.5,
           "from": "self",
           "when": "immediate",
@@ -51,7 +51,7 @@
       ],
       "soundEffects": [
         {
-          "sourceURL": "./sounds/enrage.ogg",
+          "sourceURL": "../audio/enrage.ogg",
           "duration": 0.65,
           "location": "self",
           "when": "immediate",
@@ -85,14 +85,14 @@
       "cooldown": 4.5,
       "graphicEffects": [
         {
-          "sourceURL": "./graphics/pound-impact.webp",
+          "sourceURL": "../graphics/effects/pound-impact.webp",
           "duration": 0.4,
           "from": "affected",
           "when": "impact",
           "condition": "onHit"
         },
         {
-          "sourceURL": "./graphics/dazed-debuff.webp",
+          "sourceURL": "../graphics/effects/dazed-debuff.webp",
           "duration": 0.6,
           "from": "affected",
           "when": "impact",
@@ -101,7 +101,7 @@
       ],
       "soundEffects": [
         {
-          "sourceURL": "./sounds/pound.ogg",
+          "sourceURL": "../audio/pound.ogg",
           "duration": 0.08,
           "location": "affected",
           "when": "impact",

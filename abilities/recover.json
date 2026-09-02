@@ -1,12 +1,12 @@
 {
   "name": "Recover",
-  "iconURL": "../icons/recover.svg",
+  "iconURL": "../graphics/icons/recover.svg",
   "castTime": null,
   "globalCooldown": 1.5,
   "cooldown": 10.0,
   "graphicEffects": [
     {
-      "sourceURL": "../graphics/recover-glow.webp",
+      "sourceURL": "../graphics/effects/recover-glow.webp",
       "duration": 1.4,
       "from": "self",
       "to": "self",
@@ -18,7 +18,7 @@
   ],
   "soundEffects": [
     {
-      "sourceURL": "../sounds/recover.ogg",
+      "sourceURL": "../audio/recover.ogg",
       "duration": 0.33,
       "location": "self",
       "when": "immediate",

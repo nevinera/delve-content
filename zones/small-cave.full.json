@@ -8,9 +8,9 @@
       "name": "Goblin",
       "description": "A scrappy goblin that stabs anything within reach.",
       "tokenImageUrl": [
-        "../unit_types/tokens/goblin-1.webp",
-        "../unit_types/tokens/goblin-2.webp",
-        "../unit_types/tokens/goblin-3.webp"
+        "../tokens/unit/goblin-1.webp",
+        "../tokens/unit/goblin-2.webp",
+        "../tokens/unit/goblin-3.webp"
       ],
       "tokenRadius": 2.0,
       "speedFactor": 1.0,
@@ -40,7 +40,7 @@
           "cooldown": 10.0,
           "graphicEffects": [
             {
-              "sourceURL": "../unit_types/graphics/enrage-burst.webp",
+              "sourceURL": "../graphics/effects/enrage-burst.webp",
               "duration": 0.5,
               "from": "self",
               "when": "immediate",
@@ -49,7 +49,7 @@
           ],
           "soundEffects": [
             {
-              "sourceURL": "../unit_types/sounds/enrage.ogg",
+              "sourceURL": "../audio/enrage.ogg",
               "duration": 0.65,
               "location": "self",
               "when": "immediate",
