@@ -42,7 +42,17 @@
       "volumeScale": 0.1
     }
   ],
-  "effects": [],
+  "effects": [
+    {
+      "type": "harm",
+      "affects": "bTarget",
+      "amount": 10,
+      "range": [
+        0,
+        40
+      ]
+    }
+  ],
   "iconURL": ":magic-ball:",
   "maxRange": 40,
   "speed": 35
