@@ -1,21 +1,23 @@
 {
   "name": "Firebolt",
   "iconURL": "../graphics/icons/firebolt.svg",
-  "maxRange": 40.0,
-  "speed": 60.0,
+  "maxRange": 40,
+  "speed": 40,
   "castTime": null,
-  "globalCooldown": 1.0,
+  "globalCooldown": 1,
   "graphicEffects": [
     {
-      "sourceURL": "../graphics/animations/firebolt.sprites2x2.png",
-      "duration": 0.5,
+      "sourceURL": "../graphics/animations/magic-ball.sprites3x3.png",
+      "duration": null,
       "from": "self",
       "to": "affected",
       "when": "immediate",
       "condition": "always",
-      "spriteColumns": 2,
-      "spriteRows": 2,
-      "spriteFrameRate": 8
+      "spriteColumns": 3,
+      "spriteRows": 3,
+      "spriteFrameRate": 6,
+      "spriteFrameCount": 9,
+      "color": "#FF2244"
     }
   ],
   "soundEffects": [
@@ -26,15 +28,29 @@
       "when": "immediate",
       "condition": "always",
       "volumeScale": 0.1
+    },
+    {
+      "sourceURL": "../audio/poof.ogg",
+      "duration": 0.3,
+      "location": "affected",
+      "when": "impact",
+      "condition": "onHit",
+      "impactTiming": "centered"
     }
   ],
   "effects": [
     {
       "type": "harm",
       "affects": "bTarget",
-      "amount": [89.0, 140.0],
-      "range": 40.0,
-      "tags": ["magic", "ranged"]
+      "amount": [
+        89,
+        140
+      ],
+      "range": 40,
+      "tags": [
+        "magic",
+        "ranged"
+      ]
     }
   ]
 }
