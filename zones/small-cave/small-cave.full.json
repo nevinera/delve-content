@@ -14,7 +14,7 @@
       ],
       "tokenRadius": 2.0,
       "speedFactor": 1.0,
-      "maxHP": 20,
+      "maxHP": 200,
       "dps": 4.0,
       "attackSpeed": 1.0,
       "resource": {
