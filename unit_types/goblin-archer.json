@@ -8,6 +8,7 @@
   "dps": 2.0,
   "attackSpeed": 1.0,
   "basicAttackRange": 30.0,
+  "basicAttackStyle": "arrow",
   "resource": {
     "name": "energy",
     "color": "AADD00",

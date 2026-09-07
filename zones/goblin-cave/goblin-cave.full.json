@@ -17,6 +17,7 @@
       "maxHP": 200,
       "dps": 4.0,
       "attackSpeed": 1.0,
+      "basicAttackStyle": "sword",
       "resource": {
         "name": "energy",
         "color": "AADD00",
@@ -101,6 +102,7 @@
       "maxHP": 800,
       "dps": 8.0,
       "attackSpeed": 0.8,
+      "basicAttackStyle": "axe",
       "resource": {
         "name": "energy",
         "color": "AADD00",
@@ -271,6 +273,7 @@
       "dps": 2.0,
       "attackSpeed": 1.0,
       "basicAttackRange": 30.0,
+      "basicAttackStyle": "arrow",
       "resource": {
         "name": "energy",
         "color": "AADD00",
@@ -297,6 +300,7 @@
       "attackSpeed": 1.0,
       "basicAttackRange": 25.0,
       "basicAttackSchool": "magic",
+      "basicAttackStyle": "fire",
       "resource": {
         "name": "energy",
         "color": "AADD00",

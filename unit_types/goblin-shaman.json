@@ -9,6 +9,7 @@
   "attackSpeed": 1.0,
   "basicAttackRange": 25.0,
   "basicAttackSchool": "magic",
+  "basicAttackStyle": "fire",
   "resource": {
     "name": "energy",
     "color": "AADD00",

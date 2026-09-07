@@ -11,6 +11,7 @@
   "maxHP": 200,
   "dps": 4.0,
   "attackSpeed": 1.0,
+  "basicAttackStyle": "sword",
   "resource": {
     "name": "energy",
     "color": "AADD00",

@@ -11,6 +11,7 @@
   "maxHP": 800,
   "dps": 8.0,
   "attackSpeed": 0.8,
+  "basicAttackStyle": "axe",
   "resource": {
     "name": "energy",
     "color": "AADD00",
