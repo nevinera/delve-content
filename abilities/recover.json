@@ -4,18 +4,6 @@
   "castTime": null,
   "globalCooldown": 1.5,
   "cooldown": 12.0,
-  "graphicEffects": [
-    {
-      "sourceURL": "../graphics/effects/recover-glow.webp",
-      "duration": 1.4,
-      "from": "self",
-      "to": "self",
-      "when": "immediate",
-      "condition": "always",
-      "color": "#00ff00",
-      "scale": 2.2
-    }
-  ],
   "soundEffects": [
     {
       "sourceURL": "../audio/recover.ogg",
@@ -42,6 +30,12 @@
         "description": "A burst of energy from catching your breath.",
         "treatAs": "buff",
         "stacking": "replace",
+        "auraEffect": {
+          "sourceURL": "../graphics/effects/recover-glow.webp",
+          "color": "#00ff00",
+          "scale": 1.3,
+          "opacity": 0.5
+        },
         "effects": [
           { "type": "stat", "statName": "movementSpeed", "modifierType": "multiply", "amount": 1.2 }
         ]
