@@ -67,7 +67,7 @@
       "iconURL": "../graphics/icons/recover.svg",
       "castTime": null,
       "globalCooldown": 1.5,
-      "cooldown": 10.0,
+      "cooldown": 12.0,
       "graphicEffects": [
         {
           "sourceURL": "../graphics/effects/recover-glow.webp",
@@ -95,6 +95,36 @@
           "type": "heal",
           "affects": "self",
           "amount": 20.0
+        },
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 8.0,
+          "status": {
+            "name": "Second Wind",
+            "shortName": "2ndWnd",
+            "description": "A burst of energy from catching your breath.",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "effects": [
+              { "type": "stat", "statName": "movementSpeed", "modifierType": "multiply", "amount": 1.2 }
+            ]
+          }
+        },
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 8.0,
+          "status": {
+            "name": "Winded",
+            "shortName": "Winded",
+            "description": "Still catching your breath - a little slower to react.",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              { "type": "stat", "statName": "attackSpeed", "modifierType": "multiply", "amount": 0.9 }
+            ]
+          }
         }
       ]
     },
