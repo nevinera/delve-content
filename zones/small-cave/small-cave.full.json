@@ -64,6 +64,7 @@
               "duration": 10.0,
               "status": {
                 "name": "Enraged",
+                "shortName": "Enrage",
                 "treatAs": "buff",
                 "stacking": "replace",
                 "effects": [

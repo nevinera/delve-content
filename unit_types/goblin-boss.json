@@ -66,6 +66,7 @@
           "duration": 10.0,
           "status": {
             "name": "Enraged",
+            "shortName": "Enrage",
             "treatAs": "buff",
             "stacking": "replace",
             "effects": [
@@ -124,6 +125,7 @@
           "duration": 3.0,
           "status": {
             "name": "Dazed",
+            "shortName": "Dazed",
             "treatAs": "debuff",
             "stacking": "replace",
             "effects": [
