@@ -14,9 +14,10 @@
       ],
       "tokenRadius": 2.0,
       "speedFactor": 1.0,
-      "maxHP": 20,
+      "maxHP": 200,
       "dps": 4.0,
       "attackSpeed": 1.0,
+      "basicAttackStyle": "sword",
       "resource": {
         "name": "energy",
         "color": "AADD00",
@@ -63,6 +64,7 @@
               "duration": 10.0,
               "status": {
                 "name": "Enraged",
+                "shortName": "Enrage",
                 "treatAs": "buff",
                 "stacking": "replace",
                 "effects": [
@@ -98,9 +100,10 @@
       ],
       "tokenRadius": 3.0,
       "speedFactor": 0.9,
-      "maxHP": 80,
+      "maxHP": 800,
       "dps": 8.0,
       "attackSpeed": 0.8,
+      "basicAttackStyle": "axe",
       "resource": {
         "name": "energy",
         "color": "AADD00",
@@ -160,6 +163,7 @@
               "duration": 10.0,
               "status": {
                 "name": "Enraged",
+                "shortName": "Enrage",
                 "treatAs": "buff",
                 "stacking": "replace",
                 "effects": [
@@ -236,6 +240,7 @@
               "duration": 3.0,
               "status": {
                 "name": "Dazed",
+                "shortName": "Dazed",
                 "treatAs": "debuff",
                 "stacking": "replace",
                 "effects": [
@@ -267,10 +272,11 @@
       "tokenImageUrl": "../../tokens/unit/goblin-archer.webp",
       "tokenRadius": 2.0,
       "speedFactor": 1.0,
-      "maxHP": 20,
+      "maxHP": 200,
       "dps": 2.0,
       "attackSpeed": 1.0,
       "basicAttackRange": 30.0,
+      "basicAttackStyle": "arrow",
       "resource": {
         "name": "energy",
         "color": "AADD00",
@@ -292,11 +298,12 @@
       "tokenImageUrl": "../../tokens/unit/goblin-shaman.webp",
       "tokenRadius": 2.0,
       "speedFactor": 1.0,
-      "maxHP": 20,
+      "maxHP": 200,
       "dps": 2.5,
       "attackSpeed": 1.0,
       "basicAttackRange": 25.0,
       "basicAttackSchool": "magic",
+      "basicAttackStyle": "fire",
       "resource": {
         "name": "energy",
         "color": "AADD00",

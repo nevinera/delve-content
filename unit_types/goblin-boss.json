@@ -8,9 +8,10 @@
   ],
   "tokenRadius": 3.0,
   "speedFactor": 0.9,
-  "maxHP": 80,
+  "maxHP": 800,
   "dps": 8.0,
   "attackSpeed": 0.8,
+  "basicAttackStyle": "axe",
   "resource": {
     "name": "energy",
     "color": "AADD00",
@@ -65,6 +66,7 @@
           "duration": 10.0,
           "status": {
             "name": "Enraged",
+            "shortName": "Enrage",
             "treatAs": "buff",
             "stacking": "replace",
             "effects": [
@@ -123,6 +125,7 @@
           "duration": 3.0,
           "status": {
             "name": "Dazed",
+            "shortName": "Dazed",
             "treatAs": "debuff",
             "stacking": "replace",
             "effects": [

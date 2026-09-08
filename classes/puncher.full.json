@@ -67,19 +67,7 @@
       "iconURL": "../graphics/icons/recover.svg",
       "castTime": null,
       "globalCooldown": 1.5,
-      "cooldown": 10.0,
-      "graphicEffects": [
-        {
-          "sourceURL": "../graphics/effects/recover-glow.webp",
-          "duration": 1.4,
-          "from": "self",
-          "to": "self",
-          "when": "immediate",
-          "condition": "always",
-          "color": "#00ff00",
-          "scale": 2.2
-        }
-      ],
+      "cooldown": 12.0,
       "soundEffects": [
         {
           "sourceURL": "../audio/recover.ogg",
@@ -95,6 +83,42 @@
           "type": "heal",
           "affects": "self",
           "amount": 20.0
+        },
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 8.0,
+          "status": {
+            "name": "Second Wind",
+            "shortName": "2ndWnd",
+            "description": "A burst of energy from catching your breath.",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "auraEffect": {
+              "sourceURL": "../graphics/effects/recover-glow.webp",
+              "color": "#00ff00",
+              "scale": 1.3,
+              "opacity": 0.5
+            },
+            "effects": [
+              { "type": "stat", "statName": "movementSpeed", "modifierType": "multiply", "amount": 1.2 }
+            ]
+          }
+        },
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 8.0,
+          "status": {
+            "name": "Winded",
+            "shortName": "Winded",
+            "description": "Still catching your breath - a little slower to react.",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              { "type": "stat", "statName": "attackSpeed", "modifierType": "multiply", "amount": 0.9 }
+            ]
+          }
         }
       ]
     },

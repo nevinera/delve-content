@@ -4,11 +4,12 @@
   "tokenImageUrl": "../tokens/unit/goblin-shaman.webp",
   "tokenRadius": 2.0,
   "speedFactor": 1.0,
-  "maxHP": 20,
+  "maxHP": 200,
   "dps": 2.5,
   "attackSpeed": 1.0,
   "basicAttackRange": 25.0,
   "basicAttackSchool": "magic",
+  "basicAttackStyle": "fire",
   "resource": {
     "name": "energy",
     "color": "AADD00",

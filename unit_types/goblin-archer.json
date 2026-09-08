@@ -4,10 +4,11 @@
   "tokenImageUrl": "../tokens/unit/goblin-archer.webp",
   "tokenRadius": 2.0,
   "speedFactor": 1.0,
-  "maxHP": 20,
+  "maxHP": 200,
   "dps": 2.0,
   "attackSpeed": 1.0,
   "basicAttackRange": 30.0,
+  "basicAttackStyle": "arrow",
   "resource": {
     "name": "energy",
     "color": "AADD00",
