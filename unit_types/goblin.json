@@ -23,48 +23,6 @@
   "targeting": { "type": "aggroTable" },
   "tactics": { "type": "randomAvailable" },
   "powers": [
-    {
-      "name": "Enrage",
-      "description": "Flies into a rage, increasing damage and attack speed.",
-      "castTime": null,
-      "globalCooldown": 1.0,
-      "cooldown": 10.0,
-      "graphicEffects": [
-        {
-          "sourceURL": "../graphics/effects/enrage-burst.webp",
-          "duration": 0.5,
-          "from": "self",
-          "when": "immediate",
-          "condition": "always"
-        }
-      ],
-      "soundEffects": [
-        {
-          "sourceURL": "../audio/enrage.ogg",
-          "duration": 0.65,
-          "location": "self",
-          "when": "immediate",
-          "condition": "always"
-        }
-      ],
-      "effects": [
-        {
-          "type": "status",
-          "affects": "self",
-          "duration": 10.0,
-          "status": {
-            "name": "Enraged",
-            "shortName": "Enrage",
-            "treatAs": "buff",
-            "stacking": "replace",
-            "effects": [
-              { "type": "stat", "statName": "damageDone", "modifierType": "multiply", "amount": 1.1 },
-              { "type": "stat", "statName": "attackSpeed", "modifierType": "multiply", "amount": 1.2 }
-            ]
-          },
-          "tags": ["buff"]
-        }
-      ]
-    }
+    { "$ref": "../abilities/units/goblins/enrage.json", "referenceTo": "power" }
   ]
 }
