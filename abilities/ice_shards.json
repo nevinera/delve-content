@@ -17,7 +17,6 @@
       "condition": "always",
       "spriteColumns": 7,
       "spriteRows": 1,
-      "spriteFrameCount": null,
       "spriteFrameRate": 8,
       "to": "affected",
       "scale": 1.3,

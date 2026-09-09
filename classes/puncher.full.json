@@ -67,7 +67,7 @@
       "iconURL": "../graphics/icons/recover.svg",
       "castTime": null,
       "globalCooldown": 1.5,
-      "cooldown": 12.0,
+      "cooldown": 12,
       "soundEffects": [
         {
           "sourceURL": "../audio/recover.ogg",
@@ -82,12 +82,12 @@
         {
           "type": "heal",
           "affects": "self",
-          "amount": 20.0
+          "amount": 20
         },
         {
           "type": "status",
           "affects": "self",
-          "duration": 8.0,
+          "duration": 8,
           "status": {
             "name": "Second Wind",
             "shortName": "2ndWnd",
@@ -95,20 +95,29 @@
             "treatAs": "buff",
             "stacking": "replace",
             "auraEffect": {
-              "sourceURL": "../graphics/effects/recover-glow.webp",
+              "sourceURL": ":sparkle-cloud:",
               "color": "#00ff00",
               "scale": 1.3,
-              "opacity": 0.5
+              "opacity": 0.3,
+              "spriteColumns": 2,
+              "spriteRows": 3,
+              "spriteFrameCount": 5
             },
             "effects": [
-              { "type": "stat", "statName": "movementSpeed", "modifierType": "multiply", "amount": 1.2 }
+              {
+                "type": "recurring",
+                "onTick": "heal",
+                "school": "magic",
+                "tickRate": 2.6,
+                "amount": 50
+              }
             ]
           }
         },
         {
           "type": "status",
           "affects": "self",
-          "duration": 8.0,
+          "duration": 8,
           "status": {
             "name": "Winded",
             "shortName": "Winded",
@@ -116,7 +125,12 @@
             "treatAs": "debuff",
             "stacking": "replace",
             "effects": [
-              { "type": "stat", "statName": "attackSpeed", "modifierType": "multiply", "amount": 0.9 }
+              {
+                "type": "stat",
+                "statName": "stamina",
+                "modifierType": "multiply",
+                "amount": 0.9
+              }
             ]
           }
         }

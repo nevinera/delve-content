@@ -37,8 +37,7 @@
           "opacity": 0.3,
           "spriteColumns": 2,
           "spriteRows": 3,
-          "spriteFrameCount": 5,
-          "spriteFrameRate": null
+          "spriteFrameCount": 5
         },
         "effects": [
           {
