@@ -2,42 +2,59 @@
   "name": "Enrage",
   "description": "Flies into a rage, increasing damage and attack speed.",
   "castTime": null,
-  "globalCooldown": 1.0,
-  "cooldown": 10.0,
-  "graphicEffects": [
-    {
-      "sourceURL": "../../../graphics/effects/enrage-burst.webp",
-      "duration": 0.5,
-      "from": "self",
-      "when": "immediate",
-      "condition": "always"
-    }
-  ],
+  "globalCooldown": 1,
+  "cooldown": 11,
+  "graphicEffects": [],
   "soundEffects": [
     {
-      "sourceURL": "../../../audio/enrage.ogg",
-      "duration": 0.65,
+      "sourceURL": ":whoomph:",
+      "duration": 1.8,
       "location": "self",
       "when": "immediate",
-      "condition": "always"
+      "condition": "always",
+      "volumeScale": 0.2
     }
   ],
   "effects": [
     {
       "type": "status",
       "affects": "self",
-      "duration": 10.0,
+      "duration": 6,
       "status": {
         "name": "Enraged",
         "shortName": "Enrage",
         "treatAs": "buff",
         "stacking": "replace",
         "effects": [
-          { "type": "stat", "statName": "damageDone", "modifierType": "multiply", "amount": 1.1 },
-          { "type": "stat", "statName": "attackSpeed", "modifierType": "multiply", "amount": 1.2 }
-        ]
+          {
+            "type": "stat",
+            "statName": "damageDone",
+            "modifierType": "multiply",
+            "amount": 1.1
+          },
+          {
+            "type": "stat",
+            "statName": "attackSpeed",
+            "modifierType": "multiply",
+            "amount": 1.2
+          }
+        ],
+        "auraEffect": {
+          "sourceURL": ":glow:",
+          "scale": 1.1,
+          "color": "#FF0000",
+          "opacity": 0.3
+        }
       },
-      "tags": ["buff"]
+      "tags": [
+        "buff",
+        "enrage"
+      ]
     }
+  ],
+  "tags": [
+    "buff",
+    "enrage",
+    "physical"
   ]
 }
