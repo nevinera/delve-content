@@ -1,12 +1,12 @@
 {
   "name": "Recover",
-  "iconURL": "../graphics/icons/recover.svg",
+  "iconURL": "../../graphics/icons/recover.svg",
   "castTime": null,
   "globalCooldown": 1.5,
   "cooldown": 12,
   "soundEffects": [
     {
-      "sourceURL": "../audio/recover.ogg",
+      "sourceURL": "../../audio/recover.ogg",
       "duration": 0.33,
       "location": "self",
       "when": "immediate",

@@ -9,8 +9,8 @@
   "secondaryStats": ["crit_rating", "haste_rating", "mastery_rating", "versatility_rating", "recovery_rating"],
   "wields": ["axe", "dagger"],
   "powers": [
-    { "$ref": "../abilities/punch.json", "referenceTo": "power" },
-    { "$ref": "../abilities/recover.json", "referenceTo": "power" },
-    { "$ref": "../abilities/firebolt.json", "referenceTo": "power" }
+    { "$ref": "../abilities/classes/puncher/punch.json", "referenceTo": "power" },
+    { "$ref": "../abilities/classes/puncher/recover.json", "referenceTo": "power" },
+    { "$ref": "../abilities/classes/puncher/firebolt.json", "referenceTo": "power" }
   ]
 }
