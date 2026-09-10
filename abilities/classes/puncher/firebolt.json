@@ -1,13 +1,13 @@
 {
   "name": "Firebolt",
-  "iconURL": "../../graphics/icons/firebolt.svg",
+  "iconURL": "../../../graphics/icons/firebolt.svg",
   "maxRange": 40,
   "speed": 40,
   "castTime": null,
   "globalCooldown": 1,
   "graphicEffects": [
     {
-      "sourceURL": "../../graphics/animations/magic-ball.sprites3x3.png",
+      "sourceURL": "../../../graphics/animations/magic-ball.sprites3x3.png",
       "duration": null,
       "from": "self",
       "to": "affected",
@@ -22,7 +22,7 @@
   ],
   "soundEffects": [
     {
-      "sourceURL": "../../audio/firespell1.ogg",
+      "sourceURL": "../../../audio/firespell1.ogg",
       "duration": 1.8,
       "location": "self",
       "when": "immediate",
@@ -30,7 +30,7 @@
       "volumeScale": 0.1
     },
     {
-      "sourceURL": "../../audio/poof.ogg",
+      "sourceURL": "../../../audio/poof.ogg",
       "duration": 0.3,
       "location": "affected",
       "when": "impact",
