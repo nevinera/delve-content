@@ -1,16 +1,36 @@
 {
   "name": "Puncher",
-  "description": "A bare-knuckle brawler who solves every problem with their fists.",
+  "description": "A demo class on which to test ability behavior",
   "colors": {
     "major": "8B4513",
     "minor": "F4A460"
   },
-  "primaryStats": ["strength"],
-  "secondaryStats": ["crit_rating", "haste_rating", "mastery_rating", "versatility_rating", "recovery_rating"],
-  "wields": ["axe", "dagger"],
+  "primaryStats": [
+    "strength"
+  ],
+  "secondaryStats": [
+    "crit_rating",
+    "haste_rating",
+    "mastery_rating",
+    "versatility_rating",
+    "recovery_rating"
+  ],
+  "wields": [
+    "axe",
+    "dagger"
+  ],
   "powers": [
-    { "$ref": "../abilities/classes/puncher/punch.json", "referenceTo": "power" },
-    { "$ref": "../abilities/classes/puncher/recover.json", "referenceTo": "power" },
-    { "$ref": "../abilities/classes/puncher/firebolt.json", "referenceTo": "power" }
+    {
+      "$ref": "../abilities/classes/puncher/punch.json",
+      "referenceTo": "power"
+    },
+    {
+      "$ref": "../abilities/classes/puncher/recover.json",
+      "referenceTo": "power"
+    },
+    {
+      "$ref": "../abilities/classes/puncher/firebolt.json",
+      "referenceTo": "power"
+    }
   ]
 }
