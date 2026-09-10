@@ -2,7 +2,7 @@
   "name": "Puncher",
   "description": "A demo class on which to test ability behavior",
   "colors": {
-    "major": "8B45",
+    "major": "8B4514",
     "minor": "F4A460"
   },
   "primaryStats": [
@@ -198,7 +198,7 @@
           "duration": 6,
           "status": {
             "name": "Burning",
-            "shortName": "Burning",
+            "shortName": "Burn",
             "treatAs": "debuff",
             "stacking": "replace",
             "effects": [
