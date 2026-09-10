@@ -60,7 +60,7 @@
       "duration": 6,
       "status": {
         "name": "Burning",
-        "shortName": "Burning",
+        "shortName": "Burn",
         "treatAs": "debuff",
         "stacking": "replace",
         "effects": [
