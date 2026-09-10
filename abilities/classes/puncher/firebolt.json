@@ -51,6 +51,29 @@
         "magic",
         "ranged"
       ]
+    },
+    {
+      "type": "status",
+      "affects": "bTarget",
+      "amount": 0,
+      "range": 40,
+      "duration": 6,
+      "status": {
+        "name": "Burning",
+        "shortName": "Burning",
+        "treatAs": "debuff",
+        "stacking": "replace",
+        "effects": [
+          {
+            "type": "recurring",
+            "tickRate": 1,
+            "onTick": "harm",
+            "amount": 1,
+            "school": "magic"
+          }
+        ],
+        "description": "Ongoing fire damage"
+      }
     }
   ],
   "tags": [
@@ -58,5 +81,5 @@
     "fire",
     "magic"
   ],
-  "description": "shoot some fire"
+  "description": " "
 }
