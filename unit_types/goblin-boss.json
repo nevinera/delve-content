@@ -35,7 +35,7 @@
     "powers": ["Pound", "Enrage"]
   },
   "powers": [
-    { "$ref": "../abilities/units/goblins/enrage.json", "referenceTo": "power" },
-    { "$ref": "../abilities/units/goblins/pound.json", "referenceTo": "power" }
+    { "$ref": "../abilities/units/goblins/enrage.json", "referenceTo": "ability" },
+    { "$ref": "../abilities/units/goblins/pound.json", "referenceTo": "ability" }
   ]
 }

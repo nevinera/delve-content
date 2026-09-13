@@ -22,15 +22,15 @@
   "powers": [
     {
       "$ref": "../abilities/classes/puncher/punch.json",
-      "referenceTo": "power"
+      "referenceTo": "ability"
     },
     {
       "$ref": "../abilities/classes/puncher/recover.json",
-      "referenceTo": "power"
+      "referenceTo": "ability"
     },
     {
       "$ref": "../abilities/classes/puncher/firebolt.json",
-      "referenceTo": "power"
+      "referenceTo": "ability"
     }
   ]
 }
