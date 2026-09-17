@@ -95,7 +95,7 @@
         }
       ]
     },
-    "goblin_boss": {
+    "goblin-boss": {
       "name": "Goblin Boss",
       "description": "A hulking goblin chieftain - dangerous and hard to put down.",
       "tokenImageUrl": [
@@ -276,7 +276,7 @@
         }
       ]
     },
-    "goblin_archer": {
+    "goblin-archer": {
       "name": "Goblin Archer",
       "description": "A goblin that keeps its distance and lets arrows do the talking.",
       "tokenImageUrl": "../../tokens/unit/goblin-archer.webp",
@@ -302,7 +302,7 @@
         "type": "randomAvailable"
       }
     },
-    "goblin_shaman": {
+    "goblin-shaman": {
       "name": "Goblin Shaman",
       "description": "A goblin channeling crude but effective battle magic.",
       "tokenImageUrl": "../../tokens/unit/goblin-shaman.webp",
@@ -407,7 +407,7 @@
     {
       "identifier": "cave_entrance",
       "name": "Cave Entrance",
-      "imageUrl": "./gc1-goblin-cave-entrance/gc1-goblin-cave-entrance.webp",
+      "imageUrl": "gc1-goblin-cave-entrance/gc1-goblin-cave-entrance.webp",
       "pixelDimensions": {
         "width": 2048,
         "height": 1536
@@ -580,10 +580,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_1a",
-          "links": [
-            "goblin_1b",
-            "goblin_1c"
-          ],
+          "groupIdentifier": "camp_1",
           "movement": {
             "type": "wander",
             "location": {
@@ -599,7 +596,7 @@
           }
         },
         {
-          "unitType": "goblin_shaman",
+          "unitType": "goblin-shaman",
           "position": {
             "x": 31.0,
             "y": 35.0,
@@ -607,10 +604,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_1b",
-          "links": [
-            "goblin_1a",
-            "goblin_1c"
-          ],
+          "groupIdentifier": "camp_1",
           "movement": {
             "type": "wander",
             "location": {
@@ -634,10 +628,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_1c",
-          "links": [
-            "goblin_1a",
-            "goblin_1b"
-          ],
+          "groupIdentifier": "camp_1",
           "movement": {
             "type": "wander",
             "location": {
@@ -653,7 +644,7 @@
           }
         },
         {
-          "unitType": "goblin_archer",
+          "unitType": "goblin-archer",
           "position": {
             "x": 85.0,
             "y": 75.0,
@@ -674,10 +665,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_1e",
-          "links": [
-            "goblin_1f",
-            "goblin_1g"
-          ],
+          "groupIdentifier": "camp_2",
           "movement": {
             "type": "still"
           }
@@ -691,10 +679,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_1f",
-          "links": [
-            "goblin_1e",
-            "goblin_1g"
-          ],
+          "groupIdentifier": "camp_2",
           "movement": {
             "type": "still"
           }
@@ -708,10 +693,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_1g",
-          "links": [
-            "goblin_1e",
-            "goblin_1f"
-          ],
+          "groupIdentifier": "camp_2",
           "movement": {
             "type": "still"
           }
@@ -783,7 +765,7 @@
       "identifier": "cave_interior",
       "name": "Cave Interior",
       "elvl": 8,
-      "imageUrl": "./gc2-goblin-cave-interior/gc2-goblin-cave-interior.webp",
+      "imageUrl": "gc2-goblin-cave-interior/gc2-goblin-cave-interior.webp",
       "pixelDimensions": {
         "width": 1536,
         "height": 2048
@@ -1202,11 +1184,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_2a",
-          "links": [
-            "goblin_2b",
-            "goblin_2c",
-            "goblin_2d"
-          ],
+          "groupIdentifier": "pack_1",
           "movement": {
             "type": "still"
           }
@@ -1220,11 +1198,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_2b",
-          "links": [
-            "goblin_2a",
-            "goblin_2c",
-            "goblin_2d"
-          ],
+          "groupIdentifier": "pack_1",
           "movement": {
             "type": "still"
           }
@@ -1238,11 +1212,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_2c",
-          "links": [
-            "goblin_2a",
-            "goblin_2b",
-            "goblin_2d"
-          ],
+          "groupIdentifier": "pack_1",
           "movement": {
             "type": "still"
           }
@@ -1256,11 +1226,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_2d",
-          "links": [
-            "goblin_2a",
-            "goblin_2b",
-            "goblin_2c"
-          ],
+          "groupIdentifier": "pack_1",
           "movement": {
             "type": "patrol",
             "choose": "return",
@@ -1295,11 +1261,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_2e",
-          "links": [
-            "goblin_2f",
-            "goblin_2g",
-            "goblin_2h"
-          ],
+          "groupIdentifier": "pack_2",
           "movement": {
             "type": "still"
           }
@@ -1313,11 +1275,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_2f",
-          "links": [
-            "goblin_2e",
-            "goblin_2g",
-            "goblin_2h"
-          ],
+          "groupIdentifier": "pack_2",
           "movement": {
             "type": "still"
           }
@@ -1331,11 +1289,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_2g",
-          "links": [
-            "goblin_2e",
-            "goblin_2f",
-            "goblin_2h"
-          ],
+          "groupIdentifier": "pack_2",
           "movement": {
             "type": "still"
           }
@@ -1349,11 +1303,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_2h",
-          "links": [
-            "goblin_2e",
-            "goblin_2f",
-            "goblin_2g"
-          ],
+          "groupIdentifier": "pack_2",
           "movement": {
             "type": "still"
           }
@@ -1367,11 +1317,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_2i",
-          "links": [
-            "goblin_2j",
-            "goblin_2k",
-            "goblin_2l"
-          ],
+          "groupIdentifier": "pack_3",
           "movement": {
             "type": "still"
           }
@@ -1385,11 +1331,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_2j",
-          "links": [
-            "goblin_2i",
-            "goblin_2k",
-            "goblin_2l"
-          ],
+          "groupIdentifier": "pack_3",
           "movement": {
             "type": "still"
           }
@@ -1403,11 +1345,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_2k",
-          "links": [
-            "goblin_2i",
-            "goblin_2j",
-            "goblin_2l"
-          ],
+          "groupIdentifier": "pack_3",
           "movement": {
             "type": "still"
           }
@@ -1421,11 +1359,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_2l",
-          "links": [
-            "goblin_2i",
-            "goblin_2j",
-            "goblin_2k"
-          ],
+          "groupIdentifier": "pack_3",
           "movement": {
             "type": "still"
           }
@@ -1528,7 +1462,7 @@
           }
         },
         {
-          "unitType": "goblin_boss",
+          "unitType": "goblin-boss",
           "position": {
             "x": 107.9,
             "y": 164.9,
@@ -1536,11 +1470,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_boss_2a",
-          "links": [
-            "goblin_2p",
-            "goblin_2n",
-            "goblin_2o"
-          ],
+          "groupIdentifier": "boss_guard",
           "movement": {
             "type": "still"
           }
@@ -1554,11 +1484,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_2p",
-          "links": [
-            "goblin_boss_2a",
-            "goblin_2n",
-            "goblin_2o"
-          ],
+          "groupIdentifier": "boss_guard",
           "movement": {
             "type": "still"
           }
@@ -1572,11 +1498,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_2n",
-          "links": [
-            "goblin_boss_2a",
-            "goblin_2p",
-            "goblin_2o"
-          ],
+          "groupIdentifier": "boss_guard",
           "movement": {
             "type": "still"
           }
@@ -1590,11 +1512,7 @@
           },
           "hostility": "hostile",
           "identifier": "goblin_2o",
-          "links": [
-            "goblin_boss_2a",
-            "goblin_2p",
-            "goblin_2n"
-          ],
+          "groupIdentifier": "boss_guard",
           "movement": {
             "type": "patrol",
             "choose": "return",

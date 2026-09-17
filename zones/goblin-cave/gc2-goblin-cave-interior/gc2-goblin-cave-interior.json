@@ -132,7 +132,7 @@
       "position": { "x": 111.9, "y": 66.5, "angle": 160.0 },
       "hostility": "hostile",
       "identifier": "goblin_2a",
-      "links": ["goblin_2b", "goblin_2c", "goblin_2d"],
+      "groupIdentifier": "pack_1",
       "movement": { "type": "still" }
     },
     {
@@ -140,7 +140,7 @@
       "position": { "x": 123.6, "y": 61.5, "angle": 250.0 },
       "hostility": "hostile",
       "identifier": "goblin_2b",
-      "links": ["goblin_2a", "goblin_2c", "goblin_2d"],
+      "groupIdentifier": "pack_1",
       "movement": { "type": "still" }
     },
     {
@@ -148,7 +148,7 @@
       "position": { "x": 107.1, "y": 53.5, "angle": 58.0 },
       "hostility": "hostile",
       "identifier": "goblin_2c",
-      "links": ["goblin_2a", "goblin_2b", "goblin_2d"],
+      "groupIdentifier": "pack_1",
       "movement": { "type": "still" }
     },
     {
@@ -156,7 +156,7 @@
       "position": { "x": 116.7, "y": 49.8, "angle": 348.0 },
       "hostility": "hostile",
       "identifier": "goblin_2d",
-      "links": ["goblin_2a", "goblin_2b", "goblin_2c"],
+      "groupIdentifier": "pack_1",
       "movement": {
         "type": "patrol",
         "choose": "return",
@@ -171,7 +171,7 @@
       "position": { "x": 75.0,  "y": 54.7, "angle": 157.5 },
       "hostility": "hostile",
       "identifier": "goblin_2e",
-      "links": ["goblin_2f", "goblin_2g", "goblin_2h"],
+      "groupIdentifier": "pack_2",
       "movement": { "type": "still" }
     },
     {
@@ -179,7 +179,7 @@
       "position": { "x": 56.3, "y": 56.4, "angle": 90.0 },
       "hostility": "hostile",
       "identifier": "goblin_2f",
-      "links": ["goblin_2e", "goblin_2g", "goblin_2h"],
+      "groupIdentifier": "pack_2",
       "movement": { "type": "still" }
     },
     {
@@ -187,7 +187,7 @@
       "position": { "x": 52.3, "y": 63.0, "angle": 135.0 },
       "hostility": "hostile",
       "identifier": "goblin_2g",
-      "links": ["goblin_2e", "goblin_2f", "goblin_2h"],
+      "groupIdentifier": "pack_2",
       "movement": { "type": "still" }
     },
     {
@@ -195,7 +195,7 @@
       "position": { "x": 64.6, "y": 65.6, "angle": 157.5 },
       "hostility": "hostile",
       "identifier": "goblin_2h",
-      "links": ["goblin_2e", "goblin_2f", "goblin_2g"],
+      "groupIdentifier": "pack_2",
       "movement": { "type": "still" }
     }
   ,
@@ -204,7 +204,7 @@
       "position": { "x": 18.8, "y": 119.0, "angle": 90.0 },
       "hostility": "hostile",
       "identifier": "goblin_2i",
-      "links": ["goblin_2j", "goblin_2k", "goblin_2l"],
+      "groupIdentifier": "pack_3",
       "movement": { "type": "still" }
     },
     {
@@ -212,7 +212,7 @@
       "position": { "x": 18.5, "y": 127.3, "angle": 112.5 },
       "hostility": "hostile",
       "identifier": "goblin_2j",
-      "links": ["goblin_2i", "goblin_2k", "goblin_2l"],
+      "groupIdentifier": "pack_3",
       "movement": { "type": "still" }
     },
     {
@@ -220,7 +220,7 @@
       "position": { "x": 23.4, "y": 133.9, "angle": 112.5 },
       "hostility": "hostile",
       "identifier": "goblin_2k",
-      "links": ["goblin_2i", "goblin_2j", "goblin_2l"],
+      "groupIdentifier": "pack_3",
       "movement": { "type": "still" }
     },
     {
@@ -228,7 +228,7 @@
       "position": { "x": 30.4, "y": 136.4, "angle": 225.0 },
       "hostility": "hostile",
       "identifier": "goblin_2l",
-      "links": ["goblin_2i", "goblin_2j", "goblin_2k"],
+      "groupIdentifier": "pack_3",
       "movement": { "type": "still" }
     }
   ,
@@ -253,11 +253,11 @@
     }
   ,
     {
-      "unitType": "goblin_boss",
+      "unitType": "goblin-boss",
       "position": { "x": 107.9, "y": 164.9, "angle": 45.0 },
       "hostility": "hostile",
       "identifier": "goblin_boss_2a",
-      "links": ["goblin_2p", "goblin_2n", "goblin_2o"],
+      "groupIdentifier": "boss_guard",
       "movement": { "type": "still" }
     },
     {
@@ -265,7 +265,7 @@
       "position": { "x": 113.3, "y": 161.6, "angle": 315.0 },
       "hostility": "hostile",
       "identifier": "goblin_2p",
-      "links": ["goblin_boss_2a", "goblin_2n", "goblin_2o"],
+      "groupIdentifier": "boss_guard",
       "movement": { "type": "still" }
     },
     {
@@ -273,7 +273,7 @@
       "position": { "x": 97.1, "y": 165.4, "angle": 315.0 },
       "hostility": "hostile",
       "identifier": "goblin_2n",
-      "links": ["goblin_boss_2a", "goblin_2p", "goblin_2o"],
+      "groupIdentifier": "boss_guard",
       "movement": { "type": "still" }
     },
     {
@@ -281,7 +281,7 @@
       "position": { "x": 106.8, "y": 157.4, "angle": 0.0 },
       "hostility": "hostile",
       "identifier": "goblin_2o",
-      "links": ["goblin_boss_2a", "goblin_2p", "goblin_2n"],
+      "groupIdentifier": "boss_guard",
       "movement": {
         "type": "patrol",
         "choose": "return",

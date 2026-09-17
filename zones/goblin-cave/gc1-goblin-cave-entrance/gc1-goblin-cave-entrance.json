@@ -65,15 +65,15 @@
       "position": { "x": 35.0, "y": 45.0, "angle": 120.0 },
       "hostility": "hostile",
       "identifier": "goblin_1a",
-      "links": ["goblin_1b", "goblin_1c"],
+      "groupIdentifier": "camp_1",
       "movement": { "type": "wander", "location": { "x": 35.0, "y": 45.0 }, "radius": 10.0, "speed": 0.3, "waitTime": [2.0, 5.0] }
     },
     {
-      "unitType": "goblin_shaman",
+      "unitType": "goblin-shaman",
       "position": { "x": 31.0, "y": 35.0, "angle": 100.0 },
       "hostility": "hostile",
       "identifier": "goblin_1b",
-      "links": ["goblin_1a", "goblin_1c"],
+      "groupIdentifier": "camp_1",
       "movement": { "type": "wander", "location": { "x": 31.0, "y": 35.0 }, "radius": 8.0, "speed": 0.3, "waitTime": [2.0, 5.0] }
     },
     {
@@ -81,11 +81,11 @@
       "position": { "x": 46.0, "y": 43.0, "angle": 91.0 },
       "hostility": "hostile",
       "identifier": "goblin_1c",
-      "links": ["goblin_1a", "goblin_1b"],
+      "groupIdentifier": "camp_1",
       "movement": { "type": "wander", "location": { "x": 46.0, "y": 43.0 }, "radius": 10.0, "speed": 0.3, "waitTime": [2.0, 5.0] }
     },
     {
-      "unitType": "goblin_archer",
+      "unitType": "goblin-archer",
       "position": { "x": 85.0, "y": 75.0, "angle": 22.5 },
       "identifier": "goblin_1d",
       "hostility": "hostile",
@@ -96,7 +96,7 @@
       "position": { "x": 71.0, "y": 97.0, "angle": 270.0 },
       "hostility": "hostile",
       "identifier": "goblin_1e",
-      "links": ["goblin_1f", "goblin_1g"],
+      "groupIdentifier": "camp_2",
       "movement": { "type": "still" }
     },
     {
@@ -104,7 +104,7 @@
       "position": { "x": 66.0, "y": 103.5, "angle": 225.0 },
       "hostility": "hostile",
       "identifier": "goblin_1f",
-      "links": ["goblin_1e", "goblin_1g"],
+      "groupIdentifier": "camp_2",
       "movement": { "type": "still" }
     },
     {
@@ -112,7 +112,7 @@
       "position": { "x": 47.0, "y": 92.0, "angle": 247.5 },
       "hostility": "hostile",
       "identifier": "goblin_1g",
-      "links": ["goblin_1e", "goblin_1f"],
+      "groupIdentifier": "camp_2",
       "movement": { "type": "still" }
     },
     {

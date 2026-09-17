@@ -405,37 +405,37 @@
       "identifier": "warchief-main-agility",
       "name": "Warchief's Huntress's Edge",
       "slot": "main_hand",
+      "weaponType": "bow",
       "elvl": 5,
       "primary": "agility",
       "secondaries": [
         "stamina",
         "crit_rating"
-      ],
-      "weaponType": "bow"
+      ]
     },
     "warchief-main-intellect": {
       "identifier": "warchief-main-intellect",
       "name": "Warchief's Runeblade",
       "slot": "main_hand",
+      "weaponType": "sword",
       "elvl": 5,
       "primary": "intellect",
       "secondaries": [
         "stamina",
         "crit_rating"
-      ],
-      "weaponType": "sword"
+      ]
     },
     "warchief-main-strength": {
       "identifier": "warchief-main-strength",
       "name": "Warchief's Warblade",
       "slot": "main_hand",
+      "weaponType": "sword",
       "elvl": 5,
       "primary": "strength",
       "secondaries": [
         "stamina",
         "crit_rating"
-      ],
-      "weaponType": "sword"
+      ]
     },
     "warchief-neck-amulet": {
       "identifier": "warchief-neck-amulet",
@@ -512,37 +512,37 @@
       "identifier": "warchief-onehand-agility",
       "name": "Warchief's Skinning Knife",
       "slot": "one_hand",
+      "weaponType": "dagger",
       "elvl": 5,
       "primary": "agility",
       "secondaries": [
         "stamina",
         "haste_rating"
-      ],
-      "weaponType": "dagger"
+      ]
     },
     "warchief-onehand-intellect": {
       "identifier": "warchief-onehand-intellect",
       "name": "Warchief's Spellblade",
       "slot": "one_hand",
+      "weaponType": "sword",
       "elvl": 5,
       "primary": "intellect",
       "secondaries": [
         "stamina",
         "haste_rating"
-      ],
-      "weaponType": "sword"
+      ]
     },
     "warchief-onehand-strength": {
       "identifier": "warchief-onehand-strength",
       "name": "Warchief's Camp Cleaver",
       "slot": "one_hand",
+      "weaponType": "axe",
       "elvl": 5,
       "primary": "strength",
       "secondaries": [
         "stamina",
         "haste_rating"
-      ],
-      "weaponType": "axe"
+      ]
     },
     "warchief-predators-feet": {
       "identifier": "warchief-predators-feet",
@@ -852,37 +852,37 @@
       "identifier": "warchief-twohand-agility",
       "name": "Warchief's War Spear",
       "slot": "two_hand",
+      "weaponType": "polearm",
       "elvl": 5,
       "primary": "agility",
       "secondaries": [
         "stamina",
         "versatility_rating"
-      ],
-      "weaponType": "polearm"
+      ]
     },
     "warchief-twohand-intellect": {
       "identifier": "warchief-twohand-intellect",
       "name": "Warchief's Runestaff",
       "slot": "two_hand",
+      "weaponType": "staff",
       "elvl": 5,
       "primary": "intellect",
       "secondaries": [
         "stamina",
         "versatility_rating"
-      ],
-      "weaponType": "staff"
+      ]
     },
     "warchief-twohand-strength": {
       "identifier": "warchief-twohand-strength",
       "name": "Warchief's Greataxe",
       "slot": "two_hand",
+      "weaponType": "axe",
       "elvl": 5,
       "primary": "strength",
       "secondaries": [
         "stamina",
         "versatility_rating"
-      ],
-      "weaponType": "axe"
+      ]
     }
   },
   "maps": [
@@ -890,7 +890,7 @@
       "identifier": "small_cave",
       "name": "Small Cave",
       "elvl": 5,
-      "imageUrl": "./sc1-small-cave/sc1-small-cave.jpg",
+      "imageUrl": "sc1-small-cave/sc1-small-cave.jpg",
       "pixelDimensions": {
         "width": 1024,
         "height": 768
