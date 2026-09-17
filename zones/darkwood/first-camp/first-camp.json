@@ -2801,6 +2801,88 @@
       }
     }
   ],
-  "units": [],
+  "units": [
+    {
+      "unitType": "goblin",
+      "position": {
+        "x": 579.5389087911416,
+        "y": 171.89610295013088,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "intro",
+      "identifier": "goblin-a"
+    },
+    {
+      "unitType": "goblin",
+      "position": {
+        "x": 592.4878272455057,
+        "y": 173.14076404855678,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "intro",
+      "identifier": "goblin-b"
+    },
+    {
+      "unitType": "goblin",
+      "position": {
+        "x": 285.7617060638999,
+        "y": 624.5634171021651,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      },
+      "identifier": "goblin-c"
+    },
+    {
+      "unitType": "goblin-boss",
+      "position": {
+        "x": 265.8687591365232,
+        "y": 523.7773835908024,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      },
+      "lootTable": {
+        "warchief-back-tattered-cloak": 1,
+        "warchief-battle-waist": 1,
+        "warchief-embroidered-robe": 1
+      },
+      "identifier": "boss-a"
+    },
+    {
+      "unitType": "goblin-boss",
+      "position": {
+        "x": 798.6604507702165,
+        "y": 466.9689724508421,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      },
+      "lootTable": {
+        "warchief-hexweave-legs": 1,
+        "warchief-hexweave-waist": 1
+      },
+      "identifier": "boss-b"
+    }
+  ],
   "thumbnailUrl": "first-camp.thumb.webp"
 }
