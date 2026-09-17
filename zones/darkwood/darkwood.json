@@ -1,0 +1,38 @@
+{
+  "name": "Darkwood",
+  "description": null,
+  "elvl": 0,
+  "private": true,
+  "maps": [
+    {
+      "$ref": "./first-camp/first-camp.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./long-road/long-road.json",
+      "referenceTo": "map"
+    }
+  ],
+  "unitTypes": {},
+  "items": {},
+  "zoneLinks": [
+    {
+      "connectionA": {
+        "map": "first-camp",
+        "connection": "connection-2"
+      },
+      "connectionB": {
+        "map": "long-road",
+        "connection": "south-entrance"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    }
+  ],
+  "entryPoints": {
+    "first-camp/spawn-point": null
+  },
+  "openConnections": {
+    "long-road/north-entrance": "north-exit"
+  }
+}
