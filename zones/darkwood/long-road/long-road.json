@@ -2007,7 +2007,7 @@
   ],
   "connections": [
     {
-      "identifier": "connection-1",
+      "identifier": "south-entrance",
       "type": "line",
       "start": {
         "x": 300.3083666150833,
@@ -2019,7 +2019,7 @@
       }
     },
     {
-      "identifier": "connection-2",
+      "identifier": "north-entrance",
       "type": "line",
       "start": {
         "x": 401.3934519859542,
