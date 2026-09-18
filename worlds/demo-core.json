@@ -1,0 +1,40 @@
+{
+  "name": "Demo Core",
+  "description": "A world with zones",
+  "thumbnailUrl": null,
+  "elevationRange": [
+    0,
+    20
+  ],
+  "zones": {
+    "darkwood": {
+      "path": "../zones/darkwood/darkwood.json",
+      "name": "Darkwood",
+      "description": null
+    },
+    "goblin-cave": {
+      "path": "../zones/goblin-cave/goblin-cave.json",
+      "name": "Goblin Cave",
+      "description": "A damp cave carved out by generations of goblin raiders."
+    }
+  },
+  "worldLinks": [
+    {
+      "zoneA": {
+        "zone": "darkwood",
+        "kind": "open",
+        "connection": "north-exit"
+      },
+      "zoneB": {
+        "zone": "goblin-cave",
+        "kind": "entryPoint",
+        "connection": "cave_entrance/clearing_entrance"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    }
+  ],
+  "entryPoints": {
+    "darkwood/first-camp/spawn-point": null
+  }
+}
