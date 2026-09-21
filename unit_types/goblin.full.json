@@ -33,6 +33,8 @@
       "castTime": null,
       "globalCooldown": 1,
       "cooldown": 11,
+      "costType": "energy",
+      "costAmount": 40,
       "graphicEffects": [],
       "soundEffects": [
         {
