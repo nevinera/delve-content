@@ -1,0 +1,62 @@
+{
+  "name": "Units/goblins/tangle",
+  "description": "Slow down the target",
+  "castTime": null,
+  "globalCooldown": 1.5,
+  "tags": [
+    "slow"
+  ],
+  "graphicEffects": [],
+  "soundEffects": [
+    {
+      "sourceURL": ":displace:",
+      "duration": 0.12,
+      "location": "affected",
+      "when": "immediate",
+      "condition": "always",
+      "volumeScale": 0.2
+    }
+  ],
+  "effects": [
+    {
+      "type": "status",
+      "affects": "bTarget",
+      "amount": 10,
+      "range": [
+        0,
+        40
+      ],
+      "duration": 8,
+      "status": {
+        "name": "entangled",
+        "shortName": "tangl",
+        "treatAs": "debuff",
+        "stacking": "replace",
+        "effects": [
+          {
+            "type": "stat",
+            "statName": "movementSpeed",
+            "modifierType": "multiply",
+            "amount": 0.7
+          }
+        ],
+        "description": "Entangled and slowed",
+        "maxStacks": null,
+        "auraEffect": {
+          "sourceURL": ":tendrils:",
+          "spriteColumns": 5,
+          "spriteRows": 1,
+          "spriteFrameRate": 4,
+          "color": "#33FF55",
+          "opacity": 0.3,
+          "scale": 2
+        }
+      }
+    }
+  ],
+  "cooldown": 20,
+  "maxRange": 40,
+  "speed": 30,
+  "costType": "mana",
+  "costAmount": 25
+}
