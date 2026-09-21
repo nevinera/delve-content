@@ -39,6 +39,8 @@
           "castTime": null,
           "globalCooldown": 1,
           "cooldown": 11,
+          "costType": "energy",
+          "costAmount": 40,
           "graphicEffects": [],
           "soundEffects": [
             {
@@ -143,6 +145,8 @@
           "castTime": null,
           "globalCooldown": 1,
           "cooldown": 11,
+          "costType": "energy",
+          "costAmount": 40,
           "graphicEffects": [],
           "soundEffects": [
             {
@@ -204,6 +208,8 @@
           "castTime": null,
           "globalCooldown": 1.0,
           "cooldown": 4.5,
+          "costType": "energy",
+          "costAmount": 20,
           "graphicEffects": [
             {
               "sourceURL": "../../graphics/effects/pound-impact.webp",
