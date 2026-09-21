@@ -1,23 +1,35 @@
 {
   "name": "Goblin Shaman",
   "description": "A goblin channeling crude but effective battle magic.",
-  "tokenImageUrl": "../tokens/unit/goblin-shaman.webp",
-  "tokenRadius": 2.0,
-  "speedFactor": 1.0,
+  "tokenImageUrl": [
+    "../tokens/unit/goblin-shaman.webp"
+  ],
+  "tokenRadius": 2,
+  "speedFactor": 1,
   "maxHP": 200,
   "dps": 2.5,
-  "attackSpeed": 1.0,
-  "basicAttackRange": 25.0,
+  "attackSpeed": 1,
+  "basicAttackRange": 25,
   "basicAttackSchool": "magic",
   "basicAttackStyle": "fire",
   "resource": {
-    "name": "energy",
-    "color": "AADD00",
-    "max": 100.0,
-    "defaultValue": 100.0,
-    "returnRate": 10.0,
+    "name": "mana",
+    "color": "4488FF",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 2,
     "isFluid": true
   },
-  "targeting": { "type": "aggroTable" },
-  "tactics": { "type": "randomAvailable" }
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "randomAvailable"
+  },
+  "powers": [
+    {
+      "$ref": "../abilities/units/goblins/tangle.json",
+      "referenceTo": "ability"
+    }
+  ]
 }
