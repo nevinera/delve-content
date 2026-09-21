@@ -6,18 +6,18 @@
     "../tokens/unit/goblin-boss-2.webp",
     "../tokens/unit/goblin-boss-3.webp"
   ],
-  "tokenRadius": 3.0,
+  "tokenRadius": 3,
   "speedFactor": 0.9,
   "maxHP": 800,
-  "dps": 8.0,
+  "dps": 8,
   "attackSpeed": 0.8,
   "basicAttackStyle": "axe",
   "resource": {
     "name": "energy",
     "color": "AADD00",
-    "max": 100.0,
-    "defaultValue": 100.0,
-    "returnRate": 10.0,
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
     "isFluid": true
   },
   "lootTable": {
@@ -105,9 +105,9 @@
     {
       "name": "Pound",
       "description": "A powerful blow that dazes the target.",
-      "maxRange": 5.0,
+      "maxRange": 5,
       "castTime": null,
-      "globalCooldown": 1.0,
+      "globalCooldown": 1,
       "cooldown": 4.5,
       "costType": "energy",
       "costAmount": 20,
@@ -140,10 +140,10 @@
         {
           "type": "harm",
           "affects": "bTarget",
-          "range": 5.0,
+          "range": 5,
           "amount": [
-            1.0,
-            3.0
+            1,
+            3
           ],
           "tags": [
             "physical",
@@ -153,8 +153,8 @@
         {
           "type": "status",
           "affects": "bTarget",
-          "range": 5.0,
-          "duration": 3.0,
+          "range": 5,
+          "duration": 3,
           "status": {
             "name": "Dazed",
             "shortName": "Dazed",

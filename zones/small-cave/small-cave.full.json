@@ -12,18 +12,18 @@
         "../../tokens/unit/goblin-2.webp",
         "../../tokens/unit/goblin-3.webp"
       ],
-      "tokenRadius": 2.0,
-      "speedFactor": 1.0,
+      "tokenRadius": 2,
+      "speedFactor": 1,
       "maxHP": 200,
-      "dps": 4.0,
-      "attackSpeed": 1.0,
+      "dps": 4,
+      "attackSpeed": 1,
       "basicAttackStyle": "sword",
       "resource": {
         "name": "energy",
         "color": "AADD00",
-        "max": 100.0,
-        "defaultValue": 100.0,
-        "returnRate": 10.0,
+        "max": 100,
+        "defaultValue": 100,
+        "returnRate": 10,
         "isFluid": true
       },
       "targeting": {
@@ -898,8 +898,8 @@
         "height": 768
       },
       "feetDimensions": {
-        "width": 200.0,
-        "height": 150.0
+        "width": 200,
+        "height": 150
       },
       "barriers": [
         {
@@ -907,7 +907,7 @@
           "locations": [
             {
               "x": 104.3,
-              "y": 0.0
+              "y": 0
             },
             {
               "x": 104.1,
@@ -975,7 +975,7 @@
             },
             {
               "x": 84.6,
-              "y": 0.0
+              "y": 0
             }
           ]
         }
@@ -986,11 +986,11 @@
           "type": "line",
           "start": {
             "x": 104.3,
-            "y": 0.0
+            "y": 0
           },
           "end": {
             "x": 84.6,
-            "y": 0.0
+            "y": 0
           }
         }
       ],
@@ -1002,7 +1002,7 @@
           "position": {
             "x": 94.7,
             "y": 52.1,
-            "angle": 180.0
+            "angle": 180
           },
           "movement": {
             "type": "wander",
@@ -1010,11 +1010,11 @@
               "x": 94.7,
               "y": 52.1
             },
-            "radius": 10.0,
+            "radius": 10,
             "speed": 0.3,
             "waitTime": [
-              2.0,
-              5.0
+              2,
+              5
             ]
           },
           "lootTable": {
@@ -1090,7 +1090,8 @@
           },
           "lootCount": 4
         }
-      ]
+      ],
+      "thumbnailUrl": "sc1-small-cave/sc1-small-cave.thumb.webp"
     }
   ],
   "entryPoints": {

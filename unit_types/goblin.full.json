@@ -6,18 +6,18 @@
     "../tokens/unit/goblin-2.webp",
     "../tokens/unit/goblin-3.webp"
   ],
-  "tokenRadius": 2.0,
-  "speedFactor": 1.0,
+  "tokenRadius": 2,
+  "speedFactor": 1,
   "maxHP": 200,
-  "dps": 4.0,
-  "attackSpeed": 1.0,
+  "dps": 4,
+  "attackSpeed": 1,
   "basicAttackStyle": "sword",
   "resource": {
     "name": "energy",
     "color": "AADD00",
-    "max": 100.0,
-    "defaultValue": 100.0,
-    "returnRate": 10.0,
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
     "isFluid": true
   },
   "targeting": {

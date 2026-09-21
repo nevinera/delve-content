@@ -51,10 +51,10 @@
           "type": "harm",
           "affects": "bTarget",
           "amount": [
-            89.0,
-            140.0
+            89,
+            140
           ],
-          "range": 5.0,
+          "range": 5,
           "tags": [
             "physical",
             "melee"
