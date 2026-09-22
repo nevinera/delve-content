@@ -5,6 +5,8 @@
   "speed": 40,
   "castTime": null,
   "globalCooldown": 1,
+  "costType": "energy",
+  "costAmount": 40,
   "graphicEffects": [
     {
       "sourceURL": "../../../graphics/animations/magic-ball.sprites3x3.png",

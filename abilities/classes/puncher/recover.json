@@ -4,6 +4,8 @@
   "castTime": null,
   "globalCooldown": 1.5,
   "cooldown": 12,
+  "costType": "energy",
+  "costAmount": 50,
   "soundEffects": [
     {
       "sourceURL": "../../../audio/recover.ogg",

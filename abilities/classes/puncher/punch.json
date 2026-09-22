@@ -3,6 +3,8 @@
   "iconURL": "../../../graphics/icons/punch.svg",
   "castTime": null,
   "globalCooldown": 0.5,
+  "costType": "energy",
+  "costAmount": 30,
   "graphicEffects": [
     {
       "sourceURL": "../../../graphics/effects/punch-impact.webp",

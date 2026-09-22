@@ -19,6 +19,18 @@
     "axe",
     "dagger"
   ],
+  "resources": [
+    {
+      "name": "energy",
+      "color": "FFDD00",
+      "max": 100.0,
+      "defaultValue": 100.0,
+      "returnRate": 10.0,
+      "isFluid": true,
+      "displayType": "primary",
+      "hasteAffected": true
+    }
+  ],
   "powers": [
     {
       "$ref": "../abilities/classes/puncher/punch.json",

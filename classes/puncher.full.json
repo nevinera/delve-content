@@ -19,12 +19,26 @@
     "axe",
     "dagger"
   ],
+  "resources": [
+    {
+      "name": "energy",
+      "color": "FFDD00",
+      "max": 100,
+      "defaultValue": 100,
+      "returnRate": 10,
+      "isFluid": true,
+      "displayType": "primary",
+      "hasteAffected": true
+    }
+  ],
   "powers": [
     {
       "name": "Punch",
       "iconURL": "../graphics/icons/punch.svg",
       "castTime": null,
       "globalCooldown": 0.5,
+      "costType": "energy",
+      "costAmount": 30,
       "graphicEffects": [
         {
           "sourceURL": "../graphics/effects/punch-impact.webp",
@@ -68,6 +82,8 @@
       "castTime": null,
       "globalCooldown": 1.5,
       "cooldown": 12,
+      "costType": "energy",
+      "costAmount": 50,
       "soundEffects": [
         {
           "sourceURL": "../audio/recover.ogg",
@@ -143,6 +159,8 @@
       "speed": 40,
       "castTime": null,
       "globalCooldown": 1,
+      "costType": "energy",
+      "costAmount": 40,
       "graphicEffects": [
         {
           "sourceURL": "../graphics/animations/magic-ball.sprites3x3.png",
