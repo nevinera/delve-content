@@ -29,6 +29,13 @@
       "isFluid": true,
       "displayType": "primary",
       "hasteAffected": true
+    },
+    {
+      "name": "combo points",
+      "color": "CC3333",
+      "max": 5,
+      "defaultValue": 0,
+      "isFluid": false
     }
   ],
   "powers": [
@@ -73,6 +80,12 @@
             "physical",
             "melee"
           ]
+        },
+        {
+          "type": "resource",
+          "affects": "self",
+          "resourceName": "combo points",
+          "delta": 1
         }
       ]
     },
@@ -231,6 +244,12 @@
             ],
             "description": "Ongoing fire damage"
           }
+        },
+        {
+          "type": "resource",
+          "affects": "self",
+          "resourceName": "combo points",
+          "delta": 1
         }
       ],
       "tags": [
@@ -239,6 +258,36 @@
         "magic"
       ],
       "description": " "
+    },
+    {
+      "name": "Frenzy",
+      "description": "Spend your combo points in a burst of speed.",
+      "castTime": null,
+      "globalCooldown": 1.5,
+      "costType": "combo points",
+      "costAmount": 5,
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 30,
+          "status": {
+            "name": "Frenzy",
+            "shortName": "Frenzy",
+            "description": "Hastened by a flurry of blows.",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "physicalHaste",
+                "modifierType": "add",
+                "amount": 20
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }

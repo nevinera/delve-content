@@ -29,6 +29,13 @@
       "isFluid": true,
       "displayType": "primary",
       "hasteAffected": true
+    },
+    {
+      "name": "combo points",
+      "color": "CC3333",
+      "max": 5.0,
+      "defaultValue": 0.0,
+      "isFluid": false
     }
   ],
   "powers": [
@@ -42,6 +49,10 @@
     },
     {
       "$ref": "../abilities/classes/puncher/firebolt.json",
+      "referenceTo": "ability"
+    },
+    {
+      "$ref": "../abilities/classes/puncher/frenzy.json",
       "referenceTo": "ability"
     }
   ]

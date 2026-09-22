@@ -33,6 +33,12 @@
       "amount": [89.0, 140.0],
       "range": 5.0,
       "tags": ["physical", "melee"]
+    },
+    {
+      "type": "resource",
+      "affects": "self",
+      "resourceName": "combo points",
+      "delta": 1
     }
   ]
 }

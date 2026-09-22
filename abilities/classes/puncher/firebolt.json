@@ -77,6 +77,12 @@
         ],
         "description": "Ongoing fire damage"
       }
+    },
+    {
+      "type": "resource",
+      "affects": "self",
+      "resourceName": "combo points",
+      "delta": 1
     }
   ],
   "tags": [
