@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <g fill="white">
+    <!-- Speed-bolt: same simple, single-color geometric style as the other
+         Puncher icons (punch/recover/firebolt) - a classic lightning-bolt
+         shape reads as "haste" without needing any new art conventions. -->
+    <polygon points="36,4 14,34 28,34 24,60 50,26 34,26"/>
+  </g>
+</svg>

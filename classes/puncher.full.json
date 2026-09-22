@@ -261,6 +261,7 @@
     },
     {
       "name": "Frenzy",
+      "iconURL": "../graphics/icons/frenzy.svg",
       "description": "Spend your combo points in a burst of speed.",
       "castTime": null,
       "globalCooldown": 1.5,
