@@ -25,7 +25,10 @@
   },
   "tactics": {
     "type": "priorityRotation",
-    "powers": ["Units/goblins/tangle", "Acid Splash"]
+    "powers": [
+      "Units/goblins/tangle",
+      "Acid Splash"
+    ]
   },
   "powers": [
     {
