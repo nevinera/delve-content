@@ -24,11 +24,16 @@
     "type": "aggroTable"
   },
   "tactics": {
-    "type": "randomAvailable"
+    "type": "priorityRotation",
+    "powers": ["Units/goblins/tangle", "Acid Splash"]
   },
   "powers": [
     {
       "$ref": "../abilities/units/goblins/tangle.json",
+      "referenceTo": "ability"
+    },
+    {
+      "$ref": "../abilities/units/goblins/acid-splash.json",
       "referenceTo": "ability"
     }
   ]

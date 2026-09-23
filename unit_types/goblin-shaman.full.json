@@ -24,7 +24,11 @@
     "type": "aggroTable"
   },
   "tactics": {
-    "type": "randomAvailable"
+    "type": "priorityRotation",
+    "powers": [
+      "Units/goblins/tangle",
+      "Acid Splash"
+    ]
   },
   "powers": [
     {
@@ -88,6 +92,37 @@
       "speed": 30,
       "costType": "mana",
       "costAmount": 25
+    },
+    {
+      "name": "Acid Splash",
+      "description": "Spits a glob of corrosive acid at the target.",
+      "maxRange": 25.0,
+      "castTime": 2.0,
+      "globalCooldown": 2.0,
+      "costType": "mana",
+      "costAmount": 15,
+      "graphicEffects": [],
+      "soundEffects": [],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 25.0,
+          "amount": [
+            4.0,
+            6.0
+          ],
+          "school": "magic",
+          "tags": [
+            "acid",
+            "magic"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic"
+      ]
     }
   ]
 }

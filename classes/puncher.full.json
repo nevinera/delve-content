@@ -23,9 +23,9 @@
     {
       "name": "energy",
       "color": "FFDD00",
-      "max": 100,
-      "defaultValue": 100,
-      "returnRate": 10,
+      "max": 100.0,
+      "defaultValue": 100.0,
+      "returnRate": 10.0,
       "isFluid": true,
       "displayType": "primary",
       "hasteAffected": true
@@ -33,8 +33,8 @@
     {
       "name": "combo points",
       "color": "CC3333",
-      "max": 5,
-      "defaultValue": 0,
+      "max": 5.0,
+      "defaultValue": 0.0,
       "isFluid": false
     }
   ],
@@ -72,10 +72,10 @@
           "type": "harm",
           "affects": "bTarget",
           "amount": [
-            89,
-            140
+            89.0,
+            140.0
           ],
-          "range": 5,
+          "range": 5.0,
           "tags": [
             "physical",
             "melee"
@@ -289,6 +289,36 @@
           }
         }
       ]
+    },
+    {
+      "name": "Mend",
+      "iconURL": "../graphics/icons/recover.svg",
+      "castTime": 1.5,
+      "globalCooldown": 1.5,
+      "costType": "energy",
+      "costAmount": 40,
+      "soundEffects": [
+        {
+          "sourceURL": "../audio/recover.ogg",
+          "duration": 0.33,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.2
+        }
+      ],
+      "effects": [
+        {
+          "type": "heal",
+          "affects": "self",
+          "amount": 300
+        }
+      ],
+      "tags": [
+        "beneficial",
+        "heal"
+      ],
+      "description": "Take a moment to bind your wounds."
     }
   ]
 }

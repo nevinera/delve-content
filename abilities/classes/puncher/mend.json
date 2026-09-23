@@ -1,0 +1,27 @@
+{
+  "name": "Mend",
+  "iconURL": "../../../graphics/icons/recover.svg",
+  "castTime": 1.5,
+  "globalCooldown": 1.5,
+  "costType": "energy",
+  "costAmount": 40,
+  "soundEffects": [
+    {
+      "sourceURL": "../../../audio/recover.ogg",
+      "duration": 0.33,
+      "location": "self",
+      "when": "immediate",
+      "condition": "always",
+      "volumeScale": 0.2
+    }
+  ],
+  "effects": [
+    {
+      "type": "heal",
+      "affects": "self",
+      "amount": 300
+    }
+  ],
+  "tags": ["beneficial", "heal"],
+  "description": "Take a moment to bind your wounds."
+}

@@ -54,6 +54,10 @@
     {
       "$ref": "../abilities/classes/puncher/frenzy.json",
       "referenceTo": "ability"
+    },
+    {
+      "$ref": "../abilities/classes/puncher/mend.json",
+      "referenceTo": "ability"
     }
   ]
 }
