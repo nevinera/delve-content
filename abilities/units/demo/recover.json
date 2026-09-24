@@ -1,0 +1,59 @@
+{
+  "name": "Recover",
+  "description": "Demo recovery ability",
+  "castTime": null,
+  "globalCooldown": 0,
+  "tags": [
+    "magic",
+    "self-heal"
+  ],
+  "graphicEffects": [],
+  "soundEffects": [
+    {
+      "sourceURL": ":crackle:",
+      "duration": 2.444,
+      "location": "self",
+      "when": "immediate",
+      "condition": "always",
+      "volumeScale": 0.4
+    }
+  ],
+  "effects": [
+    {
+      "type": "status",
+      "affects": "self",
+      "amount": 0,
+      "range": 5,
+      "duration": 10,
+      "status": {
+        "name": "recovering",
+        "shortName": "rcvr",
+        "treatAs": "buff",
+        "stacking": "replace",
+        "effects": [
+          {
+            "type": "recurring",
+            "onTick": "heal",
+            "amount": 100,
+            "school": "magic",
+            "tickRate": 0.5
+          }
+        ],
+        "description": "Recovering health and mana",
+        "auraEffect": {
+          "sourceURL": ":sparkle-cloud:",
+          "spriteColumns": 2,
+          "spriteRows": 3,
+          "spriteFrameCount": 5,
+          "scale": 1.5,
+          "opacity": 0.3,
+          "color": "#00FF00"
+        }
+      }
+    }
+  ],
+  "iconURL": ":heal:",
+  "cooldown": 4.5,
+  "costType": "mana",
+  "costAmount": 1
+}
