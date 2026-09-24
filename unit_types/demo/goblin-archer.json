@@ -2,7 +2,7 @@
   "name": "Demo/goblin Archer",
   "description": "basic attack only",
   "tokenImageUrl": [
-    ""
+    "../../tokens/unit/goblin-archer.webp"
   ],
   "tokenRadius": 2,
   "maxHP": 20,
