@@ -1,0 +1,34 @@
+{
+  "name": "Demo",
+  "description": "For demo/balancing purposes",
+  "colors": {
+    "major": "888888",
+    "minor": "CCCCCC"
+  },
+  "resources": [
+    {
+      "name": "mana",
+      "color": "0000FF",
+      "max": 500,
+      "defaultValue": 500,
+      "returnRate": 1,
+      "isFluid": true,
+      "displayType": "primary",
+      "recoveryAffected": true
+    }
+  ],
+  "powers": [],
+  "primaryStats": [
+    "intellect"
+  ],
+  "secondaryStats": [
+    "haste_rating",
+    "crit_rating",
+    "mastery_rating",
+    "recovery_rating",
+    "versatility_rating"
+  ],
+  "wields": [
+    "staff"
+  ]
+}
