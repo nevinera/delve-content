@@ -12,18 +12,18 @@
         "../../tokens/unit/goblin-2.webp",
         "../../tokens/unit/goblin-3.webp"
       ],
-      "tokenRadius": 2,
-      "speedFactor": 1,
+      "tokenRadius": 2.0,
+      "speedFactor": 1.0,
       "maxHP": 200,
-      "dps": 4,
-      "attackSpeed": 1,
+      "dps": 4.0,
+      "attackSpeed": 1.0,
       "basicAttackStyle": "sword",
       "resource": {
         "name": "energy",
         "color": "AADD00",
-        "max": 100,
-        "defaultValue": 100,
-        "returnRate": 10,
+        "max": 100.0,
+        "defaultValue": 100.0,
+        "returnRate": 10.0,
         "isFluid": true
       },
       "targeting": {
@@ -105,18 +105,18 @@
         "../../tokens/unit/goblin-boss-2.webp",
         "../../tokens/unit/goblin-boss-3.webp"
       ],
-      "tokenRadius": 3,
+      "tokenRadius": 3.0,
       "speedFactor": 0.9,
       "maxHP": 800,
-      "dps": 8,
+      "dps": 8.0,
       "attackSpeed": 0.8,
       "basicAttackStyle": "axe",
       "resource": {
         "name": "energy",
         "color": "AADD00",
-        "max": 100,
-        "defaultValue": 100,
-        "returnRate": 10,
+        "max": 100.0,
+        "defaultValue": 100.0,
+        "returnRate": 10.0,
         "isFluid": true
       },
       "lootTable": {
@@ -204,9 +204,9 @@
         {
           "name": "Pound",
           "description": "A powerful blow that dazes the target.",
-          "maxRange": 5,
+          "maxRange": 5.0,
           "castTime": null,
-          "globalCooldown": 1,
+          "globalCooldown": 1.0,
           "cooldown": 4.5,
           "costType": "energy",
           "costAmount": 20,
@@ -239,10 +239,10 @@
             {
               "type": "harm",
               "affects": "bTarget",
-              "range": 5,
+              "range": 5.0,
               "amount": [
-                1,
-                3
+                1.0,
+                3.0
               ],
               "tags": [
                 "physical",
@@ -252,8 +252,8 @@
             {
               "type": "status",
               "affects": "bTarget",
-              "range": 5,
-              "duration": 3,
+              "range": 5.0,
+              "duration": 3.0,
               "status": {
                 "name": "Dazed",
                 "shortName": "Dazed",
@@ -286,19 +286,19 @@
       "name": "Goblin Archer",
       "description": "A goblin that keeps its distance and lets arrows do the talking.",
       "tokenImageUrl": "../../tokens/unit/goblin-archer.webp",
-      "tokenRadius": 2,
-      "speedFactor": 1,
+      "tokenRadius": 2.0,
+      "speedFactor": 1.0,
       "maxHP": 200,
-      "dps": 2,
-      "attackSpeed": 1,
-      "basicAttackRange": 30,
+      "dps": 2.0,
+      "attackSpeed": 1.0,
+      "basicAttackRange": 30.0,
       "basicAttackStyle": "arrow",
       "resource": {
         "name": "energy",
         "color": "AADD00",
-        "max": 100,
-        "defaultValue": 100,
-        "returnRate": 10,
+        "max": 100.0,
+        "defaultValue": 100.0,
+        "returnRate": 10.0,
         "isFluid": true
       },
       "targeting": {
@@ -540,8 +540,12 @@
         "height": 1536
       },
       "feetDimensions": {
-        "width": 200,
-        "height": 150
+        "width": 200.0,
+        "height": 150.0
+      },
+      "respawn": {
+        "type": "timer",
+        "delaySeconds": 120.0
       },
       "barriers": [
         {
@@ -549,55 +553,55 @@
           "locations": [
             {
               "x": 42.5,
-              "y": 0
+              "y": 0.0
             },
             {
-              "x": 50,
-              "y": 10
+              "x": 50.0,
+              "y": 10.0
             },
             {
-              "x": 22,
-              "y": 30
+              "x": 22.0,
+              "y": 30.0
             },
             {
-              "x": 19,
-              "y": 47
+              "x": 19.0,
+              "y": 47.0
             },
             {
-              "x": 29,
-              "y": 55
+              "x": 29.0,
+              "y": 55.0
             },
             {
-              "x": 54,
-              "y": 66
+              "x": 54.0,
+              "y": 66.0
             },
             {
-              "x": 55,
-              "y": 74
+              "x": 55.0,
+              "y": 74.0
             },
             {
-              "x": 42,
-              "y": 75
+              "x": 42.0,
+              "y": 75.0
             },
             {
-              "x": 28,
-              "y": 97
+              "x": 28.0,
+              "y": 97.0
             },
             {
-              "x": 19,
-              "y": 112
+              "x": 19.0,
+              "y": 112.0
             },
             {
-              "x": 24,
-              "y": 122
+              "x": 24.0,
+              "y": 122.0
             },
             {
-              "x": 37,
-              "y": 118
+              "x": 37.0,
+              "y": 118.0
             },
             {
-              "x": 50,
-              "y": 120
+              "x": 50.0,
+              "y": 120.0
             }
           ]
         },
@@ -605,68 +609,68 @@
           "type": "wall",
           "locations": [
             {
-              "x": 70,
-              "y": 120
+              "x": 70.0,
+              "y": 120.0
             },
             {
-              "x": 75,
-              "y": 117
+              "x": 75.0,
+              "y": 117.0
             },
             {
-              "x": 85,
-              "y": 118
+              "x": 85.0,
+              "y": 118.0
             },
             {
-              "x": 93,
-              "y": 128
+              "x": 93.0,
+              "y": 128.0
             },
             {
-              "x": 111,
-              "y": 125
+              "x": 111.0,
+              "y": 125.0
             },
             {
-              "x": 133,
-              "y": 91
+              "x": 133.0,
+              "y": 91.0
             },
             {
-              "x": 112,
-              "y": 84
+              "x": 112.0,
+              "y": 84.0
             },
             {
-              "x": 99,
-              "y": 93
+              "x": 99.0,
+              "y": 93.0
             },
             {
-              "x": 91,
-              "y": 85
+              "x": 91.0,
+              "y": 85.0
             },
             {
-              "x": 103,
-              "y": 71
+              "x": 103.0,
+              "y": 71.0
             },
             {
-              "x": 94,
-              "y": 58
+              "x": 94.0,
+              "y": 58.0
             },
             {
-              "x": 72,
-              "y": 54
+              "x": 72.0,
+              "y": 54.0
             },
             {
-              "x": 70,
-              "y": 35
+              "x": 70.0,
+              "y": 35.0
             },
             {
-              "x": 77,
-              "y": 21
+              "x": 77.0,
+              "y": 21.0
             },
             {
-              "x": 91,
-              "y": 15
+              "x": 91.0,
+              "y": 15.0
             },
             {
-              "x": 91,
-              "y": 0
+              "x": 91.0,
+              "y": 0.0
             }
           ]
         }
@@ -676,24 +680,24 @@
           "identifier": "clearing_entrance",
           "type": "line",
           "start": {
-            "x": 91,
-            "y": 0
+            "x": 91.0,
+            "y": 0.0
           },
           "end": {
             "x": 42.5,
-            "y": 0
+            "y": 0.0
           }
         },
         {
           "identifier": "cave_mouth",
           "type": "line",
           "start": {
-            "x": 50,
-            "y": 120
+            "x": 50.0,
+            "y": 120.0
           },
           "end": {
-            "x": 70,
-            "y": 120
+            "x": 70.0,
+            "y": 120.0
           }
         }
       ],
@@ -701,9 +705,9 @@
         {
           "unitType": "goblin",
           "position": {
-            "x": 35,
-            "y": 45,
-            "angle": 120
+            "x": 35.0,
+            "y": 45.0,
+            "angle": 120.0
           },
           "hostility": "hostile",
           "identifier": "goblin_1a",
@@ -711,23 +715,23 @@
           "movement": {
             "type": "wander",
             "location": {
-              "x": 35,
-              "y": 45
+              "x": 35.0,
+              "y": 45.0
             },
-            "radius": 10,
+            "radius": 10.0,
             "speed": 0.3,
             "waitTime": [
-              2,
-              5
+              2.0,
+              5.0
             ]
           }
         },
         {
           "unitType": "goblin-shaman",
           "position": {
-            "x": 31,
-            "y": 35,
-            "angle": 100
+            "x": 31.0,
+            "y": 35.0,
+            "angle": 100.0
           },
           "hostility": "hostile",
           "identifier": "goblin_1b",
@@ -735,23 +739,23 @@
           "movement": {
             "type": "wander",
             "location": {
-              "x": 31,
-              "y": 35
+              "x": 31.0,
+              "y": 35.0
             },
-            "radius": 8,
+            "radius": 8.0,
             "speed": 0.3,
             "waitTime": [
-              2,
-              5
+              2.0,
+              5.0
             ]
           }
         },
         {
           "unitType": "goblin",
           "position": {
-            "x": 46,
-            "y": 43,
-            "angle": 91
+            "x": 46.0,
+            "y": 43.0,
+            "angle": 91.0
           },
           "hostility": "hostile",
           "identifier": "goblin_1c",
@@ -759,22 +763,22 @@
           "movement": {
             "type": "wander",
             "location": {
-              "x": 46,
-              "y": 43
+              "x": 46.0,
+              "y": 43.0
             },
-            "radius": 10,
+            "radius": 10.0,
             "speed": 0.3,
             "waitTime": [
-              2,
-              5
+              2.0,
+              5.0
             ]
           }
         },
         {
           "unitType": "goblin-archer",
           "position": {
-            "x": 85,
-            "y": 75,
+            "x": 85.0,
+            "y": 75.0,
             "angle": 22.5
           },
           "identifier": "goblin_1d",
@@ -786,9 +790,9 @@
         {
           "unitType": "goblin",
           "position": {
-            "x": 71,
-            "y": 97,
-            "angle": 270
+            "x": 71.0,
+            "y": 97.0,
+            "angle": 270.0
           },
           "hostility": "hostile",
           "identifier": "goblin_1e",
@@ -800,9 +804,9 @@
         {
           "unitType": "goblin",
           "position": {
-            "x": 66,
+            "x": 66.0,
             "y": 103.5,
-            "angle": 225
+            "angle": 225.0
           },
           "hostility": "hostile",
           "identifier": "goblin_1f",
@@ -814,8 +818,8 @@
         {
           "unitType": "goblin",
           "position": {
-            "x": 47,
-            "y": 92,
+            "x": 47.0,
+            "y": 92.0,
             "angle": 247.5
           },
           "hostility": "hostile",
@@ -828,9 +832,9 @@
         {
           "unitType": "goblin",
           "position": {
-            "x": 98,
-            "y": 112,
-            "angle": 0
+            "x": 98.0,
+            "y": 112.0,
+            "angle": 0.0
           },
           "hostility": "hostile",
           "identifier": "goblin_1patrol",
@@ -840,54 +844,54 @@
             "steps": [
               {
                 "position": {
-                  "x": 98,
-                  "y": 112,
-                  "angle": 135
+                  "x": 98.0,
+                  "y": 112.0,
+                  "angle": 135.0
                 },
                 "movementRate": 0.4,
-                "waitTime": 12
+                "waitTime": 12.0
               },
               {
                 "position": {
-                  "x": 112,
-                  "y": 97,
-                  "angle": 280
+                  "x": 112.0,
+                  "y": 97.0,
+                  "angle": 280.0
                 },
                 "movementRate": 0.4,
-                "waitTime": 12
+                "waitTime": 12.0
               },
               {
                 "position": {
-                  "x": 84,
-                  "y": 102,
-                  "angle": 220
+                  "x": 84.0,
+                  "y": 102.0,
+                  "angle": 220.0
                 },
                 "movementRate": 0.4,
-                "waitTime": 12
+                "waitTime": 12.0
               },
               {
                 "position": {
-                  "x": 72,
-                  "y": 87,
-                  "angle": 285
+                  "x": 72.0,
+                  "y": 87.0,
+                  "angle": 285.0
                 },
                 "movementRate": 0.4,
-                "waitTime": 12
+                "waitTime": 12.0
               },
               {
                 "position": {
-                  "x": 62,
-                  "y": 90,
-                  "angle": 105
+                  "x": 62.0,
+                  "y": 90.0,
+                  "angle": 105.0
                 },
                 "movementRate": 0.4,
-                "waitTime": 12
+                "waitTime": 12.0
               }
             ]
           }
         }
       ],
-      "thumbnailUrl": "gc1-goblin-cave-entrance/gc1-goblin-cave-entrance.thumb.webp"
+      "thumbnailUrl": "gc1-goblin-cave-entrance.thumb.webp"
     },
     {
       "identifier": "cave_interior",
@@ -899,8 +903,8 @@
         "height": 2048
       },
       "feetDimensions": {
-        "width": 150,
-        "height": 200
+        "width": 150.0,
+        "height": 200.0
       },
       "barriers": [
         {
@@ -908,7 +912,7 @@
           "locations": [
             {
               "x": 57.4,
-              "y": 0
+              "y": 0.0
             },
             {
               "x": 64.9,
@@ -931,7 +935,7 @@
               "y": 50.7
             },
             {
-              "x": 48,
+              "x": 48.0,
               "y": 52.9
             },
             {
@@ -955,7 +959,7 @@
               "y": 90.7
             },
             {
-              "x": 40,
+              "x": 40.0,
               "y": 97.5
             },
             {
@@ -975,7 +979,7 @@
               "y": 113.7
             },
             {
-              "x": 6,
+              "x": 6.0,
               "y": 125.4
             },
             {
@@ -988,7 +992,7 @@
             },
             {
               "x": 17.6,
-              "y": 145
+              "y": 145.0
             },
             {
               "x": 19.9,
@@ -1103,7 +1107,7 @@
               "y": 135.2
             },
             {
-              "x": 112,
+              "x": 112.0,
               "y": 123.7
             },
             {
@@ -1172,7 +1176,7 @@
             },
             {
               "x": 99.3,
-              "y": 62
+              "y": 62.0
             },
             {
               "x": 99.7,
@@ -1195,7 +1199,7 @@
               "y": 73.5
             },
             {
-              "x": 125,
+              "x": 125.0,
               "y": 72.4
             },
             {
@@ -1204,7 +1208,7 @@
             },
             {
               "x": 128.4,
-              "y": 52
+              "y": 52.0
             },
             {
               "x": 125.2,
@@ -1244,7 +1248,7 @@
             },
             {
               "x": 75.7,
-              "y": 0
+              "y": 0.0
             }
           ]
         },
@@ -1269,7 +1273,7 @@
               "y": 38.4
             },
             {
-              "x": 74,
+              "x": 74.0,
               "y": 40.5
             }
           ]
@@ -1294,11 +1298,11 @@
           "type": "line",
           "start": {
             "x": 57.4,
-            "y": 0
+            "y": 0.0
           },
           "end": {
             "x": 75.7,
-            "y": 0
+            "y": 0.0
           }
         }
       ],
@@ -1308,7 +1312,7 @@
           "position": {
             "x": 111.9,
             "y": 66.5,
-            "angle": 160
+            "angle": 160.0
           },
           "hostility": "hostile",
           "identifier": "goblin_2a",
@@ -1322,7 +1326,7 @@
           "position": {
             "x": 123.6,
             "y": 61.5,
-            "angle": 250
+            "angle": 250.0
           },
           "hostility": "hostile",
           "identifier": "goblin_2b",
@@ -1336,7 +1340,7 @@
           "position": {
             "x": 107.1,
             "y": 53.5,
-            "angle": 58
+            "angle": 58.0
           },
           "hostility": "hostile",
           "identifier": "goblin_2c",
@@ -1350,7 +1354,7 @@
           "position": {
             "x": 116.7,
             "y": 49.8,
-            "angle": 348
+            "angle": 348.0
           },
           "hostility": "hostile",
           "identifier": "goblin_2d",
@@ -1363,19 +1367,19 @@
                 "position": {
                   "x": 116.7,
                   "y": 49.8,
-                  "angle": 348
+                  "angle": 348.0
                 },
                 "movementRate": 0.3,
-                "waitTime": 20
+                "waitTime": 20.0
               },
               {
                 "position": {
                   "x": 98.5,
                   "y": 37.8,
-                  "angle": 225
+                  "angle": 225.0
                 },
                 "movementRate": 0.3,
-                "waitTime": 20
+                "waitTime": 20.0
               }
             ]
           }
@@ -1383,7 +1387,7 @@
         {
           "unitType": "goblin",
           "position": {
-            "x": 75,
+            "x": 75.0,
             "y": 54.7,
             "angle": 157.5
           },
@@ -1399,7 +1403,7 @@
           "position": {
             "x": 56.3,
             "y": 56.4,
-            "angle": 90
+            "angle": 90.0
           },
           "hostility": "hostile",
           "identifier": "goblin_2f",
@@ -1412,8 +1416,8 @@
           "unitType": "goblin",
           "position": {
             "x": 52.3,
-            "y": 63,
-            "angle": 135
+            "y": 63.0,
+            "angle": 135.0
           },
           "hostility": "hostile",
           "identifier": "goblin_2g",
@@ -1440,8 +1444,8 @@
           "unitType": "goblin",
           "position": {
             "x": 18.8,
-            "y": 119,
-            "angle": 90
+            "y": 119.0,
+            "angle": 90.0
           },
           "hostility": "hostile",
           "identifier": "goblin_2i",
@@ -1483,7 +1487,7 @@
           "position": {
             "x": 30.4,
             "y": 136.4,
-            "angle": 225
+            "angle": 225.0
           },
           "hostility": "hostile",
           "identifier": "goblin_2l",
@@ -1513,8 +1517,8 @@
                 },
                 "movementRate": 0.4,
                 "waitTime": [
-                  7,
-                  16
+                  7.0,
+                  16.0
                 ]
               },
               {
@@ -1525,32 +1529,32 @@
                 },
                 "movementRate": 0.4,
                 "waitTime": [
-                  7,
-                  16
+                  7.0,
+                  16.0
                 ]
               },
               {
                 "position": {
                   "x": 48.7,
                   "y": 142.7,
-                  "angle": 90
+                  "angle": 90.0
                 },
                 "movementRate": 0.4,
                 "waitTime": [
-                  7,
-                  16
+                  7.0,
+                  16.0
                 ]
               },
               {
                 "position": {
-                  "x": 45,
+                  "x": 45.0,
                   "y": 150.6,
                   "angle": 67.5
                 },
                 "movementRate": 0.4,
                 "waitTime": [
-                  7,
-                  16
+                  7.0,
+                  16.0
                 ]
               },
               {
@@ -1561,30 +1565,30 @@
                 },
                 "movementRate": 0.4,
                 "waitTime": [
-                  7,
-                  16
+                  7.0,
+                  16.0
                 ]
               },
               {
                 "position": {
                   "x": 26.7,
                   "y": 137.3,
-                  "angle": 180
+                  "angle": 180.0
                 },
                 "movementRate": 0.4,
                 "waitTime": [
-                  7,
-                  16
+                  7.0,
+                  16.0
                 ]
               },
               {
                 "position": {
                   "x": 32.4,
                   "y": 140.7,
-                  "angle": 90
+                  "angle": 90.0
                 },
                 "movementRate": 0.4,
-                "waitTime": 0
+                "waitTime": 0.0
               }
             ]
           }
@@ -1594,7 +1598,7 @@
           "position": {
             "x": 107.9,
             "y": 164.9,
-            "angle": 45
+            "angle": 45.0
           },
           "hostility": "hostile",
           "identifier": "goblin_boss_2a",
@@ -1608,7 +1612,7 @@
           "position": {
             "x": 113.3,
             "y": 161.6,
-            "angle": 315
+            "angle": 315.0
           },
           "hostility": "hostile",
           "identifier": "goblin_2p",
@@ -1622,7 +1626,7 @@
           "position": {
             "x": 97.1,
             "y": 165.4,
-            "angle": 315
+            "angle": 315.0
           },
           "hostility": "hostile",
           "identifier": "goblin_2n",
@@ -1636,7 +1640,7 @@
           "position": {
             "x": 106.8,
             "y": 157.4,
-            "angle": 0
+            "angle": 0.0
           },
           "hostility": "hostile",
           "identifier": "goblin_2o",
@@ -1649,25 +1653,25 @@
                 "position": {
                   "x": 106.8,
                   "y": 157.4,
-                  "angle": 0
+                  "angle": 0.0
                 },
                 "movementRate": 0.6,
-                "waitTime": 45
+                "waitTime": 45.0
               },
               {
                 "position": {
-                  "x": 80,
-                  "y": 110,
-                  "angle": 270
+                  "x": 80.0,
+                  "y": 110.0,
+                  "angle": 270.0
                 },
                 "movementRate": 0.6,
-                "waitTime": 3
+                "waitTime": 3.0
               }
             ]
           }
         }
       ],
-      "thumbnailUrl": "gc2-goblin-cave-interior/gc2-goblin-cave-interior.thumb.webp"
+      "thumbnailUrl": "gc2-goblin-cave-interior.thumb.webp"
     }
   ],
   "zoneLinks": [
