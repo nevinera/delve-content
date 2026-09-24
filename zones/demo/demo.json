@@ -1,0 +1,17 @@
+{
+  "name": "Demo",
+  "description": null,
+  "elvl": 0,
+  "private": true,
+  "maps": [
+    {
+      "$ref": "./woods/woods.json",
+      "referenceTo": "map"
+    }
+  ],
+  "unitTypes": {},
+  "items": {},
+  "zoneLinks": [],
+  "entryPoints": {},
+  "openConnections": {}
+}
