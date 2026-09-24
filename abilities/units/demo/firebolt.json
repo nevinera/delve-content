@@ -1,0 +1,56 @@
+{
+  "name": "Units/demo/firebolt",
+  "description": "demo firebolt",
+  "castTime": null,
+  "globalCooldown": 1.5,
+  "tags": [
+    "magic",
+    "ranged",
+    "fire"
+  ],
+  "graphicEffects": [
+    {
+      "sourceURL": ":magic-ball:",
+      "duration": 0.3,
+      "from": "self",
+      "when": "immediate",
+      "condition": "always",
+      "spriteColumns": 3,
+      "spriteRows": 3,
+      "spriteFrameRate": 12,
+      "to": "affected",
+      "color": "#FF0000"
+    }
+  ],
+  "soundEffects": [
+    {
+      "sourceURL": ":whoomph:",
+      "duration": 1.8,
+      "location": "affected",
+      "when": "immediate",
+      "condition": "always",
+      "volumeScale": 0.1
+    },
+    {
+      "sourceURL": ":boom:",
+      "duration": 0.2,
+      "location": "affected",
+      "when": "impact",
+      "condition": "onHit",
+      "volumeScale": 0.1
+    }
+  ],
+  "effects": [
+    {
+      "type": "harm",
+      "affects": "bTarget",
+      "amount": 10,
+      "range": 40
+    }
+  ],
+  "iconURL": ":magic-ball:",
+  "maxRange": 40,
+  "speed": 30,
+  "costType": "mana",
+  "costAmount": 1
+}
