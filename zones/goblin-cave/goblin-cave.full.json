@@ -455,6 +455,16 @@
           "speed": 30
         }
       ]
+    },
+    "goblin-deserter": {
+      "name": "Goblin Deserter",
+      "description": "A goblin who has had enough of the cave, and says so to anyone who'll listen.",
+      "tokenImageUrl": "../../tokens/unit/goblin-2.webp",
+      "tokenRadius": 2.0,
+      "speedFactor": 0.8,
+      "maxHP": 150,
+      "dps": 3.0,
+      "attackSpeed": 1.0
     }
   },
   "items": {
@@ -702,6 +712,35 @@
         }
       ],
       "units": [
+        {
+          "unitType": "goblin-deserter",
+          "position": {
+            "x": 62.0,
+            "y": 12.0,
+            "angle": 180.0
+          },
+          "hostility": "friendly",
+          "identifier": "grizzle",
+          "noncombat": true,
+          "movement": {
+            "type": "wander",
+            "location": {
+              "x": 62.0,
+              "y": 12.0
+            },
+            "radius": 4.0,
+            "speed": 0.3,
+            "waitTime": [
+              4.0,
+              8.0
+            ]
+          },
+          "dialogue": [
+            "Psst. You. Yes, you, big-ears. Don't go in there.",
+            "The boss has the whole clan camped past the entrance, and the shaman's been brewing something nasty.",
+            "Me? I'm retired. Very recently retired. If anyone asks, you never saw me."
+          ]
+        },
         {
           "unitType": "goblin",
           "position": {

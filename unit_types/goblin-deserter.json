@@ -1,0 +1,10 @@
+{
+  "name": "Goblin Deserter",
+  "description": "A goblin who has had enough of the cave, and says so to anyone who'll listen.",
+  "tokenImageUrl": "../tokens/unit/goblin-2.webp",
+  "tokenRadius": 2.0,
+  "speedFactor": 0.8,
+  "maxHP": 150,
+  "dps": 3.0,
+  "attackSpeed": 1.0
+}

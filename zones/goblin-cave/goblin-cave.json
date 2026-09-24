@@ -19,6 +19,10 @@
     "goblin-shaman": {
       "$ref": "../../unit_types/goblin-shaman.json",
       "referenceTo": "unit_type"
+    },
+    "goblin-deserter": {
+      "$ref": "../../unit_types/goblin-deserter.json",
+      "referenceTo": "unit_type"
     }
   },
   "items": {
