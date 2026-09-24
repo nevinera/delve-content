@@ -17,7 +17,16 @@
       "recoveryAffected": true
     }
   ],
-  "powers": [],
+  "powers": [
+    {
+      "$ref": "../abilities/classes/demo/firebolt.json",
+      "referenceTo": "ability"
+    },
+    {
+      "$ref": "../abilities/classes/demo/recover.json",
+      "referenceTo": "ability"
+    }
+  ],
   "primaryStats": [
     "intellect"
   ],
