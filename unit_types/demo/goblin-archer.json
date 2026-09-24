@@ -1,0 +1,22 @@
+{
+  "name": "Demo/goblin Archer",
+  "description": "basic attack only",
+  "tokenImageUrl": [
+    ""
+  ],
+  "tokenRadius": 2,
+  "maxHP": 20,
+  "dps": 4,
+  "attackSpeed": 1,
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "randomAvailable"
+  },
+  "powers": [],
+  "basicAttackRange": 40,
+  "aggroRadius": 40,
+  "basicAttackSchool": "physical",
+  "basicAttackStyle": "arrow"
+}
