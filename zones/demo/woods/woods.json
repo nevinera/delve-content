@@ -1,0 +1,102 @@
+{
+  "identifier": "woods",
+  "name": "Woods",
+  "elvl": null,
+  "imageUrl": "woods.png",
+  "pixelDimensions": {
+    "width": 3751,
+    "height": 4472
+  },
+  "feetDimensions": {
+    "width": 500,
+    "height": 596.11
+  },
+  "lighting": "daylight",
+  "barriers": [],
+  "connections": [
+    {
+      "identifier": "connection-1",
+      "type": "point",
+      "position": {
+        "x": 225.3622108012147,
+        "y": 70.95479712551364,
+        "angle": 0
+      },
+      "fuzzRadius": 10,
+      "fuzzAngle": 90
+    }
+  ],
+  "units": [
+    {
+      "identifier": "demo/goblin-archer-zxkdzz",
+      "unitType": "demo/goblin-archer",
+      "position": {
+        "x": 306.4476804696863,
+        "y": 94.49493249560646,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "demo/goblin-archer-zhqomi",
+      "unitType": "demo/goblin-archer",
+      "position": {
+        "x": 233.36500875459421,
+        "y": 154.74605783282394,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "demo/goblin-archer-oqzdzf",
+      "unitType": "demo/goblin-archer",
+      "position": {
+        "x": 311.56199341937764,
+        "y": 183.96843121880585,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "demo/goblin-archer-yeweng",
+      "unitType": "demo/goblin-archer",
+      "position": {
+        "x": 308.9431898247133,
+        "y": 249.88377752543406,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "demo/goblin-archer-acntze",
+      "unitType": "demo/goblin-archer",
+      "position": {
+        "x": 218.704354771108,
+        "y": 234.28213596464158,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      }
+    }
+  ],
+  "thumbnailUrl": "woods.thumb.webp"
+}
