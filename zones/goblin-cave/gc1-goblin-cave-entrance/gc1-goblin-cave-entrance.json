@@ -134,5 +134,21 @@
       }
     }
   ],
+  "ncus": [
+    {
+      "identifier": "grizzle",
+      "name": "Grizzle",
+      "tokenImageUrl": "../../../tokens/unit/goblin-2.webp",
+      "tokenRadius": 2.0,
+      "speedFactor": 0.8,
+      "position": { "x": 62.0, "y": 12.0, "angle": 180.0 },
+      "movement": { "type": "wander", "location": { "x": 62.0, "y": 12.0 }, "radius": 4.0, "speed": 0.3, "waitTime": [4.0, 8.0] },
+      "dialogue": [
+        "Psst. You. Yes, you, big-ears. Don't go in there.",
+        "The boss has the whole clan camped past the entrance, and the shaman's been brewing something nasty.",
+        "Me? I'm retired. Very recently retired. If anyone asks, you never saw me."
+      ]
+    }
+  ],
   "thumbnailUrl": "gc1-goblin-cave-entrance.thumb.webp"
 }
