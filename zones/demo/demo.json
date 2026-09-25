@@ -9,9 +9,16 @@
       "referenceTo": "map"
     }
   ],
-  "unitTypes": {},
+  "unitTypes": {
+    "demo/goblin-archer": {
+      "$ref": "../../unit_types/demo/goblin-archer.json",
+      "referenceTo": "unit_type"
+    }
+  },
   "items": {},
   "zoneLinks": [],
-  "entryPoints": {},
+  "entryPoints": {
+    "woods/connection-1": null
+  },
   "openConnections": {}
 }
