@@ -916,11 +916,26 @@
               8.0
             ]
           },
-          "dialogue": [
-            "Psst. You. Yes, you, big-ears. Don't go in there.",
-            "The boss has the whole clan camped past the entrance, and the shaman's been brewing something nasty.",
-            "Me? I'm retired. Very recently retired. If anyone asks, you never saw me."
-          ]
+          "dialogue": {
+            "entry": [
+              {
+                "node": "warn"
+              }
+            ],
+            "nodes": {
+              "warn": {
+                "text": "Psst. You. Yes, you, big-ears. Don't go in there.",
+                "next": "why"
+              },
+              "why": {
+                "text": "The boss has the whole clan camped past the entrance, and the shaman's been brewing something nasty.",
+                "next": "retired"
+              },
+              "retired": {
+                "text": "Me? I'm retired. Very recently retired. If anyone asks, you never saw me."
+              }
+            }
+          }
         }
       ],
       "thumbnailUrl": "gc1-goblin-cave-entrance.thumb.webp"
