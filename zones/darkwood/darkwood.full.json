@@ -8,7 +8,7 @@
       "identifier": "first-camp",
       "name": "First Camp",
       "elvl": 0,
-      "imageUrl": "first-camp.svg",
+      "imageUrl": "first-camp/first-camp.svg",
       "pixelDimensions": {
         "width": 1284,
         "height": 1538
@@ -2890,13 +2890,13 @@
           "identifier": "boss-b"
         }
       ],
-      "thumbnailUrl": "first-camp.thumb.webp"
+      "thumbnailUrl": "first-camp/first-camp.thumb.webp"
     },
     {
       "identifier": "long-road",
       "name": "Long Road",
       "elvl": 1,
-      "imageUrl": "long-road.svg",
+      "imageUrl": "long-road/long-road.svg",
       "pixelDimensions": {
         "width": 829,
         "height": 1348
@@ -4926,11 +4926,348 @@
         }
       ],
       "units": [],
-      "thumbnailUrl": "long-road.thumb.webp"
+      "thumbnailUrl": "long-road/long-road.thumb.webp"
     }
   ],
-  "unitTypes": {},
-  "items": {},
+  "unitTypes": {
+    "goblin": {
+      "name": "Goblin",
+      "description": "A scrappy goblin that stabs anything within reach.",
+      "tokenImageUrl": [
+        "../../tokens/unit/goblin-1.webp",
+        "../../tokens/unit/goblin-2.webp",
+        "../../tokens/unit/goblin-3.webp"
+      ],
+      "tokenRadius": 2,
+      "speedFactor": 1,
+      "maxHP": 200,
+      "dps": 4,
+      "attackSpeed": 1,
+      "basicAttackStyle": "sword",
+      "resource": {
+        "name": "energy",
+        "color": "AADD00",
+        "max": 100,
+        "defaultValue": 100,
+        "returnRate": 10,
+        "isFluid": true
+      },
+      "targeting": {
+        "type": "aggroTable"
+      },
+      "tactics": {
+        "type": "randomAvailable"
+      },
+      "powers": [
+        {
+          "name": "Enrage",
+          "description": "Flies into a rage, increasing damage and attack speed.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 11,
+          "costType": "energy",
+          "costAmount": 40,
+          "graphicEffects": [],
+          "soundEffects": [
+            {
+              "sourceURL": ":whoomph:",
+              "duration": 1.8,
+              "location": "self",
+              "when": "immediate",
+              "condition": "always",
+              "volumeScale": 0.2
+            }
+          ],
+          "effects": [
+            {
+              "type": "status",
+              "affects": "self",
+              "duration": 6,
+              "status": {
+                "name": "Enraged",
+                "shortName": "Enrage",
+                "treatAs": "buff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "damageDone",
+                    "modifierType": "multiply",
+                    "amount": 1.1
+                  },
+                  {
+                    "type": "stat",
+                    "statName": "attackSpeed",
+                    "modifierType": "multiply",
+                    "amount": 1.2
+                  }
+                ],
+                "auraEffect": {
+                  "sourceURL": ":glow:",
+                  "scale": 1.1,
+                  "color": "#FF0000",
+                  "opacity": 0.3
+                }
+              },
+              "tags": [
+                "buff",
+                "enrage"
+              ]
+            }
+          ],
+          "tags": [
+            "buff",
+            "enrage",
+            "physical"
+          ]
+        }
+      ]
+    },
+    "goblin-boss": {
+      "name": "Goblin Boss",
+      "description": "A hulking goblin chieftain - dangerous and hard to put down.",
+      "tokenImageUrl": [
+        "../../tokens/unit/goblin-boss-1.webp",
+        "../../tokens/unit/goblin-boss-2.webp",
+        "../../tokens/unit/goblin-boss-3.webp"
+      ],
+      "tokenRadius": 3,
+      "speedFactor": 0.9,
+      "maxHP": 800,
+      "dps": 8,
+      "attackSpeed": 0.8,
+      "basicAttackStyle": "axe",
+      "resource": {
+        "name": "energy",
+        "color": "AADD00",
+        "max": 100,
+        "defaultValue": 100,
+        "returnRate": 10,
+        "isFluid": true
+      },
+      "lootTable": {
+        "warchief-battlechestplate": 17,
+        "warchief-savage-breastplate": 17,
+        "warchief-scaled-vest": 17,
+        "warchief-predators-tunic": 17,
+        "warchief-embroidered-robe": 16,
+        "warchief-hexweave-vestments": 16
+      },
+      "lootCount": 1,
+      "targeting": {
+        "type": "aggroTable"
+      },
+      "tactics": {
+        "type": "priorityRotation",
+        "powers": [
+          "Pound",
+          "Enrage"
+        ]
+      },
+      "powers": [
+        {
+          "name": "Enrage",
+          "description": "Flies into a rage, increasing damage and attack speed.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 11,
+          "costType": "energy",
+          "costAmount": 40,
+          "graphicEffects": [],
+          "soundEffects": [
+            {
+              "sourceURL": ":whoomph:",
+              "duration": 1.8,
+              "location": "self",
+              "when": "immediate",
+              "condition": "always",
+              "volumeScale": 0.2
+            }
+          ],
+          "effects": [
+            {
+              "type": "status",
+              "affects": "self",
+              "duration": 6,
+              "status": {
+                "name": "Enraged",
+                "shortName": "Enrage",
+                "treatAs": "buff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "damageDone",
+                    "modifierType": "multiply",
+                    "amount": 1.1
+                  },
+                  {
+                    "type": "stat",
+                    "statName": "attackSpeed",
+                    "modifierType": "multiply",
+                    "amount": 1.2
+                  }
+                ],
+                "auraEffect": {
+                  "sourceURL": ":glow:",
+                  "scale": 1.1,
+                  "color": "#FF0000",
+                  "opacity": 0.3
+                }
+              },
+              "tags": [
+                "buff",
+                "enrage"
+              ]
+            }
+          ],
+          "tags": [
+            "buff",
+            "enrage",
+            "physical"
+          ]
+        },
+        {
+          "name": "Pound",
+          "description": "A powerful blow that dazes the target.",
+          "maxRange": 5,
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 4.5,
+          "costType": "energy",
+          "costAmount": 20,
+          "graphicEffects": [
+            {
+              "sourceURL": "../../graphics/effects/pound-impact.webp",
+              "duration": 0.4,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            },
+            {
+              "sourceURL": "../../graphics/effects/dazed-debuff.webp",
+              "duration": 0.6,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": "../../audio/pound.ogg",
+              "duration": 0.08,
+              "location": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bTarget",
+              "range": 5,
+              "amount": [
+                1,
+                3
+              ],
+              "tags": [
+                "physical",
+                "melee"
+              ]
+            },
+            {
+              "type": "status",
+              "affects": "bTarget",
+              "range": 5,
+              "duration": 3,
+              "status": {
+                "name": "Dazed",
+                "shortName": "Dazed",
+                "treatAs": "debuff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "movementSpeed",
+                    "modifierType": "multiply",
+                    "amount": 0.8
+                  },
+                  {
+                    "type": "stat",
+                    "statName": "strength",
+                    "modifierType": "multiply",
+                    "amount": 0.8
+                  }
+                ]
+              },
+              "tags": [
+                "debuff"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "items": {
+    "warchief-back-tattered-cloak": {
+      "identifier": "warchief-back-tattered-cloak",
+      "name": "Warchief's Tattered Cloak",
+      "slot": "back",
+      "elvl": 5,
+      "primary": null,
+      "secondaries": [
+        "stamina",
+        "crit_rating"
+      ]
+    },
+    "warchief-battle-waist": {
+      "identifier": "warchief-battle-waist",
+      "name": "Warchief's Battle Girdle",
+      "slot": "waist",
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "versatility_rating"
+      ]
+    },
+    "warchief-embroidered-robe": {
+      "identifier": "warchief-embroidered-robe",
+      "name": "Warchief's Embroidered Robe",
+      "slot": "chest",
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "versatility_rating",
+        "defence_rating"
+      ]
+    },
+    "warchief-hexweave-legs": {
+      "identifier": "warchief-hexweave-legs",
+      "name": "Warchief's Hexweave Leggings",
+      "slot": "legs",
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
+    },
+    "warchief-hexweave-waist": {
+      "identifier": "warchief-hexweave-waist",
+      "name": "Warchief's Hexweave Cincture",
+      "slot": "waist",
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating"
+      ]
+    }
+  },
   "zoneLinks": [
     {
       "connectionA": {

@@ -13,8 +13,38 @@
       "referenceTo": "map"
     }
   ],
-  "unitTypes": {},
-  "items": {},
+  "unitTypes": {
+    "goblin": {
+      "$ref": "../../unit_types/goblin.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-boss": {
+      "$ref": "../../unit_types/goblin-boss.json",
+      "referenceTo": "unit_type"
+    }
+  },
+  "items": {
+    "warchief-back-tattered-cloak": {
+      "$ref": "../../items/warchief-back-tattered-cloak.json",
+      "referenceTo": "item"
+    },
+    "warchief-battle-waist": {
+      "$ref": "../../items/warchief-battle-waist.json",
+      "referenceTo": "item"
+    },
+    "warchief-embroidered-robe": {
+      "$ref": "../../items/warchief-embroidered-robe.json",
+      "referenceTo": "item"
+    },
+    "warchief-hexweave-legs": {
+      "$ref": "../../items/warchief-hexweave-legs.json",
+      "referenceTo": "item"
+    },
+    "warchief-hexweave-waist": {
+      "$ref": "../../items/warchief-hexweave-waist.json",
+      "referenceTo": "item"
+    }
+  },
   "zoneLinks": [
     {
       "connectionA": {
