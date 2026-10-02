@@ -1,0 +1,27 @@
+{
+  "name": "Small",
+  "description": null,
+  "thumbnailUrl": null,
+  "elevationRange": null,
+  "zones": {
+    "small/forest": {
+      "path": "../zones/small/forest/forest.json",
+      "name": "Forest",
+      "description": null
+    },
+    "small/high-cave": {
+      "path": "../zones/small/high-cave/high-cave.json",
+      "name": "High Cave",
+      "description": null
+    },
+    "small/low-cave": {
+      "path": "../zones/small/low-cave/low-cave.json",
+      "name": "Low Cave",
+      "description": null
+    }
+  },
+  "worldLinks": [],
+  "entryPoints": {
+    "small/forest/hub/central": null
+  }
+}
