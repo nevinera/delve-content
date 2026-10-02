@@ -23,9 +23,9 @@
     {
       "name": "energy",
       "color": "FFDD00",
-      "max": 100.0,
-      "defaultValue": 100.0,
-      "returnRate": 10.0,
+      "max": 100,
+      "defaultValue": 100,
+      "returnRate": 10,
       "isFluid": true,
       "displayType": "primary",
       "hasteAffected": true
@@ -33,31 +33,292 @@
     {
       "name": "combo points",
       "color": "CC3333",
-      "max": 5.0,
-      "defaultValue": 0.0,
+      "max": 5,
+      "defaultValue": 0,
       "isFluid": false
     }
   ],
   "powers": [
     {
-      "$ref": "../abilities/classes/puncher/punch.json",
-      "referenceTo": "ability"
+      "name": "Punch",
+      "iconURL": "../graphics/icons/punch.svg",
+      "castTime": null,
+      "globalCooldown": 0.5,
+      "costType": "energy",
+      "costAmount": 30,
+      "graphicEffects": [
+        {
+          "sourceURL": "../graphics/effects/punch-impact.webp",
+          "duration": 0.3,
+          "from": "self",
+          "to": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "color": "#ff0000"
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": "../audio/punch.ogg",
+          "duration": 0.12,
+          "location": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "volumeScale": 0.1
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "amount": [
+            89,
+            140
+          ],
+          "range": 5,
+          "tags": [
+            "physical",
+            "melee"
+          ]
+        },
+        {
+          "type": "resource",
+          "affects": "self",
+          "resourceName": "combo points",
+          "delta": 1
+        }
+      ]
     },
     {
-      "$ref": "../abilities/classes/puncher/recover.json",
-      "referenceTo": "ability"
+      "name": "Recover",
+      "iconURL": "../graphics/icons/recover.svg",
+      "castTime": null,
+      "globalCooldown": 1.5,
+      "cooldown": 12,
+      "costType": "energy",
+      "costAmount": 50,
+      "soundEffects": [
+        {
+          "sourceURL": "../audio/recover.ogg",
+          "duration": 0.33,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.2
+        }
+      ],
+      "effects": [
+        {
+          "type": "heal",
+          "affects": "self",
+          "amount": 20
+        },
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 8,
+          "status": {
+            "name": "Second Wind",
+            "shortName": "2ndWnd",
+            "description": "A burst of energy from catching your breath.",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "auraEffect": {
+              "sourceURL": ":sparkle-cloud:",
+              "color": "#00ff00",
+              "scale": 1.3,
+              "opacity": 0.3,
+              "spriteColumns": 2,
+              "spriteRows": 3,
+              "spriteFrameCount": 5
+            },
+            "effects": [
+              {
+                "type": "recurring",
+                "onTick": "heal",
+                "school": "magic",
+                "tickRate": 2.6,
+                "amount": 50
+              }
+            ]
+          }
+        },
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 8,
+          "status": {
+            "name": "Winded",
+            "shortName": "Winded",
+            "description": "Still catching your breath - a little slower to react.",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "stamina",
+                "modifierType": "multiply",
+                "amount": 0.9
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "$ref": "../abilities/classes/puncher/firebolt.json",
-      "referenceTo": "ability"
+      "name": "Firebolt",
+      "iconURL": "../graphics/icons/firebolt.svg",
+      "maxRange": 40,
+      "speed": 40,
+      "castTime": null,
+      "globalCooldown": 1,
+      "costType": "energy",
+      "costAmount": 40,
+      "graphicEffects": [
+        {
+          "sourceURL": "../graphics/animations/magic-ball.sprites3x3.png",
+          "duration": null,
+          "from": "self",
+          "to": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "spriteColumns": 3,
+          "spriteRows": 3,
+          "spriteFrameRate": 6,
+          "spriteFrameCount": 9,
+          "color": "#FF2244"
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": "../audio/firespell1.ogg",
+          "duration": 1.8,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.1
+        },
+        {
+          "sourceURL": "../audio/poof.ogg",
+          "duration": 0.3,
+          "location": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "impactTiming": "centered"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "amount": [
+            89,
+            140
+          ],
+          "range": 40,
+          "tags": [
+            "magic",
+            "ranged",
+            "ire"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "amount": 0,
+          "range": 40,
+          "duration": 6,
+          "status": {
+            "name": "Burning",
+            "shortName": "Burn",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 1,
+                "onTick": "harm",
+                "amount": 1,
+                "school": "magic"
+              }
+            ],
+            "description": "Ongoing fire damage"
+          }
+        },
+        {
+          "type": "resource",
+          "affects": "self",
+          "resourceName": "combo points",
+          "delta": 1
+        }
+      ],
+      "tags": [
+        "harmful",
+        "fire",
+        "magic"
+      ],
+      "description": " "
     },
     {
-      "$ref": "../abilities/classes/puncher/frenzy.json",
-      "referenceTo": "ability"
+      "name": "Frenzy",
+      "iconURL": "../graphics/icons/frenzy.svg",
+      "description": "Spend your combo points in a burst of speed.",
+      "castTime": null,
+      "globalCooldown": 1.5,
+      "costType": "combo points",
+      "costAmount": 5,
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 30,
+          "status": {
+            "name": "Frenzy",
+            "shortName": "Frenzy",
+            "description": "Hastened by a flurry of blows.",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "physicalHaste",
+                "modifierType": "add",
+                "amount": 20
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "$ref": "../abilities/classes/puncher/mend.json",
-      "referenceTo": "ability"
+      "name": "Mend",
+      "iconURL": "../graphics/icons/recover.svg",
+      "castTime": 1.5,
+      "globalCooldown": 1.5,
+      "costType": "energy",
+      "costAmount": 40,
+      "soundEffects": [
+        {
+          "sourceURL": "../audio/recover.ogg",
+          "duration": 0.33,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.2
+        }
+      ],
+      "effects": [
+        {
+          "type": "heal",
+          "affects": "self",
+          "amount": 300
+        }
+      ],
+      "tags": [
+        "beneficial",
+        "heal"
+      ],
+      "description": "Take a moment to bind your wounds."
     }
   ]
 }
