@@ -1,0 +1,49 @@
+{
+  "name": "Low Cave",
+  "description": null,
+  "elvl": 5,
+  "private": true,
+  "maps": [
+    {
+      "$ref": "./cave-1/cave-1.json",
+      "referenceTo": "map"
+    }
+  ],
+  "unitTypes": {
+    "demo/goblin-archer": {
+      "$ref": "../../../unit_types/demo/goblin-archer.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-shaman": {
+      "$ref": "../../../unit_types/goblin-shaman.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin": {
+      "$ref": "../../../unit_types/goblin.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-boss": {
+      "$ref": "../../../unit_types/goblin-boss.json",
+      "referenceTo": "unit_type"
+    }
+  },
+  "items": {
+    "warchief-back-mantle-of-shadows": {
+      "$ref": "../../../items/warchief-back-mantle-of-shadows.json",
+      "referenceTo": "item"
+    },
+    "warchief-back-tattered-cloak": {
+      "$ref": "../../../items/warchief-back-tattered-cloak.json",
+      "referenceTo": "item"
+    },
+    "warchief-battle-waist": {
+      "$ref": "../../../items/warchief-battle-waist.json",
+      "referenceTo": "item"
+    }
+  },
+  "zoneLinks": [],
+  "entryPoints": {},
+  "openConnections": {
+    "cave-1/entrance": ""
+  }
+}
