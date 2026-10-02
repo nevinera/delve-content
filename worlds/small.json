@@ -1,8 +1,11 @@
 {
   "name": "Small",
-  "description": null,
+  "description": "a tiny world for testing with",
   "thumbnailUrl": null,
-  "elevationRange": null,
+  "elevationRange": [
+    0,
+    20
+  ],
   "zones": {
     "small/forest": {
       "path": "../zones/small/forest/forest.json",
@@ -20,7 +23,36 @@
       "description": null
     }
   },
-  "worldLinks": [],
+  "worldLinks": [
+    {
+      "zoneA": {
+        "zone": "small/forest",
+        "kind": "open",
+        "connection": "north-exit"
+      },
+      "zoneB": {
+        "zone": "small/low-cave",
+        "kind": "open",
+        "connection": "entrance"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "zoneA": {
+        "zone": "small/forest",
+        "kind": "open",
+        "connection": "south-exit"
+      },
+      "zoneB": {
+        "zone": "small/high-cave",
+        "kind": "open",
+        "connection": "entrance"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    }
+  ],
   "entryPoints": {
     "small/forest/hub/central": null
   }
