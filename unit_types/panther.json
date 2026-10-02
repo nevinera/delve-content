@@ -1,0 +1,126 @@
+{
+  "name": "Panther",
+  "description": "A very large black cat",
+  "tokenImageUrl": [
+    "../tokens/unit/panther-1.webp",
+    "../tokens/unit/panther-2.webp",
+    "../tokens/unit/panther-3.webp"
+  ],
+  "tokenRadius": 3,
+  "maxHP": 80,
+  "dps": 4,
+  "attackSpeed": 0.8,
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Claw"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Claw",
+      "description": "A ferocious slash",
+      "castTime": null,
+      "globalCooldown": 1,
+      "tags": [
+        "physical",
+        "melee"
+      ],
+      "graphicEffects": [
+        {
+          "sourceURL": ":claw-slash:",
+          "duration": 0.3,
+          "from": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "color": "FF2255",
+          "scale": 1.5
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":slash:",
+          "duration": 0.325,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "impactTiming": "after",
+          "volumeScale": 0.1
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "amount": [
+            8,
+            12
+          ],
+          "range": 4
+        }
+      ],
+      "maxRange": 3,
+      "costType": "energy",
+      "costAmount": 40
+    },
+    {
+      "name": "Bite",
+      "description": "A playful nibble",
+      "castTime": null,
+      "globalCooldown": 1,
+      "tags": [
+        "finisher"
+      ],
+      "graphicEffects": [
+        {
+          "sourceURL": ":claw-slash:",
+          "duration": 0.3,
+          "from": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "color": "FF9978"
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":crack:",
+          "duration": 0.138,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.1
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "amount": [
+            14,
+            20
+          ],
+          "range": 5
+        }
+      ],
+      "cooldown": 8,
+      "costType": "energy",
+      "costAmount": 30
+    }
+  ],
+  "speedFactor": 1.5,
+  "aggroRadius": 20,
+  "basicAttackRange": 3,
+  "basicAttackSchool": "physical",
+  "basicAttackStyle": "claw",
+  "resource": {
+    "name": "energy",
+    "color": "F3E36B",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  }
+}
