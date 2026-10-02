@@ -836,6 +836,6 @@
   "entryPoints": {},
   "openConnections": {
     "cave-2/connection-1": "entrance",
-    "high-cave/entrance": ""
+    "high-cave/entrance": "entrance"
   }
 }
