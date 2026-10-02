@@ -1,0 +1,52 @@
+{
+  "name": "Forest",
+  "description": null,
+  "elvl": 0,
+  "private": false,
+  "maps": [
+    {
+      "$ref": "./passage/passage.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./hub/hub.json",
+      "referenceTo": "map"
+    }
+  ],
+  "unitTypes": {
+    "goblin": {
+      "$ref": "../../../unit_types/goblin.json",
+      "referenceTo": "unit_type"
+    },
+    "demo/goblin-archer": {
+      "$ref": "../../../unit_types/demo/goblin-archer.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-shaman": {
+      "$ref": "../../../unit_types/goblin-shaman.json",
+      "referenceTo": "unit_type"
+    }
+  },
+  "items": {},
+  "zoneLinks": [
+    {
+      "connectionA": {
+        "map": "passage",
+        "connection": "south"
+      },
+      "connectionB": {
+        "map": "hub",
+        "connection": "north"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    }
+  ],
+  "entryPoints": {
+    "hub/central": null
+  },
+  "openConnections": {
+    "hub/southeast": "",
+    "passage/north": ""
+  }
+}
