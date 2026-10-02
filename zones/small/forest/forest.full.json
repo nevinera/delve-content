@@ -2520,7 +2520,7 @@
     "hub/central": null
   },
   "openConnections": {
-    "hub/southeast": "",
-    "passage/north": ""
+    "hub/southeast": "south-exit",
+    "passage/north": "north-exit"
   }
 }
