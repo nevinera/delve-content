@@ -1558,6 +1558,6 @@
   "zoneLinks": [],
   "entryPoints": {},
   "openConnections": {
-    "cave-1/entrance": ""
+    "cave-1/entrance": "entrance"
   }
 }
