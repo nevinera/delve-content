@@ -319,6 +319,46 @@
         "heal"
       ],
       "description": "Take a moment to bind your wounds."
+    },
+    {
+      "name": "Sprint",
+      "description": "Makes you go faster",
+      "castTime": null,
+      "globalCooldown": 1,
+      "tags": [],
+      "graphicEffects": [],
+      "soundEffects": [],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "amount": 10,
+          "range": 5,
+          "duration": 12,
+          "status": {
+            "name": "Sprinting",
+            "shortName": "sprnt",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "movementSpeed",
+                "modifierType": "multiply",
+                "amount": 1.7
+              }
+            ],
+            "description": "Going faster!",
+            "auraEffect": {
+              "sourceURL": ":mist:",
+              "scale": 1.5,
+              "color": "558855"
+            }
+          }
+        }
+      ],
+      "iconURL": ":heal:",
+      "cooldown": 30
     }
   ]
 }
