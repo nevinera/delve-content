@@ -1,0 +1,841 @@
+{
+  "name": "High Cave",
+  "description": null,
+  "elvl": 10,
+  "private": true,
+  "maps": [
+    {
+      "identifier": "high-cave",
+      "name": "High Cave",
+      "elvl": 10,
+      "imageUrl": "high-cave/high-cave.png",
+      "pixelDimensions": {
+        "width": 4217,
+        "height": 3978
+      },
+      "feetDimensions": {
+        "width": 90,
+        "height": 74.27
+      },
+      "lighting": "torchlight",
+      "barriers": [
+        {
+          "type": "wall",
+          "locations": [
+            {
+              "x": 68.5463759341632,
+              "y": 14.460561184963776
+            },
+            {
+              "x": 68.17610778471739,
+              "y": 23.901858812733312
+            },
+            {
+              "x": 64.2912412538949,
+              "y": 24.72424952512578
+            },
+            {
+              "x": 64.90988396730522,
+              "y": 28.25488263929033
+            },
+            {
+              "x": 67.69279316486558,
+              "y": 30.372918531192713
+            },
+            {
+              "x": 66.36244919429038,
+              "y": 32.101114280587694
+            },
+            {
+              "x": 69.34523765836572,
+              "y": 37.89110033831357
+            },
+            {
+              "x": 75.92126552670892,
+              "y": 36.260937918872656
+            },
+            {
+              "x": 82.03757108206763,
+              "y": 39.734241600315514
+            },
+            {
+              "x": 77.99869921474996,
+              "y": 52.653715911309256
+            },
+            {
+              "x": 71.65007497093367,
+              "y": 53.360874463931154
+            },
+            {
+              "x": 65.67073586377704,
+              "y": 51.90413357847332
+            },
+            {
+              "x": 63.53137237020921,
+              "y": 53.18372651682117
+            },
+            {
+              "x": 50.77776448283796,
+              "y": 53.62229667714201
+            },
+            {
+              "x": 45.53502962342838,
+              "y": 47.146650604064874
+            },
+            {
+              "x": 56.96943435180068,
+              "y": 34.14605514576995
+            },
+            {
+              "x": 54.02858776660062,
+              "y": 30.460059268929662
+            },
+            {
+              "x": 49.66597702171442,
+              "y": 31.851157953921184
+            },
+            {
+              "x": 39.94692960515518,
+              "y": 50.17450459326029
+            },
+            {
+              "x": 48.87825610908812,
+              "y": 60.89281533490521
+            },
+            {
+              "x": 47.13209772997602,
+              "y": 68.72401584468642
+            },
+            {
+              "x": 42.45099084238068,
+              "y": 66.67162215325035
+            },
+            {
+              "x": 21.61243045994242,
+              "y": 68.81889605584081
+            },
+            {
+              "x": 15.184182180448841,
+              "y": 63.097418670217344
+            },
+            {
+              "x": 16.625606595857764,
+              "y": 58.32159027733796
+            },
+            {
+              "x": 21.058666590417282,
+              "y": 58.32159027733796
+            },
+            {
+              "x": 21.298849381163986,
+              "y": 54.63702763631571
+            },
+            {
+              "x": 19.956709257155133,
+              "y": 52.32980461643178
+            },
+            {
+              "x": 15.580008662334265,
+              "y": 53.92327619893083
+            }
+          ]
+        },
+        {
+          "type": "wall",
+          "locations": [
+            {
+              "x": 15.580008662334265,
+              "y": 53.92327619893083
+            },
+            {
+              "x": 8.442877095662642,
+              "y": 51.593121405958215
+            },
+            {
+              "x": 6.563028977635591,
+              "y": 45.87049743168032
+            },
+            {
+              "x": 12.28580174760987,
+              "y": 42.76209558951094
+            },
+            {
+              "x": 13.064675545160906,
+              "y": 37.555149862564534
+            },
+            {
+              "x": 7.049620306774544,
+              "y": 36.10815498066939
+            },
+            {
+              "x": 7.152181307461745,
+              "y": 31.81475376414292
+            },
+            {
+              "x": 12.915257601667733,
+              "y": 28.646729311942995
+            },
+            {
+              "x": 12.160631452841466,
+              "y": 23.903865342878568
+            },
+            {
+              "x": 14.958613513122621,
+              "y": 21.39197624817825
+            },
+            {
+              "x": 17.456121331773865,
+              "y": 22.08508908978334
+            },
+            {
+              "x": 20.273108305920378,
+              "y": 20.161686621971043
+            },
+            {
+              "x": 17.854896852017706,
+              "y": 17.208934189641013
+            },
+            {
+              "x": 23.097959382356002,
+              "y": 13.650782947770075
+            },
+            {
+              "x": 28.212902579567487,
+              "y": 15.131602194971018
+            },
+            {
+              "x": 28.94229806688284,
+              "y": 19.28483294849298
+            },
+            {
+              "x": 24.924069468074112,
+              "y": 25.004017156807574
+            },
+            {
+              "x": 28.459311117959736,
+              "y": 33.43115711973063
+            },
+            {
+              "x": 33.75349031317728,
+              "y": 36.62641305247335
+            },
+            {
+              "x": 38.144936099790236,
+              "y": 32.620232293882495
+            },
+            {
+              "x": 32.10923759289495,
+              "y": 29.07211370273784
+            },
+            {
+              "x": 32.32418972213074,
+              "y": 25.170272511700432
+            },
+            {
+              "x": 38.294681714212125,
+              "y": 14.946428127279987
+            },
+            {
+              "x": 41.67493501481646,
+              "y": 14.54311556808299
+            },
+            {
+              "x": 45.95464501473825,
+              "y": 7.988928172177157
+            },
+            {
+              "x": 48.306666941040874,
+              "y": 7.188322644218925
+            },
+            {
+              "x": 48.306666941040874,
+              "y": 7.188322644218925
+            },
+            {
+              "x": 53.662775941785185,
+              "y": 11.454779027366191
+            },
+            {
+              "x": 53.331500632856255,
+              "y": 14.716537102066065
+            },
+            {
+              "x": 57.82485207829898,
+              "y": 14.784185832677645
+            },
+            {
+              "x": 61.8451777710516,
+              "y": 10.826735091900218
+            }
+          ]
+        }
+      ],
+      "connections": [
+        {
+          "identifier": "entrance",
+          "type": "line",
+          "start": {
+            "x": 61.8451777710516,
+            "y": 10.826735091900218
+          },
+          "end": {
+            "x": 68.5463759341632,
+            "y": 14.460561184963776
+          }
+        }
+      ],
+      "units": [
+        {
+          "identifier": "goblin-boss-ypvghv",
+          "unitType": "goblin-boss",
+          "position": {
+            "x": 26.093014245062502,
+            "y": 48.05807151442308,
+            "angle": 0
+          },
+          "hostility": "hostile",
+          "currentHpFraction": 1,
+          "movement": {
+            "type": "still"
+          },
+          "groupIdentifier": "g1",
+          "lootTable": {
+            "warchief-battle-hands": 1,
+            "warchief-embroidered-waist": 1,
+            "warchief-hexweave-feet": 1,
+            "warchief-hexweave-head": 1
+          },
+          "lootCount": 2
+        },
+        {
+          "identifier": "goblin-iofukt",
+          "unitType": "goblin",
+          "position": {
+            "x": 31.450236500220196,
+            "y": 50.55403575721154,
+            "angle": 0
+          },
+          "hostility": "hostile",
+          "currentHpFraction": 1,
+          "movement": {
+            "type": "still"
+          },
+          "groupIdentifier": "g1"
+        },
+        {
+          "identifier": "goblin-cqlpjh",
+          "unitType": "goblin",
+          "position": {
+            "x": 25.74643476447373,
+            "y": 43.74999068509615,
+            "angle": 0
+          },
+          "hostility": "hostile",
+          "currentHpFraction": 1,
+          "movement": {
+            "type": "still"
+          },
+          "groupIdentifier": "g1"
+        },
+        {
+          "identifier": "goblin-shaman-ildcvn",
+          "unitType": "goblin-shaman",
+          "position": {
+            "x": 14.207634013262645,
+            "y": 48.83309885817307,
+            "angle": 0
+          },
+          "hostility": "hostile",
+          "currentHpFraction": 1,
+          "movement": {
+            "type": "still"
+          },
+          "groupIdentifier": "g1"
+        }
+      ],
+      "thumbnailUrl": "high-cave/high-cave.thumb.webp",
+      "leashRadius": 100
+    }
+  ],
+  "unitTypes": {
+    "goblin-boss": {
+      "name": "Goblin Boss",
+      "description": "A hulking goblin chieftain - dangerous and hard to put down.",
+      "tokenImageUrl": [
+        "../../tokens/unit/goblin-boss-1.webp",
+        "../../tokens/unit/goblin-boss-2.webp",
+        "../../tokens/unit/goblin-boss-3.webp"
+      ],
+      "tokenRadius": 3,
+      "speedFactor": 0.9,
+      "maxHP": 800,
+      "dps": 8,
+      "attackSpeed": 0.8,
+      "basicAttackStyle": "axe",
+      "resource": {
+        "name": "energy",
+        "color": "AADD00",
+        "max": 100,
+        "defaultValue": 100,
+        "returnRate": 10,
+        "isFluid": true
+      },
+      "lootTable": {
+        "warchief-battlechestplate": 17,
+        "warchief-savage-breastplate": 17,
+        "warchief-scaled-vest": 17,
+        "warchief-predators-tunic": 17,
+        "warchief-embroidered-robe": 16,
+        "warchief-hexweave-vestments": 16
+      },
+      "lootCount": 1,
+      "targeting": {
+        "type": "aggroTable"
+      },
+      "tactics": {
+        "type": "priorityRotation",
+        "powers": [
+          "Pound",
+          "Enrage"
+        ]
+      },
+      "powers": [
+        {
+          "name": "Enrage",
+          "description": "Flies into a rage, increasing damage and attack speed.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 11,
+          "costType": "energy",
+          "costAmount": 40,
+          "graphicEffects": [],
+          "soundEffects": [
+            {
+              "sourceURL": ":whoomph:",
+              "duration": 1.8,
+              "location": "self",
+              "when": "immediate",
+              "condition": "always",
+              "volumeScale": 0.2
+            }
+          ],
+          "effects": [
+            {
+              "type": "status",
+              "affects": "self",
+              "duration": 6,
+              "status": {
+                "name": "Enraged",
+                "shortName": "Enrage",
+                "treatAs": "buff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "damageDone",
+                    "modifierType": "multiply",
+                    "amount": 1.1
+                  },
+                  {
+                    "type": "stat",
+                    "statName": "attackSpeed",
+                    "modifierType": "multiply",
+                    "amount": 1.2
+                  }
+                ],
+                "auraEffect": {
+                  "sourceURL": ":glow:",
+                  "scale": 1.1,
+                  "color": "#FF0000",
+                  "opacity": 0.3
+                }
+              },
+              "tags": [
+                "buff",
+                "enrage"
+              ]
+            }
+          ],
+          "tags": [
+            "buff",
+            "enrage",
+            "physical"
+          ]
+        },
+        {
+          "name": "Pound",
+          "description": "A powerful blow that dazes the target.",
+          "maxRange": 5,
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 4.5,
+          "costType": "energy",
+          "costAmount": 20,
+          "graphicEffects": [
+            {
+              "sourceURL": "../../graphics/effects/pound-impact.webp",
+              "duration": 0.4,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            },
+            {
+              "sourceURL": "../../graphics/effects/dazed-debuff.webp",
+              "duration": 0.6,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": "../../audio/pound.ogg",
+              "duration": 0.08,
+              "location": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bTarget",
+              "range": 5,
+              "amount": [
+                1,
+                3
+              ],
+              "tags": [
+                "physical",
+                "melee"
+              ]
+            },
+            {
+              "type": "status",
+              "affects": "bTarget",
+              "range": 5,
+              "duration": 3,
+              "status": {
+                "name": "Dazed",
+                "shortName": "Dazed",
+                "treatAs": "debuff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "movementSpeed",
+                    "modifierType": "multiply",
+                    "amount": 0.8
+                  },
+                  {
+                    "type": "stat",
+                    "statName": "strength",
+                    "modifierType": "multiply",
+                    "amount": 0.8
+                  }
+                ]
+              },
+              "tags": [
+                "debuff"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "goblin": {
+      "name": "Goblin",
+      "description": "A scrappy goblin that stabs anything within reach.",
+      "tokenImageUrl": [
+        "../../tokens/unit/goblin-1.webp",
+        "../../tokens/unit/goblin-2.webp",
+        "../../tokens/unit/goblin-3.webp"
+      ],
+      "tokenRadius": 2,
+      "speedFactor": 1,
+      "maxHP": 200,
+      "dps": 4,
+      "attackSpeed": 1,
+      "basicAttackStyle": "sword",
+      "resource": {
+        "name": "energy",
+        "color": "AADD00",
+        "max": 100,
+        "defaultValue": 100,
+        "returnRate": 10,
+        "isFluid": true
+      },
+      "targeting": {
+        "type": "aggroTable"
+      },
+      "tactics": {
+        "type": "randomAvailable"
+      },
+      "powers": [
+        {
+          "name": "Enrage",
+          "description": "Flies into a rage, increasing damage and attack speed.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 11,
+          "costType": "energy",
+          "costAmount": 40,
+          "graphicEffects": [],
+          "soundEffects": [
+            {
+              "sourceURL": ":whoomph:",
+              "duration": 1.8,
+              "location": "self",
+              "when": "immediate",
+              "condition": "always",
+              "volumeScale": 0.2
+            }
+          ],
+          "effects": [
+            {
+              "type": "status",
+              "affects": "self",
+              "duration": 6,
+              "status": {
+                "name": "Enraged",
+                "shortName": "Enrage",
+                "treatAs": "buff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "damageDone",
+                    "modifierType": "multiply",
+                    "amount": 1.1
+                  },
+                  {
+                    "type": "stat",
+                    "statName": "attackSpeed",
+                    "modifierType": "multiply",
+                    "amount": 1.2
+                  }
+                ],
+                "auraEffect": {
+                  "sourceURL": ":glow:",
+                  "scale": 1.1,
+                  "color": "#FF0000",
+                  "opacity": 0.3
+                }
+              },
+              "tags": [
+                "buff",
+                "enrage"
+              ]
+            }
+          ],
+          "tags": [
+            "buff",
+            "enrage",
+            "physical"
+          ]
+        }
+      ]
+    },
+    "goblin-shaman": {
+      "name": "Goblin Shaman",
+      "description": "A goblin channeling crude but effective battle magic.",
+      "tokenImageUrl": [
+        "../../tokens/unit/goblin-shaman.webp"
+      ],
+      "tokenRadius": 2,
+      "speedFactor": 1,
+      "maxHP": 200,
+      "dps": 2.5,
+      "attackSpeed": 1,
+      "basicAttackRange": 25,
+      "basicAttackSchool": "magic",
+      "basicAttackStyle": "fire",
+      "resource": {
+        "name": "mana",
+        "color": "4488FF",
+        "max": 100,
+        "defaultValue": 100,
+        "returnRate": 2,
+        "isFluid": true
+      },
+      "targeting": {
+        "type": "aggroTable"
+      },
+      "tactics": {
+        "type": "priorityRotation",
+        "powers": [
+          "Units/goblins/tangle",
+          "Acid Splash"
+        ]
+      },
+      "powers": [
+        {
+          "name": "Units/goblins/tangle",
+          "description": "Slow down the target",
+          "castTime": null,
+          "globalCooldown": 1.5,
+          "tags": [
+            "slow"
+          ],
+          "graphicEffects": [],
+          "soundEffects": [
+            {
+              "sourceURL": ":displace:",
+              "duration": 0.12,
+              "location": "affected",
+              "when": "immediate",
+              "condition": "always",
+              "volumeScale": 0.2
+            }
+          ],
+          "effects": [
+            {
+              "type": "status",
+              "affects": "bTarget",
+              "amount": 10,
+              "range": [
+                0,
+                40
+              ],
+              "duration": 8,
+              "status": {
+                "name": "entangled",
+                "shortName": "tangl",
+                "treatAs": "debuff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "movementSpeed",
+                    "modifierType": "multiply",
+                    "amount": 0.7
+                  }
+                ],
+                "description": "Entangled and slowed",
+                "maxStacks": null,
+                "auraEffect": {
+                  "sourceURL": ":tendrils:",
+                  "spriteColumns": 5,
+                  "spriteRows": 1,
+                  "spriteFrameRate": 4,
+                  "color": "#33FF55",
+                  "opacity": 0.3,
+                  "scale": 2
+                }
+              }
+            }
+          ],
+          "cooldown": 20,
+          "maxRange": 40,
+          "speed": 30,
+          "costType": "mana",
+          "costAmount": 25
+        },
+        {
+          "name": "Acid Splash",
+          "description": "Spits a glob of corrosive acid at the target.",
+          "maxRange": 25,
+          "castTime": 2,
+          "globalCooldown": 2,
+          "costType": "mana",
+          "costAmount": 15,
+          "graphicEffects": [
+            {
+              "sourceURL": ":splat:",
+              "duration": 0.3,
+              "from": "self",
+              "when": "immediate",
+              "condition": "always",
+              "to": "affected",
+              "color": "#00CA14",
+              "scale": 0.4
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": ":squelch:",
+              "duration": 0.2,
+              "location": "affected",
+              "when": "impact",
+              "condition": "always"
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bTarget",
+              "range": 25,
+              "amount": [
+                4,
+                6
+              ],
+              "school": "magic",
+              "tags": [
+                "acid",
+                "magic"
+              ]
+            }
+          ],
+          "tags": [
+            "harmful",
+            "magic"
+          ],
+          "speed": 30
+        }
+      ]
+    }
+  },
+  "items": {
+    "warchief-battle-hands": {
+      "identifier": "warchief-battle-hands",
+      "name": "Warchief's Battle Gauntlets",
+      "slot": "hands",
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "versatility_rating"
+      ]
+    },
+    "warchief-embroidered-waist": {
+      "identifier": "warchief-embroidered-waist",
+      "name": "Warchief's Embroidered Sash",
+      "slot": "waist",
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "versatility_rating"
+      ]
+    },
+    "warchief-hexweave-feet": {
+      "identifier": "warchief-hexweave-feet",
+      "name": "Warchief's Hexweave Sandals",
+      "slot": "feet",
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating"
+      ]
+    },
+    "warchief-hexweave-head": {
+      "identifier": "warchief-hexweave-head",
+      "name": "Warchief's Hexweave Hood",
+      "slot": "head",
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating",
+        "haste_rating"
+      ]
+    }
+  },
+  "zoneLinks": [],
+  "entryPoints": {},
+  "openConnections": {
+    "high-cave/connection-1": "entrance",
+    "high-cave/entrance": "entrance"
+  }
+}
