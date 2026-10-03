@@ -1,0 +1,11 @@
+{
+  "identifier": "warchief-hexweave-feet",
+  "name": "Warchief's Hexweave Sandals",
+  "slot": "feet",
+  "elvl": 5,
+  "primary": "intellect",
+  "secondaries": [
+    "stamina",
+    "crit_rating"
+  ]
+}

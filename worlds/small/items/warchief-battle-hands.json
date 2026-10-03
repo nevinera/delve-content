@@ -1,0 +1,11 @@
+{
+  "identifier": "warchief-battle-hands",
+  "name": "Warchief's Battle Gauntlets",
+  "slot": "hands",
+  "elvl": 5,
+  "primary": "strength",
+  "secondaries": [
+    "stamina",
+    "versatility_rating"
+  ]
+}

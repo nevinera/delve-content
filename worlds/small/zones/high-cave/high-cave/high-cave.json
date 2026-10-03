@@ -2,7 +2,7 @@
   "identifier": "high-cave",
   "name": "High Cave",
   "elvl": 10,
-  "imageUrl": "cave-2.png",
+  "imageUrl": "high-cave.png",
   "pixelDimensions": {
     "width": 4217,
     "height": 3978
@@ -347,6 +347,6 @@
       "groupIdentifier": "g1"
     }
   ],
-  "thumbnailUrl": "cave-2.thumb.webp",
+  "thumbnailUrl": "high-cave.thumb.webp",
   "leashRadius": 100
 }

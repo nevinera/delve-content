@@ -15,15 +15,19 @@
   ],
   "unitTypes": {
     "goblin": {
-      "$ref": "../../../unit_types/goblin.json",
+      "$ref": "../../unit_types/goblin.json",
       "referenceTo": "unit_type"
     },
-    "demo/goblin-archer": {
-      "$ref": "../../../unit_types/demo/goblin-archer.json",
+    "goblin-archer": {
+      "$ref": "../../unit_types/goblin-archer.json",
       "referenceTo": "unit_type"
     },
     "goblin-shaman": {
-      "$ref": "../../../unit_types/goblin-shaman.json",
+      "$ref": "../../unit_types/goblin-shaman.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-boss": {
+      "$ref": "../../unit_types/goblin-boss.json",
       "referenceTo": "unit_type"
     }
   },

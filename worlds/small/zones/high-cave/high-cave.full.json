@@ -8,7 +8,7 @@
       "identifier": "high-cave",
       "name": "High Cave",
       "elvl": 10,
-      "imageUrl": "cave-2/cave-2.png",
+      "imageUrl": "high-cave/high-cave.png",
       "pixelDimensions": {
         "width": 4217,
         "height": 3978
@@ -353,7 +353,7 @@
           "groupIdentifier": "g1"
         }
       ],
-      "thumbnailUrl": "cave-2/cave-2.thumb.webp",
+      "thumbnailUrl": "high-cave/high-cave.thumb.webp",
       "leashRadius": 100
     }
   ],
@@ -362,9 +362,9 @@
       "name": "Goblin Boss",
       "description": "A hulking goblin chieftain - dangerous and hard to put down.",
       "tokenImageUrl": [
-        "../../../tokens/unit/goblin-boss-1.webp",
-        "../../../tokens/unit/goblin-boss-2.webp",
-        "../../../tokens/unit/goblin-boss-3.webp"
+        "../../tokens/unit/goblin-boss-1.webp",
+        "../../tokens/unit/goblin-boss-2.webp",
+        "../../tokens/unit/goblin-boss-3.webp"
       ],
       "tokenRadius": 3,
       "speedFactor": 0.9,
@@ -473,14 +473,14 @@
           "costAmount": 20,
           "graphicEffects": [
             {
-              "sourceURL": "../../../graphics/effects/pound-impact.webp",
+              "sourceURL": "../../graphics/effects/pound-impact.webp",
               "duration": 0.4,
               "from": "affected",
               "when": "impact",
               "condition": "onHit"
             },
             {
-              "sourceURL": "../../../graphics/effects/dazed-debuff.webp",
+              "sourceURL": "../../graphics/effects/dazed-debuff.webp",
               "duration": 0.6,
               "from": "affected",
               "when": "impact",
@@ -489,7 +489,7 @@
           ],
           "soundEffects": [
             {
-              "sourceURL": "../../../audio/pound.ogg",
+              "sourceURL": "../../audio/pound.ogg",
               "duration": 0.08,
               "location": "affected",
               "when": "impact",
@@ -547,9 +547,9 @@
       "name": "Goblin",
       "description": "A scrappy goblin that stabs anything within reach.",
       "tokenImageUrl": [
-        "../../../tokens/unit/goblin-1.webp",
-        "../../../tokens/unit/goblin-2.webp",
-        "../../../tokens/unit/goblin-3.webp"
+        "../../tokens/unit/goblin-1.webp",
+        "../../tokens/unit/goblin-2.webp",
+        "../../tokens/unit/goblin-3.webp"
       ],
       "tokenRadius": 2,
       "speedFactor": 1,
@@ -640,7 +640,7 @@
       "name": "Goblin Shaman",
       "description": "A goblin channeling crude but effective battle magic.",
       "tokenImageUrl": [
-        "../../../tokens/unit/goblin-shaman.webp"
+        "../../tokens/unit/goblin-shaman.webp"
       ],
       "tokenRadius": 2,
       "speedFactor": 1,
@@ -835,7 +835,7 @@
   "zoneLinks": [],
   "entryPoints": {},
   "openConnections": {
-    "cave-2/connection-1": "entrance",
+    "high-cave/connection-1": "entrance",
     "high-cave/entrance": "entrance"
   }
 }

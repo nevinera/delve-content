@@ -1014,8 +1014,8 @@
               "y": 217.56056622798005
             },
             {
-              "x": 204.33210557066636,
-              "y": 204.75011422260476
+              "x": 201.03476622103625,
+              "y": 204.89688267510806
             },
             {
               "x": 211.00437664498108,
@@ -1026,8 +1026,8 @@
               "y": 206.48295427727547
             },
             {
-              "x": 227.35654510368812,
-              "y": 224.6071001058857
+              "x": 221.93155192562634,
+              "y": 216.11169060491812
             },
             {
               "x": 234.7250986832079,
@@ -1628,7 +1628,7 @@
             "x": 253.1446787831893,
             "y": 199.82023030384437
           },
-          "radius": 9.660931418565783
+          "radius": 8.52543448613766
         }
       ],
       "connections": [
@@ -1696,7 +1696,55 @@
           "hostility": "hostile",
           "currentHpFraction": 1,
           "movement": {
-            "type": "still"
+            "type": "patrol",
+            "choose": "loop",
+            "steps": [
+              {
+                "position": {
+                  "x": 156.52727549411546,
+                  "y": 183.3518790181354,
+                  "angle": 0
+                },
+                "movementRate": 0.5,
+                "waitTime": 1
+              },
+              {
+                "position": {
+                  "x": 169.59328155392757,
+                  "y": 187.94495458139875,
+                  "angle": 0
+                },
+                "movementRate": 0.5,
+                "waitTime": 1
+              },
+              {
+                "position": {
+                  "x": 183.75143730696405,
+                  "y": 178.83309612241274,
+                  "angle": 0
+                },
+                "movementRate": 0.5,
+                "waitTime": 1
+              },
+              {
+                "position": {
+                  "x": 171.45188821392955,
+                  "y": 167.5370258585624,
+                  "angle": 0
+                },
+                "movementRate": 0.5,
+                "waitTime": 1
+              },
+              {
+                "position": {
+                  "x": 141.49740518814028,
+                  "y": 180.48680422257806,
+                  "angle": 0
+                },
+                "movementRate": 0.5,
+                "waitTime": 1
+              }
+            ]
           },
           "groupIdentifier": "g1"
         },
@@ -1964,8 +2012,8 @@
           "groupIdentifier": "g7"
         },
         {
-          "identifier": "demo/goblin-archer-ihtfem",
-          "unitType": "demo/goblin-archer",
+          "identifier": "goblin-archer-ihtfem",
+          "unitType": "goblin-archer",
           "position": {
             "x": 140.87809216707095,
             "y": 174.89176724441052,
@@ -1979,8 +2027,8 @@
           "groupIdentifier": "g1"
         },
         {
-          "identifier": "demo/goblin-archer-hrhuhl",
-          "unitType": "demo/goblin-archer",
+          "identifier": "goblin-archer-hrhuhl",
+          "unitType": "goblin-archer",
           "position": {
             "x": 165.78001059755786,
             "y": 161.96879167422924,
@@ -1994,8 +2042,8 @@
           "groupIdentifier": "g1"
         },
         {
-          "identifier": "demo/goblin-archer-zbeqwg",
-          "unitType": "demo/goblin-archer",
+          "identifier": "goblin-archer-zbeqwg",
+          "unitType": "goblin-archer",
           "position": {
             "x": 245.92697301648627,
             "y": 172.2116281938074,
@@ -2009,8 +2057,8 @@
           "groupIdentifier": "g2"
         },
         {
-          "identifier": "demo/goblin-archer-cownyk",
-          "unitType": "demo/goblin-archer",
+          "identifier": "goblin-archer-cownyk",
+          "unitType": "goblin-archer",
           "position": {
             "x": 327.07860189178194,
             "y": 195.490926551283,
@@ -2024,8 +2072,8 @@
           "groupIdentifier": "g3"
         },
         {
-          "identifier": "demo/goblin-archer-nuzmxv",
-          "unitType": "demo/goblin-archer",
+          "identifier": "goblin-archer-nuzmxv",
+          "unitType": "goblin-archer",
           "position": {
             "x": 320.39176469201254,
             "y": 180.94276972428358,
@@ -2039,8 +2087,8 @@
           "groupIdentifier": "g3"
         },
         {
-          "identifier": "demo/goblin-archer-owdlqh",
-          "unitType": "demo/goblin-archer",
+          "identifier": "goblin-archer-owdlqh",
+          "unitType": "goblin-archer",
           "position": {
             "x": 315.1870941325858,
             "y": 205.45592034795658,
@@ -2054,8 +2102,8 @@
           "groupIdentifier": "g3"
         },
         {
-          "identifier": "demo/goblin-archer-lohfrt",
-          "unitType": "demo/goblin-archer",
+          "identifier": "goblin-archer-lohfrt",
+          "unitType": "goblin-archer",
           "position": {
             "x": 343.7484594778805,
             "y": 119.96558772460769,
@@ -2069,8 +2117,8 @@
           "groupIdentifier": "g4"
         },
         {
-          "identifier": "demo/goblin-archer-ovzeis",
-          "unitType": "demo/goblin-archer",
+          "identifier": "goblin-archer-ovzeis",
+          "unitType": "goblin-archer",
           "position": {
             "x": 272.27157446781507,
             "y": 90.46424447389413,
@@ -2084,8 +2132,8 @@
           "groupIdentifier": "g5"
         },
         {
-          "identifier": "demo/goblin-archer-zfngfw",
-          "unitType": "demo/goblin-archer",
+          "identifier": "goblin-archer-zfngfw",
+          "unitType": "goblin-archer",
           "position": {
             "x": 115.0852345390349,
             "y": 145.17409651687754,
@@ -2137,8 +2185,8 @@
           }
         },
         {
-          "identifier": "demo/goblin-archer-rvjuaq",
-          "unitType": "demo/goblin-archer",
+          "identifier": "goblin-archer-rvjuaq",
+          "unitType": "goblin-archer",
           "position": {
             "x": 55.47201128809085,
             "y": 166.0394493351379,
@@ -2152,8 +2200,8 @@
           "groupIdentifier": "g6"
         },
         {
-          "identifier": "demo/goblin-archer-dswdvq",
-          "unitType": "demo/goblin-archer",
+          "identifier": "goblin-archer-dswdvq",
+          "unitType": "goblin-archer",
           "position": {
             "x": 82.18138826888453,
             "y": 282.7791048482583,
@@ -2231,9 +2279,72 @@
             "speed": 0.3,
             "waitTime": 1
           }
+        },
+        {
+          "identifier": "goblin-boss-mhbeyp",
+          "unitType": "goblin-boss",
+          "position": {
+            "x": 252.23806485046384,
+            "y": 229.70437293927034,
+            "angle": 0
+          },
+          "hostility": "hostile",
+          "currentHpFraction": 1,
+          "movement": {
+            "type": "still"
+          },
+          "groupIdentifier": "group-ngulos"
         }
       ],
-      "thumbnailUrl": "hub/hub.thumb.webp"
+      "thumbnailUrl": "hub/hub.thumb.webp",
+      "ncus": [
+        {
+          "identifier": "greg",
+          "name": "Greg",
+          "tokenImageUrl": "../../tokens/unit/goblin-shaman.webp",
+          "tokenRadius": 2,
+          "position": {
+            "x": 145.02655530144673,
+            "y": 236.58148104708943,
+            "angle": 0
+          },
+          "movement": {
+            "type": "wander",
+            "location": {
+              "x": 145.02655530144673,
+              "y": 236.58148104708943
+            },
+            "radius": 10,
+            "speed": 0.3,
+            "waitTime": 1
+          },
+          "dialogue": {
+            "entry": [
+              {
+                "node": "node-tfsspe"
+              }
+            ],
+            "nodes": {
+              "node-tfsspe": {
+                "text": "hello?",
+                "choices": [
+                  {
+                    "text": "What!?",
+                    "next": "node-koefbc"
+                  },
+                  {
+                    "text": "Shoo.",
+                    "next": "node-koefbc"
+                  }
+                ]
+              },
+              "node-koefbc": {
+                "text": "Ah, never mind."
+              }
+            }
+          }
+        }
+      ]
     }
   ],
   "unitTypes": {
@@ -2241,9 +2352,9 @@
       "name": "Goblin",
       "description": "A scrappy goblin that stabs anything within reach.",
       "tokenImageUrl": [
-        "../../../tokens/unit/goblin-1.webp",
-        "../../../tokens/unit/goblin-2.webp",
-        "../../../tokens/unit/goblin-3.webp"
+        "../../tokens/unit/goblin-1.webp",
+        "../../tokens/unit/goblin-2.webp",
+        "../../tokens/unit/goblin-3.webp"
       ],
       "tokenRadius": 2,
       "speedFactor": 1,
@@ -2330,11 +2441,11 @@
         }
       ]
     },
-    "demo/goblin-archer": {
+    "goblin-archer": {
       "name": "Demo/goblin Archer",
       "description": "basic attack only",
       "tokenImageUrl": [
-        "../../../tokens/unit/goblin-archer.webp"
+        "../../tokens/unit/goblin-archer.webp"
       ],
       "tokenRadius": 2,
       "maxHP": 20,
@@ -2356,7 +2467,7 @@
       "name": "Goblin Shaman",
       "description": "A goblin channeling crude but effective battle magic.",
       "tokenImageUrl": [
-        "../../../tokens/unit/goblin-shaman.webp"
+        "../../tokens/unit/goblin-shaman.webp"
       ],
       "tokenRadius": 2,
       "speedFactor": 1,
@@ -2497,6 +2608,191 @@
             "magic"
           ],
           "speed": 30
+        }
+      ]
+    },
+    "goblin-boss": {
+      "name": "Goblin Boss",
+      "description": "A hulking goblin chieftain - dangerous and hard to put down.",
+      "tokenImageUrl": [
+        "../../tokens/unit/goblin-boss-1.webp",
+        "../../tokens/unit/goblin-boss-2.webp",
+        "../../tokens/unit/goblin-boss-3.webp"
+      ],
+      "tokenRadius": 3,
+      "speedFactor": 0.9,
+      "maxHP": 800,
+      "dps": 8,
+      "attackSpeed": 0.8,
+      "basicAttackStyle": "axe",
+      "resource": {
+        "name": "energy",
+        "color": "AADD00",
+        "max": 100,
+        "defaultValue": 100,
+        "returnRate": 10,
+        "isFluid": true
+      },
+      "lootTable": {
+        "warchief-battlechestplate": 17,
+        "warchief-savage-breastplate": 17,
+        "warchief-scaled-vest": 17,
+        "warchief-predators-tunic": 17,
+        "warchief-embroidered-robe": 16,
+        "warchief-hexweave-vestments": 16
+      },
+      "lootCount": 1,
+      "targeting": {
+        "type": "aggroTable"
+      },
+      "tactics": {
+        "type": "priorityRotation",
+        "powers": [
+          "Pound",
+          "Enrage"
+        ]
+      },
+      "powers": [
+        {
+          "name": "Enrage",
+          "description": "Flies into a rage, increasing damage and attack speed.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 11,
+          "costType": "energy",
+          "costAmount": 40,
+          "graphicEffects": [],
+          "soundEffects": [
+            {
+              "sourceURL": ":whoomph:",
+              "duration": 1.8,
+              "location": "self",
+              "when": "immediate",
+              "condition": "always",
+              "volumeScale": 0.2
+            }
+          ],
+          "effects": [
+            {
+              "type": "status",
+              "affects": "self",
+              "duration": 6,
+              "status": {
+                "name": "Enraged",
+                "shortName": "Enrage",
+                "treatAs": "buff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "damageDone",
+                    "modifierType": "multiply",
+                    "amount": 1.1
+                  },
+                  {
+                    "type": "stat",
+                    "statName": "attackSpeed",
+                    "modifierType": "multiply",
+                    "amount": 1.2
+                  }
+                ],
+                "auraEffect": {
+                  "sourceURL": ":glow:",
+                  "scale": 1.1,
+                  "color": "#FF0000",
+                  "opacity": 0.3
+                }
+              },
+              "tags": [
+                "buff",
+                "enrage"
+              ]
+            }
+          ],
+          "tags": [
+            "buff",
+            "enrage",
+            "physical"
+          ]
+        },
+        {
+          "name": "Pound",
+          "description": "A powerful blow that dazes the target.",
+          "maxRange": 5,
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 4.5,
+          "costType": "energy",
+          "costAmount": 20,
+          "graphicEffects": [
+            {
+              "sourceURL": "../../graphics/effects/pound-impact.webp",
+              "duration": 0.4,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            },
+            {
+              "sourceURL": "../../graphics/effects/dazed-debuff.webp",
+              "duration": 0.6,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": "../../audio/pound.ogg",
+              "duration": 0.08,
+              "location": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bTarget",
+              "range": 5,
+              "amount": [
+                1,
+                3
+              ],
+              "tags": [
+                "physical",
+                "melee"
+              ]
+            },
+            {
+              "type": "status",
+              "affects": "bTarget",
+              "range": 5,
+              "duration": 3,
+              "status": {
+                "name": "Dazed",
+                "shortName": "Dazed",
+                "treatAs": "debuff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "movementSpeed",
+                    "modifierType": "multiply",
+                    "amount": 0.8
+                  },
+                  {
+                    "type": "stat",
+                    "statName": "strength",
+                    "modifierType": "multiply",
+                    "amount": 0.8
+                  }
+                ]
+              },
+              "tags": [
+                "debuff"
+              ]
+            }
+          ]
         }
       ]
     }

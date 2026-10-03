@@ -1,0 +1,93 @@
+{
+  "name": "Goblin",
+  "description": "A scrappy goblin that stabs anything within reach.",
+  "tokenImageUrl": [
+    "../tokens/unit/goblin-1.webp",
+    "../tokens/unit/goblin-2.webp",
+    "../tokens/unit/goblin-3.webp"
+  ],
+  "tokenRadius": 2,
+  "speedFactor": 1,
+  "maxHP": 200,
+  "dps": 4,
+  "attackSpeed": 1,
+  "basicAttackStyle": "sword",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "randomAvailable"
+  },
+  "powers": [
+    {
+      "name": "Enrage",
+      "description": "Flies into a rage, increasing damage and attack speed.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 11,
+      "costType": "energy",
+      "costAmount": 40,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":whoomph:",
+          "duration": 1.8,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.2
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 6,
+          "status": {
+            "name": "Enraged",
+            "shortName": "Enrage",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageDone",
+                "modifierType": "multiply",
+                "amount": 1.1
+              },
+              {
+                "type": "stat",
+                "statName": "attackSpeed",
+                "modifierType": "multiply",
+                "amount": 1.2
+              }
+            ],
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "scale": 1.1,
+              "color": "#FF0000",
+              "opacity": 0.3
+            }
+          },
+          "tags": [
+            "buff",
+            "enrage"
+          ]
+        }
+      ],
+      "tags": [
+        "buff",
+        "enrage",
+        "physical"
+      ]
+    }
+  ]
+}

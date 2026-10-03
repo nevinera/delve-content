@@ -37,8 +37,8 @@
           "y": 217.56056622798005
         },
         {
-          "x": 204.33210557066636,
-          "y": 204.75011422260476
+          "x": 201.03476622103625,
+          "y": 204.89688267510806
         },
         {
           "x": 211.00437664498108,
@@ -49,8 +49,8 @@
           "y": 206.48295427727547
         },
         {
-          "x": 227.35654510368812,
-          "y": 224.6071001058857
+          "x": 221.93155192562634,
+          "y": 216.11169060491812
         },
         {
           "x": 234.7250986832079,
@@ -651,7 +651,7 @@
         "x": 253.1446787831893,
         "y": 199.82023030384437
       },
-      "radius": 9.660931418565783
+      "radius": 8.52543448613766
     }
   ],
   "connections": [
@@ -719,7 +719,55 @@
       "hostility": "hostile",
       "currentHpFraction": 1,
       "movement": {
-        "type": "still"
+        "type": "patrol",
+        "choose": "loop",
+        "steps": [
+          {
+            "position": {
+              "x": 156.52727549411546,
+              "y": 183.3518790181354,
+              "angle": 0
+            },
+            "movementRate": 0.5,
+            "waitTime": 1
+          },
+          {
+            "position": {
+              "x": 169.59328155392757,
+              "y": 187.94495458139875,
+              "angle": 0
+            },
+            "movementRate": 0.5,
+            "waitTime": 1
+          },
+          {
+            "position": {
+              "x": 183.75143730696405,
+              "y": 178.83309612241274,
+              "angle": 0
+            },
+            "movementRate": 0.5,
+            "waitTime": 1
+          },
+          {
+            "position": {
+              "x": 171.45188821392955,
+              "y": 167.5370258585624,
+              "angle": 0
+            },
+            "movementRate": 0.5,
+            "waitTime": 1
+          },
+          {
+            "position": {
+              "x": 141.49740518814028,
+              "y": 180.48680422257806,
+              "angle": 0
+            },
+            "movementRate": 0.5,
+            "waitTime": 1
+          }
+        ]
       },
       "groupIdentifier": "g1"
     },
@@ -987,8 +1035,8 @@
       "groupIdentifier": "g7"
     },
     {
-      "identifier": "demo/goblin-archer-ihtfem",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-ihtfem",
+      "unitType": "goblin-archer",
       "position": {
         "x": 140.87809216707095,
         "y": 174.89176724441052,
@@ -1002,8 +1050,8 @@
       "groupIdentifier": "g1"
     },
     {
-      "identifier": "demo/goblin-archer-hrhuhl",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-hrhuhl",
+      "unitType": "goblin-archer",
       "position": {
         "x": 165.78001059755786,
         "y": 161.96879167422924,
@@ -1017,8 +1065,8 @@
       "groupIdentifier": "g1"
     },
     {
-      "identifier": "demo/goblin-archer-zbeqwg",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-zbeqwg",
+      "unitType": "goblin-archer",
       "position": {
         "x": 245.92697301648627,
         "y": 172.2116281938074,
@@ -1032,8 +1080,8 @@
       "groupIdentifier": "g2"
     },
     {
-      "identifier": "demo/goblin-archer-cownyk",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-cownyk",
+      "unitType": "goblin-archer",
       "position": {
         "x": 327.07860189178194,
         "y": 195.490926551283,
@@ -1047,8 +1095,8 @@
       "groupIdentifier": "g3"
     },
     {
-      "identifier": "demo/goblin-archer-nuzmxv",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-nuzmxv",
+      "unitType": "goblin-archer",
       "position": {
         "x": 320.39176469201254,
         "y": 180.94276972428358,
@@ -1062,8 +1110,8 @@
       "groupIdentifier": "g3"
     },
     {
-      "identifier": "demo/goblin-archer-owdlqh",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-owdlqh",
+      "unitType": "goblin-archer",
       "position": {
         "x": 315.1870941325858,
         "y": 205.45592034795658,
@@ -1077,8 +1125,8 @@
       "groupIdentifier": "g3"
     },
     {
-      "identifier": "demo/goblin-archer-lohfrt",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-lohfrt",
+      "unitType": "goblin-archer",
       "position": {
         "x": 343.7484594778805,
         "y": 119.96558772460769,
@@ -1092,8 +1140,8 @@
       "groupIdentifier": "g4"
     },
     {
-      "identifier": "demo/goblin-archer-ovzeis",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-ovzeis",
+      "unitType": "goblin-archer",
       "position": {
         "x": 272.27157446781507,
         "y": 90.46424447389413,
@@ -1107,8 +1155,8 @@
       "groupIdentifier": "g5"
     },
     {
-      "identifier": "demo/goblin-archer-zfngfw",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-zfngfw",
+      "unitType": "goblin-archer",
       "position": {
         "x": 115.0852345390349,
         "y": 145.17409651687754,
@@ -1160,8 +1208,8 @@
       }
     },
     {
-      "identifier": "demo/goblin-archer-rvjuaq",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-rvjuaq",
+      "unitType": "goblin-archer",
       "position": {
         "x": 55.47201128809085,
         "y": 166.0394493351379,
@@ -1175,8 +1223,8 @@
       "groupIdentifier": "g6"
     },
     {
-      "identifier": "demo/goblin-archer-dswdvq",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-dswdvq",
+      "unitType": "goblin-archer",
       "position": {
         "x": 82.18138826888453,
         "y": 282.7791048482583,
@@ -1254,7 +1302,70 @@
         "speed": 0.3,
         "waitTime": 1
       }
+    },
+    {
+      "identifier": "goblin-boss-mhbeyp",
+      "unitType": "goblin-boss",
+      "position": {
+        "x": 252.23806485046384,
+        "y": 229.70437293927034,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "group-ngulos"
     }
   ],
-  "thumbnailUrl": "hub.thumb.webp"
+  "thumbnailUrl": "hub.thumb.webp",
+  "ncus": [
+    {
+      "identifier": "greg",
+      "name": "Greg",
+      "tokenImageUrl": "../../../tokens/unit/goblin-shaman.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 145.02655530144673,
+        "y": 236.58148104708943,
+        "angle": 0
+      },
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 145.02655530144673,
+          "y": 236.58148104708943
+        },
+        "radius": 10,
+        "speed": 0.3,
+        "waitTime": 1
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "node-tfsspe"
+          }
+        ],
+        "nodes": {
+          "node-tfsspe": {
+            "text": "hello?",
+            "choices": [
+              {
+                "text": "What!?",
+                "next": "node-koefbc"
+              },
+              {
+                "text": "Shoo.",
+                "next": "node-koefbc"
+              }
+            ]
+          },
+          "node-koefbc": {
+            "text": "Ah, never mind."
+          }
+        }
+      }
+    }
+  ]
 }
