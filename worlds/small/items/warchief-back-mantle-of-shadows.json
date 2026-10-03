@@ -1,0 +1,11 @@
+{
+  "identifier": "warchief-back-mantle-of-shadows",
+  "name": "Warchief's Mantle of Shadows",
+  "slot": "back",
+  "elvl": 5,
+  "primary": null,
+  "secondaries": [
+    "stamina",
+    "mastery_rating"
+  ]
+}

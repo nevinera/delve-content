@@ -987,8 +987,8 @@
       "groupIdentifier": "g7"
     },
     {
-      "identifier": "demo/goblin-archer-ihtfem",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-ihtfem",
+      "unitType": "goblin-archer",
       "position": {
         "x": 140.87809216707095,
         "y": 174.89176724441052,
@@ -1002,8 +1002,8 @@
       "groupIdentifier": "g1"
     },
     {
-      "identifier": "demo/goblin-archer-hrhuhl",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-hrhuhl",
+      "unitType": "goblin-archer",
       "position": {
         "x": 165.78001059755786,
         "y": 161.96879167422924,
@@ -1017,8 +1017,8 @@
       "groupIdentifier": "g1"
     },
     {
-      "identifier": "demo/goblin-archer-zbeqwg",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-zbeqwg",
+      "unitType": "goblin-archer",
       "position": {
         "x": 245.92697301648627,
         "y": 172.2116281938074,
@@ -1032,8 +1032,8 @@
       "groupIdentifier": "g2"
     },
     {
-      "identifier": "demo/goblin-archer-cownyk",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-cownyk",
+      "unitType": "goblin-archer",
       "position": {
         "x": 327.07860189178194,
         "y": 195.490926551283,
@@ -1047,8 +1047,8 @@
       "groupIdentifier": "g3"
     },
     {
-      "identifier": "demo/goblin-archer-nuzmxv",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-nuzmxv",
+      "unitType": "goblin-archer",
       "position": {
         "x": 320.39176469201254,
         "y": 180.94276972428358,
@@ -1062,8 +1062,8 @@
       "groupIdentifier": "g3"
     },
     {
-      "identifier": "demo/goblin-archer-owdlqh",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-owdlqh",
+      "unitType": "goblin-archer",
       "position": {
         "x": 315.1870941325858,
         "y": 205.45592034795658,
@@ -1077,8 +1077,8 @@
       "groupIdentifier": "g3"
     },
     {
-      "identifier": "demo/goblin-archer-lohfrt",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-lohfrt",
+      "unitType": "goblin-archer",
       "position": {
         "x": 343.7484594778805,
         "y": 119.96558772460769,
@@ -1092,8 +1092,8 @@
       "groupIdentifier": "g4"
     },
     {
-      "identifier": "demo/goblin-archer-ovzeis",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-ovzeis",
+      "unitType": "goblin-archer",
       "position": {
         "x": 272.27157446781507,
         "y": 90.46424447389413,
@@ -1107,8 +1107,8 @@
       "groupIdentifier": "g5"
     },
     {
-      "identifier": "demo/goblin-archer-zfngfw",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-zfngfw",
+      "unitType": "goblin-archer",
       "position": {
         "x": 115.0852345390349,
         "y": 145.17409651687754,
@@ -1160,8 +1160,8 @@
       }
     },
     {
-      "identifier": "demo/goblin-archer-rvjuaq",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-rvjuaq",
+      "unitType": "goblin-archer",
       "position": {
         "x": 55.47201128809085,
         "y": 166.0394493351379,
@@ -1175,8 +1175,8 @@
       "groupIdentifier": "g6"
     },
     {
-      "identifier": "demo/goblin-archer-dswdvq",
-      "unitType": "demo/goblin-archer",
+      "identifier": "goblin-archer-dswdvq",
+      "unitType": "goblin-archer",
       "position": {
         "x": 82.18138826888453,
         "y": 282.7791048482583,

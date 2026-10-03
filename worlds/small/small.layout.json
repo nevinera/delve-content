@@ -1,14 +1,14 @@
 {
   "positions": {
-    "small/forest": {
+    "forest": {
       "x": 7.18394665165151,
       "y": 7.108677488882581
     },
-    "entryPoint:small/forest/hub/central": {
+    "entryPoint:forest/hub/central": {
       "x": 53.84954618269812,
       "y": -52.779406529420314
     },
-    "small/high-cave": {
+    "high-cave": {
       "x": 56.679447145912974,
       "y": 100.88077643199189
     }

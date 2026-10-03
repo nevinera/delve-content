@@ -7,18 +7,18 @@
     20
   ],
   "zones": {
-    "small/forest": {
-      "path": "../zones/small/forest/forest.json",
+    "forest": {
+      "path": "./zones/forest/forest.json",
       "name": "Forest",
       "description": null
     },
-    "small/high-cave": {
-      "path": "../zones/small/high-cave/high-cave.json",
+    "high-cave": {
+      "path": "./zones/high-cave/high-cave.json",
       "name": "High Cave",
       "description": null
     },
-    "small/low-cave": {
-      "path": "../zones/small/low-cave/low-cave.json",
+    "low-cave": {
+      "path": "./zones/low-cave/low-cave.json",
       "name": "Low Cave",
       "description": null
     }
@@ -26,12 +26,12 @@
   "worldLinks": [
     {
       "zoneA": {
-        "zone": "small/forest",
+        "zone": "forest",
         "kind": "open",
         "connection": "north-exit"
       },
       "zoneB": {
-        "zone": "small/low-cave",
+        "zone": "low-cave",
         "kind": "open",
         "connection": "entrance"
       },
@@ -40,12 +40,12 @@
     },
     {
       "zoneA": {
-        "zone": "small/forest",
+        "zone": "forest",
         "kind": "open",
         "connection": "south-exit"
       },
       "zoneB": {
-        "zone": "small/high-cave",
+        "zone": "high-cave",
         "kind": "open",
         "connection": "entrance"
       },
@@ -54,6 +54,6 @@
     }
   ],
   "entryPoints": {
-    "small/forest/hub/central": null
+    "forest/hub/central": null
   }
 }

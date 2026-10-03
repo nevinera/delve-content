@@ -1,0 +1,11 @@
+{
+  "identifier": "warchief-embroidered-waist",
+  "name": "Warchief's Embroidered Sash",
+  "slot": "waist",
+  "elvl": 5,
+  "primary": "intellect",
+  "secondaries": [
+    "stamina",
+    "versatility_rating"
+  ]
+}

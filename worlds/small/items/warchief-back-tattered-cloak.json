@@ -1,0 +1,11 @@
+{
+  "identifier": "warchief-back-tattered-cloak",
+  "name": "Warchief's Tattered Cloak",
+  "slot": "back",
+  "elvl": 5,
+  "primary": null,
+  "secondaries": [
+    "stamina",
+    "crit_rating"
+  ]
+}

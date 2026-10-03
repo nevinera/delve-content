@@ -11,33 +11,33 @@
   ],
   "unitTypes": {
     "goblin-boss": {
-      "$ref": "../../../unit_types/goblin-boss.json",
+      "$ref": "../../unit_types/goblin-boss.json",
       "referenceTo": "unit_type"
     },
     "goblin": {
-      "$ref": "../../../unit_types/goblin.json",
+      "$ref": "../../unit_types/goblin.json",
       "referenceTo": "unit_type"
     },
     "goblin-shaman": {
-      "$ref": "../../../unit_types/goblin-shaman.json",
+      "$ref": "../../unit_types/goblin-shaman.json",
       "referenceTo": "unit_type"
     }
   },
   "items": {
     "warchief-battle-hands": {
-      "$ref": "../../../items/warchief-battle-hands.json",
+      "$ref": "../../items/warchief-battle-hands.json",
       "referenceTo": "item"
     },
     "warchief-embroidered-waist": {
-      "$ref": "../../../items/warchief-embroidered-waist.json",
+      "$ref": "../../items/warchief-embroidered-waist.json",
       "referenceTo": "item"
     },
     "warchief-hexweave-feet": {
-      "$ref": "../../../items/warchief-hexweave-feet.json",
+      "$ref": "../../items/warchief-hexweave-feet.json",
       "referenceTo": "item"
     },
     "warchief-hexweave-head": {
-      "$ref": "../../../items/warchief-hexweave-head.json",
+      "$ref": "../../items/warchief-hexweave-head.json",
       "referenceTo": "item"
     }
   },
