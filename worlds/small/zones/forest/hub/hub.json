@@ -719,7 +719,55 @@
       "hostility": "hostile",
       "currentHpFraction": 1,
       "movement": {
-        "type": "still"
+        "type": "patrol",
+        "choose": "loop",
+        "steps": [
+          {
+            "position": {
+              "x": 156.52727549411546,
+              "y": 183.3518790181354,
+              "angle": 0
+            },
+            "movementRate": 0.5,
+            "waitTime": 1
+          },
+          {
+            "position": {
+              "x": 169.59328155392757,
+              "y": 187.94495458139875,
+              "angle": 0
+            },
+            "movementRate": 0.5,
+            "waitTime": 1
+          },
+          {
+            "position": {
+              "x": 183.75143730696405,
+              "y": 178.83309612241274,
+              "angle": 0
+            },
+            "movementRate": 0.5,
+            "waitTime": 1
+          },
+          {
+            "position": {
+              "x": 171.45188821392955,
+              "y": 167.5370258585624,
+              "angle": 0
+            },
+            "movementRate": 0.5,
+            "waitTime": 1
+          },
+          {
+            "position": {
+              "x": 141.49740518814028,
+              "y": 180.48680422257806,
+              "angle": 0
+            },
+            "movementRate": 0.5,
+            "waitTime": 1
+          }
+        ]
       },
       "groupIdentifier": "g1"
     },
@@ -1274,7 +1322,7 @@
   "thumbnailUrl": "hub.thumb.webp",
   "ncus": [
     {
-      "identifier": "ncu-teqafn",
+      "identifier": "greg",
       "name": "Greg",
       "tokenImageUrl": "../../../tokens/unit/goblin-shaman.webp",
       "tokenRadius": 2,
@@ -1302,7 +1350,15 @@
         "nodes": {
           "node-tfsspe": {
             "text": "hello?",
-            "next": "node-koefbc"
+            "choices": [
+              {
+                "text": "What!?",
+                "next": "node-koefbc"
+              },
+              {
+                "text": "Shoo."
+              }
+            ]
           },
           "node-koefbc": {
             "text": "Ah, never mind."
