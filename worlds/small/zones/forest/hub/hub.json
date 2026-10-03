@@ -1356,7 +1356,8 @@
                 "next": "node-koefbc"
               },
               {
-                "text": "Shoo."
+                "text": "Shoo.",
+                "next": "node-koefbc"
               }
             ]
           },
