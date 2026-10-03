@@ -20,7 +20,7 @@
     "low-cave": {
       "path": "./zones/low-cave/low-cave.json",
       "name": "Low Cave",
-      "description": null
+      "description": "e5 goblins"
     }
   },
   "worldLinks": [
