@@ -1275,8 +1275,8 @@
   "ncus": [
     {
       "identifier": "ncu-teqafn",
-      "name": "New NCU",
-      "tokenImageUrl": "",
+      "name": "Greg",
+      "tokenImageUrl": "../../../tokens/unit/goblin-shaman.webp",
       "tokenRadius": 2,
       "position": {
         "x": 145.02655530144673,
