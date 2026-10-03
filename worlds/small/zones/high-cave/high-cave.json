@@ -5,7 +5,7 @@
   "private": true,
   "maps": [
     {
-      "$ref": "./cave-2/cave-2.json",
+      "$ref": "./high-cave/high-cave.json",
       "referenceTo": "map"
     }
   ],
@@ -44,7 +44,7 @@
   "zoneLinks": [],
   "entryPoints": {},
   "openConnections": {
-    "cave-2/connection-1": "entrance",
+    "high-cave/connection-1": "entrance",
     "high-cave/entrance": "entrance"
   }
 }
