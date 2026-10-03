@@ -1014,8 +1014,8 @@
               "y": 217.56056622798005
             },
             {
-              "x": 204.33210557066636,
-              "y": 204.75011422260476
+              "x": 201.03476622103625,
+              "y": 204.89688267510806
             },
             {
               "x": 211.00437664498108,
@@ -1026,8 +1026,8 @@
               "y": 206.48295427727547
             },
             {
-              "x": 227.35654510368812,
-              "y": 224.6071001058857
+              "x": 221.93155192562634,
+              "y": 216.11169060491812
             },
             {
               "x": 234.7250986832079,
@@ -1628,7 +1628,7 @@
             "x": 253.1446787831893,
             "y": 199.82023030384437
           },
-          "radius": 9.660931418565783
+          "radius": 8.52543448613766
         }
       ],
       "connections": [
@@ -2231,9 +2231,63 @@
             "speed": 0.3,
             "waitTime": 1
           }
+        },
+        {
+          "identifier": "goblin-boss-mhbeyp",
+          "unitType": "goblin-boss",
+          "position": {
+            "x": 252.23806485046384,
+            "y": 229.70437293927034,
+            "angle": 0
+          },
+          "hostility": "hostile",
+          "currentHpFraction": 1,
+          "movement": {
+            "type": "still"
+          },
+          "groupIdentifier": "group-ngulos"
         }
       ],
-      "thumbnailUrl": "hub/hub.thumb.webp"
+      "thumbnailUrl": "hub/hub.thumb.webp",
+      "ncus": [
+        {
+          "identifier": "ncu-teqafn",
+          "name": "Greg",
+          "tokenImageUrl": "../../tokens/unit/goblin-shaman.webp",
+          "tokenRadius": 2,
+          "position": {
+            "x": 145.02655530144673,
+            "y": 236.58148104708943,
+            "angle": 0
+          },
+          "movement": {
+            "type": "wander",
+            "location": {
+              "x": 145.02655530144673,
+              "y": 236.58148104708943
+            },
+            "radius": 10,
+            "speed": 0.3,
+            "waitTime": 1
+          },
+          "dialogue": {
+            "entry": [
+              {
+                "node": "node-tfsspe"
+              }
+            ],
+            "nodes": {
+              "node-tfsspe": {
+                "text": "hello?",
+                "next": "node-koefbc"
+              },
+              "node-koefbc": {
+                "text": "Ah, never mind."
+              }
+            }
+          }
+        }
+      ]
     }
   ],
   "unitTypes": {
@@ -2497,6 +2551,191 @@
             "magic"
           ],
           "speed": 30
+        }
+      ]
+    },
+    "goblin-boss": {
+      "name": "Goblin Boss",
+      "description": "A hulking goblin chieftain - dangerous and hard to put down.",
+      "tokenImageUrl": [
+        "../../tokens/unit/goblin-boss-1.webp",
+        "../../tokens/unit/goblin-boss-2.webp",
+        "../../tokens/unit/goblin-boss-3.webp"
+      ],
+      "tokenRadius": 3,
+      "speedFactor": 0.9,
+      "maxHP": 800,
+      "dps": 8,
+      "attackSpeed": 0.8,
+      "basicAttackStyle": "axe",
+      "resource": {
+        "name": "energy",
+        "color": "AADD00",
+        "max": 100,
+        "defaultValue": 100,
+        "returnRate": 10,
+        "isFluid": true
+      },
+      "lootTable": {
+        "warchief-battlechestplate": 17,
+        "warchief-savage-breastplate": 17,
+        "warchief-scaled-vest": 17,
+        "warchief-predators-tunic": 17,
+        "warchief-embroidered-robe": 16,
+        "warchief-hexweave-vestments": 16
+      },
+      "lootCount": 1,
+      "targeting": {
+        "type": "aggroTable"
+      },
+      "tactics": {
+        "type": "priorityRotation",
+        "powers": [
+          "Pound",
+          "Enrage"
+        ]
+      },
+      "powers": [
+        {
+          "name": "Enrage",
+          "description": "Flies into a rage, increasing damage and attack speed.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 11,
+          "costType": "energy",
+          "costAmount": 40,
+          "graphicEffects": [],
+          "soundEffects": [
+            {
+              "sourceURL": ":whoomph:",
+              "duration": 1.8,
+              "location": "self",
+              "when": "immediate",
+              "condition": "always",
+              "volumeScale": 0.2
+            }
+          ],
+          "effects": [
+            {
+              "type": "status",
+              "affects": "self",
+              "duration": 6,
+              "status": {
+                "name": "Enraged",
+                "shortName": "Enrage",
+                "treatAs": "buff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "damageDone",
+                    "modifierType": "multiply",
+                    "amount": 1.1
+                  },
+                  {
+                    "type": "stat",
+                    "statName": "attackSpeed",
+                    "modifierType": "multiply",
+                    "amount": 1.2
+                  }
+                ],
+                "auraEffect": {
+                  "sourceURL": ":glow:",
+                  "scale": 1.1,
+                  "color": "#FF0000",
+                  "opacity": 0.3
+                }
+              },
+              "tags": [
+                "buff",
+                "enrage"
+              ]
+            }
+          ],
+          "tags": [
+            "buff",
+            "enrage",
+            "physical"
+          ]
+        },
+        {
+          "name": "Pound",
+          "description": "A powerful blow that dazes the target.",
+          "maxRange": 5,
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 4.5,
+          "costType": "energy",
+          "costAmount": 20,
+          "graphicEffects": [
+            {
+              "sourceURL": "../../graphics/effects/pound-impact.webp",
+              "duration": 0.4,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            },
+            {
+              "sourceURL": "../../graphics/effects/dazed-debuff.webp",
+              "duration": 0.6,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": "../../audio/pound.ogg",
+              "duration": 0.08,
+              "location": "affected",
+              "when": "impact",
+              "condition": "onHit"
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bTarget",
+              "range": 5,
+              "amount": [
+                1,
+                3
+              ],
+              "tags": [
+                "physical",
+                "melee"
+              ]
+            },
+            {
+              "type": "status",
+              "affects": "bTarget",
+              "range": 5,
+              "duration": 3,
+              "status": {
+                "name": "Dazed",
+                "shortName": "Dazed",
+                "treatAs": "debuff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "movementSpeed",
+                    "modifierType": "multiply",
+                    "amount": 0.8
+                  },
+                  {
+                    "type": "stat",
+                    "statName": "strength",
+                    "modifierType": "multiply",
+                    "amount": 0.8
+                  }
+                ]
+              },
+              "tags": [
+                "debuff"
+              ]
+            }
+          ]
         }
       ]
     }
