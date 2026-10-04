@@ -8,8 +8,8 @@
   ],
   "tokenRadius": 3,
   "speedFactor": 0.9,
-  "maxHP": 800,
-  "dps": 8,
+  "maxHP": 750,
+  "dps": 9.5,
   "attackSpeed": 0.8,
   "basicAttackStyle": "axe",
   "resource": {
@@ -181,5 +181,10 @@
         }
       ]
     }
+  ],
+  "tags": [
+    "g1",
+    "solo",
+    "melee"
   ]
 }

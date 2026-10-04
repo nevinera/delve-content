@@ -19,9 +19,12 @@
     {
       "type": "heal",
       "affects": "self",
-      "amount": 300
+      "amount": 75
     }
   ],
-  "tags": ["beneficial", "heal"],
+  "tags": [
+    "beneficial",
+    "heal"
+  ],
   "description": "Take a moment to bind your wounds."
 }
