@@ -6,8 +6,8 @@
   ],
   "tokenRadius": 2,
   "speedFactor": 1,
-  "maxHP": 200,
-  "dps": 2.5,
+  "maxHP": 140,
+  "dps": 2.0,
   "attackSpeed": 1,
   "basicAttackRange": 25,
   "basicAttackSchool": "magic",
@@ -144,5 +144,11 @@
       ],
       "speed": 30
     }
+  ],
+  "tags": [
+    "open",
+    "group",
+    "caster",
+    "debuffs"
   ]
 }

@@ -20,7 +20,7 @@
     {
       "type": "heal",
       "affects": "self",
-      "amount": 20
+      "amount": 10
     },
     {
       "type": "status",
@@ -47,7 +47,7 @@
             "onTick": "heal",
             "school": "magic",
             "tickRate": 2.6,
-            "amount": 50
+            "amount": 15
           }
         ]
       }

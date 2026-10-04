@@ -8,8 +8,8 @@
   ],
   "tokenRadius": 2,
   "speedFactor": 1,
-  "maxHP": 200,
-  "dps": 4,
+  "maxHP": 140,
+  "dps": 3.0,
   "attackSpeed": 1,
   "basicAttackStyle": "sword",
   "resource": {
@@ -89,5 +89,10 @@
         "physical"
       ]
     }
+  ],
+  "tags": [
+    "open",
+    "group",
+    "melee"
   ]
 }

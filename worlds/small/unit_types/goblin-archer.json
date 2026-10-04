@@ -5,8 +5,8 @@
     "../tokens/unit/goblin-archer.webp"
   ],
   "tokenRadius": 2,
-  "maxHP": 20,
-  "dps": 4,
+  "maxHP": 70,
+  "dps": 4.3,
   "attackSpeed": 1,
   "targeting": {
     "type": "aggroTable"
@@ -18,5 +18,11 @@
   "basicAttackRange": 40,
   "aggroRadius": 40,
   "basicAttackSchool": "physical",
-  "basicAttackStyle": "arrow"
+  "basicAttackStyle": "arrow",
+  "tags": [
+    "open",
+    "group",
+    "ranged",
+    "glass"
+  ]
 }

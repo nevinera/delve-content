@@ -45,8 +45,8 @@
       "type": "harm",
       "affects": "bTarget",
       "amount": [
-        89,
-        140
+        33,
+        52
       ],
       "range": 40,
       "tags": [
