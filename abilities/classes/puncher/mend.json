@@ -1,6 +1,6 @@
 {
   "name": "Mend",
-  "iconURL": "../../../graphics/icons/recover.svg",
+  "iconURL": ":heal:",
   "castTime": 1.5,
   "globalCooldown": 1.5,
   "costType": "energy",
