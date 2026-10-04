@@ -1,6 +1,6 @@
 {
   "name": "Punch",
-  "iconURL": "../../../graphics/icons/punch.svg",
+  "iconURL": ":punch:",
   "castTime": null,
   "globalCooldown": 0.5,
   "costType": "energy",

@@ -1,6 +1,6 @@
 {
   "name": "Recover",
-  "iconURL": "../../../graphics/icons/recover.svg",
+  "iconURL": ":regen:",
   "castTime": null,
   "globalCooldown": 1.5,
   "cooldown": 12,

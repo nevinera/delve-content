@@ -1,6 +1,6 @@
 {
   "name": "Firebolt",
-  "iconURL": "../../../graphics/icons/firebolt.svg",
+  "iconURL": ":firebolt:",
   "maxRange": 40,
   "speed": 40,
   "castTime": null,
