@@ -137,12 +137,17 @@
   "primaryStats": [
     "intellect"
   ],
-  "secondaryStats": [
-    "haste_rating",
-    "crit_rating",
-    "mastery_rating",
-    "recovery_rating",
-    "versatility_rating"
+  "statPriorities": [
+    {
+      "name": "hybrid",
+      "secondaryStats": [
+        "haste_rating",
+        "crit_rating",
+        "mastery_rating",
+        "recovery_rating",
+        "versatility_rating"
+      ]
+    }
   ],
   "wields": [
     "staff"
