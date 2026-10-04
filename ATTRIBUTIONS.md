@@ -7,12 +7,6 @@
 AI-generated token images sourced from the "Too Many Tokens" D&D pack by IsThisMyRealName
 (https://github.com/IsThisMyRealName/too-many-tokens-dnd/) - license-free.
 
-## Class Icons
-
-### graphics/icons/
-
-Original SVG icons authored for this project - no third-party attribution required.
-
 ## Sounds
 
 ### audio/
