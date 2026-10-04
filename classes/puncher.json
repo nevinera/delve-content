@@ -13,10 +13,30 @@
       "name": "hybrid",
       "secondaryStats": [
         "crit_rating",
+        "stamina",
+        "haste_rating",
+        "versatility_rating",
+        "defence_rating"
+      ]
+    },
+    {
+      "name": "dps",
+      "secondaryStats": [
+        "crit_rating",
         "haste_rating",
         "mastery_rating",
         "versatility_rating",
         "recovery_rating"
+      ]
+    },
+    {
+      "name": "tank",
+      "secondaryStats": [
+        "defence_rating",
+        "stamina",
+        "versatility_rating",
+        "mastery_rating",
+        "haste_rating"
       ]
     }
   ],

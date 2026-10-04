@@ -142,6 +142,16 @@
       "name": "hybrid",
       "secondaryStats": [
         "haste_rating",
+        "stamina",
+        "crit_rating",
+        "versatility_rating",
+        "defence_rating"
+      ]
+    },
+    {
+      "name": "dps",
+      "secondaryStats": [
+        "haste_rating",
         "crit_rating",
         "mastery_rating",
         "recovery_rating",
