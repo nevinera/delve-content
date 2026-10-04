@@ -2358,8 +2358,8 @@
       ],
       "tokenRadius": 2,
       "speedFactor": 1,
-      "maxHP": 200,
-      "dps": 4,
+      "maxHP": 140,
+      "dps": 3,
       "attackSpeed": 1,
       "basicAttackStyle": "sword",
       "resource": {
@@ -2439,6 +2439,11 @@
             "physical"
           ]
         }
+      ],
+      "tags": [
+        "open",
+        "group",
+        "melee"
       ]
     },
     "goblin-archer": {
@@ -2448,8 +2453,8 @@
         "../../tokens/unit/goblin-archer.webp"
       ],
       "tokenRadius": 2,
-      "maxHP": 20,
-      "dps": 4,
+      "maxHP": 70,
+      "dps": 4.3,
       "attackSpeed": 1,
       "targeting": {
         "type": "aggroTable"
@@ -2461,7 +2466,13 @@
       "basicAttackRange": 40,
       "aggroRadius": 40,
       "basicAttackSchool": "physical",
-      "basicAttackStyle": "arrow"
+      "basicAttackStyle": "arrow",
+      "tags": [
+        "open",
+        "group",
+        "ranged",
+        "glass"
+      ]
     },
     "goblin-shaman": {
       "name": "Goblin Shaman",
@@ -2471,8 +2482,8 @@
       ],
       "tokenRadius": 2,
       "speedFactor": 1,
-      "maxHP": 200,
-      "dps": 2.5,
+      "maxHP": 140,
+      "dps": 2,
       "attackSpeed": 1,
       "basicAttackRange": 25,
       "basicAttackSchool": "magic",
@@ -2609,6 +2620,12 @@
           ],
           "speed": 30
         }
+      ],
+      "tags": [
+        "open",
+        "group",
+        "caster",
+        "debuffs"
       ]
     },
     "goblin-boss": {
@@ -2621,8 +2638,8 @@
       ],
       "tokenRadius": 3,
       "speedFactor": 0.9,
-      "maxHP": 800,
-      "dps": 8,
+      "maxHP": 750,
+      "dps": 9.5,
       "attackSpeed": 0.8,
       "basicAttackStyle": "axe",
       "resource": {
@@ -2794,6 +2811,11 @@
             }
           ]
         }
+      ],
+      "tags": [
+        "g1",
+        "solo",
+        "melee"
       ]
     }
   },
