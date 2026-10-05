@@ -1,0 +1,174 @@
+{
+  "name": "Hexed Wolf",
+  "description": "A witch-touched wolf whose howl saps the strength of anyone who hears it.",
+  "tokenImageUrl": [
+    "../../tokens/unit/wolves/hexed-wolf-1.webp",
+    "../../tokens/unit/wolves/hexed-wolf-2.webp",
+    "../../tokens/unit/wolves/hexed-wolf-3.webp",
+    "../../tokens/unit/wolves/hexed-wolf-4.webp"
+  ],
+  "tokenRadius": 2.25,
+  "speedFactor": 1.2,
+  "maxHP": 195,
+  "dps": 3.1,
+  "attackSpeed": 1.0,
+  "basicAttackSchool": "magic",
+  "basicAttackStyle": "arcane",
+  "resource": {
+    "name": "mana",
+    "color": "4488FF",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 2,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Withering Howl",
+      "Witch Bite"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Witch Bite",
+      "description": "A bite that festers with a curse.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 8,
+      "maxRange": 5,
+      "costType": "mana",
+      "costAmount": 15,
+      "graphicEffects": [
+        {
+          "sourceURL": ":scratch:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "color": "#9B59B6",
+          "scale": 0.6
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":dark:",
+          "duration": 0.648,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            3,
+            4
+          ],
+          "school": "magic"
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 6,
+          "status": {
+            "name": "Festering",
+            "shortName": "Fester",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 1,
+                "onTick": "harm",
+                "amount": 1,
+                "school": "magic"
+              }
+            ],
+            "description": "A cursed wound."
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "curse"
+      ]
+    },
+    {
+      "name": "Withering Howl",
+      "description": "A howl that weakens everyone around it.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 20,
+      "maxRange": 15,
+      "costType": "mana",
+      "costAmount": 20,
+      "graphicEffects": [
+        {
+          "sourceURL": ":ring-faded:",
+          "duration": 0.8,
+          "from": "self",
+          "when": "immediate",
+          "condition": "always",
+          "to": "self",
+          "color": "#9B59B6",
+          "scale": 3.0
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":roar:",
+          "duration": 1.15,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "bAll",
+          "duration": 8,
+          "status": {
+            "name": "Withered",
+            "shortName": "Wither",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageDone",
+                "modifierType": "multiply",
+                "amount": 0.85
+              }
+            ],
+            "description": "Dealing less damage."
+          },
+          "range": 15
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "curse",
+        "aoe"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "pair",
+    "caster",
+    "debuffs"
+  ]
+}

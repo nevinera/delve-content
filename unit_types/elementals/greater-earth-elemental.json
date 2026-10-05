@@ -1,0 +1,231 @@
+{
+  "name": "Greater Earth Elemental",
+  "description": "A walking landslide: slow, enormous, and it shakes the ground.",
+  "tokenImageUrl": [
+    "../../tokens/unit/elementals/greater-earth-elemental-1.webp",
+    "../../tokens/unit/elementals/greater-earth-elemental-2.webp",
+    "../../tokens/unit/elementals/greater-earth-elemental-3.webp",
+    "../../tokens/unit/elementals/greater-earth-elemental-4.webp"
+  ],
+  "tokenRadius": 5.0,
+  "speedFactor": 0.8,
+  "maxHP": 600,
+  "dps": 3.1,
+  "attackSpeed": 0.6,
+  "basicAttackStyle": "club",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Stoneskin",
+      "Quake",
+      "Boulder Toss"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Boulder Toss",
+      "description": "Hurls a boulder that shatters on impact.",
+      "castTime": 1.0,
+      "globalCooldown": 1.0,
+      "cooldown": 10,
+      "maxRange": 30,
+      "speed": 25,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":pixel-swirling-orb:",
+          "duration": 0.5,
+          "from": "self",
+          "when": "immediate",
+          "condition": "always",
+          "to": "affected",
+          "color": "#8B6B45",
+          "scale": 0.8,
+          "spriteColumns": 6,
+          "spriteRows": 1,
+          "spriteFrameRate": 8
+        },
+        {
+          "sourceURL": ":splat:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "always",
+          "color": "#B08D57",
+          "scale": 1.2
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":rock-hit:",
+          "duration": 0.636,
+          "location": "affected",
+          "when": "impact",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 30,
+          "amount": [
+            6,
+            8
+          ],
+          "school": "physical",
+          "tags": [
+            "earth"
+          ],
+          "radius": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical"
+      ]
+    },
+    {
+      "name": "Quake",
+      "description": "Stamps the ground, shaking everyone around it.",
+      "castTime": 1.0,
+      "globalCooldown": 1.0,
+      "cooldown": 14,
+      "maxRange": 12,
+      "costType": "energy",
+      "costAmount": 30,
+      "graphicEffects": [
+        {
+          "sourceURL": ":ring:",
+          "duration": 0.8,
+          "from": "self",
+          "when": "immediate",
+          "condition": "always",
+          "to": "self",
+          "color": "#B08D57",
+          "scale": 3.5
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":rumble:",
+          "duration": 3.517,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.6
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bAll",
+          "range": 12,
+          "amount": [
+            5,
+            7
+          ],
+          "tags": [
+            "earth"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bAll",
+          "duration": 4,
+          "status": {
+            "name": "Staggered",
+            "shortName": "Stagr",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "movementSpeed",
+                "modifierType": "multiply",
+                "amount": 0.7
+              }
+            ],
+            "description": "Moving slower."
+          },
+          "range": 12
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "aoe",
+        "slow"
+      ]
+    },
+    {
+      "name": "Stoneskin",
+      "description": "Hardens its surface.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 25,
+      "costType": "energy",
+      "costAmount": 20,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":rumble:",
+          "duration": 3.517,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.4
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 8,
+          "status": {
+            "name": "Stoneskin",
+            "shortName": "Stone",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageTaken",
+                "modifierType": "multiply",
+                "amount": 0.7
+              }
+            ],
+            "description": "Taking less damage.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#B08D57",
+              "opacity": 0.35,
+              "scale": 1.1
+            }
+          }
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "solo",
+    "melee",
+    "tough"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "name": "Dire Wolf",
+  "description": "A huge, shaggy wolf: slow to bring down, and it doesn't let go.",
+  "tokenImageUrl": [
+    "../../tokens/unit/wolves/dire-wolf-1.webp",
+    "../../tokens/unit/wolves/dire-wolf-2.webp",
+    "../../tokens/unit/wolves/dire-wolf-3.webp"
+  ],
+  "tokenRadius": 3.5,
+  "speedFactor": 1.2,
+  "maxHP": 390,
+  "dps": 1.8,
+  "attackSpeed": 1.0,
+  "basicAttackStyle": "claw",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Thick Hide",
+      "Maul"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Maul",
+      "description": "A heavy, tearing bite.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 8,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":claw-slash:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "scale": 0.8
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":bloody-blade:",
+          "duration": 0.869,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            5,
+            7
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical"
+      ]
+    },
+    {
+      "name": "Thick Hide",
+      "description": "Hunkers down behind its shaggy coat.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 18,
+      "costType": "energy",
+      "costAmount": 20,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":roar:",
+          "duration": 1.15,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.3
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 6,
+          "status": {
+            "name": "Thick Hide",
+            "shortName": "Hide",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageTaken",
+                "modifierType": "multiply",
+                "amount": 0.8
+              }
+            ],
+            "description": "Taking less damage.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#9A7B55",
+              "opacity": 0.35,
+              "scale": 1.1
+            }
+          }
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "pair",
+    "melee",
+    "tough"
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "name": "Greater Fire Elemental",
+  "description": "A towering column of living flame that sets the ground and everyone near it on fire.",
+  "tokenImageUrl": [
+    "../../tokens/unit/elementals/greater-fire-elemental-1.webp",
+    "../../tokens/unit/elementals/greater-fire-elemental-2.webp",
+    "../../tokens/unit/elementals/greater-fire-elemental-3.webp",
+    "../../tokens/unit/elementals/greater-fire-elemental-4.webp"
+  ],
+  "tokenRadius": 4.5,
+  "speedFactor": 1.0,
+  "maxHP": 300,
+  "dps": 6.4,
+  "attackSpeed": 0.7,
+  "basicAttackRange": 30,
+  "basicAttackSchool": "magic",
+  "basicAttackStyle": "fire",
+  "resource": {
+    "name": "mana",
+    "color": "4488FF",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 2,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Searing Heat",
+      "Flame Wave",
+      "Fireball"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Fireball",
+      "description": "A fireball that bursts on whoever it hits and everyone around them.",
+      "castTime": 1.5,
+      "globalCooldown": 1.5,
+      "cooldown": 7,
+      "maxRange": 30,
+      "speed": 30,
+      "costType": "mana",
+      "costAmount": 20,
+      "graphicEffects": [
+        {
+          "sourceURL": ":magic-ball:",
+          "duration": 0.5,
+          "from": "self",
+          "when": "immediate",
+          "condition": "always",
+          "to": "affected",
+          "color": "#FF8A3D",
+          "scale": 0.7,
+          "spriteColumns": 3,
+          "spriteRows": 3,
+          "spriteFrameRate": 12
+        },
+        {
+          "sourceURL": ":radial-burst:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "always",
+          "color": "#FF7A1A",
+          "scale": 1.5
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":fire-cast:",
+          "duration": 0.59,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        },
+        {
+          "sourceURL": ":boom:",
+          "duration": 0.2,
+          "location": "affected",
+          "when": "impact",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 30,
+          "amount": [
+            7,
+            9
+          ],
+          "school": "magic",
+          "tags": [
+            "fire"
+          ],
+          "radius": 6
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "fire"
+      ]
+    },
+    {
+      "name": "Flame Wave",
+      "description": "A wave of fire rolls out around it, setting everyone alight.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 14,
+      "maxRange": 12,
+      "costType": "mana",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":swirling-fire:",
+          "duration": 0.8,
+          "from": "self",
+          "when": "immediate",
+          "condition": "always",
+          "to": "self",
+          "color": "#FF7A1A",
+          "scale": 3.0,
+          "spriteColumns": 11,
+          "spriteRows": 11,
+          "spriteFrameRate": 24
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":crackle:",
+          "duration": 2.444,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bAll",
+          "range": 12,
+          "amount": [
+            5,
+            7
+          ],
+          "school": "magic",
+          "tags": [
+            "fire"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bAll",
+          "duration": 4,
+          "status": {
+            "name": "Burning",
+            "shortName": "Burn",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 1,
+                "onTick": "harm",
+                "amount": 1,
+                "school": "magic"
+              }
+            ],
+            "description": "On fire."
+          },
+          "range": 12
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "fire",
+        "aoe"
+      ]
+    },
+    {
+      "name": "Searing Heat",
+      "description": "Burns hotter for a while.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 25,
+      "costType": "mana",
+      "costAmount": 15,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":whoomph:",
+          "duration": 1.8,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.4
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 8,
+          "status": {
+            "name": "Searing",
+            "shortName": "Sear",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageDone",
+                "modifierType": "multiply",
+                "amount": 1.2
+              }
+            ],
+            "description": "Dealing more damage.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#FF7A1A",
+              "opacity": 0.4,
+              "scale": 1.3
+            }
+          }
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "solo",
+    "caster"
+  ]
+}

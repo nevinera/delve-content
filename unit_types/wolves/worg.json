@@ -1,0 +1,162 @@
+{
+  "name": "Worg",
+  "description": "A cunning, malicious wolf; goblins and orcs ride them to war.",
+  "tokenImageUrl": [
+    "../../tokens/unit/wolves/worg-1.webp",
+    "../../tokens/unit/wolves/worg-2.webp",
+    "../../tokens/unit/wolves/worg-3.webp",
+    "../../tokens/unit/wolves/worg-4.webp"
+  ],
+  "tokenRadius": 2.5,
+  "speedFactor": 1.3,
+  "maxHP": 195,
+  "dps": 3.8,
+  "attackSpeed": 1.2,
+  "basicAttackStyle": "claw",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Snarl",
+      "Savage Bite"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Savage Bite",
+      "description": "A ripping bite that leaves the target bleeding.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 9,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 30,
+      "graphicEffects": [
+        {
+          "sourceURL": ":claw-slash:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "color": "#C0392B",
+          "scale": 0.7
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":bloody-blade:",
+          "duration": 0.869,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            5,
+            7
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 6,
+          "status": {
+            "name": "Bleeding",
+            "shortName": "Bleed",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 1,
+                "onTick": "harm",
+                "amount": 1,
+                "school": "physical"
+              }
+            ],
+            "description": "Bleeding."
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "bleed"
+      ]
+    },
+    {
+      "name": "Snarl",
+      "description": "A menacing snarl that shakes the target's nerve.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 20,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 15,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":roar:",
+          "duration": 1.15,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.4
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 8,
+          "status": {
+            "name": "Shaken",
+            "shortName": "Shaken",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageDone",
+                "modifierType": "multiply",
+                "amount": 0.9
+              }
+            ],
+            "description": "Dealing less damage."
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "fear"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "pair",
+    "melee"
+  ]
+}
