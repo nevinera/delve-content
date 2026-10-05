@@ -1,0 +1,166 @@
+{
+  "name": "Frost Wolf",
+  "description": "A white wolf whose breath freezes everything near it.",
+  "tokenImageUrl": [
+    "../../tokens/unit/wolves/frost-wolf-1.webp",
+    "../../tokens/unit/wolves/frost-wolf-2.webp",
+    "../../tokens/unit/wolves/frost-wolf-3.webp"
+  ],
+  "tokenRadius": 3.0,
+  "speedFactor": 1.2,
+  "maxHP": 300,
+  "dps": 5.5,
+  "attackSpeed": 1.0,
+  "basicAttackSchool": "magic",
+  "basicAttackStyle": "ice",
+  "resource": {
+    "name": "mana",
+    "color": "4488FF",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 2,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Frost Breath",
+      "Ice Fang"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Ice Fang",
+      "description": "A bite that freezes the wound.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 5,
+      "maxRange": 5,
+      "costType": "mana",
+      "costAmount": 10,
+      "graphicEffects": [
+        {
+          "sourceURL": ":star-diamond:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "color": "#A8E4FF",
+          "scale": 0.7
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":ice-cast:",
+          "duration": 1.17,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            9,
+            12
+          ],
+          "school": "magic",
+          "tags": [
+            "frost"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "frost"
+      ]
+    },
+    {
+      "name": "Frost Breath",
+      "description": "Breathes frost on everyone around it, chilling them.",
+      "castTime": 1.0,
+      "globalCooldown": 1.0,
+      "cooldown": 12,
+      "maxRange": 12,
+      "costType": "mana",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":cloud:",
+          "duration": 0.8,
+          "from": "self",
+          "when": "immediate",
+          "condition": "always",
+          "to": "self",
+          "color": "#BFE9FF",
+          "scale": 2.5
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":shatter:",
+          "duration": 0.918,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bAll",
+          "range": 12,
+          "amount": [
+            7,
+            9
+          ],
+          "school": "magic",
+          "tags": [
+            "frost"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bAll",
+          "duration": 4,
+          "status": {
+            "name": "Chilled",
+            "shortName": "Chill",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "movementSpeed",
+                "modifierType": "multiply",
+                "amount": 0.7
+              }
+            ],
+            "description": "Moving slower."
+          },
+          "range": 12
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "frost",
+        "aoe"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "solo",
+    "caster"
+  ]
+}

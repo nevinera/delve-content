@@ -1,0 +1,177 @@
+{
+  "name": "Minor Earth Elemental",
+  "description": "A lump of animated rock: slow, stubborn, and hard to break.",
+  "tokenImageUrl": [
+    "../../tokens/unit/elementals/minor-earth-elemental-1.webp",
+    "../../tokens/unit/elementals/minor-earth-elemental-2.webp",
+    "../../tokens/unit/elementals/minor-earth-elemental-3.webp",
+    "../../tokens/unit/elementals/minor-earth-elemental-4.webp"
+  ],
+  "tokenRadius": 2.0,
+  "speedFactor": 0.8,
+  "maxHP": 390,
+  "dps": 1.9,
+  "attackSpeed": 0.8,
+  "basicAttackStyle": "club",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Stoneskin",
+      "Rock Slam"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Rock Slam",
+      "description": "A stony slam that rattles the target.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 10,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":splat:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "color": "#B08D57",
+          "scale": 0.7
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":rock-hit:",
+          "duration": 0.636,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.6
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            5,
+            7
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 3,
+          "status": {
+            "name": "Dazed",
+            "shortName": "Dazed",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "attackSpeed",
+                "modifierType": "multiply",
+                "amount": 0.8
+              },
+              {
+                "type": "stat",
+                "statName": "movementSpeed",
+                "modifierType": "multiply",
+                "amount": 0.7
+              }
+            ],
+            "description": "Attacking and moving slower.",
+            "auraEffect": {
+              "sourceURL": ":star-x:",
+              "color": "#FFE066",
+              "opacity": 0.5,
+              "scale": 0.6
+            }
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "daze"
+      ]
+    },
+    {
+      "name": "Stoneskin",
+      "description": "Hardens its surface.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 18,
+      "costType": "energy",
+      "costAmount": 20,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":rumble:",
+          "duration": 3.517,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.4
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 6,
+          "status": {
+            "name": "Stoneskin",
+            "shortName": "Stone",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageTaken",
+                "modifierType": "multiply",
+                "amount": 0.7
+              }
+            ],
+            "description": "Taking less damage.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#B08D57",
+              "opacity": 0.35,
+              "scale": 1.1
+            }
+          }
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "pair",
+    "melee",
+    "tough"
+  ]
+}

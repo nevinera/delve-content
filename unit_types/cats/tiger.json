@@ -1,0 +1,165 @@
+{
+  "name": "Tiger",
+  "description": "A striped hunter that tears its prey apart and gets faster as it goes.",
+  "tokenImageUrl": [
+    "../../tokens/unit/cats/tiger-1.webp",
+    "../../tokens/unit/cats/tiger-2.webp",
+    "../../tokens/unit/cats/tiger-3.webp",
+    "../../tokens/unit/cats/tiger-4.webp"
+  ],
+  "tokenRadius": 3.0,
+  "speedFactor": 1.3,
+  "maxHP": 300,
+  "dps": 6.0,
+  "attackSpeed": 1.3,
+  "basicAttackStyle": "claw",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Ferocity",
+      "Rend"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Rend",
+      "description": "Rips into the target, leaving it bleeding.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 8,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 30,
+      "graphicEffects": [
+        {
+          "sourceURL": ":claw-slash:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "color": "#E67E22",
+          "scale": 0.9
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":bloody-blade:",
+          "duration": 0.869,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            7,
+            9
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 6,
+          "status": {
+            "name": "Rent",
+            "shortName": "Rend",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 1,
+                "onTick": "harm",
+                "amount": 2,
+                "school": "physical"
+              }
+            ],
+            "description": "Bleeding."
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "bleed"
+      ]
+    },
+    {
+      "name": "Ferocity",
+      "description": "Works itself into a frenzy, attacking faster.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 16,
+      "costType": "energy",
+      "costAmount": 20,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":roar:",
+          "duration": 1.15,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.4
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 6,
+          "status": {
+            "name": "Ferocious",
+            "shortName": "Feroc",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "attackSpeed",
+                "modifierType": "multiply",
+                "amount": 1.25
+              }
+            ],
+            "description": "Attacking faster.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#E67E22",
+              "opacity": 0.35,
+              "scale": 1.1
+            }
+          }
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "solo",
+    "melee"
+  ]
+}

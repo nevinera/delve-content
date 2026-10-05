@@ -1,0 +1,172 @@
+{
+  "name": "Minor Fire Elemental",
+  "description": "A flickering spirit of flame that burns itself out fast, and bursts when it does.",
+  "tokenImageUrl": [
+    "../../tokens/unit/elementals/minor-fire-elemental-1.webp",
+    "../../tokens/unit/elementals/minor-fire-elemental-2.webp",
+    "../../tokens/unit/elementals/minor-fire-elemental-3.webp",
+    "../../tokens/unit/elementals/minor-fire-elemental-4.webp"
+  ],
+  "tokenRadius": 1.5,
+  "speedFactor": 1.1,
+  "maxHP": 70,
+  "dps": 2.6,
+  "attackSpeed": 0.8,
+  "basicAttackRange": 25,
+  "basicAttackSchool": "magic",
+  "basicAttackStyle": "fire",
+  "resource": {
+    "name": "mana",
+    "color": "4488FF",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 2,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Fire Bolt"
+    ]
+  },
+  "onDeath": "Flare Out",
+  "powers": [
+    {
+      "name": "Fire Bolt",
+      "description": "A bolt of fire that sets the target alight.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 6,
+      "maxRange": 25,
+      "speed": 30,
+      "costType": "mana",
+      "costAmount": 15,
+      "graphicEffects": [
+        {
+          "sourceURL": ":magic-ball:",
+          "duration": 0.5,
+          "from": "self",
+          "when": "immediate",
+          "condition": "always",
+          "to": "affected",
+          "color": "#FF8A3D",
+          "scale": 0.4,
+          "spriteColumns": 3,
+          "spriteRows": 3,
+          "spriteFrameRate": 12
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":fire-cast:",
+          "duration": 0.59,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 25,
+          "amount": [
+            4,
+            6
+          ],
+          "school": "magic",
+          "tags": [
+            "fire"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 4,
+          "status": {
+            "name": "Burning",
+            "shortName": "Burn",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 1,
+                "onTick": "harm",
+                "amount": 1,
+                "school": "magic"
+              }
+            ],
+            "description": "On fire."
+          },
+          "range": 25
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "fire"
+      ]
+    },
+    {
+      "name": "Flare Out",
+      "description": "Bursts into flame when it dies, scorching everyone close by.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 60,
+      "maxRange": 6,
+      "graphicEffects": [
+        {
+          "sourceURL": ":radial-burst:",
+          "duration": 0.8,
+          "from": "self",
+          "when": "immediate",
+          "condition": "always",
+          "to": "self",
+          "color": "#FF7A1A",
+          "scale": 1.5
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":boom:",
+          "duration": 0.2,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bAll",
+          "range": 6,
+          "amount": [
+            4,
+            6
+          ],
+          "school": "magic",
+          "tags": [
+            "fire"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "fire",
+        "aoe"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "group",
+    "caster",
+    "glass"
+  ]
+}

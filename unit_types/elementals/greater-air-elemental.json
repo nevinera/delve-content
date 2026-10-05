@@ -1,0 +1,235 @@
+{
+  "name": "Greater Air Elemental",
+  "description": "A howling storm given form: fragile, fast and dangerous.",
+  "tokenImageUrl": [
+    "../../tokens/unit/elementals/greater-air-elemental-1.webp",
+    "../../tokens/unit/elementals/greater-air-elemental-2.webp",
+    "../../tokens/unit/elementals/greater-air-elemental-3.webp",
+    "../../tokens/unit/elementals/greater-air-elemental-4.webp"
+  ],
+  "tokenRadius": 4.5,
+  "speedFactor": 1.3,
+  "maxHP": 150,
+  "dps": 8.2,
+  "attackSpeed": 1.0,
+  "basicAttackRange": 30,
+  "basicAttackSchool": "magic",
+  "basicAttackStyle": "arcane",
+  "resource": {
+    "name": "mana",
+    "color": "4488FF",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 2,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Cyclone",
+      "Whirlwind",
+      "Lightning Bolt"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Lightning Bolt",
+      "description": "A crackling bolt of lightning.",
+      "castTime": 1.0,
+      "globalCooldown": 1.0,
+      "cooldown": 6,
+      "maxRange": 30,
+      "speed": 60,
+      "costType": "mana",
+      "costAmount": 15,
+      "graphicEffects": [
+        {
+          "sourceURL": ":static-lightning:",
+          "duration": 0.5,
+          "from": "self",
+          "when": "immediate",
+          "condition": "always",
+          "to": "affected",
+          "color": "#FFE066",
+          "scale": 0.8
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":thunder:",
+          "duration": 1.607,
+          "location": "affected",
+          "when": "impact",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 30,
+          "amount": [
+            10,
+            13
+          ],
+          "school": "magic",
+          "tags": [
+            "lightning"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "lightning"
+      ]
+    },
+    {
+      "name": "Whirlwind",
+      "description": "A whirlwind tears at everyone around it.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 12,
+      "maxRange": 10,
+      "costType": "mana",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":swirling-burst:",
+          "duration": 0.8,
+          "from": "self",
+          "when": "immediate",
+          "condition": "always",
+          "to": "self",
+          "color": "#D6F5FF",
+          "scale": 3.0,
+          "spriteColumns": 5,
+          "spriteRows": 1,
+          "spriteFrameRate": 8
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":swing-heavy:",
+          "duration": 0.775,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.6
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bAll",
+          "range": 10,
+          "amount": [
+            7,
+            9
+          ],
+          "school": "magic",
+          "tags": [
+            "air"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bAll",
+          "duration": 3,
+          "status": {
+            "name": "Buffeted",
+            "shortName": "Buffet",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "movementSpeed",
+                "modifierType": "multiply",
+                "amount": 0.7
+              }
+            ],
+            "description": "Moving slower."
+          },
+          "range": 10
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "aoe"
+      ]
+    },
+    {
+      "name": "Cyclone",
+      "description": "Wraps the target in a cyclone, slowing everything it does.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 18,
+      "maxRange": 30,
+      "costType": "mana",
+      "costAmount": 20,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":dash:",
+          "duration": 0.729,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 5,
+          "status": {
+            "name": "Cycloned",
+            "shortName": "Cyclon",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "attackSpeed",
+                "modifierType": "multiply",
+                "amount": 0.7
+              },
+              {
+                "type": "stat",
+                "statName": "movementSpeed",
+                "modifierType": "multiply",
+                "amount": 0.5
+              }
+            ],
+            "description": "Attacking and moving slower.",
+            "auraEffect": {
+              "sourceURL": ":swirling-burst:",
+              "color": "#D6F5FF",
+              "opacity": 0.4,
+              "scale": 1.3
+            }
+          },
+          "range": 30
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "slow"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "solo",
+    "caster",
+    "glass"
+  ]
+}
