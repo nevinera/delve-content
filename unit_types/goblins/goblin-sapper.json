@@ -1,6 +1,6 @@
 {
   "name": "Goblin Sapper",
-  "description": "Throws bombs, badly but enthusiastically.",
+  "description": "Throws bombs, badly but enthusiastically, and explodes when killed.",
   "tokenImageUrl": [
     "../../tokens/unit/goblins/goblin-sapper-1.webp",
     "../../tokens/unit/goblins/goblin-sapper-2.webp",
@@ -26,34 +26,16 @@
     "type": "aggroTable"
   },
   "tactics": {
-    "type": "phased",
-    "phases": [
-      {
-        "tactics": {
-          "type": "priorityRotation",
-          "powers": [
-            "Firebomb"
-          ]
-        },
-        "transition": {
-          "healthBelow": 0.3
-        }
-      },
-      {
-        "tactics": {
-          "type": "priorityRotation",
-          "powers": [
-            "Last Fuse",
-            "Firebomb"
-          ]
-        }
-      }
+    "type": "priorityRotation",
+    "powers": [
+      "Firebomb"
     ]
   },
+  "onDeath": "Last Fuse",
   "powers": [
     {
       "name": "Firebomb",
-      "description": "A lit bomb that bursts into flame.",
+      "description": "A lit bomb that bursts into flame, splashing everyone near where it lands.",
       "castTime": 1.0,
       "globalCooldown": 1.0,
       "cooldown": 9,
@@ -113,7 +95,8 @@
           "school": "magic",
           "tags": [
             "fire"
-          ]
+          ],
+          "radius": 6
         },
         {
           "type": "status",
@@ -152,18 +135,17 @@
     },
     {
       "name": "Last Fuse",
-      "description": "Lights everything it has left, blasting everyone close by.",
+      "description": "Explodes when killed, blasting everyone close by.",
       "castTime": null,
       "globalCooldown": 1.0,
       "cooldown": 60,
       "maxRange": 10,
-      "costType": "energy",
-      "costAmount": 20,
       "graphicEffects": [
         {
           "sourceURL": ":swirling-fire:",
           "duration": 0.8,
           "from": "self",
+          "to": "self",
           "when": "immediate",
           "condition": "always",
           "color": "#FF7A1A",
