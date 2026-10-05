@@ -1,0 +1,204 @@
+{
+  "name": "Panther",
+  "description": "A black hunting cat that strikes from the shadows and goes for the throat.",
+  "tokenImageUrl": [
+    "../tokens/unit/cats/panther-1.webp",
+    "../tokens/unit/cats/panther-2.webp",
+    "../tokens/unit/cats/panther-3.webp",
+    "../tokens/unit/cats/panther-4.webp"
+  ],
+  "tokenRadius": 2.25,
+  "speedFactor": 1.4,
+  "maxHP": 150,
+  "dps": 7.2,
+  "attackSpeed": 1.5,
+  "basicAttackStyle": "claw",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Pounce",
+      "Rake"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Pounce",
+      "description": "Leaps onto the target, knocking it off balance.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 12,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 30,
+      "graphicEffects": [
+        {
+          "sourceURL": ":claw-slash:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "scale": 0.9
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":dash:",
+          "duration": 0.729,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        },
+        {
+          "sourceURL": ":punch-hit:",
+          "duration": 0.823,
+          "location": "affected",
+          "when": "impact",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            16,
+            20
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 3,
+          "status": {
+            "name": "Dazed",
+            "shortName": "Dazed",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "attackSpeed",
+                "modifierType": "multiply",
+                "amount": 0.8
+              },
+              {
+                "type": "stat",
+                "statName": "movementSpeed",
+                "modifierType": "multiply",
+                "amount": 0.7
+              }
+            ],
+            "description": "Attacking and moving slower.",
+            "auraEffect": {
+              "sourceURL": ":star-x:",
+              "color": "#FFE066",
+              "opacity": 0.5,
+              "scale": 0.6
+            }
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "daze"
+      ]
+    },
+    {
+      "name": "Rake",
+      "description": "Rakes the target with its claws, leaving it bleeding.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 8,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":scratch:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "scale": 0.7
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":blade-scrape:",
+          "duration": 0.534,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            4,
+            6
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 6,
+          "status": {
+            "name": "Raked",
+            "shortName": "Rake",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 1,
+                "onTick": "harm",
+                "amount": 2,
+                "school": "physical"
+              }
+            ],
+            "description": "Bleeding."
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "bleed"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "solo",
+    "melee",
+    "glass"
+  ]
+}

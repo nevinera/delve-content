@@ -1,0 +1,183 @@
+{
+  "name": "Greater Water Elemental",
+  "description": "A crashing wave given form: it engulfs and drowns.",
+  "tokenImageUrl": [
+    "../tokens/unit/elementals/greater-water-elemental-1.webp",
+    "../tokens/unit/elementals/greater-water-elemental-2.webp",
+    "../tokens/unit/elementals/greater-water-elemental-3.webp"
+  ],
+  "tokenRadius": 4.5,
+  "speedFactor": 0.9,
+  "maxHP": 600,
+  "dps": 3.3,
+  "attackSpeed": 0.8,
+  "basicAttackStyle": "ice",
+  "resource": {
+    "name": "mana",
+    "color": "4488FF",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 2,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Engulf",
+      "Crashing Wave"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Engulf",
+      "description": "Swallows the target, holding it in place.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 14,
+      "maxRange": 5,
+      "costType": "mana",
+      "costAmount": 25,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":splash:",
+          "duration": 0.506,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.6
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            5,
+            7
+          ],
+          "school": "physical",
+          "tags": [
+            "water"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 3,
+          "status": {
+            "name": "Engulfed",
+            "shortName": "Engulf",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "movementSpeed",
+                "modifierType": "multiply",
+                "amount": 0
+              }
+            ],
+            "description": "Held in place.",
+            "auraEffect": {
+              "sourceURL": ":cloud:",
+              "color": "#4FA8FF",
+              "opacity": 0.4,
+              "scale": 1.2
+            }
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "root"
+      ]
+    },
+    {
+      "name": "Crashing Wave",
+      "description": "A wave crashes out around it, soaking everyone.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 12,
+      "maxRange": 12,
+      "costType": "mana",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":ring:",
+          "duration": 0.8,
+          "from": "self",
+          "when": "immediate",
+          "condition": "always",
+          "to": "self",
+          "color": "#4FA8FF",
+          "scale": 3.0
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":splash:",
+          "duration": 0.506,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.6
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bAll",
+          "range": 12,
+          "amount": [
+            5,
+            7
+          ],
+          "school": "magic",
+          "tags": [
+            "water"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bAll",
+          "duration": 4,
+          "status": {
+            "name": "Soaked",
+            "shortName": "Soaked",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "movementSpeed",
+                "modifierType": "multiply",
+                "amount": 0.8
+              }
+            ],
+            "description": "Moving slower."
+          },
+          "range": 12
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "aoe",
+        "slow"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "solo",
+    "melee",
+    "tough"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "name": "Minor Air Elemental",
+  "description": "A darting gust that never stays still.",
+  "tokenImageUrl": [
+    "../tokens/unit/elementals/minor-air-elemental-1.webp",
+    "../tokens/unit/elementals/minor-air-elemental-2.webp",
+    "../tokens/unit/elementals/minor-air-elemental-3.webp",
+    "../tokens/unit/elementals/minor-air-elemental-4.webp"
+  ],
+  "tokenRadius": 1.5,
+  "speedFactor": 1.4,
+  "maxHP": 70,
+  "dps": 3.4,
+  "attackSpeed": 1.0,
+  "basicAttackRange": 25,
+  "basicAttackSchool": "magic",
+  "basicAttackStyle": "arcane",
+  "resource": {
+    "name": "mana",
+    "color": "4488FF",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 2,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Quicken",
+      "Gust"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Gust",
+      "description": "A cutting blast of air.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 6,
+      "maxRange": 25,
+      "speed": 40,
+      "costType": "mana",
+      "costAmount": 15,
+      "graphicEffects": [
+        {
+          "sourceURL": ":pixel-swirling-orb:",
+          "duration": 0.5,
+          "from": "self",
+          "when": "immediate",
+          "condition": "always",
+          "to": "affected",
+          "color": "#D6F5FF",
+          "scale": 0.5,
+          "spriteColumns": 6,
+          "spriteRows": 1,
+          "spriteFrameRate": 8
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":swing-light:",
+          "duration": 0.7,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 25,
+          "amount": [
+            4,
+            6
+          ],
+          "school": "magic",
+          "tags": [
+            "air"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic"
+      ]
+    },
+    {
+      "name": "Quicken",
+      "description": "Whips itself faster.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 16,
+      "costType": "mana",
+      "costAmount": 10,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":dash:",
+          "duration": 0.729,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.4
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 6,
+          "status": {
+            "name": "Quickened",
+            "shortName": "Quick",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "attackSpeed",
+                "modifierType": "multiply",
+                "amount": 1.25
+              }
+            ],
+            "description": "Attacking faster.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#D6F5FF",
+              "opacity": 0.35,
+              "scale": 1.1
+            }
+          }
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "group",
+    "caster",
+    "glass"
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "name": "Goblin Mender",
+  "description": "Mutters war-chants and slaps poultices on its packmates.",
+  "tokenImageUrl": [
+    "../tokens/unit/goblins/goblin-mender-1.webp",
+    "../tokens/unit/goblins/goblin-mender-2.webp",
+    "../tokens/unit/goblins/goblin-mender-3.webp",
+    "../tokens/unit/goblins/goblin-mender-4.webp"
+  ],
+  "tokenRadius": 1.75,
+  "speedFactor": 1.0,
+  "maxHP": 95,
+  "dps": 2.2,
+  "attackSpeed": 0.6,
+  "basicAttackRange": 25,
+  "basicAttackSchool": "magic",
+  "basicAttackStyle": "nature",
+  "resource": {
+    "name": "mana",
+    "color": "4488FF",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 2,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Mend Wounds",
+      "War Chant",
+      "Thorn Spit"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Mend Wounds",
+      "description": "Slaps a poultice on the most wounded goblin nearby.",
+      "castTime": 1.5,
+      "globalCooldown": 1.5,
+      "cooldown": 6,
+      "maxRange": 25,
+      "costType": "mana",
+      "costAmount": 15,
+      "graphicEffects": [
+        {
+          "sourceURL": ":sparkle-cloud:",
+          "duration": 0.8,
+          "from": "affected",
+          "when": "impact",
+          "condition": "always",
+          "color": "#7CE07A",
+          "scale": 1.2,
+          "spriteColumns": 2,
+          "spriteRows": 3,
+          "spriteFrameCount": 5
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":potion:",
+          "duration": 0.675,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "heal",
+          "affects": "gTarget",
+          "range": 25,
+          "amount": [
+            8,
+            12
+          ],
+          "tags": [
+            "nature"
+          ]
+        }
+      ],
+      "tags": [
+        "heal",
+        "magic"
+      ]
+    },
+    {
+      "name": "War Chant",
+      "description": "A rousing chant that sharpens the whole pack's spite.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 20,
+      "costType": "mana",
+      "costAmount": 15,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":shout:",
+          "duration": 1.157,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.4
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "gAll",
+          "duration": 8,
+          "status": {
+            "name": "Chanting",
+            "shortName": "Chant",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageDone",
+                "modifierType": "multiply",
+                "amount": 1.15
+              }
+            ],
+            "description": "Dealing more damage.",
+            "auraEffect": {
+              "sourceURL": ":ring-faded:",
+              "color": "#FFD84A",
+              "opacity": 0.3,
+              "scale": 1.3
+            }
+          },
+          "range": 20
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "name": "Thorn Spit",
+      "description": "Spits a wad of thorns.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 8,
+      "maxRange": 25,
+      "speed": 30,
+      "costType": "mana",
+      "costAmount": 10,
+      "graphicEffects": [
+        {
+          "sourceURL": ":pixel-swirling-orb:",
+          "duration": 0.5,
+          "from": "self",
+          "to": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "scale": 0.4,
+          "color": "#6BD45A",
+          "spriteColumns": 6,
+          "spriteRows": 1,
+          "spriteFrameRate": 8
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":hiss:",
+          "duration": 1.006,
+          "location": "affected",
+          "when": "impact",
+          "condition": "always",
+          "volumeScale": 0.4
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 25,
+          "amount": [
+            5,
+            7
+          ],
+          "school": "magic",
+          "tags": [
+            "nature"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "group",
+    "caster",
+    "healer"
+  ]
+}

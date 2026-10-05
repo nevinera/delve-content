@@ -1,0 +1,150 @@
+{
+  "name": "Lion",
+  "description": "A proud, maned cat whose roar unnerves anyone close enough to hear it.",
+  "tokenImageUrl": [
+    "../tokens/unit/cats/lion-1.webp",
+    "../tokens/unit/cats/lion-2.webp",
+    "../tokens/unit/cats/lion-3.webp",
+    "../tokens/unit/cats/lion-4.webp"
+  ],
+  "tokenRadius": 2.75,
+  "speedFactor": 1.2,
+  "maxHP": 195,
+  "dps": 4.0,
+  "attackSpeed": 1.0,
+  "basicAttackStyle": "claw",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Roar",
+      "Maul"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Maul",
+      "description": "A crushing swipe.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 7,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":claw-slash:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "scale": 0.8
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":punch-hit:",
+          "duration": 0.823,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            7,
+            9
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical"
+      ]
+    },
+    {
+      "name": "Roar",
+      "description": "A thundering roar that unnerves everyone nearby.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 18,
+      "maxRange": 12,
+      "costType": "energy",
+      "costAmount": 20,
+      "graphicEffects": [
+        {
+          "sourceURL": ":ring-faded:",
+          "duration": 0.8,
+          "from": "self",
+          "when": "immediate",
+          "condition": "always",
+          "to": "self",
+          "color": "#E8B04A",
+          "scale": 2.5
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":roar:",
+          "duration": 1.15,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.6
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "bAll",
+          "duration": 6,
+          "status": {
+            "name": "Unnerved",
+            "shortName": "Unnerv",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageDone",
+                "modifierType": "multiply",
+                "amount": 0.85
+              }
+            ],
+            "description": "Dealing less damage."
+          },
+          "range": 12
+        }
+      ],
+      "tags": [
+        "harmful",
+        "fear",
+        "aoe"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "pair",
+    "melee"
+  ]
+}

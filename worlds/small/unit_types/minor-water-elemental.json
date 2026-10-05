@@ -1,0 +1,159 @@
+{
+  "name": "Minor Water Elemental",
+  "description": "A splashing surge of living water that soothes its kin.",
+  "tokenImageUrl": [
+    "../tokens/unit/elementals/minor-water-elemental-1.webp",
+    "../tokens/unit/elementals/minor-water-elemental-2.webp",
+    "../tokens/unit/elementals/minor-water-elemental-3.webp"
+  ],
+  "tokenRadius": 2.0,
+  "speedFactor": 1.0,
+  "maxHP": 195,
+  "dps": 4.3,
+  "attackSpeed": 1.0,
+  "basicAttackStyle": "ice",
+  "resource": {
+    "name": "mana",
+    "color": "4488FF",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 2,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Renewing Tide",
+      "Surge"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Surge",
+      "description": "Crashes into the target, dragging at its legs.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 8,
+      "maxRange": 5,
+      "costType": "mana",
+      "costAmount": 15,
+      "graphicEffects": [
+        {
+          "sourceURL": ":cloud:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "color": "#4FA8FF",
+          "scale": 0.8
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":splash:",
+          "duration": 0.506,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            5,
+            7
+          ],
+          "school": "physical",
+          "tags": [
+            "water"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 4,
+          "status": {
+            "name": "Soaked",
+            "shortName": "Soaked",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "movementSpeed",
+                "modifierType": "multiply",
+                "amount": 0.8
+              }
+            ],
+            "description": "Moving slower."
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "slow"
+      ]
+    },
+    {
+      "name": "Renewing Tide",
+      "description": "Washes over its wounded kin, healing them.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 15,
+      "maxRange": 15,
+      "costType": "mana",
+      "costAmount": 20,
+      "graphicEffects": [
+        {
+          "sourceURL": ":ring:",
+          "duration": 0.8,
+          "from": "self",
+          "when": "immediate",
+          "condition": "always",
+          "to": "self",
+          "color": "#4FA8FF",
+          "scale": 2.0
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":potion:",
+          "duration": 0.675,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "heal",
+          "affects": "gAll",
+          "range": 15,
+          "amount": [
+            4,
+            6
+          ]
+        }
+      ],
+      "tags": [
+        "heal",
+        "magic"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "pair",
+    "melee"
+  ]
+}
