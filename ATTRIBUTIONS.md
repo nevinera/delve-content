@@ -7,6 +7,12 @@
 AI-generated token images sourced from the "Too Many Tokens" D&D pack by IsThisMyRealName
 (https://github.com/IsThisMyRealName/too-many-tokens-dnd/) - license-free.
 
+### tokens/unit/goblins/
+
+AI-generated token images from the "Too Many Tokens" D&D and Pathfinder packs by IsThisMyRealName
+(https://github.com/IsThisMyRealName/too-many-tokens-dnd/ and
+https://github.com/IsThisMyRealName/too-many-tokens-pf/, MIT; the tokens are described as license-free).
+
 ## Sounds
 
 ### audio/

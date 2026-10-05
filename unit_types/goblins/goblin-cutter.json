@@ -1,0 +1,141 @@
+{
+  "name": "Goblin Cutter",
+  "description": "A scrappy goblin with a rusty blade and no plan.",
+  "tokenImageUrl": [
+    "../../tokens/unit/goblins/goblin-cutter-1.webp",
+    "../../tokens/unit/goblins/goblin-cutter-2.webp",
+    "../../tokens/unit/goblins/goblin-cutter-3.webp",
+    "../../tokens/unit/goblins/goblin-cutter-4.webp"
+  ],
+  "tokenRadius": 1.75,
+  "speedFactor": 1.1,
+  "maxHP": 140,
+  "dps": 2.6,
+  "attackSpeed": 1.25,
+  "basicAttackStyle": "sword",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Gut Jab",
+      "Scrappy"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Gut Jab",
+      "description": "A quick stab to the gut.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 8,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 20,
+      "graphicEffects": [
+        {
+          "sourceURL": ":scratch:",
+          "duration": 0.35,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "scale": 0.6
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":stab:",
+          "duration": 1.58,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            4,
+            6
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical"
+      ]
+    },
+    {
+      "name": "Scrappy",
+      "description": "Swings faster for a few seconds.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 18,
+      "costType": "energy",
+      "costAmount": 20,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":buff:",
+          "duration": 1.611,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.3
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 6,
+          "status": {
+            "name": "Scrappy",
+            "shortName": "Scrapy",
+            "treatAs": "buff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "attackSpeed",
+                "modifierType": "multiply",
+                "amount": 1.25
+              }
+            ],
+            "description": "Attacking faster.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#FF5533",
+              "opacity": 0.35,
+              "scale": 1.1
+            }
+          }
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "group",
+    "melee"
+  ]
+}
