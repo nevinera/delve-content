@@ -360,16 +360,17 @@
   "unitTypes": {
     "goblin-boss": {
       "name": "Goblin Boss",
-      "description": "A hulking goblin chieftain - dangerous and hard to put down.",
+      "description": "The pack's loudest goblin: tough, slow to kill, and it makes the whole pack nastier.",
       "tokenImageUrl": [
-        "../../tokens/unit/goblin-boss-1.webp",
-        "../../tokens/unit/goblin-boss-2.webp",
-        "../../tokens/unit/goblin-boss-3.webp"
+        "../../tokens/unit/goblins/goblin-boss-1.webp",
+        "../../tokens/unit/goblins/goblin-boss-2.webp",
+        "../../tokens/unit/goblins/goblin-boss-3.webp",
+        "../../tokens/unit/goblins/goblin-boss-4.webp"
       ],
-      "tokenRadius": 3,
+      "tokenRadius": 2.5,
       "speedFactor": 0.9,
-      "maxHP": 750,
-      "dps": 9.5,
+      "maxHP": 280,
+      "dps": 1,
       "attackSpeed": 0.8,
       "basicAttackStyle": "axe",
       "resource": {
@@ -380,53 +381,44 @@
         "returnRate": 10,
         "isFluid": true
       },
-      "lootTable": {
-        "warchief-battlechestplate": 17,
-        "warchief-savage-breastplate": 17,
-        "warchief-scaled-vest": 17,
-        "warchief-predators-tunic": 17,
-        "warchief-embroidered-robe": 16,
-        "warchief-hexweave-vestments": 16
-      },
-      "lootCount": 1,
       "targeting": {
         "type": "aggroTable"
       },
       "tactics": {
         "type": "priorityRotation",
         "powers": [
-          "Pound",
-          "Enrage"
+          "Rallying Roar",
+          "Skull Thump"
         ]
       },
       "powers": [
         {
-          "name": "Enrage",
-          "description": "Flies into a rage, increasing damage and attack speed.",
+          "name": "Rallying Roar",
+          "description": "A bellow that rallies the whole pack.",
           "castTime": null,
           "globalCooldown": 1,
-          "cooldown": 11,
+          "cooldown": 20,
           "costType": "energy",
-          "costAmount": 40,
+          "costAmount": 25,
           "graphicEffects": [],
           "soundEffects": [
             {
-              "sourceURL": ":whoomph:",
-              "duration": 1.8,
+              "sourceURL": ":shout:",
+              "duration": 1.157,
               "location": "self",
               "when": "immediate",
               "condition": "always",
-              "volumeScale": 0.2
+              "volumeScale": 0.5
             }
           ],
           "effects": [
             {
               "type": "status",
-              "affects": "self",
-              "duration": 6,
+              "affects": "gAll",
+              "duration": 8,
               "status": {
-                "name": "Enraged",
-                "shortName": "Enrage",
+                "name": "Rallied",
+                "shortName": "Rally",
                 "treatAs": "buff",
                 "stacking": "replace",
                 "effects": [
@@ -434,66 +426,56 @@
                     "type": "stat",
                     "statName": "damageDone",
                     "modifierType": "multiply",
-                    "amount": 1.1
+                    "amount": 1.15
                   },
                   {
                     "type": "stat",
-                    "statName": "attackSpeed",
+                    "statName": "damageTaken",
                     "modifierType": "multiply",
-                    "amount": 1.2
+                    "amount": 0.9
                   }
                 ],
+                "description": "Dealing more damage, taking less.",
                 "auraEffect": {
                   "sourceURL": ":glow:",
-                  "scale": 1.1,
-                  "color": "#FF0000",
-                  "opacity": 0.3
+                  "color": "#FF3B30",
+                  "opacity": 0.35,
+                  "scale": 1.1
                 }
               },
-              "tags": [
-                "buff",
-                "enrage"
-              ]
+              "range": 20
             }
           ],
           "tags": [
-            "buff",
-            "enrage",
-            "physical"
+            "buff"
           ]
         },
         {
-          "name": "Pound",
-          "description": "A powerful blow that dazes the target.",
-          "maxRange": 5,
+          "name": "Skull Thump",
+          "description": "A heavy thump that leaves the target dazed.",
           "castTime": null,
           "globalCooldown": 1,
-          "cooldown": 4.5,
+          "cooldown": 9,
+          "maxRange": 5,
           "costType": "energy",
           "costAmount": 20,
           "graphicEffects": [
             {
-              "sourceURL": "../../graphics/effects/pound-impact.webp",
-              "duration": 0.4,
+              "sourceURL": ":star-x:",
+              "duration": 0.35,
               "from": "affected",
               "when": "impact",
-              "condition": "onHit"
-            },
-            {
-              "sourceURL": "../../graphics/effects/dazed-debuff.webp",
-              "duration": 0.6,
-              "from": "affected",
-              "when": "impact",
-              "condition": "onHit"
+              "condition": "onHit",
+              "scale": 0.6
             }
           ],
           "soundEffects": [
             {
-              "sourceURL": "../../audio/pound.ogg",
-              "duration": 0.08,
+              "sourceURL": ":punch-hit:",
+              "duration": 0.823,
               "location": "affected",
-              "when": "impact",
-              "condition": "onHit"
+              "when": "immediate",
+              "condition": "always"
             }
           ],
           "effects": [
@@ -502,19 +484,18 @@
               "affects": "bTarget",
               "range": 5,
               "amount": [
-                1,
-                3
+                3,
+                4
               ],
+              "school": "physical",
               "tags": [
-                "physical",
                 "melee"
               ]
             },
             {
               "type": "status",
               "affects": "bTarget",
-              "range": 5,
-              "duration": 3,
+              "duration": 4,
               "status": {
                 "name": "Dazed",
                 "shortName": "Dazed",
@@ -523,30 +504,45 @@
                 "effects": [
                   {
                     "type": "stat",
-                    "statName": "movementSpeed",
-                    "modifierType": "multiply",
-                    "amount": 0.8
-                  },
-                  {
-                    "type": "stat",
-                    "statName": "strength",
+                    "statName": "attackSpeed",
                     "modifierType": "multiply",
                     "amount": 0.8
                   }
-                ]
+                ],
+                "description": "Dazed: attacks slower.",
+                "auraEffect": {
+                  "sourceURL": ":star-x:",
+                  "color": "#FFE066",
+                  "opacity": 0.5,
+                  "scale": 0.6
+                }
               },
-              "tags": [
-                "debuff"
-              ]
+              "range": 5
             }
+          ],
+          "tags": [
+            "harmful",
+            "physical",
+            "daze"
           ]
         }
       ],
       "tags": [
-        "g1",
-        "solo",
-        "melee"
-      ]
+        "open",
+        "group",
+        "melee",
+        "tough",
+        "buffs"
+      ],
+      "lootTable": {
+        "warchief-battlechestplate": 17,
+        "warchief-savage-breastplate": 17,
+        "warchief-scaled-vest": 17,
+        "warchief-predators-tunic": 17,
+        "warchief-embroidered-robe": 16,
+        "warchief-hexweave-vestments": 16
+      },
+      "lootCount": 1
     },
     "goblin": {
       "name": "Goblin",

@@ -1065,6 +1065,111 @@
             "warchief-back-tattered-cloak": 1,
             "warchief-battle-waist": 1
           }
+        },
+        {
+          "identifier": "goblin-hexer-svkmzq",
+          "unitType": "goblin-hexer",
+          "position": {
+            "x": 85.45170906645343,
+            "y": 133.64696063836644,
+            "angle": 0
+          },
+          "hostility": "hostile",
+          "currentHpFraction": 1,
+          "movement": {
+            "type": "still"
+          },
+          "groupIdentifier": "group-oqekoi"
+        },
+        {
+          "identifier": "goblin-sapper-graeua",
+          "unitType": "goblin-sapper",
+          "position": {
+            "x": 93.28822667938591,
+            "y": 133.64459100133817,
+            "angle": 0
+          },
+          "hostility": "hostile",
+          "currentHpFraction": 1,
+          "movement": {
+            "type": "still"
+          },
+          "groupIdentifier": "group-dfskrb"
+        },
+        {
+          "identifier": "goblin-wolfrider-rbxsup",
+          "unitType": "goblin-wolfrider",
+          "position": {
+            "x": 61.301553890785854,
+            "y": 83.62076345522789,
+            "angle": 0
+          },
+          "hostility": "hostile",
+          "currentHpFraction": 1,
+          "movement": {
+            "type": "still"
+          },
+          "groupIdentifier": "group-eiodrj"
+        },
+        {
+          "identifier": "goblin-wolfrider-fpqitl",
+          "unitType": "goblin-wolfrider",
+          "position": {
+            "x": 90.78663900877235,
+            "y": 125.32084599998163,
+            "angle": 102.7367731184815
+          },
+          "hostility": "hostile",
+          "currentHpFraction": 1,
+          "movement": {
+            "type": "still"
+          },
+          "groupIdentifier": "group-avuxps"
+        },
+        {
+          "identifier": "goblin-mender-plncfi",
+          "unitType": "goblin-mender",
+          "position": {
+            "x": 98.49756380843438,
+            "y": 120.20243001888556,
+            "angle": 0
+          },
+          "hostility": "hostile",
+          "currentHpFraction": 1,
+          "movement": {
+            "type": "still"
+          },
+          "groupIdentifier": "group-bonmov"
+        },
+        {
+          "identifier": "goblin-cutter-nxxaxf",
+          "unitType": "goblin-cutter",
+          "position": {
+            "x": 56.94293034596563,
+            "y": 86.32135978846361,
+            "angle": 0
+          },
+          "hostility": "hostile",
+          "currentHpFraction": 1,
+          "movement": {
+            "type": "still"
+          },
+          "groupIdentifier": "group-nsvgtf"
+        },
+        {
+          "identifier": "goblin-sneak-jpahth",
+          "unitType": "goblin-sneak",
+          "position": {
+            "x": 48.44369342275692,
+            "y": 88.22259856415776,
+            "angle": 0
+          },
+          "hostility": "hostile",
+          "currentHpFraction": 1,
+          "movement": {
+            "type": "still"
+          },
+          "groupIdentifier": "group-trzfhd"
         }
       ],
       "thumbnailUrl": "cave-1/cave-1.thumb.webp"
@@ -1072,26 +1177,173 @@
   ],
   "unitTypes": {
     "goblin-archer": {
-      "name": "Demo/goblin Archer",
-      "description": "basic attack only",
+      "name": "Goblin Archer",
+      "description": "Hangs back and looses crude arrows at whoever it's angry at.",
       "tokenImageUrl": [
-        "../../tokens/unit/goblin-archer.webp"
+        "../../tokens/unit/goblins/goblin-archer-1.webp",
+        "../../tokens/unit/goblins/goblin-archer-2.webp",
+        "../../tokens/unit/goblins/goblin-archer-3.webp",
+        "../../tokens/unit/goblins/goblin-archer-4.webp"
       ],
-      "tokenRadius": 2,
+      "tokenRadius": 1.75,
+      "speedFactor": 1,
       "maxHP": 70,
-      "dps": 4.3,
-      "attackSpeed": 1,
+      "dps": 3.3,
+      "attackSpeed": 0.8,
+      "basicAttackRange": 30,
+      "basicAttackStyle": "arrow",
+      "resource": {
+        "name": "energy",
+        "color": "AADD00",
+        "max": 100,
+        "defaultValue": 100,
+        "returnRate": 10,
+        "isFluid": true
+      },
       "targeting": {
         "type": "aggroTable"
       },
       "tactics": {
-        "type": "randomAvailable"
+        "type": "priorityRotation",
+        "powers": [
+          "Crippling Shot",
+          "Barbed Arrow"
+        ]
       },
-      "powers": [],
-      "basicAttackRange": 40,
-      "aggroRadius": 40,
-      "basicAttackSchool": "physical",
-      "basicAttackStyle": "arrow",
+      "powers": [
+        {
+          "name": "Barbed Arrow",
+          "description": "A heavy shot with a barbed head.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 7,
+          "maxRange": 30,
+          "speed": 40,
+          "costType": "energy",
+          "costAmount": 20,
+          "graphicEffects": [
+            {
+              "sourceURL": ":spinning-arrow:",
+              "duration": 0.5,
+              "from": "self",
+              "to": "affected",
+              "when": "immediate",
+              "condition": "always",
+              "scale": 0.6,
+              "spriteColumns": 2,
+              "spriteRows": 4,
+              "spriteFrameRate": 12
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": ":twang:",
+              "duration": 0.12,
+              "location": "self",
+              "when": "immediate",
+              "condition": "always"
+            },
+            {
+              "sourceURL": ":arrow-hit:",
+              "duration": 0.786,
+              "location": "affected",
+              "when": "impact",
+              "condition": "always"
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bTarget",
+              "range": 30,
+              "amount": [
+                4,
+                6
+              ],
+              "school": "physical",
+              "tags": [
+                "ranged"
+              ]
+            }
+          ],
+          "tags": [
+            "harmful",
+            "physical"
+          ]
+        },
+        {
+          "name": "Crippling Shot",
+          "description": "An arrow to the leg that slows the target.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 14,
+          "maxRange": 30,
+          "speed": 40,
+          "costType": "energy",
+          "costAmount": 25,
+          "graphicEffects": [
+            {
+              "sourceURL": ":spinning-arrow:",
+              "duration": 0.5,
+              "from": "self",
+              "to": "affected",
+              "when": "immediate",
+              "condition": "always",
+              "scale": 0.6,
+              "spriteColumns": 2,
+              "spriteRows": 4,
+              "spriteFrameRate": 12
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": ":twang:",
+              "duration": 0.12,
+              "location": "self",
+              "when": "immediate",
+              "condition": "always"
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bTarget",
+              "range": 30,
+              "amount": 2,
+              "school": "physical",
+              "tags": [
+                "ranged"
+              ]
+            },
+            {
+              "type": "status",
+              "affects": "bTarget",
+              "duration": 5,
+              "status": {
+                "name": "Crippled",
+                "shortName": "Crippl",
+                "treatAs": "debuff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "movementSpeed",
+                    "modifierType": "multiply",
+                    "amount": 0.8
+                  }
+                ],
+                "description": "Moving slower."
+              },
+              "range": 30
+            }
+          ],
+          "tags": [
+            "harmful",
+            "physical",
+            "slow"
+          ]
+        }
+      ],
       "tags": [
         "open",
         "group",
@@ -1353,16 +1605,17 @@
     },
     "goblin-boss": {
       "name": "Goblin Boss",
-      "description": "A hulking goblin chieftain - dangerous and hard to put down.",
+      "description": "The pack's loudest goblin: tough, slow to kill, and it makes the whole pack nastier.",
       "tokenImageUrl": [
-        "../../tokens/unit/goblin-boss-1.webp",
-        "../../tokens/unit/goblin-boss-2.webp",
-        "../../tokens/unit/goblin-boss-3.webp"
+        "../../tokens/unit/goblins/goblin-boss-1.webp",
+        "../../tokens/unit/goblins/goblin-boss-2.webp",
+        "../../tokens/unit/goblins/goblin-boss-3.webp",
+        "../../tokens/unit/goblins/goblin-boss-4.webp"
       ],
-      "tokenRadius": 3,
+      "tokenRadius": 2.5,
       "speedFactor": 0.9,
-      "maxHP": 750,
-      "dps": 9.5,
+      "maxHP": 280,
+      "dps": 1,
       "attackSpeed": 0.8,
       "basicAttackStyle": "axe",
       "resource": {
@@ -1373,53 +1626,44 @@
         "returnRate": 10,
         "isFluid": true
       },
-      "lootTable": {
-        "warchief-battlechestplate": 17,
-        "warchief-savage-breastplate": 17,
-        "warchief-scaled-vest": 17,
-        "warchief-predators-tunic": 17,
-        "warchief-embroidered-robe": 16,
-        "warchief-hexweave-vestments": 16
-      },
-      "lootCount": 1,
       "targeting": {
         "type": "aggroTable"
       },
       "tactics": {
         "type": "priorityRotation",
         "powers": [
-          "Pound",
-          "Enrage"
+          "Rallying Roar",
+          "Skull Thump"
         ]
       },
       "powers": [
         {
-          "name": "Enrage",
-          "description": "Flies into a rage, increasing damage and attack speed.",
+          "name": "Rallying Roar",
+          "description": "A bellow that rallies the whole pack.",
           "castTime": null,
           "globalCooldown": 1,
-          "cooldown": 11,
+          "cooldown": 20,
           "costType": "energy",
-          "costAmount": 40,
+          "costAmount": 25,
           "graphicEffects": [],
           "soundEffects": [
             {
-              "sourceURL": ":whoomph:",
-              "duration": 1.8,
+              "sourceURL": ":shout:",
+              "duration": 1.157,
               "location": "self",
               "when": "immediate",
               "condition": "always",
-              "volumeScale": 0.2
+              "volumeScale": 0.5
             }
           ],
           "effects": [
             {
               "type": "status",
-              "affects": "self",
-              "duration": 6,
+              "affects": "gAll",
+              "duration": 8,
               "status": {
-                "name": "Enraged",
-                "shortName": "Enrage",
+                "name": "Rallied",
+                "shortName": "Rally",
                 "treatAs": "buff",
                 "stacking": "replace",
                 "effects": [
@@ -1427,66 +1671,56 @@
                     "type": "stat",
                     "statName": "damageDone",
                     "modifierType": "multiply",
-                    "amount": 1.1
+                    "amount": 1.15
                   },
                   {
                     "type": "stat",
-                    "statName": "attackSpeed",
+                    "statName": "damageTaken",
                     "modifierType": "multiply",
-                    "amount": 1.2
+                    "amount": 0.9
                   }
                 ],
+                "description": "Dealing more damage, taking less.",
                 "auraEffect": {
                   "sourceURL": ":glow:",
-                  "scale": 1.1,
-                  "color": "#FF0000",
-                  "opacity": 0.3
+                  "color": "#FF3B30",
+                  "opacity": 0.35,
+                  "scale": 1.1
                 }
               },
-              "tags": [
-                "buff",
-                "enrage"
-              ]
+              "range": 20
             }
           ],
           "tags": [
-            "buff",
-            "enrage",
-            "physical"
+            "buff"
           ]
         },
         {
-          "name": "Pound",
-          "description": "A powerful blow that dazes the target.",
-          "maxRange": 5,
+          "name": "Skull Thump",
+          "description": "A heavy thump that leaves the target dazed.",
           "castTime": null,
           "globalCooldown": 1,
-          "cooldown": 4.5,
+          "cooldown": 9,
+          "maxRange": 5,
           "costType": "energy",
           "costAmount": 20,
           "graphicEffects": [
             {
-              "sourceURL": "../../graphics/effects/pound-impact.webp",
-              "duration": 0.4,
+              "sourceURL": ":star-x:",
+              "duration": 0.35,
               "from": "affected",
               "when": "impact",
-              "condition": "onHit"
-            },
-            {
-              "sourceURL": "../../graphics/effects/dazed-debuff.webp",
-              "duration": 0.6,
-              "from": "affected",
-              "when": "impact",
-              "condition": "onHit"
+              "condition": "onHit",
+              "scale": 0.6
             }
           ],
           "soundEffects": [
             {
-              "sourceURL": "../../audio/pound.ogg",
-              "duration": 0.08,
+              "sourceURL": ":punch-hit:",
+              "duration": 0.823,
               "location": "affected",
-              "when": "impact",
-              "condition": "onHit"
+              "when": "immediate",
+              "condition": "always"
             }
           ],
           "effects": [
@@ -1495,19 +1729,18 @@
               "affects": "bTarget",
               "range": 5,
               "amount": [
-                1,
-                3
+                3,
+                4
               ],
+              "school": "physical",
               "tags": [
-                "physical",
                 "melee"
               ]
             },
             {
               "type": "status",
               "affects": "bTarget",
-              "range": 5,
-              "duration": 3,
+              "duration": 4,
               "status": {
                 "name": "Dazed",
                 "shortName": "Dazed",
@@ -1516,29 +1749,1129 @@
                 "effects": [
                   {
                     "type": "stat",
+                    "statName": "attackSpeed",
+                    "modifierType": "multiply",
+                    "amount": 0.8
+                  }
+                ],
+                "description": "Dazed: attacks slower.",
+                "auraEffect": {
+                  "sourceURL": ":star-x:",
+                  "color": "#FFE066",
+                  "opacity": 0.5,
+                  "scale": 0.6
+                }
+              },
+              "range": 5
+            }
+          ],
+          "tags": [
+            "harmful",
+            "physical",
+            "daze"
+          ]
+        }
+      ],
+      "tags": [
+        "open",
+        "group",
+        "melee",
+        "tough",
+        "buffs"
+      ],
+      "lootTable": {
+        "warchief-battlechestplate": 17,
+        "warchief-savage-breastplate": 17,
+        "warchief-scaled-vest": 17,
+        "warchief-predators-tunic": 17,
+        "warchief-embroidered-robe": 16,
+        "warchief-hexweave-vestments": 16
+      },
+      "lootCount": 1
+    },
+    "goblin-hexer": {
+      "name": "Goblin Hexer",
+      "description": "A wizened goblin with a bag of bones and grudges.",
+      "tokenImageUrl": [
+        "../../tokens/unit/goblins/goblin-hexer-1.webp",
+        "../../tokens/unit/goblins/goblin-hexer-2.webp",
+        "../../tokens/unit/goblins/goblin-hexer-3.webp",
+        "../../tokens/unit/goblins/goblin-hexer-4.webp"
+      ],
+      "tokenRadius": 1.75,
+      "speedFactor": 1,
+      "maxHP": 140,
+      "dps": 1.3,
+      "attackSpeed": 0.5,
+      "basicAttackRange": 30,
+      "basicAttackSchool": "magic",
+      "basicAttackStyle": "arcane",
+      "resource": {
+        "name": "mana",
+        "color": "4488FF",
+        "max": 100,
+        "defaultValue": 100,
+        "returnRate": 2,
+        "isFluid": true
+      },
+      "targeting": {
+        "type": "aggroTable"
+      },
+      "tactics": {
+        "type": "priorityRotation",
+        "powers": [
+          "Hex of Weakness",
+          "Withering Curse",
+          "Shadow Bolt"
+        ]
+      },
+      "powers": [
+        {
+          "name": "Hex of Weakness",
+          "description": "A curse that saps the target's strength.",
+          "castTime": 1.5,
+          "globalCooldown": 1.5,
+          "cooldown": 20,
+          "maxRange": 30,
+          "costType": "mana",
+          "costAmount": 20,
+          "graphicEffects": [],
+          "soundEffects": [
+            {
+              "sourceURL": ":debuff:",
+              "duration": 3.693,
+              "location": "affected",
+              "when": "immediate",
+              "condition": "always",
+              "volumeScale": 0.4
+            }
+          ],
+          "effects": [
+            {
+              "type": "status",
+              "affects": "bTarget",
+              "duration": 10,
+              "status": {
+                "name": "Hexed",
+                "shortName": "Hexed",
+                "treatAs": "debuff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "damageDone",
+                    "modifierType": "multiply",
+                    "amount": 0.85
+                  }
+                ],
+                "description": "Dealing less damage.",
+                "auraEffect": {
+                  "sourceURL": ":coalescing-sigil:",
+                  "color": "#B07CFF",
+                  "opacity": 1,
+                  "scale": 2,
+                  "spriteColumns": 5,
+                  "spriteRows": 4,
+                  "spriteFrameRate": 13
+                }
+              },
+              "range": 30
+            }
+          ],
+          "tags": [
+            "harmful",
+            "magic",
+            "curse"
+          ]
+        },
+        {
+          "name": "Withering Curse",
+          "description": "A slow rot that eats at the target.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 12,
+          "maxRange": 30,
+          "costType": "mana",
+          "costAmount": 15,
+          "graphicEffects": [],
+          "soundEffects": [
+            {
+              "sourceURL": ":dark:",
+              "duration": 0.648,
+              "location": "affected",
+              "when": "immediate",
+              "condition": "always"
+            }
+          ],
+          "effects": [
+            {
+              "type": "status",
+              "affects": "bTarget",
+              "duration": 10,
+              "status": {
+                "name": "Withering",
+                "shortName": "Wither",
+                "treatAs": "debuff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "recurring",
+                    "tickRate": 2,
+                    "onTick": "harm",
+                    "amount": 1.5,
+                    "school": "magic"
+                  }
+                ],
+                "description": "Taking shadow damage over time.",
+                "auraEffect": {
+                  "sourceURL": ":crisscross-orbits:",
+                  "spriteColumns": 5,
+                  "spriteRows": 5,
+                  "spriteFrameCount": 21,
+                  "spriteFrameRate": 21,
+                  "color": "#ac3e9e",
+                  "opacity": 0.9
+                }
+              },
+              "range": 30
+            }
+          ],
+          "tags": [
+            "harmful",
+            "magic",
+            "curse"
+          ]
+        },
+        {
+          "name": "Shadow Bolt",
+          "description": "A bolt of murky shadow.",
+          "castTime": 1.5,
+          "globalCooldown": 1.5,
+          "cooldown": 6,
+          "maxRange": 30,
+          "speed": 30,
+          "costType": "mana",
+          "costAmount": 15,
+          "graphicEffects": [
+            {
+              "sourceURL": ":shadow-flare:",
+              "duration": 0.5,
+              "from": "self",
+              "to": "affected",
+              "when": "immediate",
+              "condition": "always",
+              "scale": 0.6,
+              "color": "#7A4CC2",
+              "spriteColumns": 5,
+              "spriteRows": 4,
+              "spriteFrameCount": 19,
+              "spriteFrameRate": 19
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": ":magic-hit:",
+              "duration": 2.198,
+              "location": "affected",
+              "when": "impact",
+              "condition": "always",
+              "volumeScale": 0.5
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bTarget",
+              "range": 30,
+              "amount": [
+                4,
+                5
+              ],
+              "school": "magic",
+              "tags": [
+                "shadow"
+              ]
+            }
+          ],
+          "tags": [
+            "harmful",
+            "magic"
+          ]
+        }
+      ],
+      "tags": [
+        "open",
+        "group",
+        "caster",
+        "debuffs"
+      ]
+    },
+    "goblin-sapper": {
+      "name": "Goblin Sapper",
+      "description": "Throws bombs, badly but enthusiastically, and explodes when killed.",
+      "tokenImageUrl": [
+        "../../tokens/unit/goblins/goblin-sapper-1.webp",
+        "../../tokens/unit/goblins/goblin-sapper-2.webp",
+        "../../tokens/unit/goblins/goblin-sapper-3.webp",
+        "../../tokens/unit/goblins/goblin-sapper-4.webp"
+      ],
+      "tokenRadius": 1.75,
+      "speedFactor": 1,
+      "maxHP": 70,
+      "dps": 2.6,
+      "attackSpeed": 0.6,
+      "basicAttackRange": 25,
+      "basicAttackStyle": "fire",
+      "resource": {
+        "name": "energy",
+        "color": "AADD00",
+        "max": 100,
+        "defaultValue": 100,
+        "returnRate": 10,
+        "isFluid": true
+      },
+      "targeting": {
+        "type": "aggroTable"
+      },
+      "tactics": {
+        "type": "priorityRotation",
+        "powers": [
+          "Firebomb"
+        ]
+      },
+      "onDeath": "Last Fuse",
+      "powers": [
+        {
+          "name": "Firebomb",
+          "description": "A lit bomb that bursts into flame, splashing everyone near where it lands.",
+          "castTime": 1,
+          "globalCooldown": 1,
+          "cooldown": 9,
+          "maxRange": 25,
+          "speed": 30,
+          "costType": "energy",
+          "costAmount": 30,
+          "graphicEffects": [
+            {
+              "sourceURL": ":magic-ball:",
+              "duration": 0.5,
+              "from": "self",
+              "to": "affected",
+              "when": "immediate",
+              "condition": "always",
+              "scale": 0.5,
+              "color": "#FF8A3D",
+              "spriteColumns": 3,
+              "spriteRows": 3,
+              "spriteFrameRate": 12
+            },
+            {
+              "sourceURL": ":radial-burst:",
+              "duration": 0.4,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit",
+              "color": "#FF7A1A",
+              "scale": 0.8
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": ":fire-cast:",
+              "duration": 0.59,
+              "location": "self",
+              "when": "immediate",
+              "condition": "always"
+            },
+            {
+              "sourceURL": ":boom:",
+              "duration": 0.2,
+              "location": "affected",
+              "when": "impact",
+              "condition": "always"
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bTarget",
+              "range": 25,
+              "amount": [
+                6,
+                9
+              ],
+              "school": "magic",
+              "tags": [
+                "fire"
+              ],
+              "radius": 6
+            },
+            {
+              "type": "status",
+              "affects": "bTarget",
+              "duration": 4,
+              "status": {
+                "name": "Burning",
+                "shortName": "Burn",
+                "treatAs": "debuff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "recurring",
+                    "tickRate": 1,
+                    "onTick": "harm",
+                    "amount": 1,
+                    "school": "magic"
+                  }
+                ],
+                "description": "On fire.",
+                "auraEffect": {
+                  "sourceURL": ":glow:",
+                  "color": "#FF7A1A",
+                  "opacity": 0.4,
+                  "scale": 0.9
+                }
+              },
+              "range": 25
+            }
+          ],
+          "tags": [
+            "harmful",
+            "magic",
+            "fire"
+          ]
+        },
+        {
+          "name": "Last Fuse",
+          "description": "Explodes when killed, blasting everyone close by.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 60,
+          "maxRange": 10,
+          "graphicEffects": [
+            {
+              "sourceURL": ":swirling-fire:",
+              "duration": 0.8,
+              "from": "self",
+              "to": "self",
+              "when": "immediate",
+              "condition": "always",
+              "color": "#FF7A1A",
+              "scale": 2.5,
+              "spriteColumns": 11,
+              "spriteRows": 11,
+              "spriteFrameRate": 24
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": ":boom:",
+              "duration": 0.2,
+              "location": "self",
+              "when": "immediate",
+              "condition": "always"
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bAll",
+              "range": 10,
+              "amount": [
+                10,
+                14
+              ],
+              "school": "magic",
+              "tags": [
+                "fire"
+              ]
+            }
+          ],
+          "tags": [
+            "harmful",
+            "magic",
+            "fire",
+            "aoe"
+          ]
+        }
+      ],
+      "tags": [
+        "open",
+        "group",
+        "ranged",
+        "glass"
+      ]
+    },
+    "goblin-wolfrider": {
+      "name": "Goblin Wolfrider",
+      "description": "A goblin on a mangy wolf, fast enough to run down anyone who kites.",
+      "tokenImageUrl": [
+        "../../tokens/unit/goblins/goblin-wolfrider-1.webp",
+        "../../tokens/unit/goblins/goblin-wolfrider-2.webp",
+        "../../tokens/unit/goblins/goblin-wolfrider-3.webp",
+        "../../tokens/unit/goblins/goblin-wolfrider-4.webp"
+      ],
+      "tokenRadius": 2.5,
+      "speedFactor": 1.5,
+      "maxHP": 140,
+      "dps": 2.4,
+      "attackSpeed": 1,
+      "basicAttackStyle": "claw",
+      "resource": {
+        "name": "energy",
+        "color": "AADD00",
+        "max": 100,
+        "defaultValue": 100,
+        "returnRate": 10,
+        "isFluid": true
+      },
+      "targeting": {
+        "type": "aggroTable"
+      },
+      "tactics": {
+        "type": "priorityRotation",
+        "powers": [
+          "Ride Down",
+          "Howl"
+        ]
+      },
+      "powers": [
+        {
+          "name": "Ride Down",
+          "description": "Charges through the target, knocking it off balance.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 10,
+          "maxRange": 5,
+          "costType": "energy",
+          "costAmount": 30,
+          "graphicEffects": [
+            {
+              "sourceURL": ":arc-burst:",
+              "duration": 0.35,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit",
+              "scale": 0.8
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": ":dash:",
+              "duration": 0.729,
+              "location": "affected",
+              "when": "immediate",
+              "condition": "always"
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bTarget",
+              "range": 5,
+              "amount": [
+                6,
+                8
+              ],
+              "school": "physical",
+              "tags": [
+                "melee"
+              ]
+            },
+            {
+              "type": "status",
+              "affects": "bTarget",
+              "duration": 3,
+              "status": {
+                "name": "Trampled",
+                "shortName": "Trampl",
+                "treatAs": "debuff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
                     "statName": "movementSpeed",
+                    "modifierType": "multiply",
+                    "amount": 0.6
+                  }
+                ],
+                "description": "Moving slower."
+              },
+              "range": 5
+            }
+          ],
+          "tags": [
+            "harmful",
+            "physical",
+            "slow"
+          ]
+        },
+        {
+          "name": "Howl",
+          "description": "The wolf howls, and both of them get faster at biting.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 20,
+          "costType": "energy",
+          "costAmount": 20,
+          "graphicEffects": [],
+          "soundEffects": [
+            {
+              "sourceURL": ":roar:",
+              "duration": 1.15,
+              "location": "self",
+              "when": "immediate",
+              "condition": "always",
+              "volumeScale": 0.4
+            }
+          ],
+          "effects": [
+            {
+              "type": "status",
+              "affects": "self",
+              "duration": 6,
+              "status": {
+                "name": "Howling",
+                "shortName": "Howl",
+                "treatAs": "buff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "attackSpeed",
+                    "modifierType": "multiply",
+                    "amount": 1.2
+                  }
+                ],
+                "description": "Attacking faster.",
+                "auraEffect": {
+                  "sourceURL": ":glow:",
+                  "color": "#B8C0CC",
+                  "opacity": 0.35,
+                  "scale": 1.1
+                }
+              }
+            }
+          ],
+          "tags": [
+            "buff"
+          ]
+        }
+      ],
+      "tags": [
+        "open",
+        "group",
+        "melee"
+      ]
+    },
+    "goblin-mender": {
+      "name": "Goblin Mender",
+      "description": "Mutters war-chants and slaps poultices on its packmates.",
+      "tokenImageUrl": [
+        "../../tokens/unit/goblins/goblin-mender-1.webp",
+        "../../tokens/unit/goblins/goblin-mender-2.webp",
+        "../../tokens/unit/goblins/goblin-mender-3.webp",
+        "../../tokens/unit/goblins/goblin-mender-4.webp"
+      ],
+      "tokenRadius": 1.75,
+      "speedFactor": 1,
+      "maxHP": 95,
+      "dps": 2.2,
+      "attackSpeed": 0.6,
+      "basicAttackRange": 25,
+      "basicAttackSchool": "magic",
+      "basicAttackStyle": "nature",
+      "resource": {
+        "name": "mana",
+        "color": "4488FF",
+        "max": 100,
+        "defaultValue": 100,
+        "returnRate": 2,
+        "isFluid": true
+      },
+      "targeting": {
+        "type": "aggroTable"
+      },
+      "tactics": {
+        "type": "priorityRotation",
+        "powers": [
+          "Mend Wounds",
+          "War Chant",
+          "Thorn Spit"
+        ]
+      },
+      "powers": [
+        {
+          "name": "Mend Wounds",
+          "description": "Slaps a poultice on the most wounded goblin nearby.",
+          "castTime": 1.5,
+          "globalCooldown": 1.5,
+          "cooldown": 6,
+          "maxRange": 25,
+          "costType": "mana",
+          "costAmount": 15,
+          "graphicEffects": [
+            {
+              "sourceURL": ":sparkle-cloud:",
+              "duration": 0.8,
+              "from": "affected",
+              "when": "impact",
+              "condition": "always",
+              "color": "#7CE07A",
+              "scale": 1.2,
+              "spriteColumns": 2,
+              "spriteRows": 3,
+              "spriteFrameCount": 5
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": ":potion:",
+              "duration": 0.675,
+              "location": "affected",
+              "when": "immediate",
+              "condition": "always"
+            }
+          ],
+          "effects": [
+            {
+              "type": "heal",
+              "affects": "gTarget",
+              "range": 25,
+              "amount": [
+                8,
+                12
+              ],
+              "tags": [
+                "nature"
+              ]
+            }
+          ],
+          "tags": [
+            "heal",
+            "magic"
+          ]
+        },
+        {
+          "name": "War Chant",
+          "description": "A rousing chant that sharpens the whole pack's spite.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 20,
+          "costType": "mana",
+          "costAmount": 15,
+          "graphicEffects": [],
+          "soundEffects": [
+            {
+              "sourceURL": ":charge-up:",
+              "duration": 1.116,
+              "location": "self",
+              "when": "immediate",
+              "condition": "always",
+              "volumeScale": 0.4
+            }
+          ],
+          "effects": [
+            {
+              "type": "status",
+              "affects": "gAll",
+              "duration": 8,
+              "status": {
+                "name": "Chanting",
+                "shortName": "Chant",
+                "treatAs": "buff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "damageDone",
+                    "modifierType": "multiply",
+                    "amount": 1.15
+                  }
+                ],
+                "description": "Dealing more damage.",
+                "auraEffect": {
+                  "sourceURL": ":ring-faded:",
+                  "color": "#FFD84A",
+                  "opacity": 0.3,
+                  "scale": 1.3
+                }
+              },
+              "range": 20
+            }
+          ],
+          "tags": [
+            "buff"
+          ]
+        },
+        {
+          "name": "Thorn Spit",
+          "description": "Spits a wad of thorns.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 8,
+          "maxRange": 25,
+          "speed": 30,
+          "costType": "mana",
+          "costAmount": 10,
+          "graphicEffects": [
+            {
+              "sourceURL": ":pixel-swirling-orb:",
+              "duration": 0.5,
+              "from": "self",
+              "to": "affected",
+              "when": "immediate",
+              "condition": "always",
+              "scale": 0.4,
+              "color": "#6BD45A",
+              "spriteColumns": 6,
+              "spriteRows": 1,
+              "spriteFrameRate": 8
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": ":hiss:",
+              "duration": 1.006,
+              "location": "affected",
+              "when": "impact",
+              "condition": "always",
+              "volumeScale": 0.4
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bTarget",
+              "range": 25,
+              "amount": [
+                5,
+                7
+              ],
+              "school": "magic",
+              "tags": [
+                "nature"
+              ]
+            }
+          ],
+          "tags": [
+            "harmful",
+            "magic"
+          ]
+        }
+      ],
+      "tags": [
+        "open",
+        "group",
+        "caster",
+        "healer"
+      ]
+    },
+    "goblin-cutter": {
+      "name": "Goblin Cutter",
+      "description": "A scrappy goblin with a rusty blade and no plan.",
+      "tokenImageUrl": [
+        "../../tokens/unit/goblins/goblin-cutter-1.webp",
+        "../../tokens/unit/goblins/goblin-cutter-2.webp",
+        "../../tokens/unit/goblins/goblin-cutter-3.webp",
+        "../../tokens/unit/goblins/goblin-cutter-4.webp"
+      ],
+      "tokenRadius": 1.75,
+      "speedFactor": 1.1,
+      "maxHP": 140,
+      "dps": 2.6,
+      "attackSpeed": 1.25,
+      "basicAttackStyle": "sword",
+      "resource": {
+        "name": "energy",
+        "color": "AADD00",
+        "max": 100,
+        "defaultValue": 100,
+        "returnRate": 10,
+        "isFluid": true
+      },
+      "targeting": {
+        "type": "aggroTable"
+      },
+      "tactics": {
+        "type": "priorityRotation",
+        "powers": [
+          "Gut Jab",
+          "Scrappy"
+        ]
+      },
+      "powers": [
+        {
+          "name": "Gut Jab",
+          "description": "A quick stab to the gut.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 8,
+          "maxRange": 5,
+          "costType": "energy",
+          "costAmount": 20,
+          "graphicEffects": [
+            {
+              "sourceURL": ":scratch:",
+              "duration": 0.35,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit",
+              "scale": 1.2,
+              "color": "#ff5757"
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": ":stab:",
+              "duration": 1.58,
+              "location": "affected",
+              "when": "immediate",
+              "condition": "always",
+              "volumeScale": 0.5
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bTarget",
+              "range": 5,
+              "amount": [
+                4,
+                6
+              ],
+              "school": "physical",
+              "tags": [
+                "melee"
+              ]
+            }
+          ],
+          "tags": [
+            "harmful",
+            "physical"
+          ]
+        },
+        {
+          "name": "Scrappy",
+          "description": "Swings faster for a few seconds.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 18,
+          "costType": "energy",
+          "costAmount": 20,
+          "graphicEffects": [],
+          "soundEffects": [
+            {
+              "sourceURL": ":buff:",
+              "duration": 1.611,
+              "location": "self",
+              "when": "immediate",
+              "condition": "always",
+              "volumeScale": 0.3
+            }
+          ],
+          "effects": [
+            {
+              "type": "status",
+              "affects": "self",
+              "duration": 6,
+              "status": {
+                "name": "Scrappy",
+                "shortName": "Scrapy",
+                "treatAs": "buff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "attackSpeed",
+                    "modifierType": "multiply",
+                    "amount": 1.25
+                  }
+                ],
+                "description": "Attacking faster.",
+                "auraEffect": {
+                  "sourceURL": ":glow:",
+                  "color": "#FF5533",
+                  "opacity": 0.35,
+                  "scale": 1.1
+                }
+              }
+            }
+          ],
+          "tags": [
+            "buff"
+          ]
+        }
+      ],
+      "tags": [
+        "open",
+        "group",
+        "melee"
+      ]
+    },
+    "goblin-sneak": {
+      "name": "Goblin Sneak",
+      "description": "A knife-artist that slips past the front line to stab healers in the back.",
+      "tokenImageUrl": [
+        "../../tokens/unit/goblins/goblin-sneak-1.webp",
+        "../../tokens/unit/goblins/goblin-sneak-2.webp",
+        "../../tokens/unit/goblins/goblin-sneak-3.webp",
+        "../../tokens/unit/goblins/goblin-sneak-4.webp"
+      ],
+      "tokenRadius": 1.75,
+      "speedFactor": 1.3,
+      "maxHP": 70,
+      "dps": 2.8,
+      "attackSpeed": 1.5,
+      "basicAttackStyle": "sword",
+      "resource": {
+        "name": "energy",
+        "color": "AADD00",
+        "max": 100,
+        "defaultValue": 100,
+        "returnRate": 10,
+        "isFluid": true
+      },
+      "targeting": {
+        "type": "healerAggro"
+      },
+      "tactics": {
+        "type": "priorityRotation",
+        "powers": [
+          "Backstab",
+          "Cheap Shot"
+        ]
+      },
+      "powers": [
+        {
+          "name": "Backstab",
+          "description": "A vicious stab to an exposed back.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 10,
+          "maxRange": 5,
+          "costType": "energy",
+          "costAmount": 30,
+          "graphicEffects": [
+            {
+              "sourceURL": ":claw-slash:",
+              "duration": 0.35,
+              "from": "affected",
+              "when": "impact",
+              "condition": "onHit",
+              "scale": 0.7
+            }
+          ],
+          "soundEffects": [
+            {
+              "sourceURL": ":bloody-blade:",
+              "duration": 0.869,
+              "location": "affected",
+              "when": "immediate",
+              "condition": "always",
+              "volumeScale": 0.6
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bTarget",
+              "range": 5,
+              "amount": [
+                10,
+                14
+              ],
+              "school": "physical",
+              "tags": [
+                "melee"
+              ]
+            }
+          ],
+          "tags": [
+            "harmful",
+            "physical"
+          ]
+        },
+        {
+          "name": "Cheap Shot",
+          "description": "A dirty blow that leaves the target dazed.",
+          "castTime": null,
+          "globalCooldown": 1,
+          "cooldown": 16,
+          "maxRange": 5,
+          "costType": "energy",
+          "costAmount": 25,
+          "graphicEffects": [],
+          "soundEffects": [
+            {
+              "sourceURL": ":stun:",
+              "duration": 1.602,
+              "location": "affected",
+              "when": "immediate",
+              "condition": "always",
+              "volumeScale": 0.4
+            }
+          ],
+          "effects": [
+            {
+              "type": "harm",
+              "affects": "bTarget",
+              "range": 5,
+              "amount": [
+                2,
+                3
+              ],
+              "school": "physical",
+              "tags": [
+                "melee"
+              ]
+            },
+            {
+              "type": "status",
+              "affects": "bTarget",
+              "duration": 4,
+              "status": {
+                "name": "Dazed",
+                "shortName": "Dazed",
+                "treatAs": "debuff",
+                "stacking": "replace",
+                "effects": [
+                  {
+                    "type": "stat",
+                    "statName": "attackSpeed",
                     "modifierType": "multiply",
                     "amount": 0.8
                   },
                   {
                     "type": "stat",
-                    "statName": "strength",
+                    "statName": "movementSpeed",
                     "modifierType": "multiply",
-                    "amount": 0.8
+                    "amount": 0.7
                   }
-                ]
+                ],
+                "description": "Dazed: attacking and moving slower.",
+                "auraEffect": {
+                  "sourceURL": ":star-x:",
+                  "color": "#FFE066",
+                  "opacity": 0.5,
+                  "scale": 0.6
+                }
               },
-              "tags": [
-                "debuff"
-              ]
+              "range": 5
             }
+          ],
+          "tags": [
+            "harmful",
+            "physical",
+            "daze"
           ]
         }
       ],
       "tags": [
-        "g1",
-        "solo",
-        "melee"
+        "open",
+        "group",
+        "melee",
+        "glass"
       ]
     }
   },
