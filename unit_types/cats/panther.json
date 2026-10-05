@@ -9,6 +9,7 @@
   ],
   "tokenRadius": 2.25,
   "speedFactor": 1.4,
+  "stealth": 0,
   "maxHP": 150,
   "dps": 7.2,
   "attackSpeed": 1.5,
