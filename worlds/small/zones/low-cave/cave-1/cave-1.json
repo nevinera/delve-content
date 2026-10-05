@@ -1059,6 +1059,111 @@
         "warchief-back-tattered-cloak": 1,
         "warchief-battle-waist": 1
       }
+    },
+    {
+      "identifier": "goblin-hexer-svkmzq",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 85.45170906645343,
+        "y": 133.64696063836644,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "group-oqekoi"
+    },
+    {
+      "identifier": "goblin-sapper-graeua",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 93.28822667938591,
+        "y": 133.64459100133817,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "group-dfskrb"
+    },
+    {
+      "identifier": "goblin-wolfrider-rbxsup",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 61.301553890785854,
+        "y": 83.62076345522789,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "group-eiodrj"
+    },
+    {
+      "identifier": "goblin-wolfrider-fpqitl",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 90.78663900877235,
+        "y": 125.32084599998163,
+        "angle": 102.7367731184815
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "group-avuxps"
+    },
+    {
+      "identifier": "goblin-mender-plncfi",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 98.49756380843438,
+        "y": 120.20243001888556,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "group-bonmov"
+    },
+    {
+      "identifier": "goblin-cutter-nxxaxf",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 56.94293034596563,
+        "y": 86.32135978846361,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "group-nsvgtf"
+    },
+    {
+      "identifier": "goblin-sneak-jpahth",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 48.44369342275692,
+        "y": 88.22259856415776,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "group-trzfhd"
     }
   ],
   "thumbnailUrl": "cave-1.thumb.webp"

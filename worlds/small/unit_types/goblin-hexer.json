@@ -8,7 +8,7 @@
     "../tokens/unit/goblins/goblin-hexer-4.webp"
   ],
   "tokenRadius": 1.75,
-  "speedFactor": 1.0,
+  "speedFactor": 1,
   "maxHP": 140,
   "dps": 1.3,
   "attackSpeed": 0.5,
@@ -77,11 +77,11 @@
             "auraEffect": {
               "sourceURL": ":coalescing-sigil:",
               "color": "#B07CFF",
-              "opacity": 0.35,
-              "scale": 1.2,
+              "opacity": 1,
+              "scale": 2,
               "spriteColumns": 5,
               "spriteRows": 4,
-              "spriteFrameRate": 20
+              "spriteFrameRate": 13
             }
           },
           "range": 30
@@ -97,7 +97,7 @@
       "name": "Withering Curse",
       "description": "A slow rot that eats at the target.",
       "castTime": null,
-      "globalCooldown": 1.0,
+      "globalCooldown": 1,
       "cooldown": 12,
       "maxRange": 30,
       "costType": "mana",
@@ -131,7 +131,16 @@
                 "school": "magic"
               }
             ],
-            "description": "Taking shadow damage over time."
+            "description": "Taking shadow damage over time.",
+            "auraEffect": {
+              "sourceURL": ":crisscross-orbits:",
+              "spriteColumns": 5,
+              "spriteRows": 5,
+              "spriteFrameCount": 21,
+              "spriteFrameRate": 21,
+              "color": "#ac3e9e",
+              "opacity": 0.9
+            }
           },
           "range": 30
         }

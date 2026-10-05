@@ -25,6 +25,30 @@
     "goblin-boss": {
       "$ref": "../../unit_types/goblin-boss.json",
       "referenceTo": "unit_type"
+    },
+    "goblin-hexer": {
+      "$ref": "../../unit_types/goblin-hexer.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-sapper": {
+      "$ref": "../../unit_types/goblin-sapper.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-wolfrider": {
+      "$ref": "../../unit_types/goblin-wolfrider.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-mender": {
+      "$ref": "../../unit_types/goblin-mender.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-cutter": {
+      "$ref": "../../unit_types/goblin-cutter.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-sneak": {
+      "$ref": "../../unit_types/goblin-sneak.json",
+      "referenceTo": "unit_type"
     }
   },
   "items": {

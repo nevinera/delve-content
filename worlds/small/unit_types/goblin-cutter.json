@@ -36,7 +36,7 @@
       "name": "Gut Jab",
       "description": "A quick stab to the gut.",
       "castTime": null,
-      "globalCooldown": 1.0,
+      "globalCooldown": 1,
       "cooldown": 8,
       "maxRange": 5,
       "costType": "energy",
@@ -48,7 +48,8 @@
           "from": "affected",
           "when": "impact",
           "condition": "onHit",
-          "scale": 0.6
+          "scale": 1.2,
+          "color": "#ff5757"
         }
       ],
       "soundEffects": [
@@ -85,7 +86,7 @@
       "name": "Scrappy",
       "description": "Swings faster for a few seconds.",
       "castTime": null,
-      "globalCooldown": 1.0,
+      "globalCooldown": 1,
       "cooldown": 18,
       "costType": "energy",
       "costAmount": 20,
