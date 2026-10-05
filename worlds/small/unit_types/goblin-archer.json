@@ -1,24 +1,171 @@
 {
-  "name": "Demo/goblin Archer",
-  "description": "basic attack only",
+  "name": "Goblin Archer",
+  "description": "Hangs back and looses crude arrows at whoever it's angry at.",
   "tokenImageUrl": [
-    "../tokens/unit/goblin-archer.webp"
+    "../tokens/unit/goblins/goblin-archer-1.webp",
+    "../tokens/unit/goblins/goblin-archer-2.webp",
+    "../tokens/unit/goblins/goblin-archer-3.webp",
+    "../tokens/unit/goblins/goblin-archer-4.webp"
   ],
-  "tokenRadius": 2,
+  "tokenRadius": 1.75,
+  "speedFactor": 1.0,
   "maxHP": 70,
-  "dps": 4.3,
-  "attackSpeed": 1,
+  "dps": 3.3,
+  "attackSpeed": 0.8,
+  "basicAttackRange": 30,
+  "basicAttackStyle": "arrow",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
   "targeting": {
     "type": "aggroTable"
   },
   "tactics": {
-    "type": "randomAvailable"
+    "type": "priorityRotation",
+    "powers": [
+      "Crippling Shot",
+      "Barbed Arrow"
+    ]
   },
-  "powers": [],
-  "basicAttackRange": 40,
-  "aggroRadius": 40,
-  "basicAttackSchool": "physical",
-  "basicAttackStyle": "arrow",
+  "powers": [
+    {
+      "name": "Barbed Arrow",
+      "description": "A heavy shot with a barbed head.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 7,
+      "maxRange": 30,
+      "speed": 40,
+      "costType": "energy",
+      "costAmount": 20,
+      "graphicEffects": [
+        {
+          "sourceURL": ":spinning-arrow:",
+          "duration": 0.5,
+          "from": "self",
+          "to": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "scale": 0.6,
+          "spriteColumns": 2,
+          "spriteRows": 4,
+          "spriteFrameRate": 12
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":twang:",
+          "duration": 0.12,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        },
+        {
+          "sourceURL": ":arrow-hit:",
+          "duration": 0.786,
+          "location": "affected",
+          "when": "impact",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 30,
+          "amount": [
+            4,
+            6
+          ],
+          "school": "physical",
+          "tags": [
+            "ranged"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical"
+      ]
+    },
+    {
+      "name": "Crippling Shot",
+      "description": "An arrow to the leg that slows the target.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 14,
+      "maxRange": 30,
+      "speed": 40,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":spinning-arrow:",
+          "duration": 0.5,
+          "from": "self",
+          "to": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "scale": 0.6,
+          "spriteColumns": 2,
+          "spriteRows": 4,
+          "spriteFrameRate": 12
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":twang:",
+          "duration": 0.12,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 30,
+          "amount": 2,
+          "school": "physical",
+          "tags": [
+            "ranged"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 5,
+          "status": {
+            "name": "Crippled",
+            "shortName": "Crippl",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "movementSpeed",
+                "modifierType": "multiply",
+                "amount": 0.8
+              }
+            ],
+            "description": "Moving slower."
+          },
+          "range": 30
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "slow"
+      ]
+    }
+  ],
   "tags": [
     "open",
     "group",
