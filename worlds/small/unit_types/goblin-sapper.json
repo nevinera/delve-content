@@ -1,0 +1,196 @@
+{
+  "name": "Goblin Sapper",
+  "description": "Throws bombs, badly but enthusiastically, and explodes when killed.",
+  "tokenImageUrl": [
+    "../tokens/unit/goblins/goblin-sapper-1.webp",
+    "../tokens/unit/goblins/goblin-sapper-2.webp",
+    "../tokens/unit/goblins/goblin-sapper-3.webp",
+    "../tokens/unit/goblins/goblin-sapper-4.webp"
+  ],
+  "tokenRadius": 1.75,
+  "speedFactor": 1.0,
+  "maxHP": 70,
+  "dps": 2.6,
+  "attackSpeed": 0.6,
+  "basicAttackRange": 25,
+  "basicAttackStyle": "fire",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Firebomb"
+    ]
+  },
+  "onDeath": "Last Fuse",
+  "powers": [
+    {
+      "name": "Firebomb",
+      "description": "A lit bomb that bursts into flame, splashing everyone near where it lands.",
+      "castTime": 1.0,
+      "globalCooldown": 1.0,
+      "cooldown": 9,
+      "maxRange": 25,
+      "speed": 30,
+      "costType": "energy",
+      "costAmount": 30,
+      "graphicEffects": [
+        {
+          "sourceURL": ":magic-ball:",
+          "duration": 0.5,
+          "from": "self",
+          "to": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "scale": 0.5,
+          "color": "#FF8A3D",
+          "spriteColumns": 3,
+          "spriteRows": 3,
+          "spriteFrameRate": 12
+        },
+        {
+          "sourceURL": ":radial-burst:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "color": "#FF7A1A",
+          "scale": 0.8
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":fire-cast:",
+          "duration": 0.59,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        },
+        {
+          "sourceURL": ":boom:",
+          "duration": 0.2,
+          "location": "affected",
+          "when": "impact",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 25,
+          "amount": [
+            6,
+            9
+          ],
+          "school": "magic",
+          "tags": [
+            "fire"
+          ],
+          "radius": 6
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 4,
+          "status": {
+            "name": "Burning",
+            "shortName": "Burn",
+            "treatAs": "debuff",
+            "stacking": "replace",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 1,
+                "onTick": "harm",
+                "amount": 1,
+                "school": "magic"
+              }
+            ],
+            "description": "On fire.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#FF7A1A",
+              "opacity": 0.4,
+              "scale": 0.9
+            }
+          },
+          "range": 25
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "fire"
+      ]
+    },
+    {
+      "name": "Last Fuse",
+      "description": "Explodes when killed, blasting everyone close by.",
+      "castTime": null,
+      "globalCooldown": 1.0,
+      "cooldown": 60,
+      "maxRange": 10,
+      "graphicEffects": [
+        {
+          "sourceURL": ":swirling-fire:",
+          "duration": 0.8,
+          "from": "self",
+          "to": "self",
+          "when": "immediate",
+          "condition": "always",
+          "color": "#FF7A1A",
+          "scale": 2.5,
+          "spriteColumns": 11,
+          "spriteRows": 11,
+          "spriteFrameRate": 24
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":boom:",
+          "duration": 0.2,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bAll",
+          "range": 10,
+          "amount": [
+            10,
+            14
+          ],
+          "school": "magic",
+          "tags": [
+            "fire"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "fire",
+        "aoe"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "group",
+    "ranged",
+    "glass"
+  ]
+}
