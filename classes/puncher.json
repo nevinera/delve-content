@@ -149,13 +149,14 @@
             "treatAs": "buff",
             "stacking": "replace",
             "auraEffect": {
-              "sourceURL": ":sparkle-cloud:",
+              "sourceURL": ":aurora-sweep:",
               "color": "#00ff00",
               "scale": 1.3,
-              "opacity": 0.3,
-              "spriteColumns": 2,
-              "spriteRows": 3,
-              "spriteFrameCount": 5
+              "opacity": 0.71,
+              "spriteColumns": 6,
+              "spriteRows": 6,
+              "spriteFrameCount": 32,
+              "spriteFrameRate": 11
             },
             "effects": [
               {
