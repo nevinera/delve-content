@@ -1317,6 +1317,21 @@
         "type": "still"
       },
       "groupIdentifier": "group-ngulos"
+    },
+    {
+      "identifier": "goblin-sneak-twzvtx",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 209.22502903587352,
+        "y": 220.14051501298638,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "currentHpFraction": 1,
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "group-lohxlv"
     }
   ],
   "thumbnailUrl": "hub.thumb.webp",

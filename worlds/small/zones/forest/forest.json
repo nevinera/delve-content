@@ -29,6 +29,10 @@
     "goblin-boss": {
       "$ref": "../../unit_types/goblin-boss.json",
       "referenceTo": "unit_type"
+    },
+    "goblin-sneak": {
+      "$ref": "../../unit_types/goblin-sneak.json",
+      "referenceTo": "unit_type"
     }
   },
   "items": {},
