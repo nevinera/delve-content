@@ -1,0 +1,11 @@
+{
+  "identifier": "warchief-hexweave-wrists",
+  "name": "Warchief's Hexweave Wraps",
+  "slot": "wrists",
+  "elvl": 5,
+  "primary": "intellect",
+  "secondaries": [
+    "stamina",
+    "crit_rating"
+  ]
+}

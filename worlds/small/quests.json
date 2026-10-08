@@ -27,6 +27,16 @@
     "completionText": "That should show them!",
     "requiresFlags": [
       "quest/completed/greg-kill-lots-of-goblins"
+    ],
+    "rewards": [
+      {
+        "zone": "forest",
+        "item": "warchief-hexweave-wrists"
+      },
+      {
+        "zone": "forest",
+        "item": "warchief-battlechestplate"
+      }
     ]
   },
   {

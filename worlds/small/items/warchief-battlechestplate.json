@@ -1,0 +1,11 @@
+{
+  "identifier": "warchief-battlechestplate",
+  "name": "Warchief's Battlechestplate",
+  "slot": "chest",
+  "elvl": 5,
+  "primary": "strength",
+  "secondaries": [
+    "stamina",
+    "versatility_rating"
+  ]
+}
