@@ -1,6 +1,36 @@
 [
   {
-    "identifier": "greg-quest",
+    "identifier": "greg-kill-boss",
+    "name": "Take down the goblin boss",
+    "chainIdentifier": "greg-quest",
+    "chainName": "help-greg",
+    "offeredBy": {
+      "zone": "forest",
+      "ncu": "greg"
+    },
+    "offerText": "Anything _more interesting_ I can take care of?",
+    "description": "Yes! There's a cave to the south; can you kill Oddu, the leader of these goblins?",
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill Oddu",
+        "zone": "high-cave",
+        "unit": "goblin-boss-ypvghv"
+      }
+    ],
+    "marker": true,
+    "turnIn": {
+      "zone": "forest",
+      "ncu": "greg"
+    },
+    "progressText": "Found him yet?",
+    "completionText": "That should show them!",
+    "requiresFlags": [
+      "quest/completed/greg-kill-lots-of-goblins"
+    ]
+  },
+  {
+    "identifier": "greg-kill-lots-of-goblins",
     "name": "Kill SO MANY goblins",
     "chainIdentifier": "greg-quest",
     "chainName": "help-greg",
@@ -47,35 +77,5 @@
     },
     "progressText": "You're doing great!",
     "completionText": "Thanks, I appreciate the help."
-  },
-  {
-    "identifier": "greg-quest-2",
-    "name": "Take down the goblin boss",
-    "chainIdentifier": "greg-quest",
-    "chainName": "help-greg",
-    "offeredBy": {
-      "zone": "forest",
-      "ncu": "greg"
-    },
-    "offerText": "Anything _more interesting_ I can take care of?",
-    "description": "Yes! There's a cave to the south; can you kill Oddu, the leader of these goblins?",
-    "objectives": [
-      {
-        "type": "kill",
-        "text": "Kill Oddu",
-        "zone": "high-cave",
-        "unit": "goblin-boss-ypvghv"
-      }
-    ],
-    "marker": true,
-    "turnIn": {
-      "zone": "forest",
-      "ncu": "greg"
-    },
-    "progressText": "Found him yet?",
-    "completionText": "That should show them!",
-    "requiresFlags": [
-      "quest/completed/greg-quest"
-    ]
   }
 ]
