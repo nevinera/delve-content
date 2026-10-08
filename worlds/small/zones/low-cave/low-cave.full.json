@@ -2915,5 +2915,8 @@
   "entryPoints": {},
   "openConnections": {
     "cave-1/entrance": "entrance"
-  }
+  },
+  "flags": [
+    "zone/reached/low-cave"
+  ]
 }

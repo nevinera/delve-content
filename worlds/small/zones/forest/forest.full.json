@@ -3143,7 +3143,30 @@
       ]
     }
   },
-  "items": {},
+  "items": {
+    "warchief-hexweave-wrists": {
+      "identifier": "warchief-hexweave-wrists",
+      "name": "Warchief's Hexweave Wraps",
+      "slot": "wrists",
+      "elvl": 5,
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating"
+      ]
+    },
+    "warchief-battlechestplate": {
+      "identifier": "warchief-battlechestplate",
+      "name": "Warchief's Battlechestplate",
+      "slot": "chest",
+      "elvl": 5,
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "versatility_rating"
+      ]
+    }
+  },
   "zoneLinks": [
     {
       "connectionA": {
@@ -3164,5 +3187,10 @@
   "openConnections": {
     "hub/southeast": "south-exit",
     "passage/north": "north-exit"
-  }
+  },
+  "flags": [
+    "zone/reached/forest",
+    "quest/completed/greg-kill-boss",
+    "quest/completed/greg-kill-lots-of-goblins"
+  ]
 }
