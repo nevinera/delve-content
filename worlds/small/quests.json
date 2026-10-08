@@ -1,0 +1,81 @@
+[
+  {
+    "identifier": "greg-quest",
+    "name": "Kill SO MANY goblins",
+    "chainIdentifier": "greg-quest",
+    "chainName": "help-greg",
+    "offeredBy": {
+      "zone": "forest",
+      "ncu": "greg"
+    },
+    "offerText": "Anything I can help you with?",
+    "description": "... Yes. There's kind of a lot of goblins around - mind taking care of that for me?",
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 10 goblin archers",
+        "zone": "forest",
+        "unitType": "goblin-archer",
+        "count": 10
+      },
+      {
+        "type": "kill",
+        "text": "Kill 10 basic goblins",
+        "zone": "forest",
+        "unitType": "goblin",
+        "count": 10
+      },
+      {
+        "type": "kill",
+        "text": "Kill 5 goblin shamans",
+        "zone": "forest",
+        "unitType": "goblin-shaman",
+        "count": 5
+      },
+      {
+        "type": "kill",
+        "text": "Kill 3 goblin sneaks",
+        "zone": "forest",
+        "unitType": "goblin-sneak",
+        "count": 3
+      }
+    ],
+    "marker": true,
+    "turnIn": {
+      "zone": "forest",
+      "ncu": "greg"
+    },
+    "progressText": "You're doing great!",
+    "completionText": "Thanks, I appreciate the help."
+  },
+  {
+    "identifier": "greg-quest-2",
+    "name": "Take down the goblin boss",
+    "chainIdentifier": "greg-quest",
+    "chainName": "help-greg",
+    "offeredBy": {
+      "zone": "forest",
+      "ncu": "greg"
+    },
+    "offerText": "Anything _more interesting_ I can take care of?",
+    "description": "Yes! There's a cave to the south; can you kill Oddu, the leader of these goblins?",
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill Oddu",
+        "zone": "high-cave",
+        "unit": "goblin-boss-ypvghv"
+      }
+    ],
+    "marker": true,
+    "turnIn": {
+      "zone": "forest",
+      "ncu": "greg"
+    },
+    "progressText": "Found him yet?",
+    "completionText": "That should show them!",
+    "requiresFlags": [
+      "quest/completed/greg-quest"
+    ]
+  }
+]
