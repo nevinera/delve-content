@@ -1,5 +1,6 @@
 {
   "name": "Goblin Boss",
+  "category": "goblins",
   "description": "A hulking goblin chieftain - dangerous and hard to put down.",
   "tokenImageUrl": [
     "../tokens/unit/goblin-boss-1.webp",

@@ -1,5 +1,6 @@
 {
   "name": "Panther",
+  "category": "cats",
   "description": "A very large black cat",
   "tokenImageUrl": [
     "../tokens/unit/panther-1.webp",

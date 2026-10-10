@@ -1,5 +1,6 @@
 {
   "name": "Goblin Shaman",
+  "category": "goblins",
   "description": "A goblin channeling crude but effective battle magic.",
   "tokenImageUrl": [
     "../tokens/unit/goblin-shaman.webp"

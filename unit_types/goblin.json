@@ -1,5 +1,6 @@
 {
   "name": "Goblin",
+  "category": "goblins",
   "description": "A scrappy goblin that stabs anything within reach.",
   "tokenImageUrl": [
     "../tokens/unit/goblin-1.webp",
