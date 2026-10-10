@@ -1,5 +1,6 @@
 {
   "name": "Goblin Hexer",
+  "category": "goblins",
   "description": "A wizened goblin with a bag of bones and grudges.",
   "tokenImageUrl": [
     "../../tokens/unit/goblins/goblin-hexer-1.webp",

@@ -1,5 +1,6 @@
 {
   "name": "Greater Air Elemental",
+  "category": "elementals",
   "description": "A howling storm given form: fragile, fast and dangerous.",
   "tokenImageUrl": [
     "../../tokens/unit/elementals/greater-air-elemental-1.webp",

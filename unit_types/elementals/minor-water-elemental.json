@@ -1,5 +1,6 @@
 {
   "name": "Minor Water Elemental",
+  "category": "elementals",
   "description": "A splashing surge of living water that soothes its kin.",
   "tokenImageUrl": [
     "../../tokens/unit/elementals/minor-water-elemental-1.webp",

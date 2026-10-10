@@ -1,5 +1,6 @@
 {
   "name": "Goblin Sapper",
+  "category": "goblins",
   "description": "Throws bombs, badly but enthusiastically, and explodes when killed.",
   "tokenImageUrl": [
     "../../tokens/unit/goblins/goblin-sapper-1.webp",

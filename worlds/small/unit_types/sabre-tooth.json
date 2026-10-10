@@ -1,5 +1,6 @@
 {
   "name": "Sabre-tooth",
+  "category": "cats",
   "description": "A massive prehistoric cat: slow to bring down, and every bite stuns.",
   "tokenImageUrl": [
     "../tokens/unit/cats/sabre-tooth-1.webp",

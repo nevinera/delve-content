@@ -1,5 +1,6 @@
 {
   "name": "Goblin Sneak",
+  "category": "goblins",
   "description": "A knife-artist that slips past the front line to stab healers in the back.",
   "tokenImageUrl": [
     "../../tokens/unit/goblins/goblin-sneak-1.webp",

@@ -1,5 +1,6 @@
 {
   "name": "Minor Air Elemental",
+  "category": "elementals",
   "description": "A darting gust that never stays still.",
   "tokenImageUrl": [
     "../tokens/unit/elementals/minor-air-elemental-1.webp",

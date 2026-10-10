@@ -1,5 +1,6 @@
 {
   "name": "Greater Earth Elemental",
+  "category": "elementals",
   "description": "A walking landslide: slow, enormous, and it shakes the ground.",
   "tokenImageUrl": [
     "../../tokens/unit/elementals/greater-earth-elemental-1.webp",

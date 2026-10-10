@@ -1,5 +1,6 @@
 {
   "name": "Minor Fire Elemental",
+  "category": "elementals",
   "description": "A flickering spirit of flame that burns itself out fast, and bursts when it does.",
   "tokenImageUrl": [
     "../tokens/unit/elementals/minor-fire-elemental-1.webp",

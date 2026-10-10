@@ -1,5 +1,6 @@
 {
   "name": "Panther",
+  "category": "cats",
   "description": "A black hunting cat that strikes from the shadows and goes for the throat.",
   "tokenImageUrl": [
     "../../tokens/unit/cats/panther-1.webp",

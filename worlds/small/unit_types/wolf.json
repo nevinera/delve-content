@@ -1,5 +1,6 @@
 {
   "name": "Wolf",
+  "category": "wolves",
   "description": "A lean grey wolf that hunts in packs and goes for the legs.",
   "tokenImageUrl": [
     "../tokens/unit/wolves/wolf-1.webp",

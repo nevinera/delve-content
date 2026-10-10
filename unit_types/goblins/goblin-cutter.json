@@ -1,5 +1,6 @@
 {
   "name": "Goblin Cutter",
+  "category": "goblins",
   "description": "A scrappy goblin with a rusty blade and no plan.",
   "tokenImageUrl": [
     "../../tokens/unit/goblins/goblin-cutter-1.webp",

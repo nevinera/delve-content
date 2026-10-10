@@ -1,5 +1,6 @@
 {
   "name": "Greater Fire Elemental",
+  "category": "elementals",
   "description": "A towering column of living flame that sets the ground and everyone near it on fire.",
   "tokenImageUrl": [
     "../../tokens/unit/elementals/greater-fire-elemental-1.webp",

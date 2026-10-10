@@ -1,5 +1,6 @@
 {
   "name": "Minor Earth Elemental",
+  "category": "elementals",
   "description": "A lump of animated rock: slow, stubborn, and hard to break.",
   "tokenImageUrl": [
     "../tokens/unit/elementals/minor-earth-elemental-1.webp",
