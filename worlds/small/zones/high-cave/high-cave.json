@@ -44,7 +44,6 @@
   "zoneLinks": [],
   "entryPoints": {},
   "openConnections": {
-    "high-cave/connection-1": "entrance",
     "high-cave/entrance": "entrance"
   }
 }
