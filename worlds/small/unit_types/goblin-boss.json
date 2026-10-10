@@ -1,5 +1,6 @@
 {
   "name": "Goblin Boss",
+  "category": "goblins",
   "description": "The pack's loudest goblin: tough, slow to kill, and it makes the whole pack nastier.",
   "tokenImageUrl": [
     "../tokens/unit/goblins/goblin-boss-1.webp",

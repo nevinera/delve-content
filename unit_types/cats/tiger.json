@@ -1,5 +1,6 @@
 {
   "name": "Tiger",
+  "category": "cats",
   "description": "A striped hunter that tears its prey apart and gets faster as it goes.",
   "tokenImageUrl": [
     "../../tokens/unit/cats/tiger-1.webp",

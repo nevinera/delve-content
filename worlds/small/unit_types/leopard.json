@@ -1,5 +1,6 @@
 {
   "name": "Leopard",
+  "category": "cats",
   "description": "A spotted cat that bleeds its prey and waits.",
   "tokenImageUrl": [
     "../tokens/unit/cats/leopard-1.webp",

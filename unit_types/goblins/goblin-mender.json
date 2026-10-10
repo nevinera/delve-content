@@ -1,5 +1,6 @@
 {
   "name": "Goblin Mender",
+  "category": "goblins",
   "description": "Mutters war-chants and slaps poultices on its packmates.",
   "tokenImageUrl": [
     "../../tokens/unit/goblins/goblin-mender-1.webp",

@@ -1,5 +1,6 @@
 {
   "name": "Frost Wolf",
+  "category": "wolves",
   "description": "A white wolf whose breath freezes everything near it.",
   "tokenImageUrl": [
     "../tokens/unit/wolves/frost-wolf-1.webp",

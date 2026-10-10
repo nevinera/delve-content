@@ -1,5 +1,6 @@
 {
   "name": "Goblin Archer",
+  "category": "goblins",
   "description": "Hangs back and looses crude arrows at whoever it's angry at.",
   "tokenImageUrl": [
     "../tokens/unit/goblins/goblin-archer-1.webp",

@@ -1,5 +1,6 @@
 {
   "name": "Hexed Wolf",
+  "category": "wolves",
   "description": "A witch-touched wolf whose howl saps the strength of anyone who hears it.",
   "tokenImageUrl": [
     "../tokens/unit/wolves/hexed-wolf-1.webp",

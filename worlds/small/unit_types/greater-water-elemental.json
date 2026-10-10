@@ -1,5 +1,6 @@
 {
   "name": "Greater Water Elemental",
+  "category": "elementals",
   "description": "A crashing wave given form: it engulfs and drowns.",
   "tokenImageUrl": [
     "../tokens/unit/elementals/greater-water-elemental-1.webp",

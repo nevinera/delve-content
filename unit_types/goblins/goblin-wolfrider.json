@@ -1,5 +1,6 @@
 {
   "name": "Goblin Wolfrider",
+  "category": "goblins",
   "description": "A goblin on a mangy wolf, fast enough to run down anyone who kites.",
   "tokenImageUrl": [
     "../../tokens/unit/goblins/goblin-wolfrider-1.webp",

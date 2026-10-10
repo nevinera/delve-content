@@ -1,5 +1,6 @@
 {
   "name": "Lion",
+  "category": "cats",
   "description": "A proud, maned cat whose roar unnerves anyone close enough to hear it.",
   "tokenImageUrl": [
     "../../tokens/unit/cats/lion-1.webp",

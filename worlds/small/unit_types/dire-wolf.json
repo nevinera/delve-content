@@ -1,5 +1,6 @@
 {
   "name": "Dire Wolf",
+  "category": "wolves",
   "description": "A huge, shaggy wolf: slow to bring down, and it doesn't let go.",
   "tokenImageUrl": [
     "../tokens/unit/wolves/dire-wolf-1.webp",

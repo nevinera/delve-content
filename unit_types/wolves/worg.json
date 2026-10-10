@@ -1,5 +1,6 @@
 {
   "name": "Worg",
+  "category": "wolves",
   "description": "A cunning, malicious wolf; goblins and orcs ride them to war.",
   "tokenImageUrl": [
     "../../tokens/unit/wolves/worg-1.webp",
