@@ -1166,5 +1166,11 @@
       "groupIdentifier": "group-trzfhd"
     }
   ],
-  "thumbnailUrl": "cave-1.thumb.webp"
+  "thumbnailUrl": "cave-1.thumb.webp",
+  "fillPoints": [
+    {
+      "x": 89.89163832574147,
+      "y": 189.0701886017218
+    }
+  ]
 }
