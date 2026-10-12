@@ -1721,8 +1721,8 @@
           "name": "Goblin Snare",
           "position": {
             "angle": 0,
-            "x": 185,
-            "y": 236
+            "x": 175,
+            "y": 220
           },
           "size": {
             "height": 3,
@@ -1739,8 +1739,8 @@
           "name": "Goblin Snare",
           "position": {
             "angle": 0,
-            "x": 145,
-            "y": 276
+            "x": 165,
+            "y": 205
           },
           "size": {
             "height": 3,
@@ -1757,8 +1757,8 @@
           "name": "Goblin Snare",
           "position": {
             "angle": 0,
-            "x": 105,
-            "y": 236
+            "x": 128,
+            "y": 220
           },
           "size": {
             "height": 3,
