@@ -14813,7 +14813,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf.",
+        "population": "density: normal\nmix: wolf 2, panther, dire-wolf"
       }
     },
     {
@@ -15549,7 +15550,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, a dead end. Deep woods: wolves, panthers, the odd dire wolf."
+        "intent": "Tall grass, a dead end. Deep woods: wolves, panthers, the odd dire wolf.",
+        "population": "density: normal\nmix: wolf 2, panther, dire-wolf"
       }
     },
     {
@@ -16317,7 +16319,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, off the trail. Deep woods: wolves, panthers, the odd dire wolf."
+        "intent": "Tall grass, off the trail. Deep woods: wolves, panthers, the odd dire wolf.",
+        "population": "density: normal\nmix: wolf 2, panther, dire-wolf"
       }
     },
     {
@@ -16837,7 +16840,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf.",
+        "population": "density: normal\nmix: wolf 2, panther, dire-wolf"
       }
     },
     {
@@ -17207,7 +17211,8 @@
       "name": "Boggy Hollow",
       "annotations": {
         "intent": "A boggy hollow on the trail.",
-        "quests": "S3.1 Stalked: interactables panther-kill-1, panther-kill-2, panther-kill-3 (\"Panther Kill\", \"Examining\", 1s); place them here."
+        "quests": "S3.1 Stalked: interactables panther-kill-1, panther-kill-2, panther-kill-3 (\"Panther Kill\", \"Examining\", 1s); place them here.",
+        "population": "density: normal\nmix: wolf, panther"
       }
     },
     {
@@ -17863,7 +17868,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf.",
+        "population": "density: normal\nmix: wolf 2, panther, dire-wolf"
       }
     },
     {
@@ -18351,7 +18357,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf.",
+        "population": "density: normal\nmix: wolf 2, panther, dire-wolf"
       }
     },
     {
@@ -18999,7 +19006,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf.",
+        "population": "density: normal\nmix: wolf 2, panther, dire-wolf"
       }
     },
     {
@@ -19447,7 +19455,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, off the trail. Deep woods: wolves, panthers, the odd dire wolf."
+        "intent": "Tall grass, off the trail. Deep woods: wolves, panthers, the odd dire wolf.",
+        "population": "density: normal\nmix: wolf 2, panther, dire-wolf"
       }
     },
     {
@@ -19898,7 +19907,8 @@
       "annotations": {
         "intent": "The black panther's den (S3), two steps off the trail. The black panther alone: players should find it before it finds them.",
         "quests": "S3.2 The Black Panther: kill black-panther.",
-        "boss": "black-panther (S3.2 The Black Panther)."
+        "boss": "black-panther (S3.2 The Black Panther).",
+        "population": "density: none\nboss: black-panther wander 8"
       }
     },
     {
@@ -20666,7 +20676,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf.",
+        "population": "density: normal\nmix: wolf 2, panther, dire-wolf"
       }
     },
     {
@@ -21282,7 +21293,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf.",
+        "population": "density: normal\nmix: wolf 2, panther, dire-wolf"
       }
     },
     {
@@ -21946,7 +21958,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+        "intent": "Meadow, on the trail. Deep woods: wolves, panthers, the odd dire wolf.",
+        "population": "density: normal\nmix: wolf 2, panther, dire-wolf"
       }
     },
     {
@@ -22571,7 +22584,8 @@
       ],
       "name": "The Old Trees",
       "annotations": {
-        "intent": "A quiet dead end among the oldest trees: a landmark, lightly held (a dire wolf)."
+        "intent": "A quiet dead end among the oldest trees: a landmark, lightly held (a dire wolf).",
+        "population": "density: sparse\nmix: dire-wolf"
       }
     },
     {
@@ -23027,7 +23041,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf.",
+        "population": "density: normal\nmix: wolf 2, panther, dire-wolf"
       }
     },
     {
@@ -23947,7 +23962,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, off the trail. Deep woods: wolves, panthers, the odd dire wolf."
+        "intent": "Tall grass, off the trail. Deep woods: wolves, panthers, the odd dire wolf.",
+        "population": "density: normal\nmix: wolf 2, panther, dire-wolf"
       }
     },
     {
@@ -24827,7 +24843,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, a dead end. Deep woods: wolves, panthers, the odd dire wolf."
+        "intent": "Tall grass, a dead end. Deep woods: wolves, panthers, the odd dire wolf.",
+        "population": "density: normal\nmix: wolf 2, panther, dire-wolf"
       }
     },
     {
@@ -25523,11 +25540,1068 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf.",
+        "population": "density: normal\nmix: wolf 2, panther, dire-wolf"
       }
     }
   ],
   "annotations": {
     "intent": "Deep woods: old trees and a panther's den (S3)."
-  }
+  },
+  "units": [
+    {
+      "identifier": "old-growth-area_1-panther-1",
+      "unitType": "panther",
+      "position": {
+        "x": 94.29,
+        "y": 527.25,
+        "angle": 271
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 94.29,
+          "y": 527.25
+        },
+        "radius": 6.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_1-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 71.05,
+        "y": 494.51,
+        "angle": 32
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "old-growth-area_2-panther-1",
+      "unitType": "panther",
+      "position": {
+        "x": 323.43,
+        "y": 497.25,
+        "angle": 167
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 323.43,
+          "y": 497.25
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_2-panther-2",
+      "unitType": "panther",
+      "position": {
+        "x": 277.87,
+        "y": 530.44,
+        "angle": 233
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "old-growth-area_3-panther-1",
+      "unitType": "panther",
+      "position": {
+        "x": 429.29,
+        "y": 415.32,
+        "angle": 198
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 429.29,
+          "y": 415.32
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_3-panther-2",
+      "unitType": "panther",
+      "position": {
+        "x": 478.39,
+        "y": 470.33,
+        "angle": 266
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 478.39,
+          "y": 470.33
+        },
+        "radius": 4.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_3-panther-3",
+      "unitType": "panther",
+      "position": {
+        "x": 469.65,
+        "y": 428.69,
+        "angle": 136
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "old-growth-area_4-panther-1",
+      "unitType": "panther",
+      "position": {
+        "x": 221.66,
+        "y": 376.8,
+        "angle": 305
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 221.66,
+          "y": 376.8
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_4-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 242.03,
+        "y": 410.53,
+        "angle": 74
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 242.03,
+          "y": 410.53
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_4-dire-wolf-2",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 271.72,
+        "y": 390.81,
+        "angle": 215
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "old-growth-area_5-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 354.69,
+        "y": 416.73,
+        "angle": 321
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 354.69,
+          "y": 416.73
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_5-panther-1",
+      "unitType": "panther",
+      "position": {
+        "x": 311.34,
+        "y": 390.51,
+        "angle": 97
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "old-growth-area_6-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 157.87,
+        "y": 362.86,
+        "angle": 322
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 157.87,
+          "y": 362.86
+        },
+        "radius": 9.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_6-wolf-2",
+      "unitType": "wolf",
+      "position": {
+        "x": 178.96,
+        "y": 416.35,
+        "angle": 108
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "old-growth-area_6-panther-1",
+      "unitType": "panther",
+      "position": {
+        "x": 116.67,
+        "y": 399.5,
+        "angle": 111
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 116.67,
+          "y": 399.5
+        },
+        "radius": 6.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_6-wolf-3",
+      "unitType": "wolf",
+      "position": {
+        "x": 116.27,
+        "y": 361.02,
+        "angle": 27
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 116.27,
+          "y": 361.02
+        },
+        "radius": 4.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_7-panther-1",
+      "unitType": "panther",
+      "position": {
+        "x": 415.25,
+        "y": 337.95,
+        "angle": 95
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 415.25,
+          "y": 337.95
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_7-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 381.6,
+        "y": 338.73,
+        "angle": 162
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 381.6,
+          "y": 338.73
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_7-panther-2",
+      "unitType": "panther",
+      "position": {
+        "x": 399.12,
+        "y": 378.21,
+        "angle": 335
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 399.12,
+          "y": 378.21
+        },
+        "radius": 6.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_7-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 431.46,
+        "y": 368.91,
+        "angle": 280
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 431.46,
+          "y": 368.91
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_8-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 85.31,
+        "y": 329.52,
+        "angle": 211
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 85.31,
+          "y": 329.52
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_8-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 53.52,
+        "y": 315.97,
+        "angle": 206
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "old-growth-area_9-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 210.69,
+        "y": 338.11,
+        "angle": 5
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 210.69,
+          "y": 338.11
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_9-panther-1",
+      "unitType": "panther",
+      "position": {
+        "x": 207.08,
+        "y": 300.69,
+        "angle": 178
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 207.08,
+          "y": 300.69
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_10-black-panther-1",
+      "unitType": "black-panther",
+      "position": {
+        "x": 288.75,
+        "y": 308.75,
+        "angle": 2
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 288.75,
+          "y": 308.75
+        },
+        "radius": 8,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_11-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 440.43,
+        "y": 261.38,
+        "angle": 357
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "old-growth-area_11-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 479.32,
+        "y": 245.46,
+        "angle": 213
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 479.32,
+          "y": 245.46
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_11-panther-1",
+      "unitType": "panther",
+      "position": {
+        "x": 502.08,
+        "y": 287.9,
+        "angle": 17
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 502.08,
+          "y": 287.9
+        },
+        "radius": 4.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_12-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 354.39,
+        "y": 240.64,
+        "angle": 173
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 354.39,
+          "y": 240.64
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_12-panther-1",
+      "unitType": "panther",
+      "position": {
+        "x": 364.69,
+        "y": 273.53,
+        "angle": 62
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 364.69,
+          "y": 273.53
+        },
+        "radius": 7.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_12-panther-2",
+      "unitType": "panther",
+      "position": {
+        "x": 409.42,
+        "y": 235.79,
+        "angle": 49
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 409.42,
+          "y": 235.79
+        },
+        "radius": 4.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_12-wolf-2",
+      "unitType": "wolf",
+      "position": {
+        "x": 406.96,
+        "y": 185.98,
+        "angle": 302
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 406.96,
+          "y": 185.98
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_13-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 112.87,
+        "y": 229.59,
+        "angle": 234
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 112.87,
+          "y": 229.59
+        },
+        "radius": 9.64,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_14-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 258.34,
+        "y": 176.39,
+        "angle": 135
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 258.34,
+          "y": 176.39
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_15-panther-1",
+      "unitType": "panther",
+      "position": {
+        "x": 153.51,
+        "y": 80.38,
+        "angle": 336
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 153.51,
+          "y": 80.38
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_15-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 182.02,
+        "y": 101.68,
+        "angle": 145
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 182.02,
+          "y": 101.68
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_16-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 445.93,
+        "y": 84.53,
+        "angle": 272
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "old-growth-area_16-dire-wolf-2",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 402.84,
+        "y": 75.37,
+        "angle": 139
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 402.84,
+          "y": 75.37
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_16-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 431.77,
+        "y": 49.63,
+        "angle": 30
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 431.77,
+          "y": 49.63
+        },
+        "radius": 4.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_16-wolf-2",
+      "unitType": "wolf",
+      "position": {
+        "x": 407.06,
+        "y": 148.63,
+        "angle": 40
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 407.06,
+          "y": 148.63
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_17-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 76.59,
+        "y": 90.78,
+        "angle": 281
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 76.59,
+          "y": 90.78
+        },
+        "radius": 5.07,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_17-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 72.2,
+        "y": 44.48,
+        "angle": 39
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 72.2,
+          "y": 44.48
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_17-panther-1",
+      "unitType": "panther",
+      "position": {
+        "x": 118.5,
+        "y": 63.7,
+        "angle": 142
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "old-growth-area_18-panther-1",
+      "unitType": "panther",
+      "position": {
+        "x": 269.73,
+        "y": 21.53,
+        "angle": 352
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "old-growth-area_18-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 241.1,
+        "y": 58.37,
+        "angle": 101
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 241.1,
+          "y": 58.37
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "old-growth-area_18-panther-2",
+      "unitType": "panther",
+      "position": {
+        "x": 219.63,
+        "y": 23.91,
+        "angle": 67
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 219.63,
+          "y": 23.91
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    }
+  ],
+  "ncus": []
 }

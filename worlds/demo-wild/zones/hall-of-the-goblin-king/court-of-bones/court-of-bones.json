@@ -6308,7 +6308,8 @@
       ],
       "name": "Court of Bones",
       "annotations": {
-        "intent": "The King's court: shamans, hexers and the royal guard."
+        "intent": "The King's court: shamans, hexers and the royal guard.",
+        "population": "density: 0.4\nmix: goblin-royal-guard 2, goblin-hexer, goblin-mender\ngroups: 2-3"
       }
     },
     {
@@ -7252,7 +7253,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. The King's court: royal guards, shamans, hexers."
+        "intent": "Floor, on the trail. The King's court: royal guards, shamans, hexers.",
+        "population": "density: normal\nmix: goblin-royal-guard 2, goblin-hexer, goblin-mender\ngroups: 2-3"
       }
     },
     {
@@ -7901,11 +7903,990 @@
       ],
       "name": "Bone Antechamber",
       "annotations": {
-        "intent": "A bone antechamber off the court."
+        "intent": "A bone antechamber off the court.",
+        "population": "density: normal\nmix: goblin-royal-guard 2, goblin-hexer, goblin-mender\ngroups: 2-3"
       }
     }
   ],
   "annotations": {
     "intent": "The King's court: shamans and the royal guard."
-  }
+  },
+  "units": [
+    {
+      "identifier": "court-of-bones-area_1-goblin-mender-1",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 195.66,
+        "y": 133.08,
+        "angle": 137
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 195.66,
+          "y": 133.08
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g1"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 190.75,
+        "y": 132.13,
+        "angle": 356
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 190.75,
+          "y": 132.13
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g1"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-mender-2",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 200.44,
+        "y": 134.56,
+        "angle": 318
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 200.44,
+          "y": 134.56
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g1"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 198.9,
+        "y": 193.97,
+        "angle": 358
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 198.9,
+          "y": 193.97
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g2"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-3",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 203.68,
+        "y": 195.46,
+        "angle": 188
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 203.68,
+          "y": 195.46
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g2"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-4",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 125.96,
+        "y": 210.74,
+        "angle": 338
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 125.96,
+          "y": 210.74
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g3"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-5",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 130.46,
+        "y": 212.92,
+        "angle": 319
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 130.46,
+          "y": 212.92
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g3"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-6",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 250.97,
+        "y": 114.17,
+        "angle": 240
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 250.97,
+          "y": 114.17
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g4"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-hexer-1",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 255.86,
+        "y": 115.21,
+        "angle": 243
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "court-of-bones-area_1-g4"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-7",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 135.93,
+        "y": 285.56,
+        "angle": 196
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 135.93,
+          "y": 285.56
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g5"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-hexer-2",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 131,
+        "y": 284.73,
+        "angle": 211
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 131,
+          "y": 284.73
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g5"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-8",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 140.69,
+        "y": 287.08,
+        "angle": 266
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 140.69,
+          "y": 287.08
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g5"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-9",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 70.88,
+        "y": 235.53,
+        "angle": 74
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "court-of-bones-area_1-g6"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-10",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 75.36,
+        "y": 237.74,
+        "angle": 170
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 75.36,
+          "y": 237.74
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g6"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-11",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 157.79,
+        "y": 236.18,
+        "angle": 179
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 157.79,
+          "y": 236.18
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g7"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-12",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 162.78,
+        "y": 236.55,
+        "angle": 9
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 162.78,
+          "y": 236.55
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g7"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-13",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 250.48,
+        "y": 251.45,
+        "angle": 96
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 250.48,
+          "y": 251.45
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g8"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-14",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 245.54,
+        "y": 250.73,
+        "angle": 131
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 245.54,
+          "y": 250.73
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g8"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-15",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 254.95,
+        "y": 253.71,
+        "angle": 209
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 254.95,
+          "y": 253.71
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g8"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-hexer-3",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 222.03,
+        "y": 277.92,
+        "angle": 91
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 222.03,
+          "y": 277.92
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g9"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-16",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 226.92,
+        "y": 278.98,
+        "angle": 333
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "court-of-bones-area_1-g9"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-mender-3",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 224.5,
+        "y": 166.57,
+        "angle": 359
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 224.5,
+          "y": 166.57
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g10"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-17",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 228.9,
+        "y": 168.93,
+        "angle": 151
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 228.9,
+          "y": 168.93
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g10"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-mender-4",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 131.73,
+        "y": 108.55,
+        "angle": 68
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 131.73,
+          "y": 108.55
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g11"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-hexer-4",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 136.24,
+        "y": 110.72,
+        "angle": 139
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 136.24,
+          "y": 110.72
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g11"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-18",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 213.77,
+        "y": 234.47,
+        "angle": 199
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 213.77,
+          "y": 234.47
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g12"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-hexer-5",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 209.33,
+        "y": 232.17,
+        "angle": 191
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 209.33,
+          "y": 232.17
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g12"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-19",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 218.76,
+        "y": 234.61,
+        "angle": 122
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 218.76,
+          "y": 234.61
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g12"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-20",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 165.94,
+        "y": 166.08,
+        "angle": 40
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 165.94,
+          "y": 166.08
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g13"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-hexer-6",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 161.01,
+        "y": 165.26,
+        "angle": 303
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 161.01,
+          "y": 165.26
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g13"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-mender-5",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 170.68,
+        "y": 167.68,
+        "angle": 10
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 170.68,
+          "y": 167.68
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g13"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-21",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 266.82,
+        "y": 163.17,
+        "angle": 76
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 266.82,
+          "y": 163.17
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g14"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-royal-guard-22",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 271.79,
+        "y": 163.74,
+        "angle": 301
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "court-of-bones-area_1-g14"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-mender-6",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 90.27,
+        "y": 178.9,
+        "angle": 285
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 90.27,
+          "y": 178.9
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g15"
+    },
+    {
+      "identifier": "court-of-bones-area_1-goblin-mender-7",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 95.16,
+        "y": 179.95,
+        "angle": 302
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 95.16,
+          "y": 179.95
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_1-g15"
+    },
+    {
+      "identifier": "court-of-bones-area_2-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 23.09,
+        "y": 38.63,
+        "angle": 181
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "court-of-bones-area_2-g1"
+    },
+    {
+      "identifier": "court-of-bones-area_2-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 28.09,
+        "y": 38.75,
+        "angle": 201
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 28.09,
+          "y": 38.75
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_2-g1"
+    },
+    {
+      "identifier": "court-of-bones-area_3-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 298.47,
+        "y": 31.52,
+        "angle": 119
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "court-of-bones-area_3-g1"
+    },
+    {
+      "identifier": "court-of-bones-area_3-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 303.35,
+        "y": 32.61,
+        "angle": 189
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 303.35,
+          "y": 32.61
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "court-of-bones-area_3-g1"
+    }
+  ],
+  "ncus": []
 }

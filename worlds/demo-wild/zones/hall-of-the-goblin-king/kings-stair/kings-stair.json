@@ -8805,7 +8805,8 @@
       ],
       "name": "Upper Guard Post",
       "annotations": {
-        "intent": "The last guard post before the warrens: goblin royal guards."
+        "intent": "The last guard post before the warrens: goblin royal guards.",
+        "population": "density: dense\nmix: goblin-royal-guard\ngroups: 2-3"
       }
     },
     {
@@ -9373,7 +9374,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, on the trail. The stair down: goblin royal guards."
+        "intent": "Gravel, on the trail. The stair down: goblin royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -10077,7 +10079,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. The stair down: goblin royal guards."
+        "intent": "Floor, off the trail. The stair down: goblin royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -10661,7 +10664,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. The stair down: goblin royal guards."
+        "intent": "Floor, off the trail. The stair down: goblin royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -11109,7 +11113,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. The stair down: goblin royal guards."
+        "intent": "Floor, on the trail. The stair down: goblin royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -11589,7 +11594,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. The stair down: goblin royal guards."
+        "intent": "Floor, off the trail. The stair down: goblin royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -12318,7 +12324,8 @@
       ],
       "name": "Lower Guard Post",
       "annotations": {
-        "intent": "A guard post on the stair: goblin royal guards."
+        "intent": "A guard post on the stair: goblin royal guards.",
+        "population": "density: dense\nmix: goblin-royal-guard\ngroups: 2-3"
       }
     },
     {
@@ -12886,7 +12893,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, a dead end. The stair down: goblin royal guards."
+        "intent": "Floor, a dead end. The stair down: goblin royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -13334,7 +13342,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, a dead end. The stair down: goblin royal guards."
+        "intent": "Floor, a dead end. The stair down: goblin royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -13942,11 +13951,1081 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. The stair down: goblin royal guards."
+        "intent": "Floor, on the trail. The stair down: goblin royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     }
   ],
   "annotations": {
     "intent": "The stair down: a winding descent with guard posts."
-  }
+  },
+  "units": [
+    {
+      "identifier": "kings-stair-area_1-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 228.99,
+        "y": 273.44,
+        "angle": 160
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 228.99,
+          "y": 273.44
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_1-g1"
+    },
+    {
+      "identifier": "kings-stair-area_1-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 233.72,
+        "y": 275.07,
+        "angle": 31
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 233.72,
+          "y": 275.07
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_1-g1"
+    },
+    {
+      "identifier": "kings-stair-area_1-goblin-royal-guard-3",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 264.16,
+        "y": 297.08,
+        "angle": 310
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 264.16,
+          "y": 297.08
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_1-g2"
+    },
+    {
+      "identifier": "kings-stair-area_1-goblin-royal-guard-4",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 259.68,
+        "y": 294.85,
+        "angle": 290
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 259.68,
+          "y": 294.85
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_1-g2"
+    },
+    {
+      "identifier": "kings-stair-area_1-goblin-royal-guard-5",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 269.12,
+        "y": 297.69,
+        "angle": 281
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_1-g2"
+    },
+    {
+      "identifier": "kings-stair-area_1-goblin-royal-guard-6",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 255.68,
+        "y": 273.1,
+        "angle": 341
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_1-g3"
+    },
+    {
+      "identifier": "kings-stair-area_1-goblin-royal-guard-7",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 269.46,
+        "y": 323.37,
+        "angle": 338
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_1-g4"
+    },
+    {
+      "identifier": "kings-stair-area_1-goblin-royal-guard-8",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 264.63,
+        "y": 322.08,
+        "angle": 142
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_1-g4"
+    },
+    {
+      "identifier": "kings-stair-area_1-goblin-royal-guard-9",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 274.34,
+        "y": 324.44,
+        "angle": 107
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_1-g4"
+    },
+    {
+      "identifier": "kings-stair-area_2-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 180.39,
+        "y": 304.67,
+        "angle": 182
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 180.39,
+          "y": 304.67
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_2-g1"
+    },
+    {
+      "identifier": "kings-stair-area_2-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 185.3,
+        "y": 305.63,
+        "angle": 61
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 185.3,
+          "y": 305.63
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_2-g1"
+    },
+    {
+      "identifier": "kings-stair-area_2-goblin-royal-guard-3",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 152.19,
+        "y": 281.04,
+        "angle": 154
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 152.19,
+          "y": 281.04
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_2-g2"
+    },
+    {
+      "identifier": "kings-stair-area_2-goblin-royal-guard-4",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 157.14,
+        "y": 281.81,
+        "angle": 34
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 157.14,
+          "y": 281.81
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_2-g2"
+    },
+    {
+      "identifier": "kings-stair-area_3-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 90.33,
+        "y": 263.4,
+        "angle": 267
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_3-g1"
+    },
+    {
+      "identifier": "kings-stair-area_3-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 55.36,
+        "y": 291.62,
+        "angle": 84
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_3-g2"
+    },
+    {
+      "identifier": "kings-stair-area_3-goblin-royal-guard-3",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 60.32,
+        "y": 292.31,
+        "angle": 271
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_3-g2"
+    },
+    {
+      "identifier": "kings-stair-area_3-goblin-royal-guard-4",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 99.13,
+        "y": 303.19,
+        "angle": 61
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 99.13,
+          "y": 303.19
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_3-g3"
+    },
+    {
+      "identifier": "kings-stair-area_3-goblin-royal-guard-5",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 104.1,
+        "y": 303.8,
+        "angle": 22
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_3-g3"
+    },
+    {
+      "identifier": "kings-stair-area_4-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 55.65,
+        "y": 185.74,
+        "angle": 340
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 55.65,
+          "y": 185.74
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_4-g1"
+    },
+    {
+      "identifier": "kings-stair-area_4-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 60.04,
+        "y": 188.13,
+        "angle": 132
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 60.04,
+          "y": 188.13
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_4-g1"
+    },
+    {
+      "identifier": "kings-stair-area_4-goblin-royal-guard-3",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 20.91,
+        "y": 144.46,
+        "angle": 252
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_4-g2"
+    },
+    {
+      "identifier": "kings-stair-area_4-goblin-royal-guard-4",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 25.55,
+        "y": 146.32,
+        "angle": 297
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 25.55,
+          "y": 146.32
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_4-g2"
+    },
+    {
+      "identifier": "kings-stair-area_5-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 234.09,
+        "y": 162.16,
+        "angle": 254
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_5-g1"
+    },
+    {
+      "identifier": "kings-stair-area_5-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 238.57,
+        "y": 164.37,
+        "angle": 269
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 238.57,
+          "y": 164.37
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_5-g1"
+    },
+    {
+      "identifier": "kings-stair-area_5-goblin-royal-guard-3",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 195.83,
+        "y": 160.88,
+        "angle": 57
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_5-g2"
+    },
+    {
+      "identifier": "kings-stair-area_5-goblin-royal-guard-4",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 200.82,
+        "y": 161.1,
+        "angle": 182
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_5-g2"
+    },
+    {
+      "identifier": "kings-stair-area_6-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 105.95,
+        "y": 141.28,
+        "angle": 121
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 105.95,
+          "y": 141.28
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_6-g1"
+    },
+    {
+      "identifier": "kings-stair-area_6-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 110.93,
+        "y": 141.8,
+        "angle": 273
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 110.93,
+          "y": 141.8
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_6-g1"
+    },
+    {
+      "identifier": "kings-stair-area_6-goblin-royal-guard-3",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 133.93,
+        "y": 179.67,
+        "angle": 214
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_6-g2"
+    },
+    {
+      "identifier": "kings-stair-area_7-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 211.27,
+        "y": 125.72,
+        "angle": 135
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 211.27,
+          "y": 125.72
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_7-g1"
+    },
+    {
+      "identifier": "kings-stair-area_7-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 206.46,
+        "y": 124.33,
+        "angle": 182
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 206.46,
+          "y": 124.33
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_7-g1"
+    },
+    {
+      "identifier": "kings-stair-area_7-goblin-royal-guard-3",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 216.22,
+        "y": 126.39,
+        "angle": 251
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 216.22,
+          "y": 126.39
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_7-g1"
+    },
+    {
+      "identifier": "kings-stair-area_7-goblin-royal-guard-4",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 172.89,
+        "y": 122.89,
+        "angle": 358
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 172.89,
+          "y": 122.89
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_7-g2"
+    },
+    {
+      "identifier": "kings-stair-area_7-goblin-royal-guard-5",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 167.95,
+        "y": 122.15,
+        "angle": 189
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_7-g2"
+    },
+    {
+      "identifier": "kings-stair-area_7-goblin-royal-guard-6",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 177.28,
+        "y": 125.28,
+        "angle": 103
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 177.28,
+          "y": 125.28
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_7-g2"
+    },
+    {
+      "identifier": "kings-stair-area_7-goblin-royal-guard-7",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 252.07,
+        "y": 98.24,
+        "angle": 284
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 252.07,
+          "y": 98.24
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_7-g3"
+    },
+    {
+      "identifier": "kings-stair-area_7-goblin-royal-guard-8",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 256.78,
+        "y": 99.92,
+        "angle": 123
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_7-g3"
+    },
+    {
+      "identifier": "kings-stair-area_7-goblin-royal-guard-9",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 285.34,
+        "y": 138.47,
+        "angle": 143
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_7-g4"
+    },
+    {
+      "identifier": "kings-stair-area_7-goblin-royal-guard-10",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 280.64,
+        "y": 136.77,
+        "angle": 65
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 280.64,
+          "y": 136.77
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_7-g4"
+    },
+    {
+      "identifier": "kings-stair-area_7-goblin-royal-guard-11",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 289.96,
+        "y": 140.4,
+        "angle": 93
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_7-g4"
+    },
+    {
+      "identifier": "kings-stair-area_8-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 60.36,
+        "y": 66.16,
+        "angle": 224
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 60.36,
+          "y": 66.16
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_8-g1"
+    },
+    {
+      "identifier": "kings-stair-area_8-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 65.35,
+        "y": 66.39,
+        "angle": 38
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_8-g1"
+    },
+    {
+      "identifier": "kings-stair-area_8-goblin-royal-guard-3",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 25.51,
+        "y": 45.67,
+        "angle": 183
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 25.51,
+          "y": 45.67
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_8-g2"
+    },
+    {
+      "identifier": "kings-stair-area_8-goblin-royal-guard-4",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 30.47,
+        "y": 46.36,
+        "angle": 241
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 30.47,
+          "y": 46.36
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_8-g2"
+    },
+    {
+      "identifier": "kings-stair-area_9-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 284.43,
+        "y": 83.48,
+        "angle": 151
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_9-g1"
+    },
+    {
+      "identifier": "kings-stair-area_9-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 289.43,
+        "y": 83.55,
+        "angle": 279
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_9-g1"
+    },
+    {
+      "identifier": "kings-stair-area_10-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 128.53,
+        "y": 41.84,
+        "angle": 260
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_10-g1"
+    },
+    {
+      "identifier": "kings-stair-area_10-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 133.52,
+        "y": 42.02,
+        "angle": 278
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_10-g1"
+    },
+    {
+      "identifier": "kings-stair-area_10-goblin-royal-guard-3",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 181.22,
+        "y": 63.87,
+        "angle": 88
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_10-g2"
+    },
+    {
+      "identifier": "kings-stair-area_10-goblin-royal-guard-4",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 186.17,
+        "y": 64.57,
+        "angle": 107
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 186.17,
+          "y": 64.57
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "kings-stair-area_10-g2"
+    },
+    {
+      "identifier": "kings-stair-area_10-goblin-royal-guard-5",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 207.88,
+        "y": 27.17,
+        "angle": 227
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_10-g3"
+    },
+    {
+      "identifier": "kings-stair-area_10-goblin-royal-guard-6",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 212.86,
+        "y": 27.56,
+        "angle": 204
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "kings-stair-area_10-g3"
+    }
+  ],
+  "ncus": []
 }

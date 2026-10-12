@@ -14269,7 +14269,8 @@
       ],
       "annotations": {
         "intent": "Goblin snares in the grass, and the sneaks who set them.",
-        "quests": "L1.5 Something Behind Them: kill goblin-sneak x5 (across area_1, area_2, area_7, area_17).\nL1.6 Cut the Snares: interactables goblin-snare-1, goblin-snare-5 (\"Goblin Snare\", \"Cutting\", 1s); place them here.\nL4.3 Split Up: kill goblin-sneak x5 (across area_1, area_2)."
+        "quests": "L1.5 Something Behind Them: kill goblin-sneak x5 (across area_1, area_2, area_7, area_17).\nL1.6 Cut the Snares: interactables goblin-snare-1, goblin-snare-5 (\"Goblin Snare\", \"Cutting\", 1s); place them here.\nL4.3 Split Up: kill goblin-sneak x5 (across area_1, area_2).",
+        "population": "density: normal\nmix: goblin-sneak"
       }
     },
     {
@@ -14806,7 +14807,8 @@
       ],
       "annotations": {
         "intent": "Goblin snares in the grass, and the sneaks who set them.",
-        "quests": "L1.5 Something Behind Them: kill goblin-sneak x5 (across area_1, area_2, area_7, area_17).\nL1.6 Cut the Snares: interactables goblin-snare-2, goblin-snare-6 (\"Goblin Snare\", \"Cutting\", 1s); place them here.\nL4.3 Split Up: kill goblin-sneak x5 (across area_1, area_2)."
+        "quests": "L1.5 Something Behind Them: kill goblin-sneak x5 (across area_1, area_2, area_7, area_17).\nL1.6 Cut the Snares: interactables goblin-snare-2, goblin-snare-6 (\"Goblin Snare\", \"Cutting\", 1s); place them here.\nL4.3 Split Up: kill goblin-sneak x5 (across area_1, area_2).",
+        "population": "density: normal\nmix: goblin-sneak"
       }
     },
     {
@@ -15503,7 +15505,8 @@
       ],
       "name": "Cave Track",
       "annotations": {
-        "intent": "The trail up to the Gnawdeep's cave mouth: goblin wolfriders come and go."
+        "intent": "The trail up to the Gnawdeep's cave mouth: goblin wolfriders come and go.",
+        "population": "density: normal\nmix: goblin-wolfrider\ngroups: 2\nmovement: patrol"
       }
     },
     {
@@ -16247,7 +16250,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, a dead end. Goblin country's edge: dire wolves, goblin sneaks."
+        "intent": "Tall grass, a dead end. Goblin country's edge: dire wolves, goblin sneaks.",
+        "population": "density: normal\nmix: dire-wolf, goblin-sneak 2"
       }
     },
     {
@@ -16768,7 +16772,8 @@
       ],
       "annotations": {
         "intent": "On the goblin wolfriders' patrol route, near the cave track.",
-        "quests": "L1.7 Wolfriders: kill goblin-wolfrider x5 (across area_11, area_5, area_10, area_15)."
+        "quests": "L1.7 Wolfriders: kill goblin-wolfrider x5 (across area_11, area_5, area_10, area_15).",
+        "population": "density: normal\nmix: goblin-wolfrider\nmovement: patrol"
       }
     },
     {
@@ -17104,7 +17109,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, off the trail. Goblin country's edge: dire wolves, goblin sneaks."
+        "intent": "Tall grass, off the trail. Goblin country's edge: dire wolves, goblin sneaks.",
+        "population": "density: normal\nmix: dire-wolf, goblin-sneak 2"
       }
     },
     {
@@ -17489,7 +17495,8 @@
       ],
       "annotations": {
         "intent": "Goblin snares in the grass, and the sneaks who set them.",
-        "quests": "L1.5 Something Behind Them: kill goblin-sneak x5 (across area_1, area_2, area_7, area_17).\nL1.6 Cut the Snares: interactables goblin-snare-3 (\"Goblin Snare\", \"Cutting\", 1s); place them here."
+        "quests": "L1.5 Something Behind Them: kill goblin-sneak x5 (across area_1, area_2, area_7, area_17).\nL1.6 Cut the Snares: interactables goblin-snare-3 (\"Goblin Snare\", \"Cutting\", 1s); place them here.",
+        "population": "density: normal\nmix: goblin-sneak"
       }
     },
     {
@@ -18081,7 +18088,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, a dead end. Goblin country's edge: dire wolves, goblin sneaks."
+        "intent": "Marsh, a dead end. Goblin country's edge: dire wolves, goblin sneaks.",
+        "population": "density: normal\nmix: dire-wolf, goblin-sneak 2"
       }
     },
     {
@@ -18586,7 +18594,8 @@
       ],
       "annotations": {
         "intent": "A goblin holding pen on the wolfriders' route: caged wolf cubs (L1.8), goblin wolfriders.",
-        "quests": "L1.8 The Cub: interactables cub-cage-1, cub-cage-2, cub-cage-3 (\"Cub Cage\", \"Opening\", 2s); place them here."
+        "quests": "L1.8 The Cub: interactables cub-cage-1, cub-cage-2, cub-cage-3 (\"Cub Cage\", \"Opening\", 2s); place them here.",
+        "population": "density: normal\nmix: goblin-wolfrider\ngroups: 2"
       },
       "name": "Goblin Pen"
     },
@@ -19204,7 +19213,8 @@
       ],
       "annotations": {
         "intent": "On the goblin wolfriders' patrol route.",
-        "quests": "L1.7 Wolfriders: kill goblin-wolfrider x5 (across area_11, area_5, area_10, area_15)."
+        "quests": "L1.7 Wolfriders: kill goblin-wolfrider x5 (across area_11, area_5, area_10, area_15).",
+        "population": "density: normal\nmix: goblin-wolfrider\nmovement: patrol"
       }
     },
     {
@@ -19758,7 +19768,8 @@
       "name": "Wolfrider Run",
       "annotations": {
         "intent": "The middle of the wolfriders' patrol route (along the trail): goblin wolfriders.",
-        "quests": "L1.7 Wolfriders: kill goblin-wolfrider x5 (across area_11, area_5, area_10, area_15)."
+        "quests": "L1.7 Wolfriders: kill goblin-wolfrider x5 (across area_11, area_5, area_10, area_15).",
+        "population": "density: normal\nmix: goblin-wolfrider\nmovement: patrol"
       }
     },
     {
@@ -20246,7 +20257,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Goblin country's edge: dire wolves, goblin sneaks."
+        "intent": "Marsh, off the trail. Goblin country's edge: dire wolves, goblin sneaks.",
+        "population": "density: normal\nmix: dire-wolf, goblin-sneak 2"
       }
     },
     {
@@ -20830,7 +20842,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, off the trail. Goblin country's edge: dire wolves, goblin sneaks."
+        "intent": "Meadow, off the trail. Goblin country's edge: dire wolves, goblin sneaks.",
+        "population": "density: normal\nmix: dire-wolf, goblin-sneak 2"
       }
     },
     {
@@ -21446,7 +21459,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, a dead end. Goblin country's edge: dire wolves, goblin sneaks."
+        "intent": "Tall grass, a dead end. Goblin country's edge: dire wolves, goblin sneaks.",
+        "population": "density: normal\nmix: dire-wolf, goblin-sneak 2"
       }
     },
     {
@@ -21951,7 +21965,8 @@
       ],
       "annotations": {
         "intent": "On the goblin wolfriders' patrol route, nearest the woods.",
-        "quests": "L1.7 Wolfriders: kill goblin-wolfrider x5 (across area_11, area_5, area_10, area_15)."
+        "quests": "L1.7 Wolfriders: kill goblin-wolfrider x5 (across area_11, area_5, area_10, area_15).",
+        "population": "density: normal\nmix: goblin-wolfrider\nmovement: patrol"
       }
     },
     {
@@ -22535,7 +22550,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, off the trail. Goblin country's edge: dire wolves, goblin sneaks."
+        "intent": "Meadow, off the trail. Goblin country's edge: dire wolves, goblin sneaks.",
+        "population": "density: normal\nmix: dire-wolf, goblin-sneak 2"
       }
     },
     {
@@ -23280,7 +23296,8 @@
       ],
       "annotations": {
         "intent": "Goblin snares in the grass, and the sneaks who set them.",
-        "quests": "L1.5 Something Behind Them: kill goblin-sneak x5 (across area_1, area_2, area_7, area_17).\nL1.6 Cut the Snares: interactables goblin-snare-4 (\"Goblin Snare\", \"Cutting\", 1s); place them here."
+        "quests": "L1.5 Something Behind Them: kill goblin-sneak x5 (across area_1, area_2, area_7, area_17).\nL1.6 Cut the Snares: interactables goblin-snare-4 (\"Goblin Snare\", \"Cutting\", 1s); place them here.",
+        "population": "density: normal\nmix: goblin-sneak"
       }
     },
     {
@@ -24272,7 +24289,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, on the trail. Goblin country's edge: dire wolves, goblin sneaks."
+        "intent": "Tall grass, on the trail. Goblin country's edge: dire wolves, goblin sneaks.",
+        "population": "density: normal\nmix: dire-wolf, goblin-sneak 2"
       }
     },
     {
@@ -25123,11 +25141,1242 @@
       "annotations": {
         "intent": "An expedition survivor's hide (L4), three places off the trail: the survivor NCU, hiding from the goblins. No hostiles.",
         "ncus": "pike: Pike, an expedition survivor, hiding; gives L4.3-4.",
-        "quests": "L4.2 The First Survivor: talk to pike."
+        "quests": "L4.2 The First Survivor: talk to pike.",
+        "population": "density: none\nncu: pike \"Pike\" ../../../tokens/ncu/humans/prospector-2.webp \"Keep your voice down.\""
       }
     }
   ],
   "annotations": {
     "intent": "Wooded hills to the north: goblin snares, wolfrider patrols, a survivor's hide (L4), and the cave mouth."
-  }
+  },
+  "units": [
+    {
+      "identifier": "the-hills-area_1-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 47.9,
+        "y": 479.48,
+        "angle": 169
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 47.9,
+          "y": 479.48
+        },
+        "radius": 4.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_1-goblin-sneak-2",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 91.85,
+        "y": 437.95,
+        "angle": 286
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 91.85,
+          "y": 437.95
+        },
+        "radius": 4.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_1-goblin-sneak-3",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 40.94,
+        "y": 416.45,
+        "angle": 231
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 40.94,
+          "y": 416.45
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_2-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 203.53,
+        "y": 469.06,
+        "angle": 331
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "the-hills-area_2-goblin-sneak-2",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 174.48,
+        "y": 448.94,
+        "angle": 112
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 174.48,
+          "y": 448.94
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_3-goblin-wolfrider-1",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 307.21,
+        "y": 479.58,
+        "angle": 45
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 307.21,
+          "y": 479.58
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "the-hills-area_3-g1"
+    },
+    {
+      "identifier": "the-hills-area_3-goblin-wolfrider-2",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 312.07,
+        "y": 480.75,
+        "angle": 7
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "the-hills-area_3-g1"
+    },
+    {
+      "identifier": "the-hills-area_3-goblin-wolfrider-3",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 338.51,
+        "y": 463.21,
+        "angle": 54
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 338.51,
+          "y": 463.21
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "the-hills-area_3-g2"
+    },
+    {
+      "identifier": "the-hills-area_3-goblin-wolfrider-4",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 342.97,
+        "y": 465.47,
+        "angle": 312
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 342.97,
+          "y": 465.47
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "the-hills-area_3-g2"
+    },
+    {
+      "identifier": "the-hills-area_4-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 492.12,
+        "y": 466.45,
+        "angle": 121
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 492.12,
+          "y": 466.45
+        },
+        "radius": 5.07,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_4-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 449.55,
+        "y": 455.82,
+        "angle": 315
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 449.55,
+          "y": 455.82
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_5-goblin-wolfrider-1",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 298.78,
+        "y": 418.68,
+        "angle": 130
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "patrol",
+        "choose": "return",
+        "steps": [
+          {
+            "position": {
+              "x": 298.78,
+              "y": 418.68,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          },
+          {
+            "position": {
+              "x": 279.64,
+              "y": 428.39,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_5-goblin-wolfrider-2",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 241.31,
+        "y": 416.64,
+        "angle": 285
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "patrol",
+        "choose": "return",
+        "steps": [
+          {
+            "position": {
+              "x": 241.31,
+              "y": 416.64,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          },
+          {
+            "position": {
+              "x": 267.31,
+              "y": 407.03,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_6-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 458.66,
+        "y": 387.25,
+        "angle": 321
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 458.66,
+          "y": 387.25
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_7-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 101.68,
+        "y": 355.89,
+        "angle": 169
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 101.68,
+          "y": 355.89
+        },
+        "radius": 7.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_8-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 496.83,
+        "y": 320.33,
+        "angle": 323
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 496.83,
+          "y": 320.33
+        },
+        "radius": 9.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_8-goblin-sneak-2",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 461.64,
+        "y": 290.32,
+        "angle": 348
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 461.64,
+          "y": 290.32
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_9-goblin-wolfrider-1",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 213.41,
+        "y": 327.78,
+        "angle": 297
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 213.41,
+          "y": 327.78
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "the-hills-area_9-g1"
+    },
+    {
+      "identifier": "the-hills-area_9-goblin-wolfrider-2",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 218.24,
+        "y": 329.06,
+        "angle": 197
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 218.24,
+          "y": 329.06
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "the-hills-area_9-g1"
+    },
+    {
+      "identifier": "the-hills-area_9-goblin-wolfrider-3",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 173.68,
+        "y": 280.54,
+        "angle": 99
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "the-hills-area_9-g2"
+    },
+    {
+      "identifier": "the-hills-area_9-goblin-wolfrider-4",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 178.08,
+        "y": 282.92,
+        "angle": 57
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 178.08,
+          "y": 282.92
+        },
+        "radius": 3.57,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "the-hills-area_9-g2"
+    },
+    {
+      "identifier": "the-hills-area_10-goblin-wolfrider-1",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 414.35,
+        "y": 285.36,
+        "angle": 237
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "patrol",
+        "choose": "return",
+        "steps": [
+          {
+            "position": {
+              "x": 414.35,
+              "y": 285.36,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          },
+          {
+            "position": {
+              "x": 378.97,
+              "y": 268.7,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_10-goblin-wolfrider-2",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 368.15,
+        "y": 303.08,
+        "angle": 338
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "patrol",
+        "choose": "return",
+        "steps": [
+          {
+            "position": {
+              "x": 368.15,
+              "y": 303.08,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          },
+          {
+            "position": {
+              "x": 376.35,
+              "y": 266.16,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_11-goblin-wolfrider-1",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 307.82,
+        "y": 293.25,
+        "angle": 268
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "patrol",
+        "choose": "return",
+        "steps": [
+          {
+            "position": {
+              "x": 307.82,
+              "y": 293.25,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          },
+          {
+            "position": {
+              "x": 297.83,
+              "y": 311.54,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_11-goblin-wolfrider-2",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 308.95,
+        "y": 249.25,
+        "angle": 308
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "patrol",
+        "choose": "return",
+        "steps": [
+          {
+            "position": {
+              "x": 308.95,
+              "y": 249.25,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          },
+          {
+            "position": {
+              "x": 298.2,
+              "y": 281.59,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_11-goblin-wolfrider-3",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 276.9,
+        "y": 313.88,
+        "angle": 9
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "patrol",
+        "choose": "return",
+        "steps": [
+          {
+            "position": {
+              "x": 276.9,
+              "y": 313.88,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          },
+          {
+            "position": {
+              "x": 271.66,
+              "y": 279.76,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_11-goblin-wolfrider-4",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 272.89,
+        "y": 273.91,
+        "angle": 129
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "patrol",
+        "choose": "return",
+        "steps": [
+          {
+            "position": {
+              "x": 272.89,
+              "y": 273.91,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          },
+          {
+            "position": {
+              "x": 277.33,
+              "y": 304.52,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_12-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 63.68,
+        "y": 290.98,
+        "angle": 222
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 63.68,
+          "y": 290.98
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_13-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 68.76,
+        "y": 175.32,
+        "angle": 249
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 68.76,
+          "y": 175.32
+        },
+        "radius": 8.61,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_13-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 38.55,
+        "y": 217.82,
+        "angle": 128
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "the-hills-area_13-goblin-sneak-2",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 85.38,
+        "y": 211.13,
+        "angle": 313
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 85.38,
+          "y": 211.13
+        },
+        "radius": 5.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_14-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 209.22,
+        "y": 145.8,
+        "angle": 1
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 209.22,
+          "y": 145.8
+        },
+        "radius": 6.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_14-goblin-sneak-2",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 216.81,
+        "y": 189.07,
+        "angle": 47
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 216.81,
+          "y": 189.07
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_15-goblin-wolfrider-1",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 369.58,
+        "y": 185.36,
+        "angle": 340
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "patrol",
+        "choose": "return",
+        "steps": [
+          {
+            "position": {
+              "x": 369.58,
+              "y": 185.36,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          },
+          {
+            "position": {
+              "x": 368.08,
+              "y": 165.17,
+              "angle": 0
+            },
+            "movementRate": 0.4,
+            "waitTime": [
+              2,
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_15-goblin-wolfrider-2",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 340.97,
+        "y": 165.64,
+        "angle": 146
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "the-hills-area_16-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 449.75,
+        "y": 133.6,
+        "angle": 80
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 449.75,
+          "y": 133.6
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_16-goblin-sneak-2",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 473.93,
+        "y": 183.12,
+        "angle": 104
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "the-hills-area_17-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 59.52,
+        "y": 130.69,
+        "angle": 332
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 59.52,
+          "y": 130.69
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_17-goblin-sneak-2",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 42.78,
+        "y": 98.91,
+        "angle": 278
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 42.78,
+          "y": 98.91
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_17-goblin-sneak-3",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 22.04,
+        "y": 138.71,
+        "angle": 107
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 22.04,
+          "y": 138.71
+        },
+        "radius": 4.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_18-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 432.19,
+        "y": 70.91,
+        "angle": 357
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 432.19,
+          "y": 70.91
+        },
+        "radius": 5.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_18-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 378.94,
+        "y": 83.18,
+        "angle": 61
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 378.94,
+          "y": 83.18
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_18-goblin-sneak-2",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 404.46,
+        "y": 37.93,
+        "angle": 72
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 404.46,
+          "y": 37.93
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "the-hills-area_18-goblin-sneak-3",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 410.41,
+        "y": 136.82,
+        "angle": 309
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 410.41,
+          "y": 136.82
+        },
+        "radius": 4.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    }
+  ],
+  "ncus": [
+    {
+      "identifier": "pike",
+      "name": "Pike",
+      "tokenImageUrl": "../../../tokens/ncu/humans/prospector-2.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 166.25,
+        "y": 43.75,
+        "angle": 224
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "Keep your voice down."
+          }
+        }
+      }
+    }
+  ]
 }

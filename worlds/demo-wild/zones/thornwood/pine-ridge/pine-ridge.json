@@ -12001,7 +12001,8 @@
       "name": "Abandoned Camp",
       "annotations": {
         "intent": "An abandoned camp (S5): cold fire, torn tents, a clue to what drove them off. Wolves picking through it.",
-        "quests": "S5.1 The Abandoned Camp: interactables camp-clue-1, camp-clue-2, camp-clue-3 (\"Abandoned Gear\", \"Searching\", 1s); place them here.\nS5.3 What's There Now: kill dire-wolf x5."
+        "quests": "S5.1 The Abandoned Camp: interactables camp-clue-1, camp-clue-2, camp-clue-3 (\"Abandoned Gear\", \"Searching\", 1s); place them here.\nS5.3 What's There Now: kill dire-wolf x5.",
+        "population": "density: normal\nmix: dire-wolf\ngroups: 1-2"
       }
     },
     {
@@ -12777,7 +12778,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, a dead end. The ridge: dire wolves and black bears."
+        "intent": "Meadow, a dead end. The ridge: dire wolves and black bears.",
+        "population": "density: normal\nmix: dire-wolf 2, black-bear"
       }
     },
     {
@@ -13569,7 +13571,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, a dead end. The ridge: dire wolves and black bears."
+        "intent": "Meadow, a dead end. The ridge: dire wolves and black bears.",
+        "population": "density: normal\nmix: dire-wolf 2, black-bear"
       }
     },
     {
@@ -14081,7 +14084,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, off the trail. The ridge: dire wolves and black bears."
+        "intent": "Meadow, off the trail. The ridge: dire wolves and black bears.",
+        "population": "density: normal\nmix: dire-wolf 2, black-bear"
       }
     },
     {
@@ -14825,7 +14829,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, off the trail. The ridge: dire wolves and black bears."
+        "intent": "Meadow, off the trail. The ridge: dire wolves and black bears.",
+        "population": "density: normal\nmix: dire-wolf 2, black-bear"
       }
     },
     {
@@ -15585,7 +15590,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, on the trail. The ridge: dire wolves and black bears."
+        "intent": "Meadow, on the trail. The ridge: dire wolves and black bears.",
+        "population": "density: normal\nmix: dire-wolf 2, black-bear"
       }
     },
     {
@@ -16185,7 +16191,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, on the trail. The ridge: dire wolves and black bears."
+        "intent": "Meadow, on the trail. The ridge: dire wolves and black bears.",
+        "population": "density: normal\nmix: dire-wolf 2, black-bear"
       }
     },
     {
@@ -16834,7 +16841,8 @@
       ],
       "name": "Ridge Bog",
       "annotations": {
-        "intent": "A bog on the ridge trail."
+        "intent": "A bog on the ridge trail.",
+        "population": "density: normal\nmix: dire-wolf"
       }
     },
     {
@@ -17442,7 +17450,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, a dead end. The ridge: dire wolves and black bears."
+        "intent": "Tall grass, a dead end. The ridge: dire wolves and black bears.",
+        "population": "density: normal\nmix: dire-wolf 2, black-bear"
       }
     },
     {
@@ -18082,7 +18091,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, a dead end. The ridge: dire wolves and black bears."
+        "intent": "Tall grass, a dead end. The ridge: dire wolves and black bears.",
+        "population": "density: normal\nmix: dire-wolf 2, black-bear"
       }
     },
     {
@@ -18714,7 +18724,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, on the trail. The ridge: dire wolves and black bears."
+        "intent": "Marsh, on the trail. The ridge: dire wolves and black bears.",
+        "population": "density: normal\nmix: dire-wolf 2, black-bear"
       }
     },
     {
@@ -19410,7 +19421,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, off the trail. The ridge: dire wolves and black bears."
+        "intent": "Meadow, off the trail. The ridge: dire wolves and black bears.",
+        "population": "density: normal\nmix: dire-wolf 2, black-bear"
       }
     },
     {
@@ -20042,7 +20054,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. The ridge: dire wolves and black bears."
+        "intent": "Marsh, off the trail. The ridge: dire wolves and black bears.",
+        "population": "density: normal\nmix: dire-wolf 2, black-bear"
       }
     },
     {
@@ -20652,11 +20665,851 @@
       "name": "Expedition Camp",
       "annotations": {
         "intent": "The expedition's empty camp (L4), past the bog: their gear left behind, tracks heading north to the hills.",
-        "quests": "L4.1 Overdue: interactables expedition-gear-1, expedition-gear-2, expedition-gear-3 (\"Expedition Gear\", \"Searching\", 1s); place them here."
+        "quests": "L4.1 Overdue: interactables expedition-gear-1, expedition-gear-2, expedition-gear-3 (\"Expedition Gear\", \"Searching\", 1s); place them here.",
+        "population": "density: sparse\nmix: dire-wolf"
       }
     }
   ],
   "annotations": {
     "intent": "A ridge: an abandoned camp (S5) and the expedition's empty camp (L4)."
-  }
+  },
+  "units": [
+    {
+      "identifier": "pine-ridge-area_1-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 258.22,
+        "y": 460.34,
+        "angle": 151
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 258.22,
+          "y": 460.34
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "pine-ridge-area_1-g1"
+    },
+    {
+      "identifier": "pine-ridge-area_1-dire-wolf-2",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 263.19,
+        "y": 460.83,
+        "angle": 167
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 263.19,
+          "y": 460.83
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "pine-ridge-area_1-g1"
+    },
+    {
+      "identifier": "pine-ridge-area_1-dire-wolf-3",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 191.77,
+        "y": 457.87,
+        "angle": 31
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 191.77,
+          "y": 457.87
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "pine-ridge-area_1-g2"
+    },
+    {
+      "identifier": "pine-ridge-area_1-dire-wolf-4",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 196.52,
+        "y": 459.44,
+        "angle": 4
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 196.52,
+          "y": 459.44
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "pine-ridge-area_1-g2"
+    },
+    {
+      "identifier": "pine-ridge-area_1-dire-wolf-5",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 253.4,
+        "y": 396.21,
+        "angle": 238
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 253.4,
+          "y": 396.21
+        },
+        "radius": 3,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_2-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 416.12,
+        "y": 438.51,
+        "angle": 179
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 416.12,
+          "y": 438.51
+        },
+        "radius": 3,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_2-black-bear-1",
+      "unitType": "black-bear",
+      "position": {
+        "x": 437.79,
+        "y": 468.2,
+        "angle": 56
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 437.79,
+          "y": 468.2
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_2-black-bear-2",
+      "unitType": "black-bear",
+      "position": {
+        "x": 454.23,
+        "y": 415.78,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 454.23,
+          "y": 415.78
+        },
+        "radius": 5.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_3-black-bear-1",
+      "unitType": "black-bear",
+      "position": {
+        "x": 96.5,
+        "y": 419,
+        "angle": 105
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 96.5,
+          "y": 419
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_3-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 71.96,
+        "y": 385.66,
+        "angle": 164
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 71.96,
+          "y": 385.66
+        },
+        "radius": 2.57,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_4-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 280.45,
+        "y": 343.49,
+        "angle": 218
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 280.45,
+          "y": 343.49
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_4-black-bear-1",
+      "unitType": "black-bear",
+      "position": {
+        "x": 261.52,
+        "y": 315.59,
+        "angle": 209
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 261.52,
+          "y": 315.59
+        },
+        "radius": 9.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_5-black-bear-1",
+      "unitType": "black-bear",
+      "position": {
+        "x": 321.9,
+        "y": 343.51,
+        "angle": 138
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_5-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 342.08,
+        "y": 300.6,
+        "angle": 104
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 342.08,
+          "y": 300.6
+        },
+        "radius": 2.57,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_5-black-bear-2",
+      "unitType": "black-bear",
+      "position": {
+        "x": 370.95,
+        "y": 321.04,
+        "angle": 224
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 370.95,
+          "y": 321.04
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_6-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 61.5,
+        "y": 312.87,
+        "angle": 89
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 61.5,
+          "y": 312.87
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_6-dire-wolf-2",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 76.4,
+        "y": 346.64,
+        "angle": 101
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_6-dire-wolf-3",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 25.57,
+        "y": 316.63,
+        "angle": 30
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 25.57,
+          "y": 316.63
+        },
+        "radius": 8,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_7-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 168.53,
+        "y": 248.23,
+        "angle": 281
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_7-dire-wolf-2",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 233.61,
+        "y": 278.67,
+        "angle": 257
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 233.61,
+          "y": 278.67
+        },
+        "radius": 6.11,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_7-dire-wolf-3",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 194.24,
+        "y": 281.21,
+        "angle": 26
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 194.24,
+          "y": 281.21
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_8-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 297.83,
+        "y": 156.52,
+        "angle": 247
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 297.83,
+          "y": 156.52
+        },
+        "radius": 6.11,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_8-dire-wolf-2",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 331.98,
+        "y": 162.83,
+        "angle": 292
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_8-dire-wolf-3",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 276.22,
+        "y": 205.25,
+        "angle": 188
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 276.22,
+          "y": 205.25
+        },
+        "radius": 5.07,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_9-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 38.48,
+        "y": 173.34,
+        "angle": 62
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 38.48,
+          "y": 173.34
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_9-black-bear-1",
+      "unitType": "black-bear",
+      "position": {
+        "x": 31.59,
+        "y": 138.81,
+        "angle": 247
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 31.59,
+          "y": 138.81
+        },
+        "radius": 6.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_10-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 382.93,
+        "y": 167.98,
+        "angle": 10
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_10-black-bear-1",
+      "unitType": "black-bear",
+      "position": {
+        "x": 414.25,
+        "y": 146.52,
+        "angle": 239
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_11-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 178.28,
+        "y": 79.66,
+        "angle": 37
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 178.28,
+          "y": 79.66
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_11-dire-wolf-2",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 141.72,
+        "y": 68.6,
+        "angle": 139
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_12-black-bear-1",
+      "unitType": "black-bear",
+      "position": {
+        "x": 63.72,
+        "y": 30.76,
+        "angle": 327
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 63.72,
+          "y": 30.76
+        },
+        "radius": 9.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_12-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 38.3,
+        "y": 78.05,
+        "angle": 216
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_13-black-bear-1",
+      "unitType": "black-bear",
+      "position": {
+        "x": 326.38,
+        "y": 33.16,
+        "angle": 160
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 326.38,
+          "y": 33.16
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_13-black-bear-2",
+      "unitType": "black-bear",
+      "position": {
+        "x": 304.32,
+        "y": 81.33,
+        "angle": 201
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 304.32,
+          "y": 81.33
+        },
+        "radius": 7.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_13-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 286.83,
+        "y": 33.67,
+        "angle": 345
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 286.83,
+          "y": 33.67
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "pine-ridge-area_14-dire-wolf-1",
+      "unitType": "dire-wolf",
+      "position": {
+        "x": 444.33,
+        "y": 43.32,
+        "angle": 340
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 444.33,
+          "y": 43.32
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    }
+  ],
+  "ncus": []
 }

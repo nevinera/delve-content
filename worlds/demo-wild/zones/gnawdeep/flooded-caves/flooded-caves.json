@@ -11808,7 +11808,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, on the trail. Flooded caves: cave spiders, cave bats, a few goblins."
+        "intent": "Puddles, on the trail. Flooded caves: cave spiders, cave bats, a few goblins.",
+        "population": "density: normal\nmix: cave-spider 2, cave-bat, goblin-sneak"
       }
     },
     {
@@ -12576,7 +12577,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, a dead end. Flooded caves: cave spiders, cave bats, a few goblins."
+        "intent": "Puddles, a dead end. Flooded caves: cave spiders, cave bats, a few goblins.",
+        "population": "density: normal\nmix: cave-spider 2, cave-bat, goblin-sneak"
       }
     },
     {
@@ -13328,7 +13330,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, a dead end. Flooded caves: cave spiders, cave bats, a few goblins."
+        "intent": "Puddles, a dead end. Flooded caves: cave spiders, cave bats, a few goblins.",
+        "population": "density: normal\nmix: cave-spider 2, cave-bat, goblin-sneak"
       }
     },
     {
@@ -13776,7 +13779,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, a dead end. Flooded caves: cave spiders, cave bats, a few goblins."
+        "intent": "Floor, a dead end. Flooded caves: cave spiders, cave bats, a few goblins.",
+        "population": "density: normal\nmix: cave-spider 2, cave-bat, goblin-sneak"
       }
     },
     {
@@ -14320,7 +14324,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, off the trail. Flooded caves: cave spiders, cave bats, a few goblins."
+        "intent": "Gravel, off the trail. Flooded caves: cave spiders, cave bats, a few goblins.",
+        "population": "density: normal\nmix: cave-spider 2, cave-bat, goblin-sneak"
       }
     },
     {
@@ -14848,7 +14853,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, a dead end. Flooded caves: cave spiders, cave bats, a few goblins."
+        "intent": "Puddles, a dead end. Flooded caves: cave spiders, cave bats, a few goblins.",
+        "population": "density: normal\nmix: cave-spider 2, cave-bat, goblin-sneak"
       }
     },
     {
@@ -15360,7 +15366,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, on the trail. Flooded caves: cave spiders, cave bats, a few goblins."
+        "intent": "Puddles, on the trail. Flooded caves: cave spiders, cave bats, a few goblins.",
+        "population": "density: normal\nmix: cave-spider 2, cave-bat, goblin-sneak"
       }
     },
     {
@@ -15897,7 +15904,8 @@
       ],
       "name": "Flooded Passages",
       "annotations": {
-        "intent": "The flooded passages (L4): the way the expedition went."
+        "intent": "The flooded passages (L4): the way the expedition went.",
+        "population": "density: normal\nmix: cave-spider 2, cave-bat, goblin-sneak"
       }
     },
     {
@@ -16337,7 +16345,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, on the trail. Flooded caves: cave spiders, cave bats, a few goblins."
+        "intent": "Puddles, on the trail. Flooded caves: cave spiders, cave bats, a few goblins.",
+        "population": "density: normal\nmix: cave-spider 2, cave-bat, goblin-sneak"
       }
     },
     {
@@ -17027,7 +17036,8 @@
       "annotations": {
         "intent": "A dry ledge where the mire's water comes in: Mags, an expedition survivor (L4.7-8, S11). Safe: no hostiles.",
         "ncus": "mags: Mags, an expedition survivor; gives L4.8-9, S11.",
-        "quests": "L4.7 In: talk to mags."
+        "quests": "L4.7 In: talk to mags.",
+        "population": "density: none\nncu: mags \"Mags\" ../../../tokens/ncu/humans/prospector-3.webp \"Water's cold. Goblins are colder.\""
       },
       "name": "Mags's Ledge"
     },
@@ -17524,7 +17534,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, on the trail. Flooded caves: cave spiders, cave bats, a few goblins."
+        "intent": "Puddles, on the trail. Flooded caves: cave spiders, cave bats, a few goblins.",
+        "population": "density: normal\nmix: cave-spider 2, cave-bat, goblin-sneak"
       }
     },
     {
@@ -18020,7 +18031,8 @@
         }
       ],
       "annotations": {
-        "intent": "More flooded passages (L4)."
+        "intent": "More flooded passages (L4).",
+        "population": "density: normal\nmix: cave-spider 2, cave-bat, goblin-sneak"
       }
     },
     {
@@ -18556,7 +18568,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, a dead end. Flooded caves: cave spiders, cave bats, a few goblins."
+        "intent": "Gravel, a dead end. Flooded caves: cave spiders, cave bats, a few goblins.",
+        "population": "density: normal\nmix: cave-spider 2, cave-bat, goblin-sneak"
       }
     },
     {
@@ -19366,7 +19379,8 @@
       "name": "Glowworm Grotto",
       "annotations": {
         "intent": "The glowworm grotto (S11), a dead end.",
-        "quests": "S11.1 The Lost Lantern: interactables survivors-lantern (\"Lantern\", \"Taking\", 0s); place them here."
+        "quests": "S11.1 The Lost Lantern: interactables survivors-lantern (\"Lantern\", \"Taking\", 0s); place them here.",
+        "population": "density: sparse\nmix: cave-bat"
       }
     },
     {
@@ -20198,11 +20212,718 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, a dead end. Flooded caves: cave spiders, cave bats, a few goblins."
+        "intent": "Puddles, a dead end. Flooded caves: cave spiders, cave bats, a few goblins.",
+        "population": "density: normal\nmix: cave-spider 2, cave-bat, goblin-sneak"
       }
     }
   ],
   "annotations": {
     "intent": "The entrance from the mire, half underwater (L4)."
-  }
+  },
+  "units": [
+    {
+      "identifier": "flooded-caves-area_1-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 221.82,
+        "y": 461.44,
+        "angle": 88
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 221.82,
+          "y": 461.44
+        },
+        "radius": 9.61,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_1-cave-bat-1",
+      "unitType": "cave-bat",
+      "position": {
+        "x": 155.54,
+        "y": 471.5,
+        "angle": 48
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 155.54,
+          "y": 471.5
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_1-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 198.34,
+        "y": 428.11,
+        "angle": 174
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 198.34,
+          "y": 428.11
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_2-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 344.66,
+        "y": 437.07,
+        "angle": 3
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_2-cave-bat-1",
+      "unitType": "cave-bat",
+      "position": {
+        "x": 379.04,
+        "y": 469.67,
+        "angle": 32
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 379.04,
+          "y": 469.67
+        },
+        "radius": 4.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_3-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 78.95,
+        "y": 387.76,
+        "angle": 251
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_3-goblin-sneak-2",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 71.26,
+        "y": 423.61,
+        "angle": 350
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 71.26,
+          "y": 423.61
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_4-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 231.8,
+        "y": 340.28,
+        "angle": 199
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 231.8,
+          "y": 340.28
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_5-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 351.07,
+        "y": 302.16,
+        "angle": 2
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 351.07,
+          "y": 302.16
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_5-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 386.76,
+        "y": 305.32,
+        "angle": 199
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 386.76,
+          "y": 305.32
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_6-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 40.76,
+        "y": 291.11,
+        "angle": 80
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 40.76,
+          "y": 291.11
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_6-cave-bat-1",
+      "unitType": "cave-bat",
+      "position": {
+        "x": 61.4,
+        "y": 243.8,
+        "angle": 354
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 61.4,
+          "y": 243.8
+        },
+        "radius": 4.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_7-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 159.67,
+        "y": 283.73,
+        "angle": 252
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 159.67,
+          "y": 283.73
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_7-cave-spider-2",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 131.29,
+        "y": 306.85,
+        "angle": 99
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_7-cave-bat-1",
+      "unitType": "cave-bat",
+      "position": {
+        "x": 193.67,
+        "y": 295.29,
+        "angle": 23
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 193.67,
+          "y": 295.29
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_8-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 386.14,
+        "y": 263.87,
+        "angle": 357
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 386.14,
+          "y": 263.87
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_8-cave-bat-1",
+      "unitType": "cave-bat",
+      "position": {
+        "x": 369.44,
+        "y": 200.87,
+        "angle": 126
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 369.44,
+          "y": 200.87
+        },
+        "radius": 4.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_9-cave-bat-1",
+      "unitType": "cave-bat",
+      "position": {
+        "x": 266.29,
+        "y": 180.41,
+        "angle": 322
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 266.29,
+          "y": 180.41
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_9-cave-bat-2",
+      "unitType": "cave-bat",
+      "position": {
+        "x": 208.54,
+        "y": 225.3,
+        "angle": 25
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 208.54,
+          "y": 225.3
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_9-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 257.93,
+        "y": 222.82,
+        "angle": 52
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 257.93,
+          "y": 222.82
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_11-cave-bat-1",
+      "unitType": "cave-bat",
+      "position": {
+        "x": 123.45,
+        "y": 160.84,
+        "angle": 207
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 123.45,
+          "y": 160.84
+        },
+        "radius": 4.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_11-cave-bat-2",
+      "unitType": "cave-bat",
+      "position": {
+        "x": 158.92,
+        "y": 122.81,
+        "angle": 235
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 158.92,
+          "y": 122.81
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_12-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 307.89,
+        "y": 139.07,
+        "angle": 204
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_12-cave-bat-1",
+      "unitType": "cave-bat",
+      "position": {
+        "x": 321.33,
+        "y": 176.55,
+        "angle": 141
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_13-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 369.68,
+        "y": 123.58,
+        "angle": 72
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 369.68,
+          "y": 123.58
+        },
+        "radius": 7.11,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_14-cave-bat-1",
+      "unitType": "cave-bat",
+      "position": {
+        "x": 303.5,
+        "y": 52.18,
+        "angle": 223
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 303.5,
+          "y": 52.18
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_14-cave-bat-2",
+      "unitType": "cave-bat",
+      "position": {
+        "x": 346.51,
+        "y": 59.74,
+        "angle": 103
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_15-goblin-sneak-1",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 113.76,
+        "y": 51.29,
+        "angle": 112
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 113.76,
+          "y": 51.29
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "flooded-caves-area_15-goblin-sneak-2",
+      "unitType": "goblin-sneak",
+      "position": {
+        "x": 114.3,
+        "y": 86.55,
+        "angle": 49
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 114.3,
+          "y": 86.55
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    }
+  ],
+  "ncus": [
+    {
+      "identifier": "mags",
+      "name": "Mags",
+      "tokenImageUrl": "../../../tokens/ncu/humans/prospector-3.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 46.25,
+        "y": 178.75,
+        "angle": 34
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "Water's cold. Goblins are colder."
+          }
+        }
+      }
+    }
+  ]
 }

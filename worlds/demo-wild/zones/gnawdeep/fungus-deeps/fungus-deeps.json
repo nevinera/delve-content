@@ -13365,7 +13365,8 @@
       ],
       "annotations": {
         "intent": "Captain Rhys's camp, a hidden ledge above the farms: Captain Rhys (L3, S12). Safe: no hostiles.",
-        "ncus": "captain-rhys: Captain Rhys, leads the push into the deeps; gives L3.4-14, S12."
+        "ncus": "captain-rhys: Captain Rhys, leads the push into the deeps; gives L3.4-14, S12.",
+        "population": "density: none\nncu: captain-rhys \"Captain Rhys\" ../../../tokens/ncu/humans/prospector-1.webp \"We hold this ledge. Barely.\""
       },
       "name": "Rhys's Camp"
     },
@@ -14142,7 +14143,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders.",
+        "population": "density: normal\nmix: goblin-cutter, goblin-mender, cave-spider"
       }
     },
     {
@@ -14782,7 +14784,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, a dead end. Mushroom-farm caves: goblins, goblin menders."
+        "intent": "Floor, a dead end. Mushroom-farm caves: goblins, goblin menders.",
+        "population": "density: normal\nmix: goblin-cutter, goblin-mender, cave-spider"
       }
     },
     {
@@ -15616,7 +15619,8 @@
       "name": "Mushroom Farms",
       "annotations": {
         "intent": "The goblins' mushroom farms (L3): goblin farmhands, guarded.",
-        "quests": "L3.5 Mushroom Farms: interactables mushroom-bed-1, mushroom-bed-3, mushroom-bed-5 (\"Mushroom Bed\", \"Burning\", 2s); place them here.\nS12.1 Sick Tunnels: kill cave-spider x6 (across area_4, area_9)."
+        "quests": "L3.5 Mushroom Farms: interactables mushroom-bed-1, mushroom-bed-3, mushroom-bed-5 (\"Mushroom Bed\", \"Burning\", 2s); place them here.\nS12.1 Sick Tunnels: kill cave-spider x6 (across area_4, area_9).",
+        "population": "density: normal\nmix: goblin-cutter, goblin-mender, cave-spider"
       }
     },
     {
@@ -16176,7 +16180,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, on the trail. Mushroom-farm caves: goblins, goblin menders."
+        "intent": "Puddles, on the trail. Mushroom-farm caves: goblins, goblin menders.",
+        "population": "density: normal\nmix: goblin-cutter, goblin-mender, cave-spider"
       }
     },
     {
@@ -16720,7 +16725,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders.",
+        "population": "density: normal\nmix: goblin-cutter, goblin-mender, cave-spider"
       }
     },
     {
@@ -17491,7 +17497,8 @@
       "annotations": {
         "intent": "Brazza's fire (L3), a dead end past a gravel cave: Brazza, Keeper of the Fire, and shamans.",
         "quests": "L3.6 The Shaman's Fire: kill shaman-brazza.",
-        "boss": "shaman-brazza (L3.6 The Shaman's Fire)."
+        "boss": "shaman-brazza (L3.6 The Shaman's Fire).",
+        "population": "density: sparse\nmix: goblin-mender\nboss: shaman-brazza still"
       }
     },
     {
@@ -18211,7 +18218,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders.",
+        "population": "density: normal\nmix: goblin-cutter, goblin-mender, cave-spider"
       }
     },
     {
@@ -18772,7 +18780,8 @@
       ],
       "annotations": {
         "intent": "More mushroom farms (L3), a dead end.",
-        "quests": "L3.5 Mushroom Farms: interactables mushroom-bed-2, mushroom-bed-4 (\"Mushroom Bed\", \"Burning\", 2s); place them here.\nS12.1 Sick Tunnels: kill cave-spider x6 (across area_4, area_9)."
+        "quests": "L3.5 Mushroom Farms: interactables mushroom-bed-2, mushroom-bed-4 (\"Mushroom Bed\", \"Burning\", 2s); place them here.\nS12.1 Sick Tunnels: kill cave-spider x6 (across area_4, area_9).",
+        "population": "density: normal\nmix: goblin-cutter, goblin-mender, cave-spider"
       }
     },
     {
@@ -19380,7 +19389,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders.",
+        "population": "density: normal\nmix: goblin-cutter, goblin-mender, cave-spider"
       }
     },
     {
@@ -20172,7 +20182,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, off the trail. Mushroom-farm caves: goblins, goblin menders."
+        "intent": "Gravel, off the trail. Mushroom-farm caves: goblins, goblin menders.",
+        "population": "density: normal\nmix: goblin-cutter, goblin-mender, cave-spider"
       }
     },
     {
@@ -20636,7 +20647,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. Mushroom-farm caves: goblins, goblin menders."
+        "intent": "Floor, off the trail. Mushroom-farm caves: goblins, goblin menders.",
+        "population": "density: normal\nmix: goblin-cutter, goblin-mender, cave-spider"
       }
     },
     {
@@ -21228,7 +21240,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders.",
+        "population": "density: normal\nmix: goblin-cutter, goblin-mender, cave-spider"
       }
     },
     {
@@ -21847,7 +21860,8 @@
       "annotations": {
         "intent": "Nagg the Hexer's den (L3), a dead end: Nagg and hexer apprentices.",
         "quests": "L3.4 The Hexer: kill hexer-nagg.\nS12.3 The Apprentice: kill goblin-hexer x3.",
-        "boss": "hexer-nagg (L3.4 The Hexer)."
+        "boss": "hexer-nagg (L3.4 The Hexer).",
+        "population": "density: 1.7\nmix: goblin-hexer\nboss: hexer-nagg still"
       }
     },
     {
@@ -22527,7 +22541,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders.",
+        "population": "density: normal\nmix: goblin-cutter, goblin-mender, cave-spider"
       }
     },
     {
@@ -23039,7 +23054,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders.",
+        "population": "density: normal\nmix: goblin-cutter, goblin-mender, cave-spider"
       }
     },
     {
@@ -23871,11 +23887,978 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders.",
+        "population": "density: normal\nmix: goblin-cutter, goblin-mender, cave-spider"
       }
     }
   ],
   "annotations": {
     "intent": "The goblins' mushroom farms (L3), the hexer's den and the shaman's fire, a glowworm grotto (S11)."
-  }
+  },
+  "units": [
+    {
+      "identifier": "fungus-deeps-area_2-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 134.53,
+        "y": 506.65,
+        "angle": 15
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 134.53,
+          "y": 506.65
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_2-goblin-mender-1",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 174.6,
+        "y": 500.52,
+        "angle": 295
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 174.6,
+          "y": 500.52
+        },
+        "radius": 4.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_2-cave-spider-2",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 100.99,
+        "y": 506.12,
+        "angle": 112
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 100.99,
+          "y": 506.12
+        },
+        "radius": 3.57,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_3-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 431.37,
+        "y": 483.33,
+        "angle": 307
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 431.37,
+          "y": 483.33
+        },
+        "radius": 4.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_4-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 361.14,
+        "y": 486.69,
+        "angle": 202
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 361.14,
+          "y": 486.69
+        },
+        "radius": 4.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_4-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 304.5,
+        "y": 473.18,
+        "angle": 45
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 304.5,
+          "y": 473.18
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_4-goblin-cutter-3",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 357.22,
+        "y": 446.28,
+        "angle": 240
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 357.22,
+          "y": 446.28
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_5-goblin-mender-1",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 228.12,
+        "y": 464.35,
+        "angle": 225
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_5-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 261.64,
+        "y": 415.37,
+        "angle": 319
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_6-goblin-mender-1",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 173.82,
+        "y": 371.67,
+        "angle": 214
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 173.82,
+          "y": 371.67
+        },
+        "radius": 5.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_6-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 136.8,
+        "y": 361,
+        "angle": 56
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 136.8,
+          "y": 361
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_7-shaman-brazza-1",
+      "unitType": "shaman-brazza",
+      "position": {
+        "x": 366.25,
+        "y": 321.25,
+        "angle": 219
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_8-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 25.25,
+        "y": 301.19,
+        "angle": 301
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 25.25,
+          "y": 301.19
+        },
+        "radius": 9.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_8-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 54,
+        "y": 326.95,
+        "angle": 327
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 54,
+          "y": 326.95
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_8-cave-spider-2",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 19.06,
+        "y": 336.56,
+        "angle": 80
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_9-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 190.91,
+        "y": 266.04,
+        "angle": 132
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 190.91,
+          "y": 266.04
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_9-goblin-mender-1",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 204.62,
+        "y": 215.52,
+        "angle": 5
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 204.62,
+          "y": 215.52
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_9-cave-spider-2",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 241.58,
+        "y": 242.08,
+        "angle": 356
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 241.58,
+          "y": 242.08
+        },
+        "radius": 6.07,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_10-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 51.85,
+        "y": 225.53,
+        "angle": 109
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 51.85,
+          "y": 225.53
+        },
+        "radius": 6.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_10-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 46.17,
+        "y": 162.8,
+        "angle": 51
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_10-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 74.15,
+        "y": 188.56,
+        "angle": 160
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 74.15,
+          "y": 188.56
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_11-goblin-mender-1",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 389.31,
+        "y": 215.69,
+        "angle": 143
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 389.31,
+          "y": 215.69
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_11-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 387.11,
+        "y": 173.2,
+        "angle": 284
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 387.11,
+          "y": 173.2
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_11-goblin-mender-2",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 428.11,
+        "y": 204.24,
+        "angle": 320
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 428.11,
+          "y": 204.24
+        },
+        "radius": 4.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_12-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 241.14,
+        "y": 167.03,
+        "angle": 141
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 241.14,
+          "y": 167.03
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_13-goblin-mender-1",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 195.47,
+        "y": 146.97,
+        "angle": 39
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 195.47,
+          "y": 146.97
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_13-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 142.84,
+        "y": 180.34,
+        "angle": 113
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_13-goblin-mender-2",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 145.78,
+        "y": 141.73,
+        "angle": 169
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 145.78,
+          "y": 141.73
+        },
+        "radius": 9.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_13-cave-spider-2",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 181.32,
+        "y": 182.9,
+        "angle": 266
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 181.32,
+          "y": 182.9
+        },
+        "radius": 7.11,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_14-hexer-nagg-1",
+      "unitType": "hexer-nagg",
+      "position": {
+        "x": 46.25,
+        "y": 71.25,
+        "angle": 330
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_14-goblin-hexer-1",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 18.32,
+        "y": 66.15,
+        "angle": 310
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_14-goblin-hexer-2",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 51.95,
+        "y": 51.14,
+        "angle": 32
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 51.95,
+          "y": 51.14
+        },
+        "radius": 4.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_14-goblin-hexer-3",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 33.21,
+        "y": 51.37,
+        "angle": 307
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 33.21,
+          "y": 51.37
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_15-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 155.96,
+        "y": 71.11,
+        "angle": 359
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 155.96,
+          "y": 71.11
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_15-cave-spider-2",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 178.78,
+        "y": 33.06,
+        "angle": 240
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 178.78,
+          "y": 33.06
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_15-goblin-mender-1",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 108.52,
+        "y": 54.04,
+        "angle": 85
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 108.52,
+          "y": 54.04
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_16-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 234.67,
+        "y": 42.79,
+        "angle": 69
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 234.67,
+          "y": 42.79
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_16-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 236.4,
+        "y": 85.52,
+        "angle": 146
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 236.4,
+          "y": 85.52
+        },
+        "radius": 7.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_17-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 375.73,
+        "y": 35.67,
+        "angle": 36
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 375.73,
+          "y": 35.67
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "fungus-deeps-area_17-goblin-mender-1",
+      "unitType": "goblin-mender",
+      "position": {
+        "x": 383.96,
+        "y": 68.41,
+        "angle": 340
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 383.96,
+          "y": 68.41
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    }
+  ],
+  "ncus": [
+    {
+      "identifier": "captain-rhys",
+      "name": "Captain Rhys",
+      "tokenImageUrl": "../../../tokens/ncu/humans/prospector-1.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 41.25,
+        "y": 503.75,
+        "angle": 185
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "We hold this ledge. Barely."
+          }
+        }
+      }
+    }
+  ]
 }

@@ -7480,7 +7480,8 @@
       "name": "Elder's Hut",
       "annotations": {
         "intent": "Elder Sesh's hut, set apart from the village.",
-        "ncus": "elder-sesh: Elder Sesh, the Reedtalkers' elder, wary of humans; gives L2.2, L2.4, L2.6, L2.9-10."
+        "ncus": "elder-sesh: Elder Sesh, the Reedtalkers' elder, wary of humans; gives L2.2, L2.4, L2.6, L2.9-10.",
+        "population": "density: none\nncu: elder-sesh \"Elder Sesh\" ../../../tokens/ncu/lizardfolk/reedtalker-elder-sesh.webp \"Another human. Speak, then.\""
       }
     },
     {
@@ -10235,7 +10236,8 @@
       "annotations": {
         "intent": "The Reedtalkers' village, the zone's hub: huts on the marsh, quest givers (L2, L4, S6-S9), the rescued expedition member (L4). Safe: no hostiles.",
         "ncus": "kesh: Kesh, the Reedtalkers' hunter; gives L2.3, L2.5, L2.7-8.\nmossback: Mossback, an old egg-keeper; gives S7.\nsura: Sura, the village's healer and idol-keeper; gives S8.\ncole: Cole, an expedition survivor the Reedtalkers took in; gives L4.6-7.",
-        "quests": "L2.2 Wary Welcome: talk to kesh.\nL4.5 Reedtalker Rescue: talk to cole.\nS6.2 A Reedtalker Cure: talk to sura."
+        "quests": "L2.2 Wary Welcome: talk to kesh.\nL4.5 Reedtalker Rescue: talk to cole.\nS6.2 A Reedtalker Cure: talk to sura.",
+        "population": "density: none\nncu: kesh \"Kesh\" ../../../tokens/ncu/lizardfolk/reedtalker-1.webp \"You hunt? Good.\"\nncu: mossback \"Mossback\" ../../../tokens/ncu/lizardfolk/reedtalker-2.webp \"The eggs, the eggs...\"\nncu: sura \"Sura\" ../../../tokens/ncu/lizardfolk/reedtalker-3.webp \"The idol watches. Or did.\"\nncu: cole \"Cole\" ../../../tokens/ncu/humans/prospector-4.webp \"They took me in. I owe them.\"\nncu: villager-oss \"Oss\" ../../../tokens/ncu/lizardfolk/reedtalker-4.webp \"Human. Hm.\""
       }
     },
     {
@@ -11285,7 +11287,8 @@
       "name": "Fishing Platforms",
       "annotations": {
         "intent": "The fishing platforms over the marsh pools: Reedtalker fishers.",
-        "ncus": "ilu: Ilu, a fisher who lost friends to the croc; gives S9."
+        "ncus": "ilu: Ilu, a fisher who lost friends to the croc; gives S9.",
+        "population": "density: none\nncu: ilu \"Ilu\" ../../../tokens/ncu/lizardfolk/reedtalker-fisher-1.webp \"Don't fish the dark pools.\"\nncu: fisher-tsa \"Tsa\" ../../../tokens/ncu/lizardfolk/reedtalker-fisher-2.webp \"Fish are thin this year.\""
       }
     },
     {
@@ -12142,11 +12145,237 @@
       ],
       "annotations": {
         "intent": "The path south to the nesting grounds: the first swamp vipers (L2.3).",
-        "quests": "L2.3 Prove It: kill swamp-viper x4."
+        "quests": "L2.3 Prove It: kill swamp-viper x4.",
+        "population": "density: sparse\nmix: swamp-viper"
       }
     }
   ],
   "annotations": {
     "intent": "The Reedtalkers' village: the zone's hub. Elder Sesh, villagers and fishers."
-  }
+  },
+  "units": [
+    {
+      "identifier": "reedtalker-village-area_4-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 18.83,
+        "y": 19.19,
+        "angle": 204
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    }
+  ],
+  "ncus": [
+    {
+      "identifier": "elder-sesh",
+      "name": "Elder Sesh",
+      "tokenImageUrl": "../../../tokens/ncu/lizardfolk/reedtalker-elder-sesh.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 61.25,
+        "y": 483.75,
+        "angle": 206
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "Another human. Speak, then."
+          }
+        }
+      }
+    },
+    {
+      "identifier": "kesh",
+      "name": "Kesh",
+      "tokenImageUrl": "../../../tokens/ncu/lizardfolk/reedtalker-1.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 246.25,
+        "y": 291.25,
+        "angle": 350
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "You hunt? Good."
+          }
+        }
+      }
+    },
+    {
+      "identifier": "mossback",
+      "name": "Mossback",
+      "tokenImageUrl": "../../../tokens/ncu/lizardfolk/reedtalker-2.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 238.75,
+        "y": 286.25,
+        "angle": 221
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "The eggs, the eggs..."
+          }
+        }
+      }
+    },
+    {
+      "identifier": "sura",
+      "name": "Sura",
+      "tokenImageUrl": "../../../tokens/ncu/lizardfolk/reedtalker-3.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 238.75,
+        "y": 296.25,
+        "angle": 71
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "The idol watches. Or did."
+          }
+        }
+      }
+    },
+    {
+      "identifier": "cole",
+      "name": "Cole",
+      "tokenImageUrl": "../../../tokens/ncu/humans/prospector-4.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 251.25,
+        "y": 283.75,
+        "angle": 126
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "They took me in. I owe them."
+          }
+        }
+      }
+    },
+    {
+      "identifier": "villager-oss",
+      "name": "Oss",
+      "tokenImageUrl": "../../../tokens/ncu/lizardfolk/reedtalker-4.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 251.25,
+        "y": 298.75,
+        "angle": 79
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "Human. Hm."
+          }
+        }
+      }
+    },
+    {
+      "identifier": "ilu",
+      "name": "Ilu",
+      "tokenImageUrl": "../../../tokens/ncu/lizardfolk/reedtalker-fisher-1.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 273.75,
+        "y": 58.75,
+        "angle": 158
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "Don't fish the dark pools."
+          }
+        }
+      }
+    },
+    {
+      "identifier": "fisher-tsa",
+      "name": "Tsa",
+      "tokenImageUrl": "../../../tokens/ncu/lizardfolk/reedtalker-fisher-2.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 268.75,
+        "y": 51.25,
+        "angle": 126
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "Fish are thin this year."
+          }
+        }
+      }
+    }
+  ]
 }

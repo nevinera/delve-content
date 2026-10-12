@@ -13074,7 +13074,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, a dead end. Wolves and deer; a boar pair here and there."
+        "intent": "Meadow, a dead end. Wolves and deer; a boar pair here and there.",
+        "population": "density: normal\nmix: wolf 2, deer neutral, boar"
       }
     },
     {
@@ -13714,7 +13715,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there."
+        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there.",
+        "population": "density: normal\nmix: wolf 2, deer neutral, boar"
       }
     },
     {
@@ -14418,7 +14420,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, a dead end. Wolves and deer; a boar pair here and there."
+        "intent": "Meadow, a dead end. Wolves and deer; a boar pair here and there.",
+        "population": "density: normal\nmix: wolf 2, deer neutral, boar"
       }
     },
     {
@@ -14778,7 +14781,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, a dead end. Wolves and deer; a boar pair here and there."
+        "intent": "Meadow, a dead end. Wolves and deer; a boar pair here and there.",
+        "population": "density: normal\nmix: wolf 2, deer neutral, boar"
       }
     },
     {
@@ -15250,7 +15254,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there."
+        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there.",
+        "population": "density: normal\nmix: wolf 2, deer neutral, boar"
       }
     },
     {
@@ -15850,7 +15855,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there."
+        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there.",
+        "population": "density: normal\nmix: wolf 2, deer neutral, boar"
       }
     },
     {
@@ -16394,7 +16400,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, a dead end. Wolves and deer; a boar pair here and there."
+        "intent": "Meadow, a dead end. Wolves and deer; a boar pair here and there.",
+        "population": "density: normal\nmix: wolf 2, deer neutral, boar"
       }
     },
     {
@@ -16930,7 +16937,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there."
+        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there.",
+        "population": "density: normal\nmix: wolf 2, deer neutral, boar"
       }
     },
     {
@@ -17378,7 +17386,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, off the trail. Wolves and deer; a boar pair here and there."
+        "intent": "Meadow, off the trail. Wolves and deer; a boar pair here and there.",
+        "population": "density: normal\nmix: wolf 2, deer neutral, boar"
       }
     },
     {
@@ -17909,7 +17918,8 @@
       "annotations": {
         "intent": "The woodcutters' camp (S1), on the trail: woodcutter NCUs, stacked logs, a sawpit. Safe inside; wolves prowl the edges.",
         "ncus": "bram: Bram, a woodcutter; gives S1, S4.\nnell: Nell, a woodcutter who saw smoke on the ridge; gives S5.",
-        "quests": "S1.1 Wolves at the Woodpile: kill wolf x6."
+        "quests": "S1.1 Wolves at the Woodpile: kill wolf x6.",
+        "population": "density: sparse\nmix: wolf\nncu: bram \"Bram\" ../../../tokens/ncu/humans/woodcutter-1.webp \"Mind the logs.\"\nncu: nell \"Nell\" ../../../tokens/ncu/humans/woodcutter-2.webp \"Saw smoke up on the ridge, I did.\""
       }
     },
     {
@@ -18584,7 +18594,8 @@
       "annotations": {
         "intent": "The black bear's den (S4: it has the woodcutter's axe), a tall-grass dead end. One bear, nothing else.",
         "quests": "S4.1 The Woodcutter's Axe: kill black-bear.\nS4.1 The Woodcutter's Axe: interactables woodcutters-axe (\"Woodcutter's Axe\", \"Taking\", 0s); place them here.",
-        "boss": "black-bear (S4.1 The Woodcutter's Axe)."
+        "boss": "black-bear (S4.1 The Woodcutter's Axe).",
+        "population": "density: none\nboss: black-bear wander 6"
       }
     },
     {
@@ -19250,7 +19261,8 @@
       "name": "Boar Run",
       "annotations": {
         "intent": "The boar run (L1): boar pairs rooting through the clearing.",
-        "quests": "L1.3 Tracks: interactables wolf-tracks-1, wolf-tracks-2, wolf-tracks-3 (\"Wolf Tracks\", \"Reading\", 1s); place them here.\nL1.4 The Boar Run: kill boar x8 (across area_12, area_15)."
+        "quests": "L1.3 Tracks: interactables wolf-tracks-1, wolf-tracks-2, wolf-tracks-3 (\"Wolf Tracks\", \"Reading\", 1s); place them here.\nL1.4 The Boar Run: kill boar x8 (across area_12, area_15).",
+        "population": "density: normal\nmix: boar\ngroups: 1-2"
       }
     },
     {
@@ -19706,7 +19718,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there."
+        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there.",
+        "population": "density: normal\nmix: wolf 2, deer neutral, boar"
       }
     },
     {
@@ -20266,7 +20279,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there."
+        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there.",
+        "population": "density: normal\nmix: wolf 2, deer neutral, boar"
       }
     },
     {
@@ -20988,7 +21002,8 @@
       "name": "Boar Thicket",
       "annotations": {
         "intent": "The end of the boar run (L1): a small herd of boars.",
-        "quests": "L1.4 The Boar Run: kill boar x8 (across area_12, area_15)."
+        "quests": "L1.4 The Boar Run: kill boar x8 (across area_12, area_15).",
+        "population": "density: dense\nmix: boar\ngroups: 2-3"
       }
     },
     {
@@ -21812,7 +21827,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, a dead end. Wolves and deer; a boar pair here and there."
+        "intent": "Tall grass, a dead end. Wolves and deer; a boar pair here and there.",
+        "population": "density: normal\nmix: wolf 2, deer neutral, boar"
       }
     },
     {
@@ -22604,11 +22620,1024 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there."
+        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there.",
+        "population": "density: normal\nmix: wolf 2, deer neutral, boar"
       }
     }
   ],
   "annotations": {
     "intent": "A woodcutters' camp in a clearing (S1), a bear's den (S4) and the boar run (L1)."
-  }
+  },
+  "units": [
+    {
+      "identifier": "woodcutters-clearing-area_1-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 141.64,
+        "y": 471.06,
+        "angle": 85
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 141.64,
+          "y": 471.06
+        },
+        "radius": 7.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_1-boar-1",
+      "unitType": "boar",
+      "position": {
+        "x": 83.64,
+        "y": 428.66,
+        "angle": 287
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 83.64,
+          "y": 428.66
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_2-boar-1",
+      "unitType": "boar",
+      "position": {
+        "x": 235.39,
+        "y": 427.87,
+        "angle": 253
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 235.39,
+          "y": 427.87
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_2-boar-2",
+      "unitType": "boar",
+      "position": {
+        "x": 265.62,
+        "y": 450.42,
+        "angle": 62
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_2-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 230.88,
+        "y": 465.65,
+        "angle": 41
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 230.88,
+          "y": 465.65
+        },
+        "radius": 5.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_3-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 399.53,
+        "y": 460.38,
+        "angle": 173
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 399.53,
+          "y": 460.38
+        },
+        "radius": 4.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_3-deer-1",
+      "unitType": "deer",
+      "position": {
+        "x": 433.9,
+        "y": 466.71,
+        "angle": 161
+      },
+      "hostility": "neutral",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 433.9,
+          "y": 466.71
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_4-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 204.11,
+        "y": 371.44,
+        "angle": 71
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 204.11,
+          "y": 371.44
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_5-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 290.65,
+        "y": 365.46,
+        "angle": 243
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 290.65,
+          "y": 365.46
+        },
+        "radius": 7.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_5-wolf-2",
+      "unitType": "wolf",
+      "position": {
+        "x": 270.37,
+        "y": 338.26,
+        "angle": 339
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_6-deer-1",
+      "unitType": "deer",
+      "position": {
+        "x": 420.55,
+        "y": 314.25,
+        "angle": 330
+      },
+      "hostility": "neutral",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 420.55,
+          "y": 314.25
+        },
+        "radius": 3.04,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_6-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 418.31,
+        "y": 349.14,
+        "angle": 59
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 418.31,
+          "y": 349.14
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_7-boar-1",
+      "unitType": "boar",
+      "position": {
+        "x": 40.52,
+        "y": 316.58,
+        "angle": 286
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 40.52,
+          "y": 316.58
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_7-deer-1",
+      "unitType": "deer",
+      "position": {
+        "x": 48.06,
+        "y": 349.58,
+        "angle": 40
+      },
+      "hostility": "neutral",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 48.06,
+          "y": 349.58
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_8-deer-1",
+      "unitType": "deer",
+      "position": {
+        "x": 391.21,
+        "y": 275.55,
+        "angle": 146
+      },
+      "hostility": "neutral",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 391.21,
+          "y": 275.55
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_8-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 341.93,
+        "y": 279.73,
+        "angle": 80
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 341.93,
+          "y": 279.73
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_8-wolf-2",
+      "unitType": "wolf",
+      "position": {
+        "x": 346.87,
+        "y": 320.46,
+        "angle": 12
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_9-deer-1",
+      "unitType": "deer",
+      "position": {
+        "x": 96.11,
+        "y": 273.09,
+        "angle": 227
+      },
+      "hostility": "neutral",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 96.11,
+          "y": 273.09
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_9-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 71.42,
+        "y": 295.98,
+        "angle": 290
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 71.42,
+          "y": 295.98
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_10-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 150.45,
+        "y": 243.8,
+        "angle": 75
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 150.45,
+          "y": 243.8
+        },
+        "radius": 4.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_11-black-bear-1",
+      "unitType": "black-bear",
+      "position": {
+        "x": 36.25,
+        "y": 188.75,
+        "angle": 238
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 36.25,
+          "y": 188.75
+        },
+        "radius": 6,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_12-boar-1",
+      "unitType": "boar",
+      "position": {
+        "x": 431.18,
+        "y": 210.94,
+        "angle": 50
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 431.18,
+          "y": 210.94
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_12-boar-2",
+      "unitType": "boar",
+      "position": {
+        "x": 401.79,
+        "y": 233.22,
+        "angle": 150
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 401.79,
+          "y": 233.22
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "woodcutters-clearing-area_12-g1"
+    },
+    {
+      "identifier": "woodcutters-clearing-area_12-boar-3",
+      "unitType": "boar",
+      "position": {
+        "x": 406.79,
+        "y": 233.46,
+        "angle": 195
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "woodcutters-clearing-area_12-g1"
+    },
+    {
+      "identifier": "woodcutters-clearing-area_12-boar-4",
+      "unitType": "boar",
+      "position": {
+        "x": 420.76,
+        "y": 163.98,
+        "angle": 245
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 420.76,
+          "y": 163.98
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_13-deer-1",
+      "unitType": "deer",
+      "position": {
+        "x": 142.09,
+        "y": 170.83,
+        "angle": 127
+      },
+      "hostility": "neutral",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 142.09,
+          "y": 170.83
+        },
+        "radius": 7,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_14-boar-1",
+      "unitType": "boar",
+      "position": {
+        "x": 235.61,
+        "y": 189.64,
+        "angle": 183
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 235.61,
+          "y": 189.64
+        },
+        "radius": 7.36,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_14-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 214.39,
+        "y": 155.34,
+        "angle": 283
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 214.39,
+          "y": 155.34
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_14-wolf-2",
+      "unitType": "wolf",
+      "position": {
+        "x": 271,
+        "y": 167.1,
+        "angle": 68
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 271,
+          "y": 167.1
+        },
+        "radius": 8.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_15-boar-1",
+      "unitType": "boar",
+      "position": {
+        "x": 383.23,
+        "y": 64.37,
+        "angle": 29
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 383.23,
+          "y": 64.37
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "woodcutters-clearing-area_15-g1"
+    },
+    {
+      "identifier": "woodcutters-clearing-area_15-boar-2",
+      "unitType": "boar",
+      "position": {
+        "x": 378.8,
+        "y": 62.06,
+        "angle": 277
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "woodcutters-clearing-area_15-g1"
+    },
+    {
+      "identifier": "woodcutters-clearing-area_15-boar-3",
+      "unitType": "boar",
+      "position": {
+        "x": 388.17,
+        "y": 65.18,
+        "angle": 140
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 388.17,
+          "y": 65.18
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "woodcutters-clearing-area_15-g1"
+    },
+    {
+      "identifier": "woodcutters-clearing-area_15-boar-4",
+      "unitType": "boar",
+      "position": {
+        "x": 404.45,
+        "y": 91.09,
+        "angle": 189
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "woodcutters-clearing-area_15-g2"
+    },
+    {
+      "identifier": "woodcutters-clearing-area_15-boar-5",
+      "unitType": "boar",
+      "position": {
+        "x": 399.49,
+        "y": 90.45,
+        "angle": 178
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 399.49,
+          "y": 90.45
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "woodcutters-clearing-area_15-g2"
+    },
+    {
+      "identifier": "woodcutters-clearing-area_16-boar-1",
+      "unitType": "boar",
+      "position": {
+        "x": 156.4,
+        "y": 55.75,
+        "angle": 89
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 156.4,
+          "y": 55.75
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_16-deer-1",
+      "unitType": "deer",
+      "position": {
+        "x": 90.46,
+        "y": 64.47,
+        "angle": 259
+      },
+      "hostility": "neutral",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 90.46,
+          "y": 64.47
+        },
+        "radius": 7.61,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_16-boar-2",
+      "unitType": "boar",
+      "position": {
+        "x": 131.6,
+        "y": 101.74,
+        "angle": 253
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_17-deer-1",
+      "unitType": "deer",
+      "position": {
+        "x": 231.69,
+        "y": 55.91,
+        "angle": 138
+      },
+      "hostility": "neutral",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 231.69,
+          "y": 55.91
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_17-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 257.22,
+        "y": 33.72,
+        "angle": 182
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 257.22,
+          "y": 33.72
+        },
+        "radius": 9.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_17-deer-2",
+      "unitType": "deer",
+      "position": {
+        "x": 287.06,
+        "y": 76.4,
+        "angle": 168
+      },
+      "hostility": "neutral",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "woodcutters-clearing-area_17-wolf-2",
+      "unitType": "wolf",
+      "position": {
+        "x": 198.72,
+        "y": 64.01,
+        "angle": 45
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    }
+  ],
+  "ncus": [
+    {
+      "identifier": "bram",
+      "name": "Bram",
+      "tokenImageUrl": "../../../tokens/ncu/humans/woodcutter-1.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 188.75,
+        "y": 266.25,
+        "angle": 231
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "Mind the logs."
+          }
+        }
+      }
+    },
+    {
+      "identifier": "nell",
+      "name": "Nell",
+      "tokenImageUrl": "../../../tokens/ncu/humans/woodcutter-2.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 181.25,
+        "y": 271.25,
+        "angle": 233
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "Saw smoke up on the ridge, I did."
+          }
+        }
+      }
+    }
+  ]
 }

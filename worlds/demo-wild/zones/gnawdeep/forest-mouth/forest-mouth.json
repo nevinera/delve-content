@@ -12324,7 +12324,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, a dead end. Goblin caves near the surface: goblins, cave bats."
+        "intent": "Floor, a dead end. Goblin caves near the surface: goblins, cave bats.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer, cave-bat"
       }
     },
     {
@@ -13164,7 +13165,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, a dead end. Goblin caves near the surface: goblins, cave bats."
+        "intent": "Puddles, a dead end. Goblin caves near the surface: goblins, cave bats.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer, cave-bat"
       }
     },
     {
@@ -13892,7 +13894,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, on the trail. Goblin caves near the surface: goblins, cave bats."
+        "intent": "Puddles, on the trail. Goblin caves near the surface: goblins, cave bats.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer, cave-bat"
       }
     },
     {
@@ -14541,7 +14544,8 @@
       ],
       "annotations": {
         "intent": "Arlo's scout camp, Ranger Hale's foothold in the caves: Scout Arlo (L1.10, L3, S10). Safe: no hostiles.",
-        "ncus": "scout-arlo: Scout Arlo, Hale's scout in the caves; gives L1.10, L3.1-3, S10."
+        "ncus": "scout-arlo: Scout Arlo, Hale's scout in the caves; gives L1.10, L3.1-3, S10.",
+        "population": "density: none\nncu: scout-arlo \"Scout Arlo\" ../../../tokens/ncu/humans/trapper-2.webp \"Quiet. They've ears everywhere down here.\""
       },
       "name": "Scout Camp"
     },
@@ -15166,7 +15170,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Goblin caves near the surface: goblins, cave bats."
+        "intent": "Floor, on the trail. Goblin caves near the surface: goblins, cave bats.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer, cave-bat"
       }
     },
     {
@@ -15646,7 +15651,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Goblin caves near the surface: goblins, cave bats."
+        "intent": "Floor, on the trail. Goblin caves near the surface: goblins, cave bats.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer, cave-bat"
       }
     },
     {
@@ -16190,7 +16196,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, a dead end. Goblin caves near the surface: goblins, cave bats."
+        "intent": "Floor, a dead end. Goblin caves near the surface: goblins, cave bats.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer, cave-bat"
       }
     },
     {
@@ -16766,7 +16773,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. Goblin caves near the surface: goblins, cave bats."
+        "intent": "Floor, off the trail. Goblin caves near the surface: goblins, cave bats.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer, cave-bat"
       }
     },
     {
@@ -17622,7 +17630,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, on the trail. Goblin caves near the surface: goblins, cave bats."
+        "intent": "Gravel, on the trail. Goblin caves near the surface: goblins, cave bats.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer, cave-bat"
       }
     },
     {
@@ -18166,7 +18175,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. Goblin caves near the surface: goblins, cave bats."
+        "intent": "Floor, off the trail. Goblin caves near the surface: goblins, cave bats.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer, cave-bat"
       }
     },
     {
@@ -18790,7 +18800,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Goblin caves near the surface: goblins, cave bats."
+        "intent": "Floor, on the trail. Goblin caves near the surface: goblins, cave bats.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer, cave-bat"
       }
     },
     {
@@ -19286,7 +19297,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, a dead end. Goblin caves near the surface: goblins, cave bats."
+        "intent": "Gravel, a dead end. Goblin caves near the surface: goblins, cave bats.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer, cave-bat"
       }
     },
     {
@@ -20015,7 +20027,8 @@
       ],
       "annotations": {
         "intent": "The way to the wolf pens: goblins.",
-        "quests": "L1.10 First In: kill worg x6 (across area_15, area_13)."
+        "quests": "L1.10 First In: kill worg x6 (across area_15, area_13).",
+        "population": "density: normal\nmix: worg, goblin-cutter"
       }
     },
     {
@@ -20576,7 +20589,8 @@
       ],
       "name": "Cave Mouth",
       "annotations": {
-        "intent": "The Gnawdeep's mouth, from the hills: goblin guards."
+        "intent": "The Gnawdeep's mouth, from the hills: goblin guards.",
+        "population": "density: dense\nmix: goblin-cutter, goblin-archer\ngroups: 2"
       }
     },
     {
@@ -21186,7 +21200,8 @@
       "name": "Wolf Pens",
       "annotations": {
         "intent": "The worg pens (L1, L3), a dead end: worgs and their goblin keepers.",
-        "quests": "L1.10 First In: kill worg x6 (across area_15, area_13)."
+        "quests": "L1.10 First In: kill worg x6 (across area_15, area_13).",
+        "population": "density: dense\nmix: worg 2, goblin-wolfrider\ngroups: 1-2"
       }
     },
     {
@@ -21850,11 +21865,1148 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, a dead end. Goblin caves near the surface: goblins, cave bats."
+        "intent": "Gravel, a dead end. Goblin caves near the surface: goblins, cave bats.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer, cave-bat"
       }
     }
   ],
   "annotations": {
     "intent": "The entrance from the forest, past the wolf pens (L3)."
-  }
+  },
+  "units": [
+    {
+      "identifier": "forest-mouth-area_1-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 262.87,
+        "y": 448.6,
+        "angle": 185
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 262.87,
+          "y": 448.6
+        },
+        "radius": 4.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_1-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 209.44,
+        "y": 458.17,
+        "angle": 128
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 209.44,
+          "y": 458.17
+        },
+        "radius": 6.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_2-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 403.43,
+        "y": 474.59,
+        "angle": 109
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 403.43,
+          "y": 474.59
+        },
+        "radius": 9.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_2-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 351.83,
+        "y": 437.23,
+        "angle": 284
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 351.83,
+          "y": 437.23
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_2-goblin-cutter-3",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 317.2,
+        "y": 407.95,
+        "angle": 0
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_3-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 128.67,
+        "y": 436.14,
+        "angle": 347
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 128.67,
+          "y": 436.14
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_3-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 126.97,
+        "y": 385.81,
+        "angle": 234
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 126.97,
+          "y": 385.81
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_3-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 84.16,
+        "y": 426.14,
+        "angle": 31
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 84.16,
+          "y": 426.14
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_5-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 263.66,
+        "y": 348.47,
+        "angle": 198
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 263.66,
+          "y": 348.47
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_5-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 221.56,
+        "y": 316.93,
+        "angle": 63
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_5-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 224.65,
+        "y": 359.18,
+        "angle": 252
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 224.65,
+          "y": 359.18
+        },
+        "radius": 4.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_6-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 303.79,
+        "y": 307.89,
+        "angle": 352
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 303.79,
+          "y": 307.89
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_7-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 53.87,
+        "y": 278.28,
+        "angle": 49
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 53.87,
+          "y": 278.28
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_7-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 90.47,
+        "y": 245.46,
+        "angle": 14
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 90.47,
+          "y": 245.46
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_8-cave-bat-1",
+      "unitType": "cave-bat",
+      "position": {
+        "x": 189.46,
+        "y": 266.07,
+        "angle": 291
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 189.46,
+          "y": 266.07
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_8-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 138.04,
+        "y": 231.1,
+        "angle": 141
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 138.04,
+          "y": 231.1
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_9-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 403.82,
+        "y": 276.26,
+        "angle": 345
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 403.82,
+          "y": 276.26
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_9-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 388.88,
+        "y": 243.92,
+        "angle": 278
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 388.88,
+          "y": 243.92
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_10-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 130.56,
+        "y": 189.59,
+        "angle": 203
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 130.56,
+          "y": 189.59
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_10-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 85.96,
+        "y": 135.4,
+        "angle": 7
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 85.96,
+          "y": 135.4
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_10-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 93.12,
+        "y": 191.27,
+        "angle": 222
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 93.12,
+          "y": 191.27
+        },
+        "radius": 4.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_11-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 308.9,
+        "y": 160.93,
+        "angle": 223
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 308.9,
+          "y": 160.93
+        },
+        "radius": 4.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_11-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 336.93,
+        "y": 125.88,
+        "angle": 214
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 336.93,
+          "y": 125.88
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_11-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 341.49,
+        "y": 173.54,
+        "angle": 310
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_12-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 193.64,
+        "y": 146.87,
+        "angle": 264
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 193.64,
+          "y": 146.87
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_13-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 43.5,
+        "y": 56.31,
+        "angle": 100
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 43.5,
+          "y": 56.31
+        },
+        "radius": 4.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_13-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 82.11,
+        "y": 84.52,
+        "angle": 193
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 82.11,
+          "y": 84.52
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_13-worg-1",
+      "unitType": "worg",
+      "position": {
+        "x": 26.59,
+        "y": 122.15,
+        "angle": 188
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 26.59,
+          "y": 122.15
+        },
+        "radius": 6.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_14-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 261.48,
+        "y": 80.45,
+        "angle": 88
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 261.48,
+          "y": 80.45
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "forest-mouth-area_14-g1"
+    },
+    {
+      "identifier": "forest-mouth-area_14-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 266.47,
+        "y": 80.59,
+        "angle": 280
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 266.47,
+          "y": 80.59
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "forest-mouth-area_14-g1"
+    },
+    {
+      "identifier": "forest-mouth-area_14-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 261.83,
+        "y": 48.86,
+        "angle": 33
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 261.83,
+          "y": 48.86
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "forest-mouth-area_14-g2"
+    },
+    {
+      "identifier": "forest-mouth-area_14-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 266.6,
+        "y": 50.37,
+        "angle": 17
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 266.6,
+          "y": 50.37
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "forest-mouth-area_14-g2"
+    },
+    {
+      "identifier": "forest-mouth-area_14-goblin-archer-3",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 236.27,
+        "y": 74.43,
+        "angle": 318
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 236.27,
+          "y": 74.43
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "forest-mouth-area_14-g3"
+    },
+    {
+      "identifier": "forest-mouth-area_14-goblin-archer-4",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 241.2,
+        "y": 75.27,
+        "angle": 170
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 241.2,
+          "y": 75.27
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "forest-mouth-area_14-g3"
+    },
+    {
+      "identifier": "forest-mouth-area_15-worg-1",
+      "unitType": "worg",
+      "position": {
+        "x": 154.12,
+        "y": 27.13,
+        "angle": 272
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 154.12,
+          "y": 27.13
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "forest-mouth-area_15-g1"
+    },
+    {
+      "identifier": "forest-mouth-area_15-worg-2",
+      "unitType": "worg",
+      "position": {
+        "x": 158.73,
+        "y": 29.07,
+        "angle": 120
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 158.73,
+          "y": 29.07
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "forest-mouth-area_15-g1"
+    },
+    {
+      "identifier": "forest-mouth-area_15-worg-3",
+      "unitType": "worg",
+      "position": {
+        "x": 106.84,
+        "y": 22.9,
+        "angle": 77
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 106.84,
+          "y": 22.9
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_15-goblin-wolfrider-1",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 129.67,
+        "y": 49.53,
+        "angle": 263
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 129.67,
+          "y": 49.53
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "forest-mouth-area_15-g2"
+    },
+    {
+      "identifier": "forest-mouth-area_15-worg-4",
+      "unitType": "worg",
+      "position": {
+        "x": 134.47,
+        "y": 50.91,
+        "angle": 312
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 134.47,
+          "y": 50.91
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "forest-mouth-area_15-g2"
+    },
+    {
+      "identifier": "forest-mouth-area_15-worg-5",
+      "unitType": "worg",
+      "position": {
+        "x": 139.24,
+        "y": 76.03,
+        "angle": 50
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 139.24,
+          "y": 76.03
+        },
+        "radius": 8.57,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "forest-mouth-area_15-worg-6",
+      "unitType": "worg",
+      "position": {
+        "x": 76.22,
+        "y": 59.45,
+        "angle": 309
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "forest-mouth-area_15-g3"
+    },
+    {
+      "identifier": "forest-mouth-area_15-goblin-wolfrider-2",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 80.88,
+        "y": 61.25,
+        "angle": 23
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "forest-mouth-area_15-g3"
+    },
+    {
+      "identifier": "forest-mouth-area_15-goblin-wolfrider-3",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 111.81,
+        "y": 68.29,
+        "angle": 336
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "forest-mouth-area_15-g4"
+    },
+    {
+      "identifier": "forest-mouth-area_15-worg-7",
+      "unitType": "worg",
+      "position": {
+        "x": 116.77,
+        "y": 68.91,
+        "angle": 144
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 116.77,
+          "y": 68.91
+        },
+        "radius": 2.54,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "forest-mouth-area_15-g4"
+    },
+    {
+      "identifier": "forest-mouth-area_16-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 409.66,
+        "y": 60.86,
+        "angle": 164
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 409.66,
+          "y": 60.86
+        },
+        "radius": 9.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    }
+  ],
+  "ncus": [
+    {
+      "identifier": "scout-arlo",
+      "name": "Scout Arlo",
+      "tokenImageUrl": "../../../tokens/ncu/humans/trapper-2.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 38.75,
+        "y": 408.75,
+        "angle": 44
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "Quiet. They've ears everywhere down here."
+          }
+        }
+      }
+    }
+  ]
 }

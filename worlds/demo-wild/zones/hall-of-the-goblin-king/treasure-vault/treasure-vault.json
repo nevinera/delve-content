@@ -2856,7 +2856,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, off the trail. The King's hoard: a few royal guards."
+        "intent": "Gravel, off the trail. The King's hoard: a few royal guards.",
+        "population": "density: dense\nmix: goblin-royal-guard"
       }
     },
     {
@@ -3105,7 +3106,8 @@
       ],
       "name": "The Hoard",
       "annotations": {
-        "intent": "The King's hoard: optional loot."
+        "intent": "The King's hoard: optional loot.",
+        "population": "density: dense\nmix: goblin-royal-guard"
       }
     },
     {
@@ -3401,7 +3403,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. The King's hoard: a few royal guards."
+        "intent": "Floor, off the trail. The King's hoard: a few royal guards.",
+        "population": "density: dense\nmix: goblin-royal-guard"
       }
     },
     {
@@ -3945,7 +3948,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. The King's hoard: a few royal guards."
+        "intent": "Floor, on the trail. The King's hoard: a few royal guards.",
+        "population": "density: dense\nmix: goblin-royal-guard"
       }
     },
     {
@@ -4233,7 +4237,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. The King's hoard: a few royal guards."
+        "intent": "Floor, off the trail. The King's hoard: a few royal guards.",
+        "population": "density: dense\nmix: goblin-royal-guard"
       }
     },
     {
@@ -4713,11 +4718,197 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. The King's hoard: a few royal guards."
+        "intent": "Floor, off the trail. The King's hoard: a few royal guards.",
+        "population": "density: dense\nmix: goblin-royal-guard"
       }
     }
   ],
   "annotations": {
     "intent": "A small vault: the King's hoard, optional loot."
-  }
+  },
+  "units": [
+    {
+      "identifier": "treasure-vault-area_1-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 129.09,
+        "y": 127.06,
+        "angle": 19
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "treasure-vault-area_2-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 152.89,
+        "y": 110.66,
+        "angle": 41
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 152.89,
+          "y": 110.66
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "treasure-vault-area_3-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 75.65,
+        "y": 101.05,
+        "angle": 18
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 75.65,
+          "y": 101.05
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "treasure-vault-area_3-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 102,
+        "y": 73.27,
+        "angle": 319
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 102,
+          "y": 73.27
+        },
+        "radius": 6.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "treasure-vault-area_4-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 43.24,
+        "y": 81.59,
+        "angle": 335
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 43.24,
+          "y": 81.59
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "treasure-vault-area_4-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 21.91,
+        "y": 94.57,
+        "angle": 200
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "treasure-vault-area_5-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 138.92,
+        "y": 75.96,
+        "angle": 313
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 138.92,
+          "y": 75.96
+        },
+        "radius": 4.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "treasure-vault-area_6-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 85.88,
+        "y": 47.22,
+        "angle": 286
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 85.88,
+          "y": 47.22
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    }
+  ],
+  "ncus": []
 }

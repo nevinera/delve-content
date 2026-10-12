@@ -6143,7 +6143,8 @@
       ],
       "name": "Fawn Glade",
       "annotations": {
-        "intent": "A quiet clearing off the outpost: deer only, for the first 'hunt N deer' tasks."
+        "intent": "A quiet clearing off the outpost: deer only, for the first 'hunt N deer' tasks.",
+        "population": "density: normal\nmix: deer neutral"
       }
     },
     {
@@ -7193,7 +7194,8 @@
       "name": "North Track",
       "annotations": {
         "intent": "The trail north to the woodcutters. Safe near the outpost: deer, a lone wolf at most.",
-        "quests": "L1.2 Too Close: kill wolf x6."
+        "quests": "L1.2 Too Close: kill wolf x6.",
+        "population": "density: normal\nmix: wolf 2, deer neutral"
       }
     },
     {
@@ -9636,11 +9638,198 @@
       "annotations": {
         "intent": "The outpost: Ranger Hale's stockade, the expedition's notice board and the quest givers (L1, L4 start); where new characters arrive. Safe: no hostiles. The stockade is one structure in this open ground, for stamps (#164) later.",
         "ncus": "quartermaster-ives: Quartermaster Ives, keeps the expedition's notice board; gives L1.1, L4.1-2.\nranger-hale: Ranger Hale, the outpost's ranger; gives L1.2-9.\nranger-sela: Ranger Sela, Hale's deputy; gives S3.",
-        "quests": "L1.1 New at the Outpost: talk to ranger-hale.\nS5.2 Who Left It: talk to ranger-hale."
+        "quests": "L1.1 New at the Outpost: talk to ranger-hale.\nS5.2 Who Left It: talk to ranger-hale.",
+        "population": "density: none\nncu: quartermaster-ives \"Quartermaster Ives\" ../../../tokens/ncu/humans/prospector-1.webp \"Expedition business? The board's behind me.\"\nncu: ranger-hale \"Ranger Hale\" ../../../tokens/ncu/humans/ranger-hale.webp \"Keep to the trails, if you can.\"\nncu: ranger-sela \"Ranger Sela\" ../../../tokens/ncu/humans/woodcutter-3.webp \"Something's hunting near the camps.\""
       }
     }
   ],
   "annotations": {
     "intent": "The ranger outpost: the zone's hub, and where new characters arrive. Ranger Hale and the quest givers; the outpost stockade, a clearing, the expedition's notice board."
-  }
+  },
+  "units": [
+    {
+      "identifier": "ranger-outpost-area_1-deer-1",
+      "unitType": "deer",
+      "position": {
+        "x": 334.2,
+        "y": 476.75,
+        "angle": 42
+      },
+      "hostility": "neutral",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 334.2,
+          "y": 476.75
+        },
+        "radius": 9.07,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "ranger-outpost-area_1-deer-2",
+      "unitType": "deer",
+      "position": {
+        "x": 313.08,
+        "y": 436.43,
+        "angle": 313
+      },
+      "hostility": "neutral",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 313.08,
+          "y": 436.43
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "ranger-outpost-area_2-wolf-1",
+      "unitType": "wolf",
+      "position": {
+        "x": 58,
+        "y": 455.56,
+        "angle": 175
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 58,
+          "y": 455.56
+        },
+        "radius": 4.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "ranger-outpost-area_2-deer-1",
+      "unitType": "deer",
+      "position": {
+        "x": 70.58,
+        "y": 414.2,
+        "angle": 124
+      },
+      "hostility": "neutral",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 70.58,
+          "y": 414.2
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    }
+  ],
+  "ncus": [
+    {
+      "identifier": "quartermaster-ives",
+      "name": "Quartermaster Ives",
+      "tokenImageUrl": "../../../tokens/ncu/humans/prospector-1.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 211.25,
+        "y": 231.25,
+        "angle": 178
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "Expedition business? The board's behind me."
+          }
+        }
+      }
+    },
+    {
+      "identifier": "ranger-hale",
+      "name": "Ranger Hale",
+      "tokenImageUrl": "../../../tokens/ncu/humans/ranger-hale.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 203.75,
+        "y": 236.25,
+        "angle": 242
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "Keep to the trails, if you can."
+          }
+        }
+      }
+    },
+    {
+      "identifier": "ranger-sela",
+      "name": "Ranger Sela",
+      "tokenImageUrl": "../../../tokens/ncu/humans/woodcutter-3.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 221.25,
+        "y": 228.75,
+        "angle": 273
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "Something's hunting near the camps."
+          }
+        }
+      }
+    }
+  ]
 }

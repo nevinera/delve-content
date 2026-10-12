@@ -13031,7 +13031,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home."
+        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -13575,7 +13576,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, a dead end. Blackscale huts: warriors and hunters at home."
+        "intent": "Meadow, a dead end. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -14087,7 +14089,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home."
+        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -14583,7 +14586,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, on the trail. Blackscale huts: warriors and hunters at home."
+        "intent": "Marsh, on the trail. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -14991,7 +14995,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, a dead end. Blackscale huts: warriors and hunters at home."
+        "intent": "Tall grass, a dead end. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -15479,7 +15484,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home."
+        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -15951,7 +15957,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, on the trail. Blackscale huts: warriors and hunters at home."
+        "intent": "Marsh, on the trail. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -16495,7 +16502,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, a dead end. Blackscale huts: warriors and hunters at home."
+        "intent": "Meadow, a dead end. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -16935,7 +16943,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, on the trail. Blackscale huts: warriors and hunters at home."
+        "intent": "Marsh, on the trail. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -17415,7 +17424,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, a dead end. Blackscale huts: warriors and hunters at home."
+        "intent": "Marsh, a dead end. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -18055,7 +18065,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, a dead end. Blackscale huts: warriors and hunters at home."
+        "intent": "Marsh, a dead end. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -18529,7 +18540,8 @@
       "name": "Blackscale Village",
       "annotations": {
         "intent": "The heart of the Blackscales' village: its fire and gathering ground. Dense.",
-        "quests": "L2.9 Into Blackscale Land: kill blackscale-warrior x8."
+        "quests": "L2.9 Into Blackscale Land: kill blackscale-warrior x8.",
+        "population": "density: 0.4\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2-3"
       }
     },
     {
@@ -19089,7 +19101,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, a dead end. Blackscale huts: warriors and hunters at home."
+        "intent": "Marsh, a dead end. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -19673,7 +19686,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, a dead end. Blackscale huts: warriors and hunters at home."
+        "intent": "Marsh, a dead end. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -20049,7 +20063,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, a dead end. Blackscale huts: warriors and hunters at home."
+        "intent": "Meadow, a dead end. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -20601,7 +20616,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home."
+        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -21089,7 +21105,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home."
+        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -21665,7 +21682,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home."
+        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -22169,7 +22187,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home."
+        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter, blackscale-shaman\ngroups: 2"
       }
     },
     {
@@ -22748,11 +22767,1507 @@
       "annotations": {
         "intent": "The war-shaman's hut (L2 boss), the village's deepest dead end.",
         "quests": "L2.10 Smoke Ends: kill blackscale-war-shaman.",
-        "boss": "blackscale-war-shaman (L2.10 Smoke Ends)."
+        "boss": "blackscale-war-shaman (L2.10 Smoke Ends).",
+        "population": "density: sparse\nmix: blackscale-shaman\nboss: blackscale-war-shaman still"
       }
     }
   ],
   "annotations": {
     "intent": "The Blackscales' village, and the war-shaman's lair (L2's end)."
-  }
+  },
+  "units": [
+    {
+      "identifier": "blackscale-village-area_1-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 99.26,
+        "y": 471.29,
+        "angle": 227
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 99.26,
+          "y": 471.29
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_1-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_1-blackscale-shaman-1",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 104.08,
+        "y": 472.63,
+        "angle": 97
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 104.08,
+          "y": 472.63
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_1-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_1-blackscale-shaman-2",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 88.6,
+        "y": 414.17,
+        "angle": 200
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 88.6,
+          "y": 414.17
+        },
+        "radius": 3.04,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_1-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_1-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 93.28,
+        "y": 415.91,
+        "angle": 180
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 93.28,
+          "y": 415.91
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_1-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_2-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 288.65,
+        "y": 481.62,
+        "angle": 170
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-village-area_2-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_2-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 293.61,
+        "y": 482.22,
+        "angle": 173
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 293.61,
+          "y": 482.22
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_2-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_3-blackscale-shaman-1",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 393.36,
+        "y": 478.55,
+        "angle": 311
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 393.36,
+          "y": 478.55
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_3-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_3-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 398.27,
+        "y": 479.5,
+        "angle": 88
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 398.27,
+          "y": 479.5
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_3-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_4-blackscale-shaman-1",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 126.32,
+        "y": 445.48,
+        "angle": 276
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 126.32,
+          "y": 445.48
+        },
+        "radius": 3.04,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_4-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_4-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 131.05,
+        "y": 447.1,
+        "angle": 214
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 131.05,
+          "y": 447.1
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_4-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_4-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 153.01,
+        "y": 418.68,
+        "angle": 57
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-village-area_4-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_4-blackscale-shaman-2",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 157.82,
+        "y": 420.05,
+        "angle": 113
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 157.82,
+          "y": 420.05
+        },
+        "radius": 3.04,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_4-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_5-blackscale-shaman-1",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 52.21,
+        "y": 420.6,
+        "angle": 80
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 52.21,
+          "y": 420.6
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_5-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_5-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 57.18,
+        "y": 421.16,
+        "angle": 237
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 57.18,
+          "y": 421.16
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_5-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_5-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 22.82,
+        "y": 439.1,
+        "angle": 5
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 22.82,
+          "y": 439.1
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_5-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_5-blackscale-warrior-3",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 27.51,
+        "y": 440.83,
+        "angle": 85
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 27.51,
+          "y": 440.83
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_5-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_6-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 374.13,
+        "y": 384.42,
+        "angle": 46
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-village-area_6-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_6-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 379.13,
+        "y": 384.45,
+        "angle": 194
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-village-area_6-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_6-blackscale-warrior-3",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 333.54,
+        "y": 396.36,
+        "angle": 49
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 333.54,
+          "y": 396.36
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_6-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_6-blackscale-shaman-1",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 338.46,
+        "y": 397.23,
+        "angle": 174
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 338.46,
+          "y": 397.23
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_6-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_7-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 188.82,
+        "y": 342.86,
+        "angle": 225
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 188.82,
+          "y": 342.86
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_7-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_7-blackscale-shaman-1",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 193.79,
+        "y": 343.4,
+        "angle": 317
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-village-area_7-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_7-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 224.28,
+        "y": 363.89,
+        "angle": 308
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-village-area_7-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_7-blackscale-warrior-3",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 228.74,
+        "y": 366.14,
+        "angle": 109
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-village-area_7-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_7-blackscale-shaman-2",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 271.12,
+        "y": 378.55,
+        "angle": 263
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-village-area_7-g3"
+    },
+    {
+      "identifier": "blackscale-village-area_7-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 275.94,
+        "y": 379.89,
+        "angle": 92
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 275.94,
+          "y": 379.89
+        },
+        "radius": 3.04,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_7-g3"
+    },
+    {
+      "identifier": "blackscale-village-area_8-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 45.97,
+        "y": 295.34,
+        "angle": 246
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 45.97,
+          "y": 295.34
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_8-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_8-blackscale-shaman-1",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 50.94,
+        "y": 295.87,
+        "angle": 164
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 50.94,
+          "y": 295.87
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_8-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_9-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 101.06,
+        "y": 303.98,
+        "angle": 105
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 101.06,
+          "y": 303.98
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_9-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_9-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 105.88,
+        "y": 305.31,
+        "angle": 229
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 105.88,
+          "y": 305.31
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_9-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_9-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 151.53,
+        "y": 291.49,
+        "angle": 212
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 151.53,
+          "y": 291.49
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_9-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_9-blackscale-warrior-3",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 156.52,
+        "y": 291.9,
+        "angle": 202
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 156.52,
+          "y": 291.9
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_9-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_10-blackscale-shaman-1",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 201.44,
+        "y": 275.58,
+        "angle": 219
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-village-area_10-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_10-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 206.42,
+        "y": 276.07,
+        "angle": 149
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-village-area_10-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_11-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 377.75,
+        "y": 300.91,
+        "angle": 323
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 377.75,
+          "y": 300.91
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_11-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_11-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 382.72,
+        "y": 301.43,
+        "angle": 9
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 382.72,
+          "y": 301.43
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_11-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_11-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 369.44,
+        "y": 342,
+        "angle": 14
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 369.44,
+          "y": 342
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_11-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_12-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 129.27,
+        "y": 195.79,
+        "angle": 30
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 129.27,
+          "y": 195.79
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_12-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_12-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 134.27,
+        "y": 195.85,
+        "angle": 349
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-village-area_12-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_13-blackscale-shaman-1",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 20.58,
+        "y": 153.29,
+        "angle": 244
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 20.58,
+          "y": 153.29
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_13-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_13-blackscale-shaman-2",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 25.18,
+        "y": 155.26,
+        "angle": 3
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 25.18,
+          "y": 155.26
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_13-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_14-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 398.19,
+        "y": 191.87,
+        "angle": 77
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 398.19,
+          "y": 191.87
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_14-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_14-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 403.18,
+        "y": 192.04,
+        "angle": 359
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 403.18,
+          "y": 192.04
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_14-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_14-blackscale-shaman-1",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 385.35,
+        "y": 159.29,
+        "angle": 30
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 385.35,
+          "y": 159.29
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_14-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_14-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 390.19,
+        "y": 160.56,
+        "angle": 274
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 390.19,
+          "y": 160.56
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_14-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_15-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 151.25,
+        "y": 123.08,
+        "angle": 244
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 151.25,
+          "y": 123.08
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_15-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_15-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 155.98,
+        "y": 124.71,
+        "angle": 112
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 155.98,
+          "y": 124.71
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_15-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_16-blackscale-shaman-1",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 240.34,
+        "y": 147.94,
+        "angle": 222
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 240.34,
+          "y": 147.94
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_16-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_16-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 244.96,
+        "y": 149.83,
+        "angle": 179
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 244.96,
+          "y": 149.83
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_16-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_16-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 247.94,
+        "y": 107.85,
+        "angle": 189
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 247.94,
+          "y": 107.85
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_16-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_16-blackscale-warrior-3",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 252.93,
+        "y": 108.13,
+        "angle": 268
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-village-area_16-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_16-blackscale-warrior-4",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 281.39,
+        "y": 96.06,
+        "angle": 273
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 281.39,
+          "y": 96.06
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_16-g3"
+    },
+    {
+      "identifier": "blackscale-village-area_16-blackscale-warrior-5",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 286.29,
+        "y": 97.08,
+        "angle": 274
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-village-area_16-g3"
+    },
+    {
+      "identifier": "blackscale-village-area_17-blackscale-shaman-1",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 407.82,
+        "y": 37.16,
+        "angle": 166
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 407.82,
+          "y": 37.16
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_17-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_17-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 412.81,
+        "y": 37.4,
+        "angle": 271
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-village-area_17-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_17-blackscale-shaman-2",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 409.64,
+        "y": 80.92,
+        "angle": 65
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 409.64,
+          "y": 80.92
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_17-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_17-blackscale-shaman-3",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 414.2,
+        "y": 82.98,
+        "angle": 317
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 414.2,
+          "y": 82.98
+        },
+        "radius": 3.04,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_17-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_18-blackscale-shaman-1",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 176.29,
+        "y": 31.52,
+        "angle": 77
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 176.29,
+          "y": 31.52
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_18-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_18-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 181.15,
+        "y": 32.71,
+        "angle": 20
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 181.15,
+          "y": 32.71
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_18-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_18-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 181.74,
+        "y": 71.04,
+        "angle": 143
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-village-area_18-g2"
+    },
+    {
+      "identifier": "blackscale-village-area_19-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 329.36,
+        "y": 32.11,
+        "angle": 141
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 329.36,
+          "y": 32.11
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_19-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_19-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 334.27,
+        "y": 33.02,
+        "angle": 177
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 334.27,
+          "y": 33.02
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-village-area_19-g1"
+    },
+    {
+      "identifier": "blackscale-village-area_20-blackscale-war-shaman-1",
+      "unitType": "blackscale-war-shaman",
+      "position": {
+        "x": 71.25,
+        "y": 33.75,
+        "angle": 59
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    }
+  ],
+  "ncus": []
 }

@@ -7455,7 +7455,8 @@
       ],
       "annotations": {
         "intent": "The way north to Grutt's hall: goblin guards.",
-        "quests": "L3.8 Break the Gathering: kill goblin-cutter x8 (across area_2, area_1, area_3)."
+        "quests": "L3.8 Break the Gathering: kill goblin-cutter x8 (across area_2, area_1, area_3).",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer"
       }
     },
     {
@@ -10018,7 +10019,8 @@
       "annotations": {
         "intent": "The great hall where the tribes gather (L3): the wolf-master (L3), three hexed totems (S12), dense goblins of every kind.",
         "quests": "L3.8 Break the Gathering: interactables war-drum-1, war-drum-2, war-drum-3 (\"War Drum\", \"Smashing\", 2s); place them here.\nL3.8 Break the Gathering: kill goblin-cutter x8 (across area_2, area_1, area_3).\nL3.9 The Wolf-Master: kill wolf-master.\nS12.2 Hexed Totems: interactables hexed-totem-1, hexed-totem-2, hexed-totem-3 (\"Hexed Totem\", \"Breaking\", 2s); place them here.",
-        "boss": "wolf-master (L3.9 The Wolf-Master)."
+        "boss": "wolf-master (L3.9 The Wolf-Master).",
+        "population": "density: 0.3\nmix: goblin-cutter 2, goblin-archer, goblin-wolfrider, goblin-hexer\ngroups: 2-3\nboss: wolf-master wander 6"
       }
     },
     {
@@ -11419,11 +11421,1388 @@
       ],
       "annotations": {
         "intent": "The way south to the fungus deeps.",
-        "quests": "L3.8 Break the Gathering: kill goblin-cutter x8 (across area_2, area_1, area_3)."
+        "quests": "L3.8 Break the Gathering: kill goblin-cutter x8 (across area_2, area_1, area_3).",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer"
       }
     }
   ],
   "annotations": {
     "intent": "Where the tribes gather (L3): the gathering hall and the wolf-master."
-  }
+  },
+  "units": [
+    {
+      "identifier": "drum-halls-area_1-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 68.3,
+        "y": 493.98,
+        "angle": 233
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 68.3,
+          "y": 493.98
+        },
+        "radius": 6.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "drum-halls-area_1-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 53.71,
+        "y": 525.28,
+        "angle": 172
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "drum-halls-area_2-wolf-master-1",
+      "unitType": "wolf-master",
+      "position": {
+        "x": 251.25,
+        "y": 276.25,
+        "angle": 340
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 251.25,
+          "y": 276.25
+        },
+        "radius": 6,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 198.05,
+        "y": 168.88,
+        "angle": 89
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 198.05,
+          "y": 168.88
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g1"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 203.04,
+        "y": 169.2,
+        "angle": 166
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 203.04,
+          "y": 169.2
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g1"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-3",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 191.58,
+        "y": 224.23,
+        "angle": 62
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 191.58,
+          "y": 224.23
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g2"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-4",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 196.44,
+        "y": 225.4,
+        "angle": 168
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 196.44,
+          "y": 225.4
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g2"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-5",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 310.36,
+        "y": 369,
+        "angle": 11
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 310.36,
+          "y": 369
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g3"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-6",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 305.37,
+        "y": 368.67,
+        "angle": 139
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 305.37,
+          "y": 368.67
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g3"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-7",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 315.19,
+        "y": 370.32,
+        "angle": 225
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 315.19,
+          "y": 370.32
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g3"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-8",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 361.8,
+        "y": 221.75,
+        "angle": 301
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 361.8,
+          "y": 221.75
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g4"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-9",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 366.56,
+        "y": 223.26,
+        "angle": 11
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 366.56,
+          "y": 223.26
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g4"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-10",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 294.33,
+        "y": 325.79,
+        "angle": 300
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 294.33,
+          "y": 325.79
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g5"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-11",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 289.83,
+        "y": 323.6,
+        "angle": 350
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 289.83,
+          "y": 323.6
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g5"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-12",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 299.29,
+        "y": 326.35,
+        "angle": 156
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 299.29,
+          "y": 326.35
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g5"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 357.98,
+        "y": 266.89,
+        "angle": 10
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 357.98,
+          "y": 266.89
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g6"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-hexer-1",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 353.58,
+        "y": 264.52,
+        "angle": 255
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 353.58,
+          "y": 264.52
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g6"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-wolfrider-1",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 362.78,
+        "y": 268.29,
+        "angle": 278
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 362.78,
+          "y": 268.29
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g6"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-hexer-2",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 294.43,
+        "y": 176.35,
+        "angle": 70
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 294.43,
+          "y": 176.35
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g7"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-13",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 299.42,
+        "y": 176.67,
+        "angle": 218
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 299.42,
+          "y": 176.67
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g7"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-wolfrider-2",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 186.12,
+        "y": 381.54,
+        "angle": 243
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 186.12,
+          "y": 381.54
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g8"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-14",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 181.16,
+        "y": 380.86,
+        "angle": 196
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 181.16,
+          "y": 380.86
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g8"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-hexer-3",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 190.96,
+        "y": 382.79,
+        "angle": 219
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 190.96,
+          "y": 382.79
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g8"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-15",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 300.71,
+        "y": 234.47,
+        "angle": 111
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 300.71,
+          "y": 234.47
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g9"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-hexer-4",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 295.75,
+        "y": 233.83,
+        "angle": 314
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 295.75,
+          "y": 233.83
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g9"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 305.31,
+        "y": 236.43,
+        "angle": 174
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 305.31,
+          "y": 236.43
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g9"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-16",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 183.96,
+        "y": 336.33,
+        "angle": 298
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 183.96,
+          "y": 336.33
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g10"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-archer-3",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 178.96,
+        "y": 336.13,
+        "angle": 285
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 178.96,
+          "y": 336.13
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g10"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-17",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 188.35,
+        "y": 338.73,
+        "angle": 75
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 188.35,
+          "y": 338.73
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g10"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-18",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 339.61,
+        "y": 172.17,
+        "angle": 108
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 339.61,
+          "y": 172.17
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g11"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-hexer-5",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 335.08,
+        "y": 170.06,
+        "angle": 205
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 335.08,
+          "y": 170.06
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g11"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-archer-4",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 344.07,
+        "y": 174.44,
+        "angle": 359
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 344.07,
+          "y": 174.44
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g11"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-hexer-6",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 138.04,
+        "y": 263.65,
+        "angle": 276
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 138.04,
+          "y": 263.65
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g12"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-19",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 133.07,
+        "y": 263.15,
+        "angle": 230
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 133.07,
+          "y": 263.15
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g12"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-archer-5",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 142.5,
+        "y": 265.92,
+        "angle": 142
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 142.5,
+          "y": 265.92
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g12"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-wolfrider-3",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 261.39,
+        "y": 401.26,
+        "angle": 135
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 261.39,
+          "y": 401.26
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g13"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-hexer-7",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 266.31,
+        "y": 402.19,
+        "angle": 5
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 266.31,
+          "y": 402.19
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g13"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-archer-6",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 245.33,
+        "y": 174.07,
+        "angle": 176
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 245.33,
+          "y": 174.07
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g14"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-hexer-8",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 240.66,
+        "y": 172.29,
+        "angle": 333
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 240.66,
+          "y": 172.29
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g14"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-hexer-9",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 250.28,
+        "y": 174.77,
+        "angle": 214
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 250.28,
+          "y": 174.77
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g14"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-20",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 248.58,
+        "y": 319.2,
+        "angle": 286
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 248.58,
+          "y": 319.2
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g15"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-archer-7",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 253.08,
+        "y": 321.37,
+        "angle": 208
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 253.08,
+          "y": 321.37
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g15"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-hexer-10",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 134.26,
+        "y": 338,
+        "angle": 130
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 134.26,
+          "y": 338
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g16"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-archer-8",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 138.96,
+        "y": 339.71,
+        "angle": 354
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 138.96,
+          "y": 339.71
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g16"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-wolfrider-4",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 357,
+        "y": 323.5,
+        "angle": 17
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "drum-halls-area_2-g17"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-hexer-11",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 361.99,
+        "y": 323.82,
+        "angle": 243
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 361.99,
+          "y": 323.82
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g17"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-wolfrider-5",
+      "unitType": "goblin-wolfrider",
+      "position": {
+        "x": 229.23,
+        "y": 363.56,
+        "angle": 322
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 229.23,
+          "y": 363.56
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g18"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-cutter-21",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 234.08,
+        "y": 364.75,
+        "angle": 88
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 234.08,
+          "y": 364.75
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g18"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-hexer-12",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 208.34,
+        "y": 303.42,
+        "angle": 188
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 208.34,
+          "y": 303.42
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g19"
+    },
+    {
+      "identifier": "drum-halls-area_2-goblin-hexer-13",
+      "unitType": "goblin-hexer",
+      "position": {
+        "x": 213.09,
+        "y": 304.96,
+        "angle": 96
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 213.09,
+          "y": 304.96
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "drum-halls-area_2-g19"
+    },
+    {
+      "identifier": "drum-halls-area_3-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 361.02,
+        "y": 41.53,
+        "angle": 300
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 361.02,
+          "y": 41.53
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "drum-halls-area_3-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 315.38,
+        "y": 22.99,
+        "angle": 3
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 315.38,
+          "y": 22.99
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    }
+  ],
+  "ncus": []
 }

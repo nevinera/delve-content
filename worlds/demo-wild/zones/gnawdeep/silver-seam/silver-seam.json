@@ -2702,7 +2702,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, a dead end. The silver seam's caves: goblin sappers."
+        "intent": "Puddles, a dead end. The silver seam's caves: goblin sappers.",
+        "population": "density: normal\nmix: goblin-sapper"
       }
     },
     {
@@ -3046,7 +3047,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, on the trail. The silver seam's caves: goblin sappers."
+        "intent": "Gravel, on the trail. The silver seam's caves: goblin sappers.",
+        "population": "density: normal\nmix: goblin-sapper"
       }
     },
     {
@@ -3518,7 +3520,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. The silver seam's caves: goblin sappers."
+        "intent": "Floor, on the trail. The silver seam's caves: goblin sappers.",
+        "population": "density: normal\nmix: goblin-sapper"
       }
     },
     {
@@ -3950,7 +3953,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, off the trail. The silver seam's caves: goblin sappers."
+        "intent": "Puddles, off the trail. The silver seam's caves: goblin sappers.",
+        "population": "density: normal\nmix: goblin-sapper"
       }
     },
     {
@@ -4336,11 +4340,119 @@
       "name": "Silver Seam",
       "annotations": {
         "intent": "The expedition's silver seam (L4), a dead end.",
-        "quests": "L4.8 The Silver Seam: interactables silver-sample-1, silver-sample-2, silver-sample-3 (\"Silver Vein\", \"Chipping\", 2s); place them here."
+        "quests": "L4.8 The Silver Seam: interactables silver-sample-1, silver-sample-2, silver-sample-3 (\"Silver Vein\", \"Chipping\", 2s); place them here.",
+        "population": "density: normal\nmix: goblin-sapper"
       }
     }
   ],
   "annotations": {
     "intent": "A small cave: the expedition's silver seam, and Maren Holt held captive (L4)."
-  }
+  },
+  "units": [
+    {
+      "identifier": "silver-seam-area_2-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 106.31,
+        "y": 82.81,
+        "angle": 291
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 106.31,
+          "y": 82.81
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "silver-seam-area_3-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 37,
+        "y": 73.33,
+        "angle": 306
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 37,
+          "y": 73.33
+        },
+        "radius": 5.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "silver-seam-area_4-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 136.28,
+        "y": 61.07,
+        "angle": 3
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 136.28,
+          "y": 61.07
+        },
+        "radius": 6.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "silver-seam-area_5-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 108.28,
+        "y": 41.99,
+        "angle": 172
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 108.28,
+          "y": 41.99
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    }
+  ],
+  "ncus": []
 }

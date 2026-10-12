@@ -7577,7 +7577,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. The King's hall: royal guards."
+        "intent": "Floor, on the trail. The King's hall: royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -8017,7 +8018,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. The King's hall: royal guards."
+        "intent": "Floor, off the trail. The King's hall: royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -8449,7 +8451,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, off the trail. The King's hall: royal guards."
+        "intent": "Gravel, off the trail. The King's hall: royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -9020,7 +9023,8 @@
       "annotations": {
         "intent": "The Goblin King's throne (the dungeon boss), the hall's farthest end.",
         "quests": "L3.14 The Goblin King: kill goblin-king.",
-        "boss": "goblin-king (L3.14 The Goblin King)."
+        "boss": "goblin-king (L3.14 The Goblin King).",
+        "population": "density: sparse\nmix: goblin-royal-guard\nboss: goblin-king still"
       }
     },
     {
@@ -9444,7 +9448,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. The King's hall: royal guards."
+        "intent": "Floor, on the trail. The King's hall: royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -9812,7 +9817,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, a dead end. The King's hall: royal guards."
+        "intent": "Floor, a dead end. The King's hall: royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -10204,7 +10210,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. The King's hall: royal guards."
+        "intent": "Floor, off the trail. The King's hall: royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -10692,7 +10699,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. The King's hall: royal guards."
+        "intent": "Floor, on the trail. The King's hall: royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -11212,7 +11220,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, a dead end. The King's hall: royal guards."
+        "intent": "Floor, a dead end. The King's hall: royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -11676,7 +11685,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. The King's hall: royal guards."
+        "intent": "Floor, on the trail. The King's hall: royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -12188,7 +12198,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, a dead end. The King's hall: royal guards."
+        "intent": "Puddles, a dead end. The King's hall: royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -12716,7 +12727,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, a dead end. The King's hall: royal guards."
+        "intent": "Puddles, a dead end. The King's hall: royal guards.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     },
     {
@@ -13204,11 +13216,602 @@
         }
       ],
       "annotations": {
-        "intent": "The hall's entrance."
+        "intent": "The hall's entrance.",
+        "population": "density: normal\nmix: goblin-royal-guard\ngroups: 2"
       }
     }
   ],
   "annotations": {
     "intent": "The King's hall: the Goblin King (dungeon boss) on his throne of stolen things."
-  }
+  },
+  "units": [
+    {
+      "identifier": "goblin-kings-hall-area_1-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 53.85,
+        "y": 298.53,
+        "angle": 55
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 53.85,
+          "y": 298.53
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "goblin-kings-hall-area_1-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_1-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 58.69,
+        "y": 299.75,
+        "angle": 350
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "goblin-kings-hall-area_1-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_2-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 141.06,
+        "y": 329.1,
+        "angle": 112
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 141.06,
+          "y": 329.1
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "goblin-kings-hall-area_2-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_2-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 145.81,
+        "y": 330.65,
+        "angle": 189
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "goblin-kings-hall-area_2-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_3-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 201.96,
+        "y": 261.09,
+        "angle": 223
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "goblin-kings-hall-area_3-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_3-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 206.96,
+        "y": 261.31,
+        "angle": 316
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 206.96,
+          "y": 261.31
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "goblin-kings-hall-area_3-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_4-goblin-king-1",
+      "unitType": "goblin-king",
+      "position": {
+        "x": 266.25,
+        "y": 283.75,
+        "angle": 260
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "goblin-kings-hall-area_5-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 24.01,
+        "y": 236.89,
+        "angle": 19
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 24.01,
+          "y": 236.89
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "goblin-kings-hall-area_5-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_5-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 28.58,
+        "y": 238.92,
+        "angle": 161
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 28.58,
+          "y": 238.92
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "goblin-kings-hall-area_5-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_5-goblin-royal-guard-3",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 58.02,
+        "y": 244.2,
+        "angle": 96
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "goblin-kings-hall-area_5-g2"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_6-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 104.65,
+        "y": 260.49,
+        "angle": 263
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "goblin-kings-hall-area_6-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_6-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 109.64,
+        "y": 260.7,
+        "angle": 267
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "goblin-kings-hall-area_6-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_7-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 180.29,
+        "y": 231,
+        "angle": 91
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "goblin-kings-hall-area_7-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_7-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 184.81,
+        "y": 233.15,
+        "angle": 128
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "goblin-kings-hall-area_7-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_8-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 35.54,
+        "y": 158.74,
+        "angle": 339
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 35.54,
+          "y": 158.74
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "goblin-kings-hall-area_8-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_8-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 39.98,
+        "y": 161.03,
+        "angle": 284
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 39.98,
+          "y": 161.03
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "goblin-kings-hall-area_8-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_9-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 241.38,
+        "y": 148.31,
+        "angle": 117
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 241.38,
+          "y": 148.31
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "goblin-kings-hall-area_9-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_9-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 246.22,
+        "y": 149.54,
+        "angle": 174
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "goblin-kings-hall-area_9-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_10-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 119.61,
+        "y": 53.35,
+        "angle": 16
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 119.61,
+          "y": 53.35
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "goblin-kings-hall-area_10-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_10-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 124.49,
+        "y": 54.43,
+        "angle": 58
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 124.49,
+          "y": 54.43
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "goblin-kings-hall-area_10-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_10-goblin-royal-guard-3",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 154.47,
+        "y": 99.75,
+        "angle": 137
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "goblin-kings-hall-area_10-g2"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_11-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 223.73,
+        "y": 23.56,
+        "angle": 99
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "goblin-kings-hall-area_11-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_11-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 228.57,
+        "y": 24.81,
+        "angle": 175
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "goblin-kings-hall-area_11-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_12-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 36.02,
+        "y": 50.97,
+        "angle": 91
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 36.02,
+          "y": 50.97
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "goblin-kings-hall-area_12-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_12-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 40.76,
+        "y": 52.58,
+        "angle": 317
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 40.76,
+          "y": 52.58
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "goblin-kings-hall-area_12-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_12-goblin-royal-guard-3",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 81.95,
+        "y": 83.57,
+        "angle": 215
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "goblin-kings-hall-area_12-g2"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_12-goblin-royal-guard-4",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 86.88,
+        "y": 84.44,
+        "angle": 153
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 86.88,
+          "y": 84.44
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "goblin-kings-hall-area_12-g2"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_13-goblin-royal-guard-1",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 172.84,
+        "y": 21.26,
+        "angle": 239
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "goblin-kings-hall-area_13-g1"
+    },
+    {
+      "identifier": "goblin-kings-hall-area_13-goblin-royal-guard-2",
+      "unitType": "goblin-royal-guard",
+      "position": {
+        "x": 177.62,
+        "y": 22.73,
+        "angle": 307
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 177.62,
+          "y": 22.73
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "goblin-kings-hall-area_13-g1"
+    }
+  ],
+  "ncus": []
 }

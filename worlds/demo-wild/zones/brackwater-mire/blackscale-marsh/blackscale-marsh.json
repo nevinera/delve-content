@@ -12872,7 +12872,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, on the trail. Blackscale territory: Blackscale warriors and hunters."
+        "intent": "Meadow, on the trail. Blackscale territory: Blackscale warriors and hunters.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter"
       }
     },
     {
@@ -13568,7 +13569,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Blackscale territory: Blackscale warriors and hunters."
+        "intent": "Marsh, off the trail. Blackscale territory: Blackscale warriors and hunters.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter"
       }
     },
     {
@@ -14338,7 +14340,8 @@
       "name": "West Raider Camp",
       "annotations": {
         "intent": "A Blackscale raider camp, a dead end.",
-        "quests": "L2.8 The War-Shaman: kill blackscale-hunter x6 (across area_9, area_3)."
+        "quests": "L2.8 The War-Shaman: kill blackscale-hunter x6 (across area_9, area_3).",
+        "population": "density: dense\nmix: blackscale-warrior 2, blackscale-hunter\ngroups: 2-3"
       }
     },
     {
@@ -14946,7 +14949,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Blackscale territory: Blackscale warriors and hunters."
+        "intent": "Marsh, off the trail. Blackscale territory: Blackscale warriors and hunters.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter"
       }
     },
     {
@@ -15514,7 +15518,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, on the trail. Blackscale territory: Blackscale warriors and hunters."
+        "intent": "Marsh, on the trail. Blackscale territory: Blackscale warriors and hunters.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter"
       }
     },
     {
@@ -16066,7 +16071,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, a dead end. Blackscale territory: Blackscale warriors and hunters."
+        "intent": "Marsh, a dead end. Blackscale territory: Blackscale warriors and hunters.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter"
       }
     },
     {
@@ -16746,7 +16752,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Blackscale territory: Blackscale warriors and hunters."
+        "intent": "Marsh, off the trail. Blackscale territory: Blackscale warriors and hunters.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter"
       }
     },
     {
@@ -17340,7 +17347,8 @@
       "name": "War-Totems",
       "annotations": {
         "intent": "Blackscale war-totems on the trail: a shaman tending them.",
-        "quests": "L2.6 Their Totems: interactables war-totem-1, war-totem-2, war-totem-3 (\"War-Totem\", \"Toppling\", 2s); place them here.\nL2.6 Their Totems: kill blackscale-shaman."
+        "quests": "L2.6 Their Totems: interactables war-totem-1, war-totem-2, war-totem-3 (\"War-Totem\", \"Toppling\", 2s); place them here.\nL2.6 Their Totems: kill blackscale-shaman.",
+        "population": "density: normal\nmix: blackscale-warrior\nboss: blackscale-shaman still"
       }
     },
     {
@@ -18070,7 +18078,8 @@
       "name": "East Raider Camp",
       "annotations": {
         "intent": "A Blackscale raider camp.",
-        "quests": "L2.8 The War-Shaman: kill blackscale-hunter x6 (across area_9, area_3)."
+        "quests": "L2.8 The War-Shaman: kill blackscale-hunter x6 (across area_9, area_3).",
+        "population": "density: dense\nmix: blackscale-warrior 2, blackscale-hunter\ngroups: 2-3"
       }
     },
     {
@@ -18670,7 +18679,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, on the trail. Blackscale territory: Blackscale warriors and hunters."
+        "intent": "Meadow, on the trail. Blackscale territory: Blackscale warriors and hunters.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter"
       }
     },
     {
@@ -19568,7 +19578,8 @@
       "name": "Captive Pens",
       "annotations": {
         "intent": "The captive pens (L2), behind the east raider camp: Reedtalker captives (NCUs), guarded.",
-        "quests": "L2.7 Captives: interactables captive-pen-1, captive-pen-2, captive-pen-3, captive-pen-4 (\"Captive Pen\", \"Opening\", 2s); place them here."
+        "quests": "L2.7 Captives: interactables captive-pen-1, captive-pen-2, captive-pen-3, captive-pen-4 (\"Captive Pen\", \"Opening\", 2s); place them here.",
+        "population": "density: normal\nmix: blackscale-warrior\ngroups: 2"
       }
     },
     {
@@ -20288,7 +20299,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, a dead end. Blackscale territory: Blackscale warriors and hunters."
+        "intent": "Marsh, a dead end. Blackscale territory: Blackscale warriors and hunters.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter"
       }
     },
     {
@@ -20824,7 +20836,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, on the trail. Blackscale territory: Blackscale warriors and hunters."
+        "intent": "Marsh, on the trail. Blackscale territory: Blackscale warriors and hunters.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter"
       }
     },
     {
@@ -21648,7 +21661,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, a dead end. Blackscale territory: Blackscale warriors and hunters."
+        "intent": "Marsh, a dead end. Blackscale territory: Blackscale warriors and hunters.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter"
       }
     },
     {
@@ -22448,11 +22462,1395 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, on the trail. Blackscale territory: Blackscale warriors and hunters."
+        "intent": "Marsh, on the trail. Blackscale territory: Blackscale warriors and hunters.",
+        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter"
       }
     }
   ],
   "annotations": {
     "intent": "Blackscale territory: their raiding parties and captive pens (L2)."
-  }
+  },
+  "units": [
+    {
+      "identifier": "blackscale-marsh-area_1-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 159.29,
+        "y": 475.64,
+        "angle": 140
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_1-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 229.27,
+        "y": 468.88,
+        "angle": 322
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 229.27,
+          "y": 468.88
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_2-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 443.06,
+        "y": 448.5,
+        "angle": 86
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 443.06,
+          "y": 448.5
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_2-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 393.34,
+        "y": 471.11,
+        "angle": 75
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_2-blackscale-warrior-3",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 378.46,
+        "y": 426.2,
+        "angle": 53
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_3-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 36.02,
+        "y": 427.24,
+        "angle": 108
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 36.02,
+          "y": 427.24
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_3-g1"
+    },
+    {
+      "identifier": "blackscale-marsh-area_3-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 41,
+        "y": 427.6,
+        "angle": 336
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 41,
+          "y": 427.6
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_3-g1"
+    },
+    {
+      "identifier": "blackscale-marsh-area_3-blackscale-warrior-3",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 38.31,
+        "y": 393.33,
+        "angle": 99
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 38.31,
+          "y": 393.33
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_3-g2"
+    },
+    {
+      "identifier": "blackscale-marsh-area_3-blackscale-warrior-4",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 33.59,
+        "y": 391.68,
+        "angle": 2
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-marsh-area_3-g2"
+    },
+    {
+      "identifier": "blackscale-marsh-area_3-blackscale-warrior-5",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 42.73,
+        "y": 395.65,
+        "angle": 277
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 42.73,
+          "y": 395.65
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_3-g2"
+    },
+    {
+      "identifier": "blackscale-marsh-area_3-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 76.28,
+        "y": 419.57,
+        "angle": 124
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 76.28,
+          "y": 419.57
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_3-g3"
+    },
+    {
+      "identifier": "blackscale-marsh-area_3-blackscale-warrior-6",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 71.28,
+        "y": 419.57,
+        "angle": 321
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 71.28,
+          "y": 419.57
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_3-g3"
+    },
+    {
+      "identifier": "blackscale-marsh-area_3-blackscale-warrior-7",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 80.8,
+        "y": 421.72,
+        "angle": 37
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 80.8,
+          "y": 421.72
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_3-g3"
+    },
+    {
+      "identifier": "blackscale-marsh-area_3-blackscale-warrior-8",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 65.99,
+        "y": 370.54,
+        "angle": 171
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-marsh-area_3-g4"
+    },
+    {
+      "identifier": "blackscale-marsh-area_3-blackscale-warrior-9",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 70.88,
+        "y": 371.6,
+        "angle": 27
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-marsh-area_3-g4"
+    },
+    {
+      "identifier": "blackscale-marsh-area_4-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 302.06,
+        "y": 388.79,
+        "angle": 93
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 302.06,
+          "y": 388.79
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_4-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 334.16,
+        "y": 408.34,
+        "angle": 318
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_5-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 184.19,
+        "y": 322.1,
+        "angle": 212
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 184.19,
+          "y": 322.1
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_5-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 208.69,
+        "y": 354.62,
+        "angle": 329
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 208.69,
+          "y": 354.62
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_5-blackscale-warrior-3",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 165.33,
+        "y": 359.26,
+        "angle": 197
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 165.33,
+          "y": 359.26
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_6-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 433.69,
+        "y": 377.2,
+        "angle": 81
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 433.69,
+          "y": 377.2
+        },
+        "radius": 6.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_6-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 426.76,
+        "y": 336.73,
+        "angle": 257
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_7-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 18.84,
+        "y": 228.34,
+        "angle": 59
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_7-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 41.48,
+        "y": 318.08,
+        "angle": 169
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_7-blackscale-warrior-3",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 24.29,
+        "y": 263.5,
+        "angle": 333
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 24.29,
+          "y": 263.5
+        },
+        "radius": 6.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_8-blackscale-shaman-1",
+      "unitType": "blackscale-shaman",
+      "position": {
+        "x": 163.75,
+        "y": 258.75,
+        "angle": 215
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_8-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 199.66,
+        "y": 265.83,
+        "angle": 223
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 199.66,
+          "y": 265.83
+        },
+        "radius": 6.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_9-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 372.15,
+        "y": 223.04,
+        "angle": 47
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 372.15,
+          "y": 223.04
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_9-g1"
+    },
+    {
+      "identifier": "blackscale-marsh-area_9-blackscale-hunter-2",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 367.16,
+        "y": 222.65,
+        "angle": 30
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 367.16,
+          "y": 222.65
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_9-g1"
+    },
+    {
+      "identifier": "blackscale-marsh-area_9-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 376.69,
+        "y": 225.14,
+        "angle": 232
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 376.69,
+          "y": 225.14
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_9-g1"
+    },
+    {
+      "identifier": "blackscale-marsh-area_9-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 367.21,
+        "y": 249.69,
+        "angle": 331
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 367.21,
+          "y": 249.69
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_9-g2"
+    },
+    {
+      "identifier": "blackscale-marsh-area_9-blackscale-warrior-3",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 362.21,
+        "y": 249.68,
+        "angle": 143
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-marsh-area_9-g2"
+    },
+    {
+      "identifier": "blackscale-marsh-area_9-blackscale-warrior-4",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 372.2,
+        "y": 250,
+        "angle": 244
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-marsh-area_9-g2"
+    },
+    {
+      "identifier": "blackscale-marsh-area_9-blackscale-hunter-3",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 351.9,
+        "y": 182.92,
+        "angle": 238
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 351.9,
+          "y": 182.92
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_9-g3"
+    },
+    {
+      "identifier": "blackscale-marsh-area_9-blackscale-warrior-5",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 347.17,
+        "y": 181.3,
+        "angle": 156
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 347.17,
+          "y": 181.3
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_9-g3"
+    },
+    {
+      "identifier": "blackscale-marsh-area_9-blackscale-hunter-4",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 356.43,
+        "y": 185.05,
+        "angle": 311
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 356.43,
+          "y": 185.05
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_9-g3"
+    },
+    {
+      "identifier": "blackscale-marsh-area_9-blackscale-warrior-6",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 399.59,
+        "y": 195.36,
+        "angle": 205
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 399.59,
+          "y": 195.36
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_9-g4"
+    },
+    {
+      "identifier": "blackscale-marsh-area_9-blackscale-warrior-7",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 404.49,
+        "y": 196.36,
+        "angle": 247
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 404.49,
+          "y": 196.36
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_9-g4"
+    },
+    {
+      "identifier": "blackscale-marsh-area_9-blackscale-hunter-5",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 343.69,
+        "y": 207.19,
+        "angle": 308
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 343.69,
+          "y": 207.19
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_9-g5"
+    },
+    {
+      "identifier": "blackscale-marsh-area_9-blackscale-hunter-6",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 348.5,
+        "y": 208.53,
+        "angle": 312
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 348.5,
+          "y": 208.53
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_9-g5"
+    },
+    {
+      "identifier": "blackscale-marsh-area_9-blackscale-hunter-7",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 319.27,
+        "y": 218.09,
+        "angle": 147
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 319.27,
+          "y": 218.09
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_9-g6"
+    },
+    {
+      "identifier": "blackscale-marsh-area_9-blackscale-warrior-8",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 324.24,
+        "y": 218.66,
+        "angle": 22
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 324.24,
+          "y": 218.66
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_9-g6"
+    },
+    {
+      "identifier": "blackscale-marsh-area_10-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 231.26,
+        "y": 224.26,
+        "angle": 179
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 231.26,
+          "y": 224.26
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_10-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 274.56,
+        "y": 182.92,
+        "angle": 155
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 274.56,
+          "y": 182.92
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_10-blackscale-warrior-3",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 268.69,
+        "y": 217.08,
+        "angle": 96
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 268.69,
+          "y": 217.08
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_10-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 228.83,
+        "y": 189.28,
+        "angle": 38
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 228.83,
+          "y": 189.28
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_11-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 423.57,
+        "y": 148.74,
+        "angle": 175
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 423.57,
+          "y": 148.74
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_11-g1"
+    },
+    {
+      "identifier": "blackscale-marsh-area_11-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 428.56,
+        "y": 149.08,
+        "angle": 142
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 428.56,
+          "y": 149.08
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "blackscale-marsh-area_11-g1"
+    },
+    {
+      "identifier": "blackscale-marsh-area_11-blackscale-warrior-3",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 462.09,
+        "y": 110.86,
+        "angle": 157
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "blackscale-marsh-area_11-g2"
+    },
+    {
+      "identifier": "blackscale-marsh-area_12-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 28.72,
+        "y": 139.58,
+        "angle": 216
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 28.72,
+          "y": 139.58
+        },
+        "radius": 9.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_12-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 16.95,
+        "y": 171.54,
+        "angle": 163
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 16.95,
+          "y": 171.54
+        },
+        "radius": 3.04,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_13-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 276.55,
+        "y": 129.73,
+        "angle": 305
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 276.55,
+          "y": 129.73
+        },
+        "radius": 2.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_13-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 231.88,
+        "y": 118.49,
+        "angle": 350
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 231.88,
+          "y": 118.49
+        },
+        "radius": 6.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_14-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 122.8,
+        "y": 41.49,
+        "angle": 119
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 122.8,
+          "y": 41.49
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_14-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 166.4,
+        "y": 29,
+        "angle": 253
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 166.4,
+          "y": 29
+        },
+        "radius": 9.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_14-blackscale-hunter-2",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 141.23,
+        "y": 71.68,
+        "angle": 161
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 141.23,
+          "y": 71.68
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_15-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 215.32,
+        "y": 55.35,
+        "angle": 311
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 215.32,
+          "y": 55.35
+        },
+        "radius": 5.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_15-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 234.41,
+        "y": 23.62,
+        "angle": 230
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 234.41,
+          "y": 23.62
+        },
+        "radius": 3.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackscale-marsh-area_15-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 271.09,
+        "y": 40.48,
+        "angle": 260
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 271.09,
+          "y": 40.48
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    }
+  ],
+  "ncus": []
 }

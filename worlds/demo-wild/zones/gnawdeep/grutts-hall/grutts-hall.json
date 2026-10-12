@@ -13358,7 +13358,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, a dead end. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Gravel, a dead end. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -14161,7 +14162,8 @@
       "annotations": {
         "intent": "Warboss Grutt's throne (L3 boss), by the sealed stair.",
         "quests": "L3.12 Warboss Grutt: kill warboss-grutt.",
-        "boss": "warboss-grutt (L3.12 Warboss Grutt)."
+        "boss": "warboss-grutt (L3.12 Warboss Grutt).",
+        "population": "density: sparse\nmix: goblin-cutter\nboss: warboss-grutt still"
       }
     },
     {
@@ -14675,7 +14677,8 @@
       "name": "Sealed Stair",
       "annotations": {
         "intent": "The sealed stair down to the Goblin King's hall (the dungeon).",
-        "quests": "L3.13 The Sealed Stair: interactables stair-seal (\"Sealed Stair\", \"Breaking the seal\", 5s); place them here."
+        "quests": "L3.13 The Sealed Stair: interactables stair-seal (\"Sealed Stair\", \"Breaking the seal\", 5s); place them here.",
+        "population": "density: sparse\nmix: goblin-cutter"
       }
     },
     {
@@ -15067,7 +15070,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Floor, off the trail. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -15715,7 +15719,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Floor, off the trail. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -16171,7 +16176,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Floor, on the trail. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -16683,7 +16689,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, a dead end. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Floor, a dead end. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -17179,7 +17186,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Floor, on the trail. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -17691,7 +17699,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Floor, off the trail. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -18123,7 +18132,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Floor, off the trail. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -18635,7 +18645,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Floor, on the trail. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -19187,7 +19198,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Floor, on the trail. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -19764,7 +19776,8 @@
       ],
       "annotations": {
         "intent": "The guards' approach (L3), further in.",
-        "quests": "L3.11 Guards: kill goblin-archer x6 (across area_16, area_13).\nL3.11 Guards: kill goblin-cutter x6 (across area_16, area_13)."
+        "quests": "L3.11 Guards: kill goblin-archer x6 (across area_16, area_13).\nL3.11 Guards: kill goblin-cutter x6 (across area_16, area_13).",
+        "population": "density: dense\nmix: goblin-cutter, goblin-archer\ngroups: 2-3"
       }
     },
     {
@@ -20244,7 +20257,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, a dead end. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Puddles, a dead end. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -20676,7 +20690,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, on the trail. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Gravel, on the trail. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -21190,7 +21205,8 @@
       "name": "Guards' Approach",
       "annotations": {
         "intent": "The guards' approach (L3): goblin guards, dense.",
-        "quests": "L3.11 Guards: kill goblin-archer x6 (across area_16, area_13).\nL3.11 Guards: kill goblin-cutter x6 (across area_16, area_13)."
+        "quests": "L3.11 Guards: kill goblin-archer x6 (across area_16, area_13).\nL3.11 Guards: kill goblin-cutter x6 (across area_16, area_13).",
+        "population": "density: dense\nmix: goblin-cutter, goblin-archer\ngroups: 2-3"
       }
     },
     {
@@ -21678,7 +21694,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Floor, off the trail. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -22174,7 +22191,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, off the trail. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Gravel, off the trail. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -22750,7 +22768,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Floor, on the trail. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -23406,7 +23425,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, a dead end. Grutt's hall: goblin warriors, archers, cutters."
+        "intent": "Gravel, a dead end. Grutt's hall: goblin warriors, archers, cutters.",
+        "population": "density: normal\nmix: goblin-cutter 2, goblin-archer 2\ngroups: 2"
       }
     },
     {
@@ -24017,11 +24037,1884 @@
       "annotations": {
         "intent": "Maren Holt's cell (L4), a dead end: Maren Holt (NCU), a jailer.",
         "ncus": "maren-holt: Maren Holt, the expedition's leader, held captive; L4.9's turn-in.",
-        "quests": "L4.9 Maren Holt: interactables holt-cell-door (\"Cell Door\", \"Forcing the lock\", 3s); place them here."
+        "quests": "L4.9 Maren Holt: interactables holt-cell-door (\"Cell Door\", \"Forcing the lock\", 3s); place them here.",
+        "population": "density: sparse\nmix: goblin-cutter\nncu: maren-holt \"Maren Holt\" ../../../tokens/ncu/humans/maren-holt.webp \"You came. I didn't think anyone would.\""
       }
     }
   ],
   "annotations": {
     "intent": "The warboss's hall: Grutt (L3's boss), his guards, and the sealed stair down to the Goblin King's hall."
-  }
+  },
+  "units": [
+    {
+      "identifier": "grutts-hall-area_1-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 26.04,
+        "y": 465.57,
+        "angle": 56
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "grutts-hall-area_1-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_1-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 30.6,
+        "y": 467.62,
+        "angle": 50
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "grutts-hall-area_1-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_2-warboss-grutt-1",
+      "unitType": "warboss-grutt",
+      "position": {
+        "x": 256.25,
+        "y": 451.25,
+        "angle": 37
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "grutts-hall-area_3-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 88.48,
+        "y": 422.93,
+        "angle": 269
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 88.48,
+          "y": 422.93
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "grutts-hall-area_4-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 30.52,
+        "y": 404.22,
+        "angle": 251
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 30.52,
+          "y": 404.22
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_4-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_4-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 35.23,
+        "y": 405.89,
+        "angle": 54
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 35.23,
+          "y": 405.89
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_4-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_4-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 59.71,
+        "y": 456.64,
+        "angle": 80
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 59.71,
+          "y": 456.64
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_4-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_4-goblin-cutter-3",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 64.68,
+        "y": 457.23,
+        "angle": 120
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "grutts-hall-area_4-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_5-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 341.56,
+        "y": 393.71,
+        "angle": 354
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 341.56,
+          "y": 393.71
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_5-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_5-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 346.56,
+        "y": 393.85,
+        "angle": 121
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 346.56,
+          "y": 393.85
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_5-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_5-goblin-archer-3",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 386.94,
+        "y": 393.97,
+        "angle": 138
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 386.94,
+          "y": 393.97
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_5-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_5-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 391.36,
+        "y": 396.3,
+        "angle": 213
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 391.36,
+          "y": 396.3
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_5-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_6-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 135.48,
+        "y": 393.67,
+        "angle": 82
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "grutts-hall-area_6-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_7-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 267.03,
+        "y": 378.97,
+        "angle": 146
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 267.03,
+          "y": 378.97
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_7-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_7-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 271.78,
+        "y": 380.53,
+        "angle": 288
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "grutts-hall-area_7-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_7-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 259.63,
+        "y": 344.34,
+        "angle": 124
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 259.63,
+          "y": 344.34
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_7-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_7-goblin-archer-3",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 264.63,
+        "y": 344.42,
+        "angle": 135
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 264.63,
+          "y": 344.42
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_7-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_8-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 42.06,
+        "y": 346.97,
+        "angle": 247
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 42.06,
+          "y": 346.97
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_8-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_8-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 46.61,
+        "y": 349.04,
+        "angle": 324
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "grutts-hall-area_8-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_8-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 89.31,
+        "y": 358.1,
+        "angle": 328
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 89.31,
+          "y": 358.1
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_8-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_8-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 93.7,
+        "y": 360.49,
+        "angle": 277
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "grutts-hall-area_8-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_9-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 361.43,
+        "y": 313.72,
+        "angle": 67
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 361.43,
+          "y": 313.72
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_9-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_9-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 366.27,
+        "y": 314.96,
+        "angle": 335
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 366.27,
+          "y": 314.96
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_9-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_9-goblin-archer-3",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 408.92,
+        "y": 330.31,
+        "angle": 141
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 408.92,
+          "y": 330.31
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_9-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_9-goblin-archer-4",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 413.63,
+        "y": 331.96,
+        "angle": 335
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 413.63,
+          "y": 331.96
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_9-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_10-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 412.95,
+        "y": 269.49,
+        "angle": 61
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 412.95,
+          "y": 269.49
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_10-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_10-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 417.51,
+        "y": 271.55,
+        "angle": 80
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "grutts-hall-area_10-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_11-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 122.78,
+        "y": 239.52,
+        "angle": 112
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 122.78,
+          "y": 239.52
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_11-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_11-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 127.53,
+        "y": 241.1,
+        "angle": 90
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 127.53,
+          "y": 241.1
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_11-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_11-goblin-archer-3",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 163.25,
+        "y": 230.34,
+        "angle": 256
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 163.25,
+          "y": 230.34
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_11-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_11-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 168.07,
+        "y": 231.66,
+        "angle": 70
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "grutts-hall-area_11-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_12-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 50.37,
+        "y": 235.39,
+        "angle": 33
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 50.37,
+          "y": 235.39
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_12-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_12-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 54.92,
+        "y": 237.47,
+        "angle": 322
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 54.92,
+          "y": 237.47
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_12-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_12-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 24.72,
+        "y": 201.56,
+        "angle": 118
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 24.72,
+          "y": 201.56
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_12-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_12-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 29.69,
+        "y": 202.09,
+        "angle": 11
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 29.69,
+          "y": 202.09
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_12-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_13-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 233.24,
+        "y": 216.77,
+        "angle": 48
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 233.24,
+          "y": 216.77
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_13-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_13-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 228.44,
+        "y": 215.35,
+        "angle": 201
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 228.44,
+          "y": 215.35
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_13-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_13-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 237.67,
+        "y": 219.08,
+        "angle": 133
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 237.67,
+          "y": 219.08
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_13-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_13-goblin-archer-3",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 257.88,
+        "y": 221.11,
+        "angle": 187
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 257.88,
+          "y": 221.11
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_13-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_13-goblin-archer-4",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 253.06,
+        "y": 219.76,
+        "angle": 192
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 253.06,
+          "y": 219.76
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_13-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_13-goblin-archer-5",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 262.37,
+        "y": 223.31,
+        "angle": 230
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 262.37,
+          "y": 223.31
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_13-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_13-goblin-archer-6",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 250.79,
+        "y": 249.09,
+        "angle": 145
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 250.79,
+          "y": 249.09
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_13-g3"
+    },
+    {
+      "identifier": "grutts-hall-area_13-goblin-archer-7",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 255.79,
+        "y": 249.23,
+        "angle": 294
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 255.79,
+          "y": 249.23
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_13-g3"
+    },
+    {
+      "identifier": "grutts-hall-area_13-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 195.48,
+        "y": 228.09,
+        "angle": 99
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 195.48,
+          "y": 228.09
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_13-g4"
+    },
+    {
+      "identifier": "grutts-hall-area_13-goblin-cutter-3",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 190.74,
+        "y": 226.51,
+        "angle": 105
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "grutts-hall-area_13-g4"
+    },
+    {
+      "identifier": "grutts-hall-area_13-goblin-cutter-4",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 200.01,
+        "y": 230.21,
+        "angle": 96
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "grutts-hall-area_13-g4"
+    },
+    {
+      "identifier": "grutts-hall-area_14-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 376.96,
+        "y": 172.83,
+        "angle": 73
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 376.96,
+          "y": 172.83
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_14-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_14-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 381.62,
+        "y": 174.65,
+        "angle": 303
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 381.62,
+          "y": 174.65
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_14-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_14-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 346.04,
+        "y": 188.29,
+        "angle": 36
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 346.04,
+          "y": 188.29
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_14-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_14-goblin-archer-3",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 351.03,
+        "y": 188.61,
+        "angle": 203
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 351.03,
+          "y": 188.61
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_14-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_15-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 103.8,
+        "y": 152.87,
+        "angle": 214
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 103.8,
+          "y": 152.87
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_15-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_15-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 108.8,
+        "y": 152.89,
+        "angle": 97
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 108.8,
+          "y": 152.89
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_15-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_15-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 70.3,
+        "y": 166.67,
+        "angle": 56
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 70.3,
+          "y": 166.67
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_15-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_15-goblin-archer-3",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 74.94,
+        "y": 168.54,
+        "angle": 159
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 74.94,
+          "y": 168.54
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_15-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_16-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 232.98,
+        "y": 136.36,
+        "angle": 149
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 232.98,
+          "y": 136.36
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_16-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_16-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 228.54,
+        "y": 134.06,
+        "angle": 66
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 228.54,
+          "y": 134.06
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_16-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_16-goblin-archer-3",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 237.5,
+        "y": 138.5,
+        "angle": 320
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 237.5,
+          "y": 138.5
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_16-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_16-goblin-archer-4",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 246.89,
+        "y": 157.2,
+        "angle": 176
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 246.89,
+          "y": 157.2
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_16-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_16-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 241.91,
+        "y": 156.69,
+        "angle": 48
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 241.91,
+          "y": 156.69
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_16-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_16-goblin-archer-5",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 251.67,
+        "y": 158.66,
+        "angle": 237
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 251.67,
+          "y": 158.66
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_16-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_16-goblin-archer-6",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 256.92,
+        "y": 126.89,
+        "angle": 69
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 256.92,
+          "y": 126.89
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_16-g3"
+    },
+    {
+      "identifier": "grutts-hall-area_16-goblin-archer-7",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 261.53,
+        "y": 128.83,
+        "angle": 87
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "grutts-hall-area_16-g3"
+    },
+    {
+      "identifier": "grutts-hall-area_16-goblin-archer-8",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 229.39,
+        "y": 176.72,
+        "angle": 263
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 229.39,
+          "y": 176.72
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_16-g4"
+    },
+    {
+      "identifier": "grutts-hall-area_16-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 233.84,
+        "y": 179,
+        "angle": 89
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 233.84,
+          "y": 179
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_16-g4"
+    },
+    {
+      "identifier": "grutts-hall-area_17-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 57.91,
+        "y": 75.57,
+        "angle": 185
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 57.91,
+          "y": 75.57
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_17-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_17-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 62.31,
+        "y": 77.95,
+        "angle": 193
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 62.31,
+          "y": 77.95
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_17-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_18-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 351.57,
+        "y": 50.52,
+        "angle": 207
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 351.57,
+          "y": 50.52
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_18-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_18-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 325.28,
+        "y": 106.92,
+        "angle": 49
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 325.28,
+          "y": 106.92
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_18-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_18-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 330.2,
+        "y": 107.8,
+        "angle": 93
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 330.2,
+          "y": 107.8
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_18-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_19-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 208.1,
+        "y": 54.48,
+        "angle": 10
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 208.1,
+          "y": 54.48
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_19-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_19-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 212.97,
+        "y": 55.6,
+        "angle": 285
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 212.97,
+          "y": 55.6
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_19-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_19-goblin-cutter-3",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 240.81,
+        "y": 45.77,
+        "angle": 44
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "grutts-hall-area_19-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_20-goblin-cutter-1",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 112.22,
+        "y": 28.12,
+        "angle": 257
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 112.22,
+          "y": 28.12
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_20-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_20-goblin-archer-1",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 117.03,
+        "y": 29.47,
+        "angle": 244
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 117.03,
+          "y": 29.47
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "grutts-hall-area_20-g1"
+    },
+    {
+      "identifier": "grutts-hall-area_20-goblin-cutter-2",
+      "unitType": "goblin-cutter",
+      "position": {
+        "x": 73.79,
+        "y": 38.09,
+        "angle": 82
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "grutts-hall-area_20-g2"
+    },
+    {
+      "identifier": "grutts-hall-area_20-goblin-archer-2",
+      "unitType": "goblin-archer",
+      "position": {
+        "x": 78.39,
+        "y": 40.06,
+        "angle": 202
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "grutts-hall-area_20-g2"
+    }
+  ],
+  "ncus": [
+    {
+      "identifier": "maren-holt",
+      "name": "Maren Holt",
+      "tokenImageUrl": "../../../tokens/ncu/humans/maren-holt.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 386.25,
+        "y": 33.75,
+        "angle": 241
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "You came. I didn't think anyone would."
+          }
+        }
+      }
+    }
+  ]
 }

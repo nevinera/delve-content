@@ -12373,7 +12373,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, a dead end. Where forest becomes mire: swamp vipers, giant frogs."
+        "intent": "Meadow, a dead end. Where forest becomes mire: swamp vipers, giant frogs.",
+        "population": "density: normal\nmix: swamp-viper 2, giant-frog"
       }
     },
     {
@@ -13141,7 +13142,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, on the trail. Where forest becomes mire: swamp vipers, giant frogs."
+        "intent": "Tall grass, on the trail. Where forest becomes mire: swamp vipers, giant frogs.",
+        "population": "density: normal\nmix: swamp-viper 2, giant-frog"
       }
     },
     {
@@ -13765,7 +13767,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, a dead end. Where forest becomes mire: swamp vipers, giant frogs."
+        "intent": "Meadow, a dead end. Where forest becomes mire: swamp vipers, giant frogs.",
+        "population": "density: normal\nmix: swamp-viper 2, giant-frog"
       }
     },
     {
@@ -14405,7 +14408,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, a dead end. Where forest becomes mire: swamp vipers, giant frogs."
+        "intent": "Marsh, a dead end. Where forest becomes mire: swamp vipers, giant frogs.",
+        "population": "density: normal\nmix: swamp-viper 2, giant-frog"
       }
     },
     {
@@ -14973,7 +14977,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, on the trail. Where forest becomes mire: swamp vipers, giant frogs."
+        "intent": "Marsh, on the trail. Where forest becomes mire: swamp vipers, giant frogs.",
+        "population": "density: normal\nmix: swamp-viper 2, giant-frog"
       }
     },
     {
@@ -15512,7 +15517,8 @@
       "annotations": {
         "intent": "The expedition survivors' camp (L4), a dead end off the trail: survivor NCUs. No hostiles.",
         "ncus": "dana: Dana, an expedition survivor; gives L4.5.\nwenn: Wenn, a fevered trapper; gives S6.",
-        "quests": "L4.4 South: talk to dana."
+        "quests": "L4.4 South: talk to dana.",
+        "population": "density: none\nncu: dana \"Dana\" ../../../tokens/ncu/humans/prospector-3.webp \"You came from the outpost? Thank the stars.\"\nncu: wenn \"Wenn\" ../../../tokens/ncu/humans/trapper-1.webp \"Can't... stop shaking.\""
       }
     },
     {
@@ -15952,7 +15958,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Where forest becomes mire: swamp vipers, giant frogs."
+        "intent": "Marsh, off the trail. Where forest becomes mire: swamp vipers, giant frogs.",
+        "population": "density: normal\nmix: swamp-viper 2, giant-frog"
       }
     },
     {
@@ -16530,7 +16537,8 @@
       "name": "Herb Patches",
       "annotations": {
         "intent": "The herb patches (S6), in the tall grass: vipers among the herbs.",
-        "quests": "S6.1 Fever Herbs: interactables fever-herb-1, fever-herb-3, fever-herb-5 (\"Feverleaf\", \"Gathering\", 1s); place them here."
+        "quests": "S6.1 Fever Herbs: interactables fever-herb-1, fever-herb-3, fever-herb-5 (\"Feverleaf\", \"Gathering\", 1s); place them here.",
+        "population": "density: normal\nmix: swamp-viper"
       }
     },
     {
@@ -17266,7 +17274,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, on the trail. Where forest becomes mire: swamp vipers, giant frogs."
+        "intent": "Marsh, on the trail. Where forest becomes mire: swamp vipers, giant frogs.",
+        "population": "density: normal\nmix: swamp-viper 2, giant-frog"
       }
     },
     {
@@ -17706,7 +17715,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Where forest becomes mire: swamp vipers, giant frogs."
+        "intent": "Marsh, off the trail. Where forest becomes mire: swamp vipers, giant frogs.",
+        "population": "density: normal\nmix: swamp-viper 2, giant-frog"
       }
     },
     {
@@ -18458,7 +18468,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, on the trail. Where forest becomes mire: swamp vipers, giant frogs."
+        "intent": "Marsh, on the trail. Where forest becomes mire: swamp vipers, giant frogs.",
+        "population": "density: normal\nmix: swamp-viper 2, giant-frog"
       }
     },
     {
@@ -18843,7 +18854,8 @@
       ],
       "annotations": {
         "intent": "More herb patches (S6).",
-        "quests": "S6.1 Fever Herbs: interactables fever-herb-2, fever-herb-4 (\"Feverleaf\", \"Gathering\", 1s); place them here."
+        "quests": "S6.1 Fever Herbs: interactables fever-herb-2, fever-herb-4 (\"Feverleaf\", \"Gathering\", 1s); place them here.",
+        "population": "density: normal\nmix: swamp-viper"
       }
     },
     {
@@ -19291,7 +19303,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, on the trail. Where forest becomes mire: swamp vipers, giant frogs."
+        "intent": "Marsh, on the trail. Where forest becomes mire: swamp vipers, giant frogs.",
+        "population": "density: normal\nmix: swamp-viper 2, giant-frog"
       }
     },
     {
@@ -19891,7 +19904,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Where forest becomes mire: swamp vipers, giant frogs."
+        "intent": "Marsh, off the trail. Where forest becomes mire: swamp vipers, giant frogs.",
+        "population": "density: normal\nmix: swamp-viper 2, giant-frog"
       }
     },
     {
@@ -20659,7 +20673,8 @@
         }
       ],
       "annotations": {
-        "intent": "Meadow, on the trail. Where forest becomes mire: swamp vipers, giant frogs."
+        "intent": "Meadow, on the trail. Where forest becomes mire: swamp vipers, giant frogs.",
+        "population": "density: normal\nmix: swamp-viper 2, giant-frog"
       }
     },
     {
@@ -21147,7 +21162,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, a dead end. Where forest becomes mire: swamp vipers, giant frogs."
+        "intent": "Tall grass, a dead end. Where forest becomes mire: swamp vipers, giant frogs.",
+        "population": "density: normal\nmix: swamp-viper 2, giant-frog"
       }
     },
     {
@@ -21811,11 +21827,835 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, a dead end. Where forest becomes mire: swamp vipers, giant frogs."
+        "intent": "Marsh, a dead end. Where forest becomes mire: swamp vipers, giant frogs.",
+        "population": "density: normal\nmix: swamp-viper 2, giant-frog"
       }
     }
   ],
   "annotations": {
     "intent": "Where the forest gives way to the mire."
-  }
+  },
+  "units": [
+    {
+      "identifier": "mire-edge-area_1-giant-frog-1",
+      "unitType": "giant-frog",
+      "position": {
+        "x": 148.48,
+        "y": 465.45,
+        "angle": 125
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 148.48,
+          "y": 465.45
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_2-giant-frog-1",
+      "unitType": "giant-frog",
+      "position": {
+        "x": 322.09,
+        "y": 473.71,
+        "angle": 333
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 322.09,
+          "y": 473.71
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_2-giant-frog-2",
+      "unitType": "giant-frog",
+      "position": {
+        "x": 283.93,
+        "y": 427.16,
+        "angle": 282
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 283.93,
+          "y": 427.16
+        },
+        "radius": 4.07,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_2-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 256.57,
+        "y": 469.33,
+        "angle": 296
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 256.57,
+          "y": 469.33
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_2-giant-frog-3",
+      "unitType": "giant-frog",
+      "position": {
+        "x": 338.13,
+        "y": 440.57,
+        "angle": 187
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 338.13,
+          "y": 440.57
+        },
+        "radius": 3.04,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_3-giant-frog-1",
+      "unitType": "giant-frog",
+      "position": {
+        "x": 411.14,
+        "y": 481.82,
+        "angle": 169
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 411.14,
+          "y": 481.82
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_3-giant-frog-2",
+      "unitType": "giant-frog",
+      "position": {
+        "x": 403.05,
+        "y": 445.49,
+        "angle": 90
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 403.05,
+          "y": 445.49
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_4-giant-frog-1",
+      "unitType": "giant-frog",
+      "position": {
+        "x": 40.59,
+        "y": 415.65,
+        "angle": 20
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 40.59,
+          "y": 415.65
+        },
+        "radius": 7,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_4-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 56.83,
+        "y": 369.11,
+        "angle": 82
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 56.83,
+          "y": 369.11
+        },
+        "radius": 3.54,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_5-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 138.27,
+        "y": 306.6,
+        "angle": 158
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 138.27,
+          "y": 306.6
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_5-swamp-viper-2",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 183.42,
+        "y": 293.58,
+        "angle": 352
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "mire-edge-area_5-swamp-viper-3",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 204.31,
+        "y": 323.3,
+        "angle": 52
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "mire-edge-area_7-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 63.63,
+        "y": 306.02,
+        "angle": 192
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 63.63,
+          "y": 306.02
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_7-giant-frog-1",
+      "unitType": "giant-frog",
+      "position": {
+        "x": 79.4,
+        "y": 273.09,
+        "angle": 57
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 79.4,
+          "y": 273.09
+        },
+        "radius": 2,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_8-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 48.27,
+        "y": 251.99,
+        "angle": 305
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 48.27,
+          "y": 251.99
+        },
+        "radius": 2.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_8-swamp-viper-2",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 48.64,
+        "y": 196.34,
+        "angle": 281
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "mire-edge-area_9-giant-frog-1",
+      "unitType": "giant-frog",
+      "position": {
+        "x": 226.81,
+        "y": 230.79,
+        "angle": 311
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 226.81,
+          "y": 230.79
+        },
+        "radius": 4.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_9-giant-frog-2",
+      "unitType": "giant-frog",
+      "position": {
+        "x": 295.48,
+        "y": 278.6,
+        "angle": 105
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 295.48,
+          "y": 278.6
+        },
+        "radius": 3.04,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_9-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 260.35,
+        "y": 245.66,
+        "angle": 81
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 260.35,
+          "y": 245.66
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_10-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 98.85,
+        "y": 221.19,
+        "angle": 186
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 98.85,
+          "y": 221.19
+        },
+        "radius": 7.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_11-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 386.59,
+        "y": 188.53,
+        "angle": 193
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 386.59,
+          "y": 188.53
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_11-swamp-viper-2",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 364.3,
+        "y": 225.85,
+        "angle": 332
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 364.3,
+          "y": 225.85
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_11-swamp-viper-3",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 341.51,
+        "y": 200.87,
+        "angle": 228
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 341.51,
+          "y": 200.87
+        },
+        "radius": 2.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_12-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 61.28,
+        "y": 138.17,
+        "angle": 7
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 61.28,
+          "y": 138.17
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_13-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 354.44,
+        "y": 76.55,
+        "angle": 201
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "mire-edge-area_14-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 25.28,
+        "y": 104.3,
+        "angle": 13
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 25.28,
+          "y": 104.3
+        },
+        "radius": 2.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_14-giant-frog-1",
+      "unitType": "giant-frog",
+      "position": {
+        "x": 46.3,
+        "y": 31.55,
+        "angle": 27
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 46.3,
+          "y": 31.55
+        },
+        "radius": 3.04,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_15-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 224.52,
+        "y": 70.99,
+        "angle": 344
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 224.52,
+          "y": 70.99
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_15-swamp-viper-2",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 261.12,
+        "y": 54.67,
+        "angle": 148
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 261.12,
+          "y": 54.67
+        },
+        "radius": 5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_15-swamp-viper-3",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 271.3,
+        "y": 111.16,
+        "angle": 209
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "mire-edge-area_16-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 110.58,
+        "y": 43.58,
+        "angle": 297
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 110.58,
+          "y": 43.58
+        },
+        "radius": 4.57,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "mire-edge-area_17-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 316.01,
+        "y": 26.12,
+        "angle": 5
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 316.01,
+          "y": 26.12
+        },
+        "radius": 7.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    }
+  ],
+  "ncus": [
+    {
+      "identifier": "dana",
+      "name": "Dana",
+      "tokenImageUrl": "../../../tokens/ncu/humans/prospector-3.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 328.75,
+        "y": 333.75,
+        "angle": 250
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "You came from the outpost? Thank the stars."
+          }
+        }
+      }
+    },
+    {
+      "identifier": "wenn",
+      "name": "Wenn",
+      "tokenImageUrl": "../../../tokens/ncu/humans/trapper-1.webp",
+      "tokenRadius": 2,
+      "position": {
+        "x": 336.25,
+        "y": 338.75,
+        "angle": 7
+      },
+      "movement": {
+        "type": "still"
+      },
+      "dialogue": {
+        "entry": [
+          {
+            "node": "greeting"
+          }
+        ],
+        "nodes": {
+          "greeting": {
+            "text": "Can't... stop shaking."
+          }
+        }
+      }
+    }
+  ]
 }

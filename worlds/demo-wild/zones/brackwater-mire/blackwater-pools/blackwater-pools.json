@@ -12962,7 +12962,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+        "intent": "Marsh, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers.",
+        "population": "density: normal\nmix: swamp-crocodile 2, swamp-viper"
       }
     },
     {
@@ -13652,7 +13653,8 @@
       "name": "The Deep Pool",
       "annotations": {
         "intent": "The deep pool (S8), a dead end.",
-        "quests": "S8.1 The Sunken Idol: interactables sunken-idol (\"Sunken Idol\", \"Lifting\", 3s); place them here.\nS9.1 Taken Fishers: kill swamp-crocodile x5 (across area_2, area_14)."
+        "quests": "S8.1 The Sunken Idol: interactables sunken-idol (\"Sunken Idol\", \"Lifting\", 3s); place them here.\nS9.1 Taken Fishers: kill swamp-crocodile x5 (across area_2, area_14).",
+        "population": "density: sparse\nmix: swamp-crocodile"
       }
     },
     {
@@ -14276,7 +14278,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, a dead end. Deep, dark pools: swamp crocodiles, swamp vipers."
+        "intent": "Marsh, a dead end. Deep, dark pools: swamp crocodiles, swamp vipers.",
+        "population": "density: normal\nmix: swamp-crocodile 2, swamp-viper"
       }
     },
     {
@@ -14932,7 +14935,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+        "intent": "Tall grass, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers.",
+        "population": "density: normal\nmix: swamp-crocodile 2, swamp-viper"
       }
     },
     {
@@ -15308,7 +15312,8 @@
         }
       ],
       "annotations": {
-        "intent": "Tall grass, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+        "intent": "Tall grass, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers.",
+        "population": "density: normal\nmix: swamp-crocodile 2, swamp-viper"
       }
     },
     {
@@ -15852,7 +15857,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+        "intent": "Marsh, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers.",
+        "population": "density: normal\nmix: swamp-crocodile 2, swamp-viper"
       }
     },
     {
@@ -16540,7 +16546,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+        "intent": "Marsh, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers.",
+        "population": "density: normal\nmix: swamp-crocodile 2, swamp-viper"
       }
     },
     {
@@ -17132,7 +17139,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, on the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+        "intent": "Marsh, on the trail. Deep, dark pools: swamp crocodiles, swamp vipers.",
+        "population": "density: normal\nmix: swamp-crocodile 2, swamp-viper"
       }
     },
     {
@@ -17740,7 +17748,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, on the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+        "intent": "Marsh, on the trail. Deep, dark pools: swamp crocodiles, swamp vipers.",
+        "population": "density: normal\nmix: swamp-crocodile 2, swamp-viper"
       }
     },
     {
@@ -18359,7 +18368,8 @@
       "annotations": {
         "intent": "The Old Croc's wallow (S9), a dead end: the Old Croc alone.",
         "quests": "S9.2 The Old Croc: kill old-croc.",
-        "boss": "old-croc (S9.2 The Old Croc)."
+        "boss": "old-croc (S9.2 The Old Croc).",
+        "population": "density: none\nboss: old-croc wander 8"
       }
     },
     {
@@ -18935,7 +18945,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+        "intent": "Marsh, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers.",
+        "population": "density: normal\nmix: swamp-crocodile 2, swamp-viper"
       }
     },
     {
@@ -19463,7 +19474,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, a dead end. Deep, dark pools: swamp crocodiles, swamp vipers."
+        "intent": "Marsh, a dead end. Deep, dark pools: swamp crocodiles, swamp vipers.",
+        "population": "density: normal\nmix: swamp-crocodile 2, swamp-viper"
       }
     },
     {
@@ -20055,7 +20067,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, on the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+        "intent": "Marsh, on the trail. Deep, dark pools: swamp crocodiles, swamp vipers.",
+        "population": "density: normal\nmix: swamp-crocodile 2, swamp-viper"
       }
     },
     {
@@ -20801,7 +20814,8 @@
       "name": "Flooded Cave Mouth",
       "annotations": {
         "intent": "The flooded cave mouth into the Gnawdeep (L4).",
-        "quests": "L4.6 The Flooded Way: kill swamp-crocodile x4.\nS9.1 Taken Fishers: kill swamp-crocodile x5 (across area_2, area_14)."
+        "quests": "L4.6 The Flooded Way: kill swamp-crocodile x4.\nS9.1 Taken Fishers: kill swamp-crocodile x5 (across area_2, area_14).",
+        "population": "density: normal\nmix: swamp-crocodile"
       }
     },
     {
@@ -21369,7 +21383,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+        "intent": "Marsh, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers.",
+        "population": "density: normal\nmix: swamp-crocodile 2, swamp-viper"
       }
     },
     {
@@ -22225,7 +22240,8 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, on the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+        "intent": "Marsh, on the trail. Deep, dark pools: swamp crocodiles, swamp vipers.",
+        "population": "density: normal\nmix: swamp-crocodile 2, swamp-viper"
       }
     },
     {
@@ -22833,11 +22849,821 @@
         }
       ],
       "annotations": {
-        "intent": "Marsh, a dead end. Deep, dark pools: swamp crocodiles, swamp vipers."
+        "intent": "Marsh, a dead end. Deep, dark pools: swamp crocodiles, swamp vipers.",
+        "population": "density: normal\nmix: swamp-crocodile 2, swamp-viper"
       }
     }
   ],
   "annotations": {
     "intent": "Deep, dark pools: the croc's wallow (S9), the sunken idol (S8), the flooded cave entrance (L4)."
-  }
+  },
+  "units": [
+    {
+      "identifier": "blackwater-pools-area_1-swamp-crocodile-1",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 61.07,
+        "y": 438.6,
+        "angle": 105
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 61.07,
+          "y": 438.6
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_1-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 43.66,
+        "y": 391.31,
+        "angle": 43
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 43.66,
+          "y": 391.31
+        },
+        "radius": 7.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_1-swamp-crocodile-2",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 102.81,
+        "y": 456.43,
+        "angle": 224
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_2-swamp-crocodile-1",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 158.09,
+        "y": 457.02,
+        "angle": 263
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 158.09,
+          "y": 457.02
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_3-swamp-crocodile-1",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 435.64,
+        "y": 453.07,
+        "angle": 345
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 435.64,
+          "y": 453.07
+        },
+        "radius": 8.61,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_3-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 455.41,
+        "y": 481.55,
+        "angle": 194
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_4-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 303.69,
+        "y": 441.36,
+        "angle": 163
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 303.69,
+          "y": 441.36
+        },
+        "radius": 7.07,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_4-swamp-viper-2",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 343.88,
+        "y": 432.09,
+        "angle": 109
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 343.88,
+          "y": 432.09
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_4-swamp-viper-3",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 386.1,
+        "y": 458.75,
+        "angle": 217
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_5-swamp-crocodile-1",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 83.51,
+        "y": 382.07,
+        "angle": 65
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 83.51,
+          "y": 382.07
+        },
+        "radius": 2.57,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_6-swamp-crocodile-1",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 198.92,
+        "y": 282.79,
+        "angle": 173
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_6-swamp-crocodile-2",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 248.39,
+        "y": 364.17,
+        "angle": 213
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_7-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 371.71,
+        "y": 313.27,
+        "angle": 204
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 371.71,
+          "y": 313.27
+        },
+        "radius": 7.07,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_7-swamp-crocodile-1",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 325.53,
+        "y": 301.74,
+        "angle": 340
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 325.53,
+          "y": 301.74
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_7-swamp-crocodile-2",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 320.45,
+        "y": 340.62,
+        "angle": 276
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 320.45,
+          "y": 340.62
+        },
+        "radius": 8,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_8-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 54.29,
+        "y": 325.48,
+        "angle": 174
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 54.29,
+          "y": 325.48
+        },
+        "radius": 7.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_8-swamp-viper-2",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 40.72,
+        "y": 249.66,
+        "angle": 4
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_8-swamp-viper-3",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 36.22,
+        "y": 283.29,
+        "angle": 314
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 36.22,
+          "y": 283.29
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_9-swamp-crocodile-1",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 145.26,
+        "y": 250.42,
+        "angle": 123
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 145.26,
+          "y": 250.42
+        },
+        "radius": 4.04,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_9-swamp-crocodile-2",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 145.53,
+        "y": 288.84,
+        "angle": 82
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_10-old-croc-1",
+      "unitType": "old-croc",
+      "position": {
+        "x": 378.75,
+        "y": 218.75,
+        "angle": 359
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 378.75,
+          "y": 218.75
+        },
+        "radius": 8,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_11-swamp-crocodile-1",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 27.06,
+        "y": 189.13,
+        "angle": 186
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 27.06,
+          "y": 189.13
+        },
+        "radius": 8,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_11-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 66.2,
+        "y": 191.25,
+        "angle": 176
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 66.2,
+          "y": 191.25
+        },
+        "radius": 7.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_12-swamp-crocodile-1",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 156.43,
+        "y": 166.94,
+        "angle": 249
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 156.43,
+          "y": 166.94
+        },
+        "radius": 7.57,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_12-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 178.91,
+        "y": 133.13,
+        "angle": 101
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 178.91,
+          "y": 133.13
+        },
+        "radius": 2.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_13-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 310.91,
+        "y": 119.04,
+        "angle": 129
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 310.91,
+          "y": 119.04
+        },
+        "radius": 7.07,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_13-swamp-crocodile-1",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 270.5,
+        "y": 123.04,
+        "angle": 244
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_13-swamp-crocodile-2",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 286.62,
+        "y": 163.87,
+        "angle": 179
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 286.62,
+          "y": 163.87
+        },
+        "radius": 6.54,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_14-swamp-crocodile-1",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 441.71,
+        "y": 118.56,
+        "angle": 337
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 441.71,
+          "y": 118.56
+        },
+        "radius": 9.64,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_14-swamp-crocodile-2",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 459.51,
+        "y": 89.29,
+        "angle": 254
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_15-swamp-crocodile-1",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 51.79,
+        "y": 37.84,
+        "angle": 190
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 51.79,
+          "y": 37.84
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_15-swamp-crocodile-2",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 51.52,
+        "y": 81.62,
+        "angle": 324
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 51.52,
+          "y": 81.62
+        },
+        "radius": 6.54,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_16-swamp-crocodile-1",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 305.72,
+        "y": 26.03,
+        "angle": 218
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 305.72,
+          "y": 26.03
+        },
+        "radius": 5.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_16-swamp-viper-1",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 368.3,
+        "y": 27.12,
+        "angle": 26
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 368.3,
+          "y": 27.12
+        },
+        "radius": 7.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_16-swamp-crocodile-2",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 341.82,
+        "y": 63.23,
+        "angle": 254
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "blackwater-pools-area_17-swamp-crocodile-1",
+      "unitType": "swamp-crocodile",
+      "position": {
+        "x": 154.19,
+        "y": 34.47,
+        "angle": 162
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 154.19,
+          "y": 34.47
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    }
+  ],
+  "ncus": []
 }

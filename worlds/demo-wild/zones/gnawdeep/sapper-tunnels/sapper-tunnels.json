@@ -15561,7 +15561,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, a dead end. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Gravel, a dead end. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     },
     {
@@ -16473,7 +16474,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, a dead end. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Gravel, a dead end. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     },
     {
@@ -16913,7 +16915,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Gravel, off the trail. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     },
     {
@@ -17305,7 +17308,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     },
     {
@@ -17737,7 +17741,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Gravel, off the trail. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     },
     {
@@ -18273,7 +18278,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     },
     {
@@ -18947,7 +18953,8 @@
       "name": "Sapper Camp",
       "annotations": {
         "intent": "The sapper camp (S10), a dead end: sappers off shift.",
-        "quests": "S10.1 Sapper's Charges: interactables sapper-charge-1, sapper-charge-2, sapper-charge-3 (\"Sapper's Charge\", \"Taking\", 0s); place them here."
+        "quests": "S10.1 Sapper's Charges: interactables sapper-charge-1, sapper-charge-2, sapper-charge-3 (\"Sapper's Charge\", \"Taking\", 0s); place them here.",
+        "population": "density: dense\nmix: goblin-sapper\ngroups: 2-3"
       }
     },
     {
@@ -19387,7 +19394,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     },
     {
@@ -20323,7 +20331,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Puddles, off the trail. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     },
     {
@@ -20787,7 +20796,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     },
     {
@@ -21219,7 +21229,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     },
     {
@@ -21707,7 +21718,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     },
     {
@@ -22147,7 +22159,8 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Gravel, off the trail. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     },
     {
@@ -22675,7 +22688,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     },
     {
@@ -23435,7 +23449,8 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, on the trail. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Floor, on the trail. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     },
     {
@@ -24197,7 +24212,8 @@
       "name": "New Tunnels",
       "annotations": {
         "intent": "The newest tunnels (L3), still being dug: sappers at work.",
-        "quests": "L3.2 Sapper Tunnels: kill goblin-sapper x8.\nL3.3 Collapse Them: interactables tunnel-prop-1, tunnel-prop-2, tunnel-prop-3, tunnel-prop-4 (\"Tunnel Prop\", \"Knocking out\", 3s); place them here.\nS10.2 Seal the Tunnel: interactables tunnel-face (\"Tunnel Face\", \"Setting the charges\", 3s); place them here."
+        "quests": "L3.2 Sapper Tunnels: kill goblin-sapper x8.\nL3.3 Collapse Them: interactables tunnel-prop-1, tunnel-prop-2, tunnel-prop-3, tunnel-prop-4 (\"Tunnel Prop\", \"Knocking out\", 3s); place them here.\nS10.2 Seal the Tunnel: interactables tunnel-face (\"Tunnel Face\", \"Setting the charges\", 3s); place them here.",
+        "population": "density: dense\nmix: goblin-sapper\ngroups: 1-2"
       }
     },
     {
@@ -24789,7 +24805,8 @@
         }
       ],
       "annotations": {
-        "intent": "Puddles, on the trail. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Puddles, on the trail. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     },
     {
@@ -25325,11 +25342,1321 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+        "intent": "Gravel, off the trail. Half-dug tunnels: goblin sappers, cave spiders.",
+        "population": "density: normal\nmix: goblin-sapper 2, cave-spider"
       }
     }
   ],
   "annotations": {
     "intent": "Narrow tunnels the sappers are digging toward the surface (L3, S10)."
-  }
+  },
+  "units": [
+    {
+      "identifier": "sapper-tunnels-area_1-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 79.05,
+        "y": 441.23,
+        "angle": 135
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_1-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 103.49,
+        "y": 477.06,
+        "angle": 250
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 103.49,
+          "y": 477.06
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_1-goblin-sapper-2",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 35.62,
+        "y": 420.85,
+        "angle": 358
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_2-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 348.7,
+        "y": 428.33,
+        "angle": 320
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_2-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 313.17,
+        "y": 431.14,
+        "angle": 284
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 313.17,
+          "y": 431.14
+        },
+        "radius": 4.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_4-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 34.42,
+        "y": 368.96,
+        "angle": 204
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 34.42,
+          "y": 368.96
+        },
+        "radius": 9,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_5-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 124.04,
+        "y": 381.74,
+        "angle": 213
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 124.04,
+          "y": 381.74
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_5-goblin-sapper-2",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 74.12,
+        "y": 396.51,
+        "angle": 146
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_6-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 293.37,
+        "y": 375.34,
+        "angle": 337
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 293.37,
+          "y": 375.34
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_7-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 345.77,
+        "y": 348.03,
+        "angle": 196
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 345.77,
+          "y": 348.03
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_7-g1"
+    },
+    {
+      "identifier": "sapper-tunnels-area_7-goblin-sapper-2",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 341.27,
+        "y": 345.86,
+        "angle": 235
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 341.27,
+          "y": 345.86
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_7-g1"
+    },
+    {
+      "identifier": "sapper-tunnels-area_7-goblin-sapper-3",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 350.42,
+        "y": 349.87,
+        "angle": 45
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 350.42,
+          "y": 349.87
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_7-g1"
+    },
+    {
+      "identifier": "sapper-tunnels-area_7-goblin-sapper-4",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 379.51,
+        "y": 304.44,
+        "angle": 27
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 379.51,
+          "y": 304.44
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_7-g2"
+    },
+    {
+      "identifier": "sapper-tunnels-area_7-goblin-sapper-5",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 384.16,
+        "y": 306.29,
+        "angle": 267
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 384.16,
+          "y": 306.29
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_7-g2"
+    },
+    {
+      "identifier": "sapper-tunnels-area_7-goblin-sapper-6",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 405.5,
+        "y": 281.98,
+        "angle": 320
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 405.5,
+          "y": 281.98
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_7-g3"
+    },
+    {
+      "identifier": "sapper-tunnels-area_7-goblin-sapper-7",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 410.07,
+        "y": 284,
+        "angle": 139
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 410.07,
+          "y": 284
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_7-g3"
+    },
+    {
+      "identifier": "sapper-tunnels-area_7-goblin-sapper-8",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 400.28,
+        "y": 252.17,
+        "angle": 98
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "sapper-tunnels-area_7-g4"
+    },
+    {
+      "identifier": "sapper-tunnels-area_7-goblin-sapper-9",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 405.2,
+        "y": 253.05,
+        "angle": 217
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 405.2,
+          "y": 253.05
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_7-g4"
+    },
+    {
+      "identifier": "sapper-tunnels-area_7-goblin-sapper-10",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 393.38,
+        "y": 339.17,
+        "angle": 38
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 393.38,
+          "y": 339.17
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_7-g5"
+    },
+    {
+      "identifier": "sapper-tunnels-area_7-goblin-sapper-11",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 398.34,
+        "y": 339.79,
+        "angle": 77
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 398.34,
+          "y": 339.79
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_7-g5"
+    },
+    {
+      "identifier": "sapper-tunnels-area_7-goblin-sapper-12",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 408.42,
+        "y": 319.31,
+        "angle": 143
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 408.42,
+          "y": 319.31
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_7-g6"
+    },
+    {
+      "identifier": "sapper-tunnels-area_7-goblin-sapper-13",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 403.87,
+        "y": 317.25,
+        "angle": 29
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 403.87,
+          "y": 317.25
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_7-g6"
+    },
+    {
+      "identifier": "sapper-tunnels-area_7-goblin-sapper-14",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 412.97,
+        "y": 321.38,
+        "angle": 216
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 412.97,
+          "y": 321.38
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_7-g6"
+    },
+    {
+      "identifier": "sapper-tunnels-area_7-goblin-sapper-15",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 415.32,
+        "y": 354.11,
+        "angle": 171
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "sapper-tunnels-area_7-g7"
+    },
+    {
+      "identifier": "sapper-tunnels-area_8-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 38.49,
+        "y": 315.28,
+        "angle": 180
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 38.49,
+          "y": 315.28
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_9-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 114.13,
+        "y": 207.08,
+        "angle": 186
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 114.13,
+          "y": 207.08
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_9-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 118.88,
+        "y": 273.29,
+        "angle": 269
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 118.88,
+          "y": 273.29
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_9-goblin-sapper-2",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 23.8,
+        "y": 150.63,
+        "angle": 40
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 23.8,
+          "y": 150.63
+        },
+        "radius": 5.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_9-goblin-sapper-3",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 93.67,
+        "y": 328.85,
+        "angle": 5
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_10-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 161.91,
+        "y": 253.92,
+        "angle": 9
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 161.91,
+          "y": 253.92
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_10-cave-spider-2",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 205.49,
+        "y": 250.82,
+        "angle": 140
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_10-cave-spider-3",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 149.51,
+        "y": 221.87,
+        "angle": 141
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 149.51,
+          "y": 221.87
+        },
+        "radius": 2.54,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_11-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 246.84,
+        "y": 261.45,
+        "angle": 144
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_12-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 350.49,
+        "y": 216.23,
+        "angle": 287
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 350.49,
+          "y": 216.23
+        },
+        "radius": 5.79,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_12-goblin-sapper-2",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 396.39,
+        "y": 180.59,
+        "angle": 34
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_13-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 90.68,
+        "y": 119,
+        "angle": 171
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 90.68,
+          "y": 119
+        },
+        "radius": 4.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_13-goblin-sapper-2",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 135.58,
+        "y": 110.86,
+        "angle": 125
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 135.58,
+          "y": 110.86
+        },
+        "radius": 4.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_13-goblin-sapper-3",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 48.59,
+        "y": 114.02,
+        "angle": 341
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_14-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 184.72,
+        "y": 143.54,
+        "angle": 34
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 184.72,
+          "y": 143.54
+        },
+        "radius": 9.61,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_14-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 206.88,
+        "y": 107.76,
+        "angle": 88
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_14-goblin-sapper-2",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 243.86,
+        "y": 75.34,
+        "angle": 254
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 243.86,
+          "y": 75.34
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_14-goblin-sapper-3",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 154.03,
+        "y": 160.65,
+        "angle": 5
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 154.03,
+          "y": 160.65
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_15-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 393.83,
+        "y": 119.17,
+        "angle": 215
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 393.83,
+          "y": 119.17
+        },
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_15-goblin-sapper-2",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 362.19,
+        "y": 130.33,
+        "angle": 332
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 362.19,
+          "y": 130.33
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_15-goblin-sapper-3",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 411.83,
+        "y": 82.92,
+        "angle": 159
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 411.83,
+          "y": 82.92
+        },
+        "radius": 4.75,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_15-goblin-sapper-4",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 370.31,
+        "y": 89.21,
+        "angle": 57
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 370.31,
+          "y": 89.21
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_16-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 18.13,
+        "y": 47.8,
+        "angle": 156
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_16-goblin-sapper-2",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 48.93,
+        "y": 49.21,
+        "angle": 202
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_16-goblin-sapper-3",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 95.69,
+        "y": 39.41,
+        "angle": 241
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 95.69,
+          "y": 39.41
+        },
+        "radius": 4.32,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_16-goblin-sapper-4",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 20.49,
+        "y": 104.58,
+        "angle": 202
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 20.49,
+          "y": 104.58
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_16-g1"
+    },
+    {
+      "identifier": "sapper-tunnels-area_16-goblin-sapper-5",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 25.04,
+        "y": 106.67,
+        "angle": 123
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 25.04,
+          "y": 106.67
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_16-g1"
+    },
+    {
+      "identifier": "sapper-tunnels-area_16-goblin-sapper-6",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 146.48,
+        "y": 29.06,
+        "angle": 220
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_16-goblin-sapper-7",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 56.62,
+        "y": 72.97,
+        "angle": 218
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_16-goblin-sapper-8",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 28.4,
+        "y": 21.88,
+        "angle": 229
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 28.4,
+          "y": 21.88
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_16-g2"
+    },
+    {
+      "identifier": "sapper-tunnels-area_16-goblin-sapper-9",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 33.33,
+        "y": 22.66,
+        "angle": 318
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 33.33,
+          "y": 22.66
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "sapper-tunnels-area_16-g2"
+    },
+    {
+      "identifier": "sapper-tunnels-area_17-cave-spider-1",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 308,
+        "y": 57.08,
+        "angle": 252
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_17-cave-spider-2",
+      "unitType": "cave-spider",
+      "position": {
+        "x": 352.25,
+        "y": 34.27,
+        "angle": 20
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 352.25,
+          "y": 34.27
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "sapper-tunnels-area_18-goblin-sapper-1",
+      "unitType": "goblin-sapper",
+      "position": {
+        "x": 229.54,
+        "y": 38.22,
+        "angle": 259
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 229.54,
+          "y": 38.22
+        },
+        "radius": 6.82,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    }
+  ],
+  "ncus": []
 }
