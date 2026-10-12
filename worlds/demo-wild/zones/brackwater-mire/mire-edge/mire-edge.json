@@ -22657,5 +22657,87 @@
         }
       }
     }
+  ],
+  "interactables": [
+    {
+      "identifier": "fever-herb-1",
+      "name": "Feverleaf",
+      "imageUrl": "../../../graphics/interactables/fever-herb.png",
+      "size": {
+        "width": 2,
+        "height": 2
+      },
+      "position": {
+        "x": 26.3,
+        "y": 206.3,
+        "angle": 0
+      },
+      "useTime": 1,
+      "useText": "Gathering"
+    },
+    {
+      "identifier": "fever-herb-3",
+      "name": "Feverleaf",
+      "imageUrl": "../../../graphics/interactables/fever-herb.png",
+      "size": {
+        "width": 2,
+        "height": 2
+      },
+      "position": {
+        "x": 56.3,
+        "y": 236.3,
+        "angle": 47
+      },
+      "useTime": 1,
+      "useText": "Gathering"
+    },
+    {
+      "identifier": "fever-herb-5",
+      "name": "Feverleaf",
+      "imageUrl": "../../../graphics/interactables/fever-herb.png",
+      "size": {
+        "width": 2,
+        "height": 2
+      },
+      "position": {
+        "x": 31.3,
+        "y": 271.3,
+        "angle": 94
+      },
+      "useTime": 1,
+      "useText": "Gathering"
+    },
+    {
+      "identifier": "fever-herb-2",
+      "name": "Feverleaf",
+      "imageUrl": "../../../graphics/interactables/fever-herb.png",
+      "size": {
+        "width": 2,
+        "height": 2
+      },
+      "position": {
+        "x": 48.8,
+        "y": 106.3,
+        "angle": 0
+      },
+      "useTime": 1,
+      "useText": "Gathering"
+    },
+    {
+      "identifier": "fever-herb-4",
+      "name": "Feverleaf",
+      "imageUrl": "../../../graphics/interactables/fever-herb.png",
+      "size": {
+        "width": 2,
+        "height": 2
+      },
+      "position": {
+        "x": 71.3,
+        "y": 138.8,
+        "angle": 47
+      },
+      "useTime": 1,
+      "useText": "Gathering"
+    }
   ]
 }

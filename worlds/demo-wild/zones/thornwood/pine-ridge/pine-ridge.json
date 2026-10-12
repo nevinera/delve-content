@@ -21511,5 +21511,103 @@
       }
     }
   ],
-  "ncus": []
+  "ncus": [],
+  "interactables": [
+    {
+      "identifier": "expedition-gear-1",
+      "name": "Expedition Gear",
+      "imageUrl": "../../../graphics/interactables/expedition-gear.png",
+      "size": {
+        "width": 3,
+        "height": 3
+      },
+      "position": {
+        "x": 416.3,
+        "y": 23.8,
+        "angle": 0
+      },
+      "useTime": 1,
+      "useText": "Searching"
+    },
+    {
+      "identifier": "expedition-gear-2",
+      "name": "Expedition Gear",
+      "imageUrl": "../../../graphics/interactables/expedition-gear.png",
+      "size": {
+        "width": 3,
+        "height": 3
+      },
+      "position": {
+        "x": 446.3,
+        "y": 36.3,
+        "angle": 47
+      },
+      "useTime": 1,
+      "useText": "Searching"
+    },
+    {
+      "identifier": "expedition-gear-3",
+      "name": "Expedition Gear",
+      "imageUrl": "../../../graphics/interactables/expedition-gear.png",
+      "size": {
+        "width": 3,
+        "height": 3
+      },
+      "position": {
+        "x": 386.3,
+        "y": 43.8,
+        "angle": 94
+      },
+      "useTime": 1,
+      "useText": "Searching"
+    },
+    {
+      "identifier": "camp-clue-1",
+      "name": "Abandoned Gear",
+      "imageUrl": "../../../graphics/interactables/camp-clue.png",
+      "size": {
+        "width": 3,
+        "height": 3
+      },
+      "position": {
+        "x": 241.3,
+        "y": 431.3,
+        "angle": 0
+      },
+      "useTime": 1,
+      "useText": "Searching"
+    },
+    {
+      "identifier": "camp-clue-2",
+      "name": "Abandoned Gear",
+      "imageUrl": "../../../graphics/interactables/camp-clue.png",
+      "size": {
+        "width": 3,
+        "height": 3
+      },
+      "position": {
+        "x": 201.3,
+        "y": 443.8,
+        "angle": 47
+      },
+      "useTime": 1,
+      "useText": "Searching"
+    },
+    {
+      "identifier": "camp-clue-3",
+      "name": "Abandoned Gear",
+      "imageUrl": "../../../graphics/interactables/camp-clue.png",
+      "size": {
+        "width": 3,
+        "height": 3
+      },
+      "position": {
+        "x": 183.8,
+        "y": 453.8,
+        "angle": 94
+      },
+      "useTime": 1,
+      "useText": "Searching"
+    }
+  ]
 }

@@ -26603,5 +26603,55 @@
       }
     }
   ],
-  "ncus": []
+  "ncus": [],
+  "interactables": [
+    {
+      "identifier": "panther-kill-1",
+      "name": "Panther Kill",
+      "imageUrl": "../../../graphics/interactables/panther-kill.png",
+      "size": {
+        "width": 4,
+        "height": 3
+      },
+      "position": {
+        "x": 328.8,
+        "y": 423.8,
+        "angle": 0
+      },
+      "useTime": 1,
+      "useText": "Examining"
+    },
+    {
+      "identifier": "panther-kill-2",
+      "name": "Panther Kill",
+      "imageUrl": "../../../graphics/interactables/panther-kill.png",
+      "size": {
+        "width": 4,
+        "height": 3
+      },
+      "position": {
+        "x": 303.8,
+        "y": 413.8,
+        "angle": 47
+      },
+      "useTime": 1,
+      "useText": "Examining"
+    },
+    {
+      "identifier": "panther-kill-3",
+      "name": "Panther Kill",
+      "imageUrl": "../../../graphics/interactables/panther-kill.png",
+      "size": {
+        "width": 4,
+        "height": 3
+      },
+      "position": {
+        "x": 326.3,
+        "y": 446.3,
+        "angle": 94
+      },
+      "useTime": 1,
+      "useText": "Examining"
+    }
+  ]
 }

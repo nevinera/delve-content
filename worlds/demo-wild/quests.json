@@ -1,0 +1,2074 @@
+[
+  {
+    "identifier": "l1-cut-the-snares",
+    "name": "Cut the Snares",
+    "chainIdentifier": "demo-l1",
+    "chainName": "The Ranger's Watch",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "offerText": "What are the goblins doing up there?",
+    "description": "They're snaring wolves in the hills. Cut every snare you find.",
+    "marker": true,
+    "completionText": "Fewer wolves for their riders, then.",
+    "requiresFlags": [
+      "quest/completed/l1-something-behind-them"
+    ],
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Cut 6 Goblin Snares",
+        "zone": "thornwood",
+        "map": "the-hills",
+        "interactables": [
+          "goblin-snare-1",
+          "goblin-snare-2",
+          "goblin-snare-3",
+          "goblin-snare-4",
+          "goblin-snare-5",
+          "goblin-snare-6"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "l1-first-in",
+    "name": "First In",
+    "chainIdentifier": "demo-l1",
+    "chainName": "The Ranger's Watch",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "scout-arlo"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "scout-arlo"
+    },
+    "offerText": "What's down here?",
+    "description": "The goblins keep their worgs penned just inside. Kill them before they're turned loose on the forest.",
+    "marker": true,
+    "completionText": "The pens are quiet. Hale will want to hear it.",
+    "requiresFlags": [
+      "quest/completed/l1-the-mouth"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 6 Worgs in Wolf Pens",
+        "zone": "gnawdeep",
+        "map": "forest-mouth",
+        "unitType": "worg",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "identifier": "l1-new-at-the-outpost",
+    "name": "New at the Outpost",
+    "chainIdentifier": "demo-l1",
+    "chainName": "The Ranger's Watch",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "quartermaster-ives"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "offerText": "I'm new here. Where do I start?",
+    "description": "Ranger Hale runs the outpost. Find Hale by the stockade; there's always work.",
+    "marker": true,
+    "completionText": "Ives sent you? Good. I can use the help.",
+    "objectives": [
+      {
+        "type": "talk",
+        "text": "Talk to Ranger Hale",
+        "zone": "thornwood",
+        "ncu": "ranger-hale"
+      }
+    ]
+  },
+  {
+    "identifier": "l1-something-behind-them",
+    "name": "Something Behind Them",
+    "chainIdentifier": "demo-l1",
+    "chainName": "The Ranger's Watch",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "offerText": "What's in the hills?",
+    "description": "Go up into the hills and see what's driving the beasts. Watch for goblin sneaks; they've been seen.",
+    "marker": true,
+    "completionText": "Goblins. I was afraid of that.",
+    "requiresFlags": [
+      "quest/completed/l1-the-boar-run"
+    ],
+    "objectives": [
+      {
+        "type": "reach",
+        "text": "Reach The Hills",
+        "zone": "thornwood",
+        "map": "the-hills"
+      },
+      {
+        "type": "kill",
+        "text": "Kill 5 Goblin Sneaks in The Hills",
+        "zone": "thornwood",
+        "map": "the-hills",
+        "unitType": "goblin-sneak",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "identifier": "l1-the-boar-run",
+    "name": "The Boar Run",
+    "chainIdentifier": "demo-l1",
+    "chainName": "The Ranger's Watch",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "offerText": "What about the boars?",
+    "description": "The boars are stampeding toward the woodcutters' camp. Cull the herd on the boar run before they trample someone.",
+    "marker": true,
+    "completionText": "The woodcutters will sleep better.",
+    "requiresFlags": [
+      "quest/completed/l1-tracks"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 8 Boars in Boar Run",
+        "zone": "thornwood",
+        "map": "woodcutters-clearing",
+        "unitType": "boar",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "identifier": "l1-the-cub",
+    "name": "The Cub",
+    "chainIdentifier": "demo-l1",
+    "chainName": "The Ranger's Watch",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "offerText": "Did they take any cubs?",
+    "description": "The riders keep wolf cubs penned in the hills, to break them young. Open the cages and let them go.",
+    "marker": true,
+    "completionText": "Free, and back to their packs. Well done.",
+    "requiresFlags": [
+      "quest/completed/l1-wolfriders"
+    ],
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Open 3 Cub Cages",
+        "zone": "thornwood",
+        "map": "the-hills",
+        "interactables": [
+          "cub-cage-1",
+          "cub-cage-2",
+          "cub-cage-3"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "l1-the-mouth",
+    "name": "The Mouth",
+    "chainIdentifier": "demo-l1",
+    "chainName": "The Ranger's Watch",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "scout-arlo"
+    },
+    "offerText": "Where do the riders go?",
+    "description": "Follow them to the cave mouth at the top of the hills. My scout Arlo is camped just inside. Find him.",
+    "marker": true,
+    "completionText": "Hale sent you? Then you're with me.",
+    "requiresFlags": [
+      "quest/completed/l1-the-cub"
+    ],
+    "objectives": [
+      {
+        "type": "reach",
+        "text": "Reach Forest Mouth",
+        "zone": "gnawdeep",
+        "map": "forest-mouth"
+      }
+    ]
+  },
+  {
+    "identifier": "l1-too-close",
+    "name": "Too Close",
+    "chainIdentifier": "demo-l1",
+    "chainName": "The Ranger's Watch",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "offerText": "Anything I can do?",
+    "description": "Wolves have been coming up the north track, bold as dogs. Thin them out before someone gets bitten.",
+    "marker": true,
+    "completionText": "That'll keep them off the track. For now.",
+    "requiresFlags": [
+      "quest/completed/l1-new-at-the-outpost"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 6 Wolves in North Track",
+        "zone": "thornwood",
+        "map": "ranger-outpost",
+        "unitType": "wolf",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "identifier": "l1-tracks",
+    "name": "Tracks",
+    "chainIdentifier": "demo-l1",
+    "chainName": "The Ranger's Watch",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "offerText": "Where are the wolves coming from?",
+    "description": "Read the tracks along the boar run, by the woodcutters. I want to know which way they're coming from.",
+    "marker": true,
+    "completionText": "From the hills, all of them. Something's pushing them down.",
+    "requiresFlags": [
+      "quest/completed/l1-too-close"
+    ],
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Read 3 Wolf Tracks",
+        "zone": "thornwood",
+        "map": "woodcutters-clearing",
+        "interactables": [
+          "wolf-tracks-1",
+          "wolf-tracks-2",
+          "wolf-tracks-3"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "l1-wolfriders",
+    "name": "Wolfriders",
+    "chainIdentifier": "demo-l1",
+    "chainName": "The Ranger's Watch",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "offerText": "Riders?",
+    "description": "Goblins riding captured wolves patrol the hills. Bring their numbers down.",
+    "marker": true,
+    "completionText": "That should slow their patrols.",
+    "requiresFlags": [
+      "quest/completed/l1-cut-the-snares"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 5 Goblin Wolfriders in Wolfrider Run",
+        "zone": "thornwood",
+        "map": "the-hills",
+        "unitType": "goblin-wolfrider",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "identifier": "l2-blackscale-raiders",
+    "name": "Blackscale Raiders",
+    "chainIdentifier": "demo-l2",
+    "chainName": "Scales and Smoke",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "kesh"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "kesh"
+    },
+    "offerText": "Are the raiders still there?",
+    "description": "Blackscale warriors still prowl the nesting grounds. Drive them off.",
+    "marker": true,
+    "completionText": "The nests are ours again.",
+    "requiresFlags": [
+      "quest/completed/l2-burned-nests"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 8 Blackscale Warriors in Burned Nests",
+        "zone": "brackwater-mire",
+        "map": "nesting-grounds",
+        "unitType": "blackscale-warrior",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "identifier": "l2-burned-nests",
+    "name": "Burned Nests",
+    "chainIdentifier": "demo-l2",
+    "chainName": "Scales and Smoke",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "elder-sesh"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "elder-sesh"
+    },
+    "offerText": "Who burned your nests?",
+    "description": "Search the burned nests at the nesting grounds. Tell me what you find among the ashes.",
+    "marker": true,
+    "completionText": "Blackscale spears. As I feared.",
+    "requiresFlags": [
+      "quest/completed/l2-prove-it"
+    ],
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Search 4 Burned Nests",
+        "zone": "brackwater-mire",
+        "map": "nesting-grounds",
+        "interactables": [
+          "burned-nest-1",
+          "burned-nest-2",
+          "burned-nest-3",
+          "burned-nest-4"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "l2-captives",
+    "name": "Captives",
+    "chainIdentifier": "demo-l2",
+    "chainName": "Scales and Smoke",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "kesh"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "kesh"
+    },
+    "offerText": "Did they take anyone?",
+    "description": "They hold our people in pens behind their east camp. Open the pens.",
+    "marker": true,
+    "completionText": "They're home. All of them. Thank you.",
+    "requiresFlags": [
+      "quest/completed/l2-their-totems"
+    ],
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Open 4 Captive Pens",
+        "zone": "brackwater-mire",
+        "map": "blackscale-marsh",
+        "interactables": [
+          "captive-pen-1",
+          "captive-pen-2",
+          "captive-pen-3",
+          "captive-pen-4"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "l2-into-blackscale-land",
+    "name": "Into Blackscale Land",
+    "chainIdentifier": "demo-l2",
+    "chainName": "Scales and Smoke",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "elder-sesh"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "elder-sesh"
+    },
+    "offerText": "How do we reach the war-shaman?",
+    "description": "Their village is beyond the marsh. Break the warriors at its heart.",
+    "marker": true,
+    "completionText": "Their village reels. Now the shaman.",
+    "requiresFlags": [
+      "quest/completed/l2-the-war-shaman"
+    ],
+    "objectives": [
+      {
+        "type": "reach",
+        "text": "Reach Blackscale Village",
+        "zone": "brackwater-mire",
+        "map": "blackscale-village"
+      },
+      {
+        "type": "kill",
+        "text": "Kill 8 Blackscale Warriors in Blackscale Village",
+        "zone": "brackwater-mire",
+        "map": "blackscale-village",
+        "unitType": "blackscale-warrior",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "identifier": "l2-prove-it",
+    "name": "Prove It",
+    "chainIdentifier": "demo-l2",
+    "chainName": "Scales and Smoke",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "kesh"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "kesh"
+    },
+    "offerText": "What needs hunting?",
+    "description": "Vipers on the south path and frogs at the nesting grounds. Clear them and I'll believe you can hold a spear.",
+    "marker": true,
+    "completionText": "Good. You hunt like one of us. Almost.",
+    "requiresFlags": [
+      "quest/completed/l2-wary-welcome"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 4 Swamp Vipers in Reedtalker Village",
+        "zone": "brackwater-mire",
+        "map": "reedtalker-village",
+        "unitType": "swamp-viper",
+        "count": 4
+      },
+      {
+        "type": "kill",
+        "text": "Kill 4 Giant Frogs in Nesting Grounds",
+        "zone": "brackwater-mire",
+        "map": "nesting-grounds",
+        "unitType": "giant-frog",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "identifier": "l2-smoke-ends",
+    "name": "Smoke Ends",
+    "chainIdentifier": "demo-l2",
+    "chainName": "Scales and Smoke",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "elder-sesh"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "elder-sesh"
+    },
+    "offerText": "Where is the war-shaman?",
+    "description": "In the hut at the far end of their village. End this.",
+    "marker": true,
+    "completionText": "The smoke ends. You have a home among us, human.",
+    "requiresFlags": [
+      "quest/completed/l2-into-blackscale-land"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill Blackscale War-Shaman",
+        "zone": "brackwater-mire",
+        "map": "blackscale-village",
+        "unit": "blackscale-village-area_20-blackscale-war-shaman-1"
+      }
+    ]
+  },
+  {
+    "identifier": "l2-smoke-over-the-mire",
+    "name": "Smoke over the Mire",
+    "chainIdentifier": "demo-l2",
+    "chainName": "Scales and Smoke",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "odile"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "elder-sesh"
+    },
+    "offerText": "What's that smoke to the south?",
+    "description": "Smoke over the mire, three days now. The lizardfolk there, the Reedtalkers, keep to themselves. Go and see what's burning.",
+    "marker": true,
+    "completionText": "A human. You came about the smoke? Then sit.",
+    "objectives": [
+      {
+        "type": "reach",
+        "text": "Reach Reedtalker Village",
+        "zone": "brackwater-mire",
+        "map": "reedtalker-village"
+      }
+    ]
+  },
+  {
+    "identifier": "l2-the-war-shaman",
+    "name": "The War-Shaman",
+    "chainIdentifier": "demo-l2",
+    "chainName": "Scales and Smoke",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "kesh"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "elder-sesh"
+    },
+    "offerText": "Who leads them?",
+    "description": "Someone gives the Blackscales orders. Their hunters in the raider camps will know. Make them pay for knowing.",
+    "marker": true,
+    "completionText": "A war-shaman, then. In their village.",
+    "requiresFlags": [
+      "quest/completed/l2-captives"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 6 Blackscale Hunters in East Raider Camp",
+        "zone": "brackwater-mire",
+        "map": "blackscale-marsh",
+        "unitType": "blackscale-hunter",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "identifier": "l2-their-totems",
+    "name": "Their Totems",
+    "chainIdentifier": "demo-l2",
+    "chainName": "Scales and Smoke",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "elder-sesh"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "elder-sesh"
+    },
+    "offerText": "What rallies them?",
+    "description": "War-totems on the trail into their marsh, tended by a shaman. Topple the totems and kill the shaman who keeps them.",
+    "marker": true,
+    "completionText": "Without their totems, their courage will waver.",
+    "requiresFlags": [
+      "quest/completed/l2-blackscale-raiders"
+    ],
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Topple 3 War-Totems",
+        "zone": "brackwater-mire",
+        "map": "blackscale-marsh",
+        "interactables": [
+          "war-totem-1",
+          "war-totem-2",
+          "war-totem-3"
+        ]
+      },
+      {
+        "type": "kill",
+        "text": "Kill Blackscale Shaman",
+        "zone": "brackwater-mire",
+        "map": "blackscale-marsh",
+        "unit": "blackscale-marsh-area_8-blackscale-shaman-1"
+      }
+    ]
+  },
+  {
+    "identifier": "l2-wary-welcome",
+    "name": "Wary Welcome",
+    "chainIdentifier": "demo-l2",
+    "chainName": "Scales and Smoke",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "elder-sesh"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "kesh"
+    },
+    "offerText": "How can I help your people?",
+    "description": "Words are cheap. Speak with Kesh, our hunter. If Kesh will work with you, so will I.",
+    "marker": true,
+    "completionText": "Sesh sent you to me? Then let's see you hunt.",
+    "requiresFlags": [
+      "quest/completed/l2-smoke-over-the-mire"
+    ],
+    "objectives": [
+      {
+        "type": "talk",
+        "text": "Talk to Kesh",
+        "zone": "brackwater-mire",
+        "ncu": "kesh"
+      }
+    ]
+  },
+  {
+    "identifier": "l3-break-the-gathering",
+    "name": "Break the Gathering",
+    "chainIdentifier": "demo-l3",
+    "chainName": "The Gnawdeep",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "offerText": "Can we break the gathering?",
+    "description": "Smash their war drums and cut down their warriors. No drums, no gathering.",
+    "marker": true,
+    "completionText": "The halls are in chaos. Good.",
+    "requiresFlags": [
+      "quest/completed/l3-war-drums"
+    ],
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Smash 3 War Drums",
+        "zone": "gnawdeep",
+        "map": "drum-halls",
+        "interactables": [
+          "war-drum-1",
+          "war-drum-2",
+          "war-drum-3"
+        ]
+      },
+      {
+        "type": "kill",
+        "text": "Kill 8 Goblin Cutters in Drum Hall",
+        "zone": "gnawdeep",
+        "map": "drum-halls",
+        "unitType": "goblin-cutter",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "identifier": "l3-collapse-them",
+    "name": "Collapse Them",
+    "chainIdentifier": "demo-l3",
+    "chainName": "The Gnawdeep",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "scout-arlo"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "offerText": "How do we close the tunnels?",
+    "description": "Knock out the props in the new tunnels and let the rock do the rest. Then report to Captain Rhys, past the fungus deeps.",
+    "marker": true,
+    "completionText": "Arlo's work? Good. I can use you.",
+    "requiresFlags": [
+      "quest/completed/l3-sapper-tunnels"
+    ],
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Knock out 4 Tunnel Props",
+        "zone": "gnawdeep",
+        "map": "sapper-tunnels",
+        "interactables": [
+          "tunnel-prop-1",
+          "tunnel-prop-2",
+          "tunnel-prop-3",
+          "tunnel-prop-4"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "l3-deeper",
+    "name": "Deeper",
+    "chainIdentifier": "demo-l3",
+    "chainName": "The Gnawdeep",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "scout-arlo"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "scout-arlo"
+    },
+    "offerText": "What's past the pens?",
+    "description": "The goblins are digging somewhere below. Go deeper, into the tunnels, and see.",
+    "marker": true,
+    "completionText": "Sapper tunnels. Toward the surface.",
+    "requiresFlags": [
+      "quest/completed/l1-first-in"
+    ],
+    "objectives": [
+      {
+        "type": "reach",
+        "text": "Reach Sapper Tunnels",
+        "zone": "gnawdeep",
+        "map": "sapper-tunnels"
+      }
+    ]
+  },
+  {
+    "identifier": "l3-grutts-hall",
+    "name": "Grutt's Hall",
+    "chainIdentifier": "demo-l3",
+    "chainName": "The Gnawdeep",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "offerText": "Where's Grutt?",
+    "description": "Warboss Grutt's hall lies past the drum halls. Find the way in.",
+    "marker": true,
+    "completionText": "His hall. Guarded, of course.",
+    "requiresFlags": [
+      "quest/completed/l3-the-wolf-master"
+    ],
+    "objectives": [
+      {
+        "type": "reach",
+        "text": "Reach Grutts Hall",
+        "zone": "gnawdeep",
+        "map": "grutts-hall"
+      }
+    ]
+  },
+  {
+    "identifier": "l3-guards",
+    "name": "Guards",
+    "chainIdentifier": "demo-l3",
+    "chainName": "The Gnawdeep",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "offerText": "How many guards?",
+    "description": "Too many. Thin out Grutt's archers and cutters.",
+    "marker": true,
+    "completionText": "The way to Grutt is open.",
+    "requiresFlags": [
+      "quest/completed/l3-grutts-hall"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 6 Goblin Archers in Guards' Approach",
+        "zone": "gnawdeep",
+        "map": "grutts-hall",
+        "unitType": "goblin-archer",
+        "count": 6
+      },
+      {
+        "type": "kill",
+        "text": "Kill 6 Goblin Cutters in Guards' Approach",
+        "zone": "gnawdeep",
+        "map": "grutts-hall",
+        "unitType": "goblin-cutter",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "identifier": "l3-mushroom-farms",
+    "name": "Mushroom Farms",
+    "chainIdentifier": "demo-l3",
+    "chainName": "The Gnawdeep",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "offerText": "How do the goblins eat down here?",
+    "description": "Their mushroom farms feed the whole warband. Burn the beds.",
+    "marker": true,
+    "completionText": "Hungry goblins fight worse.",
+    "requiresFlags": [
+      "quest/completed/l3-the-hexer"
+    ],
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Burn 5 Mushroom Beds",
+        "zone": "gnawdeep",
+        "map": "fungus-deeps",
+        "interactables": [
+          "mushroom-bed-1",
+          "mushroom-bed-2",
+          "mushroom-bed-3",
+          "mushroom-bed-4",
+          "mushroom-bed-5"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "l3-sapper-tunnels",
+    "name": "Sapper Tunnels",
+    "chainIdentifier": "demo-l3",
+    "chainName": "The Gnawdeep",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "scout-arlo"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "scout-arlo"
+    },
+    "offerText": "Can we stop the digging?",
+    "description": "Sappers are digging new tunnels toward the forest. Kill them while they're at it.",
+    "marker": true,
+    "completionText": "That'll slow the digging.",
+    "requiresFlags": [
+      "quest/completed/l3-deeper"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 8 Goblin Sappers in New Tunnels",
+        "zone": "gnawdeep",
+        "map": "sapper-tunnels",
+        "unitType": "goblin-sapper",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "identifier": "l3-the-goblin-king",
+    "name": "The Goblin King",
+    "chainIdentifier": "demo-l3",
+    "chainName": "The Gnawdeep",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "offerText": "Who gave Grutt his orders?",
+    "description": "The Goblin King, in his hall below. Go down and end it.",
+    "marker": true,
+    "completionText": "The King is dead. The caves are ours to clear.",
+    "requiresFlags": [
+      "quest/completed/l3-the-sealed-stair"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill The Goblin King",
+        "zone": "hall-of-the-goblin-king",
+        "map": "goblin-kings-hall",
+        "unit": "goblin-kings-hall-area_4-goblin-king-1"
+      }
+    ]
+  },
+  {
+    "identifier": "l3-the-hexer",
+    "name": "The Hexer",
+    "chainIdentifier": "demo-l3",
+    "chainName": "The Gnawdeep",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "offerText": "What's cursing these tunnels?",
+    "description": "A goblin hexer named Nagg curses every step we take. Nagg dens in the fungus deeps. Kill the hexer.",
+    "marker": true,
+    "completionText": "The air feels lighter already.",
+    "requiresFlags": [
+      "quest/completed/l3-collapse-them"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill Nagg the Hexer",
+        "zone": "gnawdeep",
+        "map": "fungus-deeps",
+        "unit": "fungus-deeps-area_14-hexer-nagg-1"
+      }
+    ]
+  },
+  {
+    "identifier": "l3-the-sealed-stair",
+    "name": "The Sealed Stair",
+    "chainIdentifier": "demo-l3",
+    "chainName": "The Gnawdeep",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "offerText": "What's below?",
+    "description": "A sealed stair behind Grutt's throne. Break the seal.",
+    "marker": true,
+    "completionText": "The way down is open. Whatever's down there...",
+    "requiresFlags": [
+      "quest/completed/l3-warboss-grutt"
+    ],
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Break the Sealed Stair",
+        "zone": "gnawdeep",
+        "map": "grutts-hall",
+        "interactables": [
+          "stair-seal"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "l3-the-shamans-fire",
+    "name": "The Shaman's Fire",
+    "chainIdentifier": "demo-l3",
+    "chainName": "The Gnawdeep",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "offerText": "Who's the shaman?",
+    "description": "Brazza, Keeper of the Fire, blesses their raids. Put out that fire for good.",
+    "marker": true,
+    "completionText": "Their blessings are ash.",
+    "requiresFlags": [
+      "quest/completed/l3-mushroom-farms"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill Brazza, Keeper of the Fire",
+        "zone": "gnawdeep",
+        "map": "fungus-deeps",
+        "unit": "fungus-deeps-area_7-shaman-brazza-1"
+      }
+    ]
+  },
+  {
+    "identifier": "l3-the-wolf-master",
+    "name": "The Wolf-Master",
+    "chainIdentifier": "demo-l3",
+    "chainName": "The Gnawdeep",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "offerText": "Who leads the wolfriders?",
+    "description": "The wolf-master holds the drum hall's floor. Kill the wolf-master and the riders scatter.",
+    "marker": true,
+    "completionText": "No more riders in the hills.",
+    "requiresFlags": [
+      "quest/completed/l3-break-the-gathering"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill The Wolf-Master",
+        "zone": "gnawdeep",
+        "map": "drum-halls",
+        "unit": "drum-halls-area_2-wolf-master-1"
+      }
+    ]
+  },
+  {
+    "identifier": "l3-war-drums",
+    "name": "War Drums",
+    "chainIdentifier": "demo-l3",
+    "chainName": "The Gnawdeep",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "offerText": "What are those drums?",
+    "description": "The tribes are gathering at the drum halls. Go and look.",
+    "marker": true,
+    "completionText": "All the tribes, in one hall. Grutt's doing.",
+    "requiresFlags": [
+      "quest/completed/l3-the-shamans-fire"
+    ],
+    "objectives": [
+      {
+        "type": "reach",
+        "text": "Reach Drum Halls",
+        "zone": "gnawdeep",
+        "map": "drum-halls"
+      }
+    ]
+  },
+  {
+    "identifier": "l3-warboss-grutt",
+    "name": "Warboss Grutt",
+    "chainIdentifier": "demo-l3",
+    "chainName": "The Gnawdeep",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "offerText": "Can we end Grutt?",
+    "description": "Kill Warboss Grutt on his throne. End his war.",
+    "marker": true,
+    "completionText": "Grutt's dead. But these orders... they came from below.",
+    "requiresFlags": [
+      "quest/completed/l3-guards"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill Warboss Grutt",
+        "zone": "gnawdeep",
+        "map": "grutts-hall",
+        "unit": "grutts-hall-area_2-warboss-grutt-1"
+      }
+    ]
+  },
+  {
+    "identifier": "l4-in",
+    "name": "In",
+    "chainIdentifier": "demo-l4",
+    "chainName": "The Lost Expedition",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "cole"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "mags"
+    },
+    "offerText": "Is anyone still in the caves?",
+    "description": "Mags was with Maren. Go in through the flooded caves and find her.",
+    "marker": true,
+    "completionText": "Water's cold. Goblins are colder. But you found me.",
+    "requiresFlags": [
+      "quest/completed/l4-the-flooded-way"
+    ],
+    "objectives": [
+      {
+        "type": "reach",
+        "text": "Reach Flooded Caves",
+        "zone": "gnawdeep",
+        "map": "flooded-caves"
+      },
+      {
+        "type": "talk",
+        "text": "Talk to Mags",
+        "zone": "gnawdeep",
+        "ncu": "mags"
+      }
+    ]
+  },
+  {
+    "identifier": "l4-maren-holt",
+    "name": "Maren Holt",
+    "chainIdentifier": "demo-l4",
+    "chainName": "The Lost Expedition",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "mags"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "maren-holt"
+    },
+    "offerText": "Where's Maren?",
+    "description": "Maren Holt is held in Grutt's hall. Force the cell door.",
+    "marker": true,
+    "completionText": "You came. I didn't think anyone would.",
+    "requiresFlags": [
+      "quest/completed/l4-the-silver-seam"
+    ],
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Force the Cell Door",
+        "zone": "gnawdeep",
+        "map": "grutts-hall",
+        "interactables": [
+          "holt-cell-door"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "l4-overdue",
+    "name": "Overdue",
+    "chainIdentifier": "demo-l4",
+    "chainName": "The Lost Expedition",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "quartermaster-ives"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "quartermaster-ives"
+    },
+    "offerText": "Anything on the board?",
+    "description": "A prospecting expedition went north for silver and never came back. Search their camp on the pine ridge.",
+    "marker": true,
+    "completionText": "Abandoned in a hurry. They went into the hills.",
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Search 3 Expedition Gear",
+        "zone": "thornwood",
+        "map": "pine-ridge",
+        "interactables": [
+          "expedition-gear-1",
+          "expedition-gear-2",
+          "expedition-gear-3"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "l4-reedtalker-rescue",
+    "name": "Reedtalker Rescue",
+    "chainIdentifier": "demo-l4",
+    "chainName": "The Lost Expedition",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "dana"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "cole"
+    },
+    "offerText": "Did everyone make it?",
+    "description": "Cole was hurt. The Reedtalkers took him in. Find him in their village.",
+    "marker": true,
+    "completionText": "They took me in. I owe them.",
+    "requiresFlags": [
+      "quest/completed/l4-south"
+    ],
+    "objectives": [
+      {
+        "type": "talk",
+        "text": "Talk to Cole",
+        "zone": "brackwater-mire",
+        "ncu": "cole"
+      }
+    ]
+  },
+  {
+    "identifier": "l4-south",
+    "name": "South",
+    "chainIdentifier": "demo-l4",
+    "chainName": "The Lost Expedition",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "pike"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "dana"
+    },
+    "offerText": "Where did the others go?",
+    "description": "Dana led the ones who went south. Find Dana in the mire.",
+    "marker": true,
+    "completionText": "You came from the outpost? Thank the stars.",
+    "requiresFlags": [
+      "quest/completed/l4-split-up"
+    ],
+    "objectives": [
+      {
+        "type": "talk",
+        "text": "Talk to Dana",
+        "zone": "brackwater-mire",
+        "ncu": "dana"
+      }
+    ]
+  },
+  {
+    "identifier": "l4-split-up",
+    "name": "Split Up",
+    "chainIdentifier": "demo-l4",
+    "chainName": "The Lost Expedition",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "pike"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "pike"
+    },
+    "offerText": "What happened to the expedition?",
+    "description": "Goblins hunted us. They're still hunting me. Kill the sneaks near my hide and I'll tell you everything.",
+    "marker": true,
+    "completionText": "We split up. Half went south to the mire, half went into the caves.",
+    "requiresFlags": [
+      "quest/completed/l4-the-first-survivor"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 5 Goblin Sneaks in The Hills",
+        "zone": "thornwood",
+        "map": "the-hills",
+        "unitType": "goblin-sneak",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "identifier": "l4-the-first-survivor",
+    "name": "The First Survivor",
+    "chainIdentifier": "demo-l4",
+    "chainName": "The Lost Expedition",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "quartermaster-ives"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "pike"
+    },
+    "offerText": "Any survivors?",
+    "description": "Someone's been lighting small fires in the hills, south and west. Find whoever it is.",
+    "marker": true,
+    "completionText": "You're from the outpost? Keep your voice down.",
+    "requiresFlags": [
+      "quest/completed/l4-overdue"
+    ],
+    "objectives": [
+      {
+        "type": "talk",
+        "text": "Talk to Pike",
+        "zone": "thornwood",
+        "ncu": "pike"
+      }
+    ]
+  },
+  {
+    "identifier": "l4-the-flooded-way",
+    "name": "The Flooded Way",
+    "chainIdentifier": "demo-l4",
+    "chainName": "The Lost Expedition",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "cole"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "cole"
+    },
+    "offerText": "Where did the rest go in?",
+    "description": "Through the flooded cave mouth at the blackwater pools. Crocodiles hunt there; clear them.",
+    "marker": true,
+    "completionText": "The way in is clear.",
+    "requiresFlags": [
+      "quest/completed/l4-reedtalker-rescue"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 4 Swamp Crocodiles in Flooded Cave Mouth",
+        "zone": "brackwater-mire",
+        "map": "blackwater-pools",
+        "unitType": "swamp-crocodile",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "identifier": "l4-the-silver-seam",
+    "name": "The Silver Seam",
+    "chainIdentifier": "demo-l4",
+    "chainName": "The Lost Expedition",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "mags"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "mags"
+    },
+    "offerText": "Did you find the silver?",
+    "description": "We found it, and it's why the goblins came. Chip samples from the silver seam; Ives will want proof.",
+    "marker": true,
+    "completionText": "Proof. The expedition wasn't for nothing.",
+    "requiresFlags": [
+      "quest/completed/l4-in"
+    ],
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Chip 3 Silver Veins",
+        "zone": "gnawdeep",
+        "map": "silver-seam",
+        "interactables": [
+          "silver-sample-1",
+          "silver-sample-2",
+          "silver-sample-3"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "s1-wolves-at-the-woodpile",
+    "name": "Wolves at the Woodpile",
+    "chainIdentifier": "demo-s1",
+    "chainName": "Wolves at the Woodpile",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "bram"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "bram"
+    },
+    "offerText": "Need a hand?",
+    "description": "Wolves keep coming into camp after the scraps. Drive them off.",
+    "marker": true,
+    "completionText": "Back to work, then.",
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 6 Wolves in Woodcutters' Camp",
+        "zone": "thornwood",
+        "map": "woodcutters-clearing",
+        "unitType": "wolf",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "identifier": "s10-sappers-charges",
+    "name": "Sapper's Charges",
+    "chainIdentifier": "demo-s10",
+    "chainName": "Sapper's Charges",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "scout-arlo"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "scout-arlo"
+    },
+    "offerText": "What are those charges?",
+    "description": "The sappers' blasting charges. Steal some from their camp.",
+    "marker": true,
+    "completionText": "Good. Now let's use them.",
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Take 3 Sapper's Charges",
+        "zone": "gnawdeep",
+        "map": "sapper-tunnels",
+        "interactables": [
+          "sapper-charge-1",
+          "sapper-charge-2",
+          "sapper-charge-3"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "s10-seal-the-tunnel",
+    "name": "Seal the Tunnel",
+    "chainIdentifier": "demo-s10",
+    "chainName": "Sapper's Charges",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "scout-arlo"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "scout-arlo"
+    },
+    "offerText": "Use them how?",
+    "description": "Set them at the face of the new tunnel and bring it down.",
+    "marker": true,
+    "completionText": "That tunnel won't reach the forest.",
+    "requiresFlags": [
+      "quest/completed/s10-sappers-charges"
+    ],
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Set the charges at the Tunnel Face",
+        "zone": "gnawdeep",
+        "map": "sapper-tunnels",
+        "interactables": [
+          "tunnel-face"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "s11-the-lost-lantern",
+    "name": "The Lost Lantern",
+    "chainIdentifier": "demo-s11",
+    "chainName": "Glowworm Grotto",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "mags"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "mags"
+    },
+    "offerText": "What did you lose?",
+    "description": "My lantern, in the glowworm grotto. It was Maren's. Please.",
+    "marker": true,
+    "completionText": "Maren's lantern. Thank you.",
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Take the Lantern",
+        "zone": "gnawdeep",
+        "map": "flooded-caves",
+        "interactables": [
+          "survivors-lantern"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "s12-hexed-totems",
+    "name": "Hexed Totems",
+    "chainIdentifier": "demo-s12",
+    "chainName": "Hexer's Totems",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "offerText": "A hex?",
+    "description": "Three hexed totems in the drum hall spread it. Break them.",
+    "marker": true,
+    "completionText": "The air clears.",
+    "requiresFlags": [
+      "quest/completed/s12-sick-tunnels"
+    ],
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Break 3 Hexed Totems",
+        "zone": "gnawdeep",
+        "map": "drum-halls",
+        "interactables": [
+          "hexed-totem-1",
+          "hexed-totem-2",
+          "hexed-totem-3"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "s12-sick-tunnels",
+    "name": "Sick Tunnels",
+    "chainIdentifier": "demo-s12",
+    "chainName": "Hexer's Totems",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "offerText": "What's wrong with the spiders?",
+    "description": "Something's sickened the spiders by the farms. Kill the sick ones before it spreads.",
+    "marker": true,
+    "completionText": "Their sickness... it's a hex.",
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 6 Cave Spiders in Mushroom Farms",
+        "zone": "gnawdeep",
+        "map": "fungus-deeps",
+        "unitType": "cave-spider",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "identifier": "s12-the-apprentice",
+    "name": "The Apprentice",
+    "chainIdentifier": "demo-s12",
+    "chainName": "Hexer's Totems",
+    "offeredBy": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "turnIn": {
+      "zone": "gnawdeep",
+      "ncu": "captain-rhys"
+    },
+    "offerText": "Who set the totems?",
+    "description": "Nagg's apprentices, in the hexer's den. Kill them.",
+    "marker": true,
+    "completionText": "No more hexes in these tunnels.",
+    "requiresFlags": [
+      "quest/completed/s12-hexed-totems"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 3 Goblin Hexers in Hexer's Den",
+        "zone": "gnawdeep",
+        "map": "fungus-deeps",
+        "unitType": "goblin-hexer",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "identifier": "s2-lost-snares",
+    "name": "Lost Snares",
+    "chainIdentifier": "demo-s2",
+    "chainName": "Lost Snares",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "odile"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "odile"
+    },
+    "offerText": "Lost something?",
+    "description": "My snares in the tall grass by the camp. Collect them before the beasts tear them up.",
+    "marker": true,
+    "completionText": "All of them? Good.",
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Collect 4 Trapper's Snares",
+        "zone": "thornwood",
+        "map": "southern-eaves",
+        "interactables": [
+          "trapper-snare-1",
+          "trapper-snare-2",
+          "trapper-snare-3",
+          "trapper-snare-4"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "s2-whats-caught",
+    "name": "What's Caught",
+    "chainIdentifier": "demo-s2",
+    "chainName": "Lost Snares",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "odile"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "odile"
+    },
+    "offerText": "Anything caught?",
+    "description": "Plenty, and angry about it. Deal with what's thrashing in the snare lines.",
+    "marker": true,
+    "completionText": "Safe to walk the lines again.",
+    "requiresFlags": [
+      "quest/completed/s2-lost-snares"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 3 Boars in Snare Lines",
+        "zone": "thornwood",
+        "map": "southern-eaves",
+        "unitType": "boar",
+        "count": 3
+      },
+      {
+        "type": "kill",
+        "text": "Kill 3 Wolves in Snare Lines",
+        "zone": "thornwood",
+        "map": "southern-eaves",
+        "unitType": "wolf",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "identifier": "s3-stalked",
+    "name": "Stalked",
+    "chainIdentifier": "demo-s3",
+    "chainName": "The Black Panther",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "ranger-sela"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "ranger-sela"
+    },
+    "offerText": "What's hunting the camps?",
+    "description": "Something big takes deer near the boggy hollow. Look at the kills and tell me what did it.",
+    "marker": true,
+    "completionText": "A black panther. I knew it.",
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Examine 3 Panther Kills",
+        "zone": "thornwood",
+        "map": "old-growth",
+        "interactables": [
+          "panther-kill-1",
+          "panther-kill-2",
+          "panther-kill-3"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "s3-the-black-panther",
+    "name": "The Black Panther",
+    "chainIdentifier": "demo-s3",
+    "chainName": "The Black Panther",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "ranger-sela"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "ranger-sela"
+    },
+    "offerText": "Can it be stopped?",
+    "description": "Hunt the black panther in its den, before it hunts us.",
+    "marker": true,
+    "completionText": "The camps can breathe again.",
+    "requiresFlags": [
+      "quest/completed/s3-stalked"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill The Black Panther",
+        "zone": "thornwood",
+        "map": "old-growth",
+        "unit": "old-growth-area_10-black-panther-1"
+      }
+    ]
+  },
+  {
+    "identifier": "s4-the-woodcutters-axe",
+    "name": "The Woodcutter's Axe",
+    "chainIdentifier": "demo-s4",
+    "chainName": "The Woodcutter's Axe",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "bram"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "bram"
+    },
+    "offerText": "Lost something?",
+    "description": "My axe! I dropped it running from a bear. It's in the bear's den now, with the bear.",
+    "marker": true,
+    "completionText": "My axe! Bless you.",
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill Black Bear",
+        "zone": "thornwood",
+        "map": "woodcutters-clearing",
+        "unit": "woodcutters-clearing-area_11-black-bear-1"
+      },
+      {
+        "type": "use",
+        "text": "Take the Woodcutter's Axe",
+        "zone": "thornwood",
+        "map": "woodcutters-clearing",
+        "interactables": [
+          "woodcutters-axe"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "s5-the-abandoned-camp",
+    "name": "The Abandoned Camp",
+    "chainIdentifier": "demo-s5",
+    "chainName": "Smoke on the Ridge",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "nell"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "nell"
+    },
+    "offerText": "Smoke on the ridge?",
+    "description": "There's an abandoned camp up on the pine ridge. Search it and see who left it.",
+    "marker": true,
+    "completionText": "Ranger gear. Hale should see this.",
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Search 3 Abandoned Gear",
+        "zone": "thornwood",
+        "map": "pine-ridge",
+        "interactables": [
+          "camp-clue-1",
+          "camp-clue-2",
+          "camp-clue-3"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "s5-whats-there-now",
+    "name": "What's There Now",
+    "chainIdentifier": "demo-s5",
+    "chainName": "Smoke on the Ridge",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "offerText": "What's up there now?",
+    "description": "Dire wolves den in it now. Clear them out.",
+    "marker": true,
+    "completionText": "Rest easy, old friends.",
+    "requiresFlags": [
+      "quest/completed/s5-who-left-it"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 5 Dire Wolves in Abandoned Camp",
+        "zone": "thornwood",
+        "map": "pine-ridge",
+        "unitType": "dire-wolf",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "identifier": "s5-who-left-it",
+    "name": "Who Left It",
+    "chainIdentifier": "demo-s5",
+    "chainName": "Smoke on the Ridge",
+    "offeredBy": {
+      "zone": "thornwood",
+      "ncu": "nell"
+    },
+    "turnIn": {
+      "zone": "thornwood",
+      "ncu": "ranger-hale"
+    },
+    "offerText": "Who left that camp?",
+    "description": "Bring what you found to Ranger Hale.",
+    "marker": true,
+    "completionText": "My old patrol's camp. They never came back.",
+    "requiresFlags": [
+      "quest/completed/s5-the-abandoned-camp"
+    ],
+    "objectives": [
+      {
+        "type": "talk",
+        "text": "Talk to Ranger Hale",
+        "zone": "thornwood",
+        "ncu": "ranger-hale"
+      }
+    ]
+  },
+  {
+    "identifier": "s6-a-reedtalker-cure",
+    "name": "A Reedtalker Cure",
+    "chainIdentifier": "demo-s6",
+    "chainName": "Fever Herbs",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "wenn"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "wenn"
+    },
+    "offerText": "Is there a cure?",
+    "description": "The Reedtalkers' healer, Sura, knows a cure. Ask Sura.",
+    "marker": true,
+    "completionText": "I can stand again. Thank you.",
+    "requiresFlags": [
+      "quest/completed/s6-fever-herbs"
+    ],
+    "objectives": [
+      {
+        "type": "talk",
+        "text": "Talk to Sura",
+        "zone": "brackwater-mire",
+        "ncu": "sura"
+      }
+    ]
+  },
+  {
+    "identifier": "s6-fever-herbs",
+    "name": "Fever Herbs",
+    "chainIdentifier": "demo-s6",
+    "chainName": "Fever Herbs",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "wenn"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "wenn"
+    },
+    "offerText": "Can I help?",
+    "description": "Fever... feverleaf, in the herb patches. Please.",
+    "marker": true,
+    "completionText": "That's... better. A little.",
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Gather 5 Feverleaf",
+        "zone": "brackwater-mire",
+        "map": "mire-edge",
+        "interactables": [
+          "fever-herb-1",
+          "fever-herb-2",
+          "fever-herb-3",
+          "fever-herb-4",
+          "fever-herb-5"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "s7-keep-them-off",
+    "name": "Keep Them Off",
+    "chainIdentifier": "demo-s7",
+    "chainName": "Reedtalker Eggs",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "mossback"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "mossback"
+    },
+    "offerText": "Will they come back?",
+    "description": "They will. Thin out the frogs at their nests.",
+    "marker": true,
+    "completionText": "Let them try now.",
+    "requiresFlags": [
+      "quest/completed/s7-stolen-eggs"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 8 Giant Frogs in Frog Nests",
+        "zone": "brackwater-mire",
+        "map": "nesting-grounds",
+        "unitType": "giant-frog",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "identifier": "s7-stolen-eggs",
+    "name": "Stolen Eggs",
+    "chainIdentifier": "demo-s7",
+    "chainName": "Reedtalker Eggs",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "mossback"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "mossback"
+    },
+    "offerText": "What's wrong?",
+    "description": "The frogs took our eggs to their nests. Bring the clutches back.",
+    "marker": true,
+    "completionText": "The eggs, safe. Safe.",
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Gather 4 Reedtalker Eggs",
+        "zone": "brackwater-mire",
+        "map": "nesting-grounds",
+        "interactables": [
+          "egg-clutch-1",
+          "egg-clutch-2",
+          "egg-clutch-3",
+          "egg-clutch-4"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "s8-the-sunken-idol",
+    "name": "The Sunken Idol",
+    "chainIdentifier": "demo-s8",
+    "chainName": "The Sunken Idol",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "sura"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "sura"
+    },
+    "offerText": "What idol?",
+    "description": "Our idol was lost in the deep pool. Lift it out.",
+    "marker": true,
+    "completionText": "The idol watches again.",
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Lift the Sunken Idol",
+        "zone": "brackwater-mire",
+        "map": "blackwater-pools",
+        "interactables": [
+          "sunken-idol"
+        ]
+      }
+    ]
+  },
+  {
+    "identifier": "s9-taken-fishers",
+    "name": "Taken Fishers",
+    "chainIdentifier": "demo-s9",
+    "chainName": "The Old Croc",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "ilu"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "ilu"
+    },
+    "offerText": "What happened to the fishers?",
+    "description": "Crocodiles took three of ours at the pools. Kill the crocodiles there.",
+    "marker": true,
+    "completionText": "Fewer jaws in the water.",
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill 5 Swamp Crocodiles in The Deep Pool",
+        "zone": "brackwater-mire",
+        "map": "blackwater-pools",
+        "unitType": "swamp-crocodile",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "identifier": "s9-the-old-croc",
+    "name": "The Old Croc",
+    "chainIdentifier": "demo-s9",
+    "chainName": "The Old Croc",
+    "offeredBy": {
+      "zone": "brackwater-mire",
+      "ncu": "ilu"
+    },
+    "turnIn": {
+      "zone": "brackwater-mire",
+      "ncu": "ilu"
+    },
+    "offerText": "The croc?",
+    "description": "The Old Croc, huge and old, wallows past the pools. Kill it.",
+    "marker": true,
+    "completionText": "The water is ours again.",
+    "requiresFlags": [
+      "quest/completed/s9-taken-fishers"
+    ],
+    "objectives": [
+      {
+        "type": "kill",
+        "text": "Kill The Old Croc",
+        "zone": "brackwater-mire",
+        "map": "blackwater-pools",
+        "unit": "blackwater-pools-area_10-old-croc-1"
+      }
+    ]
+  }
+]

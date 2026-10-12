@@ -26378,5 +26378,169 @@
         }
       }
     }
+  ],
+  "interactables": [
+    {
+      "identifier": "goblin-snare-1",
+      "name": "Goblin Snare",
+      "imageUrl": "../../../graphics/interactables/goblin-snare.png",
+      "usedImageUrl": "../../../graphics/interactables/goblin-snare-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 3,
+        "height": 2
+      },
+      "position": {
+        "x": 123.8,
+        "y": 438.8,
+        "angle": 0
+      },
+      "useTime": 1,
+      "useText": "Cutting"
+    },
+    {
+      "identifier": "goblin-snare-5",
+      "name": "Goblin Snare",
+      "imageUrl": "../../../graphics/interactables/goblin-snare.png",
+      "usedImageUrl": "../../../graphics/interactables/goblin-snare-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 3,
+        "height": 2
+      },
+      "position": {
+        "x": 48.8,
+        "y": 466.3,
+        "angle": 47
+      },
+      "useTime": 1,
+      "useText": "Cutting"
+    },
+    {
+      "identifier": "goblin-snare-2",
+      "name": "Goblin Snare",
+      "imageUrl": "../../../graphics/interactables/goblin-snare.png",
+      "usedImageUrl": "../../../graphics/interactables/goblin-snare-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 3,
+        "height": 2
+      },
+      "position": {
+        "x": 196.3,
+        "y": 441.3,
+        "angle": 0
+      },
+      "useTime": 1,
+      "useText": "Cutting"
+    },
+    {
+      "identifier": "goblin-snare-6",
+      "name": "Goblin Snare",
+      "imageUrl": "../../../graphics/interactables/goblin-snare.png",
+      "usedImageUrl": "../../../graphics/interactables/goblin-snare-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 3,
+        "height": 2
+      },
+      "position": {
+        "x": 168.8,
+        "y": 441.3,
+        "angle": 47
+      },
+      "useTime": 1,
+      "useText": "Cutting"
+    },
+    {
+      "identifier": "goblin-snare-3",
+      "name": "Goblin Snare",
+      "imageUrl": "../../../graphics/interactables/goblin-snare.png",
+      "usedImageUrl": "../../../graphics/interactables/goblin-snare-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 3,
+        "height": 2
+      },
+      "position": {
+        "x": 73.8,
+        "y": 321.3,
+        "angle": 0
+      },
+      "useTime": 1,
+      "useText": "Cutting"
+    },
+    {
+      "identifier": "goblin-snare-4",
+      "name": "Goblin Snare",
+      "imageUrl": "../../../graphics/interactables/goblin-snare.png",
+      "usedImageUrl": "../../../graphics/interactables/goblin-snare-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 3,
+        "height": 2
+      },
+      "position": {
+        "x": 66.3,
+        "y": 128.8,
+        "angle": 0
+      },
+      "useTime": 1,
+      "useText": "Cutting"
+    },
+    {
+      "identifier": "cub-cage-1",
+      "name": "Cub Cage",
+      "imageUrl": "../../../graphics/interactables/cub-cage.png",
+      "usedImageUrl": "../../../graphics/interactables/cub-cage-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 4,
+        "height": 4
+      },
+      "position": {
+        "x": 228.8,
+        "y": 313.8,
+        "angle": 0
+      },
+      "useTime": 2,
+      "useText": "Opening"
+    },
+    {
+      "identifier": "cub-cage-2",
+      "name": "Cub Cage",
+      "imageUrl": "../../../graphics/interactables/cub-cage.png",
+      "usedImageUrl": "../../../graphics/interactables/cub-cage-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 4,
+        "height": 4
+      },
+      "position": {
+        "x": 236.3,
+        "y": 333.8,
+        "angle": 47
+      },
+      "useTime": 2,
+      "useText": "Opening"
+    },
+    {
+      "identifier": "cub-cage-3",
+      "name": "Cub Cage",
+      "imageUrl": "../../../graphics/interactables/cub-cage.png",
+      "usedImageUrl": "../../../graphics/interactables/cub-cage-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 4,
+        "height": 4
+      },
+      "position": {
+        "x": 228.8,
+        "y": 348.8,
+        "angle": 94
+      },
+      "useTime": 2,
+      "useText": "Opening"
+    }
   ]
 }

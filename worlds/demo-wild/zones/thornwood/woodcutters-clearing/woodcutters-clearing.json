@@ -23639,5 +23639,71 @@
         }
       }
     }
+  ],
+  "interactables": [
+    {
+      "identifier": "wolf-tracks-1",
+      "name": "Wolf Tracks",
+      "imageUrl": "../../../graphics/interactables/wolf-tracks.png",
+      "size": {
+        "width": 4,
+        "height": 3
+      },
+      "position": {
+        "x": 403.8,
+        "y": 131.3,
+        "angle": 0
+      },
+      "useTime": 1,
+      "useText": "Reading"
+    },
+    {
+      "identifier": "wolf-tracks-2",
+      "name": "Wolf Tracks",
+      "imageUrl": "../../../graphics/interactables/wolf-tracks.png",
+      "size": {
+        "width": 4,
+        "height": 3
+      },
+      "position": {
+        "x": 423.8,
+        "y": 191.3,
+        "angle": 47
+      },
+      "useTime": 1,
+      "useText": "Reading"
+    },
+    {
+      "identifier": "wolf-tracks-3",
+      "name": "Wolf Tracks",
+      "imageUrl": "../../../graphics/interactables/wolf-tracks.png",
+      "size": {
+        "width": 4,
+        "height": 3
+      },
+      "position": {
+        "x": 448.8,
+        "y": 186.3,
+        "angle": 94
+      },
+      "useTime": 1,
+      "useText": "Reading"
+    },
+    {
+      "identifier": "woodcutters-axe",
+      "name": "Woodcutter's Axe",
+      "imageUrl": "../../../graphics/interactables/woodcutters-axe.png",
+      "size": {
+        "width": 3,
+        "height": 1.5
+      },
+      "position": {
+        "x": 38.8,
+        "y": 218.8,
+        "angle": 0
+      },
+      "useTime": 0,
+      "useText": "Taking"
+    }
   ]
 }

@@ -20925,5 +20925,23 @@
         }
       }
     }
+  ],
+  "interactables": [
+    {
+      "identifier": "survivors-lantern",
+      "name": "Lantern",
+      "imageUrl": "../../../graphics/interactables/survivors-lantern.png",
+      "size": {
+        "width": 1.5,
+        "height": 1.5
+      },
+      "position": {
+        "x": 313.8,
+        "y": 33.8,
+        "angle": 0
+      },
+      "useTime": 0,
+      "useText": "Taking"
+    }
   ]
 }

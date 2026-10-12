@@ -12804,5 +12804,115 @@
       }
     }
   ],
-  "ncus": []
+  "ncus": [],
+  "interactables": [
+    {
+      "identifier": "war-drum-1",
+      "name": "War Drum",
+      "imageUrl": "../../../graphics/interactables/war-drum.png",
+      "usedImageUrl": "../../../graphics/interactables/war-drum-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 4,
+        "height": 4
+      },
+      "position": {
+        "x": 378.8,
+        "y": 261.3,
+        "angle": 0
+      },
+      "useTime": 2,
+      "useText": "Smashing"
+    },
+    {
+      "identifier": "war-drum-2",
+      "name": "War Drum",
+      "imageUrl": "../../../graphics/interactables/war-drum.png",
+      "usedImageUrl": "../../../graphics/interactables/war-drum-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 4,
+        "height": 4
+      },
+      "position": {
+        "x": 321.3,
+        "y": 191.3,
+        "angle": 47
+      },
+      "useTime": 2,
+      "useText": "Smashing"
+    },
+    {
+      "identifier": "war-drum-3",
+      "name": "War Drum",
+      "imageUrl": "../../../graphics/interactables/war-drum.png",
+      "usedImageUrl": "../../../graphics/interactables/war-drum-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 4,
+        "height": 4
+      },
+      "position": {
+        "x": 211.3,
+        "y": 378.8,
+        "angle": 94
+      },
+      "useTime": 2,
+      "useText": "Smashing"
+    },
+    {
+      "identifier": "hexed-totem-1",
+      "name": "Hexed Totem",
+      "imageUrl": "../../../graphics/interactables/hexed-totem.png",
+      "usedImageUrl": "../../../graphics/interactables/hexed-totem-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 3,
+        "height": 3
+      },
+      "position": {
+        "x": 186.3,
+        "y": 303.8,
+        "angle": 0
+      },
+      "useTime": 2,
+      "useText": "Breaking"
+    },
+    {
+      "identifier": "hexed-totem-2",
+      "name": "Hexed Totem",
+      "imageUrl": "../../../graphics/interactables/hexed-totem.png",
+      "usedImageUrl": "../../../graphics/interactables/hexed-totem-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 3,
+        "height": 3
+      },
+      "position": {
+        "x": 376.3,
+        "y": 233.8,
+        "angle": 47
+      },
+      "useTime": 2,
+      "useText": "Breaking"
+    },
+    {
+      "identifier": "hexed-totem-3",
+      "name": "Hexed Totem",
+      "imageUrl": "../../../graphics/interactables/hexed-totem.png",
+      "usedImageUrl": "../../../graphics/interactables/hexed-totem-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 3,
+        "height": 3
+      },
+      "position": {
+        "x": 293.8,
+        "y": 276.3,
+        "angle": 94
+      },
+      "useTime": 2,
+      "useText": "Breaking"
+    }
+  ]
 }

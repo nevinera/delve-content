@@ -26658,5 +26658,145 @@
       }
     }
   ],
-  "ncus": []
+  "ncus": [],
+  "interactables": [
+    {
+      "identifier": "tunnel-prop-1",
+      "name": "Tunnel Prop",
+      "imageUrl": "../../../graphics/interactables/tunnel-prop.png",
+      "usedImageUrl": "../../../graphics/interactables/tunnel-prop-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 2,
+        "height": 4
+      },
+      "position": {
+        "x": 101.3,
+        "y": 48.8,
+        "angle": 0
+      },
+      "useTime": 3,
+      "useText": "Knocking out"
+    },
+    {
+      "identifier": "tunnel-prop-2",
+      "name": "Tunnel Prop",
+      "imageUrl": "../../../graphics/interactables/tunnel-prop.png",
+      "usedImageUrl": "../../../graphics/interactables/tunnel-prop-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 2,
+        "height": 4
+      },
+      "position": {
+        "x": 76.3,
+        "y": 33.8,
+        "angle": 47
+      },
+      "useTime": 3,
+      "useText": "Knocking out"
+    },
+    {
+      "identifier": "tunnel-prop-3",
+      "name": "Tunnel Prop",
+      "imageUrl": "../../../graphics/interactables/tunnel-prop.png",
+      "usedImageUrl": "../../../graphics/interactables/tunnel-prop-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 2,
+        "height": 4
+      },
+      "position": {
+        "x": 68.8,
+        "y": 51.3,
+        "angle": 94
+      },
+      "useTime": 3,
+      "useText": "Knocking out"
+    },
+    {
+      "identifier": "tunnel-prop-4",
+      "name": "Tunnel Prop",
+      "imageUrl": "../../../graphics/interactables/tunnel-prop.png",
+      "usedImageUrl": "../../../graphics/interactables/tunnel-prop-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 2,
+        "height": 4
+      },
+      "position": {
+        "x": 36.3,
+        "y": 68.8,
+        "angle": 141
+      },
+      "useTime": 3,
+      "useText": "Knocking out"
+    },
+    {
+      "identifier": "sapper-charge-1",
+      "name": "Sapper's Charge",
+      "imageUrl": "../../../graphics/interactables/sapper-charge.png",
+      "size": {
+        "width": 2,
+        "height": 2
+      },
+      "position": {
+        "x": 391.3,
+        "y": 278.8,
+        "angle": 0
+      },
+      "useTime": 0,
+      "useText": "Taking"
+    },
+    {
+      "identifier": "sapper-charge-2",
+      "name": "Sapper's Charge",
+      "imageUrl": "../../../graphics/interactables/sapper-charge.png",
+      "size": {
+        "width": 2,
+        "height": 2
+      },
+      "position": {
+        "x": 328.8,
+        "y": 333.8,
+        "angle": 47
+      },
+      "useTime": 0,
+      "useText": "Taking"
+    },
+    {
+      "identifier": "sapper-charge-3",
+      "name": "Sapper's Charge",
+      "imageUrl": "../../../graphics/interactables/sapper-charge.png",
+      "size": {
+        "width": 2,
+        "height": 2
+      },
+      "position": {
+        "x": 378.8,
+        "y": 291.3,
+        "angle": 94
+      },
+      "useTime": 0,
+      "useText": "Taking"
+    },
+    {
+      "identifier": "tunnel-face",
+      "name": "Tunnel Face",
+      "imageUrl": "../../../graphics/interactables/tunnel-face.png",
+      "usedImageUrl": "../../../graphics/interactables/tunnel-face-used.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 6,
+        "height": 3
+      },
+      "position": {
+        "x": 83.8,
+        "y": 26.3,
+        "angle": 0
+      },
+      "useTime": 3,
+      "useText": "Setting the charges"
+    }
+  ]
 }
