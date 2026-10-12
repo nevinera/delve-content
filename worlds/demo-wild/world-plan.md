@@ -66,6 +66,7 @@ attributions).
 | goblin, -archer, -sapper, -hexer, -shaman, -wolfrider, -cutter, -mender, -sneak | yes | thornwood (wolfriders, sneaks), gnawdeep | |
 | worg, wolf-master | yes | gnawdeep | the wolf pens; wolf-master is L3's named mob |
 | goblin-boss, warboss-grutt | yes | gnawdeep | warboss-grutt is L3's boss |
+| hexer-nagg, shaman-brazza | yes | gnawdeep | L3's named hexer (quest 4) and shaman (quest 6) |
 | cave-bat, cave-spider | yes | gnawdeep | ambient cave beasts |
 | goblin-royal-guard | yes | hall-of-the-goblin-king | elite goblin |
 | goblin-king | yes | hall-of-the-goblin-king | dungeon boss |
@@ -77,6 +78,6 @@ attributions).
 | expedition survivors, Maren Holt | thornwood, brackwater-mire, gnawdeep | human prospectors |
 | Elder Sesh, Reedtalker villagers and fishers | brackwater-mire | friendly lizardfolk |
 
-Named mobs are their own unit types (with an intent and a balance annotation). The hexer and
-shaman L3 names are still to do. Unit-type tokens are done (in the library, unit_types/ and tokens/unit/). Still needed, for NCUs:
+Named mobs are their own unit types (with an intent and a balance annotation). L3's hexer and
+shaman are hexer-nagg and shaman-brazza. Unit-type tokens are done (in the library, unit_types/ and tokens/unit/). Still needed, for NCUs:
 humans (ranger, woodcutter, trapper, prospector) and Reedtalker lizardfolk (the green sets).

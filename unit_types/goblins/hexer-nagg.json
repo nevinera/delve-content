@@ -1,0 +1,299 @@
+{
+  "name": "Nagg the Hexer",
+  "category": "goblins",
+  "description": "A wizened goblin hung with bone charms, whose curses have soured half the Gnawdeep's tunnels.",
+  "tokenImageUrl": [
+    "../../tokens/unit/goblins/hexer-nagg-1.webp",
+    "../../tokens/unit/goblins/hexer-nagg-2.webp",
+    "../../tokens/unit/goblins/hexer-nagg-3.webp",
+    "../../tokens/unit/goblins/hexer-nagg-4.webp"
+  ],
+  "tokenRadius": 2,
+  "speedFactor": 1,
+  "maxHP": 450,
+  "dps": 2,
+  "attackSpeed": 0.5,
+  "basicAttackRange": 30,
+  "basicAttackSchool": "magic",
+  "basicAttackStyle": "arcane",
+  "resource": {
+    "name": "mana",
+    "color": "4488FF",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 2,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "phased",
+    "phases": [
+      {
+        "tactics": {
+          "type": "priorityRotation",
+          "powers": [
+            "Hex of Weakness",
+            "Withering Curse",
+            "Shadow Bolt"
+          ]
+        },
+        "transition": {
+          "healthBelow": 0.5
+        }
+      },
+      {
+        "tactics": {
+          "type": "priorityRotation",
+          "powers": [
+            "Curse of Frailty",
+            "Withering Curse",
+            "Hex of Weakness",
+            "Shadow Bolt"
+          ]
+        }
+      }
+    ]
+  },
+  "powers": [
+    {
+      "name": "Hex of Weakness",
+      "description": "A curse that saps the target's strength.",
+      "castTime": 1.5,
+      "globalCooldown": 1.5,
+      "cooldown": 20,
+      "maxRange": 30,
+      "costType": "mana",
+      "costAmount": 20,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":debuff:",
+          "duration": 3.693,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.4
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 10,
+          "status": {
+            "stacking": "replace",
+            "name": "Hexed",
+            "shortName": "Hexed",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageDone",
+                "modifierType": "multiply",
+                "amount": 0.85
+              }
+            ],
+            "description": "Dealing less damage.",
+            "auraEffect": {
+              "sourceURL": ":coalescing-sigil:",
+              "color": "#B07CFF",
+              "opacity": 0.35,
+              "scale": 1.2,
+              "spriteColumns": 5,
+              "spriteRows": 4,
+              "spriteFrameRate": 20
+            }
+          },
+          "range": 30
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "curse"
+      ]
+    },
+    {
+      "name": "Withering Curse",
+      "description": "A slow rot that eats at the target.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 12,
+      "maxRange": 30,
+      "costType": "mana",
+      "costAmount": 15,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":dark:",
+          "duration": 0.648,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 10,
+          "status": {
+            "stacking": "replace",
+            "name": "Withering",
+            "shortName": "Wither",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 2,
+                "onTick": "harm",
+                "amount": 3,
+                "school": "magic"
+              }
+            ],
+            "description": "Taking shadow damage over time."
+          },
+          "range": 30
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "curse"
+      ]
+    },
+    {
+      "name": "Shadow Bolt",
+      "description": "A bolt of murky shadow.",
+      "castTime": 1.5,
+      "globalCooldown": 1.5,
+      "cooldown": 6,
+      "maxRange": 30,
+      "speed": 30,
+      "costType": "mana",
+      "costAmount": 15,
+      "graphicEffects": [
+        {
+          "sourceURL": ":shadow-flare:",
+          "duration": 0.5,
+          "from": "self",
+          "to": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "scale": 0.7,
+          "color": "#7A4CC2",
+          "spriteColumns": 5,
+          "spriteRows": 4,
+          "spriteFrameCount": 19,
+          "spriteFrameRate": 19
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":magic-hit:",
+          "duration": 2.198,
+          "location": "affected",
+          "when": "impact",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 30,
+          "amount": [
+            7,
+            9
+          ],
+          "school": "magic",
+          "tags": [
+            "shadow"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic"
+      ]
+    },
+    {
+      "name": "Curse of Frailty",
+      "description": "Wounded, it spits a curse that makes every blow land harder.",
+      "castTime": 1.5,
+      "globalCooldown": 1.5,
+      "cooldown": 30,
+      "maxRange": 30,
+      "costType": "mana",
+      "costAmount": 20,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":dark:",
+          "duration": 0.648,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always"
+        },
+        {
+          "sourceURL": ":debuff:",
+          "duration": 3.693,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.3
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 12,
+          "status": {
+            "stacking": "replace",
+            "name": "Frailty",
+            "shortName": "Frail",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageTaken",
+                "modifierType": "multiply",
+                "amount": 1.15
+              }
+            ],
+            "description": "Taking more damage.",
+            "auraEffect": {
+              "sourceURL": ":coalescing-sigil:",
+              "color": "#5E35B1",
+              "opacity": 0.4,
+              "scale": 1.2,
+              "spriteColumns": 5,
+              "spriteRows": 4,
+              "spriteFrameRate": 20
+            }
+          },
+          "range": 30
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "curse"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "solo",
+    "caster",
+    "debuffs"
+  ],
+  "annotations": {
+    "intent": "L3's named hexer (quest 4, The Hexer), in the hexer's den in the Gnawdeep: the goblin cursing the tunnels. S12's hexed totems are its work, and S12's apprentice is its pupil.",
+    "balance": "A named quest boss, tuned by hand at 1.5x a solo's HP (450). Little direct damage; its curses do the work. Below half health it adds Curse of Frailty, so cleanse or burst it down."
+  }
+}
