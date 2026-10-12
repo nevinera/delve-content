@@ -1,0 +1,173 @@
+{
+  "name": "The Gnawdeep",
+  "description": "Goblin caves under Warboss Grutt.",
+  "elvl": 5,
+  "private": false,
+  "maps": [
+    {
+      "$ref": "./forest-mouth/forest-mouth.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./sapper-tunnels/sapper-tunnels.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./flooded-caves/flooded-caves.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./fungus-deeps/fungus-deeps.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./drum-halls/drum-halls.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./grutts-hall/grutts-hall.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./silver-seam/silver-seam.json",
+      "referenceTo": "map"
+    }
+  ],
+  "unitTypes": {
+    "goblin-cutter": {
+      "$ref": "../../unit_types/goblin-cutter.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-archer": {
+      "$ref": "../../unit_types/goblin-archer.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-sapper": {
+      "$ref": "../../unit_types/goblin-sapper.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-hexer": {
+      "$ref": "../../unit_types/goblin-hexer.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-wolfrider": {
+      "$ref": "../../unit_types/goblin-wolfrider.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-mender": {
+      "$ref": "../../unit_types/goblin-mender.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-sneak": {
+      "$ref": "../../unit_types/goblin-sneak.json",
+      "referenceTo": "unit_type"
+    },
+    "worg": {
+      "$ref": "../../unit_types/worg.json",
+      "referenceTo": "unit_type"
+    },
+    "cave-bat": {
+      "$ref": "../../unit_types/cave-bat.json",
+      "referenceTo": "unit_type"
+    },
+    "cave-spider": {
+      "$ref": "../../unit_types/cave-spider.json",
+      "referenceTo": "unit_type"
+    },
+    "hexer-nagg": {
+      "$ref": "../../unit_types/hexer-nagg.json",
+      "referenceTo": "unit_type"
+    },
+    "shaman-brazza": {
+      "$ref": "../../unit_types/shaman-brazza.json",
+      "referenceTo": "unit_type"
+    },
+    "wolf-master": {
+      "$ref": "../../unit_types/wolf-master.json",
+      "referenceTo": "unit_type"
+    },
+    "warboss-grutt": {
+      "$ref": "../../unit_types/warboss-grutt.json",
+      "referenceTo": "unit_type"
+    }
+  },
+  "zoneLinks": [
+    {
+      "connectionA": {
+        "map": "forest-mouth",
+        "connection": "north"
+      },
+      "connectionB": {
+        "map": "sapper-tunnels",
+        "connection": "south"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "sapper-tunnels",
+        "connection": "east"
+      },
+      "connectionB": {
+        "map": "fungus-deeps",
+        "connection": "west"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "flooded-caves",
+        "connection": "north"
+      },
+      "connectionB": {
+        "map": "fungus-deeps",
+        "connection": "south"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "fungus-deeps",
+        "connection": "north"
+      },
+      "connectionB": {
+        "map": "drum-halls",
+        "connection": "south"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "drum-halls",
+        "connection": "north"
+      },
+      "connectionB": {
+        "map": "grutts-hall",
+        "connection": "south"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "drum-halls",
+        "connection": "east"
+      },
+      "connectionB": {
+        "map": "silver-seam",
+        "connection": "west"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    }
+  ],
+  "openConnections": {
+    "forest-mouth/south": "forest-mouth-south",
+    "flooded-caves/west": "flooded-caves-west",
+    "grutts-hall/north": "grutts-hall-north"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Swamp Viper",
+  "category": "snakes",
+  "description": "A mottled green viper, hard to see in the reeds until it strikes.",
+  "tokenImageUrl": [
+    "../tokens/unit/snakes/swamp-viper-1.webp",
+    "../tokens/unit/snakes/swamp-viper-2.webp",
+    "../tokens/unit/snakes/swamp-viper-3.webp",
+    "../tokens/unit/snakes/swamp-viper-4.webp"
+  ],
+  "tokenRadius": 1.5,
+  "speedFactor": 1.2,
+  "maxHP": 98,
+  "dps": 3,
+  "attackSpeed": 1.2,
+  "basicAttackStyle": "claw",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Venomous Bite"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Venomous Bite",
+      "description": "A fast strike that leaves venom in the wound.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 8,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":scratch:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "color": "#7CB342",
+          "scale": 0.6
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":hiss:",
+          "duration": 1.006,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            3,
+            4
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 8,
+          "status": {
+            "stacking": "replace",
+            "name": "Envenomed",
+            "shortName": "Venom",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 1,
+                "onTick": "harm",
+                "amount": 1,
+                "school": "magic"
+              }
+            ],
+            "description": "Poisoned."
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "poison"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "pair",
+    "melee",
+    "glass"
+  ],
+  "annotations": {
+    "intent": "Brackwater Mire's reed beds and causeways, in pairs. Stands in for the plan's leech swarm: neither token pack has leech art."
+  }
+}

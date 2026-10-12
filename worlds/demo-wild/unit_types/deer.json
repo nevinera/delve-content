@@ -1,0 +1,93 @@
+{
+  "name": "Deer",
+  "category": "deer",
+  "description": "A skittish forest deer. It only fights when cornered.",
+  "tokenImageUrl": [
+    "../tokens/unit/deer/deer-1.webp",
+    "../tokens/unit/deer/deer-2.webp",
+    "../tokens/unit/deer/deer-3.webp",
+    "../tokens/unit/deer/deer-4.webp"
+  ],
+  "tokenRadius": 2,
+  "speedFactor": 1.6,
+  "maxHP": 98,
+  "dps": 3,
+  "attackSpeed": 1,
+  "basicAttackStyle": "club",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Antler Butt"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Antler Butt",
+      "description": "Lowers its head and shoves with its antlers.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 10,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":star-x:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "scale": 0.5
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":punch-hit:",
+          "duration": 0.823,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            4,
+            6
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "pair",
+    "melee",
+    "glass"
+  ],
+  "annotations": {
+    "intent": "Ambient wildlife for Thornwood. Place as neutral units so they never start a fight; there's no flee behavior yet, so a hit deer fights back. Easy kills, for 'hunt N deer' quests."
+  }
+}

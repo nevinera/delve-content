@@ -1,0 +1,111 @@
+{
+  "name": "Hall of the Goblin King",
+  "description": "A solo dungeon below the Gnawdeep: the Goblin King and his court.",
+  "elvl": 10,
+  "private": true,
+  "unitTypes": [
+    "goblin-royal-guard",
+    "goblin-hexer",
+    "goblin-mender",
+    "worg",
+    "goblin-king"
+  ],
+  "maps": {
+    "kings-stair": {
+      "elvl": 10,
+      "theme": "cave",
+      "size": [
+        70,
+        70
+      ],
+      "tags": [
+        "coral",
+        "paths"
+      ],
+      "exits": {
+        "south": {
+          "zone": "gnawdeep",
+          "map": "grutts-hall"
+        },
+        "north": "royal-warrens"
+      },
+      "annotations": {
+        "intent": "The stair down: a winding descent with guard posts."
+      }
+    },
+    "royal-warrens": {
+      "elvl": 10,
+      "theme": "cave",
+      "size": [
+        80,
+        80
+      ],
+      "tags": [
+        "burrow",
+        "paths"
+      ],
+      "exits": {
+        "south": "kings-stair",
+        "north": "court-of-bones",
+        "east": "treasure-vault"
+      },
+      "annotations": {
+        "intent": "The King's household: guards' barracks, kennels."
+      }
+    },
+    "court-of-bones": {
+      "elvl": 10,
+      "theme": "cave",
+      "size": [
+        80,
+        80
+      ],
+      "tags": [
+        "hub",
+        "paths"
+      ],
+      "exits": {
+        "south": "royal-warrens",
+        "north": "goblin-kings-hall"
+      },
+      "annotations": {
+        "intent": "The King's court: shamans and the royal guard."
+      }
+    },
+    "goblin-kings-hall": {
+      "elvl": 10,
+      "theme": "cave",
+      "size": [
+        70,
+        70
+      ],
+      "tags": [
+        "chamber",
+        "paths"
+      ],
+      "exits": {
+        "south": "court-of-bones"
+      },
+      "annotations": {
+        "intent": "The King's hall: the Goblin King (dungeon boss) on his throne of stolen things."
+      }
+    },
+    "treasure-vault": {
+      "elvl": 10,
+      "theme": "cave",
+      "size": [
+        40,
+        30
+      ],
+      "tags": [
+        "paths"
+      ],
+      "exits": {
+        "west": "royal-warrens"
+      },
+      "annotations": {
+        "intent": "A small vault: the King's hoard, optional loot."
+      }
+    }
+  }
+}

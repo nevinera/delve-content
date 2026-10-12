@@ -1,0 +1,141 @@
+{
+  "name": "Thornwood",
+  "description": "Forest full of wild creatures, with a few human camps. The starting zone.",
+  "elvl": 0,
+  "private": false,
+  "maps": [
+    {
+      "$ref": "./ranger-outpost/ranger-outpost.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./woodcutters-clearing/woodcutters-clearing.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./old-growth/old-growth.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./pine-ridge/pine-ridge.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./southern-eaves/southern-eaves.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./the-hills/the-hills.json",
+      "referenceTo": "map"
+    }
+  ],
+  "unitTypes": {
+    "wolf": {
+      "$ref": "../../unit_types/wolf.json",
+      "referenceTo": "unit_type"
+    },
+    "dire-wolf": {
+      "$ref": "../../unit_types/dire-wolf.json",
+      "referenceTo": "unit_type"
+    },
+    "panther": {
+      "$ref": "../../unit_types/panther.json",
+      "referenceTo": "unit_type"
+    },
+    "black-panther": {
+      "$ref": "../../unit_types/black-panther.json",
+      "referenceTo": "unit_type"
+    },
+    "boar": {
+      "$ref": "../../unit_types/boar.json",
+      "referenceTo": "unit_type"
+    },
+    "black-bear": {
+      "$ref": "../../unit_types/black-bear.json",
+      "referenceTo": "unit_type"
+    },
+    "deer": {
+      "$ref": "../../unit_types/deer.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-wolfrider": {
+      "$ref": "../../unit_types/goblin-wolfrider.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-sneak": {
+      "$ref": "../../unit_types/goblin-sneak.json",
+      "referenceTo": "unit_type"
+    }
+  },
+  "zoneLinks": [
+    {
+      "connectionA": {
+        "map": "ranger-outpost",
+        "connection": "north"
+      },
+      "connectionB": {
+        "map": "woodcutters-clearing",
+        "connection": "south"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "ranger-outpost",
+        "connection": "south"
+      },
+      "connectionB": {
+        "map": "old-growth",
+        "connection": "north"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "woodcutters-clearing",
+        "connection": "north"
+      },
+      "connectionB": {
+        "map": "the-hills",
+        "connection": "south"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "woodcutters-clearing",
+        "connection": "east"
+      },
+      "connectionB": {
+        "map": "pine-ridge",
+        "connection": "west"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "old-growth",
+        "connection": "south"
+      },
+      "connectionB": {
+        "map": "southern-eaves",
+        "connection": "north"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    }
+  ],
+  "entryPoints": {
+    "ranger-outpost/arrival": null
+  },
+  "openConnections": {
+    "old-growth/east": "old-growth-east",
+    "pine-ridge/south": "pine-ridge-south",
+    "southern-eaves/south": "southern-eaves-south",
+    "the-hills/north": "the-hills-north"
+  }
+}
