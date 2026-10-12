@@ -6305,7 +6305,11 @@
           "x": 348.25,
           "y": 133.21
         }
-      ]
+      ],
+      "name": "Court of Bones",
+      "annotations": {
+        "intent": "The King's court: shamans, hexers and the royal guard."
+      }
     },
     {
       "identifier": "area_2",
@@ -7246,7 +7250,10 @@
           "x": 0.24,
           "y": 134.88
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. The King's court: royal guards, shamans, hexers."
+      }
     },
     {
       "identifier": "area_3",
@@ -7891,7 +7898,11 @@
           "x": 217.84,
           "y": 18.67
         }
-      ]
+      ],
+      "name": "Bone Antechamber",
+      "annotations": {
+        "intent": "A bone antechamber off the court."
+      }
     }
   ],
   "annotations": {

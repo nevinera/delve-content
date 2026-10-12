@@ -13356,7 +13356,10 @@
           "x": 109.03,
           "y": 501.94
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, a dead end. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_2",
@@ -14153,7 +14156,11 @@
           "x": 181.88,
           "y": 497.21
         }
-      ]
+      ],
+      "name": "Grutt's Throne",
+      "annotations": {
+        "intent": "Warboss Grutt's throne (L3 boss), by the sealed stair."
+      }
     },
     {
       "identifier": "area_3",
@@ -14662,7 +14669,11 @@
           "x": 75.73,
           "y": 464.24
         }
-      ]
+      ],
+      "name": "Sealed Stair",
+      "annotations": {
+        "intent": "The sealed stair down to the Goblin King's hall (the dungeon)."
+      }
     },
     {
       "identifier": "area_4",
@@ -15051,7 +15062,10 @@
           "x": -0.54,
           "y": 450.46
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_5",
@@ -15696,7 +15710,10 @@
           "x": 367.83,
           "y": 496.26
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_6",
@@ -16149,7 +16166,10 @@
           "x": 102.1,
           "y": 375.84
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_7",
@@ -16658,7 +16678,10 @@
           "x": 191.13,
           "y": 396.72
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, a dead end. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_8",
@@ -17151,7 +17174,10 @@
           "x": 1.05,
           "y": 360.96
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_9",
@@ -17660,7 +17686,10 @@
           "x": 322.51,
           "y": 346.76
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_10",
@@ -18089,7 +18118,10 @@
           "x": 329.06,
           "y": 255.13
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_11",
@@ -18598,7 +18630,10 @@
           "x": 81.46,
           "y": 268.23
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_12",
@@ -19147,7 +19182,10 @@
           "x": -1.16,
           "y": 284.54
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_13",
@@ -19720,7 +19758,10 @@
           "x": 187.27,
           "y": 182.56
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "The guards' approach (L3), further in."
+      }
     },
     {
       "identifier": "area_14",
@@ -20197,7 +20238,10 @@
           "x": 297.18,
           "y": 182.38
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, a dead end. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_15",
@@ -20626,7 +20670,10 @@
           "x": 75.92,
           "y": 215.18
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, on the trail. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_16",
@@ -21135,7 +21182,11 @@
           "x": 174.65,
           "y": 169.17
         }
-      ]
+      ],
+      "name": "Guards' Approach",
+      "annotations": {
+        "intent": "The guards' approach (L3): goblin guards, dense."
+      }
     },
     {
       "identifier": "area_17",
@@ -21620,7 +21671,10 @@
           "x": -0.79,
           "y": 134.53
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_18",
@@ -22113,7 +22167,10 @@
           "x": 302.26,
           "y": 145.11
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, off the trail. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_19",
@@ -22686,7 +22743,10 @@
           "x": 150.85,
           "y": 102.27
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_20",
@@ -23339,7 +23399,10 @@
           "x": -0.92,
           "y": 25.65
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, a dead end. Grutt's hall: goblin warriors, archers, cutters."
+      }
     },
     {
       "identifier": "area_21",
@@ -23944,7 +24007,11 @@
           "x": 294.25,
           "y": 9.8
         }
-      ]
+      ],
+      "name": "Holt's Cell",
+      "annotations": {
+        "intent": "Maren Holt's cell (L4), a dead end: Maren Holt (NCU), a jailer."
+      }
     }
   ],
   "annotations": {

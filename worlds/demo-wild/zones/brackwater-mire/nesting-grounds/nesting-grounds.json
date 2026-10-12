@@ -13986,7 +13986,10 @@
           "x": 143.49,
           "y": 554.15
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. The Reedtalkers' nesting grounds: giant frogs, swamp crocodiles."
+      }
     },
     {
       "identifier": "area_2",
@@ -14839,7 +14842,10 @@
           "x": 132.84,
           "y": 463.74
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The Reedtalkers' nesting grounds: giant frogs, swamp crocodiles."
+      }
     },
     {
       "identifier": "area_3",
@@ -15524,7 +15530,10 @@
           "x": 329.88,
           "y": 547.19
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. The Reedtalkers' nesting grounds: giant frogs, swamp crocodiles."
+      }
     },
     {
       "identifier": "area_4",
@@ -16081,7 +16090,11 @@
           "x": 236.28,
           "y": 378.94
         }
-      ]
+      ],
+      "name": "Burned Nests",
+      "annotations": {
+        "intent": "The burned nests (L2): Blackscale raiders torched them. Raiders still about."
+      }
     },
     {
       "identifier": "area_5",
@@ -16742,7 +16755,10 @@
           "x": 18.72,
           "y": 382.9
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The Reedtalkers' nesting grounds: giant frogs, swamp crocodiles."
+      }
     },
     {
       "identifier": "area_6",
@@ -17339,7 +17355,10 @@
           "x": 398.49,
           "y": 444.71
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "More burned nests (L2), Blackscale raiders."
+      }
     },
     {
       "identifier": "area_7",
@@ -17880,7 +17899,10 @@
           "x": 299.01,
           "y": 298.71
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. The Reedtalkers' nesting grounds: giant frogs, swamp crocodiles."
+      }
     },
     {
       "identifier": "area_8",
@@ -18781,7 +18803,10 @@
           "x": 1.23,
           "y": 390.8
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The Reedtalkers' nesting grounds: giant frogs, swamp crocodiles."
+      }
     },
     {
       "identifier": "area_9",
@@ -19186,7 +19211,10 @@
           "x": 89.52,
           "y": 312.24
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The Reedtalkers' nesting grounds: giant frogs, swamp crocodiles."
+      }
     },
     {
       "identifier": "area_10",
@@ -19823,7 +19851,10 @@
           "x": 161.73,
           "y": 211.61
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The Reedtalkers' nesting grounds: giant frogs, swamp crocodiles."
+      }
     },
     {
       "identifier": "area_11",
@@ -20340,7 +20371,10 @@
           "x": 467.18,
           "y": 283.64
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The Reedtalkers' nesting grounds: giant frogs, swamp crocodiles."
+      }
     },
     {
       "identifier": "area_12",
@@ -20969,7 +21003,10 @@
           "x": 4.9,
           "y": 100.23
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "On the way to the frog nests (S7): giant frogs."
+      }
     },
     {
       "identifier": "area_13",
@@ -21670,7 +21707,10 @@
           "x": 288.73,
           "y": 178.11
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, on the trail. The Reedtalkers' nesting grounds: giant frogs, swamp crocodiles."
+      }
     },
     {
       "identifier": "area_14",
@@ -22163,7 +22203,10 @@
           "x": 183.18,
           "y": 171.08
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The Reedtalkers' nesting grounds: giant frogs, swamp crocodiles."
+      }
     },
     {
       "identifier": "area_15",
@@ -22840,7 +22883,10 @@
           "x": 400.47,
           "y": 146.94
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The Reedtalkers' nesting grounds: giant frogs, swamp crocodiles."
+      }
     },
     {
       "identifier": "area_16",
@@ -23437,7 +23483,10 @@
           "x": 181.85,
           "y": 66.11
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The Reedtalkers' nesting grounds: giant frogs, swamp crocodiles."
+      }
     },
     {
       "identifier": "area_17",
@@ -24210,7 +24259,11 @@
           "x": -1.34,
           "y": 100.57
         }
-      ]
+      ],
+      "name": "Frog Nests",
+      "annotations": {
+        "intent": "The giant frogs' nests (S7), a dead end: frogs, many."
+      }
     }
   ],
   "annotations": {

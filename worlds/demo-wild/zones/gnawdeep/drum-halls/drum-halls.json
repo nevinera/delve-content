@@ -7452,7 +7452,10 @@
           "x": 306.8,
           "y": 551.94
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "The way north to Grutt's hall: goblin guards."
+      }
     },
     {
       "identifier": "area_2",
@@ -10009,7 +10012,11 @@
           "x": -0.14,
           "y": 367.21
         }
-      ]
+      ],
+      "name": "Drum Hall",
+      "annotations": {
+        "intent": "The great hall where the tribes gather (L3): the wolf-master (L3), three hexed totems (S12), dense goblins of every kind."
+      }
     },
     {
       "identifier": "area_3",
@@ -11406,7 +11413,10 @@
           "x": 57.87,
           "y": -1.16
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "The way south to the fungus deeps."
+      }
     }
   ],
   "annotations": {

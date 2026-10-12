@@ -12322,7 +12322,10 @@
           "x": 172.51,
           "y": 495.68
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, a dead end. Goblin caves near the surface: goblins, cave bats."
+      }
     },
     {
       "identifier": "area_2",
@@ -13159,7 +13162,10 @@
           "x": 289.17,
           "y": 412.75
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, a dead end. Goblin caves near the surface: goblins, cave bats."
+      }
     },
     {
       "identifier": "area_3",
@@ -13884,7 +13890,10 @@
           "x": 56.61,
           "y": 492.32
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, on the trail. Goblin caves near the surface: goblins, cave bats."
+      }
     },
     {
       "identifier": "area_4",
@@ -14529,7 +14538,10 @@
           "x": 57.75,
           "y": 502.67
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, a dead end. Goblin caves near the surface: goblins, cave bats."
+      }
     },
     {
       "identifier": "area_5",
@@ -15150,7 +15162,10 @@
           "x": 163.37,
           "y": 334.37
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Goblin caves near the surface: goblins, cave bats."
+      }
     },
     {
       "identifier": "area_6",
@@ -15627,7 +15642,10 @@
           "x": 330.29,
           "y": 353.18
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Goblin caves near the surface: goblins, cave bats."
+      }
     },
     {
       "identifier": "area_7",
@@ -16168,7 +16186,10 @@
           "x": -0.2,
           "y": 329.21
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, a dead end. Goblin caves near the surface: goblins, cave bats."
+      }
     },
     {
       "identifier": "area_8",
@@ -16741,7 +16762,10 @@
           "x": 129.2,
           "y": 318.78
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. Goblin caves near the surface: goblins, cave bats."
+      }
     },
     {
       "identifier": "area_9",
@@ -17594,7 +17618,10 @@
           "x": 277.48,
           "y": 235.74
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, on the trail. Goblin caves near the surface: goblins, cave bats."
+      }
     },
     {
       "identifier": "area_10",
@@ -18135,7 +18162,10 @@
           "x": -1.5,
           "y": 208.59
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. Goblin caves near the surface: goblins, cave bats."
+      }
     },
     {
       "identifier": "area_11",
@@ -18756,7 +18786,10 @@
           "x": 274.38,
           "y": 235.74
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Goblin caves near the surface: goblins, cave bats."
+      }
     },
     {
       "identifier": "area_12",
@@ -19249,7 +19282,10 @@
           "x": 163.12,
           "y": 183.9
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, a dead end. Goblin caves near the surface: goblins, cave bats."
+      }
     },
     {
       "identifier": "area_13",
@@ -19974,7 +20010,10 @@
           "x": -0.94,
           "y": 183.89
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "The way to the wolf pens: goblins."
+      }
     },
     {
       "identifier": "area_14",
@@ -20531,7 +20570,11 @@
           "x": 180.59,
           "y": 85.91
         }
-      ]
+      ],
+      "name": "Cave Mouth",
+      "annotations": {
+        "intent": "The Gnawdeep's mouth, from the hills: goblin guards."
+      }
     },
     {
       "identifier": "area_15",
@@ -21136,7 +21179,11 @@
           "x": 50.37,
           "y": 0.47
         }
-      ]
+      ],
+      "name": "Wolf Pens",
+      "annotations": {
+        "intent": "The worg pens (L1, L3), a dead end: worgs and their goblin keepers."
+      }
     },
     {
       "identifier": "area_16",
@@ -21797,7 +21844,10 @@
           "x": 329.39,
           "y": 46.97
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, a dead end. Goblin caves near the surface: goblins, cave bats."
+      }
     }
   ],
   "annotations": {

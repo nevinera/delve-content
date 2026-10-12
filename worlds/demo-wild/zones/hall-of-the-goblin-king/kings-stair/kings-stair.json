@@ -8802,7 +8802,11 @@
           "x": 244.97,
           "y": 348.3
         }
-      ]
+      ],
+      "name": "Upper Guard Post",
+      "annotations": {
+        "intent": "The last guard post before the warrens: goblin royal guards."
+      }
     },
     {
       "identifier": "area_2",
@@ -9367,7 +9371,10 @@
           "x": 134.14,
           "y": 348.58
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, on the trail. The stair down: goblin royal guards."
+      }
     },
     {
       "identifier": "area_3",
@@ -10068,7 +10075,10 @@
           "x": 133.94,
           "y": 353.33
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. The stair down: goblin royal guards."
+      }
     },
     {
       "identifier": "area_4",
@@ -10649,7 +10659,10 @@
           "x": -1.86,
           "y": 274.08
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. The stair down: goblin royal guards."
+      }
     },
     {
       "identifier": "area_5",
@@ -11094,7 +11107,10 @@
           "x": 170.42,
           "y": 210.88
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. The stair down: goblin royal guards."
+      }
     },
     {
       "identifier": "area_6",
@@ -11571,7 +11587,10 @@
           "x": 81.69,
           "y": 203.77
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. The stair down: goblin royal guards."
+      }
     },
     {
       "identifier": "area_7",
@@ -12296,7 +12315,11 @@
           "x": 123.66,
           "y": 65.54
         }
-      ]
+      ],
+      "name": "Lower Guard Post",
+      "annotations": {
+        "intent": "A guard post on the stair: goblin royal guards."
+      }
     },
     {
       "identifier": "area_8",
@@ -12861,7 +12884,10 @@
           "x": 0.94,
           "y": 111.88
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, a dead end. The stair down: goblin royal guards."
+      }
     },
     {
       "identifier": "area_9",
@@ -13306,7 +13332,10 @@
           "x": 206.88,
           "y": 90.26
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, a dead end. The stair down: goblin royal guards."
+      }
     },
     {
       "identifier": "area_10",
@@ -13911,7 +13940,10 @@
           "x": 108.2,
           "y": 66.06
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. The stair down: goblin royal guards."
+      }
     }
   ],
   "annotations": {

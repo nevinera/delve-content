@@ -7575,7 +7575,10 @@
           "x": 83.48,
           "y": 350.96
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. The King's hall: royal guards."
+      }
     },
     {
       "identifier": "area_2",
@@ -8012,7 +8015,10 @@
           "x": 87.91,
           "y": 348.83
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. The King's hall: royal guards."
+      }
     },
     {
       "identifier": "area_3",
@@ -8441,7 +8447,10 @@
           "x": 194.18,
           "y": 349.13
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, off the trail. The King's hall: royal guards."
+      }
     },
     {
       "identifier": "area_4",
@@ -9006,7 +9015,11 @@
           "x": 239.14,
           "y": 349.44
         }
-      ]
+      ],
+      "name": "Goblin King's Throne",
+      "annotations": {
+        "intent": "The Goblin King's throne (the dungeon boss), the hall's farthest end."
+      }
     },
     {
       "identifier": "area_5",
@@ -9427,7 +9440,10 @@
           "x": -1.05,
           "y": 284.73
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. The King's hall: royal guards."
+      }
     },
     {
       "identifier": "area_6",
@@ -9792,7 +9808,10 @@
           "x": 73.25,
           "y": 273.11
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, a dead end. The King's hall: royal guards."
+      }
     },
     {
       "identifier": "area_7",
@@ -10181,7 +10200,10 @@
           "x": 152.57,
           "y": 266.9
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. The King's hall: royal guards."
+      }
     },
     {
       "identifier": "area_8",
@@ -10666,7 +10688,10 @@
           "x": 1.47,
           "y": 175.55
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. The King's hall: royal guards."
+      }
     },
     {
       "identifier": "area_9",
@@ -11183,7 +11208,10 @@
           "x": 161.27,
           "y": 142.84
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, a dead end. The King's hall: royal guards."
+      }
     },
     {
       "identifier": "area_10",
@@ -11644,7 +11672,10 @@
           "x": 143.01,
           "y": 142.36
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. The King's hall: royal guards."
+      }
     },
     {
       "identifier": "area_11",
@@ -12153,7 +12184,10 @@
           "x": 217.1,
           "y": 79.38
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, a dead end. The King's hall: royal guards."
+      }
     },
     {
       "identifier": "area_12",
@@ -12678,7 +12712,10 @@
           "x": 1.32,
           "y": 99.29
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, a dead end. The King's hall: royal guards."
+      }
     },
     {
       "identifier": "area_13",
@@ -13163,7 +13200,10 @@
           "x": 90.29,
           "y": 2.61
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "The hall's entrance."
+      }
     }
   ],
   "annotations": {

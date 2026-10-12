@@ -2700,7 +2700,10 @@
           "x": 96.92,
           "y": 143.5
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, a dead end. The silver seam's caves: goblin sappers."
+      }
     },
     {
       "identifier": "area_2",
@@ -3041,7 +3044,10 @@
           "x": 45.2,
           "y": 145.85
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, on the trail. The silver seam's caves: goblin sappers."
+      }
     },
     {
       "identifier": "area_3",
@@ -3510,7 +3516,10 @@
           "x": 36.92,
           "y": 151.33
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. The silver seam's caves: goblin sappers."
+      }
     },
     {
       "identifier": "area_4",
@@ -3939,7 +3948,10 @@
           "x": 97.52,
           "y": 50.99
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, off the trail. The silver seam's caves: goblin sappers."
+      }
     },
     {
       "identifier": "area_5",
@@ -4320,7 +4332,11 @@
           "x": 1.03,
           "y": 9.11
         }
-      ]
+      ],
+      "name": "Silver Seam",
+      "annotations": {
+        "intent": "The expedition's silver seam (L4), a dead end."
+      }
     }
   ],
   "annotations": {

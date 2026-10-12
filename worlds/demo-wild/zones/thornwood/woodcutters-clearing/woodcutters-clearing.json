@@ -13072,7 +13072,10 @@
           "x": 187.03,
           "y": 498.46
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, a dead end. Wolves and deer; a boar pair here and there."
+      }
     },
     {
       "identifier": "area_2",
@@ -13709,7 +13712,10 @@
           "x": 192,
           "y": 496.29
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there."
+      }
     },
     {
       "identifier": "area_3",
@@ -14410,7 +14416,10 @@
           "x": 320.68,
           "y": 492.7
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, a dead end. Wolves and deer; a boar pair here and there."
+      }
     },
     {
       "identifier": "area_4",
@@ -14767,7 +14776,10 @@
           "x": 111.28,
           "y": 360.76
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, a dead end. Wolves and deer; a boar pair here and there."
+      }
     },
     {
       "identifier": "area_5",
@@ -15236,7 +15248,10 @@
           "x": 226.57,
           "y": 339.89
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there."
+      }
     },
     {
       "identifier": "area_6",
@@ -15833,7 +15848,10 @@
           "x": 351.33,
           "y": 393.1
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there."
+      }
     },
     {
       "identifier": "area_7",
@@ -16374,7 +16392,10 @@
           "x": 1.39,
           "y": 410.88
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, a dead end. Wolves and deer; a boar pair here and there."
+      }
     },
     {
       "identifier": "area_8",
@@ -16907,7 +16928,10 @@
           "x": 273.12,
           "y": 274.62
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there."
+      }
     },
     {
       "identifier": "area_9",
@@ -17352,7 +17376,10 @@
           "x": 36.26,
           "y": 262.91
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, off the trail. Wolves and deer; a boar pair here and there."
+      }
     },
     {
       "identifier": "area_10",
@@ -17877,7 +17904,11 @@
           "x": 148.5,
           "y": 312.81
         }
-      ]
+      ],
+      "name": "Woodcutters' Camp",
+      "annotations": {
+        "intent": "The woodcutters' camp (S1), on the trail: woodcutter NCUs, stacked logs, a sawpit. Safe inside; wolves prowl the edges."
+      }
     },
     {
       "identifier": "area_11",
@@ -18546,7 +18577,11 @@
           "x": -1.83,
           "y": 261.28
         }
-      ]
+      ],
+      "name": "Bear's Den",
+      "annotations": {
+        "intent": "The black bear's den (S4: it has the woodcutter's axe), a tall-grass dead end. One bear, nothing else."
+      }
     },
     {
       "identifier": "area_12",
@@ -19207,7 +19242,11 @@
           "x": 332.38,
           "y": 188.05
         }
-      ]
+      ],
+      "name": "Boar Run",
+      "annotations": {
+        "intent": "The boar run (L1): boar pairs rooting through the clearing."
+      }
     },
     {
       "identifier": "area_13",
@@ -19660,7 +19699,10 @@
           "x": 90.83,
           "y": 219.14
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there."
+      }
     },
     {
       "identifier": "area_14",
@@ -20217,7 +20259,10 @@
           "x": 183.86,
           "y": 112.76
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there."
+      }
     },
     {
       "identifier": "area_15",
@@ -20934,7 +20979,11 @@
           "x": 317.56,
           "y": 113.22
         }
-      ]
+      ],
+      "name": "Boar Thicket",
+      "annotations": {
+        "intent": "The end of the boar run (L1): a small herd of boars."
+      }
     },
     {
       "identifier": "area_16",
@@ -21755,7 +21804,10 @@
           "x": 1.83,
           "y": 60.11
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, a dead end. Wolves and deer; a boar pair here and there."
+      }
     },
     {
       "identifier": "area_17",
@@ -22544,7 +22596,10 @@
           "x": 192.5,
           "y": 102.66
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, on the trail. Wolves and deer; a boar pair here and there."
+      }
     }
   ],
   "annotations": {

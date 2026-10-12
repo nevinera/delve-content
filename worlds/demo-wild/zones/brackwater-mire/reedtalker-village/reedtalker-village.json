@@ -7476,7 +7476,11 @@
           "x": 167.11,
           "y": 554.29
         }
-      ]
+      ],
+      "name": "Elder's Hut",
+      "annotations": {
+        "intent": "Elder Sesh's hut, set apart from the village."
+      }
     },
     {
       "identifier": "area_2",
@@ -10225,7 +10229,11 @@
           "x": -0.58,
           "y": 414.34
         }
-      ]
+      ],
+      "name": "Reedtalker Village",
+      "annotations": {
+        "intent": "The Reedtalkers' village, the zone's hub: huts on the marsh, quest givers (L2, L4, S6-S9), the rescued expedition member (L4). Safe: no hostiles."
+      }
     },
     {
       "identifier": "area_3",
@@ -11270,7 +11278,11 @@
           "x": 183.42,
           "y": 66.7
         }
-      ]
+      ],
+      "name": "Fishing Platforms",
+      "annotations": {
+        "intent": "The fishing platforms over the marsh pools: Reedtalker fishers."
+      }
     },
     {
       "identifier": "area_4",
@@ -12123,7 +12135,10 @@
           "x": -0.56,
           "y": 104.83
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "The path south to the nesting grounds."
+      }
     }
   ],
   "annotations": {

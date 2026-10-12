@@ -2854,7 +2854,10 @@
           "x": 47.23,
           "y": 146.94
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, off the trail. The King's hoard: a few royal guards."
+      }
     },
     {
       "identifier": "area_2",
@@ -3099,7 +3102,11 @@
           "x": 133.71,
           "y": 146.61
         }
-      ]
+      ],
+      "name": "The Hoard",
+      "annotations": {
+        "intent": "The King's hoard: optional loot."
+      }
     },
     {
       "identifier": "area_3",
@@ -3392,7 +3399,10 @@
           "x": 51.82,
           "y": 136.46
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. The King's hoard: a few royal guards."
+      }
     },
     {
       "identifier": "area_4",
@@ -3933,7 +3943,10 @@
           "x": 46.97,
           "y": 152.22
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. The King's hoard: a few royal guards."
+      }
     },
     {
       "identifier": "area_5",
@@ -4218,7 +4231,10 @@
           "x": 111.08,
           "y": 70.12
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. The King's hoard: a few royal guards."
+      }
     },
     {
       "identifier": "area_6",
@@ -4695,7 +4711,10 @@
           "x": 32.03,
           "y": -0.31
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. The King's hoard: a few royal guards."
+      }
     }
   ],
   "annotations": {

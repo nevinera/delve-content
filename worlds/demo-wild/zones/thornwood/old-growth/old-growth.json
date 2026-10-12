@@ -14811,7 +14811,10 @@
           "x": 212.64,
           "y": 549.74
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+      }
     },
     {
       "identifier": "area_2",
@@ -15544,7 +15547,10 @@
           "x": 218.03,
           "y": 504.27
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, a dead end. Deep woods: wolves, panthers, the odd dire wolf."
+      }
     },
     {
       "identifier": "area_3",
@@ -16309,7 +16315,10 @@
           "x": 387.31,
           "y": 464.78
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, off the trail. Deep woods: wolves, panthers, the odd dire wolf."
+      }
     },
     {
       "identifier": "area_4",
@@ -16826,7 +16835,10 @@
           "x": 186.95,
           "y": 489.46
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+      }
     },
     {
       "identifier": "area_5",
@@ -17191,7 +17203,11 @@
           "x": 294.62,
           "y": 438.81
         }
-      ]
+      ],
+      "name": "Boggy Hollow",
+      "annotations": {
+        "intent": "A boggy hollow on the trail."
+      }
     },
     {
       "identifier": "area_6",
@@ -17844,7 +17860,10 @@
           "x": 11.65,
           "y": 411.69
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+      }
     },
     {
       "identifier": "area_7",
@@ -18329,7 +18348,10 @@
           "x": 327.79,
           "y": 349.13
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+      }
     },
     {
       "identifier": "area_8",
@@ -18974,7 +18996,10 @@
           "x": 1.61,
           "y": 412.65
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+      }
     },
     {
       "identifier": "area_9",
@@ -19419,7 +19444,10 @@
           "x": 128.62,
           "y": 310.01
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, off the trail. Deep woods: wolves, panthers, the odd dire wolf."
+      }
     },
     {
       "identifier": "area_10",
@@ -19864,7 +19892,11 @@
           "x": 241.93,
           "y": 332.97
         }
-      ]
+      ],
+      "name": "Panther's Den",
+      "annotations": {
+        "intent": "The black panther's den (S3), two steps off the trail. The black panther alone: players should find it before it finds them."
+      }
     },
     {
       "identifier": "area_11",
@@ -20629,7 +20661,10 @@
           "x": 484.69,
           "y": 363.62
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+      }
     },
     {
       "identifier": "area_12",
@@ -21242,7 +21277,10 @@
           "x": 297.3,
           "y": 225.94
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+      }
     },
     {
       "identifier": "area_13",
@@ -21903,7 +21941,10 @@
           "x": -0.21,
           "y": 230.91
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+      }
     },
     {
       "identifier": "area_14",
@@ -22524,7 +22565,11 @@
           "x": 181.5,
           "y": 238.96
         }
-      ]
+      ],
+      "name": "The Old Trees",
+      "annotations": {
+        "intent": "A quiet dead end among the oldest trees: a landmark, lightly held (a dire wolf)."
+      }
     },
     {
       "identifier": "area_15",
@@ -22977,7 +23022,10 @@
           "x": 97.65,
           "y": 138.02
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+      }
     },
     {
       "identifier": "area_16",
@@ -23894,7 +23942,10 @@
           "x": 313.9,
           "y": 102.15
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, off the trail. Deep woods: wolves, panthers, the odd dire wolf."
+      }
     },
     {
       "identifier": "area_17",
@@ -24771,7 +24822,10 @@
           "x": -1.9,
           "y": 173.23
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, a dead end. Deep woods: wolves, panthers, the odd dire wolf."
+      }
     },
     {
       "identifier": "area_18",
@@ -25464,7 +25518,10 @@
           "x": 160.51,
           "y": 1.76
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, on the trail. Deep woods: wolves, panthers, the odd dire wolf."
+      }
     }
   ],
   "annotations": {

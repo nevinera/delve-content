@@ -12870,7 +12870,10 @@
           "x": 90.94,
           "y": 498.52
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, on the trail. Blackscale territory: Blackscale warriors and hunters."
+      }
     },
     {
       "identifier": "area_2",
@@ -13563,7 +13566,10 @@
           "x": 329.37,
           "y": 492.91
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Blackscale territory: Blackscale warriors and hunters."
+      }
     },
     {
       "identifier": "area_3",
@@ -14328,7 +14334,11 @@
           "x": 90.49,
           "y": 503.23
         }
-      ]
+      ],
+      "name": "West Raider Camp",
+      "annotations": {
+        "intent": "A Blackscale raider camp, a dead end."
+      }
     },
     {
       "identifier": "area_4",
@@ -14933,7 +14943,10 @@
           "x": 238.45,
           "y": 394.52
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Blackscale territory: Blackscale warriors and hunters."
+      }
     },
     {
       "identifier": "area_5",
@@ -15498,7 +15511,10 @@
           "x": 138.43,
           "y": 415.43
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. Blackscale territory: Blackscale warriors and hunters."
+      }
     },
     {
       "identifier": "area_6",
@@ -16047,7 +16063,10 @@
           "x": 373.03,
           "y": 391.41
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. Blackscale territory: Blackscale warriors and hunters."
+      }
     },
     {
       "identifier": "area_7",
@@ -16724,7 +16743,10 @@
           "x": -0.92,
           "y": 350.26
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Blackscale territory: Blackscale warriors and hunters."
+      }
     },
     {
       "identifier": "area_8",
@@ -17313,7 +17335,11 @@
           "x": 109.51,
           "y": 314.97
         }
-      ]
+      ],
+      "name": "War-Totems",
+      "annotations": {
+        "intent": "Blackscale war-totems on the trail: a shaman tending them."
+      }
     },
     {
       "identifier": "area_9",
@@ -18038,7 +18064,11 @@
           "x": 308.01,
           "y": 284.41
         }
-      ]
+      ],
+      "name": "East Raider Camp",
+      "annotations": {
+        "intent": "A Blackscale raider camp."
+      }
     },
     {
       "identifier": "area_10",
@@ -18635,7 +18665,10 @@
           "x": 175.67,
           "y": 160.48
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, on the trail. Blackscale territory: Blackscale warriors and hunters."
+      }
     },
     {
       "identifier": "area_11",
@@ -19528,7 +19561,11 @@
           "x": 364.69,
           "y": 76.06
         }
-      ]
+      ],
+      "name": "Captive Pens",
+      "annotations": {
+        "intent": "The captive pens (L2), behind the east raider camp: Reedtalker captives (NCUs), guarded."
+      }
     },
     {
       "identifier": "area_12",
@@ -20245,7 +20282,10 @@
           "x": 1.01,
           "y": 185.13
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. Blackscale territory: Blackscale warriors and hunters."
+      }
     },
     {
       "identifier": "area_13",
@@ -20778,7 +20818,10 @@
           "x": 172.11,
           "y": 158.31
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. Blackscale territory: Blackscale warriors and hunters."
+      }
     },
     {
       "identifier": "area_14",
@@ -21599,7 +21642,10 @@
           "x": 1.89,
           "y": 6.83
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. Blackscale territory: Blackscale warriors and hunters."
+      }
     },
     {
       "identifier": "area_15",
@@ -22396,7 +22442,10 @@
           "x": 191.38,
           "y": 89.82
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. Blackscale territory: Blackscale warriors and hunters."
+      }
     }
   ],
   "annotations": {

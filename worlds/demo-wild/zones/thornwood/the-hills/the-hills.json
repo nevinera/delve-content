@@ -14266,7 +14266,10 @@
           "x": 127.14,
           "y": 500.51
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Goblin snares in the grass, and the sneaks who set them."
+      }
     },
     {
       "identifier": "area_2",
@@ -14799,7 +14802,10 @@
           "x": 126.79,
           "y": 496.17
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Goblin snares in the grass, and the sneaks who set them."
+      }
     },
     {
       "identifier": "area_3",
@@ -15492,7 +15498,11 @@
           "x": 219.38,
           "y": 497.43
         }
-      ]
+      ],
+      "name": "Cave Track",
+      "annotations": {
+        "intent": "The trail up to the Gnawdeep's cave mouth: goblin wolfriders come and go."
+      }
     },
     {
       "identifier": "area_4",
@@ -16233,7 +16243,10 @@
           "x": 392.14,
           "y": 496.26
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, a dead end. Goblin country's edge: dire wolves, goblin sneaks."
+      }
     },
     {
       "identifier": "area_5",
@@ -16750,7 +16763,10 @@
           "x": 208.57,
           "y": 377.39
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "On the goblin wolfriders' patrol route, near the cave track."
+      }
     },
     {
       "identifier": "area_6",
@@ -17083,7 +17099,10 @@
           "x": 389.85,
           "y": 385.11
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, off the trail. Goblin country's edge: dire wolves, goblin sneaks."
+      }
     },
     {
       "identifier": "area_7",
@@ -17464,7 +17483,10 @@
           "x": 39.79,
           "y": 352.35
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Goblin snares in the grass, and the sneaks who set them."
+      }
     },
     {
       "identifier": "area_8",
@@ -18053,7 +18075,10 @@
           "x": 446.12,
           "y": 320.06
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. Goblin country's edge: dire wolves, goblin sneaks."
+      }
     },
     {
       "identifier": "area_9",
@@ -18554,7 +18579,10 @@
           "x": 119.31,
           "y": 279.45
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "On the goblin wolfriders' patrol route."
+      }
     },
     {
       "identifier": "area_10",
@@ -19167,7 +19195,10 @@
           "x": 345.91,
           "y": 355.89
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "On the goblin wolfriders' patrol route."
+      }
     },
     {
       "identifier": "area_11",
@@ -19716,7 +19747,11 @@
           "x": 230.57,
           "y": 239.59
         }
-      ]
+      ],
+      "name": "Wolfrider Run",
+      "annotations": {
+        "intent": "The middle of the wolfriders' patrol route (along the trail): goblin wolfriders."
+      }
     },
     {
       "identifier": "area_12",
@@ -20201,7 +20236,10 @@
           "x": -0.19,
           "y": 354.2
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Goblin country's edge: dire wolves, goblin sneaks."
+      }
     },
     {
       "identifier": "area_13",
@@ -20782,7 +20820,10 @@
           "x": -1.98,
           "y": 230.39
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, off the trail. Goblin country's edge: dire wolves, goblin sneaks."
+      }
     },
     {
       "identifier": "area_14",
@@ -21395,7 +21436,10 @@
           "x": 131.26,
           "y": 136.84
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, a dead end. Goblin country's edge: dire wolves, goblin sneaks."
+      }
     },
     {
       "identifier": "area_15",
@@ -21896,7 +21940,10 @@
           "x": 291.03,
           "y": 180.88
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "On the goblin wolfriders' patrol route, nearest the woods."
+      }
     },
     {
       "identifier": "area_16",
@@ -22477,7 +22524,10 @@
           "x": 429.26,
           "y": 196.69
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, off the trail. Goblin country's edge: dire wolves, goblin sneaks."
+      }
     },
     {
       "identifier": "area_17",
@@ -23218,7 +23268,10 @@
           "x": -1.37,
           "y": 180.24
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Goblin snares in the grass, and the sneaks who set them."
+      }
     },
     {
       "identifier": "area_18",
@@ -24207,7 +24260,10 @@
           "x": 292.15,
           "y": 89.59
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, on the trail. Goblin country's edge: dire wolves, goblin sneaks."
+      }
     },
     {
       "identifier": "area_19",
@@ -25052,7 +25108,11 @@
           "x": 66.39,
           "y": 1.33
         }
-      ]
+      ],
+      "name": "Survivor's Hide",
+      "annotations": {
+        "intent": "An expedition survivor's hide (L4), three places off the trail: the survivor NCU, hiding from the goblins. No hostiles."
+      }
     }
   ],
   "annotations": {

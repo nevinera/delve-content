@@ -12960,7 +12960,10 @@
           "x": 98.89,
           "y": 503.66
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+      }
     },
     {
       "identifier": "area_2",
@@ -13645,7 +13648,11 @@
           "x": 98.9,
           "y": 492.53
         }
-      ]
+      ],
+      "name": "The Deep Pool",
+      "annotations": {
+        "intent": "The deep pool (S8), a dead end."
+      }
     },
     {
       "identifier": "area_3",
@@ -14266,7 +14273,10 @@
           "x": 397.88,
           "y": 495.21
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. Deep, dark pools: swamp crocodiles, swamp vipers."
+      }
     },
     {
       "identifier": "area_4",
@@ -14919,7 +14929,10 @@
           "x": 269.47,
           "y": 494.19
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+      }
     },
     {
       "identifier": "area_5",
@@ -15292,7 +15305,10 @@
           "x": 54.42,
           "y": 356.5
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+      }
     },
     {
       "identifier": "area_6",
@@ -15833,7 +15849,10 @@
           "x": 173.69,
           "y": 375.52
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+      }
     },
     {
       "identifier": "area_7",
@@ -16518,7 +16537,10 @@
           "x": 294.83,
           "y": 373.98
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+      }
     },
     {
       "identifier": "area_8",
@@ -17107,7 +17129,10 @@
           "x": -1.55,
           "y": 365.09
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+      }
     },
     {
       "identifier": "area_9",
@@ -17712,7 +17737,10 @@
           "x": 122.5,
           "y": 308.18
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+      }
     },
     {
       "identifier": "area_10",
@@ -18325,7 +18353,11 @@
           "x": 300.44,
           "y": 230.16
         }
-      ]
+      ],
+      "name": "Croc's Wallow",
+      "annotations": {
+        "intent": "The Old Croc's wallow (S9), a dead end: the Old Croc alone."
+      }
     },
     {
       "identifier": "area_11",
@@ -18898,7 +18930,10 @@
           "x": 0.06,
           "y": 241.55
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+      }
     },
     {
       "identifier": "area_12",
@@ -19423,7 +19458,10 @@
           "x": 83.79,
           "y": 118.86
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. Deep, dark pools: swamp crocodiles, swamp vipers."
+      }
     },
     {
       "identifier": "area_13",
@@ -20012,7 +20050,10 @@
           "x": 207.48,
           "y": 169.36
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+      }
     },
     {
       "identifier": "area_14",
@@ -20753,7 +20794,11 @@
           "x": 377.36,
           "y": 115.57
         }
-      ]
+      ],
+      "name": "Flooded Cave Mouth",
+      "annotations": {
+        "intent": "The flooded cave mouth into the Gnawdeep (L4)."
+      }
     },
     {
       "identifier": "area_15",
@@ -21318,7 +21363,10 @@
           "x": 1.66,
           "y": 110.8
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+      }
     },
     {
       "identifier": "area_16",
@@ -22171,7 +22219,10 @@
           "x": 228.71,
           "y": 62.66
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. Deep, dark pools: swamp crocodiles, swamp vipers."
+      }
     },
     {
       "identifier": "area_17",
@@ -22776,7 +22827,10 @@
           "x": 102.13,
           "y": 90.67
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. Deep, dark pools: swamp crocodiles, swamp vipers."
+      }
     }
   ],
   "annotations": {

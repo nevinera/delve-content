@@ -15559,7 +15559,10 @@
           "x": 221.78,
           "y": 498.37
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, a dead end. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     },
     {
       "identifier": "area_2",
@@ -16468,7 +16471,10 @@
           "x": 226.65,
           "y": 496.83
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, a dead end. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     },
     {
       "identifier": "area_3",
@@ -16905,7 +16911,10 @@
           "x": 162.23,
           "y": 421.53
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     },
     {
       "identifier": "area_4",
@@ -17294,7 +17303,10 @@
           "x": 0.03,
           "y": 414.97
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     },
     {
       "identifier": "area_5",
@@ -17723,7 +17735,10 @@
           "x": 65.96,
           "y": 385.31
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     },
     {
       "identifier": "area_6",
@@ -18256,7 +18271,10 @@
           "x": 229.62,
           "y": 432.23
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     },
     {
       "identifier": "area_7",
@@ -18925,7 +18943,11 @@
           "x": 316.89,
           "y": 371.95
         }
-      ]
+      ],
+      "name": "Sapper Camp",
+      "annotations": {
+        "intent": "The sapper camp (S10), a dead end: sappers off shift."
+      }
     },
     {
       "identifier": "area_8",
@@ -19362,7 +19384,10 @@
           "x": -0.26,
           "y": 300.59
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     },
     {
       "identifier": "area_9",
@@ -20295,7 +20320,10 @@
           "x": 2.23,
           "y": 225.09
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     },
     {
       "identifier": "area_10",
@@ -20756,7 +20784,10 @@
           "x": 149,
           "y": 317.57
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     },
     {
       "identifier": "area_11",
@@ -21185,7 +21216,10 @@
           "x": 229.27,
           "y": 292.5
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     },
     {
       "identifier": "area_12",
@@ -21670,7 +21704,10 @@
           "x": 317.08,
           "y": 272.24
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     },
     {
       "identifier": "area_13",
@@ -22107,7 +22144,10 @@
           "x": 39.23,
           "y": 125.48
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     },
     {
       "identifier": "area_14",
@@ -22632,7 +22672,10 @@
           "x": 138.74,
           "y": 160.59
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     },
     {
       "identifier": "area_15",
@@ -23389,7 +23432,10 @@
           "x": 303.11,
           "y": 144.65
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     },
     {
       "identifier": "area_16",
@@ -24146,7 +24192,11 @@
           "x": 0.11,
           "y": 135.42
         }
-      ]
+      ],
+      "name": "New Tunnels",
+      "annotations": {
+        "intent": "The newest tunnels (L3), still being dug: sappers at work."
+      }
     },
     {
       "identifier": "area_17",
@@ -24735,7 +24785,10 @@
           "x": 273.54,
           "y": 54.8
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, on the trail. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     },
     {
       "identifier": "area_18",
@@ -25268,7 +25321,10 @@
           "x": 141.6,
           "y": 56.98
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, off the trail. Half-dug tunnels: goblin sappers, cave spiders."
+      }
     }
   ],
   "annotations": {

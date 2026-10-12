@@ -11806,7 +11806,10 @@
           "x": 98.95,
           "y": 493.37
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, on the trail. Flooded caves: cave spiders, cave bats, a few goblins."
+      }
     },
     {
       "identifier": "area_2",
@@ -12571,7 +12574,10 @@
           "x": 296.01,
           "y": 498.88
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, a dead end. Flooded caves: cave spiders, cave bats, a few goblins."
+      }
     },
     {
       "identifier": "area_3",
@@ -13320,7 +13326,10 @@
           "x": 100.49,
           "y": 502.79
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, a dead end. Flooded caves: cave spiders, cave bats, a few goblins."
+      }
     },
     {
       "identifier": "area_4",
@@ -13765,7 +13774,10 @@
           "x": 202.42,
           "y": 352.43
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, a dead end. Flooded caves: cave spiders, cave bats, a few goblins."
+      }
     },
     {
       "identifier": "area_5",
@@ -14306,7 +14318,10 @@
           "x": 287.02,
           "y": 267.18
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, off the trail. Flooded caves: cave spiders, cave bats, a few goblins."
+      }
     },
     {
       "identifier": "area_6",
@@ -14831,7 +14846,10 @@
           "x": -1.62,
           "y": 366.22
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, a dead end. Flooded caves: cave spiders, cave bats, a few goblins."
+      }
     },
     {
       "identifier": "area_7",
@@ -15340,7 +15358,10 @@
           "x": 101.31,
           "y": 329.46
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, on the trail. Flooded caves: cave spiders, cave bats, a few goblins."
+      }
     },
     {
       "identifier": "area_8",
@@ -15873,7 +15894,11 @@
           "x": 311.04,
           "y": 229.56
         }
-      ]
+      ],
+      "name": "Flooded Passages",
+      "annotations": {
+        "intent": "The flooded passages (L4): the way the expedition went."
+      }
     },
     {
       "identifier": "area_9",
@@ -16310,7 +16335,10 @@
           "x": 225.15,
           "y": 278.33
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, on the trail. Flooded caves: cave spiders, cave bats, a few goblins."
+      }
     },
     {
       "identifier": "area_10",
@@ -16995,7 +17023,10 @@
           "x": 1.17,
           "y": 235.52
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "The way in from the mire's blackwater pools."
+      }
     },
     {
       "identifier": "area_11",
@@ -17488,7 +17519,10 @@
           "x": 114.2,
           "y": 198.89
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, on the trail. Flooded caves: cave spiders, cave bats, a few goblins."
+      }
     },
     {
       "identifier": "area_12",
@@ -17981,7 +18015,10 @@
           "x": 212.18,
           "y": 133.31
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "More flooded passages (L4)."
+      }
     },
     {
       "identifier": "area_13",
@@ -18514,7 +18551,10 @@
           "x": 330.38,
           "y": 102.03
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, a dead end. Flooded caves: cave spiders, cave bats, a few goblins."
+      }
     },
     {
       "identifier": "area_14",
@@ -19319,7 +19359,11 @@
           "x": 212.1,
           "y": 61.49
         }
-      ]
+      ],
+      "name": "Glowworm Grotto",
+      "annotations": {
+        "intent": "The glowworm grotto (S11), a dead end."
+      }
     },
     {
       "identifier": "area_15",
@@ -20148,7 +20192,10 @@
           "x": 1.1,
           "y": 39.35
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, a dead end. Flooded caves: cave spiders, cave bats, a few goblins."
+      }
     }
   ],
   "annotations": {

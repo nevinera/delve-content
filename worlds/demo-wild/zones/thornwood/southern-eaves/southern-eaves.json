@@ -13246,7 +13246,10 @@
           "x": 95.55,
           "y": 497.77
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The wet eaves: wolves, boars, the first swamp vipers."
+      }
     },
     {
       "identifier": "area_2",
@@ -13867,7 +13870,10 @@
           "x": 262.54,
           "y": 497.7
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The wet eaves: wolves, boars, the first swamp vipers."
+      }
     },
     {
       "identifier": "area_3",
@@ -14496,7 +14502,10 @@
           "x": 92.22,
           "y": 500.01
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. The wet eaves: wolves, boars, the first swamp vipers."
+      }
     },
     {
       "identifier": "area_4",
@@ -15253,7 +15262,10 @@
           "x": 361.78,
           "y": 400.03
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. The wet eaves: wolves, boars, the first swamp vipers."
+      }
     },
     {
       "identifier": "area_5",
@@ -15714,7 +15726,10 @@
           "x": 112.08,
           "y": 459.17
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. The wet eaves: wolves, boars, the first swamp vipers."
+      }
     },
     {
       "identifier": "area_6",
@@ -16135,7 +16150,10 @@
           "x": 263.64,
           "y": 352.15
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The wet eaves: wolves, boars, the first swamp vipers."
+      }
     },
     {
       "identifier": "area_7",
@@ -16668,7 +16686,10 @@
           "x": -1.12,
           "y": 359.36
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, a dead end. The wet eaves: wolves, boars, the first swamp vipers."
+      }
     },
     {
       "identifier": "area_8",
@@ -17193,7 +17214,10 @@
           "x": 134.5,
           "y": 344.67
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, a dead end. The wet eaves: wolves, boars, the first swamp vipers."
+      }
     },
     {
       "identifier": "area_9",
@@ -17686,7 +17710,10 @@
           "x": 302.08,
           "y": 280.74
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The wet eaves: wolves, boars, the first swamp vipers."
+      }
     },
     {
       "identifier": "area_10",
@@ -18203,7 +18230,10 @@
           "x": 175.73,
           "y": 246.3
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The wet eaves: wolves, boars, the first swamp vipers."
+      }
     },
     {
       "identifier": "area_11",
@@ -18576,7 +18606,10 @@
           "x": 339.64,
           "y": 209.25
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. The wet eaves: wolves, boars, the first swamp vipers."
+      }
     },
     {
       "identifier": "area_12",
@@ -19037,7 +19070,10 @@
           "x": 77.24,
           "y": 250.15
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. The wet eaves: wolves, boars, the first swamp vipers."
+      }
     },
     {
       "identifier": "area_13",
@@ -19698,7 +19734,10 @@
           "x": -0.71,
           "y": 268.99
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "More of the trappers' snare lines (S2)."
+      }
     },
     {
       "identifier": "area_14",
@@ -20327,7 +20366,10 @@
           "x": 362.18,
           "y": 149.6
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, off the trail. The wet eaves: wolves, boars, the first swamp vipers."
+      }
     },
     {
       "identifier": "area_15",
@@ -20868,7 +20910,11 @@
           "x": 197.26,
           "y": 149.71
         }
-      ]
+      ],
+      "name": "Trappers' Camp",
+      "annotations": {
+        "intent": "The trappers' camp (L2, S2), on the trail near the mire: trapper NCUs, hides drying. Safe inside."
+      }
     },
     {
       "identifier": "area_16",
@@ -21265,7 +21311,11 @@
           "x": 123.13,
           "y": 121.35
         }
-      ]
+      ],
+      "name": "Snare Lines",
+      "annotations": {
+        "intent": "The trappers' snare lines (S2), in the tall grass: snared and angry animals."
+      }
     },
     {
       "identifier": "area_17",
@@ -21966,7 +22016,10 @@
           "x": 1.98,
           "y": 79.76
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "The far end of the trappers' snare lines (S2)."
+      }
     },
     {
       "identifier": "area_18",
@@ -22667,7 +22720,10 @@
           "x": 169.7,
           "y": 22.25
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The wet eaves: wolves, boars, the first swamp vipers."
+      }
     },
     {
       "identifier": "area_19",
@@ -23208,7 +23264,10 @@
           "x": 354.79,
           "y": 70.66
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, a dead end. The wet eaves: wolves, boars, the first swamp vipers."
+      }
     }
   ],
   "annotations": {

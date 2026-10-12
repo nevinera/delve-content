@@ -12371,7 +12371,10 @@
           "x": 54.96,
           "y": 497.77
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, a dead end. Where forest becomes mire: swamp vipers, giant frogs."
+      }
     },
     {
       "identifier": "area_2",
@@ -13136,7 +13139,10 @@
           "x": 196.2,
           "y": 494.36
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, on the trail. Where forest becomes mire: swamp vipers, giant frogs."
+      }
     },
     {
       "identifier": "area_3",
@@ -13757,7 +13763,10 @@
           "x": 350.02,
           "y": 495.68
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, a dead end. Where forest becomes mire: swamp vipers, giant frogs."
+      }
     },
     {
       "identifier": "area_4",
@@ -14394,7 +14403,10 @@
           "x": 54.7,
           "y": 502.57
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. Where forest becomes mire: swamp vipers, giant frogs."
+      }
     },
     {
       "identifier": "area_5",
@@ -14959,7 +14971,10 @@
           "x": 114.37,
           "y": 377
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. Where forest becomes mire: swamp vipers, giant frogs."
+      }
     },
     {
       "identifier": "area_6",
@@ -15492,7 +15507,11 @@
           "x": 343.1,
           "y": 395.21
         }
-      ]
+      ],
+      "name": "Survivors' Camp",
+      "annotations": {
+        "intent": "The expedition survivors' camp (L4), a dead end off the trail: survivor NCUs. No hostiles."
+      }
     },
     {
       "identifier": "area_7",
@@ -15929,7 +15948,10 @@
           "x": 14.07,
           "y": 330.95
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Where forest becomes mire: swamp vipers, giant frogs."
+      }
     },
     {
       "identifier": "area_8",
@@ -16502,7 +16524,11 @@
           "x": 0.48,
           "y": 333.78
         }
-      ]
+      ],
+      "name": "Herb Patches",
+      "annotations": {
+        "intent": "The herb patches (S6), in the tall grass: vipers among the herbs."
+      }
     },
     {
       "identifier": "area_9",
@@ -17235,7 +17261,10 @@
           "x": 249.74,
           "y": 345.92
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. Where forest becomes mire: swamp vipers, giant frogs."
+      }
     },
     {
       "identifier": "area_10",
@@ -17672,7 +17701,10 @@
           "x": 62.51,
           "y": 251.46
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Where forest becomes mire: swamp vipers, giant frogs."
+      }
     },
     {
       "identifier": "area_11",
@@ -18421,7 +18453,10 @@
           "x": 291.66,
           "y": 173.68
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. Where forest becomes mire: swamp vipers, giant frogs."
+      }
     },
     {
       "identifier": "area_12",
@@ -18802,7 +18837,10 @@
           "x": 19.96,
           "y": 152.47
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "More herb patches (S6)."
+      }
     },
     {
       "identifier": "area_13",
@@ -19247,7 +19285,10 @@
           "x": 272.05,
           "y": 163.23
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. Where forest becomes mire: swamp vipers, giant frogs."
+      }
     },
     {
       "identifier": "area_14",
@@ -19844,7 +19885,10 @@
           "x": 0.58,
           "y": 155.16
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Where forest becomes mire: swamp vipers, giant frogs."
+      }
     },
     {
       "identifier": "area_15",
@@ -20609,7 +20653,10 @@
           "x": 156.46,
           "y": 146.31
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, on the trail. Where forest becomes mire: swamp vipers, giant frogs."
+      }
     },
     {
       "identifier": "area_16",
@@ -21094,7 +21141,10 @@
           "x": 69.8,
           "y": 85.18
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, a dead end. Where forest becomes mire: swamp vipers, giant frogs."
+      }
     },
     {
       "identifier": "area_17",
@@ -21755,7 +21805,10 @@
           "x": 271.96,
           "y": 2.31
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. Where forest becomes mire: swamp vipers, giant frogs."
+      }
     }
   ],
   "annotations": {

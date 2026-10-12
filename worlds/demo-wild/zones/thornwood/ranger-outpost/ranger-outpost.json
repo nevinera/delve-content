@@ -6140,7 +6140,11 @@
           "x": 226.02,
           "y": 498.44
         }
-      ]
+      ],
+      "name": "Fawn Glade",
+      "annotations": {
+        "intent": "A quiet clearing off the outpost: deer only, for the first 'hunt N deer' tasks."
+      }
     },
     {
       "identifier": "area_2",
@@ -7185,7 +7189,11 @@
           "x": 221.37,
           "y": 501.34
         }
-      ]
+      ],
+      "name": "North Track",
+      "annotations": {
+        "intent": "The trail north to the woodcutters. Safe near the outpost: deer, a lone wolf at most."
+      }
     },
     {
       "identifier": "area_3",
@@ -9622,7 +9630,11 @@
           "x": 0.18,
           "y": 319.95
         }
-      ]
+      ],
+      "name": "Ranger Outpost",
+      "annotations": {
+        "intent": "The outpost: Ranger Hale's stockade, the expedition's notice board and the quest givers (L1, L4 start); where new characters arrive. Safe: no hostiles. The stockade is one structure in this open ground, for stamps (#164) later."
+      }
     }
   ],
   "annotations": {

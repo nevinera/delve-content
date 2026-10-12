@@ -13029,7 +13029,10 @@
           "x": 140.75,
           "y": 502.47
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_2",
@@ -13570,7 +13573,10 @@
           "x": 226.09,
           "y": 495.16
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, a dead end. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_3",
@@ -14079,7 +14085,10 @@
           "x": 356.65,
           "y": 496.85
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_4",
@@ -14572,7 +14581,10 @@
           "x": 149.26,
           "y": 491.79
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_5",
@@ -14977,7 +14989,10 @@
           "x": 1.38,
           "y": 454.57
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, a dead end. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_6",
@@ -15462,7 +15477,10 @@
           "x": 286.82,
           "y": 403.15
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_7",
@@ -15931,7 +15949,10 @@
           "x": 131.91,
           "y": 361.25
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_8",
@@ -16472,7 +16493,10 @@
           "x": 0.14,
           "y": 351.43
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, a dead end. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_9",
@@ -16909,7 +16933,10 @@
           "x": 115.96,
           "y": 352.19
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_10",
@@ -17386,7 +17413,10 @@
           "x": 201.55,
           "y": 306.91
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_11",
@@ -18023,7 +18053,10 @@
           "x": 313.42,
           "y": 311.24
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_12",
@@ -18492,7 +18525,11 @@
           "x": 88.86,
           "y": 256.35
         }
-      ]
+      ],
+      "name": "Blackscale Village",
+      "annotations": {
+        "intent": "The heart of the Blackscales' village: its fire and gathering ground. Dense."
+      }
     },
     {
       "identifier": "area_13",
@@ -19049,7 +19086,10 @@
           "x": 1.49,
           "y": 245.64
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_14",
@@ -19630,7 +19670,10 @@
           "x": 312.14,
           "y": 210.86
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, a dead end. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_15",
@@ -20003,7 +20046,10 @@
           "x": 73.9,
           "y": 99.81
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, a dead end. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_16",
@@ -20552,7 +20598,10 @@
           "x": 197.51,
           "y": 165.19
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_17",
@@ -21037,7 +21086,10 @@
           "x": 342.39,
           "y": 102.02
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_18",
@@ -21610,7 +21662,10 @@
           "x": 125.72,
           "y": 76.55
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_19",
@@ -22111,7 +22166,10 @@
           "x": 251.89,
           "y": 46.46
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. Blackscale huts: warriors and hunters at home."
+      }
     },
     {
       "identifier": "area_20",
@@ -22684,7 +22742,11 @@
           "x": -0.3,
           "y": 83.93
         }
-      ]
+      ],
+      "name": "War-Shaman's Hut",
+      "annotations": {
+        "intent": "The war-shaman's hut (L2 boss), the village's deepest dead end."
+      }
     }
   ],
   "annotations": {

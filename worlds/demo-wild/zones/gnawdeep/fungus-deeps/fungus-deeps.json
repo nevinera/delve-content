@@ -13362,7 +13362,10 @@
           "x": 82.78,
           "y": 548.61
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, a dead end. Mushroom-farm caves: goblins, goblin menders."
+      }
     },
     {
       "identifier": "area_2",
@@ -14135,7 +14138,10 @@
           "x": 87.59,
           "y": 546.85
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+      }
     },
     {
       "identifier": "area_3",
@@ -14772,7 +14778,10 @@
           "x": 373.61,
           "y": 541.41
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, a dead end. Mushroom-farm caves: goblins, goblin menders."
+      }
     },
     {
       "identifier": "area_4",
@@ -15601,7 +15610,11 @@
           "x": 239.47,
           "y": 521.42
         }
-      ]
+      ],
+      "name": "Mushroom Farms",
+      "annotations": {
+        "intent": "The goblins' mushroom farms (L3): goblin farmhands, guarded."
+      }
     },
     {
       "identifier": "area_5",
@@ -16158,7 +16171,10 @@
           "x": 160.36,
           "y": 430.83
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Puddles, on the trail. Mushroom-farm caves: goblins, goblin menders."
+      }
     },
     {
       "identifier": "area_6",
@@ -16699,7 +16715,10 @@
           "x": 66.87,
           "y": 405.01
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+      }
     },
     {
       "identifier": "area_7",
@@ -17464,7 +17483,11 @@
           "x": 262.33,
           "y": 332.5
         }
-      ]
+      ],
+      "name": "Shaman's Fire",
+      "annotations": {
+        "intent": "Brazza's fire (L3), a dead end past a gravel cave: Brazza, Keeper of the Fire, and shamans."
+      }
     },
     {
       "identifier": "area_8",
@@ -18181,7 +18204,10 @@
           "x": 1.01,
           "y": 405.93
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+      }
     },
     {
       "identifier": "area_9",
@@ -18738,7 +18764,10 @@
           "x": 135.2,
           "y": 285.35
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "More mushroom farms (L3), a dead end."
+      }
     },
     {
       "identifier": "area_10",
@@ -19343,7 +19372,10 @@
           "x": 1.01,
           "y": 234.79
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+      }
     },
     {
       "identifier": "area_11",
@@ -20132,7 +20164,10 @@
           "x": 335.14,
           "y": 231.76
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Gravel, off the trail. Mushroom-farm caves: goblins, goblin menders."
+      }
     },
     {
       "identifier": "area_12",
@@ -20593,7 +20628,10 @@
           "x": 230.86,
           "y": 188.66
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, off the trail. Mushroom-farm caves: goblins, goblin menders."
+      }
     },
     {
       "identifier": "area_13",
@@ -21182,7 +21220,10 @@
           "x": 91.84,
           "y": 118.81
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+      }
     },
     {
       "identifier": "area_14",
@@ -21795,7 +21836,11 @@
           "x": -1.04,
           "y": 136.36
         }
-      ]
+      ],
+      "name": "Hexer's Den",
+      "annotations": {
+        "intent": "Nagg the Hexer's den (L3), a dead end: Nagg and hexer apprentices."
+      }
     },
     {
       "identifier": "area_15",
@@ -22472,7 +22517,10 @@
           "x": 83.08,
           "y": 0.84
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+      }
     },
     {
       "identifier": "area_16",
@@ -22981,7 +23029,10 @@
           "x": 205.53,
           "y": 100.35
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+      }
     },
     {
       "identifier": "area_17",
@@ -23810,7 +23861,10 @@
           "x": 290.03,
           "y": 1.87
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Floor, on the trail. Mushroom-farm caves: goblins, goblin menders."
+      }
     }
   ],
   "annotations": {

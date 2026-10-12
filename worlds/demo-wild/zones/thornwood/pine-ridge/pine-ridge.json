@@ -11997,7 +11997,11 @@
           "x": 126.5,
           "y": 497.96
         }
-      ]
+      ],
+      "name": "Abandoned Camp",
+      "annotations": {
+        "intent": "An abandoned camp (S5): cold fire, torn tents, a clue to what drove them off. Wolves picking through it."
+      }
     },
     {
       "identifier": "area_2",
@@ -12770,7 +12774,10 @@
           "x": 342.12,
           "y": 499.48
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, a dead end. The ridge: dire wolves and black bears."
+      }
     },
     {
       "identifier": "area_3",
@@ -13559,7 +13566,10 @@
           "x": 126.62,
           "y": 502.92
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, a dead end. The ridge: dire wolves and black bears."
+      }
     },
     {
       "identifier": "area_4",
@@ -14068,7 +14078,10 @@
           "x": 186.04,
           "y": 372.72
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, off the trail. The ridge: dire wolves and black bears."
+      }
     },
     {
       "identifier": "area_5",
@@ -14809,7 +14822,10 @@
           "x": 318.31,
           "y": 401.32
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, off the trail. The ridge: dire wolves and black bears."
+      }
     },
     {
       "identifier": "area_6",
@@ -15566,7 +15582,10 @@
           "x": 147.43,
           "y": 335.87
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, on the trail. The ridge: dire wolves and black bears."
+      }
     },
     {
       "identifier": "area_7",
@@ -16163,7 +16182,10 @@
           "x": 146.4,
           "y": 324.65
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, on the trail. The ridge: dire wolves and black bears."
+      }
     },
     {
       "identifier": "area_8",
@@ -16808,7 +16830,11 @@
           "x": 180.83,
           "y": 166.48
         }
-      ]
+      ],
+      "name": "Ridge Bog",
+      "annotations": {
+        "intent": "A bog on the ridge trail."
+      }
     },
     {
       "identifier": "area_9",
@@ -17413,7 +17439,10 @@
           "x": 0.61,
           "y": 236.24
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, a dead end. The ridge: dire wolves and black bears."
+      }
     },
     {
       "identifier": "area_10",
@@ -18050,7 +18079,10 @@
           "x": 351.23,
           "y": 217.25
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Tall grass, a dead end. The ridge: dire wolves and black bears."
+      }
     },
     {
       "identifier": "area_11",
@@ -18679,7 +18711,10 @@
           "x": 122.4,
           "y": 113.12
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, on the trail. The ridge: dire wolves and black bears."
+      }
     },
     {
       "identifier": "area_12",
@@ -19372,7 +19407,10 @@
           "x": -1.66,
           "y": 99.86
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Meadow, off the trail. The ridge: dire wolves and black bears."
+      }
     },
     {
       "identifier": "area_13",
@@ -20001,7 +20039,10 @@
           "x": 242.78,
           "y": 66.82
         }
-      ]
+      ],
+      "annotations": {
+        "intent": "Marsh, off the trail. The ridge: dire wolves and black bears."
+      }
     },
     {
       "identifier": "area_14",
@@ -20606,7 +20647,11 @@
           "x": 373.23,
           "y": 89.9
         }
-      ]
+      ],
+      "name": "Expedition Camp",
+      "annotations": {
+        "intent": "The expedition's empty camp (L4), past the bog: their gear left behind, tracks heading north to the hills."
+      }
     }
   ],
   "annotations": {
