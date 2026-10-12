@@ -1184,6 +1184,7 @@
   "unitTypes": {
     "goblin-archer": {
       "name": "Goblin Archer",
+      "category": "goblins",
       "description": "Hangs back and looses crude arrows at whoever it's angry at.",
       "tokenImageUrl": [
         "../../tokens/unit/goblins/goblin-archer-1.webp",
@@ -1359,6 +1360,7 @@
     },
     "goblin-shaman": {
       "name": "Goblin Shaman",
+      "category": "goblins",
       "description": "A goblin channeling crude but effective battle magic.",
       "tokenImageUrl": [
         "../../tokens/unit/goblin-shaman.webp"
@@ -1513,6 +1515,7 @@
     },
     "goblin": {
       "name": "Goblin",
+      "category": "goblins",
       "description": "A scrappy goblin that stabs anything within reach.",
       "tokenImageUrl": [
         "../../tokens/unit/goblin-1.webp",
@@ -1611,6 +1614,7 @@
     },
     "goblin-boss": {
       "name": "Goblin Boss",
+      "category": "goblins",
       "description": "The pack's loudest goblin: tough, slow to kill, and it makes the whole pack nastier.",
       "tokenImageUrl": [
         "../../tokens/unit/goblins/goblin-boss-1.webp",
@@ -1797,6 +1801,7 @@
     },
     "goblin-hexer": {
       "name": "Goblin Hexer",
+      "category": "goblins",
       "description": "A wizened goblin with a bag of bones and grudges.",
       "tokenImageUrl": [
         "../../tokens/unit/goblins/goblin-hexer-1.webp",
@@ -2014,6 +2019,7 @@
     },
     "goblin-sapper": {
       "name": "Goblin Sapper",
+      "category": "goblins",
       "description": "Throws bombs, badly but enthusiastically, and explodes when killed.",
       "tokenImageUrl": [
         "../../tokens/unit/goblins/goblin-sapper-1.webp",
@@ -2210,6 +2216,7 @@
     },
     "goblin-wolfrider": {
       "name": "Goblin Wolfrider",
+      "category": "goblins",
       "description": "A goblin on a mangy wolf, fast enough to run down anyone who kites.",
       "tokenImageUrl": [
         "../../tokens/unit/goblins/goblin-wolfrider-1.webp",
@@ -2372,6 +2379,7 @@
     },
     "goblin-mender": {
       "name": "Goblin Mender",
+      "category": "goblins",
       "description": "Mutters war-chants and slaps poultices on its packmates.",
       "tokenImageUrl": [
         "../../tokens/unit/goblins/goblin-mender-1.webp",
@@ -2575,6 +2583,7 @@
     },
     "goblin-cutter": {
       "name": "Goblin Cutter",
+      "category": "goblins",
       "description": "A scrappy goblin with a rusty blade and no plan.",
       "tokenImageUrl": [
         "../../tokens/unit/goblins/goblin-cutter-1.webp",
@@ -2717,6 +2726,7 @@
     },
     "goblin-sneak": {
       "name": "Goblin Sneak",
+      "category": "goblins",
       "description": "A knife-artist that slips past the front line to stab healers in the back.",
       "tokenImageUrl": [
         "../../tokens/unit/goblins/goblin-sneak-1.webp",
