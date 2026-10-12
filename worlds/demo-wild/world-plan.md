@@ -55,20 +55,20 @@ attributions).
 |---|---|---|---|
 | wolf, dire-wolf | yes | thornwood | |
 | panther | yes | thornwood | the black panther (S3) is a named variant |
-| boar | new | thornwood | the boar run (L1) |
-| bear | new | thornwood | the bear's den (S4) |
-| deer | new | thornwood | ambient, flees |
-| giant-frog | new | brackwater-mire | S7 |
-| swamp-crocodile | new | brackwater-mire | the Old Croc (S9) is a named variant |
-| leech-swarm | new | brackwater-mire | |
-| blackscale-warrior, -hunter, -shaman | new | brackwater-mire | hostile lizardfolk |
-| blackscale-war-shaman | new | brackwater-mire | named boss (L2) |
+| boar | yes | thornwood | the boar run (L1) |
+| black-bear | yes | thornwood | the bear's den (S4) |
+| deer | yes | thornwood | ambient: placed neutral (no flee behavior yet) |
+| giant-frog | yes | brackwater-mire | S7 |
+| swamp-crocodile | yes | brackwater-mire | the Old Croc (S9) is a named variant |
+| swamp-viper | yes | brackwater-mire | replaces the leech swarm (no leech tokens) |
+| blackscale-warrior, -hunter, -shaman | yes | brackwater-mire | hostile lizardfolk |
+| blackscale-war-shaman | yes | brackwater-mire | named boss (L2) |
 | goblin, -archer, -sapper, -hexer, -shaman, -wolfrider, -cutter, -mender, -sneak | yes | thornwood (wolfriders, sneaks), gnawdeep | |
 | worg | yes | gnawdeep | the wolf pens |
 | goblin-boss | yes | gnawdeep | Warboss Grutt |
-| cave-bat, cave-spider | new | gnawdeep | ambient cave beasts |
-| goblin-royal-guard | new | hall-of-the-goblin-king | elite goblin |
-| goblin-king | new | hall-of-the-goblin-king | dungeon boss |
+| cave-bat, cave-spider | yes | gnawdeep | ambient cave beasts |
+| goblin-royal-guard | yes | hall-of-the-goblin-king | elite goblin |
+| goblin-king | yes | hall-of-the-goblin-king | dungeon boss |
 
 | NCU | Where | Notes |
 |---|---|---|
@@ -77,6 +77,5 @@ attributions).
 | expedition survivors, Maren Holt | thornwood, brackwater-mire, gnawdeep | human prospectors |
 | Elder Sesh, Reedtalker villagers and fishers | brackwater-mire | friendly lizardfolk |
 
-New tokens: humans (ranger, woodcutter, trapper, prospector); lizardfolk (Reedtalker and
-Blackscale sets); boar, bear, deer, giant frog, crocodile, leech swarm, bat, spider; the Goblin
-King and his guard.
+Unit-type tokens are done (in the library, unit_types/ and tokens/unit/). Still needed, for NCUs:
+humans (ranger, woodcutter, trapper, prospector) and Reedtalker lizardfolk (the green sets).

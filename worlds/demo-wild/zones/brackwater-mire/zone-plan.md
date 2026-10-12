@@ -68,6 +68,6 @@ All theme glade with tags `wet`.
 
 ## Units
 
-- Hostile: giant-frog, swamp-crocodile (and the Old Croc), leech-swarm; Blackscale warriors,
+- Hostile: giant-frog, swamp-crocodile (and the Old Croc), swamp-viper; Blackscale warriors,
   hunters and shamans; the Blackscale war-shaman (named boss).
 - NCUs: Elder Sesh; Reedtalker villagers and fishers; expedition survivors.

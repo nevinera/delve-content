@@ -1,0 +1,179 @@
+{
+  "name": "Cave Spider",
+  "category": "spiders",
+  "description": "A black spider as big as a wolf, waiting in the dark above the tunnel.",
+  "tokenImageUrl": [
+    "../../tokens/unit/spiders/cave-spider-1.webp",
+    "../../tokens/unit/spiders/cave-spider-2.webp",
+    "../../tokens/unit/spiders/cave-spider-3.webp",
+    "../../tokens/unit/spiders/cave-spider-4.webp"
+  ],
+  "tokenRadius": 2.5,
+  "speedFactor": 1.2,
+  "maxHP": 195,
+  "dps": 2.6,
+  "attackSpeed": 1,
+  "basicAttackStyle": "claw",
+  "stealth": 0,
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Web",
+      "Venom Fang"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Web",
+      "description": "Spits a sticky web that pins the target in place.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 14,
+      "maxRange": 20,
+      "speed": 25,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":splat:",
+          "duration": 0.5,
+          "from": "self",
+          "to": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "scale": 0.6,
+          "color": "#E0E0E0"
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":squelch:",
+          "duration": 0.2,
+          "location": "affected",
+          "when": "impact",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 4,
+          "status": {
+            "stacking": "replace",
+            "name": "Webbed",
+            "shortName": "Webbed",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "movementSpeed",
+                "modifierType": "multiply",
+                "amount": 0.3
+              }
+            ],
+            "description": "Stuck in a web."
+          },
+          "range": 20
+        }
+      ],
+      "tags": [
+        "harmful",
+        "slow"
+      ]
+    },
+    {
+      "name": "Venom Fang",
+      "description": "A bite that pumps venom into the wound.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 9,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":scratch:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "color": "#7CB342",
+          "scale": 0.6
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":bite:",
+          "duration": 1.637,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            4,
+            5
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 8,
+          "status": {
+            "stacking": "replace",
+            "name": "Envenomed",
+            "shortName": "Venom",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 1,
+                "onTick": "harm",
+                "amount": 1,
+                "school": "magic"
+              }
+            ],
+            "description": "Poisoned."
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "poison"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "pair",
+    "melee",
+    "debuffs"
+  ],
+  "annotations": {
+    "intent": "Ambient cave beast: ambushes from stealth in the Gnawdeep's side passages and webbed dead ends, in pairs. Web slows hard but briefly."
+  }
+}

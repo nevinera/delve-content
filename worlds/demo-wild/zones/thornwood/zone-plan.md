@@ -63,7 +63,7 @@ the ranger outpost toward the hills (north) and the mire (south). See ../../worl
 
 ## Units
 
-- Hostile: wolf, dire-wolf, panther (and the black panther), boar, bear; goblin wolfriders and
+- Hostile: wolf, dire-wolf, panther (and the black panther), boar, black-bear; goblin wolfriders and
   sneaks in the-hills.
 - Ambient: deer.
 - NCUs: Ranger Hale; woodcutters; trappers; an expedition survivor.

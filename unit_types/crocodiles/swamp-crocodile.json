@@ -1,0 +1,176 @@
+{
+  "name": "Swamp Crocodile",
+  "category": "crocodiles",
+  "description": "Lies under the scum, as still as a log, until something wades too close.",
+  "tokenImageUrl": [
+    "../../tokens/unit/crocodiles/swamp-crocodile-1.webp",
+    "../../tokens/unit/crocodiles/swamp-crocodile-2.webp",
+    "../../tokens/unit/crocodiles/swamp-crocodile-3.webp",
+    "../../tokens/unit/crocodiles/swamp-crocodile-4.webp"
+  ],
+  "tokenRadius": 3.5,
+  "speedFactor": 0.9,
+  "maxHP": 600,
+  "dps": 3.2,
+  "attackSpeed": 0.8,
+  "basicAttackStyle": "claw",
+  "stealth": 0,
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Death Roll",
+      "Armored Hide"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Death Roll",
+      "description": "Clamps on and rolls, tearing the wound open.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 12,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 30,
+      "graphicEffects": [
+        {
+          "sourceURL": ":claw-slash:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "color": "#C0392B",
+          "scale": 0.9
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":crunch:",
+          "duration": 0.401,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always"
+        },
+        {
+          "sourceURL": ":splash:",
+          "duration": 0.506,
+          "location": "affected",
+          "when": "impact",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            8,
+            10
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 6,
+          "status": {
+            "stacking": "replace",
+            "name": "Bleeding",
+            "shortName": "Bleed",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 1,
+                "onTick": "harm",
+                "amount": 1,
+                "school": "physical"
+              }
+            ],
+            "description": "Bleeding."
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "bleed"
+      ]
+    },
+    {
+      "name": "Armored Hide",
+      "description": "Hunkers into its scutes.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 20,
+      "costType": "energy",
+      "costAmount": 20,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":armor-up:",
+          "duration": 0.507,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 6,
+          "status": {
+            "stacking": "replace",
+            "name": "Armored Hide",
+            "shortName": "Hide",
+            "treatAs": "buff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageTaken",
+                "modifierType": "multiply",
+                "amount": 0.8
+              }
+            ],
+            "description": "Taking less damage.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#5D6D3A",
+              "opacity": 0.35,
+              "scale": 1.1
+            }
+          }
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "solo",
+    "melee",
+    "tough"
+  ],
+  "annotations": {
+    "intent": "Lurks stealthed in Brackwater's open water and channels: a slow, tough solo that ambushes waders. The Old Croc (S9) is a named variant of this type."
+  }
+}

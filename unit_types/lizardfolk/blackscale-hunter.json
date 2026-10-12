@@ -1,0 +1,126 @@
+{
+  "name": "Blackscale Hunter",
+  "category": "lizardfolk",
+  "description": "Throws barbed javelins from the reeds, then backs off to throw again.",
+  "tokenImageUrl": [
+    "../../tokens/unit/lizardfolk/blackscale-hunter-1.webp",
+    "../../tokens/unit/lizardfolk/blackscale-hunter-2.webp",
+    "../../tokens/unit/lizardfolk/blackscale-hunter-3.webp",
+    "../../tokens/unit/lizardfolk/blackscale-hunter-4.webp"
+  ],
+  "tokenRadius": 2,
+  "speedFactor": 1.1,
+  "maxHP": 195,
+  "dps": 3.6,
+  "attackSpeed": 0.8,
+  "basicAttackRange": 30,
+  "basicAttackStyle": "arrow",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Barbed Javelin"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Barbed Javelin",
+      "description": "A barbed javelin that hooks in and slows.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 10,
+      "maxRange": 30,
+      "speed": 35,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":spinning-spear:",
+          "duration": 0.5,
+          "from": "self",
+          "to": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "scale": 0.6,
+          "spriteColumns": 4,
+          "spriteRows": 1
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":whoosh:",
+          "duration": 0.3,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        },
+        {
+          "sourceURL": ":arrow-hit:",
+          "duration": 0.786,
+          "location": "affected",
+          "when": "impact",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 30,
+          "amount": [
+            5,
+            7
+          ],
+          "school": "physical",
+          "tags": [
+            "ranged"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 5,
+          "status": {
+            "stacking": "replace",
+            "name": "Hooked",
+            "shortName": "Hooked",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "movementSpeed",
+                "modifierType": "multiply",
+                "amount": 0.75
+              }
+            ],
+            "description": "Moving slower."
+          },
+          "range": 30
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "slow"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "pair",
+    "ranged"
+  ],
+  "annotations": {
+    "intent": "The Blackscales: Brackwater's hostile lizardfolk tribe, who've thrown in with the goblins. Their tokens are darkened from the lizardfolk sets so they read apart from the friendly Reedtalkers (green, NCUs). The hunter is their ranged threat; it pairs with a warrior."
+  }
+}
