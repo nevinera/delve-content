@@ -1,0 +1,253 @@
+{
+  "name": "The Old Croc",
+  "category": "crocodiles",
+  "description": "A crocodile older than the Reedtalkers' oldest stories, scarred grey and as long as a boat.",
+  "tokenImageUrl": [
+    "../../tokens/unit/crocodiles/old-croc-1.webp",
+    "../../tokens/unit/crocodiles/old-croc-2.webp",
+    "../../tokens/unit/crocodiles/old-croc-3.webp",
+    "../../tokens/unit/crocodiles/old-croc-4.webp"
+  ],
+  "tokenRadius": 4.5,
+  "speedFactor": 0.9,
+  "maxHP": 900,
+  "dps": 3.4,
+  "attackSpeed": 0.8,
+  "basicAttackStyle": "claw",
+  "stealth": 0,
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "phased",
+    "phases": [
+      {
+        "tactics": {
+          "type": "priorityRotation",
+          "powers": [
+            "Armored Hide",
+            "Death Roll"
+          ]
+        },
+        "transition": {
+          "healthBelow": 0.5
+        }
+      },
+      {
+        "tactics": {
+          "type": "priorityRotation",
+          "powers": [
+            "Thrash",
+            "Armored Hide",
+            "Death Roll"
+          ]
+        }
+      }
+    ]
+  },
+  "powers": [
+    {
+      "name": "Death Roll",
+      "description": "Clamps on and rolls, tearing the wound open.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 11,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 30,
+      "graphicEffects": [
+        {
+          "sourceURL": ":claw-slash:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "color": "#C0392B",
+          "scale": 1
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":crunch:",
+          "duration": 0.401,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always"
+        },
+        {
+          "sourceURL": ":splash:",
+          "duration": 0.506,
+          "location": "affected",
+          "when": "impact",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            10,
+            12
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 6,
+          "status": {
+            "stacking": "replace",
+            "name": "Bleeding",
+            "shortName": "Bleed",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 1,
+                "onTick": "harm",
+                "amount": 1.5,
+                "school": "physical"
+              }
+            ],
+            "description": "Bleeding."
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "bleed"
+      ]
+    },
+    {
+      "name": "Armored Hide",
+      "description": "Hunkers into its scarred scutes.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 20,
+      "costType": "energy",
+      "costAmount": 20,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":armor-up:",
+          "duration": 0.507,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 6,
+          "status": {
+            "stacking": "replace",
+            "name": "Armored Hide",
+            "shortName": "Hide",
+            "treatAs": "buff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageTaken",
+                "modifierType": "multiply",
+                "amount": 0.8
+              }
+            ],
+            "description": "Taking less damage.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#5D6D3A",
+              "opacity": 0.35,
+              "scale": 1.1
+            }
+          }
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "name": "Thrash",
+      "description": "Wounded, it thrashes its tail through the water around it.",
+      "castTime": 1,
+      "globalCooldown": 1,
+      "cooldown": 12,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":ring-burst:",
+          "duration": 0.4,
+          "from": "self",
+          "when": "impact",
+          "condition": "always",
+          "color": "#6FA8DC",
+          "scale": 1.6
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":splash:",
+          "duration": 0.506,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        },
+        {
+          "sourceURL": ":swing-heavy:",
+          "duration": 0.775,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bAll",
+          "range": 10,
+          "amount": [
+            7,
+            9
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "aoe"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "solo",
+    "melee",
+    "tough"
+  ],
+  "annotations": {
+    "intent": "S9's named mob, in the croc's wallow in Brackwater Mire: the swamp crocodile that's been eating Reedtalker fishers. Lurks stealthed like the stock crocodile.",
+    "balance": "A named quest boss, tuned by hand: 1.5x the swamp crocodile's HP (900), with a second phase below half health."
+  }
+}

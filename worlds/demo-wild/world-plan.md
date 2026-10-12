@@ -54,18 +54,18 @@ attributions).
 | Unit type | Exists | Where | Notes |
 |---|---|---|---|
 | wolf, dire-wolf | yes | thornwood | |
-| panther | yes | thornwood | the black panther (S3) is a named variant |
+| panther, black-panther | yes | thornwood | black-panther is S3's named mob |
 | boar | yes | thornwood | the boar run (L1) |
 | black-bear | yes | thornwood | the bear's den (S4) |
 | deer | yes | thornwood | ambient: placed neutral (no flee behavior yet) |
 | giant-frog | yes | brackwater-mire | S7 |
-| swamp-crocodile | yes | brackwater-mire | the Old Croc (S9) is a named variant |
+| swamp-crocodile, old-croc | yes | brackwater-mire | old-croc is S9's named mob |
 | swamp-viper | yes | brackwater-mire | replaces the leech swarm (no leech tokens) |
 | blackscale-warrior, -hunter, -shaman | yes | brackwater-mire | hostile lizardfolk |
 | blackscale-war-shaman | yes | brackwater-mire | named boss (L2) |
 | goblin, -archer, -sapper, -hexer, -shaman, -wolfrider, -cutter, -mender, -sneak | yes | thornwood (wolfriders, sneaks), gnawdeep | |
-| worg | yes | gnawdeep | the wolf pens |
-| goblin-boss | yes | gnawdeep | Warboss Grutt |
+| worg, wolf-master | yes | gnawdeep | the wolf pens; wolf-master is L3's named mob |
+| goblin-boss, warboss-grutt | yes | gnawdeep | warboss-grutt is L3's boss |
 | cave-bat, cave-spider | yes | gnawdeep | ambient cave beasts |
 | goblin-royal-guard | yes | hall-of-the-goblin-king | elite goblin |
 | goblin-king | yes | hall-of-the-goblin-king | dungeon boss |
@@ -77,5 +77,6 @@ attributions).
 | expedition survivors, Maren Holt | thornwood, brackwater-mire, gnawdeep | human prospectors |
 | Elder Sesh, Reedtalker villagers and fishers | brackwater-mire | friendly lizardfolk |
 
-Unit-type tokens are done (in the library, unit_types/ and tokens/unit/). Still needed, for NCUs:
+Named mobs are their own unit types (with an intent and a balance annotation). The hexer and
+shaman L3 names are still to do. Unit-type tokens are done (in the library, unit_types/ and tokens/unit/). Still needed, for NCUs:
 humans (ranger, woodcutter, trapper, prospector) and Reedtalker lizardfolk (the green sets).
