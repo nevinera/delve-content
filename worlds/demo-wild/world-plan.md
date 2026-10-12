@@ -79,5 +79,7 @@ attributions).
 | Elder Sesh, Reedtalker villagers and fishers | brackwater-mire | friendly lizardfolk |
 
 Named mobs are their own unit types (with an intent and a balance annotation). L3's hexer and
-shaman are hexer-nagg and shaman-brazza. Unit-type tokens are done (in the library, unit_types/ and tokens/unit/). Still needed, for NCUs:
-humans (ranger, woodcutter, trapper, prospector) and Reedtalker lizardfolk (the green sets).
+shaman are hexer-nagg and shaman-brazza. Unit-type tokens are done (in the library, unit_types/ and tokens/unit/). NCU tokens are in
+tokens/ncu/: humans/ (ranger-hale, trapper-1..2, woodcutter-1..3, prospector-1..4 for the
+expedition survivors, maren-holt) and lizardfolk/ (reedtalker-elder-sesh, reedtalker-1..4,
+reedtalker-fisher-1..2).
