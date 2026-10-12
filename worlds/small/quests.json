@@ -87,5 +87,37 @@
     },
     "progressText": "You're doing great!",
     "completionText": "Thanks, I appreciate the help."
+  },
+  {
+    "identifier": "greg-cut-snares",
+    "name": "Cut the snares",
+    "chainIdentifier": "greg-snares",
+    "chainName": "snares",
+    "offeredBy": {
+      "zone": "forest",
+      "ncu": "greg"
+    },
+    "offerText": "Anything need doing right here?",
+    "description": "The goblins left snares all around me. Cut all three.",
+    "objectives": [
+      {
+        "type": "use",
+        "text": "Cut the snares",
+        "zone": "forest",
+        "map": "hub",
+        "interactables": [
+          "snare-1",
+          "snare-2",
+          "snare-3"
+        ]
+      }
+    ],
+    "marker": true,
+    "turnIn": {
+      "zone": "forest",
+      "ncu": "greg"
+    },
+    "progressText": "Still snared?",
+    "completionText": "Much better."
   }
 ]

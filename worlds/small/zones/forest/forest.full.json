@@ -1,26 +1,43 @@
 {
-  "name": "Forest",
   "description": null,
   "elvl": 0,
-  "private": false,
+  "entryPoints": {
+    "hub/central": null
+  },
+  "flags": [
+    "zone/reached/forest",
+    "quest/completed/greg-kill-boss",
+    "quest/completed/greg-kill-lots-of-goblins",
+    "quest/completed/greg-cut-snares"
+  ],
+  "items": {
+    "warchief-battlechestplate": {
+      "elvl": 5,
+      "identifier": "warchief-battlechestplate",
+      "name": "Warchief's Battlechestplate",
+      "primary": "strength",
+      "secondaries": [
+        "stamina",
+        "versatility_rating"
+      ],
+      "slot": "chest"
+    },
+    "warchief-hexweave-wrists": {
+      "elvl": 5,
+      "identifier": "warchief-hexweave-wrists",
+      "name": "Warchief's Hexweave Wraps",
+      "primary": "intellect",
+      "secondaries": [
+        "stamina",
+        "crit_rating"
+      ],
+      "slot": "wrists"
+    }
+  },
   "maps": [
     {
-      "identifier": "passage",
-      "name": "Passage",
-      "elvl": 1,
-      "imageUrl": "passage/passage.png",
-      "pixelDimensions": {
-        "width": 4034,
-        "height": 4158
-      },
-      "feetDimensions": {
-        "width": 400,
-        "height": 412.3
-      },
-      "lighting": "daylight",
       "barriers": [
         {
-          "type": "wall",
           "locations": [
             {
               "x": 325.41086800892856,
@@ -282,10 +299,10 @@
               "x": 104.11303283428164,
               "y": 41.02406843053462
             }
-          ]
+          ],
+          "type": "wall"
         },
         {
-          "type": "wall",
           "locations": [
             {
               "x": 154.94705229418867,
@@ -331,10 +348,10 @@
               "x": 154.94705229418867,
               "y": 110.25580360868088
             }
-          ]
+          ],
+          "type": "wall"
         },
         {
-          "type": "wall",
           "locations": [
             {
               "x": 148.70875578395703,
@@ -376,10 +393,10 @@
               "x": 148.70875578395703,
               "y": 168.2128680170044
             }
-          ]
+          ],
+          "type": "wall"
         },
         {
-          "type": "wall",
           "locations": [
             {
               "x": 121.0518271034764,
@@ -409,34 +426,34 @@
               "x": 121.0518271034764,
               "y": 146.68681186735355
             }
-          ]
+          ],
+          "type": "wall"
         },
         {
-          "type": "circle",
           "location": {
             "x": 224.9871094959321,
             "y": 215.84517996063087
           },
-          "radius": 10.384899559916407
+          "radius": 10.384899559916407,
+          "type": "circle"
         },
         {
-          "type": "circle",
           "location": {
             "x": 189.93240849137374,
             "y": 200.74078113784807
           },
-          "radius": 10.135693746926425
+          "radius": 10.135693746926425,
+          "type": "circle"
         },
         {
-          "type": "circle",
           "location": {
             "x": 167.42810193533245,
             "y": 214.2269786324575
           },
-          "radius": 10.33091608749556
+          "radius": 10.33091608749556,
+          "type": "circle"
         },
         {
-          "type": "wall",
           "locations": [
             {
               "x": 314.18431394429433,
@@ -794,186 +811,49 @@
               "x": 90.55791892604243,
               "y": 33.751763744889516
             }
-          ]
+          ],
+          "type": "wall"
         },
         {
-          "type": "circle",
           "location": {
             "x": 62.40350421960377,
             "y": 97.64713084650704
           },
-          "radius": 9.529142325587934
+          "radius": 9.529142325587934,
+          "type": "circle"
         }
       ],
       "connections": [
         {
+          "end": {
+            "x": 104.11303283428164,
+            "y": 41.02406843053462
+          },
           "identifier": "south",
-          "type": "line",
           "start": {
             "x": 90.55791892604243,
             "y": 33.751763744889516
           },
-          "end": {
-            "x": 104.11303283428164,
-            "y": 41.02406843053462
-          }
+          "type": "line"
         },
         {
+          "end": {
+            "x": 325.41086800892856,
+            "y": 336.7199116595719
+          },
           "identifier": "north",
-          "type": "line",
           "start": {
             "x": 314.18431394429433,
             "y": 344.9619575133775
           },
-          "end": {
-            "x": 325.41086800892856,
-            "y": 336.7199116595719
-          }
+          "type": "line"
         }
       ],
-      "units": [
-        {
-          "identifier": "goblin-hqdgqw",
-          "unitType": "goblin",
-          "position": {
-            "x": 79.3409566732717,
-            "y": 105.3136672771869,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          }
-        },
-        {
-          "identifier": "goblin-bgijmj",
-          "unitType": "goblin",
-          "position": {
-            "x": 118.09217335154958,
-            "y": 128.77750563153222,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          }
-        },
-        {
-          "identifier": "goblin-bueksg",
-          "unitType": "goblin",
-          "position": {
-            "x": 192.23838877241627,
-            "y": 137.50252007436623,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          }
-        },
-        {
-          "identifier": "goblin-jkoohj",
-          "unitType": "goblin",
-          "position": {
-            "x": 139.16522946076472,
-            "y": 183.1263729459682,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          }
-        },
-        {
-          "identifier": "goblin-rxhgpz",
-          "unitType": "goblin",
-          "position": {
-            "x": 134.82709943757106,
-            "y": 262.78065180474283,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          }
-        },
-        {
-          "identifier": "goblin-pnewhe",
-          "unitType": "goblin",
-          "position": {
-            "x": 186.31322930156588,
-            "y": 288.975657986253,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          }
-        },
-        {
-          "identifier": "goblin-uckjlu",
-          "unitType": "goblin",
-          "position": {
-            "x": 176.8110152501874,
-            "y": 344.6755113780056,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          }
-        },
-        {
-          "identifier": "goblin-uitvgn",
-          "unitType": "goblin",
-          "position": {
-            "x": 235.71094793516966,
-            "y": 171.35030617245067,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          }
-        },
-        {
-          "identifier": "goblin-lbwukv",
-          "unitType": "goblin",
-          "position": {
-            "x": 257.83204235887507,
-            "y": 231.84149382180328,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          }
-        },
-        {
-          "identifier": "goblin-xziupg",
-          "unitType": "goblin",
-          "position": {
-            "x": 289.90575777625776,
-            "y": 271.97431443787644,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          }
-        }
-      ],
-      "thumbnailUrl": "passage/passage.thumb.webp",
+      "elvl": 1,
+      "feetDimensions": {
+        "height": 412.3,
+        "width": 400
+      },
       "fillPoints": [
         {
           "x": 181.82691555221035,
@@ -987,25 +867,162 @@
           "x": 135.79681179573038,
           "y": 146.56204452058202
         }
+      ],
+      "identifier": "passage",
+      "imageUrl": "passage/passage.png",
+      "lighting": "daylight",
+      "name": "Passage",
+      "pixelDimensions": {
+        "height": 4158,
+        "width": 4034
+      },
+      "thumbnailUrl": "passage/passage.thumb.webp",
+      "units": [
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-hqdgqw",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 79.3409566732717,
+            "y": 105.3136672771869
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-bgijmj",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 118.09217335154958,
+            "y": 128.77750563153222
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-bueksg",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 192.23838877241627,
+            "y": 137.50252007436623
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-jkoohj",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 139.16522946076472,
+            "y": 183.1263729459682
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-rxhgpz",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 134.82709943757106,
+            "y": 262.78065180474283
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-pnewhe",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 186.31322930156588,
+            "y": 288.975657986253
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-uckjlu",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 176.8110152501874,
+            "y": 344.6755113780056
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-uitvgn",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 235.71094793516966,
+            "y": 171.35030617245067
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-lbwukv",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 257.83204235887507,
+            "y": 231.84149382180328
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-xziupg",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 289.90575777625776,
+            "y": 271.97431443787644
+          },
+          "unitType": "goblin"
+        }
       ]
     },
     {
-      "identifier": "hub",
-      "name": "Hub",
-      "elvl": 0,
-      "imageUrl": "hub/hub.png",
-      "pixelDimensions": {
-        "width": 4104,
-        "height": 4087
-      },
-      "feetDimensions": {
-        "width": 400,
-        "height": 398.34
-      },
-      "lighting": "daylight",
       "barriers": [
         {
-          "type": "wall",
           "locations": [
             {
               "x": 192.33438932956958,
@@ -1171,10 +1188,10 @@
               "x": 313.0873024096671,
               "y": 41.903149736207176
             }
-          ]
+          ],
+          "type": "wall"
         },
         {
-          "type": "wall",
           "locations": [
             {
               "x": 295.6421390521793,
@@ -1380,10 +1397,10 @@
               "x": 75.94223153113036,
               "y": 366.9328536704423
             }
-          ]
+          ],
+          "type": "wall"
         },
         {
-          "type": "wall",
           "locations": [
             {
               "x": 92.57010534183634,
@@ -1449,10 +1466,10 @@
               "x": 177.78803132609815,
               "y": 272.598923222487
             }
-          ]
+          ],
+          "type": "wall"
         },
         {
-          "type": "wall",
           "locations": [
             {
               "x": 74.16291343920051,
@@ -1626,727 +1643,137 @@
               "x": 74.16291343920051,
               "y": 254.89564147965257
             }
-          ]
+          ],
+          "type": "wall"
         },
         {
-          "type": "circle",
           "location": {
             "x": 209.97047765633602,
             "y": 124.81355133656483
           },
-          "radius": 9.660552701100748
+          "radius": 9.660552701100748,
+          "type": "circle"
         },
         {
-          "type": "circle",
           "location": {
             "x": 253.1446787831893,
             "y": 199.82023030384437
           },
-          "radius": 8.52543448613766
+          "radius": 8.52543448613766,
+          "type": "circle"
         }
       ],
       "connections": [
         {
+          "end": {
+            "x": 192.33438932956958,
+            "y": 261.0165332531502
+          },
           "identifier": "central",
-          "type": "line",
           "start": {
             "x": 177.78803132609815,
             "y": 272.598923222487
           },
-          "end": {
-            "x": 192.33438932956958,
-            "y": 261.0165332531502
-          }
+          "type": "line"
         },
         {
+          "end": {
+            "x": 92.57010534183634,
+            "y": 352.6700815430135
+          },
           "identifier": "north",
-          "type": "line",
           "start": {
             "x": 75.94223153113036,
             "y": 366.9328536704423
           },
-          "end": {
-            "x": 92.57010534183634,
-            "y": 352.6700815430135
-          }
+          "type": "line"
         },
         {
+          "end": {
+            "x": 313.0873024096671,
+            "y": 41.903149736207176
+          },
           "identifier": "southeast",
-          "type": "line",
           "start": {
             "x": 295.6421390521793,
             "y": 30.248819616140967
           },
-          "end": {
-            "x": 313.0873024096671,
-            "y": 41.903149736207176
-          }
+          "type": "line"
         }
       ],
-      "units": [
+      "elvl": 0,
+      "feetDimensions": {
+        "height": 398.34,
+        "width": 400
+      },
+      "fillPoints": [
         {
-          "identifier": "goblin-cqbdxe",
-          "unitType": "goblin",
-          "position": {
-            "x": 164.43300806079338,
-            "y": 176.32081836266462,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g1"
-        },
-        {
-          "identifier": "goblin-xyjwdv",
-          "unitType": "goblin",
-          "position": {
-            "x": 156.52727549411546,
-            "y": 183.3518790181354,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "patrol",
-            "choose": "loop",
-            "steps": [
-              {
-                "position": {
-                  "x": 156.52727549411546,
-                  "y": 183.3518790181354,
-                  "angle": 0
-                },
-                "movementRate": 0.5,
-                "waitTime": 1
-              },
-              {
-                "position": {
-                  "x": 169.59328155392757,
-                  "y": 187.94495458139875,
-                  "angle": 0
-                },
-                "movementRate": 0.5,
-                "waitTime": 1
-              },
-              {
-                "position": {
-                  "x": 183.75143730696405,
-                  "y": 178.83309612241274,
-                  "angle": 0
-                },
-                "movementRate": 0.5,
-                "waitTime": 1
-              },
-              {
-                "position": {
-                  "x": 171.45188821392955,
-                  "y": 167.5370258585624,
-                  "angle": 0
-                },
-                "movementRate": 0.5,
-                "waitTime": 1
-              },
-              {
-                "position": {
-                  "x": 141.49740518814028,
-                  "y": 180.48680422257806,
-                  "angle": 0
-                },
-                "movementRate": 0.5,
-                "waitTime": 1
-              }
-            ]
-          },
-          "groupIdentifier": "g1"
-        },
-        {
-          "identifier": "goblin-rtmlhl",
-          "unitType": "goblin",
-          "position": {
-            "x": 231.1848116392639,
-            "y": 163.6775663577145,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g2"
-        },
-        {
-          "identifier": "goblin-dcvhpl",
-          "unitType": "goblin",
-          "position": {
-            "x": 231.08735063900227,
-            "y": 173.8146977329919,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g2"
-        },
-        {
-          "identifier": "goblin-xvmtwc",
-          "unitType": "goblin",
-          "position": {
-            "x": 282.05489715765316,
-            "y": 75.23049389261189,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g5"
-        },
-        {
-          "identifier": "goblin-tgdcvt",
-          "unitType": "goblin",
-          "position": {
-            "x": 280.7980299724608,
-            "y": 86.62954560515381,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g5"
-        },
-        {
-          "identifier": "goblin-gpqsbd",
-          "unitType": "goblin",
-          "position": {
-            "x": 333.3434321135218,
-            "y": 123.83024834591752,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g4"
-        },
-        {
-          "identifier": "goblin-mbqncp",
-          "unitType": "goblin",
-          "position": {
-            "x": 334.9762202997233,
-            "y": 112.1514730681445,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g4"
-        },
-        {
-          "identifier": "goblin-kzidcp",
-          "unitType": "goblin",
-          "position": {
-            "x": 331.6524204726186,
-            "y": 95.32375904213474,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g4"
-        },
-        {
-          "identifier": "goblin-atlkwd",
-          "unitType": "goblin",
-          "position": {
-            "x": 313.5105113026502,
-            "y": 192.98397609092635,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g3"
-        },
-        {
-          "identifier": "goblin-ajfkju",
-          "unitType": "goblin",
-          "position": {
-            "x": 174.40923287527082,
-            "y": 105.34175564363542,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          }
-        },
-        {
-          "identifier": "goblin-loxkre",
-          "unitType": "goblin",
-          "position": {
-            "x": 100.8190896049849,
-            "y": 126.13749399996044,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          }
-        },
-        {
-          "identifier": "goblin-fnooup",
-          "unitType": "goblin",
-          "position": {
-            "x": 88.99719684597565,
-            "y": 179.44951466754472,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "patrol",
-            "choose": "loop",
-            "steps": [
-              {
-                "position": {
-                  "x": 88.99719684597565,
-                  "y": 179.44951466754472,
-                  "angle": 0
-                },
-                "movementRate": 0.5,
-                "waitTime": 1
-              },
-              {
-                "position": {
-                  "x": 101.14730904562322,
-                  "y": 168.30634935925102,
-                  "angle": 0
-                },
-                "movementRate": 0.5,
-                "waitTime": 1
-              },
-              {
-                "position": {
-                  "x": 102.26114904861336,
-                  "y": 146.23603349076413,
-                  "angle": 0
-                },
-                "movementRate": 0.5,
-                "waitTime": 1
-              },
-              {
-                "position": {
-                  "x": 70.46354841779643,
-                  "y": 160.74621879307153,
-                  "angle": 0
-                },
-                "movementRate": 0.5,
-                "waitTime": 1
-              },
-              {
-                "position": {
-                  "x": 56.756987744636774,
-                  "y": 188.35278296165365,
-                  "angle": 0
-                },
-                "movementRate": 0.5,
-                "waitTime": 1
-              },
-              {
-                "position": {
-                  "x": 78.40851853003421,
-                  "y": 178.07642266250562,
-                  "angle": 0
-                },
-                "movementRate": 0.5,
-                "waitTime": 1
-              }
-            ]
-          }
-        },
-        {
-          "identifier": "goblin-syvnko",
-          "unitType": "goblin",
-          "position": {
-            "x": 56.28827257634856,
-            "y": 158.25127814948436,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g6"
-        },
-        {
-          "identifier": "goblin-ibbeau",
-          "unitType": "goblin",
-          "position": {
-            "x": 57.44641303400312,
-            "y": 215.61739193668575,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          }
-        },
-        {
-          "identifier": "goblin-khrvfy",
-          "unitType": "goblin",
-          "position": {
-            "x": 92.65135149214906,
-            "y": 291.5048510085576,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g7"
-        },
-        {
-          "identifier": "goblin-archer-ihtfem",
-          "unitType": "goblin-archer",
-          "position": {
-            "x": 140.87809216707095,
-            "y": 174.89176724441052,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g1"
-        },
-        {
-          "identifier": "goblin-archer-hrhuhl",
-          "unitType": "goblin-archer",
-          "position": {
-            "x": 165.78001059755786,
-            "y": 161.96879167422924,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g1"
-        },
-        {
-          "identifier": "goblin-archer-zbeqwg",
-          "unitType": "goblin-archer",
-          "position": {
-            "x": 245.92697301648627,
-            "y": 172.2116281938074,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g2"
-        },
-        {
-          "identifier": "goblin-archer-cownyk",
-          "unitType": "goblin-archer",
-          "position": {
-            "x": 327.07860189178194,
-            "y": 195.490926551283,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g3"
-        },
-        {
-          "identifier": "goblin-archer-nuzmxv",
-          "unitType": "goblin-archer",
-          "position": {
-            "x": 320.39176469201254,
-            "y": 180.94276972428358,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g3"
-        },
-        {
-          "identifier": "goblin-archer-owdlqh",
-          "unitType": "goblin-archer",
-          "position": {
-            "x": 315.1870941325858,
-            "y": 205.45592034795658,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g3"
-        },
-        {
-          "identifier": "goblin-archer-lohfrt",
-          "unitType": "goblin-archer",
-          "position": {
-            "x": 343.7484594778805,
-            "y": 119.96558772460769,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g4"
-        },
-        {
-          "identifier": "goblin-archer-ovzeis",
-          "unitType": "goblin-archer",
-          "position": {
-            "x": 272.27157446781507,
-            "y": 90.46424447389413,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g5"
-        },
-        {
-          "identifier": "goblin-archer-zfngfw",
-          "unitType": "goblin-archer",
-          "position": {
-            "x": 115.0852345390349,
-            "y": 145.17409651687754,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "patrol",
-            "choose": "return",
-            "steps": [
-              {
-                "position": {
-                  "x": 115.0852345390349,
-                  "y": 145.17409651687754,
-                  "angle": 0
-                },
-                "movementRate": 0.5,
-                "waitTime": 1
-              },
-              {
-                "position": {
-                  "x": 91.05186829124872,
-                  "y": 141.62375895817445,
-                  "angle": 0
-                },
-                "movementRate": 0.5,
-                "waitTime": 1
-              },
-              {
-                "position": {
-                  "x": 89.90891656090767,
-                  "y": 130.43987921888734,
-                  "angle": 0
-                },
-                "movementRate": 0.5,
-                "waitTime": 1
-              },
-              {
-                "position": {
-                  "x": 110.57444579820358,
-                  "y": 133.09788594732817,
-                  "angle": 0
-                },
-                "movementRate": 0.5,
-                "waitTime": 1
-              }
-            ]
-          }
-        },
-        {
-          "identifier": "goblin-archer-rvjuaq",
-          "unitType": "goblin-archer",
-          "position": {
-            "x": 55.47201128809085,
-            "y": 166.0394493351379,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g6"
-        },
-        {
-          "identifier": "goblin-archer-dswdvq",
-          "unitType": "goblin-archer",
-          "position": {
-            "x": 82.18138826888453,
-            "y": 282.7791048482583,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g7"
-        },
-        {
-          "identifier": "goblin-shaman-fdfnsf",
-          "unitType": "goblin-shaman",
-          "position": {
-            "x": 87.66831601088722,
-            "y": 280.9539402280623,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g7"
-        },
-        {
-          "identifier": "goblin-shaman-jsrrub",
-          "unitType": "goblin-shaman",
-          "position": {
-            "x": 246.02371879818824,
-            "y": 161.62589244843642,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g2"
-        },
-        {
-          "identifier": "goblin-shaman-qjpcsf",
-          "unitType": "goblin-shaman",
-          "position": {
-            "x": 347.81603779872796,
-            "y": 100.56768074368178,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "g4"
-        },
-        {
-          "identifier": "goblin-shaman-egwoiw",
-          "unitType": "goblin-shaman",
-          "position": {
-            "x": 277.8111936107961,
-            "y": 134.0281883022824,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "wander",
-            "location": {
-              "x": 277.8111936107961,
-              "y": 134.0281883022824
-            },
-            "radius": 10,
-            "speed": 0.3,
-            "waitTime": 1
-          }
-        },
-        {
-          "identifier": "goblin-boss-mhbeyp",
-          "unitType": "goblin-boss",
-          "position": {
-            "x": 252.23806485046384,
-            "y": 229.70437293927034,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "group-ngulos"
-        },
-        {
-          "identifier": "goblin-sneak-twzvtx",
-          "unitType": "goblin-sneak",
-          "position": {
-            "x": 209.22502903587352,
-            "y": 220.14051501298638,
-            "angle": 0
-          },
-          "hostility": "hostile",
-          "currentHpFraction": 1,
-          "movement": {
-            "type": "still"
-          },
-          "groupIdentifier": "group-lohxlv"
+          "x": 108.28396112818714,
+          "y": 200.21251482516126
         }
       ],
-      "thumbnailUrl": "hub/hub.thumb.webp",
+      "identifier": "hub",
+      "imageUrl": "hub/hub.png",
+      "interactables": [
+        {
+          "identifier": "snare-1",
+          "imageUrl": "../../graphics/interactable/snare.png",
+          "name": "Goblin Snare",
+          "position": {
+            "angle": 0,
+            "x": 185,
+            "y": 236
+          },
+          "size": {
+            "height": 3,
+            "width": 4
+          },
+          "useText": "Cutting",
+          "useTime": 1,
+          "usedImageUrl": "../../graphics/interactable/snare-cut.png",
+          "whenUnavailable": "used"
+        },
+        {
+          "identifier": "snare-2",
+          "imageUrl": "../../graphics/interactable/snare.png",
+          "name": "Goblin Snare",
+          "position": {
+            "angle": 0,
+            "x": 145,
+            "y": 276
+          },
+          "size": {
+            "height": 3,
+            "width": 4
+          },
+          "useText": "Cutting",
+          "useTime": 2,
+          "usedImageUrl": "../../graphics/interactable/snare-cut.png",
+          "whenUnavailable": "used"
+        },
+        {
+          "identifier": "snare-3",
+          "imageUrl": "../../graphics/interactable/snare.png",
+          "name": "Goblin Snare",
+          "position": {
+            "angle": 0,
+            "x": 105,
+            "y": 236
+          },
+          "size": {
+            "height": 3,
+            "width": 4
+          },
+          "useText": "Cutting",
+          "useTime": 0,
+          "usedImageUrl": "../../graphics/interactable/snare-cut.png",
+          "whenUnavailable": "hidden"
+        }
+      ],
+      "lighting": "daylight",
+      "name": "Hub",
       "ncus": [
         {
-          "identifier": "greg",
-          "name": "Greg",
-          "tokenImageUrl": "../../tokens/unit/goblin-shaman.webp",
-          "tokenRadius": 2,
-          "position": {
-            "x": 145.02655530144673,
-            "y": 236.58148104708943,
-            "angle": 0
-          },
-          "movement": {
-            "type": "wander",
-            "location": {
-              "x": 145.02655530144673,
-              "y": 236.58148104708943
-            },
-            "radius": 10,
-            "speed": 0.3,
-            "waitTime": 1
-          },
           "dialogue": {
             "entry": [
               {
@@ -2354,118 +1781,764 @@
               }
             ],
             "nodes": {
-              "node-tfsspe": {
-                "text": "hello?",
-                "choices": [
-                  {
-                    "text": "What!?",
-                    "next": "node-koefbc"
-                  },
-                  {
-                    "text": "Shoo.",
-                    "next": "node-koefbc"
-                  }
-                ]
-              },
               "node-koefbc": {
                 "text": "Ah, never mind."
+              },
+              "node-tfsspe": {
+                "choices": [
+                  {
+                    "next": "node-koefbc",
+                    "text": "What!?"
+                  },
+                  {
+                    "next": "node-koefbc",
+                    "text": "Shoo."
+                  }
+                ],
+                "text": "hello?"
               }
             }
-          }
+          },
+          "identifier": "greg",
+          "movement": {
+            "location": {
+              "x": 145.02655530144673,
+              "y": 236.58148104708943
+            },
+            "radius": 10,
+            "speed": 0.3,
+            "type": "wander",
+            "waitTime": 1
+          },
+          "name": "Greg",
+          "position": {
+            "angle": 0,
+            "x": 145.02655530144673,
+            "y": 236.58148104708943
+          },
+          "tokenImageUrl": "../../tokens/unit/goblin-shaman.webp",
+          "tokenRadius": 2
         }
       ],
-      "fillPoints": [
+      "pixelDimensions": {
+        "height": 4087,
+        "width": 4104
+      },
+      "thumbnailUrl": "hub/hub.thumb.webp",
+      "units": [
         {
-          "x": 108.28396112818714,
-          "y": 200.21251482516126
+          "currentHpFraction": 1,
+          "groupIdentifier": "g1",
+          "hostility": "hostile",
+          "identifier": "goblin-cqbdxe",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 164.43300806079338,
+            "y": 176.32081836266462
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g1",
+          "hostility": "hostile",
+          "identifier": "goblin-xyjwdv",
+          "movement": {
+            "choose": "loop",
+            "steps": [
+              {
+                "movementRate": 0.5,
+                "position": {
+                  "angle": 0,
+                  "x": 156.52727549411546,
+                  "y": 183.3518790181354
+                },
+                "waitTime": 1
+              },
+              {
+                "movementRate": 0.5,
+                "position": {
+                  "angle": 0,
+                  "x": 169.59328155392757,
+                  "y": 187.94495458139875
+                },
+                "waitTime": 1
+              },
+              {
+                "movementRate": 0.5,
+                "position": {
+                  "angle": 0,
+                  "x": 183.75143730696405,
+                  "y": 178.83309612241274
+                },
+                "waitTime": 1
+              },
+              {
+                "movementRate": 0.5,
+                "position": {
+                  "angle": 0,
+                  "x": 171.45188821392955,
+                  "y": 167.5370258585624
+                },
+                "waitTime": 1
+              },
+              {
+                "movementRate": 0.5,
+                "position": {
+                  "angle": 0,
+                  "x": 141.49740518814028,
+                  "y": 180.48680422257806
+                },
+                "waitTime": 1
+              }
+            ],
+            "type": "patrol"
+          },
+          "position": {
+            "angle": 0,
+            "x": 156.52727549411546,
+            "y": 183.3518790181354
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g2",
+          "hostility": "hostile",
+          "identifier": "goblin-rtmlhl",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 231.1848116392639,
+            "y": 163.6775663577145
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g2",
+          "hostility": "hostile",
+          "identifier": "goblin-dcvhpl",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 231.08735063900227,
+            "y": 173.8146977329919
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g5",
+          "hostility": "hostile",
+          "identifier": "goblin-xvmtwc",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 282.05489715765316,
+            "y": 75.23049389261189
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g5",
+          "hostility": "hostile",
+          "identifier": "goblin-tgdcvt",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 280.7980299724608,
+            "y": 86.62954560515381
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g4",
+          "hostility": "hostile",
+          "identifier": "goblin-gpqsbd",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 333.3434321135218,
+            "y": 123.83024834591752
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g4",
+          "hostility": "hostile",
+          "identifier": "goblin-mbqncp",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 334.9762202997233,
+            "y": 112.1514730681445
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g4",
+          "hostility": "hostile",
+          "identifier": "goblin-kzidcp",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 331.6524204726186,
+            "y": 95.32375904213474
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g3",
+          "hostility": "hostile",
+          "identifier": "goblin-atlkwd",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 313.5105113026502,
+            "y": 192.98397609092635
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-ajfkju",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 174.40923287527082,
+            "y": 105.34175564363542
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-loxkre",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 100.8190896049849,
+            "y": 126.13749399996044
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-fnooup",
+          "movement": {
+            "choose": "loop",
+            "steps": [
+              {
+                "movementRate": 0.5,
+                "position": {
+                  "angle": 0,
+                  "x": 88.99719684597565,
+                  "y": 179.44951466754472
+                },
+                "waitTime": 1
+              },
+              {
+                "movementRate": 0.5,
+                "position": {
+                  "angle": 0,
+                  "x": 101.14730904562322,
+                  "y": 168.30634935925102
+                },
+                "waitTime": 1
+              },
+              {
+                "movementRate": 0.5,
+                "position": {
+                  "angle": 0,
+                  "x": 102.26114904861336,
+                  "y": 146.23603349076413
+                },
+                "waitTime": 1
+              },
+              {
+                "movementRate": 0.5,
+                "position": {
+                  "angle": 0,
+                  "x": 70.46354841779643,
+                  "y": 160.74621879307153
+                },
+                "waitTime": 1
+              },
+              {
+                "movementRate": 0.5,
+                "position": {
+                  "angle": 0,
+                  "x": 56.756987744636774,
+                  "y": 188.35278296165365
+                },
+                "waitTime": 1
+              },
+              {
+                "movementRate": 0.5,
+                "position": {
+                  "angle": 0,
+                  "x": 78.40851853003421,
+                  "y": 178.07642266250562
+                },
+                "waitTime": 1
+              }
+            ],
+            "type": "patrol"
+          },
+          "position": {
+            "angle": 0,
+            "x": 88.99719684597565,
+            "y": 179.44951466754472
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g6",
+          "hostility": "hostile",
+          "identifier": "goblin-syvnko",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 56.28827257634856,
+            "y": 158.25127814948436
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-ibbeau",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 57.44641303400312,
+            "y": 215.61739193668575
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g7",
+          "hostility": "hostile",
+          "identifier": "goblin-khrvfy",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 92.65135149214906,
+            "y": 291.5048510085576
+          },
+          "unitType": "goblin"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g1",
+          "hostility": "hostile",
+          "identifier": "goblin-archer-ihtfem",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 140.87809216707095,
+            "y": 174.89176724441052
+          },
+          "unitType": "goblin-archer"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g1",
+          "hostility": "hostile",
+          "identifier": "goblin-archer-hrhuhl",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 165.78001059755786,
+            "y": 161.96879167422924
+          },
+          "unitType": "goblin-archer"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g2",
+          "hostility": "hostile",
+          "identifier": "goblin-archer-zbeqwg",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 245.92697301648627,
+            "y": 172.2116281938074
+          },
+          "unitType": "goblin-archer"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g3",
+          "hostility": "hostile",
+          "identifier": "goblin-archer-cownyk",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 327.07860189178194,
+            "y": 195.490926551283
+          },
+          "unitType": "goblin-archer"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g3",
+          "hostility": "hostile",
+          "identifier": "goblin-archer-nuzmxv",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 320.39176469201254,
+            "y": 180.94276972428358
+          },
+          "unitType": "goblin-archer"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g3",
+          "hostility": "hostile",
+          "identifier": "goblin-archer-owdlqh",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 315.1870941325858,
+            "y": 205.45592034795658
+          },
+          "unitType": "goblin-archer"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g4",
+          "hostility": "hostile",
+          "identifier": "goblin-archer-lohfrt",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 343.7484594778805,
+            "y": 119.96558772460769
+          },
+          "unitType": "goblin-archer"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g5",
+          "hostility": "hostile",
+          "identifier": "goblin-archer-ovzeis",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 272.27157446781507,
+            "y": 90.46424447389413
+          },
+          "unitType": "goblin-archer"
+        },
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-archer-zfngfw",
+          "movement": {
+            "choose": "return",
+            "steps": [
+              {
+                "movementRate": 0.5,
+                "position": {
+                  "angle": 0,
+                  "x": 115.0852345390349,
+                  "y": 145.17409651687754
+                },
+                "waitTime": 1
+              },
+              {
+                "movementRate": 0.5,
+                "position": {
+                  "angle": 0,
+                  "x": 91.05186829124872,
+                  "y": 141.62375895817445
+                },
+                "waitTime": 1
+              },
+              {
+                "movementRate": 0.5,
+                "position": {
+                  "angle": 0,
+                  "x": 89.90891656090767,
+                  "y": 130.43987921888734
+                },
+                "waitTime": 1
+              },
+              {
+                "movementRate": 0.5,
+                "position": {
+                  "angle": 0,
+                  "x": 110.57444579820358,
+                  "y": 133.09788594732817
+                },
+                "waitTime": 1
+              }
+            ],
+            "type": "patrol"
+          },
+          "position": {
+            "angle": 0,
+            "x": 115.0852345390349,
+            "y": 145.17409651687754
+          },
+          "unitType": "goblin-archer"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g6",
+          "hostility": "hostile",
+          "identifier": "goblin-archer-rvjuaq",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 55.47201128809085,
+            "y": 166.0394493351379
+          },
+          "unitType": "goblin-archer"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g7",
+          "hostility": "hostile",
+          "identifier": "goblin-archer-dswdvq",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 82.18138826888453,
+            "y": 282.7791048482583
+          },
+          "unitType": "goblin-archer"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g7",
+          "hostility": "hostile",
+          "identifier": "goblin-shaman-fdfnsf",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 87.66831601088722,
+            "y": 280.9539402280623
+          },
+          "unitType": "goblin-shaman"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g2",
+          "hostility": "hostile",
+          "identifier": "goblin-shaman-jsrrub",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 246.02371879818824,
+            "y": 161.62589244843642
+          },
+          "unitType": "goblin-shaman"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "g4",
+          "hostility": "hostile",
+          "identifier": "goblin-shaman-qjpcsf",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 347.81603779872796,
+            "y": 100.56768074368178
+          },
+          "unitType": "goblin-shaman"
+        },
+        {
+          "currentHpFraction": 1,
+          "hostility": "hostile",
+          "identifier": "goblin-shaman-egwoiw",
+          "movement": {
+            "location": {
+              "x": 277.8111936107961,
+              "y": 134.0281883022824
+            },
+            "radius": 10,
+            "speed": 0.3,
+            "type": "wander",
+            "waitTime": 1
+          },
+          "position": {
+            "angle": 0,
+            "x": 277.8111936107961,
+            "y": 134.0281883022824
+          },
+          "unitType": "goblin-shaman"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "group-ngulos",
+          "hostility": "hostile",
+          "identifier": "goblin-boss-mhbeyp",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 252.23806485046384,
+            "y": 229.70437293927034
+          },
+          "unitType": "goblin-boss"
+        },
+        {
+          "currentHpFraction": 1,
+          "groupIdentifier": "group-lohxlv",
+          "hostility": "hostile",
+          "identifier": "goblin-sneak-twzvtx",
+          "movement": {
+            "type": "still"
+          },
+          "position": {
+            "angle": 0,
+            "x": 209.22502903587352,
+            "y": 220.14051501298638
+          },
+          "unitType": "goblin-sneak"
         }
       ]
     }
   ],
+  "name": "Forest",
+  "openConnections": {
+    "hub/southeast": "south-exit",
+    "passage/north": "north-exit"
+  },
+  "private": false,
   "unitTypes": {
     "goblin": {
-      "name": "Goblin",
-      "description": "A scrappy goblin that stabs anything within reach.",
-      "tokenImageUrl": [
-        "../../tokens/unit/goblin-1.webp",
-        "../../tokens/unit/goblin-2.webp",
-        "../../tokens/unit/goblin-3.webp"
-      ],
-      "tokenRadius": 2,
-      "speedFactor": 1,
-      "maxHP": 140,
-      "dps": 3,
       "attackSpeed": 1,
       "basicAttackStyle": "sword",
-      "resource": {
-        "name": "energy",
-        "color": "AADD00",
-        "max": 100,
-        "defaultValue": 100,
-        "returnRate": 10,
-        "isFluid": true
-      },
-      "targeting": {
-        "type": "aggroTable"
-      },
-      "tactics": {
-        "type": "randomAvailable"
-      },
+      "category": "goblins",
+      "description": "A scrappy goblin that stabs anything within reach.",
+      "dps": 3,
+      "maxHP": 140,
+      "name": "Goblin",
       "powers": [
         {
-          "name": "Enrage",
-          "description": "Flies into a rage, increasing damage and attack speed.",
           "castTime": null,
-          "globalCooldown": 1,
           "cooldown": 11,
-          "costType": "energy",
           "costAmount": 40,
-          "graphicEffects": [],
-          "soundEffects": [
-            {
-              "sourceURL": ":whoomph:",
-              "duration": 1.8,
-              "location": "self",
-              "when": "immediate",
-              "condition": "always",
-              "volumeScale": 0.2
-            }
-          ],
+          "costType": "energy",
+          "description": "Flies into a rage, increasing damage and attack speed.",
           "effects": [
             {
-              "type": "status",
               "affects": "self",
               "duration": 6,
               "status": {
-                "name": "Enraged",
-                "shortName": "Enrage",
-                "treatAs": "buff",
-                "stacking": "replace",
+                "auraEffect": {
+                  "color": "#FF0000",
+                  "opacity": 0.3,
+                  "scale": 1.1,
+                  "sourceURL": ":glow:"
+                },
                 "effects": [
                   {
-                    "type": "stat",
-                    "statName": "damageDone",
+                    "amount": 1.1,
                     "modifierType": "multiply",
-                    "amount": 1.1
+                    "statName": "damageDone",
+                    "type": "stat"
                   },
                   {
-                    "type": "stat",
-                    "statName": "attackSpeed",
+                    "amount": 1.2,
                     "modifierType": "multiply",
-                    "amount": 1.2
+                    "statName": "attackSpeed",
+                    "type": "stat"
                   }
                 ],
-                "auraEffect": {
-                  "sourceURL": ":glow:",
-                  "scale": 1.1,
-                  "color": "#FF0000",
-                  "opacity": 0.3
-                }
+                "name": "Enraged",
+                "shortName": "Enrage",
+                "stacking": "replace",
+                "treatAs": "buff"
               },
               "tags": [
                 "buff",
                 "enrage"
-              ]
+              ],
+              "type": "status"
+            }
+          ],
+          "globalCooldown": 1,
+          "graphicEffects": [],
+          "name": "Enrage",
+          "soundEffects": [
+            {
+              "condition": "always",
+              "duration": 1.8,
+              "location": "self",
+              "sourceURL": ":whoomph:",
+              "volumeScale": 0.2,
+              "when": "immediate"
             }
           ],
           "tags": [
@@ -2475,173 +2548,169 @@
           ]
         }
       ],
+      "resource": {
+        "color": "AADD00",
+        "defaultValue": 100,
+        "isFluid": true,
+        "max": 100,
+        "name": "energy",
+        "returnRate": 10
+      },
+      "speedFactor": 1,
+      "tactics": {
+        "type": "randomAvailable"
+      },
       "tags": [
         "open",
         "group",
         "melee"
-      ]
-    },
-    "goblin-archer": {
-      "name": "Goblin Archer",
-      "description": "Hangs back and looses crude arrows at whoever it's angry at.",
-      "tokenImageUrl": [
-        "../../tokens/unit/goblins/goblin-archer-1.webp",
-        "../../tokens/unit/goblins/goblin-archer-2.webp",
-        "../../tokens/unit/goblins/goblin-archer-3.webp",
-        "../../tokens/unit/goblins/goblin-archer-4.webp"
       ],
-      "tokenRadius": 1.75,
-      "speedFactor": 1,
-      "maxHP": 70,
-      "dps": 3.3,
-      "attackSpeed": 0.8,
-      "basicAttackRange": 30,
-      "basicAttackStyle": "arrow",
-      "resource": {
-        "name": "energy",
-        "color": "AADD00",
-        "max": 100,
-        "defaultValue": 100,
-        "returnRate": 10,
-        "isFluid": true
-      },
       "targeting": {
         "type": "aggroTable"
       },
-      "tactics": {
-        "type": "priorityRotation",
-        "powers": [
-          "Crippling Shot",
-          "Barbed Arrow"
-        ]
-      },
+      "tokenImageUrl": [
+        "../../tokens/unit/goblin-1.webp",
+        "../../tokens/unit/goblin-2.webp",
+        "../../tokens/unit/goblin-3.webp"
+      ],
+      "tokenRadius": 2
+    },
+    "goblin-archer": {
+      "attackSpeed": 0.8,
+      "basicAttackRange": 30,
+      "basicAttackStyle": "arrow",
+      "category": "goblins",
+      "description": "Hangs back and looses crude arrows at whoever it's angry at.",
+      "dps": 3.3,
+      "maxHP": 70,
+      "name": "Goblin Archer",
       "powers": [
         {
-          "name": "Barbed Arrow",
-          "description": "A heavy shot with a barbed head.",
           "castTime": null,
-          "globalCooldown": 1,
           "cooldown": 7,
-          "maxRange": 30,
-          "speed": 40,
-          "costType": "energy",
           "costAmount": 20,
-          "graphicEffects": [
-            {
-              "sourceURL": ":spinning-arrow:",
-              "duration": 0.5,
-              "from": "self",
-              "to": "affected",
-              "when": "immediate",
-              "condition": "always",
-              "scale": 0.6,
-              "spriteColumns": 2,
-              "spriteRows": 4,
-              "spriteFrameRate": 12
-            }
-          ],
-          "soundEffects": [
-            {
-              "sourceURL": ":twang:",
-              "duration": 0.12,
-              "location": "self",
-              "when": "immediate",
-              "condition": "always"
-            },
-            {
-              "sourceURL": ":arrow-hit:",
-              "duration": 0.786,
-              "location": "affected",
-              "when": "impact",
-              "condition": "always"
-            }
-          ],
+          "costType": "energy",
+          "description": "A heavy shot with a barbed head.",
           "effects": [
             {
-              "type": "harm",
               "affects": "bTarget",
-              "range": 30,
               "amount": [
                 4,
                 6
               ],
+              "range": 30,
               "school": "physical",
               "tags": [
                 "ranged"
-              ]
+              ],
+              "type": "harm"
             }
           ],
+          "globalCooldown": 1,
+          "graphicEffects": [
+            {
+              "condition": "always",
+              "duration": 0.5,
+              "from": "self",
+              "scale": 0.6,
+              "sourceURL": ":spinning-arrow:",
+              "spriteColumns": 2,
+              "spriteFrameRate": 12,
+              "spriteRows": 4,
+              "to": "affected",
+              "when": "immediate"
+            }
+          ],
+          "maxRange": 30,
+          "name": "Barbed Arrow",
+          "soundEffects": [
+            {
+              "condition": "always",
+              "duration": 0.12,
+              "location": "self",
+              "sourceURL": ":twang:",
+              "when": "immediate"
+            },
+            {
+              "condition": "always",
+              "duration": 0.786,
+              "location": "affected",
+              "sourceURL": ":arrow-hit:",
+              "when": "impact"
+            }
+          ],
+          "speed": 40,
           "tags": [
             "harmful",
             "physical"
           ]
         },
         {
-          "name": "Crippling Shot",
-          "description": "An arrow to the leg that slows the target.",
           "castTime": null,
-          "globalCooldown": 1,
           "cooldown": 14,
-          "maxRange": 30,
-          "speed": 40,
-          "costType": "energy",
           "costAmount": 25,
-          "graphicEffects": [
-            {
-              "sourceURL": ":spinning-arrow:",
-              "duration": 0.5,
-              "from": "self",
-              "to": "affected",
-              "when": "immediate",
-              "condition": "always",
-              "scale": 0.6,
-              "spriteColumns": 2,
-              "spriteRows": 4,
-              "spriteFrameRate": 12
-            }
-          ],
-          "soundEffects": [
-            {
-              "sourceURL": ":twang:",
-              "duration": 0.12,
-              "location": "self",
-              "when": "immediate",
-              "condition": "always"
-            }
-          ],
+          "costType": "energy",
+          "description": "An arrow to the leg that slows the target.",
           "effects": [
             {
-              "type": "harm",
               "affects": "bTarget",
-              "range": 30,
               "amount": 2,
+              "range": 30,
               "school": "physical",
               "tags": [
                 "ranged"
-              ]
+              ],
+              "type": "harm"
             },
             {
-              "type": "status",
               "affects": "bTarget",
               "duration": 5,
+              "range": 30,
               "status": {
-                "name": "Crippled",
-                "shortName": "Crippl",
-                "treatAs": "debuff",
-                "stacking": "replace",
+                "description": "Moving slower.",
                 "effects": [
                   {
-                    "type": "stat",
-                    "statName": "movementSpeed",
+                    "amount": 0.8,
                     "modifierType": "multiply",
-                    "amount": 0.8
+                    "statName": "movementSpeed",
+                    "type": "stat"
                   }
                 ],
-                "description": "Moving slower."
+                "name": "Crippled",
+                "shortName": "Crippl",
+                "stacking": "replace",
+                "treatAs": "debuff"
               },
-              "range": 30
+              "type": "status"
             }
           ],
+          "globalCooldown": 1,
+          "graphicEffects": [
+            {
+              "condition": "always",
+              "duration": 0.5,
+              "from": "self",
+              "scale": 0.6,
+              "sourceURL": ":spinning-arrow:",
+              "spriteColumns": 2,
+              "spriteFrameRate": 12,
+              "spriteRows": 4,
+              "to": "affected",
+              "when": "immediate"
+            }
+          ],
+          "maxRange": 30,
+          "name": "Crippling Shot",
+          "soundEffects": [
+            {
+              "condition": "always",
+              "duration": 0.12,
+              "location": "self",
+              "sourceURL": ":twang:",
+              "when": "immediate"
+            }
+          ],
+          "speed": 40,
           "tags": [
             "harmful",
             "physical",
@@ -2649,253 +2718,109 @@
           ]
         }
       ],
+      "resource": {
+        "color": "AADD00",
+        "defaultValue": 100,
+        "isFluid": true,
+        "max": 100,
+        "name": "energy",
+        "returnRate": 10
+      },
+      "speedFactor": 1,
+      "tactics": {
+        "powers": [
+          "Crippling Shot",
+          "Barbed Arrow"
+        ],
+        "type": "priorityRotation"
+      },
       "tags": [
         "open",
         "group",
         "ranged",
         "glass"
-      ]
-    },
-    "goblin-shaman": {
-      "name": "Goblin Shaman",
-      "description": "A goblin channeling crude but effective battle magic.",
-      "tokenImageUrl": [
-        "../../tokens/unit/goblin-shaman.webp"
       ],
-      "tokenRadius": 2,
-      "speedFactor": 1,
-      "maxHP": 140,
-      "dps": 2,
-      "attackSpeed": 1,
-      "basicAttackRange": 25,
-      "basicAttackSchool": "magic",
-      "basicAttackStyle": "fire",
-      "resource": {
-        "name": "mana",
-        "color": "4488FF",
-        "max": 100,
-        "defaultValue": 100,
-        "returnRate": 2,
-        "isFluid": true
-      },
       "targeting": {
         "type": "aggroTable"
       },
-      "tactics": {
-        "type": "priorityRotation",
-        "powers": [
-          "Units/goblins/tangle",
-          "Acid Splash"
-        ]
-      },
-      "powers": [
-        {
-          "name": "Units/goblins/tangle",
-          "description": "Slow down the target",
-          "castTime": null,
-          "globalCooldown": 1.5,
-          "tags": [
-            "slow"
-          ],
-          "graphicEffects": [],
-          "soundEffects": [
-            {
-              "sourceURL": ":displace:",
-              "duration": 0.12,
-              "location": "affected",
-              "when": "immediate",
-              "condition": "always",
-              "volumeScale": 0.2
-            }
-          ],
-          "effects": [
-            {
-              "type": "status",
-              "affects": "bTarget",
-              "amount": 10,
-              "range": [
-                0,
-                40
-              ],
-              "duration": 8,
-              "status": {
-                "name": "entangled",
-                "shortName": "tangl",
-                "treatAs": "debuff",
-                "stacking": "replace",
-                "effects": [
-                  {
-                    "type": "stat",
-                    "statName": "movementSpeed",
-                    "modifierType": "multiply",
-                    "amount": 0.7
-                  }
-                ],
-                "description": "Entangled and slowed",
-                "maxStacks": null,
-                "auraEffect": {
-                  "sourceURL": ":tendrils:",
-                  "spriteColumns": 5,
-                  "spriteRows": 1,
-                  "spriteFrameRate": 4,
-                  "color": "#33FF55",
-                  "opacity": 0.3,
-                  "scale": 2
-                }
-              }
-            }
-          ],
-          "cooldown": 20,
-          "maxRange": 40,
-          "speed": 30,
-          "costType": "mana",
-          "costAmount": 25
-        },
-        {
-          "name": "Acid Splash",
-          "description": "Spits a glob of corrosive acid at the target.",
-          "maxRange": 25,
-          "castTime": 2,
-          "globalCooldown": 2,
-          "costType": "mana",
-          "costAmount": 15,
-          "graphicEffects": [
-            {
-              "sourceURL": ":splat:",
-              "duration": 0.3,
-              "from": "self",
-              "when": "immediate",
-              "condition": "always",
-              "to": "affected",
-              "color": "#00CA14",
-              "scale": 0.4
-            }
-          ],
-          "soundEffects": [
-            {
-              "sourceURL": ":squelch:",
-              "duration": 0.2,
-              "location": "affected",
-              "when": "impact",
-              "condition": "always"
-            }
-          ],
-          "effects": [
-            {
-              "type": "harm",
-              "affects": "bTarget",
-              "range": 25,
-              "amount": [
-                4,
-                6
-              ],
-              "school": "magic",
-              "tags": [
-                "acid",
-                "magic"
-              ]
-            }
-          ],
-          "tags": [
-            "harmful",
-            "magic"
-          ],
-          "speed": 30
-        }
+      "tokenImageUrl": [
+        "../../tokens/unit/goblins/goblin-archer-1.webp",
+        "../../tokens/unit/goblins/goblin-archer-2.webp",
+        "../../tokens/unit/goblins/goblin-archer-3.webp",
+        "../../tokens/unit/goblins/goblin-archer-4.webp"
       ],
-      "tags": [
-        "open",
-        "group",
-        "caster",
-        "debuffs"
-      ]
+      "tokenRadius": 1.75
     },
     "goblin-boss": {
-      "name": "Goblin Boss",
-      "description": "The pack's loudest goblin: tough, slow to kill, and it makes the whole pack nastier.",
-      "tokenImageUrl": [
-        "../../tokens/unit/goblins/goblin-boss-1.webp",
-        "../../tokens/unit/goblins/goblin-boss-2.webp",
-        "../../tokens/unit/goblins/goblin-boss-3.webp",
-        "../../tokens/unit/goblins/goblin-boss-4.webp"
-      ],
-      "tokenRadius": 2.5,
-      "speedFactor": 0.9,
-      "maxHP": 280,
-      "dps": 1,
       "attackSpeed": 0.8,
       "basicAttackStyle": "axe",
-      "resource": {
-        "name": "energy",
-        "color": "AADD00",
-        "max": 100,
-        "defaultValue": 100,
-        "returnRate": 10,
-        "isFluid": true
+      "category": "goblins",
+      "description": "The pack's loudest goblin: tough, slow to kill, and it makes the whole pack nastier.",
+      "dps": 1,
+      "lootCount": 1,
+      "lootTable": {
+        "warchief-battlechestplate": 17,
+        "warchief-embroidered-robe": 16,
+        "warchief-hexweave-vestments": 16,
+        "warchief-predators-tunic": 17,
+        "warchief-savage-breastplate": 17,
+        "warchief-scaled-vest": 17
       },
-      "targeting": {
-        "type": "aggroTable"
-      },
-      "tactics": {
-        "type": "priorityRotation",
-        "powers": [
-          "Rallying Roar",
-          "Skull Thump"
-        ]
-      },
+      "maxHP": 280,
+      "name": "Goblin Boss",
       "powers": [
         {
-          "name": "Rallying Roar",
-          "description": "A bellow that rallies the whole pack.",
           "castTime": null,
-          "globalCooldown": 1,
           "cooldown": 20,
-          "costType": "energy",
           "costAmount": 25,
-          "graphicEffects": [],
-          "soundEffects": [
-            {
-              "sourceURL": ":shout:",
-              "duration": 1.157,
-              "location": "self",
-              "when": "immediate",
-              "condition": "always",
-              "volumeScale": 0.5
-            }
-          ],
+          "costType": "energy",
+          "description": "A bellow that rallies the whole pack.",
           "effects": [
             {
-              "type": "status",
               "affects": "gAll",
               "duration": 8,
+              "range": 20,
               "status": {
-                "name": "Rallied",
-                "shortName": "Rally",
-                "treatAs": "buff",
-                "stacking": "replace",
-                "effects": [
-                  {
-                    "type": "stat",
-                    "statName": "damageDone",
-                    "modifierType": "multiply",
-                    "amount": 1.15
-                  },
-                  {
-                    "type": "stat",
-                    "statName": "damageTaken",
-                    "modifierType": "multiply",
-                    "amount": 0.9
-                  }
-                ],
-                "description": "Dealing more damage, taking less.",
                 "auraEffect": {
-                  "sourceURL": ":glow:",
                   "color": "#FF3B30",
                   "opacity": 0.35,
-                  "scale": 1.1
-                }
+                  "scale": 1.1,
+                  "sourceURL": ":glow:"
+                },
+                "description": "Dealing more damage, taking less.",
+                "effects": [
+                  {
+                    "amount": 1.15,
+                    "modifierType": "multiply",
+                    "statName": "damageDone",
+                    "type": "stat"
+                  },
+                  {
+                    "amount": 0.9,
+                    "modifierType": "multiply",
+                    "statName": "damageTaken",
+                    "type": "stat"
+                  }
+                ],
+                "name": "Rallied",
+                "shortName": "Rally",
+                "stacking": "replace",
+                "treatAs": "buff"
               },
-              "range": 20
+              "type": "status"
+            }
+          ],
+          "globalCooldown": 1,
+          "graphicEffects": [],
+          "name": "Rallying Roar",
+          "soundEffects": [
+            {
+              "condition": "always",
+              "duration": 1.157,
+              "location": "self",
+              "sourceURL": ":shout:",
+              "volumeScale": 0.5,
+              "when": "immediate"
             }
           ],
           "tags": [
@@ -2903,73 +2828,73 @@
           ]
         },
         {
-          "name": "Skull Thump",
-          "description": "A heavy thump that leaves the target dazed.",
           "castTime": null,
-          "globalCooldown": 1,
           "cooldown": 9,
-          "maxRange": 5,
-          "costType": "energy",
           "costAmount": 20,
-          "graphicEffects": [
-            {
-              "sourceURL": ":star-x:",
-              "duration": 0.35,
-              "from": "affected",
-              "when": "impact",
-              "condition": "onHit",
-              "scale": 0.6
-            }
-          ],
-          "soundEffects": [
-            {
-              "sourceURL": ":punch-hit:",
-              "duration": 0.823,
-              "location": "affected",
-              "when": "immediate",
-              "condition": "always"
-            }
-          ],
+          "costType": "energy",
+          "description": "A heavy thump that leaves the target dazed.",
           "effects": [
             {
-              "type": "harm",
               "affects": "bTarget",
-              "range": 5,
               "amount": [
                 3,
                 4
               ],
+              "range": 5,
               "school": "physical",
               "tags": [
                 "melee"
-              ]
+              ],
+              "type": "harm"
             },
             {
-              "type": "status",
               "affects": "bTarget",
               "duration": 4,
+              "range": 5,
               "status": {
-                "name": "Dazed",
-                "shortName": "Dazed",
-                "treatAs": "debuff",
-                "stacking": "replace",
-                "effects": [
-                  {
-                    "type": "stat",
-                    "statName": "attackSpeed",
-                    "modifierType": "multiply",
-                    "amount": 0.8
-                  }
-                ],
-                "description": "Dazed: attacks slower.",
                 "auraEffect": {
-                  "sourceURL": ":star-x:",
                   "color": "#FFE066",
                   "opacity": 0.5,
-                  "scale": 0.6
-                }
+                  "scale": 0.6,
+                  "sourceURL": ":star-x:"
+                },
+                "description": "Dazed: attacks slower.",
+                "effects": [
+                  {
+                    "amount": 0.8,
+                    "modifierType": "multiply",
+                    "statName": "attackSpeed",
+                    "type": "stat"
+                  }
+                ],
+                "name": "Dazed",
+                "shortName": "Dazed",
+                "stacking": "replace",
+                "treatAs": "debuff"
               },
-              "range": 5
+              "type": "status"
+            }
+          ],
+          "globalCooldown": 1,
+          "graphicEffects": [
+            {
+              "condition": "onHit",
+              "duration": 0.35,
+              "from": "affected",
+              "scale": 0.6,
+              "sourceURL": ":star-x:",
+              "when": "impact"
+            }
+          ],
+          "maxRange": 5,
+          "name": "Skull Thump",
+          "soundEffects": [
+            {
+              "condition": "always",
+              "duration": 0.823,
+              "location": "affected",
+              "sourceURL": ":punch-hit:",
+              "when": "immediate"
             }
           ],
           "tags": [
@@ -2979,6 +2904,22 @@
           ]
         }
       ],
+      "resource": {
+        "color": "AADD00",
+        "defaultValue": 100,
+        "isFluid": true,
+        "max": 100,
+        "name": "energy",
+        "returnRate": 10
+      },
+      "speedFactor": 0.9,
+      "tactics": {
+        "powers": [
+          "Rallying Roar",
+          "Skull Thump"
+        ],
+        "type": "priorityRotation"
+      },
       "tags": [
         "open",
         "group",
@@ -2986,93 +2927,223 @@
         "tough",
         "buffs"
       ],
-      "lootTable": {
-        "warchief-battlechestplate": 17,
-        "warchief-savage-breastplate": 17,
-        "warchief-scaled-vest": 17,
-        "warchief-predators-tunic": 17,
-        "warchief-embroidered-robe": 16,
-        "warchief-hexweave-vestments": 16
-      },
-      "lootCount": 1
-    },
-    "goblin-sneak": {
-      "name": "Goblin Sneak",
-      "description": "A knife-artist that slips past the front line to stab healers in the back.",
-      "tokenImageUrl": [
-        "../../tokens/unit/goblins/goblin-sneak-1.webp",
-        "../../tokens/unit/goblins/goblin-sneak-2.webp",
-        "../../tokens/unit/goblins/goblin-sneak-3.webp",
-        "../../tokens/unit/goblins/goblin-sneak-4.webp"
-      ],
-      "tokenRadius": 1.75,
-      "speedFactor": 1.3,
-      "stealth": 0,
-      "maxHP": 70,
-      "dps": 2.8,
-      "attackSpeed": 1.5,
-      "basicAttackStyle": "sword",
-      "resource": {
-        "name": "energy",
-        "color": "AADD00",
-        "max": 100,
-        "defaultValue": 100,
-        "returnRate": 10,
-        "isFluid": true
-      },
       "targeting": {
-        "type": "healerAggro"
+        "type": "aggroTable"
       },
-      "tactics": {
-        "type": "priorityRotation",
-        "powers": [
-          "Backstab",
-          "Cheap Shot"
-        ]
-      },
+      "tokenImageUrl": [
+        "../../tokens/unit/goblins/goblin-boss-1.webp",
+        "../../tokens/unit/goblins/goblin-boss-2.webp",
+        "../../tokens/unit/goblins/goblin-boss-3.webp",
+        "../../tokens/unit/goblins/goblin-boss-4.webp"
+      ],
+      "tokenRadius": 2.5
+    },
+    "goblin-shaman": {
+      "attackSpeed": 1,
+      "basicAttackRange": 25,
+      "basicAttackSchool": "magic",
+      "basicAttackStyle": "fire",
+      "category": "goblins",
+      "description": "A goblin channeling crude but effective battle magic.",
+      "dps": 2,
+      "maxHP": 140,
+      "name": "Goblin Shaman",
       "powers": [
         {
-          "name": "Backstab",
-          "description": "A vicious stab to an exposed back.",
           "castTime": null,
-          "globalCooldown": 1,
-          "cooldown": 10,
-          "maxRange": 5,
-          "costType": "energy",
-          "costAmount": 30,
-          "graphicEffects": [
-            {
-              "sourceURL": ":claw-slash:",
-              "duration": 0.35,
-              "from": "affected",
-              "when": "impact",
-              "condition": "onHit",
-              "scale": 0.7
-            }
-          ],
-          "soundEffects": [
-            {
-              "sourceURL": ":bloody-blade:",
-              "duration": 0.869,
-              "location": "affected",
-              "when": "immediate",
-              "condition": "always",
-              "volumeScale": 0.6
-            }
-          ],
+          "cooldown": 20,
+          "costAmount": 25,
+          "costType": "mana",
+          "description": "Slow down the target",
           "effects": [
             {
-              "type": "harm",
               "affects": "bTarget",
-              "range": 5,
+              "amount": 10,
+              "duration": 8,
+              "range": [
+                0,
+                40
+              ],
+              "status": {
+                "auraEffect": {
+                  "color": "#33FF55",
+                  "opacity": 0.3,
+                  "scale": 2,
+                  "sourceURL": ":tendrils:",
+                  "spriteColumns": 5,
+                  "spriteFrameRate": 4,
+                  "spriteRows": 1
+                },
+                "description": "Entangled and slowed",
+                "effects": [
+                  {
+                    "amount": 0.7,
+                    "modifierType": "multiply",
+                    "statName": "movementSpeed",
+                    "type": "stat"
+                  }
+                ],
+                "maxStacks": null,
+                "name": "entangled",
+                "shortName": "tangl",
+                "stacking": "replace",
+                "treatAs": "debuff"
+              },
+              "type": "status"
+            }
+          ],
+          "globalCooldown": 1.5,
+          "graphicEffects": [],
+          "maxRange": 40,
+          "name": "Units/goblins/tangle",
+          "soundEffects": [
+            {
+              "condition": "always",
+              "duration": 0.12,
+              "location": "affected",
+              "sourceURL": ":displace:",
+              "volumeScale": 0.2,
+              "when": "immediate"
+            }
+          ],
+          "speed": 30,
+          "tags": [
+            "slow"
+          ]
+        },
+        {
+          "castTime": 2,
+          "costAmount": 15,
+          "costType": "mana",
+          "description": "Spits a glob of corrosive acid at the target.",
+          "effects": [
+            {
+              "affects": "bTarget",
+              "amount": [
+                4,
+                6
+              ],
+              "range": 25,
+              "school": "magic",
+              "tags": [
+                "acid",
+                "magic"
+              ],
+              "type": "harm"
+            }
+          ],
+          "globalCooldown": 2,
+          "graphicEffects": [
+            {
+              "color": "#00CA14",
+              "condition": "always",
+              "duration": 0.3,
+              "from": "self",
+              "scale": 0.4,
+              "sourceURL": ":splat:",
+              "to": "affected",
+              "when": "immediate"
+            }
+          ],
+          "maxRange": 25,
+          "name": "Acid Splash",
+          "soundEffects": [
+            {
+              "condition": "always",
+              "duration": 0.2,
+              "location": "affected",
+              "sourceURL": ":squelch:",
+              "when": "impact"
+            }
+          ],
+          "speed": 30,
+          "tags": [
+            "harmful",
+            "magic"
+          ]
+        }
+      ],
+      "resource": {
+        "color": "4488FF",
+        "defaultValue": 100,
+        "isFluid": true,
+        "max": 100,
+        "name": "mana",
+        "returnRate": 2
+      },
+      "speedFactor": 1,
+      "tactics": {
+        "powers": [
+          "Units/goblins/tangle",
+          "Acid Splash"
+        ],
+        "type": "priorityRotation"
+      },
+      "tags": [
+        "open",
+        "group",
+        "caster",
+        "debuffs"
+      ],
+      "targeting": {
+        "type": "aggroTable"
+      },
+      "tokenImageUrl": [
+        "../../tokens/unit/goblin-shaman.webp"
+      ],
+      "tokenRadius": 2
+    },
+    "goblin-sneak": {
+      "attackSpeed": 1.5,
+      "basicAttackStyle": "sword",
+      "category": "goblins",
+      "description": "A knife-artist that slips past the front line to stab healers in the back.",
+      "dps": 2.8,
+      "maxHP": 70,
+      "name": "Goblin Sneak",
+      "powers": [
+        {
+          "castTime": null,
+          "cooldown": 10,
+          "costAmount": 30,
+          "costType": "energy",
+          "description": "A vicious stab to an exposed back.",
+          "effects": [
+            {
+              "affects": "bTarget",
               "amount": [
                 10,
                 14
               ],
+              "range": 5,
               "school": "physical",
               "tags": [
                 "melee"
-              ]
+              ],
+              "type": "harm"
+            }
+          ],
+          "globalCooldown": 1,
+          "graphicEffects": [
+            {
+              "condition": "onHit",
+              "duration": 0.35,
+              "from": "affected",
+              "scale": 0.7,
+              "sourceURL": ":claw-slash:",
+              "when": "impact"
+            }
+          ],
+          "maxRange": 5,
+          "name": "Backstab",
+          "soundEffects": [
+            {
+              "condition": "always",
+              "duration": 0.869,
+              "location": "affected",
+              "sourceURL": ":bloody-blade:",
+              "volumeScale": 0.6,
+              "when": "immediate"
             }
           ],
           "tags": [
@@ -3081,71 +3152,71 @@
           ]
         },
         {
-          "name": "Cheap Shot",
-          "description": "A dirty blow that leaves the target dazed.",
           "castTime": null,
-          "globalCooldown": 1,
           "cooldown": 16,
-          "maxRange": 5,
-          "costType": "energy",
           "costAmount": 25,
-          "graphicEffects": [],
-          "soundEffects": [
-            {
-              "sourceURL": ":stun:",
-              "duration": 1.602,
-              "location": "affected",
-              "when": "immediate",
-              "condition": "always",
-              "volumeScale": 0.4
-            }
-          ],
+          "costType": "energy",
+          "description": "A dirty blow that leaves the target dazed.",
           "effects": [
             {
-              "type": "harm",
               "affects": "bTarget",
-              "range": 5,
               "amount": [
                 2,
                 3
               ],
+              "range": 5,
               "school": "physical",
               "tags": [
                 "melee"
-              ]
+              ],
+              "type": "harm"
             },
             {
-              "type": "status",
               "affects": "bTarget",
               "duration": 4,
+              "range": 5,
               "status": {
-                "name": "Dazed",
-                "shortName": "Dazed",
-                "treatAs": "debuff",
-                "stacking": "replace",
-                "effects": [
-                  {
-                    "type": "stat",
-                    "statName": "attackSpeed",
-                    "modifierType": "multiply",
-                    "amount": 0.8
-                  },
-                  {
-                    "type": "stat",
-                    "statName": "movementSpeed",
-                    "modifierType": "multiply",
-                    "amount": 0.7
-                  }
-                ],
-                "description": "Dazed: attacking and moving slower.",
                 "auraEffect": {
-                  "sourceURL": ":star-x:",
                   "color": "#FFE066",
                   "opacity": 0.5,
-                  "scale": 0.6
-                }
+                  "scale": 0.6,
+                  "sourceURL": ":star-x:"
+                },
+                "description": "Dazed: attacking and moving slower.",
+                "effects": [
+                  {
+                    "amount": 0.8,
+                    "modifierType": "multiply",
+                    "statName": "attackSpeed",
+                    "type": "stat"
+                  },
+                  {
+                    "amount": 0.7,
+                    "modifierType": "multiply",
+                    "statName": "movementSpeed",
+                    "type": "stat"
+                  }
+                ],
+                "name": "Dazed",
+                "shortName": "Dazed",
+                "stacking": "replace",
+                "treatAs": "debuff"
               },
-              "range": 5
+              "type": "status"
+            }
+          ],
+          "globalCooldown": 1,
+          "graphicEffects": [],
+          "maxRange": 5,
+          "name": "Cheap Shot",
+          "soundEffects": [
+            {
+              "condition": "always",
+              "duration": 1.602,
+              "location": "affected",
+              "sourceURL": ":stun:",
+              "volumeScale": 0.4,
+              "when": "immediate"
             }
           ],
           "tags": [
@@ -3155,62 +3226,53 @@
           ]
         }
       ],
+      "resource": {
+        "color": "AADD00",
+        "defaultValue": 100,
+        "isFluid": true,
+        "max": 100,
+        "name": "energy",
+        "returnRate": 10
+      },
+      "speedFactor": 1.3,
+      "stealth": 0,
+      "tactics": {
+        "powers": [
+          "Backstab",
+          "Cheap Shot"
+        ],
+        "type": "priorityRotation"
+      },
       "tags": [
         "open",
         "group",
         "melee",
         "glass"
-      ]
-    }
-  },
-  "items": {
-    "warchief-hexweave-wrists": {
-      "identifier": "warchief-hexweave-wrists",
-      "name": "Warchief's Hexweave Wraps",
-      "slot": "wrists",
-      "elvl": 5,
-      "primary": "intellect",
-      "secondaries": [
-        "stamina",
-        "crit_rating"
-      ]
-    },
-    "warchief-battlechestplate": {
-      "identifier": "warchief-battlechestplate",
-      "name": "Warchief's Battlechestplate",
-      "slot": "chest",
-      "elvl": 5,
-      "primary": "strength",
-      "secondaries": [
-        "stamina",
-        "versatility_rating"
-      ]
+      ],
+      "targeting": {
+        "type": "healerAggro"
+      },
+      "tokenImageUrl": [
+        "../../tokens/unit/goblins/goblin-sneak-1.webp",
+        "../../tokens/unit/goblins/goblin-sneak-2.webp",
+        "../../tokens/unit/goblins/goblin-sneak-3.webp",
+        "../../tokens/unit/goblins/goblin-sneak-4.webp"
+      ],
+      "tokenRadius": 1.75
     }
   },
   "zoneLinks": [
     {
       "connectionA": {
-        "map": "passage",
-        "connection": "south"
+        "connection": "south",
+        "map": "passage"
       },
       "connectionB": {
-        "map": "hub",
-        "connection": "north"
+        "connection": "north",
+        "map": "hub"
       },
       "oneWay": false,
       "requiredKey": null
     }
-  ],
-  "entryPoints": {
-    "hub/central": null
-  },
-  "openConnections": {
-    "hub/southeast": "south-exit",
-    "passage/north": "north-exit"
-  },
-  "flags": [
-    "zone/reached/forest",
-    "quest/completed/greg-kill-boss",
-    "quest/completed/greg-kill-lots-of-goblins"
   ]
 }

@@ -1388,5 +1388,61 @@
       "x": 108.28396112818714,
       "y": 200.21251482516126
     }
+  ],
+  "interactables": [
+    {
+      "identifier": "snare-1",
+      "name": "Goblin Snare",
+      "imageUrl": "../../../graphics/interactable/snare.png",
+      "usedImageUrl": "../../../graphics/interactable/snare-cut.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 4,
+        "height": 3
+      },
+      "position": {
+        "x": 185,
+        "y": 236,
+        "angle": 0
+      },
+      "useTime": 1,
+      "useText": "Cutting"
+    },
+    {
+      "identifier": "snare-2",
+      "name": "Goblin Snare",
+      "imageUrl": "../../../graphics/interactable/snare.png",
+      "usedImageUrl": "../../../graphics/interactable/snare-cut.png",
+      "whenUnavailable": "used",
+      "size": {
+        "width": 4,
+        "height": 3
+      },
+      "position": {
+        "x": 145,
+        "y": 276,
+        "angle": 0
+      },
+      "useTime": 2,
+      "useText": "Cutting"
+    },
+    {
+      "identifier": "snare-3",
+      "name": "Goblin Snare",
+      "imageUrl": "../../../graphics/interactable/snare.png",
+      "usedImageUrl": "../../../graphics/interactable/snare-cut.png",
+      "whenUnavailable": "hidden",
+      "size": {
+        "width": 4,
+        "height": 3
+      },
+      "position": {
+        "x": 105,
+        "y": 236,
+        "angle": 0
+      },
+      "useTime": 0,
+      "useText": "Cutting"
+    }
   ]
 }
