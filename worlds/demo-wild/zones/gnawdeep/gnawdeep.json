@@ -169,5 +169,11 @@
     "forest-mouth/south": "forest-mouth-south",
     "flooded-caves/west": "flooded-caves-west",
     "grutts-hall/north": "grutts-hall-north"
+  },
+  "annotations": {
+    "identity": "Goblin caves: low, damp and crowded, lit by fires, glowworms and fungus. Drums carry through the rock. Warboss Grutt is uniting the tribes; every map is goblin ground.",
+    "structure": "Two ways in: forest-mouth from the hills and flooded-caves from the mire. Friendly footholds: Arlo's scout camp (forest-mouth area_4) and Captain Rhys's camp (fungus-deeps area_1), each a small safe spot. Deeper is harder: the sapper tunnels and fungus deeps (6-7), the drum halls (8), Grutt's hall (9-10), with the sealed stair down to the dungeon.",
+    "poi": "Scout Camp; Wolf Pens; Sapper Camp; New Tunnels; Flooded Passages; Glowworm Grotto; Rhys's Camp; Mushroom Farms; Hexer's Den; Shaman's Fire; Drum Hall; Grutt's Throne; Holt's Cell; Sealed Stair; Silver Seam.",
+    "bosses": "Nagg the Hexer (fungus-deeps area_14), Brazza, Keeper of the Fire (fungus-deeps area_7), the wolf-master (drum-halls area_2), Warboss Grutt (grutts-hall area_2)."
   }
 }

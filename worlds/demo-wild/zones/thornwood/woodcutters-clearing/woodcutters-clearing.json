@@ -17907,7 +17907,9 @@
       ],
       "name": "Woodcutters' Camp",
       "annotations": {
-        "intent": "The woodcutters' camp (S1), on the trail: woodcutter NCUs, stacked logs, a sawpit. Safe inside; wolves prowl the edges."
+        "intent": "The woodcutters' camp (S1), on the trail: woodcutter NCUs, stacked logs, a sawpit. Safe inside; wolves prowl the edges.",
+        "ncus": "bram: Bram, a woodcutter; gives S1, S4.\nnell: Nell, a woodcutter who saw smoke on the ridge; gives S5.",
+        "quests": "S1.1 Wolves at the Woodpile: kill wolf x6."
       }
     },
     {
@@ -18580,7 +18582,9 @@
       ],
       "name": "Bear's Den",
       "annotations": {
-        "intent": "The black bear's den (S4: it has the woodcutter's axe), a tall-grass dead end. One bear, nothing else."
+        "intent": "The black bear's den (S4: it has the woodcutter's axe), a tall-grass dead end. One bear, nothing else.",
+        "quests": "S4.1 The Woodcutter's Axe: kill black-bear.\nS4.1 The Woodcutter's Axe: interactables woodcutters-axe (\"Woodcutter's Axe\", \"Taking\", 0s); place them here.",
+        "boss": "black-bear (S4.1 The Woodcutter's Axe)."
       }
     },
     {
@@ -19245,7 +19249,8 @@
       ],
       "name": "Boar Run",
       "annotations": {
-        "intent": "The boar run (L1): boar pairs rooting through the clearing."
+        "intent": "The boar run (L1): boar pairs rooting through the clearing.",
+        "quests": "L1.3 Tracks: interactables wolf-tracks-1, wolf-tracks-2, wolf-tracks-3 (\"Wolf Tracks\", \"Reading\", 1s); place them here.\nL1.4 The Boar Run: kill boar x8 (across area_12, area_15)."
       }
     },
     {
@@ -20982,7 +20987,8 @@
       ],
       "name": "Boar Thicket",
       "annotations": {
-        "intent": "The end of the boar run (L1): a small herd of boars."
+        "intent": "The end of the boar run (L1): a small herd of boars.",
+        "quests": "L1.4 The Boar Run: kill boar x8 (across area_12, area_15)."
       }
     },
     {

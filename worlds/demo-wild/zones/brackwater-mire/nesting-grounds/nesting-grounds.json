@@ -16093,7 +16093,8 @@
       ],
       "name": "Burned Nests",
       "annotations": {
-        "intent": "The burned nests (L2): Blackscale raiders torched them. Raiders still about."
+        "intent": "The burned nests (L2): Blackscale raiders torched them. Raiders still about.",
+        "quests": "L2.4 Burned Nests: interactables burned-nest-1, burned-nest-3 (\"Burned Nest\", \"Searching\", 1s); place them here.\nL2.5 Blackscale Raiders: kill blackscale-warrior x8 (across area_4, area_6)."
       }
     },
     {
@@ -17357,7 +17358,8 @@
         }
       ],
       "annotations": {
-        "intent": "More burned nests (L2), Blackscale raiders."
+        "intent": "More burned nests (L2), Blackscale raiders.",
+        "quests": "L2.4 Burned Nests: interactables burned-nest-2, burned-nest-4 (\"Burned Nest\", \"Searching\", 1s); place them here.\nL2.5 Blackscale Raiders: kill blackscale-warrior x8 (across area_4, area_6)."
       }
     },
     {
@@ -21005,7 +21007,8 @@
         }
       ],
       "annotations": {
-        "intent": "On the way to the frog nests (S7): giant frogs."
+        "intent": "On the way to the frog nests (S7): giant frogs.",
+        "quests": "L2.3 Prove It: kill giant-frog x4.\nS7.2 Keep Them Off: kill giant-frog x8 (across area_17, area_12)."
       }
     },
     {
@@ -24262,7 +24265,8 @@
       ],
       "name": "Frog Nests",
       "annotations": {
-        "intent": "The giant frogs' nests (S7), a dead end: frogs, many."
+        "intent": "The giant frogs' nests (S7), a dead end: frogs, many.",
+        "quests": "S7.1 Stolen Eggs: interactables egg-clutch-1, egg-clutch-2, egg-clutch-3, egg-clutch-4 (\"Reedtalker Eggs\", \"Gathering\", 1s); place them here.\nS7.2 Keep Them Off: kill giant-frog x8 (across area_17, area_12)."
       }
     }
   ],

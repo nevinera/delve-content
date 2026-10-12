@@ -14337,7 +14337,8 @@
       ],
       "name": "West Raider Camp",
       "annotations": {
-        "intent": "A Blackscale raider camp, a dead end."
+        "intent": "A Blackscale raider camp, a dead end.",
+        "quests": "L2.8 The War-Shaman: kill blackscale-hunter x6 (across area_9, area_3)."
       }
     },
     {
@@ -17338,7 +17339,8 @@
       ],
       "name": "War-Totems",
       "annotations": {
-        "intent": "Blackscale war-totems on the trail: a shaman tending them."
+        "intent": "Blackscale war-totems on the trail: a shaman tending them.",
+        "quests": "L2.6 Their Totems: interactables war-totem-1, war-totem-2, war-totem-3 (\"War-Totem\", \"Toppling\", 2s); place them here.\nL2.6 Their Totems: kill blackscale-shaman."
       }
     },
     {
@@ -18067,7 +18069,8 @@
       ],
       "name": "East Raider Camp",
       "annotations": {
-        "intent": "A Blackscale raider camp."
+        "intent": "A Blackscale raider camp.",
+        "quests": "L2.8 The War-Shaman: kill blackscale-hunter x6 (across area_9, area_3)."
       }
     },
     {
@@ -19564,7 +19567,8 @@
       ],
       "name": "Captive Pens",
       "annotations": {
-        "intent": "The captive pens (L2), behind the east raider camp: Reedtalker captives (NCUs), guarded."
+        "intent": "The captive pens (L2), behind the east raider camp: Reedtalker captives (NCUs), guarded.",
+        "quests": "L2.7 Captives: interactables captive-pen-1, captive-pen-2, captive-pen-3, captive-pen-4 (\"Captive Pen\", \"Opening\", 2s); place them here."
       }
     },
     {

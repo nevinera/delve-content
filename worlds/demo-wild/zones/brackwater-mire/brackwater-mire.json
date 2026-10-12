@@ -130,5 +130,11 @@
     "reedtalker-village/west": "reedtalker-village-west",
     "nesting-grounds/west": "nesting-grounds-west",
     "blackwater-pools/east": "blackwater-pools-east"
+  },
+  "annotations": {
+    "identity": "Flat, wet marsh: pools, reeds and mud under a low sky; smoke from burned nests. Two lizardfolk peoples: the friendly Reedtalkers on their stilted village, and the Blackscales, raiders, to the east.",
+    "structure": "Hub: the Reedtalker village (reedtalker-village area_2), Elder Sesh's hut beside it. Mire-edge and the nesting grounds first (elvl 3-4), the pools and Blackscale marsh next (5-6), the Blackscale village last (7).",
+    "poi": "Survivors' Camp; Reedtalker Village; Elder's Hut; Fishing Platforms; Burned Nests; Frog Nests; The Deep Pool; Croc's Wallow; Flooded Cave Mouth (to the Gnawdeep); War-Totems; Captive Pens; Blackscale Village; War-Shaman's Hut.",
+    "bosses": "The war-shaman (blackscale-village area_20, L2's end). The Old Croc (blackwater-pools area_10, S9)."
   }
 }

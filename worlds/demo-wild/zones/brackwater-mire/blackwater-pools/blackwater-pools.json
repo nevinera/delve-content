@@ -13651,7 +13651,8 @@
       ],
       "name": "The Deep Pool",
       "annotations": {
-        "intent": "The deep pool (S8), a dead end."
+        "intent": "The deep pool (S8), a dead end.",
+        "quests": "S8.1 The Sunken Idol: interactables sunken-idol (\"Sunken Idol\", \"Lifting\", 3s); place them here.\nS9.1 Taken Fishers: kill swamp-crocodile x5 (across area_2, area_14)."
       }
     },
     {
@@ -18356,7 +18357,9 @@
       ],
       "name": "Croc's Wallow",
       "annotations": {
-        "intent": "The Old Croc's wallow (S9), a dead end: the Old Croc alone."
+        "intent": "The Old Croc's wallow (S9), a dead end: the Old Croc alone.",
+        "quests": "S9.2 The Old Croc: kill old-croc.",
+        "boss": "old-croc (S9.2 The Old Croc)."
       }
     },
     {
@@ -20797,7 +20800,8 @@
       ],
       "name": "Flooded Cave Mouth",
       "annotations": {
-        "intent": "The flooded cave mouth into the Gnawdeep (L4)."
+        "intent": "The flooded cave mouth into the Gnawdeep (L4).",
+        "quests": "L4.6 The Flooded Way: kill swamp-crocodile x4.\nS9.1 Taken Fishers: kill swamp-crocodile x5 (across area_2, area_14)."
       }
     },
     {

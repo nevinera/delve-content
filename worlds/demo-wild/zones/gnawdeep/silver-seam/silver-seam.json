@@ -4335,7 +4335,8 @@
       ],
       "name": "Silver Seam",
       "annotations": {
-        "intent": "The expedition's silver seam (L4), a dead end."
+        "intent": "The expedition's silver seam (L4), a dead end.",
+        "quests": "L4.8 The Silver Seam: interactables silver-sample-1, silver-sample-2, silver-sample-3 (\"Silver Vein\", \"Chipping\", 2s); place them here."
       }
     }
   ],

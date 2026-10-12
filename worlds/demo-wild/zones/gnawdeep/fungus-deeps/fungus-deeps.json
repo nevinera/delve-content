@@ -13364,8 +13364,10 @@
         }
       ],
       "annotations": {
-        "intent": "Gravel, a dead end. Mushroom-farm caves: goblins, goblin menders."
-      }
+        "intent": "Captain Rhys's camp, a hidden ledge above the farms: Captain Rhys (L3, S12). Safe: no hostiles.",
+        "ncus": "captain-rhys: Captain Rhys, leads the push into the deeps; gives L3.4-14, S12."
+      },
+      "name": "Rhys's Camp"
     },
     {
       "identifier": "area_2",
@@ -15613,7 +15615,8 @@
       ],
       "name": "Mushroom Farms",
       "annotations": {
-        "intent": "The goblins' mushroom farms (L3): goblin farmhands, guarded."
+        "intent": "The goblins' mushroom farms (L3): goblin farmhands, guarded.",
+        "quests": "L3.5 Mushroom Farms: interactables mushroom-bed-1, mushroom-bed-3, mushroom-bed-5 (\"Mushroom Bed\", \"Burning\", 2s); place them here.\nS12.1 Sick Tunnels: kill cave-spider x6 (across area_4, area_9)."
       }
     },
     {
@@ -17486,7 +17489,9 @@
       ],
       "name": "Shaman's Fire",
       "annotations": {
-        "intent": "Brazza's fire (L3), a dead end past a gravel cave: Brazza, Keeper of the Fire, and shamans."
+        "intent": "Brazza's fire (L3), a dead end past a gravel cave: Brazza, Keeper of the Fire, and shamans.",
+        "quests": "L3.6 The Shaman's Fire: kill shaman-brazza.",
+        "boss": "shaman-brazza (L3.6 The Shaman's Fire)."
       }
     },
     {
@@ -18766,7 +18771,8 @@
         }
       ],
       "annotations": {
-        "intent": "More mushroom farms (L3), a dead end."
+        "intent": "More mushroom farms (L3), a dead end.",
+        "quests": "L3.5 Mushroom Farms: interactables mushroom-bed-2, mushroom-bed-4 (\"Mushroom Bed\", \"Burning\", 2s); place them here.\nS12.1 Sick Tunnels: kill cave-spider x6 (across area_4, area_9)."
       }
     },
     {
@@ -21839,7 +21845,9 @@
       ],
       "name": "Hexer's Den",
       "annotations": {
-        "intent": "Nagg the Hexer's den (L3), a dead end: Nagg and hexer apprentices."
+        "intent": "Nagg the Hexer's den (L3), a dead end: Nagg and hexer apprentices.",
+        "quests": "L3.4 The Hexer: kill hexer-nagg.\nS12.3 The Apprentice: kill goblin-hexer x3.",
+        "boss": "hexer-nagg (L3.4 The Hexer)."
       }
     },
     {

@@ -14159,7 +14159,9 @@
       ],
       "name": "Grutt's Throne",
       "annotations": {
-        "intent": "Warboss Grutt's throne (L3 boss), by the sealed stair."
+        "intent": "Warboss Grutt's throne (L3 boss), by the sealed stair.",
+        "quests": "L3.12 Warboss Grutt: kill warboss-grutt.",
+        "boss": "warboss-grutt (L3.12 Warboss Grutt)."
       }
     },
     {
@@ -14672,7 +14674,8 @@
       ],
       "name": "Sealed Stair",
       "annotations": {
-        "intent": "The sealed stair down to the Goblin King's hall (the dungeon)."
+        "intent": "The sealed stair down to the Goblin King's hall (the dungeon).",
+        "quests": "L3.13 The Sealed Stair: interactables stair-seal (\"Sealed Stair\", \"Breaking the seal\", 5s); place them here."
       }
     },
     {
@@ -19760,7 +19763,8 @@
         }
       ],
       "annotations": {
-        "intent": "The guards' approach (L3), further in."
+        "intent": "The guards' approach (L3), further in.",
+        "quests": "L3.11 Guards: kill goblin-archer x6 (across area_16, area_13).\nL3.11 Guards: kill goblin-cutter x6 (across area_16, area_13)."
       }
     },
     {
@@ -21185,7 +21189,8 @@
       ],
       "name": "Guards' Approach",
       "annotations": {
-        "intent": "The guards' approach (L3): goblin guards, dense."
+        "intent": "The guards' approach (L3): goblin guards, dense.",
+        "quests": "L3.11 Guards: kill goblin-archer x6 (across area_16, area_13).\nL3.11 Guards: kill goblin-cutter x6 (across area_16, area_13)."
       }
     },
     {
@@ -24010,7 +24015,9 @@
       ],
       "name": "Holt's Cell",
       "annotations": {
-        "intent": "Maren Holt's cell (L4), a dead end: Maren Holt (NCU), a jailer."
+        "intent": "Maren Holt's cell (L4), a dead end: Maren Holt (NCU), a jailer.",
+        "ncus": "maren-holt: Maren Holt, the expedition's leader, held captive; L4.9's turn-in.",
+        "quests": "L4.9 Maren Holt: interactables holt-cell-door (\"Cell Door\", \"Forcing the lock\", 3s); place them here."
       }
     }
   ],

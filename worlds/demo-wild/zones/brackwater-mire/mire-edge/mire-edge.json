@@ -15510,7 +15510,9 @@
       ],
       "name": "Survivors' Camp",
       "annotations": {
-        "intent": "The expedition survivors' camp (L4), a dead end off the trail: survivor NCUs. No hostiles."
+        "intent": "The expedition survivors' camp (L4), a dead end off the trail: survivor NCUs. No hostiles.",
+        "ncus": "dana: Dana, an expedition survivor; gives L4.5.\nwenn: Wenn, a fevered trapper; gives S6.",
+        "quests": "L4.4 South: talk to dana."
       }
     },
     {
@@ -16527,7 +16529,8 @@
       ],
       "name": "Herb Patches",
       "annotations": {
-        "intent": "The herb patches (S6), in the tall grass: vipers among the herbs."
+        "intent": "The herb patches (S6), in the tall grass: vipers among the herbs.",
+        "quests": "S6.1 Fever Herbs: interactables fever-herb-1, fever-herb-3, fever-herb-5 (\"Feverleaf\", \"Gathering\", 1s); place them here."
       }
     },
     {
@@ -18839,7 +18842,8 @@
         }
       ],
       "annotations": {
-        "intent": "More herb patches (S6)."
+        "intent": "More herb patches (S6).",
+        "quests": "S6.1 Fever Herbs: interactables fever-herb-2, fever-herb-4 (\"Feverleaf\", \"Gathering\", 1s); place them here."
       }
     },
     {

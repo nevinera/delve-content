@@ -17025,8 +17025,11 @@
         }
       ],
       "annotations": {
-        "intent": "The way in from the mire's blackwater pools."
-      }
+        "intent": "A dry ledge where the mire's water comes in: Mags, an expedition survivor (L4.7-8, S11). Safe: no hostiles.",
+        "ncus": "mags: Mags, an expedition survivor; gives L4.8-9, S11.",
+        "quests": "L4.7 In: talk to mags."
+      },
+      "name": "Mags's Ledge"
     },
     {
       "identifier": "area_11",
@@ -19362,7 +19365,8 @@
       ],
       "name": "Glowworm Grotto",
       "annotations": {
-        "intent": "The glowworm grotto (S11), a dead end."
+        "intent": "The glowworm grotto (S11), a dead end.",
+        "quests": "S11.1 The Lost Lantern: interactables survivors-lantern (\"Lantern\", \"Taking\", 0s); place them here."
       }
     },
     {

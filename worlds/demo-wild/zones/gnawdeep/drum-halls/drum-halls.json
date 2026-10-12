@@ -7454,7 +7454,8 @@
         }
       ],
       "annotations": {
-        "intent": "The way north to Grutt's hall: goblin guards."
+        "intent": "The way north to Grutt's hall: goblin guards.",
+        "quests": "L3.8 Break the Gathering: kill goblin-cutter x8 (across area_2, area_1, area_3)."
       }
     },
     {
@@ -10015,7 +10016,9 @@
       ],
       "name": "Drum Hall",
       "annotations": {
-        "intent": "The great hall where the tribes gather (L3): the wolf-master (L3), three hexed totems (S12), dense goblins of every kind."
+        "intent": "The great hall where the tribes gather (L3): the wolf-master (L3), three hexed totems (S12), dense goblins of every kind.",
+        "quests": "L3.8 Break the Gathering: interactables war-drum-1, war-drum-2, war-drum-3 (\"War Drum\", \"Smashing\", 2s); place them here.\nL3.8 Break the Gathering: kill goblin-cutter x8 (across area_2, area_1, area_3).\nL3.9 The Wolf-Master: kill wolf-master.\nS12.2 Hexed Totems: interactables hexed-totem-1, hexed-totem-2, hexed-totem-3 (\"Hexed Totem\", \"Breaking\", 2s); place them here.",
+        "boss": "wolf-master (L3.9 The Wolf-Master)."
       }
     },
     {
@@ -11415,7 +11418,8 @@
         }
       ],
       "annotations": {
-        "intent": "The way south to the fungus deeps."
+        "intent": "The way south to the fungus deeps.",
+        "quests": "L3.8 Break the Gathering: kill goblin-cutter x8 (across area_2, area_1, area_3)."
       }
     }
   ],

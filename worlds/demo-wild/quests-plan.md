@@ -145,3 +145,195 @@ Zones: thornwood, brackwater-mire, gnawdeep. Dungeon: hall-of-the-goblin-king.
 ### S12. Hexer's Totems
 - gnawdeep, 8. 3 quests: hexed totems sicken the tunnels; break three; the hexer's apprentice.
 - Needs: gnawdeep: three hexed totems.
+
+## Quest detail
+
+Step 7: each quest bound to its giver, turn-in and objectives. Interactables are `use`
+objectives (see the map schema's Interactable); kill counts are per character.
+
+### L1
+
+1. **New at the Outpost** (`l1-new-at-the-outpost`): from Quartermaster Ives (thornwood/ranger-outpost/area_3), back to Ranger Hale (thornwood/ranger-outpost/area_3).
+   - talk: ranger-hale
+2. **Too Close** (`l1-too-close`): from Ranger Hale (thornwood/ranger-outpost/area_3), back to Ranger Hale (thornwood/ranger-outpost/area_3).
+   - kill: wolf x6, thornwood/ranger-outpost (area_2)
+3. **Tracks** (`l1-tracks`): from Ranger Hale (thornwood/ranger-outpost/area_3), back to Ranger Hale (thornwood/ranger-outpost/area_3).
+   - use: wolf-tracks-1, wolf-tracks-2, wolf-tracks-3 ("Wolf Tracks", "Reading", 1s), thornwood/woodcutters-clearing (area_12)
+4. **The Boar Run** (`l1-the-boar-run`): from Ranger Hale (thornwood/ranger-outpost/area_3), back to Ranger Hale (thornwood/ranger-outpost/area_3).
+   - kill: boar x8, thornwood/woodcutters-clearing (area_12, area_15)
+5. **Something Behind Them** (`l1-something-behind-them`): from Ranger Hale (thornwood/ranger-outpost/area_3), back to Ranger Hale (thornwood/ranger-outpost/area_3).
+   - reach: thornwood/the-hills
+   - kill: goblin-sneak x5, thornwood/the-hills (area_1, area_2, area_7, area_17)
+6. **Cut the Snares** (`l1-cut-the-snares`): from Ranger Hale (thornwood/ranger-outpost/area_3), back to Ranger Hale (thornwood/ranger-outpost/area_3).
+   - use: goblin-snare-1, goblin-snare-2, goblin-snare-3, goblin-snare-4, goblin-snare-5, goblin-snare-6 ("Goblin Snare", "Cutting", 1s), thornwood/the-hills (area_1, area_2, area_7, area_17)
+7. **Wolfriders** (`l1-wolfriders`): from Ranger Hale (thornwood/ranger-outpost/area_3), back to Ranger Hale (thornwood/ranger-outpost/area_3).
+   - kill: goblin-wolfrider x5, thornwood/the-hills (area_11, area_5, area_10, area_15)
+8. **The Cub** (`l1-the-cub`): from Ranger Hale (thornwood/ranger-outpost/area_3), back to Ranger Hale (thornwood/ranger-outpost/area_3).
+   - use: cub-cage-1, cub-cage-2, cub-cage-3 ("Cub Cage", "Opening", 2s), thornwood/the-hills (area_9)
+9. **The Mouth** (`l1-the-mouth`): from Ranger Hale (thornwood/ranger-outpost/area_3), back to Scout Arlo (gnawdeep/forest-mouth/area_4).
+   - reach: gnawdeep/forest-mouth
+10. **First In** (`l1-first-in`): from Scout Arlo (gnawdeep/forest-mouth/area_4), back to Scout Arlo (gnawdeep/forest-mouth/area_4).
+   - kill: worg x6, gnawdeep/forest-mouth (area_15, area_13)
+
+### L2
+
+1. **Smoke over the Mire** (`l2-smoke-over-the-mire`): from Odile (thornwood/southern-eaves/area_15), back to Elder Sesh (brackwater-mire/reedtalker-village/area_1).
+   - reach: brackwater-mire/reedtalker-village
+2. **Wary Welcome** (`l2-wary-welcome`): from Elder Sesh (brackwater-mire/reedtalker-village/area_1), back to Kesh (brackwater-mire/reedtalker-village/area_2).
+   - talk: kesh
+3. **Prove It** (`l2-prove-it`): from Kesh (brackwater-mire/reedtalker-village/area_2), back to Kesh (brackwater-mire/reedtalker-village/area_2).
+   - kill: swamp-viper x4, brackwater-mire/reedtalker-village (area_4)
+   - kill: giant-frog x4, brackwater-mire/nesting-grounds (area_12)
+4. **Burned Nests** (`l2-burned-nests`): from Elder Sesh (brackwater-mire/reedtalker-village/area_1), back to Elder Sesh (brackwater-mire/reedtalker-village/area_1).
+   - use: burned-nest-1, burned-nest-2, burned-nest-3, burned-nest-4 ("Burned Nest", "Searching", 1s), brackwater-mire/nesting-grounds (area_4, area_6)
+5. **Blackscale Raiders** (`l2-blackscale-raiders`): from Kesh (brackwater-mire/reedtalker-village/area_2), back to Kesh (brackwater-mire/reedtalker-village/area_2).
+   - kill: blackscale-warrior x8, brackwater-mire/nesting-grounds (area_4, area_6)
+6. **Their Totems** (`l2-their-totems`): from Elder Sesh (brackwater-mire/reedtalker-village/area_1), back to Elder Sesh (brackwater-mire/reedtalker-village/area_1).
+   - use: war-totem-1, war-totem-2, war-totem-3 ("War-Totem", "Toppling", 2s), brackwater-mire/blackscale-marsh (area_8)
+   - kill: blackscale-shaman x1, brackwater-mire/blackscale-marsh (area_8)
+7. **Captives** (`l2-captives`): from Kesh (brackwater-mire/reedtalker-village/area_2), back to Kesh (brackwater-mire/reedtalker-village/area_2).
+   - use: captive-pen-1, captive-pen-2, captive-pen-3, captive-pen-4 ("Captive Pen", "Opening", 2s), brackwater-mire/blackscale-marsh (area_11)
+8. **The War-Shaman** (`l2-the-war-shaman`): from Kesh (brackwater-mire/reedtalker-village/area_2), back to Elder Sesh (brackwater-mire/reedtalker-village/area_1).
+   - kill: blackscale-hunter x6, brackwater-mire/blackscale-marsh (area_9, area_3)
+9. **Into Blackscale Land** (`l2-into-blackscale-land`): from Elder Sesh (brackwater-mire/reedtalker-village/area_1), back to Elder Sesh (brackwater-mire/reedtalker-village/area_1).
+   - reach: brackwater-mire/blackscale-village
+   - kill: blackscale-warrior x8, brackwater-mire/blackscale-village (area_12)
+10. **Smoke Ends** (`l2-smoke-ends`): from Elder Sesh (brackwater-mire/reedtalker-village/area_1), back to Elder Sesh (brackwater-mire/reedtalker-village/area_1).
+   - kill: blackscale-war-shaman x1, brackwater-mire/blackscale-village (area_20)
+
+### L3
+
+1. **Deeper** (`l3-deeper`): from Scout Arlo (gnawdeep/forest-mouth/area_4), back to Scout Arlo (gnawdeep/forest-mouth/area_4).
+   - reach: gnawdeep/sapper-tunnels
+2. **Sapper Tunnels** (`l3-sapper-tunnels`): from Scout Arlo (gnawdeep/forest-mouth/area_4), back to Scout Arlo (gnawdeep/forest-mouth/area_4).
+   - kill: goblin-sapper x8, gnawdeep/sapper-tunnels (area_16)
+3. **Collapse Them** (`l3-collapse-them`): from Scout Arlo (gnawdeep/forest-mouth/area_4), back to Captain Rhys (gnawdeep/fungus-deeps/area_1).
+   - use: tunnel-prop-1, tunnel-prop-2, tunnel-prop-3, tunnel-prop-4 ("Tunnel Prop", "Knocking out", 3s), gnawdeep/sapper-tunnels (area_16)
+4. **The Hexer** (`l3-the-hexer`): from Captain Rhys (gnawdeep/fungus-deeps/area_1), back to Captain Rhys (gnawdeep/fungus-deeps/area_1).
+   - kill: hexer-nagg x1, gnawdeep/fungus-deeps (area_14)
+5. **Mushroom Farms** (`l3-mushroom-farms`): from Captain Rhys (gnawdeep/fungus-deeps/area_1), back to Captain Rhys (gnawdeep/fungus-deeps/area_1).
+   - use: mushroom-bed-1, mushroom-bed-2, mushroom-bed-3, mushroom-bed-4, mushroom-bed-5 ("Mushroom Bed", "Burning", 2s), gnawdeep/fungus-deeps (area_4, area_9)
+6. **The Shaman's Fire** (`l3-the-shamans-fire`): from Captain Rhys (gnawdeep/fungus-deeps/area_1), back to Captain Rhys (gnawdeep/fungus-deeps/area_1).
+   - kill: shaman-brazza x1, gnawdeep/fungus-deeps (area_7)
+7. **War Drums** (`l3-war-drums`): from Captain Rhys (gnawdeep/fungus-deeps/area_1), back to Captain Rhys (gnawdeep/fungus-deeps/area_1).
+   - reach: gnawdeep/drum-halls
+8. **Break the Gathering** (`l3-break-the-gathering`): from Captain Rhys (gnawdeep/fungus-deeps/area_1), back to Captain Rhys (gnawdeep/fungus-deeps/area_1).
+   - use: war-drum-1, war-drum-2, war-drum-3 ("War Drum", "Smashing", 2s), gnawdeep/drum-halls (area_2)
+   - kill: goblin-cutter x8, gnawdeep/drum-halls (area_2, area_1, area_3)
+9. **The Wolf-Master** (`l3-the-wolf-master`): from Captain Rhys (gnawdeep/fungus-deeps/area_1), back to Captain Rhys (gnawdeep/fungus-deeps/area_1).
+   - kill: wolf-master x1, gnawdeep/drum-halls (area_2)
+10. **Grutt's Hall** (`l3-grutts-hall`): from Captain Rhys (gnawdeep/fungus-deeps/area_1), back to Captain Rhys (gnawdeep/fungus-deeps/area_1).
+   - reach: gnawdeep/grutts-hall
+11. **Guards** (`l3-guards`): from Captain Rhys (gnawdeep/fungus-deeps/area_1), back to Captain Rhys (gnawdeep/fungus-deeps/area_1).
+   - kill: goblin-archer x6, gnawdeep/grutts-hall (area_16, area_13)
+   - kill: goblin-cutter x6, gnawdeep/grutts-hall (area_16, area_13)
+12. **Warboss Grutt** (`l3-warboss-grutt`): from Captain Rhys (gnawdeep/fungus-deeps/area_1), back to Captain Rhys (gnawdeep/fungus-deeps/area_1).
+   - kill: warboss-grutt x1, gnawdeep/grutts-hall (area_2)
+13. **The Sealed Stair** (`l3-the-sealed-stair`): from Captain Rhys (gnawdeep/fungus-deeps/area_1), back to Captain Rhys (gnawdeep/fungus-deeps/area_1).
+   - use: stair-seal ("Sealed Stair", "Breaking the seal", 5s), gnawdeep/grutts-hall (area_3)
+14. **The Goblin King** (`l3-the-goblin-king`): from Captain Rhys (gnawdeep/fungus-deeps/area_1), back to Captain Rhys (gnawdeep/fungus-deeps/area_1).
+   - kill: goblin-king x1, hall-of-the-goblin-king/goblin-kings-hall (area_4)
+
+### L4
+
+1. **Overdue** (`l4-overdue`): from Quartermaster Ives (thornwood/ranger-outpost/area_3), back to Quartermaster Ives (thornwood/ranger-outpost/area_3).
+   - use: expedition-gear-1, expedition-gear-2, expedition-gear-3 ("Expedition Gear", "Searching", 1s), thornwood/pine-ridge (area_14)
+2. **The First Survivor** (`l4-the-first-survivor`): from Quartermaster Ives (thornwood/ranger-outpost/area_3), back to Pike (thornwood/the-hills/area_19).
+   - talk: pike
+3. **Split Up** (`l4-split-up`): from Pike (thornwood/the-hills/area_19), back to Pike (thornwood/the-hills/area_19).
+   - kill: goblin-sneak x5, thornwood/the-hills (area_1, area_2)
+4. **South** (`l4-south`): from Pike (thornwood/the-hills/area_19), back to Dana (brackwater-mire/mire-edge/area_6).
+   - talk: dana
+5. **Reedtalker Rescue** (`l4-reedtalker-rescue`): from Dana (brackwater-mire/mire-edge/area_6), back to Cole (brackwater-mire/reedtalker-village/area_2).
+   - talk: cole
+6. **The Flooded Way** (`l4-the-flooded-way`): from Cole (brackwater-mire/reedtalker-village/area_2), back to Cole (brackwater-mire/reedtalker-village/area_2).
+   - kill: swamp-crocodile x4, brackwater-mire/blackwater-pools (area_14)
+7. **In** (`l4-in`): from Cole (brackwater-mire/reedtalker-village/area_2), back to Mags (gnawdeep/flooded-caves/area_10).
+   - reach: gnawdeep/flooded-caves
+   - talk: mags
+8. **The Silver Seam** (`l4-the-silver-seam`): from Mags (gnawdeep/flooded-caves/area_10), back to Mags (gnawdeep/flooded-caves/area_10).
+   - use: silver-sample-1, silver-sample-2, silver-sample-3 ("Silver Vein", "Chipping", 2s), gnawdeep/silver-seam (area_5)
+9. **Maren Holt** (`l4-maren-holt`): from Mags (gnawdeep/flooded-caves/area_10), back to Maren Holt (gnawdeep/grutts-hall/area_21).
+   - use: holt-cell-door ("Cell Door", "Forcing the lock", 3s), gnawdeep/grutts-hall (area_21)
+
+### S1
+
+1. **Wolves at the Woodpile** (`s1-wolves-at-the-woodpile`): from Bram (thornwood/woodcutters-clearing/area_10), back to Bram (thornwood/woodcutters-clearing/area_10).
+   - kill: wolf x6, thornwood/woodcutters-clearing (area_10)
+
+### S2
+
+1. **Lost Snares** (`s2-lost-snares`): from Odile (thornwood/southern-eaves/area_15), back to Odile (thornwood/southern-eaves/area_15).
+   - use: trapper-snare-1, trapper-snare-2, trapper-snare-3, trapper-snare-4 ("Trapper's Snare", "Collecting", 1s), thornwood/southern-eaves (area_16, area_13, area_17)
+2. **What's Caught** (`s2-whats-caught`): from Odile (thornwood/southern-eaves/area_15), back to Odile (thornwood/southern-eaves/area_15).
+   - kill: boar x3, thornwood/southern-eaves (area_16, area_13, area_17)
+   - kill: wolf x3, thornwood/southern-eaves (area_16, area_13, area_17)
+
+### S3
+
+1. **Stalked** (`s3-stalked`): from Ranger Sela (thornwood/ranger-outpost/area_3), back to Ranger Sela (thornwood/ranger-outpost/area_3).
+   - use: panther-kill-1, panther-kill-2, panther-kill-3 ("Panther Kill", "Examining", 1s), thornwood/old-growth (area_5)
+2. **The Black Panther** (`s3-the-black-panther`): from Ranger Sela (thornwood/ranger-outpost/area_3), back to Ranger Sela (thornwood/ranger-outpost/area_3).
+   - kill: black-panther x1, thornwood/old-growth (area_10)
+
+### S4
+
+1. **The Woodcutter's Axe** (`s4-the-woodcutters-axe`): from Bram (thornwood/woodcutters-clearing/area_10), back to Bram (thornwood/woodcutters-clearing/area_10).
+   - kill: black-bear x1, thornwood/woodcutters-clearing (area_11)
+   - use: woodcutters-axe ("Woodcutter's Axe", "Taking", 0s), thornwood/woodcutters-clearing (area_11)
+
+### S5
+
+1. **The Abandoned Camp** (`s5-the-abandoned-camp`): from Nell (thornwood/woodcutters-clearing/area_10), back to Nell (thornwood/woodcutters-clearing/area_10).
+   - use: camp-clue-1, camp-clue-2, camp-clue-3 ("Abandoned Gear", "Searching", 1s), thornwood/pine-ridge (area_1)
+2. **Who Left It** (`s5-who-left-it`): from Nell (thornwood/woodcutters-clearing/area_10), back to Ranger Hale (thornwood/ranger-outpost/area_3).
+   - talk: ranger-hale
+3. **What's There Now** (`s5-whats-there-now`): from Ranger Hale (thornwood/ranger-outpost/area_3), back to Ranger Hale (thornwood/ranger-outpost/area_3).
+   - kill: dire-wolf x5, thornwood/pine-ridge (area_1)
+
+### S6
+
+1. **Fever Herbs** (`s6-fever-herbs`): from Wenn (brackwater-mire/mire-edge/area_6), back to Wenn (brackwater-mire/mire-edge/area_6).
+   - use: fever-herb-1, fever-herb-2, fever-herb-3, fever-herb-4, fever-herb-5 ("Feverleaf", "Gathering", 1s), brackwater-mire/mire-edge (area_8, area_12)
+2. **A Reedtalker Cure** (`s6-a-reedtalker-cure`): from Wenn (brackwater-mire/mire-edge/area_6), back to Wenn (brackwater-mire/mire-edge/area_6).
+   - talk: sura
+
+### S7
+
+1. **Stolen Eggs** (`s7-stolen-eggs`): from Mossback (brackwater-mire/reedtalker-village/area_2), back to Mossback (brackwater-mire/reedtalker-village/area_2).
+   - use: egg-clutch-1, egg-clutch-2, egg-clutch-3, egg-clutch-4 ("Reedtalker Eggs", "Gathering", 1s), brackwater-mire/nesting-grounds (area_17)
+2. **Keep Them Off** (`s7-keep-them-off`): from Mossback (brackwater-mire/reedtalker-village/area_2), back to Mossback (brackwater-mire/reedtalker-village/area_2).
+   - kill: giant-frog x8, brackwater-mire/nesting-grounds (area_17, area_12)
+
+### S8
+
+1. **The Sunken Idol** (`s8-the-sunken-idol`): from Sura (brackwater-mire/reedtalker-village/area_2), back to Sura (brackwater-mire/reedtalker-village/area_2).
+   - use: sunken-idol ("Sunken Idol", "Lifting", 3s), brackwater-mire/blackwater-pools (area_2)
+
+### S9
+
+1. **Taken Fishers** (`s9-taken-fishers`): from Ilu (brackwater-mire/reedtalker-village/area_3), back to Ilu (brackwater-mire/reedtalker-village/area_3).
+   - kill: swamp-crocodile x5, brackwater-mire/blackwater-pools (area_2, area_14)
+2. **The Old Croc** (`s9-the-old-croc`): from Ilu (brackwater-mire/reedtalker-village/area_3), back to Ilu (brackwater-mire/reedtalker-village/area_3).
+   - kill: old-croc x1, brackwater-mire/blackwater-pools (area_10)
+
+### S10
+
+1. **Sapper's Charges** (`s10-sappers-charges`): from Scout Arlo (gnawdeep/forest-mouth/area_4), back to Scout Arlo (gnawdeep/forest-mouth/area_4).
+   - use: sapper-charge-1, sapper-charge-2, sapper-charge-3 ("Sapper's Charge", "Taking", 0s), gnawdeep/sapper-tunnels (area_7)
+2. **Seal the Tunnel** (`s10-seal-the-tunnel`): from Scout Arlo (gnawdeep/forest-mouth/area_4), back to Scout Arlo (gnawdeep/forest-mouth/area_4).
+   - use: tunnel-face ("Tunnel Face", "Setting the charges", 3s), gnawdeep/sapper-tunnels (area_16)
+
+### S11
+
+1. **The Lost Lantern** (`s11-the-lost-lantern`): from Mags (gnawdeep/flooded-caves/area_10), back to Mags (gnawdeep/flooded-caves/area_10).
+   - use: survivors-lantern ("Lantern", "Taking", 0s), gnawdeep/flooded-caves (area_14)
+
+### S12
+
+1. **Sick Tunnels** (`s12-sick-tunnels`): from Captain Rhys (gnawdeep/fungus-deeps/area_1), back to Captain Rhys (gnawdeep/fungus-deeps/area_1).
+   - kill: cave-spider x6, gnawdeep/fungus-deeps (area_4, area_9)
+2. **Hexed Totems** (`s12-hexed-totems`): from Captain Rhys (gnawdeep/fungus-deeps/area_1), back to Captain Rhys (gnawdeep/fungus-deeps/area_1).
+   - use: hexed-totem-1, hexed-totem-2, hexed-totem-3 ("Hexed Totem", "Breaking", 2s), gnawdeep/drum-halls (area_2)
+3. **The Apprentice** (`s12-the-apprentice`): from Captain Rhys (gnawdeep/fungus-deeps/area_1), back to Captain Rhys (gnawdeep/fungus-deeps/area_1).
+   - kill: goblin-hexer x3, gnawdeep/fungus-deeps (area_14)

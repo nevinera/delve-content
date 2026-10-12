@@ -14268,7 +14268,8 @@
         }
       ],
       "annotations": {
-        "intent": "Goblin snares in the grass, and the sneaks who set them."
+        "intent": "Goblin snares in the grass, and the sneaks who set them.",
+        "quests": "L1.5 Something Behind Them: kill goblin-sneak x5 (across area_1, area_2, area_7, area_17).\nL1.6 Cut the Snares: interactables goblin-snare-1, goblin-snare-5 (\"Goblin Snare\", \"Cutting\", 1s); place them here.\nL4.3 Split Up: kill goblin-sneak x5 (across area_1, area_2)."
       }
     },
     {
@@ -14804,7 +14805,8 @@
         }
       ],
       "annotations": {
-        "intent": "Goblin snares in the grass, and the sneaks who set them."
+        "intent": "Goblin snares in the grass, and the sneaks who set them.",
+        "quests": "L1.5 Something Behind Them: kill goblin-sneak x5 (across area_1, area_2, area_7, area_17).\nL1.6 Cut the Snares: interactables goblin-snare-2, goblin-snare-6 (\"Goblin Snare\", \"Cutting\", 1s); place them here.\nL4.3 Split Up: kill goblin-sneak x5 (across area_1, area_2)."
       }
     },
     {
@@ -16765,7 +16767,8 @@
         }
       ],
       "annotations": {
-        "intent": "On the goblin wolfriders' patrol route, near the cave track."
+        "intent": "On the goblin wolfriders' patrol route, near the cave track.",
+        "quests": "L1.7 Wolfriders: kill goblin-wolfrider x5 (across area_11, area_5, area_10, area_15)."
       }
     },
     {
@@ -17485,7 +17488,8 @@
         }
       ],
       "annotations": {
-        "intent": "Goblin snares in the grass, and the sneaks who set them."
+        "intent": "Goblin snares in the grass, and the sneaks who set them.",
+        "quests": "L1.5 Something Behind Them: kill goblin-sneak x5 (across area_1, area_2, area_7, area_17).\nL1.6 Cut the Snares: interactables goblin-snare-3 (\"Goblin Snare\", \"Cutting\", 1s); place them here."
       }
     },
     {
@@ -18581,8 +18585,10 @@
         }
       ],
       "annotations": {
-        "intent": "On the goblin wolfriders' patrol route."
-      }
+        "intent": "A goblin holding pen on the wolfriders' route: caged wolf cubs (L1.8), goblin wolfriders.",
+        "quests": "L1.8 The Cub: interactables cub-cage-1, cub-cage-2, cub-cage-3 (\"Cub Cage\", \"Opening\", 2s); place them here."
+      },
+      "name": "Goblin Pen"
     },
     {
       "identifier": "area_10",
@@ -19197,7 +19203,8 @@
         }
       ],
       "annotations": {
-        "intent": "On the goblin wolfriders' patrol route."
+        "intent": "On the goblin wolfriders' patrol route.",
+        "quests": "L1.7 Wolfriders: kill goblin-wolfrider x5 (across area_11, area_5, area_10, area_15)."
       }
     },
     {
@@ -19750,7 +19757,8 @@
       ],
       "name": "Wolfrider Run",
       "annotations": {
-        "intent": "The middle of the wolfriders' patrol route (along the trail): goblin wolfriders."
+        "intent": "The middle of the wolfriders' patrol route (along the trail): goblin wolfriders.",
+        "quests": "L1.7 Wolfriders: kill goblin-wolfrider x5 (across area_11, area_5, area_10, area_15)."
       }
     },
     {
@@ -21942,7 +21950,8 @@
         }
       ],
       "annotations": {
-        "intent": "On the goblin wolfriders' patrol route, nearest the woods."
+        "intent": "On the goblin wolfriders' patrol route, nearest the woods.",
+        "quests": "L1.7 Wolfriders: kill goblin-wolfrider x5 (across area_11, area_5, area_10, area_15)."
       }
     },
     {
@@ -23270,7 +23279,8 @@
         }
       ],
       "annotations": {
-        "intent": "Goblin snares in the grass, and the sneaks who set them."
+        "intent": "Goblin snares in the grass, and the sneaks who set them.",
+        "quests": "L1.5 Something Behind Them: kill goblin-sneak x5 (across area_1, area_2, area_7, area_17).\nL1.6 Cut the Snares: interactables goblin-snare-4 (\"Goblin Snare\", \"Cutting\", 1s); place them here."
       }
     },
     {
@@ -25111,7 +25121,9 @@
       ],
       "name": "Survivor's Hide",
       "annotations": {
-        "intent": "An expedition survivor's hide (L4), three places off the trail: the survivor NCU, hiding from the goblins. No hostiles."
+        "intent": "An expedition survivor's hide (L4), three places off the trail: the survivor NCU, hiding from the goblins. No hostiles.",
+        "ncus": "pike: Pike, an expedition survivor, hiding; gives L4.3-4.",
+        "quests": "L4.2 The First Survivor: talk to pike."
       }
     }
   ],

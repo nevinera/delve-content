@@ -12000,7 +12000,8 @@
       ],
       "name": "Abandoned Camp",
       "annotations": {
-        "intent": "An abandoned camp (S5): cold fire, torn tents, a clue to what drove them off. Wolves picking through it."
+        "intent": "An abandoned camp (S5): cold fire, torn tents, a clue to what drove them off. Wolves picking through it.",
+        "quests": "S5.1 The Abandoned Camp: interactables camp-clue-1, camp-clue-2, camp-clue-3 (\"Abandoned Gear\", \"Searching\", 1s); place them here.\nS5.3 What's There Now: kill dire-wolf x5."
       }
     },
     {
@@ -20650,7 +20651,8 @@
       ],
       "name": "Expedition Camp",
       "annotations": {
-        "intent": "The expedition's empty camp (L4), past the bog: their gear left behind, tracks heading north to the hills."
+        "intent": "The expedition's empty camp (L4), past the bog: their gear left behind, tracks heading north to the hills.",
+        "quests": "L4.1 Overdue: interactables expedition-gear-1, expedition-gear-2, expedition-gear-3 (\"Expedition Gear\", \"Searching\", 1s); place them here."
       }
     }
   ],

@@ -18528,7 +18528,8 @@
       ],
       "name": "Blackscale Village",
       "annotations": {
-        "intent": "The heart of the Blackscales' village: its fire and gathering ground. Dense."
+        "intent": "The heart of the Blackscales' village: its fire and gathering ground. Dense.",
+        "quests": "L2.9 Into Blackscale Land: kill blackscale-warrior x8."
       }
     },
     {
@@ -22745,7 +22746,9 @@
       ],
       "name": "War-Shaman's Hut",
       "annotations": {
-        "intent": "The war-shaman's hut (L2 boss), the village's deepest dead end."
+        "intent": "The war-shaman's hut (L2 boss), the village's deepest dead end.",
+        "quests": "L2.10 Smoke Ends: kill blackscale-war-shaman.",
+        "boss": "blackscale-war-shaman (L2.10 Smoke Ends)."
       }
     }
   ],

@@ -137,5 +137,11 @@
     "pine-ridge/south": "pine-ridge-south",
     "southern-eaves/south": "southern-eaves-south",
     "the-hills/north": "the-hills-north"
+  },
+  "annotations": {
+    "identity": "Green, quiet forest that turns wild toward the edges. Glade and autumn: bright meadows round the outpost, old trees in the middle, a pine ridge and wooded hills to the north. Its trouble is beasts pushed out of the hills, and goblins behind them.",
+    "structure": "Hub: the ranger outpost (ranger-outpost area_3), where new characters arrive. Difficulty rises outward: the outpost's maps first (elvl 0-1), then the old growth, ridge and eaves (2-3), the hills last (3-4), which lead up to the Gnawdeep.",
+    "poi": "Ranger Outpost; Woodcutters' Camp; Bear's Den; Panther's Den; The Old Trees; Abandoned Camp; Expedition Camp; Trappers' Camp; Snare Lines; Survivor's Hide; Cave Track (to the Gnawdeep).",
+    "bosses": "The black panther (old-growth area_10, S3). The black bear with the woodcutter's axe (woodcutters-clearing area_11, S4)."
   }
 }

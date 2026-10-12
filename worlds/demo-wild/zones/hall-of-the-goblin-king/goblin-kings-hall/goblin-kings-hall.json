@@ -9018,7 +9018,9 @@
       ],
       "name": "Goblin King's Throne",
       "annotations": {
-        "intent": "The Goblin King's throne (the dungeon boss), the hall's farthest end."
+        "intent": "The Goblin King's throne (the dungeon boss), the hall's farthest end.",
+        "quests": "L3.14 The Goblin King: kill goblin-king.",
+        "boss": "goblin-king (L3.14 The Goblin King)."
       }
     },
     {

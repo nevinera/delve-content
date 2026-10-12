@@ -7192,7 +7192,8 @@
       ],
       "name": "North Track",
       "annotations": {
-        "intent": "The trail north to the woodcutters. Safe near the outpost: deer, a lone wolf at most."
+        "intent": "The trail north to the woodcutters. Safe near the outpost: deer, a lone wolf at most.",
+        "quests": "L1.2 Too Close: kill wolf x6."
       }
     },
     {
@@ -9633,7 +9634,9 @@
       ],
       "name": "Ranger Outpost",
       "annotations": {
-        "intent": "The outpost: Ranger Hale's stockade, the expedition's notice board and the quest givers (L1, L4 start); where new characters arrive. Safe: no hostiles. The stockade is one structure in this open ground, for stamps (#164) later."
+        "intent": "The outpost: Ranger Hale's stockade, the expedition's notice board and the quest givers (L1, L4 start); where new characters arrive. Safe: no hostiles. The stockade is one structure in this open ground, for stamps (#164) later.",
+        "ncus": "quartermaster-ives: Quartermaster Ives, keeps the expedition's notice board; gives L1.1, L4.1-2.\nranger-hale: Ranger Hale, the outpost's ranger; gives L1.2-9.\nranger-sela: Ranger Sela, Hale's deputy; gives S3.",
+        "quests": "L1.1 New at the Outpost: talk to ranger-hale.\nS5.2 Who Left It: talk to ranger-hale."
       }
     }
   ],

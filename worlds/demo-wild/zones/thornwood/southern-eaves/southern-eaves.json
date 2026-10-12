@@ -19736,7 +19736,8 @@
         }
       ],
       "annotations": {
-        "intent": "More of the trappers' snare lines (S2)."
+        "intent": "More of the trappers' snare lines (S2).",
+        "quests": "S2.1 Lost Snares: interactables trapper-snare-2 (\"Trapper's Snare\", \"Collecting\", 1s); place them here.\nS2.2 What's Caught: kill boar x3 (across area_16, area_13, area_17).\nS2.2 What's Caught: kill wolf x3 (across area_16, area_13, area_17)."
       }
     },
     {
@@ -20913,7 +20914,8 @@
       ],
       "name": "Trappers' Camp",
       "annotations": {
-        "intent": "The trappers' camp (L2, S2), on the trail near the mire: trapper NCUs, hides drying. Safe inside."
+        "intent": "The trappers' camp (L2, S2), on the trail near the mire: trapper NCUs, hides drying. Safe inside.",
+        "ncus": "odile: Odile, a trapper; gives S2, L2.1."
       }
     },
     {
@@ -21314,7 +21316,8 @@
       ],
       "name": "Snare Lines",
       "annotations": {
-        "intent": "The trappers' snare lines (S2), in the tall grass: snared and angry animals."
+        "intent": "The trappers' snare lines (S2), in the tall grass: snared and angry animals.",
+        "quests": "S2.1 Lost Snares: interactables trapper-snare-1, trapper-snare-4 (\"Trapper's Snare\", \"Collecting\", 1s); place them here.\nS2.2 What's Caught: kill boar x3 (across area_16, area_13, area_17).\nS2.2 What's Caught: kill wolf x3 (across area_16, area_13, area_17)."
       }
     },
     {
@@ -22018,7 +22021,8 @@
         }
       ],
       "annotations": {
-        "intent": "The far end of the trappers' snare lines (S2)."
+        "intent": "The far end of the trappers' snare lines (S2).",
+        "quests": "S2.1 Lost Snares: interactables trapper-snare-3 (\"Trapper's Snare\", \"Collecting\", 1s); place them here.\nS2.2 What's Caught: kill boar x3 (across area_16, area_13, area_17).\nS2.2 What's Caught: kill wolf x3 (across area_16, area_13, area_17)."
       }
     },
     {

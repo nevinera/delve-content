@@ -17206,7 +17206,8 @@
       ],
       "name": "Boggy Hollow",
       "annotations": {
-        "intent": "A boggy hollow on the trail."
+        "intent": "A boggy hollow on the trail.",
+        "quests": "S3.1 Stalked: interactables panther-kill-1, panther-kill-2, panther-kill-3 (\"Panther Kill\", \"Examining\", 1s); place them here."
       }
     },
     {
@@ -19895,7 +19896,9 @@
       ],
       "name": "Panther's Den",
       "annotations": {
-        "intent": "The black panther's den (S3), two steps off the trail. The black panther alone: players should find it before it finds them."
+        "intent": "The black panther's den (S3), two steps off the trail. The black panther alone: players should find it before it finds them.",
+        "quests": "S3.2 The Black Panther: kill black-panther.",
+        "boss": "black-panther (S3.2 The Black Panther)."
       }
     },
     {

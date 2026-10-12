@@ -18946,7 +18946,8 @@
       ],
       "name": "Sapper Camp",
       "annotations": {
-        "intent": "The sapper camp (S10), a dead end: sappers off shift."
+        "intent": "The sapper camp (S10), a dead end: sappers off shift.",
+        "quests": "S10.1 Sapper's Charges: interactables sapper-charge-1, sapper-charge-2, sapper-charge-3 (\"Sapper's Charge\", \"Taking\", 0s); place them here."
       }
     },
     {
@@ -24195,7 +24196,8 @@
       ],
       "name": "New Tunnels",
       "annotations": {
-        "intent": "The newest tunnels (L3), still being dug: sappers at work."
+        "intent": "The newest tunnels (L3), still being dug: sappers at work.",
+        "quests": "L3.2 Sapper Tunnels: kill goblin-sapper x8.\nL3.3 Collapse Them: interactables tunnel-prop-1, tunnel-prop-2, tunnel-prop-3, tunnel-prop-4 (\"Tunnel Prop\", \"Knocking out\", 3s); place them here.\nS10.2 Seal the Tunnel: interactables tunnel-face (\"Tunnel Face\", \"Setting the charges\", 3s); place them here."
       }
     },
     {

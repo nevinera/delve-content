@@ -14540,8 +14540,10 @@
         }
       ],
       "annotations": {
-        "intent": "Floor, a dead end. Goblin caves near the surface: goblins, cave bats."
-      }
+        "intent": "Arlo's scout camp, Ranger Hale's foothold in the caves: Scout Arlo (L1.10, L3, S10). Safe: no hostiles.",
+        "ncus": "scout-arlo: Scout Arlo, Hale's scout in the caves; gives L1.10, L3.1-3, S10."
+      },
+      "name": "Scout Camp"
     },
     {
       "identifier": "area_5",
@@ -20012,7 +20014,8 @@
         }
       ],
       "annotations": {
-        "intent": "The way to the wolf pens: goblins."
+        "intent": "The way to the wolf pens: goblins.",
+        "quests": "L1.10 First In: kill worg x6 (across area_15, area_13)."
       }
     },
     {
@@ -21182,7 +21185,8 @@
       ],
       "name": "Wolf Pens",
       "annotations": {
-        "intent": "The worg pens (L1, L3), a dead end: worgs and their goblin keepers."
+        "intent": "The worg pens (L1, L3), a dead end: worgs and their goblin keepers.",
+        "quests": "L1.10 First In: kill worg x6 (across area_15, area_13)."
       }
     },
     {
