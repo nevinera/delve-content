@@ -65,5 +65,9 @@
   "openConnections": {
     "hub/southeast": "south-exit",
     "passage/north": "north-exit"
+  },
+  "stamps": {
+    "$ref": "./stamps.json",
+    "referenceTo": "stamps"
   }
 }

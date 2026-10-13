@@ -1388,5 +1388,68 @@
       "x": 108.28396112818714,
       "y": 200.21251482516126
     }
+  ],
+  "stamps": [
+    {
+      "stamp": "camp/campfire",
+      "x": 175.8,
+      "y": 183.6
+    },
+    {
+      "stamp": "camp/campfire",
+      "x": 202.7,
+      "y": 239.7
+    },
+    {
+      "stamp": "camp/campfire",
+      "x": 235.5,
+      "y": 215.5
+    },
+    {
+      "stamp": "camp/campfire",
+      "x": 220.6,
+      "y": 208.1
+    },
+    {
+      "stamp": "camp/tent",
+      "x": 188,
+      "y": 191
+    },
+    {
+      "stamp": "camp/tent",
+      "x": 191,
+      "y": 178.2,
+      "rotation": 297.5
+    },
+    {
+      "stamp": "camp/log",
+      "x": 184,
+      "y": 207.2
+    },
+    {
+      "stamp": "camp/signpost",
+      "x": 201.1,
+      "y": 216.9
+    },
+    {
+      "stamp": "camp/footprints",
+      "x": 159.5,
+      "y": 176.9
+    },
+    {
+      "stamp": "camp/footprints",
+      "x": 171,
+      "y": 195.3
+    },
+    {
+      "stamp": "camp/footprints",
+      "x": 176.5,
+      "y": 211.2
+    },
+    {
+      "stamp": "camp/pond",
+      "x": 218.5,
+      "y": 231.5
+    }
   ]
 }
