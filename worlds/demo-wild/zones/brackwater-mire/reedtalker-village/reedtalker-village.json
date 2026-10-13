@@ -12146,7 +12146,7 @@
       "annotations": {
         "intent": "The path south to the nesting grounds: the first swamp vipers (L2.3).",
         "quests": "L2.3 Prove It: kill swamp-viper x4.",
-        "population": "density: sparse\nmix: swamp-viper"
+        "population": "density: 1\nmix: swamp-viper\ngroups: 1-2"
       }
     }
   ],
@@ -12158,14 +12158,165 @@
       "identifier": "reedtalker-village-area_4-swamp-viper-1",
       "unitType": "swamp-viper",
       "position": {
-        "x": 18.83,
-        "y": 19.19,
-        "angle": 204
+        "x": 56.33,
+        "y": 99.19,
+        "angle": 50
       },
       "hostility": "hostile",
       "movement": {
         "type": "still"
-      }
+      },
+      "groupIdentifier": "reedtalker-village-area_4-g1"
+    },
+    {
+      "identifier": "reedtalker-village-area_4-swamp-viper-2",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 61.13,
+        "y": 100.59,
+        "angle": 118
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 61.13,
+          "y": 100.59
+        },
+        "radius": 2.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "reedtalker-village-area_4-g1"
+    },
+    {
+      "identifier": "reedtalker-village-area_4-swamp-viper-3",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 17.86,
+        "y": 19.04,
+        "angle": 357
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "reedtalker-village-area_4-g2"
+    },
+    {
+      "identifier": "reedtalker-village-area_4-swamp-viper-4",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 22.46,
+        "y": 20.99,
+        "angle": 149
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 22.46,
+          "y": 20.99
+        },
+        "radius": 2.5,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "reedtalker-village-area_4-g2"
+    },
+    {
+      "identifier": "reedtalker-village-area_4-swamp-viper-5",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 34.6,
+        "y": 47.1,
+        "angle": 285
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 34.6,
+          "y": 47.1
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "reedtalker-village-area_4-g3"
+    },
+    {
+      "identifier": "reedtalker-village-area_4-swamp-viper-6",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 39.6,
+        "y": 47.15,
+        "angle": 292
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 39.6,
+          "y": 47.15
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "reedtalker-village-area_4-g3"
+    },
+    {
+      "identifier": "reedtalker-village-area_4-swamp-viper-7",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 114.51,
+        "y": 19.11,
+        "angle": 193
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "reedtalker-village-area_4-g4"
+    },
+    {
+      "identifier": "reedtalker-village-area_4-swamp-viper-8",
+      "unitType": "swamp-viper",
+      "position": {
+        "x": 119.17,
+        "y": 20.91,
+        "angle": 154
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "reedtalker-village-area_4-g4"
     }
   ],
   "ncus": [

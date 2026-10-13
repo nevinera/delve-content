@@ -16098,7 +16098,7 @@
       "annotations": {
         "intent": "The burned nests (L2): Blackscale raiders torched them. Raiders still about.",
         "quests": "L2.4 Burned Nests: interactables burned-nest-1, burned-nest-3 (\"Burned Nest\", \"Searching\", 1s); place them here.\nL2.5 Blackscale Raiders: kill blackscale-warrior x8 (across area_4, area_6).",
-        "population": "density: normal\nmix: blackscale-warrior 2, blackscale-hunter\ngroups: 2"
+        "population": "density: 1\nmix: blackscale-warrior 3, blackscale-hunter\ngroups: 2"
       }
     },
     {
@@ -24474,155 +24474,6 @@
       }
     },
     {
-      "identifier": "nesting-grounds-area_4-blackscale-hunter-1",
-      "unitType": "blackscale-hunter",
-      "position": {
-        "x": 317.77,
-        "y": 406.13,
-        "angle": 253
-      },
-      "hostility": "hostile",
-      "movement": {
-        "type": "wander",
-        "location": {
-          "x": 317.77,
-          "y": 406.13
-        },
-        "radius": 4,
-        "speed": [
-          0.2,
-          0.4
-        ],
-        "waitTime": [
-          2,
-          6
-        ]
-      },
-      "groupIdentifier": "nesting-grounds-area_4-g1"
-    },
-    {
-      "identifier": "nesting-grounds-area_4-blackscale-warrior-1",
-      "unitType": "blackscale-warrior",
-      "position": {
-        "x": 322.48,
-        "y": 407.82,
-        "angle": 343
-      },
-      "hostility": "hostile",
-      "movement": {
-        "type": "wander",
-        "location": {
-          "x": 322.48,
-          "y": 407.82
-        },
-        "radius": 4,
-        "speed": [
-          0.2,
-          0.4
-        ],
-        "waitTime": [
-          2,
-          6
-        ]
-      },
-      "groupIdentifier": "nesting-grounds-area_4-g1"
-    },
-    {
-      "identifier": "nesting-grounds-area_4-blackscale-hunter-2",
-      "unitType": "blackscale-hunter",
-      "position": {
-        "x": 361.47,
-        "y": 377.21,
-        "angle": 339
-      },
-      "hostility": "hostile",
-      "movement": {
-        "type": "wander",
-        "location": {
-          "x": 361.47,
-          "y": 377.21
-        },
-        "radius": 4,
-        "speed": [
-          0.2,
-          0.4
-        ],
-        "waitTime": [
-          2,
-          6
-        ]
-      },
-      "groupIdentifier": "nesting-grounds-area_4-g2"
-    },
-    {
-      "identifier": "nesting-grounds-area_4-blackscale-hunter-3",
-      "unitType": "blackscale-hunter",
-      "position": {
-        "x": 366.09,
-        "y": 379.12,
-        "angle": 35
-      },
-      "hostility": "hostile",
-      "movement": {
-        "type": "wander",
-        "location": {
-          "x": 366.09,
-          "y": 379.12
-        },
-        "radius": 4,
-        "speed": [
-          0.2,
-          0.4
-        ],
-        "waitTime": [
-          2,
-          6
-        ]
-      },
-      "groupIdentifier": "nesting-grounds-area_4-g2"
-    },
-    {
-      "identifier": "nesting-grounds-area_4-blackscale-hunter-4",
-      "unitType": "blackscale-hunter",
-      "position": {
-        "x": 326,
-        "y": 333.28,
-        "angle": 144
-      },
-      "hostility": "hostile",
-      "movement": {
-        "type": "wander",
-        "location": {
-          "x": 326,
-          "y": 333.28
-        },
-        "radius": 2,
-        "speed": [
-          0.2,
-          0.4
-        ],
-        "waitTime": [
-          2,
-          6
-        ]
-      },
-      "groupIdentifier": "nesting-grounds-area_4-g3"
-    },
-    {
-      "identifier": "nesting-grounds-area_4-blackscale-warrior-2",
-      "unitType": "blackscale-warrior",
-      "position": {
-        "x": 330.95,
-        "y": 333.98,
-        "angle": 150
-      },
-      "hostility": "hostile",
-      "movement": {
-        "type": "still"
-      },
-      "groupIdentifier": "nesting-grounds-area_4-g3"
-    },
-    {
       "identifier": "nesting-grounds-area_5-giant-frog-1",
       "unitType": "giant-frog",
       "position": {
@@ -25379,6 +25230,304 @@
           6
         ]
       }
+    },
+    {
+      "identifier": "nesting-grounds-area_4-blackscale-hunter-1",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 317.77,
+        "y": 406.13,
+        "angle": 253
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 317.77,
+          "y": 406.13
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "nesting-grounds-area_4-g1"
+    },
+    {
+      "identifier": "nesting-grounds-area_4-blackscale-warrior-1",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 322.48,
+        "y": 407.82,
+        "angle": 343
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 322.48,
+          "y": 407.82
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "nesting-grounds-area_4-g1"
+    },
+    {
+      "identifier": "nesting-grounds-area_4-blackscale-warrior-2",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 349.03,
+        "y": 411.67,
+        "angle": 176
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 349.03,
+          "y": 411.67
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "nesting-grounds-area_4-g2"
+    },
+    {
+      "identifier": "nesting-grounds-area_4-blackscale-warrior-3",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 353.45,
+        "y": 414.01,
+        "angle": 354
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 353.45,
+          "y": 414.01
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "nesting-grounds-area_4-g2"
+    },
+    {
+      "identifier": "nesting-grounds-area_4-blackscale-warrior-4",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 362.13,
+        "y": 376.75,
+        "angle": 117
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 362.13,
+          "y": 376.75
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "nesting-grounds-area_4-g3"
+    },
+    {
+      "identifier": "nesting-grounds-area_4-blackscale-warrior-5",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 366.93,
+        "y": 378.15,
+        "angle": 44
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 366.93,
+          "y": 378.15
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "nesting-grounds-area_4-g3"
+    },
+    {
+      "identifier": "nesting-grounds-area_4-blackscale-hunter-2",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 358.13,
+        "y": 349.56,
+        "angle": 123
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 358.13,
+          "y": 349.56
+        },
+        "radius": 3.04,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "nesting-grounds-area_4-g4"
+    },
+    {
+      "identifier": "nesting-grounds-area_4-blackscale-hunter-3",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 363.09,
+        "y": 350.18,
+        "angle": 248
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 363.09,
+          "y": 350.18
+        },
+        "radius": 3.04,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "nesting-grounds-area_4-g4"
+    },
+    {
+      "identifier": "nesting-grounds-area_4-blackscale-warrior-6",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 326.27,
+        "y": 334.71,
+        "angle": 313
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "nesting-grounds-area_4-g5"
+    },
+    {
+      "identifier": "nesting-grounds-area_4-blackscale-hunter-4",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 330.68,
+        "y": 337.07,
+        "angle": 6
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 330.68,
+          "y": 337.07
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "nesting-grounds-area_4-g5"
+    },
+    {
+      "identifier": "nesting-grounds-area_4-blackscale-hunter-5",
+      "unitType": "blackscale-hunter",
+      "position": {
+        "x": 301.96,
+        "y": 379.41,
+        "angle": 233
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "still"
+      },
+      "groupIdentifier": "nesting-grounds-area_4-g6"
+    },
+    {
+      "identifier": "nesting-grounds-area_4-blackscale-warrior-7",
+      "unitType": "blackscale-warrior",
+      "position": {
+        "x": 306.44,
+        "y": 381.63,
+        "angle": 229
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 306.44,
+          "y": 381.63
+        },
+        "radius": 4,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      },
+      "groupIdentifier": "nesting-grounds-area_4-g6"
     }
   ],
   "ncus": [],

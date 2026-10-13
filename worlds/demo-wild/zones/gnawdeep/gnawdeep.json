@@ -2,6 +2,10 @@
   "name": "The Gnawdeep",
   "description": "Goblin caves under Warboss Grutt.",
   "elvl": 5,
+  "respawn": {
+    "type": "timer",
+    "delaySeconds": 120
+  },
   "private": false,
   "maps": [
     {

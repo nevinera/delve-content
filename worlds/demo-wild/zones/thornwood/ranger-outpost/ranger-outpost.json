@@ -7195,7 +7195,7 @@
       "annotations": {
         "intent": "The trail north to the woodcutters. Safe near the outpost: deer, a lone wolf at most.",
         "quests": "L1.2 Too Close: kill wolf x6.",
-        "population": "density: normal\nmix: wolf 2, deer neutral"
+        "population": "density: 1.5\nmix: wolf\ngroups: 1\nmovement: wander 10"
       }
     },
     {
@@ -9703,16 +9703,68 @@
       "identifier": "ranger-outpost-area_2-wolf-1",
       "unitType": "wolf",
       "position": {
-        "x": 58,
-        "y": 455.56,
-        "angle": 175
+        "x": 104.32,
+        "y": 463.72,
+        "angle": 117
       },
       "hostility": "hostile",
       "movement": {
         "type": "wander",
         "location": {
-          "x": 58,
-          "y": 455.56
+          "x": 104.32,
+          "y": 463.72
+        },
+        "radius": 3.29,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "ranger-outpost-area_2-wolf-2",
+      "unitType": "wolf",
+      "position": {
+        "x": 78.41,
+        "y": 388.94,
+        "angle": 303
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 78.41,
+          "y": 388.94
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "ranger-outpost-area_2-wolf-3",
+      "unitType": "wolf",
+      "position": {
+        "x": 59.38,
+        "y": 455.64,
+        "angle": 49
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 59.38,
+          "y": 455.64
         },
         "radius": 4.32,
         "speed": [
@@ -9726,21 +9778,73 @@
       }
     },
     {
-      "identifier": "ranger-outpost-area_2-deer-1",
-      "unitType": "deer",
+      "identifier": "ranger-outpost-area_2-wolf-4",
+      "unitType": "wolf",
       "position": {
-        "x": 70.58,
-        "y": 414.2,
-        "angle": 124
+        "x": 46.88,
+        "y": 428.56,
+        "angle": 327
       },
-      "hostility": "neutral",
+      "hostility": "hostile",
       "movement": {
         "type": "wander",
         "location": {
-          "x": 70.58,
-          "y": 414.2
+          "x": 46.88,
+          "y": 428.56
         },
-        "radius": 2,
+        "radius": 10,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "ranger-outpost-area_2-wolf-5",
+      "unitType": "wolf",
+      "position": {
+        "x": 55.84,
+        "y": 410.94,
+        "angle": 317
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 55.84,
+          "y": 410.94
+        },
+        "radius": 2.25,
+        "speed": [
+          0.2,
+          0.4
+        ],
+        "waitTime": [
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "identifier": "ranger-outpost-area_2-wolf-6",
+      "unitType": "wolf",
+      "position": {
+        "x": 66.68,
+        "y": 435.43,
+        "angle": 311
+      },
+      "hostility": "hostile",
+      "movement": {
+        "type": "wander",
+        "location": {
+          "x": 66.68,
+          "y": 435.43
+        },
+        "radius": 6.82,
         "speed": [
           0.2,
           0.4

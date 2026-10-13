@@ -2,6 +2,10 @@
   "name": "Thornwood",
   "description": "Forest full of wild creatures, with a few human camps. The starting zone.",
   "elvl": 0,
+  "respawn": {
+    "type": "timer",
+    "delaySeconds": 120
+  },
   "private": false,
   "maps": [
     {

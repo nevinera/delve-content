@@ -2,6 +2,10 @@
   "name": "Brackwater Mire",
   "description": "Lizardfolk swamp: the Reedtalkers near the forest, the Blackscales deeper in.",
   "elvl": 3,
+  "respawn": {
+    "type": "timer",
+    "delaySeconds": 120
+  },
   "private": false,
   "maps": [
     {
