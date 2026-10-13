@@ -26,3 +26,9 @@ FireSpell1.wav by alonsotm -- https://freesound.org/s/396501/ -- License: Attrib
 
 Map images created with Inkarnate (https://inkarnate.com) under a Studio subscription.
 Copyright Eric Mueller - licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+
+## Stamps
+
+### graphics/stamps/camp
+
+Drawn for delve as SVG (sources in graphics/stamps/src/camp/). Public domain (CC0 1.0).

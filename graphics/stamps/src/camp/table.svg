@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 60">
+  <!-- A trestle table and two benches from above. 10 units = 1 ft. -->
+  <g stroke="#3e2a17" stroke-width="1.2">
+    <rect x="8" y="4" width="54" height="9" rx="1.5" fill="#8a6239"/>
+    <rect x="8" y="47" width="54" height="9" rx="1.5" fill="#8a6239"/>
+    <rect x="4" y="17" width="62" height="26" rx="2" fill="#a77a48"/>
+  </g>
+  <g stroke="#5e4024" stroke-width="0.7" opacity="0.8" fill="none">
+    <path d="M4 25.7 H66 M4 34.3 H66 M8 8.5 H62 M8 51.5 H62"/>
+    <path d="M18 17.5 q1 2 0 4 M47 27 q1.5 2 0 5 M30 36 q1 2 0 4" opacity="0.6"/>
+  </g>
+  <g fill="#3e2a17"><circle cx="9" cy="21.5" r="0.8"/><circle cx="61" cy="21.5" r="0.8"/><circle cx="9" cy="38.5" r="0.8"/><circle cx="61" cy="38.5" r="0.8"/></g>
+</svg>

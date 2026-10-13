@@ -1,0 +1,109 @@
+{
+  "name": "Camp",
+  "imageUrl": "./camp.png",
+  "license": "CC0-1.0",
+  "stamps": {
+    "campfire": {
+      "name": "Campfire",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 1332,
+          "y": 0,
+          "width": 120,
+          "height": 120
+        }
+      ]
+    },
+    "tent": {
+      "name": "Tent",
+      "feetWidth": 14,
+      "frames": [
+        {
+          "x": 530,
+          "y": 0,
+          "width": 336,
+          "height": 264
+        }
+      ]
+    },
+    "table": {
+      "name": "Table and benches",
+      "feetWidth": 7,
+      "frames": [
+        {
+          "x": 1162,
+          "y": 0,
+          "width": 168,
+          "height": 144
+        }
+      ]
+    },
+    "log": {
+      "name": "Log",
+      "feetWidth": 7.6,
+      "frames": [
+        {
+          "x": 1576,
+          "y": 0,
+          "width": 182,
+          "height": 53
+        },
+        {
+          "x": 1760,
+          "y": 0,
+          "width": 182,
+          "height": 53
+        }
+      ]
+    },
+    "pond": {
+      "name": "Pond",
+      "feetWidth": 22,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 528,
+          "height": 384
+        }
+      ]
+    },
+    "signpost": {
+      "name": "Signpost",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 1454,
+          "y": 0,
+          "width": 120,
+          "height": 72
+        }
+      ]
+    },
+    "footprints": {
+      "name": "Footprints",
+      "feetWidth": 4,
+      "frames": [
+        {
+          "x": 868,
+          "y": 0,
+          "width": 96,
+          "height": 168
+        },
+        {
+          "x": 966,
+          "y": 0,
+          "width": 96,
+          "height": 168
+        },
+        {
+          "x": 1064,
+          "y": 0,
+          "width": 96,
+          "height": 168
+        }
+      ]
+    }
+  }
+}

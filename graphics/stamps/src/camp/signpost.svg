@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30">
+  <!-- A fingerpost from above: two pointed boards crossing over the post. 10 units = 1 ft. -->
+  <g stroke="#3e2a17" stroke-width="1" stroke-linejoin="round">
+    <path d="M5 13 L40 13 L46 16 L40 19 L5 19 Z" fill="#a77a48" transform="rotate(-18 25 16)"/>
+    <path d="M45 13 L10 13 L4 16 L10 19 L45 19 Z" fill="#94693c" transform="rotate(22 25 16)"/>
+    <circle cx="25" cy="16" r="3.4" fill="#6b4a2c"/>
+  </g>
+</svg>

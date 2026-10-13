@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 110">
+  <!-- A ridge tent from above: two canvas slopes meeting at the ridge, guy ropes to pegs. 10 units = 1 ft. -->
+  <g stroke="#5b4a32" stroke-width="0.8" fill="none" opacity="0.9">
+    <path d="M22 18 L8 6 M118 18 L132 6 M22 92 L8 104 M118 92 L132 104 M70 18 L70 4 M70 92 L70 106"/>
+  </g>
+  <g fill="#3d3122">
+    <circle cx="8" cy="6" r="1.6"/><circle cx="132" cy="6" r="1.6"/><circle cx="8" cy="104" r="1.6"/>
+    <circle cx="132" cy="104" r="1.6"/><circle cx="70" cy="4" r="1.6"/><circle cx="70" cy="106" r="1.6"/>
+  </g>
+  <g stroke="#4a3b26" stroke-width="1.6" stroke-linejoin="round">
+    <path d="M20 55 L24 17 Q70 13 116 17 L120 55 Z" fill="#b59b6e"/>
+    <path d="M20 55 L120 55 L116 93 Q70 97 24 93 Z" fill="#94794f"/>
+    <!-- door flaps, folded open at the west end -->
+    <path d="M20 55 L11 44 L17 40 Z" fill="#a38a5f"/>
+    <path d="M20 55 L11 66 L17 70 Z" fill="#7f6742"/>
+  </g>
+  <g stroke="#4a3b26" stroke-width="0.7" opacity="0.5" fill="none">
+    <path d="M45 16 L44 55 M70 15 L70 55 M95 16 L96 55 M45 94 L44 55 M70 95 L70 55 M95 94 L96 55"/>
+  </g>
+  <path d="M20 55 L120 55" stroke="#3a2e1d" stroke-width="2.2"/>
+</svg>

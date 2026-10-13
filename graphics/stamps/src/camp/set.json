@@ -1,0 +1,14 @@
+{
+  "name": "Camp",
+  "license": "CC0-1.0",
+  "pixelsPerFoot": 24,
+  "stamps": {
+    "campfire": {"name": "Campfire", "feetWidth": 5, "images": ["campfire.svg"]},
+    "tent": {"name": "Tent", "feetWidth": 14, "images": ["tent.svg"]},
+    "table": {"name": "Table and benches", "feetWidth": 7, "images": ["table.svg"]},
+    "log": {"name": "Log", "feetWidth": 7.6, "images": ["log-1.svg", "log-2.svg"]},
+    "pond": {"name": "Pond", "feetWidth": 22, "images": ["pond.svg"]},
+    "signpost": {"name": "Signpost", "feetWidth": 5, "images": ["signpost.svg"]},
+    "footprints": {"name": "Footprints", "feetWidth": 4, "images": ["footprints-1.svg", "footprints-2.svg", "footprints-3.svg"]}
+  }
+}

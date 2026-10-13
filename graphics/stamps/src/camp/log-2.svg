@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 22">
+  <!-- A fallen log straight from above: a bark cylinder lit along its top, its sawn ends seen only as edges, so it reads the same turned any way. 10 units = 1 ft. -->
+  <defs>
+    <linearGradient id="bark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b2a1a"/><stop offset="0.3" stop-color="#6b4d31"/><stop offset="0.5" stop-color="#7d5c3c"/>
+      <stop offset="0.7" stop-color="#6b4d31"/><stop offset="1" stop-color="#3b2a1a"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M4 4 Q38 2.2 72 4 L72.6 18 Q38 19.8 3.4 18 Z" fill="url(#bark)" stroke="#2e2014" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+  <g stroke="#2e2014" stroke-width="0.7" fill="none" opacity="0.55"><path d="M10 13 q14 1.5 26 -0.5 M36 7.5 q14 -1.5 28 0.5 M50 14 q6 0.6 10 0"/></g>
+  <path d="M4.2 4.5 L3.6 17.5 M71.8 4.5 L72.4 17.5" stroke="#b08a5a" stroke-width="1.2" opacity="0.8"/>
+  <path d="M28 3.2 l-3 -2.6 l2.6 -0.4 l2.6 2.8 z" fill="#4a3522" stroke="#2e2014" stroke-width="0.6"/><ellipse cx="54" cy="12.5" rx="1.8" ry="1" fill="#3b2a1a"/>
+</svg>
