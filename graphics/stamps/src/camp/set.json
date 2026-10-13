@@ -1,7 +1,6 @@
 {
   "name": "Camp",
-  "license": "CC-BY-4.0",
-  "attribution": "Drawn for delve by Eric Mueller",
+  "license": "CC0-1.0",
   "pixelsPerFoot": 24,
   "stamps": {
     "campfire": {"name": "Campfire", "feetWidth": 5, "images": ["campfire.svg"]},

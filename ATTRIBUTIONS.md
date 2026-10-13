@@ -31,4 +31,4 @@ Copyright Eric Mueller - licensed under CC BY 4.0 (https://creativecommons.org/l
 
 ### graphics/stamps/camp
 
-Drawn for delve as SVG (sources in graphics/stamps/src/camp/), under this repository's license.
+Drawn for delve as SVG (sources in graphics/stamps/src/camp/). Public domain (CC0 1.0).
