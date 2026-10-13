@@ -5,6 +5,7 @@
     "width": 347.8535371867496,
     "height": 402.5
   },
+  "lighting": "torchlight",
   "cellMap": {
     "version": 1,
     "theme": "cave",
