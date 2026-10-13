@@ -2,6 +2,7 @@
   "identifier": "flooded-caves",
   "name": "Flooded Caves",
   "elvl": 6,
+  "thumbnailUrl": "flooded-caves.thumb.webp",
   "feetDimensions": {
     "width": 434.4560775651934,
     "height": 502.5

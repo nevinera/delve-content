@@ -2,6 +2,7 @@
   "identifier": "woodcutters-clearing",
   "name": "Woodcutters Clearing",
   "elvl": 1,
+  "thumbnailUrl": "woodcutters-clearing.thumb.webp",
   "feetDimensions": {
     "width": 477.7573477544154,
     "height": 502.5

@@ -2,6 +2,7 @@
   "identifier": "blackwater-pools",
   "name": "Blackwater Pools",
   "elvl": 5,
+  "thumbnailUrl": "blackwater-pools.thumb.webp",
   "feetDimensions": {
     "width": 477.7573477544154,
     "height": 502.5

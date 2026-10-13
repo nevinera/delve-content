@@ -1,6 +1,7 @@
 {
   "identifier": "treasure-vault",
   "name": "Treasure Vault",
+  "thumbnailUrl": "treasure-vault.thumb.webp",
   "feetDimensions": {
     "width": 174.64845642986182,
     "height": 152.5

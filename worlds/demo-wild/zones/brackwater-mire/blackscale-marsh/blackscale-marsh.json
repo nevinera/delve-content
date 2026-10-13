@@ -2,6 +2,7 @@
   "identifier": "blackscale-marsh",
   "name": "Blackscale Marsh",
   "elvl": 6,
+  "thumbnailUrl": "blackscale-marsh.thumb.webp",
   "feetDimensions": {
     "width": 477.7573477544154,
     "height": 502.5

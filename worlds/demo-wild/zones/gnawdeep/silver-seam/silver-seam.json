@@ -2,6 +2,7 @@
   "identifier": "silver-seam",
   "name": "Silver Seam",
   "elvl": 8,
+  "thumbnailUrl": "silver-seam.thumb.webp",
   "feetDimensions": {
     "width": 174.64845642986182,
     "height": 152.5

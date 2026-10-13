@@ -1,6 +1,7 @@
 {
   "identifier": "ranger-outpost",
   "name": "Ranger Outpost",
+  "thumbnailUrl": "ranger-outpost.thumb.webp",
   "feetDimensions": {
     "width": 434.4560775651934,
     "height": 502.5

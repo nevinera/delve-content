@@ -2,6 +2,7 @@
   "identifier": "old-growth",
   "name": "Old Growth",
   "elvl": 2,
+  "thumbnailUrl": "old-growth.thumb.webp",
   "feetDimensions": {
     "width": 521.0586179436373,
     "height": 552.5

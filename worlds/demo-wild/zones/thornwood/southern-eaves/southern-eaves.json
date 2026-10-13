@@ -2,6 +2,7 @@
   "identifier": "southern-eaves",
   "name": "Southern Eaves",
   "elvl": 2,
+  "thumbnailUrl": "southern-eaves.thumb.webp",
   "feetDimensions": {
     "width": 477.7573477544154,
     "height": 502.5

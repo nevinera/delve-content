@@ -2,6 +2,7 @@
   "identifier": "drum-halls",
   "name": "Drum Halls",
   "elvl": 8,
+  "thumbnailUrl": "drum-halls.thumb.webp",
   "feetDimensions": {
     "width": 477.7573477544154,
     "height": 552.5

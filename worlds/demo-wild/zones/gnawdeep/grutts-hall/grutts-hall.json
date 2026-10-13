@@ -2,6 +2,7 @@
   "identifier": "grutts-hall",
   "name": "Grutts Hall",
   "elvl": 9,
+  "thumbnailUrl": "grutts-hall.thumb.webp",
   "feetDimensions": {
     "width": 434.4560775651934,
     "height": 502.5

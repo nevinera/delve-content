@@ -2,6 +2,7 @@
   "identifier": "the-hills",
   "name": "The Hills",
   "elvl": 3,
+  "thumbnailUrl": "the-hills.thumb.webp",
   "feetDimensions": {
     "width": 521.0586179436373,
     "height": 502.5

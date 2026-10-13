@@ -2,6 +2,7 @@
   "identifier": "blackscale-village",
   "name": "Blackscale Village",
   "elvl": 7,
+  "thumbnailUrl": "blackscale-village.thumb.webp",
   "feetDimensions": {
     "width": 434.4560775651934,
     "height": 502.5

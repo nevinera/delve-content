@@ -2,6 +2,7 @@
   "identifier": "pine-ridge",
   "name": "Pine Ridge",
   "elvl": 2,
+  "thumbnailUrl": "pine-ridge.thumb.webp",
   "feetDimensions": {
     "width": 477.7573477544154,
     "height": 502.5

@@ -1,6 +1,7 @@
 {
   "identifier": "kings-stair",
   "name": "Kings Stair",
+  "thumbnailUrl": "kings-stair.thumb.webp",
   "feetDimensions": {
     "width": 304.5522669975276,
     "height": 352.5

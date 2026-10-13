@@ -2,6 +2,7 @@
   "identifier": "fungus-deeps",
   "name": "Fungus Deeps",
   "elvl": 7,
+  "thumbnailUrl": "fungus-deeps.thumb.webp",
   "feetDimensions": {
     "width": 477.7573477544154,
     "height": 552.5
