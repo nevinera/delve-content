@@ -5,14 +5,8 @@
       <stop offset="0" stop-color="#3b2a1a"/><stop offset="0.3" stop-color="#6b4d31"/><stop offset="0.5" stop-color="#7d5c3c"/>
       <stop offset="0.7" stop-color="#6b4d31"/><stop offset="1" stop-color="#3b2a1a"/>
     </linearGradient>
-    <filter id="shadow" x="-10%" y="-30%" width="120%" height="160%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="1.4"/>
-      <feOffset dx="1.5" dy="2.5"/>
-      <feComponentTransfer><feFuncA type="linear" slope="0.45"/></feComponentTransfer>
-      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
-  <g filter="url(#shadow)">
+  <g>
     <path d="M4 4 Q38 2.2 72 4 L72.6 18 Q38 19.8 3.4 18 Z" fill="url(#bark)" stroke="#2e2014" stroke-width="1" stroke-linejoin="round"/>
   </g>
   <g stroke="#2e2014" stroke-width="0.7" fill="none" opacity="0.55"><path d="M10 13 q14 1.5 26 -0.5 M36 7.5 q14 -1.5 28 0.5 M50 14 q6 0.6 10 0"/></g>
