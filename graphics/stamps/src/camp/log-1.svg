@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 22">
+  <!-- A fallen log from above, its cut end showing rings. 10 units = 1 ft. -->
+  <defs>
+    <linearGradient id="bark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a5a3a"/><stop offset="0.45" stop-color="#5c4129"/><stop offset="1" stop-color="#3b2a1a"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.4"/>
+      <feOffset dx="1.5" dy="2.5"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.45"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M6 3 Q35 1 70 4 Q73 11 70 18 Q35 21 6 19 Z" fill="url(#bark)" stroke="#2e2014" stroke-width="1"/>
+  </g>
+  <g stroke="#2e2014" stroke-width="0.7" fill="none" opacity="0.6">
+    <path d="M14 6 q10 -1 18 1 M24 13 q12 1 20 -1 M40 6 q8 -1 14 1 M12 15 q6 1 10 0 M50 15 q6 1 9 -1"/>
+  </g>
+  
+  <ellipse cx="6" cy="11" rx="4.5" ry="8" fill="#c9a26b" stroke="#2e2014" stroke-width="1"/>
+  <ellipse cx="6" cy="11" rx="3" ry="5.4" fill="none" stroke="#9c7546" stroke-width="0.6"/>
+  <ellipse cx="6" cy="11" rx="1.6" ry="2.8" fill="none" stroke="#9c7546" stroke-width="0.6"/>
+</svg>

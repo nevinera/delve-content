@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 70">
+  <!-- Vague footprints walking north. 10 units = 1 ft. -->
+  <g fill="#2b2014">
+    <g transform="translate(23.4 62.0) rotate(0)" opacity="0.19"><ellipse cx="0" cy="-2" rx="1.9" ry="2.8"/><ellipse cx="0" cy="2.6" rx="1.5" ry="1.7"/></g>
+    <g transform="translate(14.9 52.1) rotate(-3)" opacity="0.19"><ellipse cx="0" cy="-2" rx="1.9" ry="2.8"/><ellipse cx="0" cy="2.6" rx="1.5" ry="1.7"/></g>
+    <g transform="translate(14.9 33.4) rotate(6)" opacity="0.30"><ellipse cx="0" cy="-2" rx="1.9" ry="2.8"/><ellipse cx="0" cy="2.6" rx="1.5" ry="1.7"/></g>
+    <g transform="translate(13.6 12.6) rotate(4)" opacity="0.22"><ellipse cx="0" cy="-2" rx="1.9" ry="2.8"/><ellipse cx="0" cy="2.6" rx="1.5" ry="1.7"/></g>
+  </g>
+</svg>
