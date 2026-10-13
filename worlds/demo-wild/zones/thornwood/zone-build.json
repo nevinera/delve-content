@@ -1,0 +1,146 @@
+{
+  "name": "Thornwood",
+  "description": "Forest full of wild creatures, with a few human camps. The starting zone.",
+  "elvl": 0,
+  "start": true,
+  "unitTypes": [
+    "wolf",
+    "dire-wolf",
+    "panther",
+    "black-panther",
+    "boar",
+    "black-bear",
+    "deer",
+    "goblin-wolfrider",
+    "goblin-sneak"
+  ],
+  "maps": {
+    "ranger-outpost": {
+      "elvl": 0,
+      "theme": "glade",
+      "size": [
+        100,
+        100
+      ],
+      "tags": [
+        "hub",
+        "paths"
+      ],
+      "exits": {
+        "north": "woodcutters-clearing",
+        "south": "old-growth"
+      },
+      "entry": true,
+      "annotations": {
+        "intent": "The ranger outpost: the zone's hub, and where new characters arrive. Ranger Hale and the quest givers; the outpost stockade, a clearing, the expedition's notice board."
+      }
+    },
+    "woodcutters-clearing": {
+      "elvl": 1,
+      "theme": "glade",
+      "size": [
+        110,
+        100
+      ],
+      "tags": [
+        "paths"
+      ],
+      "exits": {
+        "south": "ranger-outpost",
+        "east": "pine-ridge",
+        "north": "the-hills"
+      },
+      "annotations": {
+        "intent": "A woodcutters' camp in a clearing (S1), a bear's den (S4) and the boar run (L1)."
+      }
+    },
+    "old-growth": {
+      "elvl": 2,
+      "theme": "glade",
+      "size": [
+        120,
+        110
+      ],
+      "tags": [
+        "rough",
+        "paths"
+      ],
+      "exits": {
+        "north": "ranger-outpost",
+        "south": "southern-eaves",
+        "east": {
+          "zone": "brackwater-mire",
+          "map": "reedtalker-village"
+        }
+      },
+      "annotations": {
+        "intent": "Deep woods: old trees and a panther's den (S3)."
+      }
+    },
+    "pine-ridge": {
+      "elvl": 2,
+      "theme": "autumn",
+      "size": [
+        110,
+        100
+      ],
+      "tags": [
+        "paths"
+      ],
+      "exits": {
+        "west": "woodcutters-clearing",
+        "south": {
+          "zone": "brackwater-mire",
+          "map": "nesting-grounds"
+        }
+      },
+      "annotations": {
+        "intent": "A ridge: an abandoned camp (S5) and the expedition's empty camp (L4)."
+      }
+    },
+    "southern-eaves": {
+      "elvl": 2,
+      "theme": "glade",
+      "size": [
+        110,
+        100
+      ],
+      "tags": [
+        "wet",
+        "paths"
+      ],
+      "exits": {
+        "north": "old-growth",
+        "south": {
+          "zone": "brackwater-mire",
+          "map": "mire-edge"
+        }
+      },
+      "annotations": {
+        "intent": "The forest's wet south edge: the trappers' camp (L2, S2) and snare lines (S2)."
+      }
+    },
+    "the-hills": {
+      "elvl": 3,
+      "theme": "autumn",
+      "size": [
+        120,
+        100
+      ],
+      "tags": [
+        "rough",
+        "paths"
+      ],
+      "exits": {
+        "south": "woodcutters-clearing",
+        "north": {
+          "zone": "gnawdeep",
+          "map": "forest-mouth"
+        }
+      },
+      "annotations": {
+        "intent": "Wooded hills to the north: goblin snares, wolfrider patrols, a survivor's hide (L4), and the cave mouth."
+      }
+    }
+  }
+}

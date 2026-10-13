@@ -1,0 +1,109 @@
+{
+  "name": "Hall of the Goblin King",
+  "description": "A solo dungeon below the Gnawdeep: the Goblin King and his court.",
+  "elvl": 10,
+  "private": true,
+  "maps": [
+    {
+      "$ref": "./kings-stair/kings-stair.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./royal-warrens/royal-warrens.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./court-of-bones/court-of-bones.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./goblin-kings-hall/goblin-kings-hall.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./treasure-vault/treasure-vault.json",
+      "referenceTo": "map"
+    }
+  ],
+  "unitTypes": {
+    "goblin-royal-guard": {
+      "$ref": "../../unit_types/goblin-royal-guard.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-hexer": {
+      "$ref": "../../unit_types/goblin-hexer.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-mender": {
+      "$ref": "../../unit_types/goblin-mender.json",
+      "referenceTo": "unit_type"
+    },
+    "worg": {
+      "$ref": "../../unit_types/worg.json",
+      "referenceTo": "unit_type"
+    },
+    "goblin-king": {
+      "$ref": "../../unit_types/goblin-king.json",
+      "referenceTo": "unit_type"
+    }
+  },
+  "zoneLinks": [
+    {
+      "connectionA": {
+        "map": "kings-stair",
+        "connection": "north"
+      },
+      "connectionB": {
+        "map": "royal-warrens",
+        "connection": "south"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "royal-warrens",
+        "connection": "north"
+      },
+      "connectionB": {
+        "map": "court-of-bones",
+        "connection": "south"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "royal-warrens",
+        "connection": "east"
+      },
+      "connectionB": {
+        "map": "treasure-vault",
+        "connection": "west"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "court-of-bones",
+        "connection": "north"
+      },
+      "connectionB": {
+        "map": "goblin-kings-hall",
+        "connection": "south"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    }
+  ],
+  "openConnections": {
+    "kings-stair/south": "kings-stair-south"
+  },
+  "annotations": {
+    "identity": "The Goblin King's own halls, below Grutt's: older, carved stone, bones and stolen finery. A solo dungeon: a straight descent with a side vault.",
+    "structure": "kings-stair, then royal-warrens and court-of-bones, then the King's hall; the treasure vault off the warrens is optional.",
+    "poi": "Guard posts; Barracks; Worg Kennels; Court of Bones; Goblin King's Throne; The Hoard.",
+    "bosses": "The Goblin King (goblin-kings-hall area_4), the dungeon's boss."
+  }
+}

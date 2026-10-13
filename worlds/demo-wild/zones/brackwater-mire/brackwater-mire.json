@@ -1,0 +1,144 @@
+{
+  "name": "Brackwater Mire",
+  "description": "Lizardfolk swamp: the Reedtalkers near the forest, the Blackscales deeper in.",
+  "elvl": 3,
+  "respawn": {
+    "type": "timer",
+    "delaySeconds": 120
+  },
+  "private": false,
+  "maps": [
+    {
+      "$ref": "./mire-edge/mire-edge.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./reedtalker-village/reedtalker-village.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./nesting-grounds/nesting-grounds.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./blackwater-pools/blackwater-pools.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./blackscale-marsh/blackscale-marsh.json",
+      "referenceTo": "map"
+    },
+    {
+      "$ref": "./blackscale-village/blackscale-village.json",
+      "referenceTo": "map"
+    }
+  ],
+  "unitTypes": {
+    "giant-frog": {
+      "$ref": "../../unit_types/giant-frog.json",
+      "referenceTo": "unit_type"
+    },
+    "swamp-crocodile": {
+      "$ref": "../../unit_types/swamp-crocodile.json",
+      "referenceTo": "unit_type"
+    },
+    "old-croc": {
+      "$ref": "../../unit_types/old-croc.json",
+      "referenceTo": "unit_type"
+    },
+    "swamp-viper": {
+      "$ref": "../../unit_types/swamp-viper.json",
+      "referenceTo": "unit_type"
+    },
+    "blackscale-warrior": {
+      "$ref": "../../unit_types/blackscale-warrior.json",
+      "referenceTo": "unit_type"
+    },
+    "blackscale-hunter": {
+      "$ref": "../../unit_types/blackscale-hunter.json",
+      "referenceTo": "unit_type"
+    },
+    "blackscale-shaman": {
+      "$ref": "../../unit_types/blackscale-shaman.json",
+      "referenceTo": "unit_type"
+    },
+    "blackscale-war-shaman": {
+      "$ref": "../../unit_types/blackscale-war-shaman.json",
+      "referenceTo": "unit_type"
+    }
+  },
+  "zoneLinks": [
+    {
+      "connectionA": {
+        "map": "mire-edge",
+        "connection": "south"
+      },
+      "connectionB": {
+        "map": "reedtalker-village",
+        "connection": "north"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "reedtalker-village",
+        "connection": "south"
+      },
+      "connectionB": {
+        "map": "nesting-grounds",
+        "connection": "north"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "nesting-grounds",
+        "connection": "east"
+      },
+      "connectionB": {
+        "map": "blackwater-pools",
+        "connection": "west"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "nesting-grounds",
+        "connection": "south"
+      },
+      "connectionB": {
+        "map": "blackscale-marsh",
+        "connection": "north"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "connectionA": {
+        "map": "blackscale-marsh",
+        "connection": "south"
+      },
+      "connectionB": {
+        "map": "blackscale-village",
+        "connection": "north"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    }
+  ],
+  "openConnections": {
+    "mire-edge/north": "mire-edge-north",
+    "reedtalker-village/west": "reedtalker-village-west",
+    "nesting-grounds/west": "nesting-grounds-west",
+    "blackwater-pools/east": "blackwater-pools-east"
+  },
+  "annotations": {
+    "identity": "Flat, wet marsh: pools, reeds and mud under a low sky; smoke from burned nests. Two lizardfolk peoples: the friendly Reedtalkers on their stilted village, and the Blackscales, raiders, to the east.",
+    "structure": "Hub: the Reedtalker village (reedtalker-village area_2), Elder Sesh's hut beside it. Mire-edge and the nesting grounds first (elvl 3-4), the pools and Blackscale marsh next (5-6), the Blackscale village last (7).",
+    "poi": "Survivors' Camp; Reedtalker Village; Elder's Hut; Fishing Platforms; Burned Nests; Frog Nests; The Deep Pool; Croc's Wallow; Flooded Cave Mouth (to the Gnawdeep); War-Totems; Captive Pens; Blackscale Village; War-Shaman's Hut.",
+    "bosses": "The war-shaman (blackscale-village area_20, L2's end). The Old Croc (blackwater-pools area_10, S9)."
+  }
+}

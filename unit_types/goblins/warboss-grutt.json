@@ -1,0 +1,301 @@
+{
+  "name": "Warboss Grutt",
+  "category": "goblins",
+  "description": "The red-skinned warboss uniting the Gnawdeep's tribes, loud, scarred and much cleverer than he looks.",
+  "tokenImageUrl": [
+    "../../tokens/unit/goblins/warboss-grutt-1.webp",
+    "../../tokens/unit/goblins/warboss-grutt-2.webp",
+    "../../tokens/unit/goblins/warboss-grutt-3.webp",
+    "../../tokens/unit/goblins/warboss-grutt-4.webp"
+  ],
+  "tokenRadius": 2.75,
+  "speedFactor": 0.9,
+  "maxHP": 450,
+  "dps": 3.2,
+  "attackSpeed": 0.8,
+  "basicAttackStyle": "axe",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "phased",
+    "phases": [
+      {
+        "tactics": {
+          "type": "priorityRotation",
+          "powers": [
+            "Rallying Roar",
+            "Skull Thump",
+            "Cleave"
+          ]
+        },
+        "transition": {
+          "healthBelow": 0.5
+        }
+      },
+      {
+        "tactics": {
+          "type": "priorityRotation",
+          "powers": [
+            "Warboss's Fury",
+            "Rallying Roar",
+            "Skull Thump",
+            "Cleave"
+          ]
+        }
+      }
+    ]
+  },
+  "powers": [
+    {
+      "name": "Skull Thump",
+      "description": "A heavy thump that leaves the target dazed.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 9,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 20,
+      "graphicEffects": [
+        {
+          "sourceURL": ":star-x:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "scale": 0.7
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":punch-hit:",
+          "duration": 0.823,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            6,
+            8
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 4,
+          "status": {
+            "stacking": "replace",
+            "name": "Dazed",
+            "shortName": "Dazed",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "attackSpeed",
+                "modifierType": "multiply",
+                "amount": 0.8
+              }
+            ],
+            "description": "Dazed: attacks slower.",
+            "auraEffect": {
+              "sourceURL": ":star-x:",
+              "color": "#FFE066",
+              "opacity": 0.5,
+              "scale": 0.6
+            }
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "daze"
+      ]
+    },
+    {
+      "name": "Cleave",
+      "description": "A wide axe swing through everyone in front of him.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 10,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":crescent:",
+          "duration": 0.4,
+          "from": "self",
+          "when": "impact",
+          "condition": "always",
+          "scale": 1.2
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":swing-heavy:",
+          "duration": 0.775,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bAll",
+          "range": 7,
+          "amount": [
+            5,
+            7
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "aoe"
+      ]
+    },
+    {
+      "name": "Rallying Roar",
+      "description": "A bellow that rallies his guards.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 20,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":shout:",
+          "duration": 1.157,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "gAll",
+          "duration": 8,
+          "status": {
+            "stacking": "replace",
+            "name": "Rallied",
+            "shortName": "Rally",
+            "treatAs": "buff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageDone",
+                "modifierType": "multiply",
+                "amount": 1.15
+              },
+              {
+                "type": "stat",
+                "statName": "damageTaken",
+                "modifierType": "multiply",
+                "amount": 0.9
+              }
+            ],
+            "description": "Dealing more damage, taking less.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#FF3B30",
+              "opacity": 0.35,
+              "scale": 1.1
+            }
+          },
+          "range": 20
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "name": "Warboss's Fury",
+      "description": "Bloodied, he flies into a rage.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 60,
+      "costType": "energy",
+      "costAmount": 10,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":roar:",
+          "duration": 1.15,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 20,
+          "status": {
+            "stacking": "replace",
+            "name": "Fury",
+            "shortName": "Fury",
+            "treatAs": "buff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageDone",
+                "modifierType": "multiply",
+                "amount": 1.3
+              }
+            ],
+            "description": "Dealing more damage.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#FF3B30",
+              "opacity": 0.45,
+              "scale": 1.2
+            }
+          }
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "solo",
+    "melee",
+    "buffs"
+  ],
+  "annotations": {
+    "intent": "L3's boss (quest 12), in Grutt's hall at the bottom of the Gnawdeep, with his guards. His orders come from the Goblin King below; he answers to him, and the sealed stair down is behind his hall.",
+    "balance": "A named quest boss, tuned by hand at 1.5x a solo's HP (450) and the open solo damage budget; below half health he enrages."
+  }
+}

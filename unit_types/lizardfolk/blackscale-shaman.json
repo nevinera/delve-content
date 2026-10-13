@@ -1,0 +1,160 @@
+{
+  "name": "Blackscale Shaman",
+  "category": "lizardfolk",
+  "description": "A bone-masked shaman who knits its kin's wounds and curses their foes with rot.",
+  "tokenImageUrl": [
+    "../../tokens/unit/lizardfolk/blackscale-shaman-1.webp",
+    "../../tokens/unit/lizardfolk/blackscale-shaman-2.webp",
+    "../../tokens/unit/lizardfolk/blackscale-shaman-3.webp",
+    "../../tokens/unit/lizardfolk/blackscale-shaman-4.webp"
+  ],
+  "tokenRadius": 2,
+  "speedFactor": 1,
+  "maxHP": 130,
+  "dps": 2,
+  "attackSpeed": 0.6,
+  "basicAttackRange": 25,
+  "basicAttackSchool": "magic",
+  "basicAttackStyle": "nature",
+  "resource": {
+    "name": "mana",
+    "color": "4488FF",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 2,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Mire Mending",
+      "Bog Rot"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Mire Mending",
+      "description": "Draws on the swamp to close a kinsman's wounds.",
+      "castTime": 1.5,
+      "globalCooldown": 1.5,
+      "cooldown": 7,
+      "maxRange": 25,
+      "costType": "mana",
+      "costAmount": 15,
+      "graphicEffects": [
+        {
+          "sourceURL": ":sparkle-cloud:",
+          "duration": 0.8,
+          "from": "affected",
+          "when": "impact",
+          "condition": "always",
+          "color": "#7CE07A",
+          "scale": 1.2,
+          "spriteColumns": 2,
+          "spriteRows": 3,
+          "spriteFrameCount": 5
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":potion:",
+          "duration": 0.675,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "heal",
+          "affects": "gTarget",
+          "range": 25,
+          "amount": [
+            10,
+            14
+          ],
+          "tags": [
+            "nature"
+          ]
+        }
+      ],
+      "tags": [
+        "heal",
+        "magic"
+      ]
+    },
+    {
+      "name": "Bog Rot",
+      "description": "A curse that rots the target from the inside.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 12,
+      "maxRange": 25,
+      "costType": "mana",
+      "costAmount": 15,
+      "graphicEffects": [
+        {
+          "sourceURL": ":tendrils:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "always",
+          "color": "#556B2F",
+          "scale": 0.8,
+          "spriteColumns": 5,
+          "spriteRows": 1
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":dark:",
+          "duration": 0.648,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 8,
+          "status": {
+            "stacking": "replace",
+            "name": "Bog Rot",
+            "shortName": "Rot",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 1,
+                "onTick": "harm",
+                "amount": 1.5,
+                "school": "magic"
+              }
+            ],
+            "description": "Rotting."
+          },
+          "range": 25
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "dot"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "pair",
+    "caster",
+    "healer"
+  ],
+  "annotations": {
+    "intent": "The Blackscales: Brackwater's hostile lizardfolk tribe, who've thrown in with the goblins. Their tokens are darkened from the lizardfolk sets so they read apart from the friendly Reedtalkers (green, NCUs). The shaman heals; kill it first. Always with a warrior or hunter."
+  }
+}

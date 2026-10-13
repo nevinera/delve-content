@@ -1,0 +1,164 @@
+{
+  "name": "The Gnawdeep",
+  "description": "Goblin caves under Warboss Grutt.",
+  "elvl": 5,
+  "unitTypes": [
+    "goblin-cutter",
+    "goblin-archer",
+    "goblin-sapper",
+    "goblin-hexer",
+    "goblin-wolfrider",
+    "goblin-mender",
+    "goblin-sneak",
+    "worg",
+    "cave-bat",
+    "cave-spider",
+    "hexer-nagg",
+    "shaman-brazza",
+    "wolf-master",
+    "warboss-grutt"
+  ],
+  "maps": {
+    "forest-mouth": {
+      "elvl": 5,
+      "theme": "cave",
+      "size": [
+        100,
+        100
+      ],
+      "tags": [
+        "paths"
+      ],
+      "exits": {
+        "south": {
+          "zone": "thornwood",
+          "map": "the-hills"
+        },
+        "north": "sapper-tunnels"
+      },
+      "annotations": {
+        "intent": "The entrance from the forest, past the wolf pens (L3)."
+      }
+    },
+    "sapper-tunnels": {
+      "elvl": 6,
+      "theme": "cave",
+      "size": [
+        100,
+        100
+      ],
+      "tags": [
+        "coral",
+        "paths"
+      ],
+      "exits": {
+        "south": "forest-mouth",
+        "east": "fungus-deeps"
+      },
+      "annotations": {
+        "intent": "Narrow tunnels the sappers are digging toward the surface (L3, S10)."
+      }
+    },
+    "flooded-caves": {
+      "elvl": 6,
+      "theme": "cave",
+      "size": [
+        100,
+        100
+      ],
+      "tags": [
+        "wet",
+        "paths"
+      ],
+      "exits": {
+        "west": {
+          "zone": "brackwater-mire",
+          "map": "blackwater-pools"
+        },
+        "north": "fungus-deeps"
+      },
+      "annotations": {
+        "intent": "The entrance from the mire, half underwater (L4)."
+      }
+    },
+    "fungus-deeps": {
+      "elvl": 7,
+      "theme": "cave",
+      "size": [
+        110,
+        110
+      ],
+      "tags": [
+        "cavities",
+        "paths"
+      ],
+      "exits": {
+        "west": "sapper-tunnels",
+        "south": "flooded-caves",
+        "north": "drum-halls"
+      },
+      "annotations": {
+        "intent": "The goblins' mushroom farms (L3), the hexer's den and the shaman's fire, a glowworm grotto (S11)."
+      }
+    },
+    "drum-halls": {
+      "elvl": 8,
+      "theme": "cave",
+      "size": [
+        110,
+        110
+      ],
+      "tags": [
+        "hub",
+        "paths"
+      ],
+      "exits": {
+        "south": "fungus-deeps",
+        "north": "grutts-hall",
+        "east": "silver-seam"
+      },
+      "annotations": {
+        "intent": "Where the tribes gather (L3): the gathering hall and the wolf-master."
+      }
+    },
+    "grutts-hall": {
+      "elvl": 9,
+      "theme": "cave",
+      "size": [
+        100,
+        100
+      ],
+      "tags": [
+        "chamber",
+        "paths"
+      ],
+      "exits": {
+        "south": "drum-halls",
+        "north": {
+          "zone": "hall-of-the-goblin-king",
+          "map": "kings-stair"
+        }
+      },
+      "annotations": {
+        "intent": "The warboss's hall: Grutt (L3's boss), his guards, and the sealed stair down to the Goblin King's hall."
+      }
+    },
+    "silver-seam": {
+      "elvl": 8,
+      "theme": "cave",
+      "size": [
+        40,
+        30
+      ],
+      "tags": [
+        "paths"
+      ],
+      "exits": {
+        "west": "drum-halls"
+      },
+      "annotations": {
+        "intent": "A small cave: the expedition's silver seam, and Maren Holt held captive (L4)."
+      }
+    }
+  }
+}

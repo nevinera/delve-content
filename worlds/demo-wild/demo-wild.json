@@ -1,0 +1,114 @@
+{
+  "name": "Demo Wild",
+  "zones": {
+    "thornwood": {
+      "path": "./zones/thornwood/thornwood.json",
+      "name": "Thornwood",
+      "description": "Forest full of wild creatures, with a few human camps. The starting zone."
+    },
+    "brackwater-mire": {
+      "path": "./zones/brackwater-mire/brackwater-mire.json",
+      "name": "Brackwater Mire",
+      "description": "Lizardfolk swamp: the Reedtalkers near the forest, the Blackscales deeper in."
+    },
+    "gnawdeep": {
+      "path": "./zones/gnawdeep/gnawdeep.json",
+      "name": "The Gnawdeep",
+      "description": "Goblin caves under Warboss Grutt."
+    },
+    "hall-of-the-goblin-king": {
+      "path": "./zones/hall-of-the-goblin-king/hall-of-the-goblin-king.json",
+      "name": "Hall of the Goblin King",
+      "description": "A solo dungeon below the Gnawdeep: the Goblin King and his court."
+    }
+  },
+  "worldLinks": [
+    {
+      "zoneA": {
+        "zone": "brackwater-mire",
+        "kind": "open",
+        "connection": "mire-edge-north"
+      },
+      "zoneB": {
+        "zone": "thornwood",
+        "kind": "open",
+        "connection": "southern-eaves-south"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "zoneA": {
+        "zone": "brackwater-mire",
+        "kind": "open",
+        "connection": "reedtalker-village-west"
+      },
+      "zoneB": {
+        "zone": "thornwood",
+        "kind": "open",
+        "connection": "old-growth-east"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "zoneA": {
+        "zone": "brackwater-mire",
+        "kind": "open",
+        "connection": "nesting-grounds-west"
+      },
+      "zoneB": {
+        "zone": "thornwood",
+        "kind": "open",
+        "connection": "pine-ridge-south"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "zoneA": {
+        "zone": "gnawdeep",
+        "kind": "open",
+        "connection": "forest-mouth-south"
+      },
+      "zoneB": {
+        "zone": "thornwood",
+        "kind": "open",
+        "connection": "the-hills-north"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "zoneA": {
+        "zone": "gnawdeep",
+        "kind": "open",
+        "connection": "flooded-caves-west"
+      },
+      "zoneB": {
+        "zone": "brackwater-mire",
+        "kind": "open",
+        "connection": "blackwater-pools-east"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    },
+    {
+      "zoneA": {
+        "zone": "hall-of-the-goblin-king",
+        "kind": "open",
+        "connection": "kings-stair-south"
+      },
+      "zoneB": {
+        "zone": "gnawdeep",
+        "kind": "open",
+        "connection": "grutts-hall-north"
+      },
+      "oneWay": false,
+      "requiredKey": null
+    }
+  ],
+  "entryPoints": {
+    "thornwood/ranger-outpost/arrival": null
+  }
+}

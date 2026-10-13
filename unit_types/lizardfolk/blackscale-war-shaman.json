@@ -1,0 +1,346 @@
+{
+  "name": "Blackscale War-Shaman",
+  "category": "lizardfolk",
+  "description": "The Blackscales' war-leader: a shaman who calls the swamp's fury down on anyone in the way.",
+  "tokenImageUrl": [
+    "../../tokens/unit/lizardfolk/blackscale-war-shaman-1.webp",
+    "../../tokens/unit/lizardfolk/blackscale-war-shaman-2.webp",
+    "../../tokens/unit/lizardfolk/blackscale-war-shaman-3.webp",
+    "../../tokens/unit/lizardfolk/blackscale-war-shaman-4.webp"
+  ],
+  "tokenRadius": 2.75,
+  "speedFactor": 1,
+  "maxHP": 450,
+  "dps": 3,
+  "attackSpeed": 0.6,
+  "basicAttackRange": 25,
+  "basicAttackSchool": "magic",
+  "basicAttackStyle": "nature",
+  "resource": {
+    "name": "mana",
+    "color": "4488FF",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 2,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "phased",
+    "phases": [
+      {
+        "tactics": {
+          "type": "priorityRotation",
+          "powers": [
+            "War Totem",
+            "Swamp Bolt",
+            "Bog Rot"
+          ]
+        },
+        "transition": {
+          "healthBelow": 0.5
+        }
+      },
+      {
+        "tactics": {
+          "type": "priorityRotation",
+          "powers": [
+            "Swamp Fury",
+            "Bog Wave",
+            "Swamp Bolt",
+            "Bog Rot"
+          ]
+        }
+      }
+    ]
+  },
+  "powers": [
+    {
+      "name": "Swamp Bolt",
+      "description": "A bolt of stinking swamp-water.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 5,
+      "maxRange": 25,
+      "speed": 30,
+      "costType": "mana",
+      "costAmount": 10,
+      "graphicEffects": [
+        {
+          "sourceURL": ":pixel-swirling-orb:",
+          "duration": 0.5,
+          "from": "self",
+          "to": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "scale": 0.5,
+          "color": "#6B8E23",
+          "spriteColumns": 6,
+          "spriteRows": 1,
+          "spriteFrameRate": 8
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":splash:",
+          "duration": 0.506,
+          "location": "affected",
+          "when": "impact",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 25,
+          "amount": [
+            7,
+            9
+          ],
+          "school": "magic",
+          "tags": [
+            "nature"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic"
+      ]
+    },
+    {
+      "name": "Bog Rot",
+      "description": "A curse that rots the target from the inside.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 12,
+      "maxRange": 25,
+      "costType": "mana",
+      "costAmount": 15,
+      "graphicEffects": [
+        {
+          "sourceURL": ":tendrils:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "always",
+          "color": "#556B2F",
+          "scale": 0.8,
+          "spriteColumns": 5,
+          "spriteRows": 1
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":dark:",
+          "duration": 0.648,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 8,
+          "status": {
+            "stacking": "replace",
+            "name": "Bog Rot",
+            "shortName": "Rot",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 1,
+                "onTick": "harm",
+                "amount": 1.5,
+                "school": "magic"
+              }
+            ],
+            "description": "Rotting."
+          },
+          "range": 25
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "dot"
+      ]
+    },
+    {
+      "name": "War Totem",
+      "description": "Rattles a bone totem; its warriors fight harder.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 20,
+      "costType": "mana",
+      "costAmount": 15,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":shout:",
+          "duration": 1.157,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "gAll",
+          "duration": 8,
+          "status": {
+            "stacking": "replace",
+            "name": "War Totem",
+            "shortName": "Totem",
+            "treatAs": "buff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageDone",
+                "modifierType": "multiply",
+                "amount": 1.15
+              }
+            ],
+            "description": "Dealing more damage.",
+            "auraEffect": {
+              "sourceURL": ":ring-faded:",
+              "color": "#9ACD32",
+              "opacity": 0.3,
+              "scale": 1.3
+            }
+          },
+          "range": 20
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "name": "Swamp Fury",
+      "description": "Wounded, it calls the swamp's fury into itself.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 30,
+      "costType": "mana",
+      "costAmount": 10,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":roar:",
+          "duration": 1.15,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 15,
+          "status": {
+            "stacking": "replace",
+            "name": "Swamp Fury",
+            "shortName": "Fury",
+            "treatAs": "buff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageDone",
+                "modifierType": "multiply",
+                "amount": 1.25
+              }
+            ],
+            "description": "Dealing more damage.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#6B8E23",
+              "opacity": 0.4,
+              "scale": 1.2
+            }
+          }
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "name": "Bog Wave",
+      "description": "The ground heaves with black water around it.",
+      "castTime": 1.5,
+      "globalCooldown": 1.5,
+      "cooldown": 12,
+      "costType": "mana",
+      "costAmount": 20,
+      "graphicEffects": [
+        {
+          "sourceURL": ":ring-burst:",
+          "duration": 0.4,
+          "from": "self",
+          "when": "impact",
+          "condition": "always",
+          "color": "#3E4A1F",
+          "scale": 1.6
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":splash:",
+          "duration": 0.506,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        },
+        {
+          "sourceURL": ":rumble:",
+          "duration": 3.517,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.3
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bAll",
+          "range": 10,
+          "amount": [
+            6,
+            8
+          ],
+          "school": "magic",
+          "tags": [
+            "nature"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "magic",
+        "aoe"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "solo",
+    "caster",
+    "buffs"
+  ],
+  "annotations": {
+    "intent": "The Blackscales: Brackwater's hostile lizardfolk tribe, who've thrown in with the goblins. Their tokens are darkened from the lizardfolk sets so they read apart from the friendly Reedtalkers (green, NCUs). Their war-leader and L2's boss, in its lair deep in the mire, guarded by warriors and a shaman.",
+    "balance": "A quest boss, tuned by hand: 1.5x a solo's HP (450). Below half health it enrages (Swamp Fury) and starts Bog Wave, so a player should save cooldowns for the second phase."
+  }
+}

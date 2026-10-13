@@ -1,0 +1,165 @@
+{
+  "name": "Giant Frog",
+  "category": "frogs",
+  "description": "A frog the size of a pony, with a tongue like a wet rope.",
+  "tokenImageUrl": [
+    "../tokens/unit/frogs/giant-frog-1.webp",
+    "../tokens/unit/frogs/giant-frog-2.webp",
+    "../tokens/unit/frogs/giant-frog-3.webp",
+    "../tokens/unit/frogs/giant-frog-4.webp"
+  ],
+  "tokenRadius": 2,
+  "speedFactor": 1.1,
+  "maxHP": 140,
+  "dps": 2.4,
+  "attackSpeed": 1,
+  "basicAttackStyle": "claw",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Tongue Lash",
+      "Bellyflop"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Tongue Lash",
+      "description": "Lashes out with its sticky tongue, gumming up the target's legs.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 9,
+      "maxRange": 15,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":splat:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "always",
+          "color": "#C88AA0",
+          "scale": 0.6
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":squelch:",
+          "duration": 0.2,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 15,
+          "amount": [
+            4,
+            6
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 4,
+          "status": {
+            "stacking": "replace",
+            "name": "Gummed",
+            "shortName": "Gummed",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "movementSpeed",
+                "modifierType": "multiply",
+                "amount": 0.8
+              }
+            ],
+            "description": "Moving slower."
+          },
+          "range": 15
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "slow"
+      ]
+    },
+    {
+      "name": "Bellyflop",
+      "description": "Leaps and lands with a splash on everyone nearby.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 15,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":ring-burst:",
+          "duration": 0.4,
+          "from": "self",
+          "when": "impact",
+          "condition": "always",
+          "color": "#6FA8DC",
+          "scale": 1.2
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":splash:",
+          "duration": 0.506,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bAll",
+          "range": 7,
+          "amount": [
+            3,
+            4
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "aoe"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "group",
+    "melee"
+  ],
+  "annotations": {
+    "intent": "Brackwater Mire's common hostile beast, in groups of three on the pools' edges; the frog nests (S7)."
+  }
+}

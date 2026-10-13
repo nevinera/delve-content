@@ -1,0 +1,380 @@
+{
+  "name": "The Goblin King",
+  "category": "goblins",
+  "description": "Fat, gilded and furious, the King of the Gnawdeep goblins sits on a throne of stolen things.",
+  "tokenImageUrl": [
+    "../../tokens/unit/goblins/goblin-king-1.webp",
+    "../../tokens/unit/goblins/goblin-king-2.webp",
+    "../../tokens/unit/goblins/goblin-king-3.webp",
+    "../../tokens/unit/goblins/goblin-king-4.webp"
+  ],
+  "tokenRadius": 3,
+  "speedFactor": 0.9,
+  "maxHP": 1500,
+  "dps": 5,
+  "attackSpeed": 0.8,
+  "basicAttackStyle": "club",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "phased",
+    "phases": [
+      {
+        "tactics": {
+          "type": "priorityRotation",
+          "powers": [
+            "Royal Decree",
+            "Scepter Smash",
+            "Kingly Swipe"
+          ]
+        },
+        "transition": {
+          "healthBelow": 0.6
+        }
+      },
+      {
+        "tactics": {
+          "type": "priorityRotation",
+          "powers": [
+            "Tantrum",
+            "Royal Decree",
+            "Scepter Smash",
+            "Kingly Swipe"
+          ]
+        },
+        "transition": {
+          "healthBelow": 0.25
+        }
+      },
+      {
+        "tactics": {
+          "type": "priorityRotation",
+          "powers": [
+            "Mine, All Mine",
+            "Tantrum",
+            "Scepter Smash",
+            "Kingly Swipe"
+          ]
+        }
+      }
+    ]
+  },
+  "powers": [
+    {
+      "name": "Scepter Smash",
+      "description": "Brings his heavy scepter down on the target's head.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 9,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":star-x:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "scale": 0.8
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":punch-hit:",
+          "duration": 0.823,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            10,
+            13
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 5,
+          "status": {
+            "stacking": "replace",
+            "name": "Dazed",
+            "shortName": "Dazed",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "attackSpeed",
+                "modifierType": "multiply",
+                "amount": 0.8
+              }
+            ],
+            "description": "Dazed: attacks slower.",
+            "auraEffect": {
+              "sourceURL": ":star-x:",
+              "color": "#FFE066",
+              "opacity": 0.5,
+              "scale": 0.6
+            }
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "daze"
+      ]
+    },
+    {
+      "name": "Kingly Swipe",
+      "description": "A backhand swipe with a gold-ringed fist.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 6,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 15,
+      "graphicEffects": [
+        {
+          "sourceURL": ":claw-slash:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "scale": 0.7,
+          "color": "#D4AF37"
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":swing-light:",
+          "duration": 0.7,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            6,
+            8
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical"
+      ]
+    },
+    {
+      "name": "Royal Decree",
+      "description": "Bellows an order; his court fights harder for him.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 20,
+      "costType": "energy",
+      "costAmount": 20,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":shout:",
+          "duration": 1.157,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "gAll",
+          "duration": 10,
+          "status": {
+            "stacking": "replace",
+            "name": "Royal Decree",
+            "shortName": "Decree",
+            "treatAs": "buff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageDone",
+                "modifierType": "multiply",
+                "amount": 1.15
+              },
+              {
+                "type": "stat",
+                "statName": "damageTaken",
+                "modifierType": "multiply",
+                "amount": 0.9
+              }
+            ],
+            "description": "Dealing more damage, taking less.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#D4AF37",
+              "opacity": 0.35,
+              "scale": 1.1
+            }
+          },
+          "range": 25
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    },
+    {
+      "name": "Tantrum",
+      "description": "Stamps and flails at everything around him.",
+      "castTime": 1.5,
+      "globalCooldown": 1.5,
+      "cooldown": 14,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":ring-burst:",
+          "duration": 0.4,
+          "from": "self",
+          "when": "impact",
+          "condition": "always",
+          "color": "#D4AF37",
+          "scale": 1.6
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":rumble:",
+          "duration": 3.517,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.4
+        },
+        {
+          "sourceURL": ":roar:",
+          "duration": 1.15,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.4
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bAll",
+          "range": 10,
+          "amount": [
+            9,
+            12
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "aoe"
+      ]
+    },
+    {
+      "name": "Mine, All Mine",
+      "description": "Clutching his hoard, he flies into a greedy rage.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 60,
+      "costType": "energy",
+      "costAmount": 10,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":roar:",
+          "duration": 1.15,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 30,
+          "status": {
+            "stacking": "replace",
+            "name": "Greedy Rage",
+            "shortName": "Rage",
+            "treatAs": "buff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageDone",
+                "modifierType": "multiply",
+                "amount": 1.3
+              },
+              {
+                "type": "stat",
+                "statName": "attackSpeed",
+                "modifierType": "multiply",
+                "amount": 1.25
+              }
+            ],
+            "description": "Hitting harder and faster.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#FF3B30",
+              "opacity": 0.4,
+              "scale": 1.2
+            }
+          }
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "tags": [
+    "g1",
+    "solo",
+    "melee",
+    "buffs"
+  ],
+  "annotations": {
+    "intent": "Boss of the Hall of the Goblin King, and L3's finale. Fights in his throne hall; his royal guard and court shamans may join through Royal Decree's buff.",
+    "balance": "A g1 boss, tuned by hand: twice a g1 solo's HP (1500). Three phases: Tantrum below 60%, an enrage (Greedy Rage) below 25%."
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "name": "The Black Panther",
+  "category": "cats",
+  "description": "A huge black panther that's been stalking the camps: you rarely see it before it pounces.",
+  "tokenImageUrl": [
+    "../../tokens/unit/cats/black-panther-1.webp",
+    "../../tokens/unit/cats/black-panther-2.webp",
+    "../../tokens/unit/cats/black-panther-3.webp",
+    "../../tokens/unit/cats/black-panther-4.webp"
+  ],
+  "tokenRadius": 2.5,
+  "speedFactor": 1.4,
+  "maxHP": 225,
+  "dps": 7.2,
+  "attackSpeed": 1.5,
+  "basicAttackStyle": "claw",
+  "stealth": 5,
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "phased",
+    "phases": [
+      {
+        "tactics": {
+          "type": "priorityRotation",
+          "powers": [
+            "Pounce",
+            "Rake"
+          ]
+        },
+        "transition": {
+          "healthBelow": 0.5
+        }
+      },
+      {
+        "tactics": {
+          "type": "priorityRotation",
+          "powers": [
+            "Cornered",
+            "Pounce",
+            "Rake"
+          ]
+        }
+      }
+    ]
+  },
+  "powers": [
+    {
+      "name": "Pounce",
+      "description": "Leaps on its prey from the shadows.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 12,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 30,
+      "graphicEffects": [
+        {
+          "sourceURL": ":claw-slash:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "scale": 0.9
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":dash:",
+          "duration": 0.729,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        },
+        {
+          "sourceURL": ":punch-hit:",
+          "duration": 0.823,
+          "location": "affected",
+          "when": "impact",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            16,
+            20
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 3,
+          "status": {
+            "stacking": "replace",
+            "name": "Dazed",
+            "shortName": "Dazed",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "attackSpeed",
+                "modifierType": "multiply",
+                "amount": 0.8
+              }
+            ],
+            "description": "Dazed: attacks slower.",
+            "auraEffect": {
+              "sourceURL": ":star-x:",
+              "color": "#FFE066",
+              "opacity": 0.5,
+              "scale": 0.6
+            }
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "daze"
+      ]
+    },
+    {
+      "name": "Rake",
+      "description": "Rakes with its back claws.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 8,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":scratch:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "scale": 0.7
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":blade-scrape:",
+          "duration": 0.534,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            4,
+            6
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 6,
+          "status": {
+            "stacking": "replace",
+            "name": "Raked",
+            "shortName": "Raked",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "recurring",
+                "tickRate": 1,
+                "onTick": "harm",
+                "amount": 1,
+                "school": "physical"
+              }
+            ],
+            "description": "Bleeding."
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "bleed"
+      ]
+    },
+    {
+      "name": "Cornered",
+      "description": "Wounded and cornered, it fights in a frenzy.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 60,
+      "costType": "energy",
+      "costAmount": 10,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":roar:",
+          "duration": 1.15,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 20,
+          "status": {
+            "stacking": "replace",
+            "name": "Cornered",
+            "shortName": "Frenzy",
+            "treatAs": "buff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "attackSpeed",
+                "modifierType": "multiply",
+                "amount": 1.3
+              }
+            ],
+            "description": "Attacking faster.",
+            "auraEffect": {
+              "sourceURL": ":glow:",
+              "color": "#6A1B9A",
+              "opacity": 0.35,
+              "scale": 1.1
+            }
+          }
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "solo",
+    "melee",
+    "glass"
+  ],
+  "annotations": {
+    "intent": "S3's named mob, in its den in Thornwood. A bigger, harder-to-spot panther (stealth 5, against the stock panther's 0): players should find it before it finds them.",
+    "balance": "A named quest boss, tuned by hand: 1.5x the panther's HP (225), with a second phase below half health."
+  }
+}

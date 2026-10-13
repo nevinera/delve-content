@@ -1,0 +1,148 @@
+{
+  "name": "Brackwater Mire",
+  "description": "Lizardfolk swamp: the Reedtalkers near the forest, the Blackscales deeper in.",
+  "elvl": 3,
+  "unitTypes": [
+    "giant-frog",
+    "swamp-crocodile",
+    "old-croc",
+    "swamp-viper",
+    "blackscale-warrior",
+    "blackscale-hunter",
+    "blackscale-shaman",
+    "blackscale-war-shaman"
+  ],
+  "maps": {
+    "mire-edge": {
+      "elvl": 3,
+      "theme": "glade",
+      "size": [
+        100,
+        100
+      ],
+      "tags": [
+        "wet",
+        "paths"
+      ],
+      "exits": {
+        "north": {
+          "zone": "thornwood",
+          "map": "southern-eaves"
+        },
+        "south": "reedtalker-village"
+      },
+      "annotations": {
+        "intent": "Where the forest gives way to the mire."
+      }
+    },
+    "reedtalker-village": {
+      "elvl": 3,
+      "theme": "glade",
+      "size": [
+        110,
+        110
+      ],
+      "tags": [
+        "hub",
+        "wet",
+        "paths"
+      ],
+      "exits": {
+        "north": "mire-edge",
+        "south": "nesting-grounds",
+        "west": {
+          "zone": "thornwood",
+          "map": "old-growth"
+        }
+      },
+      "annotations": {
+        "intent": "The Reedtalkers' village: the zone's hub. Elder Sesh, villagers and fishers."
+      }
+    },
+    "nesting-grounds": {
+      "elvl": 4,
+      "theme": "glade",
+      "size": [
+        110,
+        110
+      ],
+      "tags": [
+        "wet",
+        "paths"
+      ],
+      "exits": {
+        "north": "reedtalker-village",
+        "east": "blackwater-pools",
+        "south": "blackscale-marsh",
+        "west": {
+          "zone": "thornwood",
+          "map": "pine-ridge"
+        }
+      },
+      "annotations": {
+        "intent": "The Reedtalkers' nesting grounds: giant frog nests (S7)."
+      }
+    },
+    "blackwater-pools": {
+      "elvl": 5,
+      "theme": "glade",
+      "size": [
+        110,
+        100
+      ],
+      "tags": [
+        "wet",
+        "paths"
+      ],
+      "exits": {
+        "west": "nesting-grounds",
+        "east": {
+          "zone": "gnawdeep",
+          "map": "flooded-caves"
+        }
+      },
+      "annotations": {
+        "intent": "Deep, dark pools: the croc's wallow (S9), the sunken idol (S8), the flooded cave entrance (L4)."
+      }
+    },
+    "blackscale-marsh": {
+      "elvl": 6,
+      "theme": "glade",
+      "size": [
+        110,
+        100
+      ],
+      "tags": [
+        "wet",
+        "rough",
+        "paths"
+      ],
+      "exits": {
+        "north": "nesting-grounds",
+        "south": "blackscale-village"
+      },
+      "annotations": {
+        "intent": "Blackscale territory: their raiding parties and captive pens (L2)."
+      }
+    },
+    "blackscale-village": {
+      "elvl": 7,
+      "theme": "glade",
+      "size": [
+        100,
+        100
+      ],
+      "tags": [
+        "chamber",
+        "wet",
+        "paths"
+      ],
+      "exits": {
+        "north": "blackscale-marsh"
+      },
+      "annotations": {
+        "intent": "The Blackscales' village, and the war-shaman's lair (L2's end)."
+      }
+    }
+  }
+}

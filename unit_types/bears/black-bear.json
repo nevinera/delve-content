@@ -1,0 +1,142 @@
+{
+  "name": "Black Bear",
+  "category": "bears",
+  "description": "A big black bear, protective of its den and in no mood for visitors.",
+  "tokenImageUrl": [
+    "../../tokens/unit/bears/black-bear-1.webp",
+    "../../tokens/unit/bears/black-bear-2.webp",
+    "../../tokens/unit/bears/black-bear-3.webp",
+    "../../tokens/unit/bears/black-bear-4.webp"
+  ],
+  "tokenRadius": 3.25,
+  "speedFactor": 1.1,
+  "maxHP": 300,
+  "dps": 5.2,
+  "attackSpeed": 0.9,
+  "basicAttackStyle": "claw",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Maul",
+      "Swat"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Maul",
+      "description": "A crushing, clawing swipe.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 7,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":claw-slash:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "scale": 0.9
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":bloody-blade:",
+          "duration": 0.869,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always",
+          "volumeScale": 0.5
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            7,
+            9
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical"
+      ]
+    },
+    {
+      "name": "Swat",
+      "description": "A wide swat that catches everyone in front of it.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 12,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":crescent:",
+          "duration": 0.4,
+          "from": "self",
+          "when": "impact",
+          "condition": "always",
+          "scale": 1.2
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":swing-heavy:",
+          "duration": 0.775,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bAll",
+          "range": 7,
+          "amount": [
+            4,
+            6
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "aoe"
+      ]
+    }
+  ],
+  "tags": [
+    "open",
+    "solo",
+    "melee"
+  ],
+  "annotations": {
+    "intent": "Thornwood's bear's den (S4, the woodcutter's axe), and the odd lone bear in deep woods. A solo, at the open budget (300 HP, 8.3 dps with Maul and Swat)."
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "name": "Goblin Royal Guard",
+  "category": "goblins",
+  "description": "One of the King's picked guards: bigger than most goblins, better armored, and very loyal.",
+  "tokenImageUrl": [
+    "../../tokens/unit/goblins/goblin-royal-guard-1.webp",
+    "../../tokens/unit/goblins/goblin-royal-guard-2.webp",
+    "../../tokens/unit/goblins/goblin-royal-guard-3.webp",
+    "../../tokens/unit/goblins/goblin-royal-guard-4.webp"
+  ],
+  "tokenRadius": 2.25,
+  "speedFactor": 1,
+  "maxHP": 980,
+  "dps": 2,
+  "attackSpeed": 0.8,
+  "basicAttackStyle": "axe",
+  "resource": {
+    "name": "energy",
+    "color": "AADD00",
+    "max": 100,
+    "defaultValue": 100,
+    "returnRate": 10,
+    "isFluid": true
+  },
+  "targeting": {
+    "type": "aggroTable"
+  },
+  "tactics": {
+    "type": "priorityRotation",
+    "powers": [
+      "Halberd Sweep",
+      "Shield Bash",
+      "For the King"
+    ]
+  },
+  "powers": [
+    {
+      "name": "Halberd Sweep",
+      "description": "A wide sweep of its halberd.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 10,
+      "costType": "energy",
+      "costAmount": 25,
+      "graphicEffects": [
+        {
+          "sourceURL": ":crescent:",
+          "duration": 0.4,
+          "from": "self",
+          "when": "impact",
+          "condition": "always",
+          "scale": 1.2
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":swing-heavy:",
+          "duration": 0.775,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bAll",
+          "range": 7,
+          "amount": [
+            6,
+            8
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "aoe"
+      ]
+    },
+    {
+      "name": "Shield Bash",
+      "description": "Slams its shield into the target's face.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 12,
+      "maxRange": 5,
+      "costType": "energy",
+      "costAmount": 20,
+      "graphicEffects": [
+        {
+          "sourceURL": ":star-x:",
+          "duration": 0.4,
+          "from": "affected",
+          "when": "impact",
+          "condition": "onHit",
+          "scale": 0.6
+        }
+      ],
+      "soundEffects": [
+        {
+          "sourceURL": ":clang:",
+          "duration": 0.401,
+          "location": "affected",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "harm",
+          "affects": "bTarget",
+          "range": 5,
+          "amount": [
+            4,
+            6
+          ],
+          "school": "physical",
+          "tags": [
+            "melee"
+          ]
+        },
+        {
+          "type": "status",
+          "affects": "bTarget",
+          "duration": 4,
+          "status": {
+            "stacking": "replace",
+            "name": "Dazed",
+            "shortName": "Dazed",
+            "treatAs": "debuff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "attackSpeed",
+                "modifierType": "multiply",
+                "amount": 0.8
+              }
+            ],
+            "description": "Dazed: attacks slower.",
+            "auraEffect": {
+              "sourceURL": ":star-x:",
+              "color": "#FFE066",
+              "opacity": 0.5,
+              "scale": 0.6
+            }
+          },
+          "range": 5
+        }
+      ],
+      "tags": [
+        "harmful",
+        "physical",
+        "daze"
+      ]
+    },
+    {
+      "name": "For the King",
+      "description": "Braces behind its shield, determined to hold.",
+      "castTime": null,
+      "globalCooldown": 1,
+      "cooldown": 20,
+      "costType": "energy",
+      "costAmount": 20,
+      "graphicEffects": [],
+      "soundEffects": [
+        {
+          "sourceURL": ":armor-up:",
+          "duration": 0.507,
+          "location": "self",
+          "when": "immediate",
+          "condition": "always"
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "duration": 8,
+          "status": {
+            "stacking": "replace",
+            "name": "Steadfast",
+            "shortName": "Stdfst",
+            "treatAs": "buff",
+            "effects": [
+              {
+                "type": "stat",
+                "statName": "damageTaken",
+                "modifierType": "multiply",
+                "amount": 0.75
+              }
+            ],
+            "description": "Taking less damage.",
+            "auraEffect": {
+              "sourceURL": ":shield-spark:",
+              "color": "#D4AF37",
+              "opacity": 0.35,
+              "scale": 1
+            }
+          }
+        }
+      ],
+      "tags": [
+        "buff"
+      ]
+    }
+  ],
+  "tags": [
+    "g1",
+    "pair",
+    "melee",
+    "tough"
+  ],
+  "annotations": {
+    "intent": "The Hall of the Goblin King's elite: g1 (a solo-dungeon elite), in pairs at the royal warrens and the King's hall door. Tough: long fights that cost the same HP as a g1 pair."
+  }
+}
