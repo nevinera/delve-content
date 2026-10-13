@@ -26609,11 +26609,7 @@
     {
       "identifier": "panther-kill-1",
       "name": "Panther Kill",
-      "imageUrl": "../../../graphics/interactables/panther-kill.png",
-      "size": {
-        "width": 4,
-        "height": 3
-      },
+      "stamp": "quest-props/panther-kill",
       "position": {
         "x": 328.8,
         "y": 423.8,
@@ -26625,11 +26621,7 @@
     {
       "identifier": "panther-kill-2",
       "name": "Panther Kill",
-      "imageUrl": "../../../graphics/interactables/panther-kill.png",
-      "size": {
-        "width": 4,
-        "height": 3
-      },
+      "stamp": "quest-props/panther-kill",
       "position": {
         "x": 303.8,
         "y": 413.8,
@@ -26641,11 +26633,7 @@
     {
       "identifier": "panther-kill-3",
       "name": "Panther Kill",
-      "imageUrl": "../../../graphics/interactables/panther-kill.png",
-      "size": {
-        "width": 4,
-        "height": 3
-      },
+      "stamp": "quest-props/panther-kill",
       "position": {
         "x": 326.3,
         "y": 446.3,

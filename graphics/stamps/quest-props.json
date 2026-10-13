@@ -1,0 +1,427 @@
+{
+  "name": "Quest props",
+  "imageUrl": "./quest-props.png",
+  "license": "CC0-1.0",
+  "stamps": {
+    "burned-nest": {
+      "name": "Burned nest",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 160,
+          "height": 160
+        }
+      ]
+    },
+    "camp-clue": {
+      "name": "Camp clue",
+      "feetWidth": 3,
+      "frames": [
+        {
+          "x": 1590,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ]
+    },
+    "captive-pen-used": {
+      "name": "Captive pen (used)",
+      "feetWidth": 6,
+      "frames": [
+        {
+          "x": 162,
+          "y": 0,
+          "width": 192,
+          "height": 160
+        }
+      ]
+    },
+    "captive-pen": {
+      "name": "Captive pen",
+      "feetWidth": 6,
+      "frames": [
+        {
+          "x": 356,
+          "y": 0,
+          "width": 192,
+          "height": 160
+        }
+      ]
+    },
+    "cub-cage-used": {
+      "name": "Cub cage (used)",
+      "feetWidth": 4,
+      "frames": [
+        {
+          "x": 550,
+          "y": 0,
+          "width": 128,
+          "height": 128
+        }
+      ]
+    },
+    "cub-cage": {
+      "name": "Cub cage",
+      "feetWidth": 4,
+      "frames": [
+        {
+          "x": 680,
+          "y": 0,
+          "width": 128,
+          "height": 128
+        }
+      ]
+    },
+    "egg-clutch": {
+      "name": "Egg clutch",
+      "feetWidth": 3,
+      "frames": [
+        {
+          "x": 1688,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ]
+    },
+    "expedition-gear": {
+      "name": "Expedition gear",
+      "feetWidth": 3,
+      "frames": [
+        {
+          "x": 1786,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ]
+    },
+    "fever-herb": {
+      "name": "Fever herb",
+      "feetWidth": 2,
+      "frames": [
+        {
+          "x": 1686,
+          "y": 162,
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    "goblin-snare-used": {
+      "name": "Goblin snare (used)",
+      "feetWidth": 3,
+      "frames": [
+        {
+          "x": 1752,
+          "y": 162,
+          "width": 96,
+          "height": 64
+        }
+      ]
+    },
+    "goblin-snare": {
+      "name": "Goblin snare",
+      "feetWidth": 3,
+      "frames": [
+        {
+          "x": 1850,
+          "y": 162,
+          "width": 96,
+          "height": 64
+        }
+      ]
+    },
+    "hexed-totem-used": {
+      "name": "Hexed totem (used)",
+      "feetWidth": 3,
+      "frames": [
+        {
+          "x": 1884,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ]
+    },
+    "hexed-totem": {
+      "name": "Hexed totem",
+      "feetWidth": 3,
+      "frames": [
+        {
+          "x": 0,
+          "y": 162,
+          "width": 96,
+          "height": 96
+        }
+      ]
+    },
+    "holt-cell-door-used": {
+      "name": "Holt cell door (used)",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 0,
+          "y": 260,
+          "width": 160,
+          "height": 64
+        }
+      ]
+    },
+    "holt-cell-door": {
+      "name": "Holt cell door",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 162,
+          "y": 260,
+          "width": 160,
+          "height": 64
+        }
+      ]
+    },
+    "mushroom-bed-used": {
+      "name": "Mushroom bed (used)",
+      "feetWidth": 6,
+      "frames": [
+        {
+          "x": 810,
+          "y": 0,
+          "width": 192,
+          "height": 128
+        }
+      ]
+    },
+    "mushroom-bed": {
+      "name": "Mushroom bed",
+      "feetWidth": 6,
+      "frames": [
+        {
+          "x": 1004,
+          "y": 0,
+          "width": 192,
+          "height": 128
+        }
+      ]
+    },
+    "panther-kill": {
+      "name": "Panther kill",
+      "feetWidth": 4,
+      "frames": [
+        {
+          "x": 98,
+          "y": 162,
+          "width": 128,
+          "height": 96
+        }
+      ]
+    },
+    "sapper-charge": {
+      "name": "Sapper charge",
+      "feetWidth": 2,
+      "frames": [
+        {
+          "x": 324,
+          "y": 260,
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    "silver-sample": {
+      "name": "Silver sample",
+      "feetWidth": 4,
+      "frames": [
+        {
+          "x": 228,
+          "y": 162,
+          "width": 128,
+          "height": 96
+        }
+      ]
+    },
+    "stair-seal-used": {
+      "name": "Stair seal (used)",
+      "feetWidth": 8,
+      "frames": [
+        {
+          "x": 358,
+          "y": 162,
+          "width": 256,
+          "height": 96
+        }
+      ]
+    },
+    "stair-seal": {
+      "name": "Stair seal",
+      "feetWidth": 8,
+      "frames": [
+        {
+          "x": 616,
+          "y": 162,
+          "width": 256,
+          "height": 96
+        }
+      ]
+    },
+    "sunken-idol": {
+      "name": "Sunken idol",
+      "feetWidth": 3,
+      "frames": [
+        {
+          "x": 874,
+          "y": 162,
+          "width": 96,
+          "height": 96
+        }
+      ]
+    },
+    "survivors-lantern": {
+      "name": "Survivors lantern",
+      "feetWidth": 1.5,
+      "frames": [
+        {
+          "x": 488,
+          "y": 260,
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    "trapper-snare": {
+      "name": "Trapper snare",
+      "feetWidth": 3,
+      "frames": [
+        {
+          "x": 390,
+          "y": 260,
+          "width": 96,
+          "height": 64
+        }
+      ]
+    },
+    "tunnel-face-used": {
+      "name": "Tunnel face (used)",
+      "feetWidth": 6,
+      "frames": [
+        {
+          "x": 972,
+          "y": 162,
+          "width": 192,
+          "height": 96
+        }
+      ]
+    },
+    "tunnel-face": {
+      "name": "Tunnel face",
+      "feetWidth": 6,
+      "frames": [
+        {
+          "x": 1166,
+          "y": 162,
+          "width": 192,
+          "height": 96
+        }
+      ]
+    },
+    "tunnel-prop-used": {
+      "name": "Tunnel prop (used)",
+      "feetWidth": 2,
+      "frames": [
+        {
+          "x": 1198,
+          "y": 0,
+          "width": 64,
+          "height": 128
+        }
+      ]
+    },
+    "tunnel-prop": {
+      "name": "Tunnel prop",
+      "feetWidth": 2,
+      "frames": [
+        {
+          "x": 1264,
+          "y": 0,
+          "width": 64,
+          "height": 128
+        }
+      ]
+    },
+    "war-drum-used": {
+      "name": "War drum (used)",
+      "feetWidth": 4,
+      "frames": [
+        {
+          "x": 1330,
+          "y": 0,
+          "width": 128,
+          "height": 128
+        }
+      ]
+    },
+    "war-drum": {
+      "name": "War drum",
+      "feetWidth": 4,
+      "frames": [
+        {
+          "x": 1460,
+          "y": 0,
+          "width": 128,
+          "height": 128
+        }
+      ]
+    },
+    "war-totem-used": {
+      "name": "War totem (used)",
+      "feetWidth": 3,
+      "frames": [
+        {
+          "x": 1360,
+          "y": 162,
+          "width": 96,
+          "height": 96
+        }
+      ]
+    },
+    "war-totem": {
+      "name": "War totem",
+      "feetWidth": 3,
+      "frames": [
+        {
+          "x": 1458,
+          "y": 162,
+          "width": 96,
+          "height": 96
+        }
+      ]
+    },
+    "wolf-tracks": {
+      "name": "Wolf tracks",
+      "feetWidth": 4,
+      "frames": [
+        {
+          "x": 1556,
+          "y": 162,
+          "width": 128,
+          "height": 96
+        }
+      ]
+    },
+    "woodcutters-axe": {
+      "name": "Woodcutters axe",
+      "feetWidth": 3,
+      "frames": [
+        {
+          "x": 538,
+          "y": 260,
+          "width": 96,
+          "height": 48
+        }
+      ]
+    }
+  }
+}

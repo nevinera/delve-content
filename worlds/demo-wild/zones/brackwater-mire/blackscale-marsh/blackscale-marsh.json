@@ -23858,13 +23858,9 @@
     {
       "identifier": "war-totem-1",
       "name": "War-Totem",
-      "imageUrl": "../../../graphics/interactables/war-totem.png",
-      "usedImageUrl": "../../../graphics/interactables/war-totem-used.png",
+      "stamp": "quest-props/war-totem",
+      "usedStamp": "quest-props/war-totem-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 3,
-        "height": 3
-      },
       "position": {
         "x": 153.8,
         "y": 261.3,
@@ -23876,13 +23872,9 @@
     {
       "identifier": "war-totem-2",
       "name": "War-Totem",
-      "imageUrl": "../../../graphics/interactables/war-totem.png",
-      "usedImageUrl": "../../../graphics/interactables/war-totem-used.png",
+      "stamp": "quest-props/war-totem",
+      "usedStamp": "quest-props/war-totem-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 3,
-        "height": 3
-      },
       "position": {
         "x": 123.8,
         "y": 263.8,
@@ -23894,13 +23886,9 @@
     {
       "identifier": "war-totem-3",
       "name": "War-Totem",
-      "imageUrl": "../../../graphics/interactables/war-totem.png",
-      "usedImageUrl": "../../../graphics/interactables/war-totem-used.png",
+      "stamp": "quest-props/war-totem",
+      "usedStamp": "quest-props/war-totem-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 3,
-        "height": 3
-      },
       "position": {
         "x": 168.8,
         "y": 226.3,
@@ -23912,13 +23900,9 @@
     {
       "identifier": "captive-pen-1",
       "name": "Captive Pen",
-      "imageUrl": "../../../graphics/interactables/captive-pen.png",
-      "usedImageUrl": "../../../graphics/interactables/captive-pen-used.png",
+      "stamp": "quest-props/captive-pen",
+      "usedStamp": "quest-props/captive-pen-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 6,
-        "height": 5
-      },
       "position": {
         "x": 448.8,
         "y": 116.3,
@@ -23930,13 +23914,9 @@
     {
       "identifier": "captive-pen-2",
       "name": "Captive Pen",
-      "imageUrl": "../../../graphics/interactables/captive-pen.png",
-      "usedImageUrl": "../../../graphics/interactables/captive-pen-used.png",
+      "stamp": "quest-props/captive-pen",
+      "usedStamp": "quest-props/captive-pen-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 6,
-        "height": 5
-      },
       "position": {
         "x": 441.3,
         "y": 141.3,
@@ -23948,13 +23928,9 @@
     {
       "identifier": "captive-pen-3",
       "name": "Captive Pen",
-      "imageUrl": "../../../graphics/interactables/captive-pen.png",
-      "usedImageUrl": "../../../graphics/interactables/captive-pen-used.png",
+      "stamp": "quest-props/captive-pen",
+      "usedStamp": "quest-props/captive-pen-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 6,
-        "height": 5
-      },
       "position": {
         "x": 418.8,
         "y": 163.8,
@@ -23966,13 +23942,9 @@
     {
       "identifier": "captive-pen-4",
       "name": "Captive Pen",
-      "imageUrl": "../../../graphics/interactables/captive-pen.png",
-      "usedImageUrl": "../../../graphics/interactables/captive-pen-used.png",
+      "stamp": "quest-props/captive-pen",
+      "usedStamp": "quest-props/captive-pen-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 6,
-        "height": 5
-      },
       "position": {
         "x": 453.8,
         "y": 173.8,

@@ -24215,11 +24215,7 @@
     {
       "identifier": "trapper-snare-1",
       "name": "Trapper's Snare",
-      "imageUrl": "../../../graphics/interactables/trapper-snare.png",
-      "size": {
-        "width": 3,
-        "height": 2
-      },
+      "stamp": "quest-props/trapper-snare",
       "position": {
         "x": 166.3,
         "y": 83.8,
@@ -24231,11 +24227,7 @@
     {
       "identifier": "trapper-snare-4",
       "name": "Trapper's Snare",
-      "imageUrl": "../../../graphics/interactables/trapper-snare.png",
-      "size": {
-        "width": 3,
-        "height": 2
-      },
+      "stamp": "quest-props/trapper-snare",
       "position": {
         "x": 203.8,
         "y": 98.8,
@@ -24247,11 +24239,7 @@
     {
       "identifier": "trapper-snare-2",
       "name": "Trapper's Snare",
-      "imageUrl": "../../../graphics/interactables/trapper-snare.png",
-      "size": {
-        "width": 3,
-        "height": 2
-      },
+      "stamp": "quest-props/trapper-snare",
       "position": {
         "x": 26.3,
         "y": 188.8,
@@ -24263,11 +24251,7 @@
     {
       "identifier": "trapper-snare-3",
       "name": "Trapper's Snare",
-      "imageUrl": "../../../graphics/interactables/trapper-snare.png",
-      "size": {
-        "width": 3,
-        "height": 2
-      },
+      "stamp": "quest-props/trapper-snare",
       "position": {
         "x": 78.8,
         "y": 48.8,
