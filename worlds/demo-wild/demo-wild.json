@@ -110,5 +110,219 @@
   ],
   "entryPoints": {
     "thornwood/ranger-outpost/arrival": null
+  },
+  "atlas": {
+    "zones": {
+      "thornwood": {
+        "outline": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1320.2134253196089,
+            "y": 0
+          },
+          {
+            "x": 2244,
+            "y": 1554
+          },
+          {
+            "x": 1320.2134253196089,
+            "y": 2923.5
+          },
+          {
+            "x": 0,
+            "y": 2923.5
+          }
+        ],
+        "maps": {
+          "ranger-outpost": {
+            "x": 288,
+            "y": 1235
+          },
+          "woodcutters-clearing": {
+            "x": 110,
+            "y": 1798
+          },
+          "old-growth": {
+            "x": 519,
+            "y": 646
+          },
+          "the-hills": {
+            "x": 60,
+            "y": 2361
+          },
+          "pine-ridge": {
+            "x": 1308,
+            "y": 1587
+          },
+          "southern-eaves": {
+            "x": 220,
+            "y": 77
+          }
+        }
+      },
+      "brackwater-mire": {
+        "outline": [
+          {
+            "x": -507,
+            "y": -3439
+          },
+          {
+            "x": 1151.7573477544154,
+            "y": -3092.5
+          },
+          {
+            "x": 1151.7573477544154,
+            "y": -120
+          },
+          {
+            "x": -10,
+            "y": -120
+          },
+          {
+            "x": -616,
+            "y": -1681
+          }
+        ],
+        "maps": {
+          "mire-edge": {
+            "x": 307,
+            "y": -682.5
+          },
+          "reedtalker-village": {
+            "x": 238,
+            "y": -1295
+          },
+          "nesting-grounds": {
+            "x": -369,
+            "y": -1861
+          },
+          "blackwater-pools": {
+            "x": 614,
+            "y": -2013.5
+          },
+          "blackscale-marsh": {
+            "x": -250,
+            "y": -2530
+          },
+          "blackscale-village": {
+            "x": -129,
+            "y": -3194
+          }
+        }
+      },
+      "gnawdeep": {
+        "outline": [
+          {
+            "x": -152,
+            "y": 3044
+          },
+          {
+            "x": 1851,
+            "y": 2998
+          },
+          {
+            "x": 1845,
+            "y": 4221
+          },
+          {
+            "x": 1238.6484564298619,
+            "y": 5455
+          },
+          {
+            "x": -152,
+            "y": 5455
+          }
+        ],
+        "maps": {
+          "forest-mouth": {
+            "x": 61,
+            "y": 3134.5
+          },
+          "sapper-tunnels": {
+            "x": -92,
+            "y": 3697.5
+          },
+          "fungus-deeps": {
+            "x": 555.4560775651935,
+            "y": 3666.5
+          },
+          "flooded-caves": {
+            "x": 1255,
+            "y": 3041
+          },
+          "drum-halls": {
+            "x": 466,
+            "y": 4279.5
+          },
+          "grutts-hall": {
+            "x": 410,
+            "y": 4892.5
+          },
+          "silver-seam": {
+            "x": 1004,
+            "y": 4539.5
+          }
+        }
+      },
+      "hall-of-the-goblin-king": {
+        "outline": [
+          {
+            "x": 374,
+            "y": 5575
+          },
+          {
+            "x": 1093.6484564298619,
+            "y": 5575
+          },
+          {
+            "x": 1093.6484564298619,
+            "y": 7386.5
+          },
+          {
+            "x": 374,
+            "y": 7386.5
+          }
+        ],
+        "maps": {
+          "kings-stair": {
+            "x": 434,
+            "y": 5635
+          },
+          "royal-warrens": {
+            "x": 451,
+            "y": 6048
+          },
+          "court-of-bones": {
+            "x": 479,
+            "y": 6511
+          },
+          "treasure-vault": {
+            "x": 859,
+            "y": 6253
+          },
+          "goblin-kings-hall": {
+            "x": 529,
+            "y": 6974
+          }
+        }
+      }
+    },
+    "bends": {
+      "brackwater-mire/blackwater-pools/east|gnawdeep/flooded-caves/west": {
+        "x": 1496,
+        "y": -12
+      },
+      "brackwater-mire/nesting-grounds/west|thornwood/pine-ridge/south": {
+        "x": -1369,
+        "y": 352
+      },
+      "brackwater-mire/reedtalker-village/west|thornwood/old-growth/east": {
+        "x": -768,
+        "y": 375
+      }
+    }
   }
 }
