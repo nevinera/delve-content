@@ -360,6 +360,7 @@
   "unitTypes": {
     "goblin-boss": {
       "name": "Goblin Boss",
+      "category": "goblins",
       "description": "The pack's loudest goblin: tough, slow to kill, and it makes the whole pack nastier.",
       "tokenImageUrl": [
         "../../tokens/unit/goblins/goblin-boss-1.webp",
@@ -546,6 +547,7 @@
     },
     "goblin": {
       "name": "Goblin",
+      "category": "goblins",
       "description": "A scrappy goblin that stabs anything within reach.",
       "tokenImageUrl": [
         "../../tokens/unit/goblin-1.webp",
@@ -644,6 +646,7 @@
     },
     "goblin-shaman": {
       "name": "Goblin Shaman",
+      "category": "goblins",
       "description": "A goblin channeling crude but effective battle magic.",
       "tokenImageUrl": [
         "../../tokens/unit/goblin-shaman.webp"
