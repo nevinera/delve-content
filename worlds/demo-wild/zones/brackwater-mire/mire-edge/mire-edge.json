@@ -22663,11 +22663,7 @@
     {
       "identifier": "fever-herb-1",
       "name": "Feverleaf",
-      "imageUrl": "../../../graphics/interactables/fever-herb.png",
-      "size": {
-        "width": 2,
-        "height": 2
-      },
+      "stamp": "quest-props/fever-herb",
       "position": {
         "x": 26.3,
         "y": 206.3,
@@ -22679,11 +22675,7 @@
     {
       "identifier": "fever-herb-3",
       "name": "Feverleaf",
-      "imageUrl": "../../../graphics/interactables/fever-herb.png",
-      "size": {
-        "width": 2,
-        "height": 2
-      },
+      "stamp": "quest-props/fever-herb",
       "position": {
         "x": 56.3,
         "y": 236.3,
@@ -22695,11 +22687,7 @@
     {
       "identifier": "fever-herb-5",
       "name": "Feverleaf",
-      "imageUrl": "../../../graphics/interactables/fever-herb.png",
-      "size": {
-        "width": 2,
-        "height": 2
-      },
+      "stamp": "quest-props/fever-herb",
       "position": {
         "x": 31.3,
         "y": 271.3,
@@ -22711,11 +22699,7 @@
     {
       "identifier": "fever-herb-2",
       "name": "Feverleaf",
-      "imageUrl": "../../../graphics/interactables/fever-herb.png",
-      "size": {
-        "width": 2,
-        "height": 2
-      },
+      "stamp": "quest-props/fever-herb",
       "position": {
         "x": 48.8,
         "y": 106.3,
@@ -22727,11 +22711,7 @@
     {
       "identifier": "fever-herb-4",
       "name": "Feverleaf",
-      "imageUrl": "../../../graphics/interactables/fever-herb.png",
-      "size": {
-        "width": 2,
-        "height": 2
-      },
+      "stamp": "quest-props/fever-herb",
       "position": {
         "x": 71.3,
         "y": 138.8,

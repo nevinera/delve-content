@@ -1,0 +1,252 @@
+{
+  "name": "Quest props",
+  "license": "CC0-1.0",
+  "pixelsPerFoot": 32,
+  "stamps": {
+    "burned-nest": {
+      "name": "Burned nest",
+      "feetWidth": 5,
+      "images": [
+        "burned-nest.png"
+      ]
+    },
+    "camp-clue": {
+      "name": "Camp clue",
+      "feetWidth": 3,
+      "images": [
+        "camp-clue.png"
+      ]
+    },
+    "captive-pen-used": {
+      "name": "Captive pen (used)",
+      "feetWidth": 6,
+      "images": [
+        "captive-pen-used.png"
+      ]
+    },
+    "captive-pen": {
+      "name": "Captive pen",
+      "feetWidth": 6,
+      "images": [
+        "captive-pen.png"
+      ]
+    },
+    "cub-cage-used": {
+      "name": "Cub cage (used)",
+      "feetWidth": 4,
+      "images": [
+        "cub-cage-used.png"
+      ]
+    },
+    "cub-cage": {
+      "name": "Cub cage",
+      "feetWidth": 4,
+      "images": [
+        "cub-cage.png"
+      ]
+    },
+    "egg-clutch": {
+      "name": "Egg clutch",
+      "feetWidth": 3,
+      "images": [
+        "egg-clutch.png"
+      ]
+    },
+    "expedition-gear": {
+      "name": "Expedition gear",
+      "feetWidth": 3,
+      "images": [
+        "expedition-gear.png"
+      ]
+    },
+    "fever-herb": {
+      "name": "Fever herb",
+      "feetWidth": 2,
+      "images": [
+        "fever-herb.png"
+      ]
+    },
+    "goblin-snare-used": {
+      "name": "Goblin snare (used)",
+      "feetWidth": 3,
+      "images": [
+        "goblin-snare-used.png"
+      ]
+    },
+    "goblin-snare": {
+      "name": "Goblin snare",
+      "feetWidth": 3,
+      "images": [
+        "goblin-snare.png"
+      ]
+    },
+    "hexed-totem-used": {
+      "name": "Hexed totem (used)",
+      "feetWidth": 3,
+      "images": [
+        "hexed-totem-used.png"
+      ]
+    },
+    "hexed-totem": {
+      "name": "Hexed totem",
+      "feetWidth": 3,
+      "images": [
+        "hexed-totem.png"
+      ]
+    },
+    "holt-cell-door-used": {
+      "name": "Holt cell door (used)",
+      "feetWidth": 5,
+      "images": [
+        "holt-cell-door-used.png"
+      ]
+    },
+    "holt-cell-door": {
+      "name": "Holt cell door",
+      "feetWidth": 5,
+      "images": [
+        "holt-cell-door.png"
+      ]
+    },
+    "mushroom-bed-used": {
+      "name": "Mushroom bed (used)",
+      "feetWidth": 6,
+      "images": [
+        "mushroom-bed-used.png"
+      ]
+    },
+    "mushroom-bed": {
+      "name": "Mushroom bed",
+      "feetWidth": 6,
+      "images": [
+        "mushroom-bed.png"
+      ]
+    },
+    "panther-kill": {
+      "name": "Panther kill",
+      "feetWidth": 4,
+      "images": [
+        "panther-kill.png"
+      ]
+    },
+    "sapper-charge": {
+      "name": "Sapper charge",
+      "feetWidth": 2,
+      "images": [
+        "sapper-charge.png"
+      ]
+    },
+    "silver-sample": {
+      "name": "Silver sample",
+      "feetWidth": 4,
+      "images": [
+        "silver-sample.png"
+      ]
+    },
+    "stair-seal-used": {
+      "name": "Stair seal (used)",
+      "feetWidth": 8,
+      "images": [
+        "stair-seal-used.png"
+      ]
+    },
+    "stair-seal": {
+      "name": "Stair seal",
+      "feetWidth": 8,
+      "images": [
+        "stair-seal.png"
+      ]
+    },
+    "sunken-idol": {
+      "name": "Sunken idol",
+      "feetWidth": 3,
+      "images": [
+        "sunken-idol.png"
+      ]
+    },
+    "survivors-lantern": {
+      "name": "Survivors lantern",
+      "feetWidth": 1.5,
+      "images": [
+        "survivors-lantern.png"
+      ]
+    },
+    "trapper-snare": {
+      "name": "Trapper snare",
+      "feetWidth": 3,
+      "images": [
+        "trapper-snare.png"
+      ]
+    },
+    "tunnel-face-used": {
+      "name": "Tunnel face (used)",
+      "feetWidth": 6,
+      "images": [
+        "tunnel-face-used.png"
+      ]
+    },
+    "tunnel-face": {
+      "name": "Tunnel face",
+      "feetWidth": 6,
+      "images": [
+        "tunnel-face.png"
+      ]
+    },
+    "tunnel-prop-used": {
+      "name": "Tunnel prop (used)",
+      "feetWidth": 2,
+      "images": [
+        "tunnel-prop-used.png"
+      ]
+    },
+    "tunnel-prop": {
+      "name": "Tunnel prop",
+      "feetWidth": 2,
+      "images": [
+        "tunnel-prop.png"
+      ]
+    },
+    "war-drum-used": {
+      "name": "War drum (used)",
+      "feetWidth": 4,
+      "images": [
+        "war-drum-used.png"
+      ]
+    },
+    "war-drum": {
+      "name": "War drum",
+      "feetWidth": 4,
+      "images": [
+        "war-drum.png"
+      ]
+    },
+    "war-totem-used": {
+      "name": "War totem (used)",
+      "feetWidth": 3,
+      "images": [
+        "war-totem-used.png"
+      ]
+    },
+    "war-totem": {
+      "name": "War totem",
+      "feetWidth": 3,
+      "images": [
+        "war-totem.png"
+      ]
+    },
+    "wolf-tracks": {
+      "name": "Wolf tracks",
+      "feetWidth": 4,
+      "images": [
+        "wolf-tracks.png"
+      ]
+    },
+    "woodcutters-axe": {
+      "name": "Woodcutters axe",
+      "feetWidth": 3,
+      "images": [
+        "woodcutters-axe.png"
+      ]
+    }
+  }
+}

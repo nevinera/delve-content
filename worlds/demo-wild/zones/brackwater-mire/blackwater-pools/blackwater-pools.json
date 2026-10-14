@@ -23671,11 +23671,7 @@
     {
       "identifier": "sunken-idol",
       "name": "Sunken Idol",
-      "imageUrl": "../../../graphics/interactables/sunken-idol.png",
-      "size": {
-        "width": 3,
-        "height": 3
-      },
+      "stamp": "quest-props/sunken-idol",
       "position": {
         "x": 201.3,
         "y": 446.3,

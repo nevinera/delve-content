@@ -24867,13 +24867,9 @@
     {
       "identifier": "mushroom-bed-1",
       "name": "Mushroom Bed",
-      "imageUrl": "../../../graphics/interactables/mushroom-bed.png",
-      "usedImageUrl": "../../../graphics/interactables/mushroom-bed-used.png",
+      "stamp": "quest-props/mushroom-bed",
+      "usedStamp": "quest-props/mushroom-bed-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 6,
-        "height": 4
-      },
       "position": {
         "x": 326.3,
         "y": 431.3,
@@ -24885,13 +24881,9 @@
     {
       "identifier": "mushroom-bed-3",
       "name": "Mushroom Bed",
-      "imageUrl": "../../../graphics/interactables/mushroom-bed.png",
-      "usedImageUrl": "../../../graphics/interactables/mushroom-bed-used.png",
+      "stamp": "quest-props/mushroom-bed",
+      "usedStamp": "quest-props/mushroom-bed-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 6,
-        "height": 4
-      },
       "position": {
         "x": 316.3,
         "y": 443.8,
@@ -24903,13 +24895,9 @@
     {
       "identifier": "mushroom-bed-5",
       "name": "Mushroom Bed",
-      "imageUrl": "../../../graphics/interactables/mushroom-bed.png",
-      "usedImageUrl": "../../../graphics/interactables/mushroom-bed-used.png",
+      "stamp": "quest-props/mushroom-bed",
+      "usedStamp": "quest-props/mushroom-bed-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 6,
-        "height": 4
-      },
       "position": {
         "x": 336.3,
         "y": 448.8,
@@ -24921,13 +24909,9 @@
     {
       "identifier": "mushroom-bed-2",
       "name": "Mushroom Bed",
-      "imageUrl": "../../../graphics/interactables/mushroom-bed.png",
-      "usedImageUrl": "../../../graphics/interactables/mushroom-bed-used.png",
+      "stamp": "quest-props/mushroom-bed",
+      "usedStamp": "quest-props/mushroom-bed-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 6,
-        "height": 4
-      },
       "position": {
         "x": 188.8,
         "y": 248.8,
@@ -24939,13 +24923,9 @@
     {
       "identifier": "mushroom-bed-4",
       "name": "Mushroom Bed",
-      "imageUrl": "../../../graphics/interactables/mushroom-bed.png",
-      "usedImageUrl": "../../../graphics/interactables/mushroom-bed-used.png",
+      "stamp": "quest-props/mushroom-bed",
+      "usedStamp": "quest-props/mushroom-bed-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 6,
-        "height": 4
-      },
       "position": {
         "x": 213.8,
         "y": 268.8,

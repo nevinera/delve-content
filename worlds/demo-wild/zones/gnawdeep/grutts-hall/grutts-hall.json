@@ -25923,13 +25923,9 @@
     {
       "identifier": "stair-seal",
       "name": "Sealed Stair",
-      "imageUrl": "../../../graphics/interactables/stair-seal.png",
-      "usedImageUrl": "../../../graphics/interactables/stair-seal-used.png",
+      "stamp": "quest-props/stair-seal",
+      "usedStamp": "quest-props/stair-seal-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 8,
-        "height": 3
-      },
       "position": {
         "x": 153.8,
         "y": 498.8,
@@ -25941,13 +25937,9 @@
     {
       "identifier": "holt-cell-door",
       "name": "Cell Door",
-      "imageUrl": "../../../graphics/interactables/holt-cell-door.png",
-      "usedImageUrl": "../../../graphics/interactables/holt-cell-door-used.png",
+      "stamp": "quest-props/holt-cell-door",
+      "usedStamp": "quest-props/holt-cell-door-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 5,
-        "height": 2
-      },
       "position": {
         "x": 408.8,
         "y": 48.8,

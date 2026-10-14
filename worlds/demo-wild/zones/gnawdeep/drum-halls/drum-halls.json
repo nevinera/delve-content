@@ -12811,13 +12811,9 @@
     {
       "identifier": "war-drum-1",
       "name": "War Drum",
-      "imageUrl": "../../../graphics/interactables/war-drum.png",
-      "usedImageUrl": "../../../graphics/interactables/war-drum-used.png",
+      "stamp": "quest-props/war-drum",
+      "usedStamp": "quest-props/war-drum-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 4,
-        "height": 4
-      },
       "position": {
         "x": 378.8,
         "y": 261.3,
@@ -12829,13 +12825,9 @@
     {
       "identifier": "war-drum-2",
       "name": "War Drum",
-      "imageUrl": "../../../graphics/interactables/war-drum.png",
-      "usedImageUrl": "../../../graphics/interactables/war-drum-used.png",
+      "stamp": "quest-props/war-drum",
+      "usedStamp": "quest-props/war-drum-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 4,
-        "height": 4
-      },
       "position": {
         "x": 321.3,
         "y": 191.3,
@@ -12847,13 +12839,9 @@
     {
       "identifier": "war-drum-3",
       "name": "War Drum",
-      "imageUrl": "../../../graphics/interactables/war-drum.png",
-      "usedImageUrl": "../../../graphics/interactables/war-drum-used.png",
+      "stamp": "quest-props/war-drum",
+      "usedStamp": "quest-props/war-drum-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 4,
-        "height": 4
-      },
       "position": {
         "x": 211.3,
         "y": 378.8,
@@ -12865,13 +12853,9 @@
     {
       "identifier": "hexed-totem-1",
       "name": "Hexed Totem",
-      "imageUrl": "../../../graphics/interactables/hexed-totem.png",
-      "usedImageUrl": "../../../graphics/interactables/hexed-totem-used.png",
+      "stamp": "quest-props/hexed-totem",
+      "usedStamp": "quest-props/hexed-totem-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 3,
-        "height": 3
-      },
       "position": {
         "x": 186.3,
         "y": 303.8,
@@ -12883,13 +12867,9 @@
     {
       "identifier": "hexed-totem-2",
       "name": "Hexed Totem",
-      "imageUrl": "../../../graphics/interactables/hexed-totem.png",
-      "usedImageUrl": "../../../graphics/interactables/hexed-totem-used.png",
+      "stamp": "quest-props/hexed-totem",
+      "usedStamp": "quest-props/hexed-totem-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 3,
-        "height": 3
-      },
       "position": {
         "x": 376.3,
         "y": 233.8,
@@ -12901,13 +12881,9 @@
     {
       "identifier": "hexed-totem-3",
       "name": "Hexed Totem",
-      "imageUrl": "../../../graphics/interactables/hexed-totem.png",
-      "usedImageUrl": "../../../graphics/interactables/hexed-totem-used.png",
+      "stamp": "quest-props/hexed-totem",
+      "usedStamp": "quest-props/hexed-totem-used",
       "whenUnavailable": "used",
-      "size": {
-        "width": 3,
-        "height": 3
-      },
       "position": {
         "x": 293.8,
         "y": 276.3,

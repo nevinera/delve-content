@@ -20932,11 +20932,7 @@
     {
       "identifier": "survivors-lantern",
       "name": "Lantern",
-      "imageUrl": "../../../graphics/interactables/survivors-lantern.png",
-      "size": {
-        "width": 1.5,
-        "height": 1.5
-      },
+      "stamp": "quest-props/survivors-lantern",
       "position": {
         "x": 313.8,
         "y": 33.8,
