@@ -1,0 +1,154 @@
+{
+  "name": "Cave",
+  "license": "CC0-1.0",
+  "pixelsPerFoot": 24,
+  "stamps": {
+    "stalagmite": {
+      "name": "Stalagmite",
+      "feetWidth": 4,
+      "images": [
+        "stalagmite.svg"
+      ]
+    },
+    "stalagmite-cluster": {
+      "name": "Stalagmite cluster",
+      "feetWidth": 9,
+      "images": [
+        "stalagmite-cluster.svg"
+      ]
+    },
+    "floor-hole": {
+      "name": "Floor hole",
+      "feetWidth": 7.2,
+      "images": [
+        "floor-hole.svg"
+      ]
+    },
+    "crystal-cluster": {
+      "name": "Crystal cluster",
+      "feetWidth": 4.8,
+      "images": [
+        "crystal-cluster.svg"
+      ]
+    },
+    "crystal-rock": {
+      "name": "Crystal-veined rock",
+      "feetWidth": 6.6,
+      "images": [
+        "crystal-rock.svg"
+      ]
+    },
+    "giant-mushroom": {
+      "name": "Giant cave mushroom",
+      "feetWidth": 10,
+      "images": [
+        "giant-mushroom.svg"
+      ]
+    },
+    "glowcaps": {
+      "name": "Glowing mushrooms",
+      "feetWidth": 3.6,
+      "images": [
+        "glowcaps.svg"
+      ]
+    },
+    "mycelium": {
+      "name": "Mycelium patch",
+      "feetWidth": 6.4,
+      "images": [
+        "mycelium.svg"
+      ]
+    },
+    "spider-web": {
+      "name": "Spider web",
+      "feetWidth": 10,
+      "images": [
+        "spider-web.svg"
+      ]
+    },
+    "cocoon": {
+      "name": "Cocoon",
+      "feetWidth": 6.4,
+      "images": [
+        "cocoon.svg"
+      ]
+    },
+    "egg-cluster": {
+      "name": "Egg cluster",
+      "feetWidth": 4.4,
+      "images": [
+        "egg-cluster.svg"
+      ]
+    },
+    "rubble": {
+      "name": "Rubble pile",
+      "feetWidth": 7.2,
+      "images": [
+        "rubble.svg"
+      ]
+    },
+    "rockfall": {
+      "name": "Rockfall",
+      "feetWidth": 11,
+      "images": [
+        "rockfall.svg"
+      ]
+    },
+    "minecart": {
+      "name": "Minecart",
+      "feetWidth": 5.6,
+      "images": [
+        "minecart.svg"
+      ]
+    },
+    "mine-track": {
+      "name": "Mine track",
+      "feetWidth": 12,
+      "images": [
+        "mine-track.svg"
+      ]
+    },
+    "timber-post": {
+      "name": "Timber post",
+      "feetWidth": 2,
+      "images": [
+        "timber-post.svg"
+      ]
+    },
+    "mining-tools": {
+      "name": "Mining tools",
+      "feetWidth": 5.2,
+      "images": [
+        "mining-tools.svg"
+      ]
+    },
+    "winch": {
+      "name": "Winch",
+      "feetWidth": 6.6,
+      "images": [
+        "winch.svg"
+      ]
+    },
+    "ore-chute": {
+      "name": "Ore chute",
+      "feetWidth": 10,
+      "images": [
+        "ore-chute.svg"
+      ]
+    },
+    "bones": {
+      "name": "Bones",
+      "feetWidth": 4.6,
+      "images": [
+        "bones.svg"
+      ]
+    },
+    "bloodstain": {
+      "name": "Bloodstain",
+      "feetWidth": 4.4,
+      "images": [
+        "bloodstain.svg"
+      ]
+    }
+  }
+}

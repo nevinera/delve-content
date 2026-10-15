@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 36">
+  <!-- A 12 ft straight of mine rail on wooden sleepers; lay pieces end to end. 10 units = 1 ft. -->
+  <rect x="4.8" y="2" width="9" height="32" rx="1" fill="#6b4d31" stroke="#3b2a1a" stroke-width="0.7" transform="rotate(-1.2 9.3 18)"/>
+  <path d="M6.8 6 l0 24 M10.8 8 l0 20" stroke="#4e3826" stroke-width="0.4" opacity="0.6"/>
+  <rect x="22.2" y="2" width="9" height="32" rx="1" fill="#6b4d31" stroke="#3b2a1a" stroke-width="0.7" transform="rotate(-1.6 26.7 18)"/>
+  <path d="M24.2 6 l0 24 M28.2 8 l0 20" stroke="#4e3826" stroke-width="0.4" opacity="0.6"/>
+  <rect x="42.5" y="2" width="9" height="32" rx="1" fill="#6b4d31" stroke="#3b2a1a" stroke-width="0.7" transform="rotate(1.4 47 18)"/>
+  <path d="M44.5 6 l0 24 M48.5 8 l0 20" stroke="#4e3826" stroke-width="0.4" opacity="0.6"/>
+  <rect x="62" y="2" width="9" height="32" rx="1" fill="#6b4d31" stroke="#3b2a1a" stroke-width="0.7" transform="rotate(0.7 66.5 18)"/>
+  <path d="M64 6 l0 24 M68 8 l0 20" stroke="#4e3826" stroke-width="0.4" opacity="0.6"/>
+  <rect x="80.3" y="2" width="9" height="32" rx="1" fill="#6b4d31" stroke="#3b2a1a" stroke-width="0.7" transform="rotate(0.7 84.8 18)"/>
+  <path d="M82.3 6 l0 24 M86.3 8 l0 20" stroke="#4e3826" stroke-width="0.4" opacity="0.6"/>
+  <rect x="99" y="2" width="9" height="32" rx="1" fill="#6b4d31" stroke="#3b2a1a" stroke-width="0.7" transform="rotate(0.2 103.5 18)"/>
+  <path d="M101 6 l0 24 M105 8 l0 20" stroke="#4e3826" stroke-width="0.4" opacity="0.6"/>
+  <rect x="0" y="7.5" width="120" height="3" fill="#7c7a76" stroke="#3a3836" stroke-width="0.6"/>
+  <path d="M0 8.4 L120 8.4" stroke="#bab6ae" stroke-width="0.6"/>
+  <rect x="0" y="25.5" width="120" height="3" fill="#7c7a76" stroke="#3a3836" stroke-width="0.6"/>
+  <path d="M0 26.4 L120 26.4" stroke="#bab6ae" stroke-width="0.6"/>
+</svg>
