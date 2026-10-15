@@ -1,0 +1,98 @@
+{
+  "name": "Elves",
+  "license": "CC0-1.0",
+  "pixelsPerFoot": 24,
+  "stamps": {
+    "moon-basin": {
+      "name": "Moon basin",
+      "feetWidth": 5,
+      "images": [
+        "moon-basin.svg"
+      ]
+    },
+    "fountain": {
+      "name": "Fountain",
+      "feetWidth": 7,
+      "images": [
+        "fountain.svg"
+      ]
+    },
+    "standing-stone": {
+      "name": "Carved standing stone",
+      "feetWidth": 3,
+      "images": [
+        "standing-stone.svg"
+      ]
+    },
+    "archery-target": {
+      "name": "Archery target",
+      "feetWidth": 4.4,
+      "images": [
+        "archery-target.svg"
+      ]
+    },
+    "lamp-post": {
+      "name": "Lamp post",
+      "feetWidth": 2.4,
+      "images": [
+        "lamp-post.svg"
+      ]
+    },
+    "curved-bench": {
+      "name": "Curved bench",
+      "feetWidth": 6.8,
+      "images": [
+        "curved-bench.svg"
+      ]
+    },
+    "flower-bed": {
+      "name": "Flower bed",
+      "feetWidth": 5,
+      "images": [
+        "flower-bed.svg"
+      ]
+    },
+    "leaf-mosaic": {
+      "name": "Leaf mosaic",
+      "feetWidth": 8,
+      "images": [
+        "leaf-mosaic.svg"
+      ]
+    },
+    "bow-rack": {
+      "name": "Bow rack",
+      "feetWidth": 6,
+      "images": [
+        "bow-rack.svg"
+      ]
+    },
+    "herb-planters": {
+      "name": "Herb planters",
+      "feetWidth": 4.2,
+      "images": [
+        "herb-planters.svg"
+      ]
+    },
+    "stepping-stones": {
+      "name": "Stepping stones",
+      "feetWidth": 7.8,
+      "images": [
+        "stepping-stones.svg"
+      ]
+    },
+    "cushions": {
+      "name": "Cushions and low table",
+      "feetWidth": 6,
+      "images": [
+        "cushions.svg"
+      ]
+    },
+    "reading-table": {
+      "name": "Reading table",
+      "feetWidth": 6,
+      "images": [
+        "reading-table.svg"
+      ]
+    }
+  }
+}

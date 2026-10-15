@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 28">
+  <!-- An iron anvil on its oak block, horn pointing out, a hammer resting by it. 10 units = 1 ft. -->
+  <rect x="6" y="8" width="20" height="18" rx="2" fill="#6b4d31" stroke="#2e2014" stroke-width="0.9"/>
+  <path d="M4 13 L24 13 L30 15 L38 17 L30 19 L24 21 L4 21 Z" fill="#4a4844" stroke="#1e1c1a" stroke-width="0.9" stroke-linejoin="round"/>
+  <path d="M6 15 L24 15" stroke="#8a8680" stroke-width="1.2"/>
+  <rect x="7" y="16.5" width="2" height="2" fill="#1e1c1a"/>
+  <path d="M28 4 L36 10" stroke="#5a4330" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="24" y="1" width="6" height="4" rx="0.6" fill="#4a4844" stroke="#1e1c1a" stroke-width="0.5" transform="rotate(37 27 3)"/>
+</svg>

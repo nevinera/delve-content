@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 30">
+  <!-- Gold ingots stacked in layers, each resting in the gaps of the one below, one bar on top. 10 units = 1 ft. -->
+  <rect x="5" y="1.5" width="30" height="9" rx="0.4" fill="#7a5a10" stroke="#4a3608" stroke-width="0.5"/>
+  <path d="M5 1.5 L35 1.5 L33 3.5 L7 3.5 Z M5 1.5 L7 3.5 L7 8.5 L5 10.5 Z" fill="#b88a20"/>
+  <rect x="7" y="3.5" width="26" height="5" fill="#c49a28"/>
+  <rect x="5" y="10.5" width="30" height="9" rx="0.4" fill="#7a5a10" stroke="#4a3608" stroke-width="0.5"/>
+  <path d="M5 10.5 L35 10.5 L33 12.5 L7 12.5 Z M5 10.5 L7 12.5 L7 17.5 L5 19.5 Z" fill="#b88a20"/>
+  <rect x="7" y="12.5" width="26" height="5" fill="#c49a28"/>
+  <rect x="5" y="19.5" width="30" height="9" rx="0.4" fill="#7a5a10" stroke="#4a3608" stroke-width="0.5"/>
+  <path d="M5 19.5 L35 19.5 L33 21.5 L7 21.5 Z M5 19.5 L7 21.5 L7 26.5 L5 28.5 Z" fill="#b88a20"/>
+  <rect x="7" y="21.5" width="26" height="5" fill="#c49a28"/>
+  <rect x="5" y="6" width="30" height="9" rx="0.4" fill="#7a5a10" stroke="#4a3608" stroke-width="0.5"/>
+  <path d="M5 6 L35 6 L33 8 L7 8 Z M5 6 L7 8 L7 13 L5 15 Z" fill="#b88a20"/>
+  <rect x="7" y="8" width="26" height="5" fill="#dcac30"/>
+  <rect x="5" y="15" width="30" height="9" rx="0.4" fill="#7a5a10" stroke="#4a3608" stroke-width="0.5"/>
+  <path d="M5 15 L35 15 L33 17 L7 17 Z M5 15 L7 17 L7 22 L5 24 Z" fill="#b88a20"/>
+  <rect x="7" y="17" width="26" height="5" fill="#dcac30"/>
+  <rect x="5" y="10.5" width="30" height="9" rx="0.4" fill="#7a5a10" stroke="#4a3608" stroke-width="0.5"/>
+  <path d="M5 10.5 L35 10.5 L33 12.5 L7 12.5 Z M5 10.5 L7 12.5 L7 17.5 L5 19.5 Z" fill="#b88a20"/>
+  <rect x="7" y="12.5" width="26" height="5" fill="#f0c848"/>
+</svg>

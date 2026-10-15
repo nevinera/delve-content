@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 30">
+  <!-- A heavy plank bench of smithing tools: hammer, tongs, a whetstone, a chisel and a gold ring in progress. 10 units = 1 ft. -->
+  <rect x="2" y="2" width="60" height="26" rx="1" fill="#8a6a44" stroke="#2e2014" stroke-width="1"/>
+  <path d="M2 8.5 L62 8.5" stroke="#5a4330" stroke-width="0.5"/>
+  <path d="M2 15 L62 15" stroke="#5a4330" stroke-width="0.5"/>
+  <path d="M2 21.5 L62 21.5" stroke="#5a4330" stroke-width="0.5"/>
+  <path d="M8 8 L22 6" stroke="#5a4330" stroke-width="1.4"/>
+  <rect x="20" y="3" width="6" height="5" rx="0.6" fill="#4a4844" stroke="#1e1c1a" stroke-width="0.5" transform="rotate(-8 23 5.5)"/>
+  <path d="M30 20 L46 14 M30 22 L46 18" stroke="#4a4844" stroke-width="1.1"/>
+  <circle cx="30" cy="21" r="1.4" fill="#2a2826"/>
+  <path d="M50 6 L58 10 L54 13 Z" fill="#8a8680" stroke="#1e1c1a" stroke-width="0.4"/>
+  <rect x="8" y="17" width="10" height="7" fill="#5a544e" stroke="#2a2826" stroke-width="0.5"/>
+  <circle cx="52" cy="22" r="3" fill="#d8a830" stroke="#7a5a10" stroke-width="0.5"/>
+  <circle cx="52" cy="22" r="1.4" fill="none" stroke="#7a5a10" stroke-width="0.4"/>
+</svg>

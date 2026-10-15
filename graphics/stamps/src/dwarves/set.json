@@ -1,0 +1,105 @@
+{
+  "name": "Dwarves",
+  "license": "CC0-1.0",
+  "pixelsPerFoot": 24,
+  "stamps": {
+    "anvil": {
+      "name": "Anvil",
+      "feetWidth": 4,
+      "images": [
+        "anvil.svg"
+      ]
+    },
+    "forge": {
+      "name": "Forge",
+      "feetWidth": 6,
+      "images": [
+        "forge.svg"
+      ]
+    },
+    "quench-trough": {
+      "name": "Quench trough",
+      "feetWidth": 4.8,
+      "images": [
+        "quench-trough.svg"
+      ]
+    },
+    "ale-barrels": {
+      "name": "Ale barrels",
+      "feetWidth": 5.2,
+      "images": [
+        "ale-barrels.svg"
+      ]
+    },
+    "feast-table": {
+      "name": "Feast table",
+      "feetWidth": 10,
+      "images": [
+        "feast-table.svg"
+      ]
+    },
+    "rune-stone": {
+      "name": "Rune stone",
+      "feetWidth": 3.6,
+      "images": [
+        "rune-stone.svg"
+      ]
+    },
+    "floor-inlay": {
+      "name": "Floor inlay",
+      "feetWidth": 8,
+      "images": [
+        "floor-inlay.svg"
+      ]
+    },
+    "brazier": {
+      "name": "Brazier",
+      "feetWidth": 2.8,
+      "images": [
+        "brazier.svg"
+      ]
+    },
+    "workbench": {
+      "name": "Smith's workbench",
+      "feetWidth": 6.4,
+      "images": [
+        "workbench.svg"
+      ]
+    },
+    "gold-hoard": {
+      "name": "Treasure chest",
+      "feetWidth": 6,
+      "images": [
+        "gold-hoard.svg"
+      ]
+    },
+    "ingot-stack": {
+      "name": "Ingot stack",
+      "feetWidth": 1.5,
+      "images": [
+        "ingot-stack.svg"
+      ]
+    },
+    "ore-crates": {
+      "name": "Ore crates",
+      "feetWidth": 5,
+      "images": [
+        "ore-crates.svg"
+      ]
+    },
+    "grindstone": {
+      "name": "Grindstone",
+      "feetWidth": 4.4,
+      "images": [
+        "grindstone.svg"
+      ]
+    },
+    "mechanism": {
+      "name": "Gear mechanism",
+      "feetWidth": 6,
+      "images": [
+        "mechanism.svg"
+      ]
+    }
+  }
+}

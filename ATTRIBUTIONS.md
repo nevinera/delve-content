@@ -40,3 +40,15 @@ Drawn for delve as SVG (sources in graphics/stamps/src/forest/). Public domain (
 ### graphics/stamps/cave
 
 Drawn for delve as SVG (sources in graphics/stamps/src/cave/). Public domain (CC0 1.0).
+
+### graphics/stamps/goblins
+
+Drawn for delve as SVG (sources in graphics/stamps/src/goblins/). Public domain (CC0 1.0).
+
+### graphics/stamps/elves
+
+Drawn for delve as SVG (sources in graphics/stamps/src/elves/). Public domain (CC0 1.0).
+
+### graphics/stamps/dwarves
+
+Drawn for delve as SVG (sources in graphics/stamps/src/dwarves/). Public domain (CC0 1.0).
