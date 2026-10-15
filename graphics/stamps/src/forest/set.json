@@ -1,0 +1,182 @@
+{
+  "name": "Forest",
+  "license": "CC0-1.0",
+  "pixelsPerFoot": 24,
+  "stamps": {
+    "broadleaf-tree": {
+      "name": "Broadleaf tree",
+      "feetWidth": 20,
+      "images": [
+        "broadleaf-tree.svg"
+      ]
+    },
+    "pine-tree": {
+      "name": "Pine tree",
+      "feetWidth": 14,
+      "images": [
+        "pine-tree.svg"
+      ]
+    },
+    "dead-tree": {
+      "name": "Dead tree",
+      "feetWidth": 16,
+      "images": [
+        "dead-tree.svg"
+      ]
+    },
+    "stump": {
+      "name": "Stump",
+      "feetWidth": 6,
+      "images": [
+        "stump.svg"
+      ]
+    },
+    "branches": {
+      "name": "Fallen branches",
+      "feetWidth": 6,
+      "images": [
+        "branches.svg"
+      ]
+    },
+    "boulder": {
+      "name": "Boulder",
+      "feetWidth": 6,
+      "images": [
+        "boulder.svg"
+      ]
+    },
+    "rock-cluster": {
+      "name": "Rock cluster",
+      "feetWidth": 7,
+      "images": [
+        "rock-cluster.svg"
+      ]
+    },
+    "stones": {
+      "name": "Small stones",
+      "feetWidth": 5,
+      "images": [
+        "stones.svg"
+      ]
+    },
+    "bush": {
+      "name": "Bush",
+      "feetWidth": 5,
+      "images": [
+        "bush.svg"
+      ]
+    },
+    "berry-bush": {
+      "name": "Berry bush",
+      "feetWidth": 5,
+      "images": [
+        "berry-bush.svg"
+      ]
+    },
+    "fern": {
+      "name": "Fern",
+      "feetWidth": 5,
+      "images": [
+        "fern.svg"
+      ]
+    },
+    "large-mushroom": {
+      "name": "Large mushroom",
+      "feetWidth": 4,
+      "images": [
+        "large-mushroom.svg"
+      ]
+    },
+    "mushroom-cluster": {
+      "name": "Mushroom cluster",
+      "feetWidth": 3,
+      "images": [
+        "mushroom-cluster.svg"
+      ]
+    },
+    "flower-patch": {
+      "name": "Flower patch",
+      "feetWidth": 4,
+      "images": [
+        "flower-patch.svg"
+      ]
+    },
+    "grass-tuft": {
+      "name": "Long grass",
+      "feetWidth": 3,
+      "images": [
+        "grass-tuft.svg"
+      ]
+    },
+    "clover-patch": {
+      "name": "Clover patch",
+      "feetWidth": 4,
+      "images": [
+        "clover-patch.svg"
+      ]
+    },
+    "ivy": {
+      "name": "Ivy",
+      "feetWidth": 6,
+      "images": [
+        "ivy.svg"
+      ]
+    },
+    "bramble": {
+      "name": "Bramble",
+      "feetWidth": 6,
+      "images": [
+        "bramble.svg"
+      ]
+    },
+    "roots": {
+      "name": "Exposed roots",
+      "feetWidth": 8.2,
+      "images": [
+        "roots.svg"
+      ]
+    },
+    "moss": {
+      "name": "Moss",
+      "feetWidth": 5,
+      "images": [
+        "moss.svg"
+      ]
+    },
+    "leaf-pile": {
+      "name": "Leaf pile",
+      "feetWidth": 5,
+      "images": [
+        "leaf-pile.svg"
+      ]
+    },
+    "lily-pads": {
+      "name": "Lily pads",
+      "feetWidth": 6,
+      "images": [
+        "lily-pads.svg"
+      ]
+    },
+    "cattails": {
+      "name": "Cattails",
+      "feetWidth": 5,
+      "images": [
+        "cattails.svg"
+      ]
+    },
+    "burrow": {
+      "name": "Burrow",
+      "feetWidth": 4,
+      "images": [
+        "burrow.svg"
+      ]
+    },
+    "animal-tracks": {
+      "name": "Animal tracks",
+      "feetWidth": 7,
+      "images": [
+        "animal-tracks.svg"
+      ]
+    }
+  }
+}

@@ -9,6 +9,22 @@
     "log": {"name": "Log", "feetWidth": 7.6, "images": ["log-1.svg", "log-2.svg"]},
     "pond": {"name": "Pond", "feetWidth": 22, "images": ["pond.svg"]},
     "signpost": {"name": "Signpost", "feetWidth": 5, "images": ["signpost.svg"]},
-    "footprints": {"name": "Footprints", "feetWidth": 4, "images": ["footprints-1.svg", "footprints-2.svg", "footprints-3.svg"]}
+    "footprints": {"name": "Footprints", "feetWidth": 4, "images": ["footprints-1.svg", "footprints-2.svg", "footprints-3.svg"]},
+    "small-tent": {"name": "Small tent", "feetWidth": 8, "images": ["small-tent.svg"]},
+    "lean-to": {"name": "Lean-to", "feetWidth": 8, "images": ["lean-to.svg"]},
+    "bedroll-open": {"name": "Bedroll, open", "feetWidth": 3.4, "images": ["bedroll-open.svg"]},
+    "backpack": {"name": "Backpack", "feetWidth": 3.2, "images": ["backpack.svg"]},
+    "camp-stool": {"name": "Camp stool", "feetWidth": 2.2, "images": ["camp-stool.svg"]},
+    "cooking-tripod": {"name": "Cooking tripod", "feetWidth": 5, "images": ["cooking-tripod.svg"]},
+    "cold-fire-pit": {"name": "Cold fire pit", "feetWidth": 5, "images": ["cold-fire-pit.svg"]},
+    "firewood": {"name": "Firewood stack", "feetWidth": 5, "images": ["firewood.svg"]},
+    "hide-rug": {"name": "Hide rug", "feetWidth": 5, "images": ["hide-rug.svg"]},
+    "lantern": {"name": "Lantern", "feetWidth": 2, "images": ["lantern.svg"]},
+    "camp-clutter": {"name": "Camp clutter", "feetWidth": 3.2, "images": ["camp-clutter.svg"]},
+    "drying-rack": {"name": "Drying rack", "feetWidth": 5, "images": ["drying-rack.svg"]},
+    "chopping-block": {"name": "Chopping block", "feetWidth": 3.8, "images": ["chopping-block.svg"]},
+    "supplies": {"name": "Supplies", "feetWidth": 5, "images": ["supplies.svg"]},
+    "tarp": {"name": "Gear under tarp", "feetWidth": 6.4, "images": ["tarp.svg"]},
+    "weapon-stack": {"name": "Spears and bow", "feetWidth": 7.4, "images": ["weapon-stack.svg"]}
   }
 }
