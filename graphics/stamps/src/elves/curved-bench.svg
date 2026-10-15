@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 28">
+  <!-- A wooden bench curved in a gentle arc, its ends carved with leaves. 10 units = 1 ft. -->
+  <path d="M3.4 20.3 A40 40 0 0 1 64.6 20.3" stroke="#4a3420" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M3.4 20.3 A40 40 0 0 1 64.6 20.3" stroke="#a07a4e" stroke-width="7.4" fill="none" stroke-linecap="round"/>
+  <path d="M6.1 20.8 A37.6 37.6 0 0 1 61.9 20.8" stroke="#7a5a3a" stroke-width="0.4" fill="none" opacity="0.7"/>
+  <path d="M4.3 19.2 A40 40 0 0 1 63.7 19.2" stroke="#7a5a3a" stroke-width="0.4" fill="none" opacity="0.7"/>
+  <path d="M2.5 17.6 A42.4 42.4 0 0 1 65.5 17.6" stroke="#7a5a3a" stroke-width="0.4" fill="none" opacity="0.7"/>
+  <path d="M3.1 14 Q2.8 11.5 0.3 11.1 Q0.6 13.6 3.1 14 Z" fill="#6a9a5a"/>
+  <path d="M34 1.5 Q35.5 -0.5 34 -2.5 Q32.5 -0.5 34 1.5 Z" fill="#6a9a5a"/>
+  <path d="M64.9 14 Q67.4 13.6 67.7 11.1 Q65.2 11.5 64.9 14 Z" fill="#6a9a5a"/>
+</svg>

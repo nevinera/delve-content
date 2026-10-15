@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 34">
+  <!-- An upright archery target from above: the top of its straw boss on a stand, three arrows sticking out of its face. 10 units = 1 ft. -->
+  <path d="M8 10 L4 18 M36 10 L40 18 M8 16 L4 8 M36 16 L40 8" stroke="#7a5a3a" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="6" y="9" width="32" height="8" rx="4" fill="#c4b070" stroke="#7a6a3a" stroke-width="0.8"/>
+  <path d="M9 10 L10 16" stroke="#a08a48" stroke-width="0.5"/>
+  <path d="M12 10 L13 16" stroke="#a08a48" stroke-width="0.5"/>
+  <path d="M15 10 L16 16" stroke="#a08a48" stroke-width="0.5"/>
+  <path d="M18 10 L19 16" stroke="#a08a48" stroke-width="0.5"/>
+  <path d="M21 10 L22 16" stroke="#a08a48" stroke-width="0.5"/>
+  <path d="M24 10 L25 16" stroke="#a08a48" stroke-width="0.5"/>
+  <path d="M27 10 L28 16" stroke="#a08a48" stroke-width="0.5"/>
+  <path d="M30 10 L31 16" stroke="#a08a48" stroke-width="0.5"/>
+  <path d="M33 10 L34 16" stroke="#a08a48" stroke-width="0.5"/>
+  <path d="M36 10 L37 16" stroke="#a08a48" stroke-width="0.5"/>
+  <path d="M7 17 L37 17" stroke="#4a6a88" stroke-width="1.4"/>
+  <path d="M18 17 L18.6 29" stroke="#7a5a3a" stroke-width="0.8"/>
+  <path d="M16.8 29 L18.6 27 L20.2 29" stroke="#e8e4da" stroke-width="0.8" fill="none"/>
+  <path d="M16.8 27 L18.6 25 L20.2 27" stroke="#e8e4da" stroke-width="0.8" fill="none"/>
+  <path d="M23 17 L23.6 31" stroke="#7a5a3a" stroke-width="0.8"/>
+  <path d="M21.8 31 L23.6 29 L25.2 31" stroke="#e8e4da" stroke-width="0.8" fill="none"/>
+  <path d="M21.8 29 L23.6 27 L25.2 29" stroke="#e8e4da" stroke-width="0.8" fill="none"/>
+  <path d="M27 17 L27.6 28" stroke="#7a5a3a" stroke-width="0.8"/>
+  <path d="M25.8 28 L27.6 26 L29.2 28" stroke="#e8e4da" stroke-width="0.8" fill="none"/>
+  <path d="M25.8 26 L27.6 24 L29.2 26" stroke="#e8e4da" stroke-width="0.8" fill="none"/>
+</svg>

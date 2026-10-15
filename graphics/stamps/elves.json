@@ -1,0 +1,163 @@
+{
+  "name": "Elves",
+  "imageUrl": "./elves.png",
+  "license": "CC0-1.0",
+  "stamps": {
+    "moon-basin": {
+      "name": "Moon basin",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 510,
+          "y": 0,
+          "width": 120,
+          "height": 120
+        }
+      ]
+    },
+    "fountain": {
+      "name": "Fountain",
+      "feetWidth": 7,
+      "frames": [
+        {
+          "x": 194,
+          "y": 0,
+          "width": 168,
+          "height": 168
+        }
+      ]
+    },
+    "standing-stone": {
+      "name": "Carved standing stone",
+      "feetWidth": 3,
+      "frames": [
+        {
+          "x": 754,
+          "y": 0,
+          "width": 72,
+          "height": 96
+        }
+      ]
+    },
+    "archery-target": {
+      "name": "Archery target",
+      "feetWidth": 4.4,
+      "frames": [
+        {
+          "x": 1077,
+          "y": 0,
+          "width": 106,
+          "height": 82
+        }
+      ]
+    },
+    "lamp-post": {
+      "name": "Lamp post",
+      "feetWidth": 2.4,
+      "frames": [
+        {
+          "x": 1685,
+          "y": 0,
+          "width": 58,
+          "height": 58
+        }
+      ]
+    },
+    "curved-bench": {
+      "name": "Curved bench",
+      "feetWidth": 6.8,
+      "frames": [
+        {
+          "x": 1331,
+          "y": 0,
+          "width": 163,
+          "height": 68
+        }
+      ]
+    },
+    "flower-bed": {
+      "name": "Flower bed",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 632,
+          "y": 0,
+          "width": 120,
+          "height": 120
+        }
+      ]
+    },
+    "leaf-mosaic": {
+      "name": "Leaf mosaic",
+      "feetWidth": 8,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 192,
+          "height": 192
+        }
+      ]
+    },
+    "bow-rack": {
+      "name": "Bow rack",
+      "feetWidth": 6,
+      "frames": [
+        {
+          "x": 828,
+          "y": 0,
+          "width": 144,
+          "height": 92
+        }
+      ]
+    },
+    "herb-planters": {
+      "name": "Herb planters",
+      "feetWidth": 4.2,
+      "frames": [
+        {
+          "x": 974,
+          "y": 0,
+          "width": 101,
+          "height": 92
+        }
+      ]
+    },
+    "stepping-stones": {
+      "name": "Stepping stones",
+      "feetWidth": 7.8,
+      "frames": [
+        {
+          "x": 1496,
+          "y": 0,
+          "width": 187,
+          "height": 68
+        }
+      ]
+    },
+    "cushions": {
+      "name": "Cushions and low table",
+      "feetWidth": 6,
+      "frames": [
+        {
+          "x": 364,
+          "y": 0,
+          "width": 144,
+          "height": 144
+        }
+      ]
+    },
+    "reading-table": {
+      "name": "Reading table",
+      "feetWidth": 6,
+      "frames": [
+        {
+          "x": 1185,
+          "y": 0,
+          "width": 144,
+          "height": 77
+        }
+      ]
+    }
+  }
+}

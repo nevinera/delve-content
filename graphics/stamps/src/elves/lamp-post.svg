@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- A slender lamp post from above: a silver-capped globe of soft white light, a leaf curling from the post. 10 units = 1 ft. -->
+  <defs><filter id="lglow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.6"/></filter></defs>
+  <circle cx="12" cy="12" r="10" fill="#e8f0d0" opacity="0.5" filter="url(#lglow)"/>
+  <path d="M12 12 Q20 10 20 3" stroke="#6a7278" stroke-width="1" fill="none"/>
+  <path d="M12 6 Q14 9 12 12 Q10 9 12 6 Z" fill="#6a9a5a" opacity="0.8"/>
+  <circle cx="12" cy="12" r="4.4" fill="#f4f8e4" stroke="#6a7278" stroke-width="0.7"/>
+  <circle cx="12" cy="12" r="2.2" fill="#c8d0d4" stroke="#6a7278" stroke-width="0.5"/>
+</svg>
