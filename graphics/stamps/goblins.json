@@ -1,0 +1,187 @@
+{
+  "name": "Goblins",
+  "imageUrl": "./goblins.png",
+  "license": "CC0-1.0",
+  "stamps": {
+    "hide-tent": {
+      "name": "Hide tent",
+      "feetWidth": 8,
+      "frames": [
+        {
+          "x": 242,
+          "y": 0,
+          "width": 192,
+          "height": 192
+        }
+      ]
+    },
+    "barricade": {
+      "name": "Spiked barricade",
+      "feetWidth": 10,
+      "frames": [
+        {
+          "x": 0,
+          "y": 242,
+          "width": 240,
+          "height": 58
+        }
+      ]
+    },
+    "spike-pit": {
+      "name": "Spike pit",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 436,
+          "y": 0,
+          "width": 120,
+          "height": 120
+        }
+      ]
+    },
+    "bone-pile": {
+      "name": "Bone pile",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 704,
+          "y": 0,
+          "width": 120,
+          "height": 106
+        }
+      ]
+    },
+    "skull-pole": {
+      "name": "Skull pole",
+      "feetWidth": 2.8,
+      "frames": [
+        {
+          "x": 1764,
+          "y": 0,
+          "width": 67,
+          "height": 67
+        }
+      ]
+    },
+    "scrap-heap": {
+      "name": "Scrap heap",
+      "feetWidth": 6,
+      "frames": [
+        {
+          "x": 558,
+          "y": 0,
+          "width": 144,
+          "height": 120
+        }
+      ]
+    },
+    "roasting-spit": {
+      "name": "Roasting spit",
+      "feetWidth": 6,
+      "frames": [
+        {
+          "x": 1520,
+          "y": 0,
+          "width": 144,
+          "height": 72
+        }
+      ]
+    },
+    "cook-pot": {
+      "name": "Goblin stew pot",
+      "feetWidth": 4,
+      "frames": [
+        {
+          "x": 1300,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ]
+    },
+    "cage": {
+      "name": "Cage",
+      "feetWidth": 10,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 240
+        }
+      ]
+    },
+    "loot-pile": {
+      "name": "Loot pile",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 826,
+          "y": 0,
+          "width": 120,
+          "height": 106
+        }
+      ]
+    },
+    "sleeping-pile": {
+      "name": "Sleeping pile",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 1398,
+          "y": 0,
+          "width": 120,
+          "height": 96
+        }
+      ]
+    },
+    "refuse-pit": {
+      "name": "Refuse pit",
+      "feetWidth": 4.4,
+      "frames": [
+        {
+          "x": 1192,
+          "y": 0,
+          "width": 106,
+          "height": 97
+        }
+      ]
+    },
+    "caltrops": {
+      "name": "Caltrops",
+      "feetWidth": 4,
+      "frames": [
+        {
+          "x": 1666,
+          "y": 0,
+          "width": 96,
+          "height": 72
+        }
+      ]
+    },
+    "painted-rock": {
+      "name": "Painted rock",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 948,
+          "y": 0,
+          "width": 120,
+          "height": 106
+        }
+      ]
+    },
+    "crude-weapons": {
+      "name": "Crude weapons",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 1070,
+          "y": 0,
+          "width": 120,
+          "height": 101
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Goblins",
+  "license": "CC0-1.0",
+  "pixelsPerFoot": 24,
+  "stamps": {
+    "hide-tent": {
+      "name": "Hide tent",
+      "feetWidth": 8,
+      "images": [
+        "hide-tent.svg"
+      ]
+    },
+    "barricade": {
+      "name": "Spiked barricade",
+      "feetWidth": 10,
+      "images": [
+        "barricade.svg"
+      ]
+    },
+    "spike-pit": {
+      "name": "Spike pit",
+      "feetWidth": 5,
+      "images": [
+        "spike-pit.svg"
+      ]
+    },
+    "bone-pile": {
+      "name": "Bone pile",
+      "feetWidth": 5,
+      "images": [
+        "bone-pile.svg"
+      ]
+    },
+    "skull-pole": {
+      "name": "Skull pole",
+      "feetWidth": 2.8,
+      "images": [
+        "skull-pole.svg"
+      ]
+    },
+    "scrap-heap": {
+      "name": "Scrap heap",
+      "feetWidth": 6,
+      "images": [
+        "scrap-heap.svg"
+      ]
+    },
+    "roasting-spit": {
+      "name": "Roasting spit",
+      "feetWidth": 6,
+      "images": [
+        "roasting-spit.svg"
+      ]
+    },
+    "cook-pot": {
+      "name": "Goblin stew pot",
+      "feetWidth": 4,
+      "images": [
+        "cook-pot.svg"
+      ]
+    },
+    "cage": {
+      "name": "Cage",
+      "feetWidth": 10,
+      "images": [
+        "cage.svg"
+      ]
+    },
+    "loot-pile": {
+      "name": "Loot pile",
+      "feetWidth": 5,
+      "images": [
+        "loot-pile.svg"
+      ]
+    },
+    "sleeping-pile": {
+      "name": "Sleeping pile",
+      "feetWidth": 5,
+      "images": [
+        "sleeping-pile.svg"
+      ]
+    },
+    "refuse-pit": {
+      "name": "Refuse pit",
+      "feetWidth": 4.4,
+      "images": [
+        "refuse-pit.svg"
+      ]
+    },
+    "caltrops": {
+      "name": "Caltrops",
+      "feetWidth": 4,
+      "images": [
+        "caltrops.svg"
+      ]
+    },
+    "painted-rock": {
+      "name": "Painted rock",
+      "feetWidth": 5,
+      "images": [
+        "painted-rock.svg"
+      ]
+    },
+    "crude-weapons": {
+      "name": "Crude weapons",
+      "feetWidth": 5,
+      "images": [
+        "crude-weapons.svg"
+      ]
+    }
+  }
+}

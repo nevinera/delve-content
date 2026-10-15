@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40">
+  <!-- A nest of filthy straw with a couple of furs thrown on it. 10 units = 1 ft. -->
+  <path d="M42.3 21.3 C42.1 24.1 43.9 24.5 41.8 26.4 C39.7 28.3 33 31.3 29.7 32.8 C26.4 34.2 24.5 35.4 22 35.2 C19.4 35 17.2 33.1 14.5 31.5 C11.8 29.9 7 28.3 5.5 25.6 C4 22.8 4 17.6 5.5 14.8 C6.9 12 11.2 10.6 14.3 8.9 C17.4 7.1 21.2 4.6 24.3 4.4 C27.3 4.2 29.7 6.7 32.7 7.6 C35.8 8.4 41.1 7.4 42.7 9.7 C44.3 12 42.4 18.6 42.3 21.3 Z" fill="#c4b070" stroke="#7a6a3a" stroke-width="0.7"/>
+  <path d="M34.4 30 l2.1 2.2" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M12.1 30.2 l-3 0.1" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M34.7 20.8 l-0.7 2.9" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M11.5 13.1 l-2.4 1.8" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M9.8 18.5 l-2 2.2" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M28.7 8.5 l2.9 0.8" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M27.6 12.7 l-1.6 2.5" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M24.1 22.8 l1.9 2.4" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M18.6 30.1 l-2.9 0.9" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M37.9 16.3 l1.8 2.4" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M35.2 26.8 l-0.6 2.9" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M37.7 10.7 l-0.1 3" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M13.8 21.6 l2.9 0.7" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M18.5 23.1 l-0.4 3" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M42 24.2 l-1.2 2.7" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M33.2 30.2 l-2.7 1.3" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M32.1 15.5 l-1 2.8" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M27.2 28.7 l1.4 2.7" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M14.8 18.3 l-0 3" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M21 14.7 l0.6 2.9" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M16.3 22.3 l2.5 1.7" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M9.4 31.6 l-1.9 2.3" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M22.5 26.1 l-1.3 2.7" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M12.1 13.4 l0.3 3" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M26 16.3 l1 2.8" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M17.5 12.3 l-1.4 2.7" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M10.2 17.5 l2.8 1" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M33.2 20.2 l2.9 0.8" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M27 27.1 l-2.7 1.3" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M38.3 12.8 l-2.9 0.6" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M41.6 15.6 l2.9 0.9" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M10.3 29.4 l1.6 2.6" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M26.5 22.7 l2.1 2.1" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M24.8 13.5 l-1.4 2.7" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M29.4 15.2 l0.2 3" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M37.4 20.3 l-1.3 2.7" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M8.8 18.2 l0.6 2.9" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M27.9 24.7 l-2.6 1.5" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M28.5 17.2 l0.8 2.9" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M31.4 9.2 l-1.8 2.4" stroke="#a08a48" stroke-width="0.6"/>
+  <path d="M25 18.6 C25.2 19.6 25.4 20.6 24.6 21.3 C23.7 22 21.8 22.6 19.9 22.8 C18.1 23 15.1 23.3 13.7 22.8 C12.4 22.2 12.6 20.5 11.9 19.4 C11.2 18.4 9.3 17.8 9.6 16.5 C9.8 15.1 12 12.4 13.5 11.4 C14.9 10.4 16.7 9.8 18.3 10.5 C19.9 11.2 22 14.1 23.1 15.5 C24.2 16.8 24.7 17.6 25 18.6 Z" fill="#8a6a44" stroke="#3b2a1a" stroke-width="0.7"/>
+  <path d="M37.7 23.4 C37.6 24.4 37.6 26.1 36.9 26.9 C36.2 27.7 34.7 28.1 33.4 28.3 C32.2 28.5 31 28.5 29.5 28 C27.9 27.6 24.6 26.5 24.2 25.4 C23.7 24.4 26.2 22.9 26.8 21.9 C27.4 21 26.8 20.1 27.9 19.7 C29.1 19.3 32 19.4 33.6 19.6 C35.2 19.8 36.6 20.2 37.3 20.8 C38 21.4 37.7 22.4 37.7 23.4 Z" fill="#8a6a44" stroke="#3b2a1a" stroke-width="0.7"/>
+</svg>
