@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 26">
+  <!-- A drying rack from above: a pole on two forked uprights, with fish and meat strips hanging straight down from it. 10 units = 1 ft. -->
+  <path d="M4 6 L4 20" stroke="#5a4330" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="4" cy="13" r="1.8" fill="#7d5c3c" stroke="#2e2014" stroke-width="0.6"/>
+  <path d="M46 6 L46 20" stroke="#5a4330" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="46" cy="13" r="1.8" fill="#7d5c3c" stroke="#2e2014" stroke-width="0.6"/>
+  <rect x="7.9" y="11.4" width="1.6" height="3.2" rx="0.5" fill="#8a3a2a" stroke="#4a1a12" stroke-width="0.4"/>
+  <ellipse cx="13.4" cy="13" rx="1.1" ry="2.4" fill="#a8a088" stroke="#5a5444" stroke-width="0.4"/>
+  <path d="M13.4 10.8 L13.4 15.2" stroke="#7a7460" stroke-width="0.4"/>
+  <rect x="17" y="11.4" width="1.6" height="3.2" rx="0.5" fill="#8a3a2a" stroke="#4a1a12" stroke-width="0.4"/>
+  <rect x="21.9" y="11.4" width="1.6" height="3.2" rx="0.5" fill="#8a3a2a" stroke="#4a1a12" stroke-width="0.4"/>
+  <ellipse cx="27.4" cy="13" rx="1.1" ry="2.4" fill="#a8a088" stroke="#5a5444" stroke-width="0.4"/>
+  <path d="M27.4 10.8 L27.4 15.2" stroke="#7a7460" stroke-width="0.4"/>
+  <rect x="31" y="11.4" width="1.6" height="3.2" rx="0.5" fill="#8a3a2a" stroke="#4a1a12" stroke-width="0.4"/>
+  <rect x="35.7" y="11.4" width="1.6" height="3.2" rx="0.5" fill="#8a3a2a" stroke="#4a1a12" stroke-width="0.4"/>
+  <ellipse cx="41.2" cy="13" rx="1.1" ry="2.4" fill="#a8a088" stroke="#5a5444" stroke-width="0.4"/>
+  <path d="M41.2 10.8 L41.2 15.2" stroke="#7a7460" stroke-width="0.4"/>
+  <path d="M3 13 L47 13" stroke="#4a3624" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M3 12.5 L47 12.5" stroke="#8a6a44" stroke-width="0.6" stroke-linecap="round"/>
+</svg>

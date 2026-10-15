@@ -32,3 +32,11 @@ Copyright Eric Mueller - licensed under CC BY 4.0 (https://creativecommons.org/l
 ### graphics/stamps/camp
 
 Drawn for delve as SVG (sources in graphics/stamps/src/camp/). Public domain (CC0 1.0).
+
+### graphics/stamps/forest
+
+Drawn for delve as SVG (sources in graphics/stamps/src/forest/). Public domain (CC0 1.0).
+
+### graphics/stamps/cave
+
+Drawn for delve as SVG (sources in graphics/stamps/src/cave/). Public domain (CC0 1.0).

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <!-- A tin lantern from above: its cap and carry ring over a warm glass glow. 10 units = 1 ft. -->
+  <defs><filter id="lglow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4"/></filter></defs>
+  <circle cx="10" cy="10" r="8" fill="#ffd27a" opacity="0.5" filter="url(#lglow)"/>
+  <circle cx="10" cy="10" r="5.4" fill="#ffe8a8" stroke="#3a3632" stroke-width="0.8"/>
+  <circle cx="10" cy="10" r="3.6" fill="#4a4642" stroke="#2a2826" stroke-width="0.6"/>
+  <circle cx="10" cy="10" r="1.2" fill="#2a2826"/>
+  <path d="M5.4 10 Q10 3 14.6 10" stroke="#2a2826" stroke-width="0.8" fill="none"/>
+</svg>

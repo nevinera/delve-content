@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 38">
+  <!-- Supper things on the ground: a wooden bowl of stew and its spoon, a tin cup and a skillet. 10 units = 1 ft. -->
+  <circle cx="10" cy="11" r="7" fill="#7d5c3c" stroke="#3b2a1a" stroke-width="0.8"/>
+  <circle cx="10" cy="11" r="5.4" fill="#8a5a2a"/>
+  <circle cx="8.5" cy="10" r="0.9" fill="#c4a060"/><circle cx="11.5" cy="12.5" r="0.8" fill="#8aa050"/>
+  <path d="M13 6 L19 1" stroke="#b8a070" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="24" cy="22" r="3.6" fill="#8a8a8a" stroke="#3a3a3a" stroke-width="0.7"/>
+  <circle cx="24" cy="22" r="2.6" fill="#4a4642"/>
+  <path d="M27.6 22 q2 0 2 -1.6" stroke="#6a6a6a" stroke-width="0.8" fill="none"/>
+  <circle cx="10" cy="29" r="6.4" fill="#2e2c2a" stroke="#141312" stroke-width="0.8"/>
+  <circle cx="10" cy="29" r="5" fill="#3e3b38"/>
+  <path d="M16.2 30.6 L26 34" stroke="#5a4330" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

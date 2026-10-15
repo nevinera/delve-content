@@ -8,8 +8,8 @@
       "feetWidth": 5,
       "frames": [
         {
-          "x": 1332,
-          "y": 0,
+          "x": 0,
+          "y": 386,
           "width": 120,
           "height": 120
         }
@@ -32,7 +32,7 @@
       "feetWidth": 7,
       "frames": [
         {
-          "x": 1162,
+          "x": 1246,
           "y": 0,
           "width": 168,
           "height": 144
@@ -44,14 +44,14 @@
       "feetWidth": 7.6,
       "frames": [
         {
-          "x": 1576,
-          "y": 0,
+          "x": 1407,
+          "y": 386,
           "width": 182,
           "height": 53
         },
         {
-          "x": 1760,
-          "y": 0,
+          "x": 1591,
+          "y": 386,
           "width": 182,
           "height": 53
         }
@@ -74,8 +74,8 @@
       "feetWidth": 5,
       "frames": [
         {
-          "x": 1454,
-          "y": 0,
+          "x": 1163,
+          "y": 386,
           "width": 120,
           "height": 72
         }
@@ -102,6 +102,198 @@
           "y": 0,
           "width": 96,
           "height": 168
+        }
+      ]
+    },
+    "small-tent": {
+      "name": "Small tent",
+      "feetWidth": 8,
+      "frames": [
+        {
+          "x": 1610,
+          "y": 0,
+          "width": 192,
+          "height": 140
+        }
+      ]
+    },
+    "lean-to": {
+      "name": "Lean-to",
+      "feetWidth": 8,
+      "frames": [
+        {
+          "x": 1416,
+          "y": 0,
+          "width": 192,
+          "height": 144
+        }
+      ]
+    },
+    "bedroll-open": {
+      "name": "Bedroll, open",
+      "feetWidth": 3.4,
+      "frames": [
+        {
+          "x": 1162,
+          "y": 0,
+          "width": 82,
+          "height": 164
+        }
+      ]
+    },
+    "backpack": {
+      "name": "Backpack",
+      "feetWidth": 3.2,
+      "frames": [
+        {
+          "x": 1084,
+          "y": 386,
+          "width": 77,
+          "height": 73
+        }
+      ]
+    },
+    "camp-stool": {
+      "name": "Camp stool",
+      "feetWidth": 2.2,
+      "frames": [
+        {
+          "x": 1775,
+          "y": 386,
+          "width": 53,
+          "height": 53
+        }
+      ]
+    },
+    "cooking-tripod": {
+      "name": "Cooking tripod",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 122,
+          "y": 386,
+          "width": 120,
+          "height": 120
+        }
+      ]
+    },
+    "cold-fire-pit": {
+      "name": "Cold fire pit",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 244,
+          "y": 386,
+          "width": 120,
+          "height": 120
+        }
+      ]
+    },
+    "firewood": {
+      "name": "Firewood stack",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 790,
+          "y": 386,
+          "width": 120,
+          "height": 101
+        }
+      ]
+    },
+    "hide-rug": {
+      "name": "Hide rug",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 366,
+          "y": 386,
+          "width": 120,
+          "height": 120
+        }
+      ]
+    },
+    "lantern": {
+      "name": "Lantern",
+      "feetWidth": 2,
+      "frames": [
+        {
+          "x": 1830,
+          "y": 386,
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    "camp-clutter": {
+      "name": "Camp clutter",
+      "feetWidth": 3.2,
+      "frames": [
+        {
+          "x": 912,
+          "y": 386,
+          "width": 77,
+          "height": 92
+        }
+      ]
+    },
+    "drying-rack": {
+      "name": "Drying rack",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 1285,
+          "y": 386,
+          "width": 120,
+          "height": 63
+        }
+      ]
+    },
+    "chopping-block": {
+      "name": "Chopping block",
+      "feetWidth": 3.8,
+      "frames": [
+        {
+          "x": 991,
+          "y": 386,
+          "width": 91,
+          "height": 77
+        }
+      ]
+    },
+    "supplies": {
+      "name": "Supplies",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 488,
+          "y": 386,
+          "width": 120,
+          "height": 111
+        }
+      ]
+    },
+    "tarp": {
+      "name": "Gear under tarp",
+      "feetWidth": 6.4,
+      "frames": [
+        {
+          "x": 1804,
+          "y": 0,
+          "width": 154,
+          "height": 121
+        }
+      ]
+    },
+    "weapon-stack": {
+      "name": "Spears and bow",
+      "feetWidth": 7.4,
+      "frames": [
+        {
+          "x": 610,
+          "y": 386,
+          "width": 178,
+          "height": 106
         }
       ]
     }

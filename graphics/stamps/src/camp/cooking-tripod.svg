@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <!-- Three lashed poles over a stew pot, meant to stand over a campfire. 10 units = 1 ft. -->
+  <circle cx="25" cy="25" r="8" fill="#3a3632" stroke="#1e1c1a" stroke-width="1"/>
+  <circle cx="25" cy="25" r="6.4" fill="#7a4a24"/>
+  <circle cx="23" cy="26" r="1.2" fill="#c4a060"/><circle cx="27" cy="23" r="1" fill="#8aa050"/>
+  <path d="M16.6 25 L33.4 25" stroke="#a8a49c" stroke-width="1.2"/>
+  <path d="M25 25 L25 2" stroke="#4a3624" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M25 25 L25 2" stroke="#7d5c3c" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M25 25 L44.9 36.5" stroke="#4a3624" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M25 25 L44.9 36.5" stroke="#7d5c3c" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M25 25 L5.1 36.5" stroke="#4a3624" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M25 25 L5.1 36.5" stroke="#7d5c3c" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="25" cy="25" r="2.6" fill="#b8a070" stroke="#5a4330" stroke-width="0.6"/>
+</svg>
