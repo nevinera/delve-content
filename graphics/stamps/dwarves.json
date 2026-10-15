@@ -1,0 +1,175 @@
+{
+  "name": "Dwarves",
+  "imageUrl": "./dwarves.png",
+  "license": "CC0-1.0",
+  "stamps": {
+    "anvil": {
+      "name": "Anvil",
+      "feetWidth": 4,
+      "frames": [
+        {
+          "x": 1544,
+          "y": 0,
+          "width": 96,
+          "height": 68
+        }
+      ]
+    },
+    "forge": {
+      "name": "Forge",
+      "feetWidth": 6,
+      "frames": [
+        {
+          "x": 855,
+          "y": 0,
+          "width": 144,
+          "height": 93
+        }
+      ]
+    },
+    "quench-trough": {
+      "name": "Quench trough",
+      "feetWidth": 4.8,
+      "frames": [
+        {
+          "x": 1642,
+          "y": 0,
+          "width": 115,
+          "height": 48
+        }
+      ]
+    },
+    "ale-barrels": {
+      "name": "Ale barrels",
+      "feetWidth": 5.2,
+      "frames": [
+        {
+          "x": 728,
+          "y": 0,
+          "width": 125,
+          "height": 101
+        }
+      ]
+    },
+    "feast-table": {
+      "name": "Feast table",
+      "feetWidth": 10,
+      "frames": [
+        {
+          "x": 340,
+          "y": 0,
+          "width": 240,
+          "height": 116
+        }
+      ]
+    },
+    "rune-stone": {
+      "name": "Rune stone",
+      "feetWidth": 3.6,
+      "frames": [
+        {
+          "x": 1001,
+          "y": 0,
+          "width": 86,
+          "height": 86
+        }
+      ]
+    },
+    "floor-inlay": {
+      "name": "Floor inlay",
+      "feetWidth": 8,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 192,
+          "height": 192
+        }
+      ]
+    },
+    "brazier": {
+      "name": "Brazier",
+      "feetWidth": 2.8,
+      "frames": [
+        {
+          "x": 1353,
+          "y": 0,
+          "width": 67,
+          "height": 72
+        }
+      ]
+    },
+    "workbench": {
+      "name": "Smith's workbench",
+      "feetWidth": 6.4,
+      "frames": [
+        {
+          "x": 1197,
+          "y": 0,
+          "width": 154,
+          "height": 73
+        }
+      ]
+    },
+    "gold-hoard": {
+      "name": "Treasure chest",
+      "feetWidth": 6,
+      "frames": [
+        {
+          "x": 194,
+          "y": 0,
+          "width": 144,
+          "height": 120
+        }
+      ]
+    },
+    "ingot-stack": {
+      "name": "Ingot stack",
+      "feetWidth": 1.5,
+      "frames": [
+        {
+          "x": 1759,
+          "y": 0,
+          "width": 36,
+          "height": 27
+        }
+      ]
+    },
+    "ore-crates": {
+      "name": "Ore crates",
+      "feetWidth": 5,
+      "frames": [
+        {
+          "x": 1422,
+          "y": 0,
+          "width": 120,
+          "height": 72
+        }
+      ]
+    },
+    "grindstone": {
+      "name": "Grindstone",
+      "feetWidth": 4.4,
+      "frames": [
+        {
+          "x": 1089,
+          "y": 0,
+          "width": 106,
+          "height": 82
+        }
+      ]
+    },
+    "mechanism": {
+      "name": "Gear mechanism",
+      "feetWidth": 6,
+      "frames": [
+        {
+          "x": 582,
+          "y": 0,
+          "width": 144,
+          "height": 106
+        }
+      ]
+    }
+  }
+}
