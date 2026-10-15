@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 56">
+  <!-- A big rounded boulder from above, lit from the upper left, a little moss on its lower side. 10 units = 1 ft. -->
+  <defs><radialGradient id="rock" cx="35%" cy="32%" r="75%"><stop offset="0" stop-color="#a9a69c"/><stop offset="0.55" stop-color="#85827a"/><stop offset="1" stop-color="#5e5c56"/></radialGradient></defs>
+  <path d="M52.8 27 C53 32.3 47.6 38.2 42.2 41.8 C36.8 45.4 26.2 50.9 20.4 48.6 C14.5 46.3 8 33.9 7 28 C6 22 8.9 15.8 14.6 12.8 C20.3 9.7 34.8 7.3 41.2 9.7 C47.6 12 52.6 21.6 52.8 27 Z" fill="url(#rock)" stroke="#3b3a36" stroke-width="1.2"/>
+  <path d="M23.8 21.8 L40 25.5 M23.8 21.8 L27.5 39.2" stroke="#57554f" stroke-width="0.8" fill="none" opacity="0.6"/>
+  <path d="M49.6 40.4 C49.6 41.5 49.6 42.7 48.3 43.2 C47.1 43.8 44.1 43.7 42.3 43.5 C40.5 43.3 38 42.9 37.3 42 C36.6 41.1 37.6 39 38.3 38 C39 37 39.9 36.2 41.6 36 C43.3 35.7 46.9 35.8 48.3 36.5 C49.6 37.3 49.6 39.3 49.6 40.4 Z" fill="#6f8f3c" opacity="0.7"/>
+</svg>

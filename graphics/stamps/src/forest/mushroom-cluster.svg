@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24">
+  <!-- A clump of small mushroom caps. 10 units = 1 ft. -->
+  <defs><radialGradient id="cap24351" cx="38%" cy="35%" r="70%"><stop offset="0" stop-color="#e2cba0"/><stop offset="0.7" stop-color="#c4a272"/><stop offset="1" stop-color="#9a7a4e"/></radialGradient><radialGradient id="cap23283" cx="38%" cy="35%" r="70%"><stop offset="0" stop-color="#e2cba0"/><stop offset="0.7" stop-color="#c4a272"/><stop offset="1" stop-color="#9a7a4e"/></radialGradient><radialGradient id="cap79147" cx="38%" cy="35%" r="70%"><stop offset="0" stop-color="#e2cba0"/><stop offset="0.7" stop-color="#c4a272"/><stop offset="1" stop-color="#9a7a4e"/></radialGradient><radialGradient id="cap117149" cx="38%" cy="35%" r="70%"><stop offset="0" stop-color="#c79a63"/><stop offset="0.7" stop-color="#9a6c3e"/><stop offset="1" stop-color="#6e4a2a"/></radialGradient><radialGradient id="cap118180" cx="38%" cy="35%" r="70%"><stop offset="0" stop-color="#c79a63"/><stop offset="0.7" stop-color="#9a6c3e"/><stop offset="1" stop-color="#6e4a2a"/></radialGradient><radialGradient id="cap20981" cx="38%" cy="35%" r="70%"><stop offset="0" stop-color="#e2cba0"/><stop offset="0.7" stop-color="#c4a272"/><stop offset="1" stop-color="#9a7a4e"/></radialGradient><radialGradient id="cap134130" cx="38%" cy="35%" r="70%"><stop offset="0" stop-color="#c79a63"/><stop offset="0.7" stop-color="#9a6c3e"/><stop offset="1" stop-color="#6e4a2a"/></radialGradient><radialGradient id="cap65129" cx="38%" cy="35%" r="70%"><stop offset="0" stop-color="#e2cba0"/><stop offset="0.7" stop-color="#c4a272"/><stop offset="1" stop-color="#9a7a4e"/></radialGradient></defs>
+  <circle cx="24.3" cy="5.2" r="3.4" fill="url(#cap24351)" stroke="#6a5233" stroke-width="0.4"/>
+  <circle cx="23.3" cy="8.3" r="1.9" fill="url(#cap23283)" stroke="#6a5233" stroke-width="0.4"/>
+  <circle cx="7.9" cy="14.7" r="2.6" fill="url(#cap79147)" stroke="#6a5233" stroke-width="0.4"/>
+  <circle cx="11.8" cy="14.9" r="2.4" fill="url(#cap117149)" stroke="#4a311c" stroke-width="0.4"/>
+  <circle cx="11.9" cy="18.1" r="2.3" fill="url(#cap118180)" stroke="#4a311c" stroke-width="0.4"/>
+  <circle cx="21" cy="8.1" r="3.8" fill="url(#cap20981)" stroke="#6a5233" stroke-width="0.4"/>
+  <circle cx="13.4" cy="13.1" r="3.6" fill="url(#cap134130)" stroke="#4a311c" stroke-width="0.4"/>
+  <circle cx="6.6" cy="12.9" r="2.6" fill="url(#cap65129)" stroke="#6a5233" stroke-width="0.4"/>
+</svg>

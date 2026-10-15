@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 50">
+  <!-- Floating lily pads, one with a white flower; place it on water. 10 units = 1 ft. -->
+  <path d="M18 20 L19 11.1 A9 9 0 1 1 13 12.5 Z" fill="#4f8a3a" stroke="#2f5a24" stroke-width="0.6"/>
+  <path d="M18 20 l4.4 -5.7" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M18 20 l7.1 1.4" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M18 20 l2 6.9" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M18 20 l-5.3 4.9" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M18 20 l-6.8 -2.5" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M36 14 L41.5 9.7 A7 7 0 1 1 37.5 7.2 Z" fill="#4f8a3a" stroke="#2f5a24" stroke-width="0.6"/>
+  <path d="M36 14 l5.6 -0.6" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M36 14 l3.1 4.7" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M36 14 l-2.8 4.9" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M36 14 l-5.6 -0.3" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M36 14 l-2.3 -5.1" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M40 34 L40.6 42 A8 8 0 1 1 45.6 39.7 Z" fill="#4f8a3a" stroke="#2f5a24" stroke-width="0.6"/>
+  <path d="M40 34 l-2.9 5.7" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M40 34 l-6.4 -0" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M40 34 l-2.9 -5.7" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M40 34 l3.8 -5.2" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M40 34 l6.3 1" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M22 40 L26.7 41.7 A5 5 0 1 1 26.7 38.2 Z" fill="#4f8a3a" stroke="#2f5a24" stroke-width="0.6"/>
+  <path d="M22 40 l2.5 3.1" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M22 40 l-1.6 3.7" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M22 40 l-4 0.2" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M22 40 l-2 -3.5" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M22 40 l2.2 -3.4" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M54 24 L54 29 A5 5 0 1 1 57.2 27.8 Z" fill="#4f8a3a" stroke="#2f5a24" stroke-width="0.6"/>
+  <path d="M54 24 l-2.1 3.4" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M54 24 l-4 -0.3" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M54 24 l-1.5 -3.7" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M54 24 l2.6 -3" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M54 24 l3.9 0.9" stroke="#3f7030" stroke-width="0.4"/>
+  <path d="M40 34 Q42.2 35.6 44.5 34 Q42.2 32.4 40 34 Z" fill="#f2e6ee" stroke="#c8a8bc" stroke-width="0.4"/>
+  <path d="M40 34 Q40.5 36.7 43.2 37.2 Q42.7 34.5 40 34 Z" fill="#f2e6ee" stroke="#c8a8bc" stroke-width="0.4"/>
+  <path d="M40 34 Q38.4 36.2 40 38.5 Q41.6 36.2 40 34 Z" fill="#f2e6ee" stroke="#c8a8bc" stroke-width="0.4"/>
+  <path d="M40 34 Q37.3 34.5 36.8 37.2 Q39.5 36.7 40 34 Z" fill="#f2e6ee" stroke="#c8a8bc" stroke-width="0.4"/>
+  <path d="M40 34 Q37.8 32.4 35.5 34 Q37.8 35.6 40 34 Z" fill="#f2e6ee" stroke="#c8a8bc" stroke-width="0.4"/>
+  <path d="M40 34 Q39.5 31.3 36.8 30.8 Q37.3 33.5 40 34 Z" fill="#f2e6ee" stroke="#c8a8bc" stroke-width="0.4"/>
+  <path d="M40 34 Q41.6 31.8 40 29.5 Q38.4 31.8 40 34 Z" fill="#f2e6ee" stroke="#c8a8bc" stroke-width="0.4"/>
+  <path d="M40 34 Q42.7 33.5 43.2 30.8 Q40.5 31.3 40 34 Z" fill="#f2e6ee" stroke="#c8a8bc" stroke-width="0.4"/>
+  <circle cx="40" cy="34" r="1.3" fill="#e8c040"/>
+</svg>
