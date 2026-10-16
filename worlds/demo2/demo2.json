@@ -11,5 +11,7 @@
     }
   },
   "worldLinks": [],
-  "entryPoints": {}
+  "entryPoints": {
+    "field-of-dreamers/camp-welcome/south": null
+  }
 }

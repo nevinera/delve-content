@@ -12,6 +12,10 @@
   "unitTypes": {},
   "items": {},
   "zoneLinks": [],
-  "entryPoints": {},
-  "openConnections": {}
+  "entryPoints": {
+    "camp-welcome/south": null
+  },
+  "openConnections": {
+    "camp-welcome/north": ""
+  }
 }

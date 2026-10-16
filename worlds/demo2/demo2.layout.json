@@ -1,3 +1,8 @@
 {
-  "positions": {}
+  "positions": {
+    "entryPoint:field-of-dreamers/camp-welcome/south": {
+      "x": -3,
+      "y": 71.66666666666669
+    }
+  }
 }
