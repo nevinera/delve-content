@@ -1,0 +1,17 @@
+{
+  "name": "Field of Dreamers",
+  "description": null,
+  "elvl": 0,
+  "private": false,
+  "maps": [
+    {
+      "$ref": "./camp-welcome/camp-welcome.json",
+      "referenceTo": "map"
+    }
+  ],
+  "unitTypes": {},
+  "items": {},
+  "zoneLinks": [],
+  "entryPoints": {},
+  "openConnections": {}
+}

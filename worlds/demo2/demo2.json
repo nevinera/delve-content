@@ -1,0 +1,15 @@
+{
+  "name": "demo2",
+  "description": null,
+  "thumbnailUrl": null,
+  "elevationRange": null,
+  "zones": {
+    "field-of-dreamers": {
+      "path": "./zones/field-of-dreamers/field-of-dreamers.json",
+      "name": "Field of Dreamers",
+      "description": null
+    }
+  },
+  "worldLinks": [],
+  "entryPoints": {}
+}
