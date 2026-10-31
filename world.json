@@ -1,11 +1,18 @@
 {
   "version": 2,
-  "name": "New world",
+  "name": "Northvale",
   "continents": [
     {
       "key": "main",
       "name": "Main"
     }
   ],
-  "dungeons": []
+  "dungeons": [],
+  "spawn": {
+    "continent": "main",
+    "at": [
+      -3200,
+      -6272
+    ]
+  }
 }
