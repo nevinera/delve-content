@@ -1,0 +1,344 @@
+{
+  "bodies": {
+    "dire-wolf": {
+      "skeleton": "canine",
+      "scale": 1.785,
+      "reach": 3.9,
+      "shape": {
+        "H": 2.05,
+        "L": 1.75,
+        "w": 0.3,
+        "neck": [0.52, 0.78],
+        "head": 1.15,
+        "muzzle": 1,
+        "pitch": 0.1,
+        "girth": [1.2, 1.15],
+        "neckGirth": 1.25,
+        "limb": 1.25,
+        "ears": "pointed",
+        "tail": "bushy",
+        "feet": "paw"
+      },
+      "look": {
+        "build": [0.4, 0.6],
+        "limbs": [0.4, 0.6],
+        "head": [0.45, 0.55]
+      },
+      "patterns": {
+        "standard": {
+          "colors": {
+            "pupil": "#141212",
+            "nose": "#141212"
+          },
+          "areas": {
+            "everything": "coat",
+            "back": "back",
+            "crown": "back",
+            "lower": "belly",
+            "limbs": "coat",
+            "shins": {
+              "color": "coat",
+              "tone": 0.85
+            },
+            "eyes": "eyes",
+            "pupils": "pupil",
+            "nose": "nose",
+            "ears": "back",
+            "tailTip": "back"
+          }
+        }
+      },
+      "colorations": [
+        {
+          "name": "ashen",
+          "pattern": "standard",
+          "weight": 2,
+          "colors": {
+            "coat": "#5a5650",
+            "back": "#2a2826",
+            "belly": "#7a746a",
+            "eyes": "#e0c040"
+          }
+        },
+        {
+          "name": "night",
+          "pattern": "standard",
+          "colors": {
+            "coat": "#24221f",
+            "back": "#141312",
+            "belly": "#3a3632",
+            "eyes": "#d04020"
+          }
+        },
+        {
+          "name": "rime",
+          "pattern": "standard",
+          "colors": {
+            "coat": "#c8ccd0",
+            "back": "#8a9098",
+            "belly": "#e4e8ec",
+            "eyes": "#60b0e0"
+          }
+        }
+      ]
+    },
+    "sabretooth": {
+      "skeleton": "feline",
+      "scale": 1.675,
+      "reach": 3.5,
+      "shape": {
+        "H": 1.9,
+        "L": 2.5,
+        "w": 0.32,
+        "neck": [0.28, 0.6],
+        "head": 1.7,
+        "muzzle": 0.36,
+        "pitch": 0.02,
+        "girth": [1.2, 1.2],
+        "neckGirth": 1.35,
+        "limb": 1.85,
+        "ears": "cat",
+        "tail": "tuft",
+        "feet": "paw",
+        "tusks": true
+      },
+      "look": {
+        "build": [0.45, 0.7]
+      },
+      "patterns": {
+        "spotted": {
+          "colors": {
+            "pupil": "#141212",
+            "nose": "#141212",
+            "tusk": "#ece4cc"
+          },
+          "areas": {
+            "everything": {
+              "color": "coat",
+              "marks": [
+                {
+                  "kind": "spots",
+                  "color": "spot",
+                  "amount": 0.2,
+                  "size": 0.05
+                }
+              ]
+            },
+            "lower": "belly",
+            "limbs": "coat",
+            "eyes": "eyes",
+            "pupils": "pupil",
+            "nose": "nose",
+            "ears": "back",
+            "tusks": "tusk",
+            "tails": "back"
+          }
+        }
+      },
+      "colorations": [
+        {
+          "name": "tawny",
+          "pattern": "spotted",
+          "weight": 2,
+          "colors": {
+            "coat": "#b8905a",
+            "back": "#7a5a34",
+            "belly": "#e4d4b8",
+            "spot": "#5a4028",
+            "eyes": "#c8a040"
+          }
+        },
+        {
+          "name": "smilodon",
+          "pattern": "spotted",
+          "colors": {
+            "coat": "#9a7a50",
+            "back": "#4a3420",
+            "belly": "#d0c0a0",
+            "spot": "#3a2818",
+            "eyes": "#d09030"
+          }
+        }
+      ]
+    },
+    "frost-wyrm": {
+      "skeleton": "dragon",
+      "scale": 3.008,
+      "reach": 18.6,
+      "shape": {
+        "H": 4,
+        "L": 5,
+        "w": 1.05,
+        "legs": 4,
+        "tilt": 0,
+        "span": 1.45,
+        "neck": 1.25,
+        "tail": 1.3,
+        "head": 1.25,
+        "horns": "swept",
+        "tip": "spade",
+        "breath": true
+      },
+      "look": {
+        "build": [0.4, 0.7]
+      },
+      "patterns": {
+        "standard": {
+          "colors": {
+            "dark": "#141212",
+            "teeth": "#ebe6d1"
+          },
+          "areas": {
+            "scales": "scales",
+            "belly": "belly",
+            "horns": "horns",
+            "eyes": "eyes",
+            "dark": "dark",
+            "teeth": "teeth"
+          }
+        }
+      },
+      "colorations": [
+        {
+          "name": "glacier",
+          "pattern": "standard",
+          "weight": 2,
+          "colors": {
+            "scales": "#c8dce8",
+            "belly": "#e8f0f4",
+            "horns": "#6a8090",
+            "eyes": "#40c0ff"
+          }
+        },
+        {
+          "name": "deep ice",
+          "pattern": "standard",
+          "colors": {
+            "scales": "#5a7a9a",
+            "belly": "#b0c8d8",
+            "horns": "#e8f0f4",
+            "eyes": "#80e0ff"
+          }
+        }
+      ]
+    }
+  },
+  "colorations": {
+    "wolf": {
+      "colorations": [
+        {
+          "name": "ember",
+          "pattern": "standard",
+          "colors": {
+            "coat": "#8a4a2a",
+            "back": "#3a1a10",
+            "belly": "#c08060",
+            "eyes": "#ffb030"
+          }
+        }
+      ]
+    },
+    "horse": {
+      "patterns": {
+        "dun": {
+          "colors": {
+            "pupil": "#141212",
+            "nose": "#141212",
+            "hoof": "#2d2828"
+          },
+          "areas": {
+            "everything": "coat",
+            "back": {
+              "color": "back"
+            },
+            "crown": "back",
+            "lower": "belly",
+            "limbs": "coat",
+            "shins": {
+              "color": "coat",
+              "tone": 0.85
+            },
+            "eyes": "eyes",
+            "pupils": "pupil",
+            "nose": "nose",
+            "ears": "back",
+            "mane": "back",
+            "hooves": "hoof",
+            "tails": "back",
+            "legs": {
+              "color": "coat",
+              "marks": [
+                {
+                  "kind": "stripes",
+                  "color": "back",
+                  "across": "horizontal",
+                  "width": 0.015,
+                  "gap": 0.03,
+                  "wave": 0
+                }
+              ]
+            }
+          }
+        }
+      },
+      "colorations": [
+        {
+          "name": "dun",
+          "pattern": "dun",
+          "colors": {
+            "coat": "#c0a070",
+            "back": "#3a2a1e",
+            "belly": "#d8c098",
+            "eyes": "#1a1010"
+          }
+        },
+        {
+          "name": "buckskin",
+          "pattern": "standard",
+          "colors": {
+            "coat": "#c8a060",
+            "back": "#1e1a18",
+            "belly": "#dcc090",
+            "eyes": "#1a1010"
+          }
+        }
+      ]
+    },
+    "goblin": {
+      "colorations": [
+        {
+          "name": "cave goblin",
+          "pattern": "standard",
+          "colors": {
+            "skin": "#9aa890",
+            "hair": "#d8d4c8",
+            "eyes": "#e04020"
+          }
+        },
+        {
+          "name": "bog goblin",
+          "pattern": "standard",
+          "colors": {
+            "skin": "#4a5a2a",
+            "hair": "#1a1a10",
+            "eyes": "#e0e040"
+          }
+        }
+      ]
+    },
+    "dragon": {
+      "colorations": [
+        {
+          "name": "obsidian",
+          "pattern": "standard",
+          "colors": {
+            "scales": "#18161a",
+            "belly": "#3a2a2a",
+            "horns": "#d0c8b8",
+            "eyes": "#ff4020"
+          }
+        }
+      ]
+    }
+  }
+}
