@@ -1,0 +1,24 @@
+{
+ "version": 1,
+ "objects": [
+  {
+   "type": "built:bfarm007",
+   "at": [
+    1697.22,
+    -8512.06
+   ],
+   "y": 162,
+   "yaw": 3.4037,
+   "scale": 1,
+   "cave": "irondepths-mine",
+   "footprint": {
+    "rect": [
+     5,
+     1.2
+    ]
+   },
+   "height": 7.55
+  }
+ ],
+ "slabs": []
+}
