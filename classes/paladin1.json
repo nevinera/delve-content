@@ -296,7 +296,7 @@
       "name": "Tend",
       "description": "Spends Conviction to heal you or an ally.",
       "level": 3,
-      "target": "any",
+      "target": "ally",
       "effects": [
         {
           "type": "heal",
@@ -420,7 +420,7 @@
       "name": "Absolve",
       "description": "Removes a poison or disease from you or an ally.",
       "level": 9,
-      "target": "any",
+      "target": "ally",
       "effects": [
         {
           "type": "dispel",
