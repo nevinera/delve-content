@@ -259,7 +259,19 @@
         "rotation",
         "shared"
       ],
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "sparks",
+          "when": "impact",
+          "colors": [
+            "#9aa4ad",
+            "#ffffff"
+          ],
+          "count": 14,
+          "scale": 0.6
+        }
+      ]
     },
     {
       "id": "sent1bb1",
@@ -291,7 +303,22 @@
         "shared",
         "spender"
       ],
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "flare",
+          "when": "impact",
+          "scale": 0.6,
+          "opacity": 0.5
+        },
+        {
+          "effect": "sparks",
+          "when": "impact",
+          "count": 30,
+          "scale": 0.8,
+          "stretch": 0.6
+        }
+      ]
     },
     {
       "id": "tend480a",
@@ -318,7 +345,32 @@
         }
       ],
       "animation": "castOnAlly",
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "motes",
+          "when": "impact",
+          "colors": [
+            "#e8d9a0",
+            "#fff6d0"
+          ],
+          "duration": 0.8,
+          "rate": 30,
+          "radius": 1.5,
+          "at": "chest",
+          "lifetime": 0.8
+        },
+        {
+          "effect": "flare",
+          "when": "impact",
+          "colors": [
+            "#e8d9a0",
+            "#fff6d0"
+          ],
+          "scale": 0.5,
+          "opacity": 0.35
+        }
+      ]
     },
     {
       "id": "arre4608",
@@ -337,7 +389,34 @@
       "range": "melee",
       "cooldown": 45,
       "animation": "punch",
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "flare",
+          "when": "impact",
+          "colors": [
+            "#9aa4ad",
+            "#ffffff"
+          ],
+          "scale": 0.4,
+          "opacity": 0.5
+        },
+        {
+          "effect": "motes",
+          "when": "impact",
+          "colors": [
+            "#e8d9a0",
+            "#fff6d0"
+          ],
+          "duration": 0.5,
+          "rate": 24,
+          "radius": 1,
+          "at": "chest",
+          "gravity": 0,
+          "lifetime": 0.7,
+          "spin": 1.5
+        }
+      ]
     },
     {
       "id": "stand047",
@@ -355,7 +434,29 @@
       ],
       "cooldown": 60,
       "gcd": 0,
-      "animation": "castSelf"
+      "animation": "castSelf",
+      "visuals": [
+        {
+          "effect": "shield",
+          "when": "launch",
+          "colors": [
+            "#d9b65c",
+            "#fff0b8"
+          ]
+        },
+        {
+          "effect": "sparks",
+          "when": "launch",
+          "colors": [
+            "#d9b65c",
+            "#fff0b8"
+          ],
+          "count": 16,
+          "scale": 0.5,
+          "gravity": 0,
+          "stretch": 0.4
+        }
+      ]
     },
     {
       "id": "repr6ce5",
@@ -381,7 +482,22 @@
         "rotation",
         "shared"
       ],
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "sparks",
+          "when": "impact",
+          "count": 22,
+          "scale": 0.7,
+          "stretch": 0.6
+        },
+        {
+          "effect": "flare",
+          "when": "impact",
+          "scale": 0.4,
+          "opacity": 0.4
+        }
+      ]
     },
     {
       "id": "hush9106",
@@ -400,7 +516,32 @@
       "range": "melee",
       "cooldown": 15,
       "gcd": 0,
-      "animation": "punch"
+      "animation": "punch",
+      "visuals": [
+        {
+          "effect": "shockwave",
+          "when": "impact",
+          "colors": [
+            "#8fb4d9",
+            "#eef6ff"
+          ],
+          "at": "chest",
+          "facing": "camera",
+          "sizeEnd": 5,
+          "lifetime": 0.3
+        },
+        {
+          "effect": "shards",
+          "when": "impact",
+          "colors": [
+            "#8fb4d9",
+            "#eef6ff"
+          ],
+          "count": 8,
+          "scale": 0.5,
+          "blend": "glow"
+        }
+      ]
     },
     {
       "id": "inte236d",
@@ -421,7 +562,32 @@
       "minRange": 8,
       "cooldown": 20,
       "gcd": 0,
-      "animation": "none"
+      "animation": "none",
+      "visuals": [
+        {
+          "effect": "smoke",
+          "when": "launch",
+          "colors": [
+            "#6e6455",
+            "#a39782"
+          ],
+          "duration": 0.25,
+          "rate": 40,
+          "lifetime": 0.7,
+          "sizeEnd": 4
+        },
+        {
+          "effect": "shockwave",
+          "when": "impact",
+          "colors": [
+            "#6e6455",
+            "#a39782"
+          ],
+          "sizeEnd": 7,
+          "lifetime": 0.3,
+          "opacity": 0.5
+        }
+      ]
     },
     {
       "id": "abso51c5",
@@ -450,7 +616,24 @@
         }
       ],
       "animation": "castOnAlly",
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "embers",
+          "when": "impact",
+          "duration": 0.6,
+          "rate": 45,
+          "gravity": -9,
+          "speed": 4,
+          "lifetime": 0.8
+        },
+        {
+          "effect": "flare",
+          "when": "impact",
+          "scale": 0.5,
+          "opacity": 0.3
+        }
+      ]
     },
     {
       "id": "vigi867a",
@@ -533,6 +716,30 @@
       "animation": "pray",
       "tags": [
         "oath"
+      ],
+      "visuals": [
+        {
+          "effect": "motes",
+          "when": "launch",
+          "colors": [
+            "#e8d9a0",
+            "#fff6d0"
+          ],
+          "duration": 0.8,
+          "rate": 30,
+          "radius": 2,
+          "lifetime": 1
+        },
+        {
+          "effect": "shockwave",
+          "when": "launch",
+          "colors": [
+            "#e8d9a0",
+            "#fff6d0"
+          ],
+          "sizeEnd": 6,
+          "opacity": 0.4
+        }
       ]
     },
     {
@@ -616,6 +823,39 @@
       "animation": "pray",
       "tags": [
         "oath"
+      ],
+      "visuals": [
+        {
+          "effect": "shield",
+          "when": "launch",
+          "colors": [
+            "#d9b65c",
+            "#fff0b8"
+          ]
+        },
+        {
+          "effect": "smoke",
+          "when": "launch",
+          "colors": [
+            "#6e6455",
+            "#a39782"
+          ],
+          "duration": 0.3,
+          "rate": 30,
+          "lifetime": 0.8,
+          "sizeEnd": 4,
+          "radius": 2
+        },
+        {
+          "effect": "shockwave",
+          "when": "launch",
+          "colors": [
+            "#d9b65c",
+            "#fff0b8"
+          ],
+          "sizeEnd": 8,
+          "opacity": 0.45
+        }
       ]
     },
     {
@@ -699,6 +939,31 @@
       "animation": "pray",
       "tags": [
         "oath"
+      ],
+      "visuals": [
+        {
+          "effect": "shockwave",
+          "when": "launch",
+          "colors": [
+            "#d9b65c",
+            "#fff0b8"
+          ],
+          "sizeEnd": 70,
+          "lifetime": 0.9,
+          "opacity": 0.5
+        },
+        {
+          "effect": "motes",
+          "when": "launch",
+          "colors": [
+            "#d9b65c",
+            "#fff0b8"
+          ],
+          "duration": 0.8,
+          "rate": 30,
+          "radius": 3,
+          "lifetime": 1
+        }
       ]
     },
     {
@@ -782,6 +1047,22 @@
       "animation": "pray",
       "tags": [
         "oath"
+      ],
+      "visuals": [
+        {
+          "effect": "motes",
+          "when": "launch",
+          "colors": [
+            "#e8d9a0",
+            "#fff6d0"
+          ],
+          "duration": 1.2,
+          "rate": 14,
+          "gravity": -1,
+          "radius": 2.5,
+          "lifetime": 1.6,
+          "spin": 0.15
+        }
       ]
     },
     {
@@ -893,6 +1174,26 @@
       "animation": "castOverhead",
       "tags": [
         "oath"
+      ],
+      "visuals": [
+        {
+          "effect": "beam",
+          "when": "launch",
+          "on": "target"
+        },
+        {
+          "effect": "flare",
+          "when": "impact",
+          "scale": 0.8,
+          "opacity": 0.6
+        },
+        {
+          "effect": "embers",
+          "when": "impact",
+          "duration": 0.8,
+          "rate": 30,
+          "lifetime": 0.9
+        }
       ]
     },
     {
@@ -976,6 +1277,35 @@
       "animation": "pray",
       "tags": [
         "oath"
+      ],
+      "visuals": [
+        {
+          "effect": "shockwave",
+          "when": "launch",
+          "colors": [
+            "#8fb4d9",
+            "#eef6ff"
+          ],
+          "lifetime": 1,
+          "sizeEnd": 8,
+          "opacity": 0.35
+        },
+        {
+          "effect": "motes",
+          "when": "launch",
+          "colors": [
+            "#8fb4d9",
+            "#eef6ff"
+          ],
+          "duration": 0.6,
+          "rate": 16,
+          "gravity": 0,
+          "speed": 0.3,
+          "radius": 2.5,
+          "at": "chest",
+          "lifetime": 1.2,
+          "spin": 0.1
+        }
       ]
     },
     {
@@ -1059,6 +1389,32 @@
       "animation": "pray",
       "tags": [
         "oath"
+      ],
+      "visuals": [
+        {
+          "effect": "embers",
+          "when": "launch",
+          "colors": [
+            "#c9481c",
+            "#ffcf70"
+          ],
+          "duration": 0.7,
+          "rate": 50,
+          "at": "feet",
+          "radius": 2,
+          "gravity": -9,
+          "lifetime": 0.9
+        },
+        {
+          "effect": "flare",
+          "when": "launch",
+          "colors": [
+            "#c9481c",
+            "#ffcf70"
+          ],
+          "scale": 0.5,
+          "opacity": 0.4
+        }
       ]
     },
     {
@@ -1142,6 +1498,34 @@
       "animation": "pray",
       "tags": [
         "oath"
+      ],
+      "visuals": [
+        {
+          "effect": "embers",
+          "when": "launch",
+          "colors": [
+            "#7a1414",
+            "#c23a32"
+          ],
+          "duration": 0.8,
+          "rate": 35,
+          "at": "feet",
+          "radius": 2,
+          "lifetime": 1.1
+        },
+        {
+          "effect": "motes",
+          "when": "launch",
+          "colors": [
+            "#d9b65c",
+            "#fff0b8"
+          ],
+          "duration": 0.6,
+          "rate": 14,
+          "radius": 1.5,
+          "at": "chest",
+          "lifetime": 0.8
+        }
       ]
     },
     {
@@ -1225,6 +1609,35 @@
       "animation": "pray",
       "tags": [
         "oath"
+      ],
+      "visuals": [
+        {
+          "effect": "shards",
+          "when": "launch",
+          "colors": [
+            "#7a1414",
+            "#c23a32"
+          ],
+          "texture": "dot",
+          "count": 16,
+          "size": 0.4,
+          "sizeEnd": 0.2,
+          "spin": 0,
+          "speed": 8
+        },
+        {
+          "effect": "smoke",
+          "when": "launch",
+          "colors": [
+            "#7a1414",
+            "#c23a32"
+          ],
+          "duration": 0.4,
+          "rate": 14,
+          "lifetime": 0.9,
+          "sizeEnd": 3.5,
+          "opacity": 0.3
+        }
       ]
     },
     {
@@ -1308,6 +1721,34 @@
       "animation": "pray",
       "tags": [
         "oath"
+      ],
+      "visuals": [
+        {
+          "effect": "smoke",
+          "when": "launch",
+          "colors": [
+            "#4a3a52",
+            "#8d7a96"
+          ],
+          "duration": 0.8,
+          "rate": 14,
+          "lifetime": 1.2,
+          "sizeEnd": 5,
+          "opacity": 0.4,
+          "radius": 1.5
+        },
+        {
+          "effect": "motes",
+          "when": "launch",
+          "colors": [
+            "#4a3a52",
+            "#8d7a96"
+          ],
+          "duration": 0.7,
+          "rate": 12,
+          "radius": 2,
+          "lifetime": 0.9
+        }
       ]
     },
     {
@@ -1351,7 +1792,32 @@
         "rotation",
         "spec"
       ],
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "shockwave",
+          "when": "impact",
+          "colors": [
+            "#9aa4ad",
+            "#ffffff"
+          ],
+          "at": "chest",
+          "facing": "camera",
+          "sizeEnd": 5,
+          "lifetime": 0.25
+        },
+        {
+          "effect": "sparks",
+          "when": "impact",
+          "colors": [
+            "#9aa4ad",
+            "#ffffff"
+          ],
+          "count": 28,
+          "scale": 0.8,
+          "stretch": 0.6
+        }
+      ]
     },
     {
       "id": "chalbb9d",
@@ -1370,7 +1836,32 @@
       "range": 30,
       "cooldown": 8,
       "gcd": 0,
-      "animation": "shout"
+      "animation": "shout",
+      "visuals": [
+        {
+          "effect": "shockwave",
+          "when": "launch",
+          "colors": [
+            "#c9481c",
+            "#ffcf70"
+          ],
+          "at": "chest",
+          "facing": "camera",
+          "sizeEnd": 10,
+          "lifetime": 0.35,
+          "opacity": 0.6
+        },
+        {
+          "effect": "flare",
+          "when": "impact",
+          "colors": [
+            "#c9481c",
+            "#ffcf70"
+          ],
+          "scale": 0.5,
+          "opacity": 0.5
+        }
+      ]
     },
     {
       "id": "hold9286",
@@ -1402,7 +1893,38 @@
         "rotation",
         "spec"
       ],
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "shockwave",
+          "when": "impact",
+          "sizeEnd": 24,
+          "lifetime": 0.5
+        },
+        {
+          "effect": "smoke",
+          "when": "impact",
+          "colors": [
+            "#6e6455",
+            "#a39782"
+          ],
+          "duration": 0.3,
+          "rate": 40,
+          "radius": 4,
+          "lifetime": 1,
+          "sizeEnd": 5,
+          "opacity": 0.35
+        },
+        {
+          "effect": "sparks",
+          "when": "impact",
+          "at": "feet",
+          "count": 30,
+          "spread": 70,
+          "speed": 18,
+          "stretch": 0.6
+        }
+      ]
     },
     {
       "id": "stan57bb",
@@ -1421,7 +1943,26 @@
       "range": 40,
       "cooldown": 90,
       "gcd": 0,
-      "animation": "castOnAlly"
+      "animation": "castOnAlly",
+      "visuals": [
+        {
+          "effect": "beam",
+          "when": "launch",
+          "colors": [
+            "#d9b65c",
+            "#fff0b8"
+          ],
+          "on": "target"
+        },
+        {
+          "effect": "shield",
+          "when": "impact",
+          "colors": [
+            "#d9b65c",
+            "#fff0b8"
+          ]
+        }
+      ]
     },
     {
       "id": "reck366e",
@@ -1466,7 +2007,34 @@
         "rotation",
         "spec"
       ],
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "motes",
+          "when": "cast",
+          "duration": "cast",
+          "radius": 1.5,
+          "rate": 40,
+          "lifetime": 0.6,
+          "at": "chest"
+        },
+        {
+          "effect": "flare",
+          "when": "impact",
+          "opacity": 0.5
+        },
+        {
+          "effect": "sparks",
+          "when": "impact",
+          "stretch": 0.6,
+          "count": 60
+        },
+        {
+          "effect": "shockwave",
+          "when": "impact",
+          "sizeEnd": 10
+        }
+      ]
     },
     {
       "id": "radi47b4",
@@ -1498,7 +2066,24 @@
         "rotation",
         "spec"
       ],
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "slash",
+          "when": "impact",
+          "scale": 2
+        },
+        {
+          "effect": "sparks",
+          "when": "impact",
+          "direction": "forward",
+          "spread": 120,
+          "count": 45,
+          "speed": 30,
+          "gravity": 20,
+          "stretch": 0.8
+        }
+      ]
     },
     {
       "id": "last6d90",
@@ -1539,7 +2124,36 @@
         "spec",
         "spender"
       ],
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "flare",
+          "when": "impact",
+          "scale": 1.2,
+          "opacity": 0.6
+        },
+        {
+          "effect": "sparks",
+          "when": "impact",
+          "count": 80,
+          "stretch": 0.7
+        },
+        {
+          "effect": "shards",
+          "when": "impact",
+          "colors": [
+            "#e8d9a0",
+            "#fff6d0"
+          ],
+          "count": 20,
+          "blend": "glow"
+        },
+        {
+          "effect": "shockwave",
+          "when": "impact",
+          "sizeEnd": 14
+        }
+      ]
     },
     {
       "id": "anoi0917",
@@ -1559,7 +2173,33 @@
       "school": "holy",
       "cooldown": 60,
       "animation": "castOnAlly",
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "motes",
+          "when": "impact",
+          "colors": [
+            "#e8d9a0",
+            "#fff6d0"
+          ],
+          "duration": 0.7,
+          "rate": 26,
+          "gravity": 5,
+          "radius": 1,
+          "at": "chest",
+          "lifetime": 0.7
+        },
+        {
+          "effect": "flare",
+          "when": "impact",
+          "colors": [
+            "#e8d9a0",
+            "#fff6d0"
+          ],
+          "scale": 0.5,
+          "opacity": 0.35
+        }
+      ]
     },
     {
       "id": "lacea1b4",
@@ -1607,7 +2247,23 @@
         "rotation",
         "spec"
       ],
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "shards",
+          "when": "impact",
+          "colors": [
+            "#7a1414",
+            "#c23a32"
+          ],
+          "texture": "dot",
+          "count": 20,
+          "size": 0.45,
+          "sizeEnd": 0.2,
+          "spin": 0,
+          "speed": 16
+        }
+      ]
     },
     {
       "id": "flayc973",
@@ -1666,7 +2322,37 @@
         "spec",
         "spender"
       ],
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "shards",
+          "when": "impact",
+          "colors": [
+            "#7a1414",
+            "#c23a32"
+          ],
+          "texture": "dot",
+          "count": 34,
+          "size": 0.5,
+          "sizeEnd": 0.2,
+          "spin": 0,
+          "speed": 20
+        },
+        {
+          "effect": "motes",
+          "when": "impact",
+          "on": "caster",
+          "colors": [
+            "#7a1414",
+            "#c23a32"
+          ],
+          "duration": 0.5,
+          "rate": 24,
+          "radius": 1.2,
+          "at": "chest",
+          "lifetime": 0.6
+        }
+      ]
     },
     {
       "id": "redh2fa6",
@@ -1703,7 +2389,35 @@
         "rotation",
         "spec"
       ],
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "shards",
+          "when": "impact",
+          "colors": [
+            "#7a1414",
+            "#c23a32"
+          ],
+          "texture": "dot",
+          "count": 45,
+          "radius": 3,
+          "size": 0.5,
+          "sizeEnd": 0.2,
+          "spin": 0,
+          "speed": 22,
+          "spread": 120
+        },
+        {
+          "effect": "shockwave",
+          "when": "impact",
+          "colors": [
+            "#7a1414",
+            "#c23a32"
+          ],
+          "sizeEnd": 24,
+          "lifetime": 0.4
+        }
+      ]
     },
     {
       "id": "tran5998",
@@ -1731,7 +2445,42 @@
       "range": 40,
       "cooldown": 45,
       "animation": "castOnAlly",
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "beam",
+          "when": "launch",
+          "colors": [
+            "#7a1414",
+            "#c23a32"
+          ],
+          "on": "target"
+        },
+        {
+          "effect": "embers",
+          "when": "launch",
+          "colors": [
+            "#7a1414",
+            "#c23a32"
+          ],
+          "duration": 0.3,
+          "rate": 30,
+          "lifetime": 0.5
+        },
+        {
+          "effect": "motes",
+          "when": "impact",
+          "colors": [
+            "#e8d9a0",
+            "#fff6d0"
+          ],
+          "duration": 0.6,
+          "rate": 26,
+          "radius": 1.5,
+          "at": "chest",
+          "lifetime": 0.7
+        }
+      ]
     },
     {
       "id": "bastcc2b",
@@ -1749,7 +2498,42 @@
       ],
       "cooldown": 180,
       "gcd": 0,
-      "animation": "castSelf"
+      "animation": "castSelf",
+      "visuals": [
+        {
+          "effect": "shield",
+          "when": "launch",
+          "colors": [
+            "#d9b65c",
+            "#fff0b8"
+          ],
+          "scale": 1.5
+        },
+        {
+          "effect": "shockwave",
+          "when": "launch",
+          "colors": [
+            "#d9b65c",
+            "#fff0b8"
+          ],
+          "sizeEnd": 14,
+          "lifetime": 0.5
+        },
+        {
+          "effect": "smoke",
+          "when": "launch",
+          "colors": [
+            "#6e6455",
+            "#a39782"
+          ],
+          "duration": 0.3,
+          "rate": 40,
+          "radius": 3,
+          "lifetime": 1,
+          "sizeEnd": 5,
+          "opacity": 0.35
+        }
+      ]
     },
     {
       "id": "bleea33e",
@@ -1781,7 +2565,38 @@
         }
       ],
       "animation": "stab",
-      "gcd": 1.5
+      "gcd": 1.5,
+      "visuals": [
+        {
+          "effect": "shards",
+          "when": "impact",
+          "colors": [
+            "#7a1414",
+            "#c23a32"
+          ],
+          "texture": "dot",
+          "count": 45,
+          "size": 0.55,
+          "sizeEnd": 0.2,
+          "spin": 0,
+          "speed": 18
+        },
+        {
+          "effect": "smoke",
+          "when": "impact",
+          "colors": [
+            "#7a1414",
+            "#c23a32"
+          ],
+          "duration": 0.3,
+          "rate": 30,
+          "at": "chest",
+          "lifetime": 0.8,
+          "sizeEnd": 4,
+          "opacity": 0.4,
+          "gravity": 2
+        }
+      ]
     }
   ],
   "statuses": [
