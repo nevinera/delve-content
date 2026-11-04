@@ -1545,7 +1545,7 @@
       "id": "anoi0917",
       "name": "Anoint",
       "description": "For 12 s, an ally deals 10% more damage and healing.",
-      "icon": "holy-symbol",
+      "icon": "anointing-oil",
       "level": 16,
       "target": "ally",
       "effects": [
