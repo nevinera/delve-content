@@ -325,7 +325,7 @@
       "name": "Tend",
       "description": "Spends Conviction to heal you or an ally.",
       "icon": "healing",
-      "level": 3,
+      "level": 2,
       "target": "ally",
       "effects": [
         {
@@ -463,7 +463,7 @@
       "name": "Reproach",
       "description": "A free strike on a short cooldown.",
       "icon": "sun-spear",
-      "level": 6,
+      "level": 4,
       "target": "enemy",
       "effects": [
         {
@@ -504,7 +504,7 @@
       "name": "Hush",
       "description": "A melee interrupt.",
       "icon": "silenced",
-      "level": 7,
+      "level": 8,
       "target": "enemy",
       "effects": [
         {
@@ -594,7 +594,7 @@
       "name": "Absolve",
       "description": "Removes a poison or disease from you or an ally.",
       "icon": "holy-water",
-      "level": 9,
+      "level": 10,
       "target": "ally",
       "effects": [
         {
@@ -640,7 +640,7 @@
       "name": "Vigil",
       "description": "Swear this oath, or use it again to end it. You earn Conviction 50% faster over time, and your max Conviction is 4 lower.",
       "icon": "candle-holder",
-      "level": 5,
+      "level": 6,
       "target": "self",
       "effects": [
         {
@@ -971,7 +971,7 @@
       "name": "Patience",
       "description": "Swear this oath, or use it again to end it. Blocks and parries earn 1 more Conviction, and you deal 10% less damage.",
       "icon": "hourglass",
-      "level": 18,
+      "level": 20,
       "target": "self",
       "effects": [
         {
@@ -1313,7 +1313,7 @@
       "name": "Severity",
       "description": "Swear this oath, or use it again to end it. Your spenders hit 20% harder and cost 1 more Conviction.",
       "icon": "spiked-halo",
-      "level": 18,
+      "level": 20,
       "target": "self",
       "effects": [
         {
@@ -1645,7 +1645,7 @@
       "name": "Solitude",
       "description": "Swear this oath, or use it again to end it. You heal for 8% of the damage you deal, and healing on you is 25% weaker.",
       "icon": "hood",
-      "level": 18,
+      "level": 20,
       "target": "self",
       "effects": [
         {
@@ -1756,7 +1756,7 @@
       "name": "Shield Bash",
       "description": "A shield strike that earns extra threat and heals you for 3% of your health.",
       "icon": "shield-bash",
-      "level": 10,
+      "level": 12,
       "target": "enemy",
       "effects": [
         {
@@ -1868,7 +1868,7 @@
       "name": "Hold Ground",
       "description": "Hits enemies around you and earns extra threat.",
       "icon": "quake-stomp",
-      "level": 12,
+      "level": 16,
       "target": "none",
       "effects": [
         {
@@ -1931,7 +1931,7 @@
       "name": "Stand Between",
       "description": "For 6 s, a nearby ally takes half damage and you take the other half.",
       "icon": "cross-shield",
-      "level": 16,
+      "level": 18,
       "target": "ally",
       "effects": [
         {
@@ -2160,7 +2160,7 @@
       "name": "Anoint",
       "description": "For 12 s, an ally deals 10% more damage and healing.",
       "icon": "anointing-oil",
-      "level": 16,
+      "level": 18,
       "target": "ally",
       "effects": [
         {
@@ -2424,7 +2424,7 @@
       "name": "Transfuse",
       "description": "Costs you 10% of your health and heals an ally for 20% of theirs.",
       "icon": "heart-bottle",
-      "level": 16,
+      "level": 18,
       "target": "ally",
       "effects": [
         {
