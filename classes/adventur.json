@@ -203,7 +203,33 @@
         "rotation"
       ],
       "gcd": 1,
-      "gcdHasted": false
+      "gcdHasted": false,
+      "visuals": [
+        {
+          "effect": "flare",
+          "when": "impact",
+          "colors": [
+            "#e0c080",
+            "#ffffff"
+          ],
+          "scale": 0.3,
+          "opacity": 0.5
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "whoosh",
+          "when": "cast",
+          "volume": 0.15,
+          "pitchVariation": 0.1
+        },
+        {
+          "sound": "hit-soft",
+          "when": "impact",
+          "volume": 0.2,
+          "pitchVariation": 0.1
+        }
+      ]
     },
     {
       "id": "wallpadv",
@@ -242,7 +268,46 @@
         "rotation"
       ],
       "gcd": 1,
-      "gcdHasted": false
+      "gcdHasted": false,
+      "visuals": [
+        {
+          "effect": "shockwave",
+          "when": "impact",
+          "colors": [
+            "#7a5a34",
+            "#e0c080"
+          ],
+          "at": "chest",
+          "facing": "camera",
+          "sizeEnd": 6,
+          "lifetime": 0.3,
+          "opacity": 0.6
+        },
+        {
+          "effect": "flare",
+          "when": "impact",
+          "colors": [
+            "#e0c080",
+            "#ffffff"
+          ],
+          "scale": 0.45,
+          "opacity": 0.5
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "whoosh",
+          "when": "cast",
+          "volume": 0.2,
+          "pitchVariation": 0.1
+        },
+        {
+          "sound": "impact",
+          "when": "impact",
+          "volume": 0.25,
+          "pitchVariation": 0.1
+        }
+      ]
     },
     {
       "id": "haymkadv",
@@ -281,7 +346,48 @@
         "burst"
       ],
       "gcd": 1,
-      "gcdHasted": false
+      "gcdHasted": false,
+      "visuals": [
+        {
+          "effect": "shockwave",
+          "when": "impact",
+          "colors": [
+            "#7a5a34",
+            "#e0c080"
+          ],
+          "at": "chest",
+          "facing": "camera",
+          "sizeEnd": 9,
+          "lifetime": 0.35,
+          "opacity": 0.7
+        },
+        {
+          "effect": "sparks",
+          "when": "impact",
+          "colors": [
+            "#e0c080",
+            "#fff2c0"
+          ],
+          "count": 14,
+          "scale": 0.6
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "whoosh",
+          "when": "cast",
+          "volume": 0.2,
+          "pitchVariation": 0.1,
+          "pitch": 0.85
+        },
+        {
+          "sound": "impact",
+          "when": "impact",
+          "volume": 0.3,
+          "pitchVariation": 0.1,
+          "pitch": 0.8
+        }
+      ]
     },
     {
       "id": "patchadv",
@@ -315,7 +421,31 @@
         "heal"
       ],
       "gcd": 1,
-      "gcdHasted": false
+      "gcdHasted": false,
+      "visuals": [
+        {
+          "effect": "motes",
+          "when": "cast",
+          "on": "caster",
+          "colors": [
+            "#5fbf5a",
+            "#e8ffd8"
+          ],
+          "duration": 0.8,
+          "rate": 20,
+          "radius": 1.2,
+          "gravity": -2,
+          "lifetime": 1
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "heal",
+          "when": "cast",
+          "volume": 0.15,
+          "pitchVariation": 0.1
+        }
+      ]
     },
     {
       "id": "hustladv",
@@ -357,7 +487,31 @@
           ]
         }
       ],
-      "animation": "none"
+      "animation": "none",
+      "visuals": [
+        {
+          "effect": "smoke",
+          "when": "cast",
+          "on": "caster",
+          "colors": [
+            "#7a5a34",
+            "#e0c080"
+          ],
+          "count": 10,
+          "scale": 0.5,
+          "opacity": 0.4,
+          "at": "feet"
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "whoosh",
+          "when": "cast",
+          "volume": 0.12,
+          "pitchVariation": 0.1,
+          "pitch": 1.2
+        }
+      ]
     },
     {
       "id": "swindadv",
@@ -380,6 +534,48 @@
       "animation": "shout",
       "tags": [
         "heal"
+      ],
+      "visuals": [
+        {
+          "effect": "glow",
+          "when": "cast",
+          "on": "caster",
+          "colors": [
+            "#5fbf5a",
+            "#e8ffd8"
+          ],
+          "scale": 1.2,
+          "opacity": 0.5
+        },
+        {
+          "effect": "motes",
+          "when": "cast",
+          "on": "caster",
+          "colors": [
+            "#5fbf5a",
+            "#e8ffd8"
+          ],
+          "duration": 0.6,
+          "rate": 36,
+          "radius": 1.5,
+          "gravity": -3,
+          "lifetime": 1.2
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "heal",
+          "when": "cast",
+          "volume": 0.2,
+          "pitchVariation": 0.1
+        },
+        {
+          "sound": "shimmer",
+          "when": "cast",
+          "volume": 0.1,
+          "pitchVariation": 0.1,
+          "delay": 0.15
+        }
       ]
     },
     {
@@ -405,7 +601,40 @@
           "lockout": 3
         }
       ],
-      "animation": "punch"
+      "animation": "punch",
+      "visuals": [
+        {
+          "effect": "shockwave",
+          "when": "impact",
+          "colors": [
+            "#9aa4ad",
+            "#eef6ff"
+          ],
+          "at": "chest",
+          "facing": "camera",
+          "sizeEnd": 5,
+          "lifetime": 0.3
+        },
+        {
+          "effect": "shards",
+          "when": "impact",
+          "colors": [
+            "#9aa4ad",
+            "#eef6ff"
+          ],
+          "count": 6,
+          "scale": 0.4
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "hit-soft",
+          "when": "impact",
+          "volume": 0.25,
+          "pitchVariation": 0.1,
+          "pitch": 1.15
+        }
+      ]
     },
     {
       "id": "gobrkadv",
@@ -426,6 +655,40 @@
       "animation": "shout",
       "tags": [
         "burst"
+      ],
+      "visuals": [
+        {
+          "effect": "flare",
+          "when": "cast",
+          "on": "caster",
+          "colors": [
+            "#b02a1a",
+            "#ffb070"
+          ],
+          "scale": 0.8,
+          "opacity": 0.5
+        },
+        {
+          "effect": "embers",
+          "when": "cast",
+          "on": "caster",
+          "colors": [
+            "#b02a1a",
+            "#ffb070"
+          ],
+          "duration": 1,
+          "rate": 30,
+          "radius": 1
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "shout",
+          "when": "cast",
+          "volume": 0.18,
+          "pitchVariation": 0.1,
+          "pitch": 0.9
+        }
       ]
     },
     {
@@ -465,7 +728,34 @@
         "rotation"
       ],
       "gcd": 1,
-      "gcdHasted": false
+      "gcdHasted": false,
+      "visuals": [
+        {
+          "effect": "flare",
+          "when": "impact",
+          "colors": [
+            "#e0c080",
+            "#ffffff"
+          ],
+          "scale": 0.35,
+          "opacity": 0.5
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "whoosh",
+          "when": "cast",
+          "volume": 0.15,
+          "pitchVariation": 0.1
+        },
+        {
+          "sound": "hit-soft",
+          "when": "impact",
+          "volume": 0.22,
+          "pitchVariation": 0.1,
+          "pitch": 0.9
+        }
+      ]
     },
     {
       "id": "gut00adv",
@@ -500,7 +790,38 @@
         "rotation"
       ],
       "gcd": 1,
-      "gcdHasted": false
+      "gcdHasted": false,
+      "visuals": [
+        {
+          "effect": "slash",
+          "when": "impact",
+          "colors": [
+            "#b02a1a",
+            "#ff8070"
+          ],
+          "scale": 0.8,
+          "opacity": 0.7
+        },
+        {
+          "effect": "sparks",
+          "when": "impact",
+          "colors": [
+            "#b02a1a",
+            "#ff8070"
+          ],
+          "count": 10,
+          "scale": 0.4,
+          "gravity": 20
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "slash",
+          "when": "impact",
+          "volume": 0.22,
+          "pitchVariation": 0.1
+        }
+      ]
     },
     {
       "id": "oi000adv",
@@ -519,7 +840,41 @@
           "duration": 3
         }
       ],
-      "animation": "shout"
+      "animation": "shout",
+      "visuals": [
+        {
+          "effect": "shockwave",
+          "when": "launch",
+          "on": "caster",
+          "colors": [
+            "#7a5a34",
+            "#e0c080"
+          ],
+          "at": "chest",
+          "facing": "camera",
+          "sizeEnd": 10,
+          "lifetime": 0.35,
+          "opacity": 0.5
+        },
+        {
+          "effect": "flare",
+          "when": "impact",
+          "colors": [
+            "#7a5a34",
+            "#e0c080"
+          ],
+          "scale": 0.4,
+          "opacity": 0.4
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "shout",
+          "when": "cast",
+          "volume": 0.2,
+          "pitchVariation": 0.1
+        }
+      ]
     },
     {
       "id": "bracadv0",
@@ -553,7 +908,29 @@
         "defensive"
       ],
       "gcd": 1,
-      "gcdHasted": false
+      "gcdHasted": false,
+      "visuals": [
+        {
+          "effect": "shield",
+          "when": "cast",
+          "on": "caster",
+          "colors": [
+            "#7a5a34",
+            "#e0c080"
+          ],
+          "scale": 1,
+          "opacity": 0.4,
+          "duration": 0.8
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "block",
+          "when": "cast",
+          "volume": 0.18,
+          "pitchVariation": 0.1
+        }
+      ]
     },
     {
       "id": "diginadv",
@@ -574,6 +951,48 @@
       "animation": "shout",
       "tags": [
         "defensive"
+      ],
+      "visuals": [
+        {
+          "effect": "shield",
+          "when": "cast",
+          "on": "caster",
+          "colors": [
+            "#9aa4ad",
+            "#e0c080"
+          ],
+          "scale": 1.2,
+          "opacity": 0.5,
+          "duration": 1
+        },
+        {
+          "effect": "decal",
+          "when": "cast",
+          "on": "caster",
+          "colors": [
+            "#7a5a34",
+            "#e0c080"
+          ],
+          "radius": 4,
+          "duration": 1,
+          "opacity": 0.5
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "block",
+          "when": "cast",
+          "volume": 0.2,
+          "pitchVariation": 0.1,
+          "pitch": 0.85
+        },
+        {
+          "sound": "impact",
+          "when": "cast",
+          "volume": 0.15,
+          "pitchVariation": 0.1,
+          "pitch": 0.7
+        }
       ]
     }
   ],
@@ -658,7 +1077,16 @@
       "description": "A crit keeps you going: a little healing, less damage taken and more haste.",
       "icon": "strong",
       "duration": 4,
-      "stacking": "replace"
+      "stacking": "replace",
+      "aura": {
+        "effect": "sparks",
+        "colors": [
+          "#e0c080",
+          "#fff2c0"
+        ],
+        "count": 8,
+        "scale": 0.4
+      }
     },
     {
       "id": "smastadv",
