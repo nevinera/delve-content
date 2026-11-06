@@ -1,0 +1,955 @@
+{
+  "id": "adventur",
+  "name": "Adventurer",
+  "description": "A plain fighter who builds setup points and spends them on big hits and healing.",
+  "colors": {
+    "major": "#7a5a34",
+    "minor": "#e0c080"
+  },
+  "primaryStats": [
+    "agility"
+  ],
+  "resources": [
+    {
+      "key": "energy",
+      "name": "Energy",
+      "kind": "energy",
+      "color": "#f0d040"
+    },
+    {
+      "key": "setup",
+      "name": "Setup",
+      "kind": "points",
+      "color": "#e07040",
+      "max": 5,
+      "decay": 0.5
+    }
+  ],
+  "armor": [
+    {
+      "type": "leather",
+      "level": 1
+    }
+  ],
+  "weapons": [
+    "sword",
+    "axe",
+    "mace",
+    "dagger",
+    "fist",
+    "greatsword",
+    "greataxe",
+    "maul",
+    "polearm",
+    "staff",
+    "bow",
+    "crossbow",
+    "gun",
+    "wand",
+    "thrown"
+  ],
+  "offhands": [
+    "sword",
+    "axe",
+    "mace",
+    "dagger",
+    "fist",
+    "shield",
+    "orb"
+  ],
+  "startingGear": {
+    "weapon": "sword",
+    "offhand": "none"
+  },
+  "passives": [
+    {
+      "status": "senrgadv",
+      "level": 4
+    },
+    {
+      "status": "srestadv",
+      "level": 12
+    }
+  ],
+  "mastery": {
+    "name": "Momentum",
+    "description": "Crits give you a moment of healing, toughness and haste.",
+    "status": "smastadv"
+  },
+  "specializations": [
+    {
+      "id": "mean",
+      "name": "Mean",
+      "status": "smeanadv",
+      "description": "Hits hard and crits often.",
+      "abilities": [
+        "gobrkadv",
+        "lowbladv",
+        "gut00adv"
+      ]
+    },
+    {
+      "id": "tough",
+      "name": "Tough",
+      "status": "stougadv",
+      "description": "Takes the hits and keeps enemies on it.",
+      "abilities": [
+        "oi000adv",
+        "bracadv0",
+        "diginadv"
+      ]
+    }
+  ],
+  "talents": {
+    "15": [
+      {
+        "id": "thardadv",
+        "name": "Hard Hitter",
+        "description": "Deal 20% more damage.",
+        "grants": [
+          {
+            "status": "shardadv"
+          }
+        ]
+      },
+      {
+        "id": "tthckadv",
+        "name": "Thick Skin",
+        "description": "Take 20% less damage.",
+        "grants": [
+          {
+            "status": "sthckadv"
+          }
+        ]
+      },
+      {
+        "id": "tfleeadv",
+        "name": "Fleet",
+        "description": "Move 10% faster.",
+        "grants": [
+          {
+            "status": "sfleeadv"
+          }
+        ]
+      }
+    ],
+    "20": [
+      {
+        "id": "tedgeadv",
+        "name": "Edge",
+        "description": "Crits give a setup point.",
+        "grants": [
+          {
+            "status": "sedgeadv"
+          }
+        ]
+      },
+      {
+        "id": "tbigfadv",
+        "name": "Big Finish",
+        "description": "Finishers deal and heal 50% more, and Brace lasts 50% longer.",
+        "grants": [
+          {
+            "status": "sbigfadv"
+          }
+        ]
+      },
+      {
+        "id": "tbledadv",
+        "name": "Open Wounds",
+        "description": "Crits make the target bleed.",
+        "grants": [
+          {
+            "status": "sbledadv"
+          }
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "id": "jab00adv",
+      "name": "Jab",
+      "description": "A quick hit that builds a setup point.",
+      "icon": "punch",
+      "level": 1,
+      "target": "enemy",
+      "range": "melee",
+      "school": "physical",
+      "cost": [
+        {
+          "resource": "energy",
+          "amount": 40
+        }
+      ],
+      "effects": [
+        {
+          "type": "damage",
+          "affects": "target",
+          "amount": {
+            "attackPower": 0.6
+          }
+        },
+        {
+          "type": "resource",
+          "affects": "self",
+          "resource": "setup",
+          "amount": 1
+        }
+      ],
+      "animation": "attack",
+      "tags": [
+        "builder",
+        "rotation"
+      ],
+      "gcd": 1,
+      "gcdHasted": false
+    },
+    {
+      "id": "wallpadv",
+      "name": "Wallop",
+      "description": "A finisher that hits harder for each setup point.",
+      "icon": "punch-blast",
+      "level": 2,
+      "target": "enemy",
+      "range": "melee",
+      "school": "physical",
+      "cost": [
+        {
+          "resource": "energy",
+          "amount": 35
+        },
+        {
+          "resource": "setup",
+          "amount": 1,
+          "all": true
+        }
+      ],
+      "effects": [
+        {
+          "type": "damage",
+          "affects": "target",
+          "amount": {
+            "perSpent": {
+              "attackPower": 0.5
+            }
+          }
+        }
+      ],
+      "animation": "bigAttack",
+      "tags": [
+        "finisher",
+        "rotation"
+      ],
+      "gcd": 1,
+      "gcdHasted": false
+    },
+    {
+      "id": "haymkadv",
+      "name": "Haymaker",
+      "description": "A big hit on a cooldown that builds two setup points.",
+      "icon": "knockout",
+      "level": 4,
+      "target": "enemy",
+      "range": "melee",
+      "school": "physical",
+      "cost": [
+        {
+          "resource": "energy",
+          "amount": 50
+        }
+      ],
+      "cooldown": 45,
+      "effects": [
+        {
+          "type": "damage",
+          "affects": "target",
+          "amount": {
+            "attackPower": 2.5
+          }
+        },
+        {
+          "type": "resource",
+          "affects": "self",
+          "resource": "setup",
+          "amount": 2
+        }
+      ],
+      "animation": "bigAttack",
+      "tags": [
+        "builder",
+        "burst"
+      ],
+      "gcd": 1,
+      "gcdHasted": false
+    },
+    {
+      "id": "patchadv",
+      "name": "Patch Up",
+      "description": "A finisher that heals you over time. Each point heals more and lasts longer, and five at once is best.",
+      "icon": "bandage-roll",
+      "level": 6,
+      "target": "self",
+      "cost": [
+        {
+          "resource": "energy",
+          "amount": 25
+        },
+        {
+          "resource": "setup",
+          "amount": 1,
+          "all": true
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "status": "spatcadv",
+          "durationPerSpent": 2
+        }
+      ],
+      "animation": "castSelf",
+      "tags": [
+        "finisher",
+        "heal"
+      ],
+      "gcd": 1,
+      "gcdHasted": false
+    },
+    {
+      "id": "hustladv",
+      "name": "Hustle",
+      "description": "Move 60% faster out of combat until you take damage. Use it again to stop.",
+      "icon": "sprint",
+      "level": 6,
+      "target": "self",
+      "gcd": 0,
+      "cooldown": 3,
+      "requires": [
+        {
+          "inCombat": false
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "status": "shusladv",
+          "when": [
+            {
+              "not": {
+                "status": "shusladv",
+                "on": "self"
+              }
+            }
+          ]
+        },
+        {
+          "type": "consume",
+          "affects": "self",
+          "status": "shusladv",
+          "when": [
+            {
+              "status": "shusladv",
+              "on": "self"
+            }
+          ]
+        }
+      ],
+      "animation": "none"
+    },
+    {
+      "id": "swindadv",
+      "name": "Second Wind",
+      "description": "Heal half your health.",
+      "icon": "heart-plus",
+      "level": 8,
+      "target": "self",
+      "gcd": 0,
+      "cooldown": 120,
+      "effects": [
+        {
+          "type": "heal",
+          "affects": "self",
+          "amount": {
+            "maxHealth": 0.5
+          }
+        }
+      ],
+      "animation": "shout",
+      "tags": [
+        "heal"
+      ]
+    },
+    {
+      "id": "shutiadv",
+      "name": "Shut It",
+      "description": "A melee interrupt.",
+      "icon": "silenced",
+      "level": 8,
+      "target": "enemy",
+      "range": "melee",
+      "cost": [
+        {
+          "resource": "energy",
+          "amount": 15
+        }
+      ],
+      "gcd": 0,
+      "cooldown": 15,
+      "effects": [
+        {
+          "type": "interrupt",
+          "affects": "target",
+          "lockout": 3
+        }
+      ],
+      "animation": "punch"
+    },
+    {
+      "id": "gobrkadv",
+      "name": "Go For Broke",
+      "description": "For 12 s, energy refills twice as fast and your crits do 50% more.",
+      "icon": "biceps",
+      "level": 10,
+      "target": "self",
+      "gcd": 0,
+      "cooldown": 90,
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "status": "sgobradv"
+        }
+      ],
+      "animation": "shout",
+      "tags": [
+        "burst"
+      ]
+    },
+    {
+      "id": "lowbladv",
+      "name": "Low Blow",
+      "description": "A dirty hit that builds two setup points.",
+      "icon": "boot-kick",
+      "level": 10,
+      "target": "enemy",
+      "range": "melee",
+      "school": "physical",
+      "cost": [
+        {
+          "resource": "energy",
+          "amount": 30
+        }
+      ],
+      "cooldown": 12,
+      "effects": [
+        {
+          "type": "damage",
+          "affects": "target",
+          "amount": {
+            "attackPower": 1.0
+          }
+        },
+        {
+          "type": "resource",
+          "affects": "self",
+          "resource": "setup",
+          "amount": 2
+        }
+      ],
+      "animation": "kick",
+      "tags": [
+        "builder",
+        "rotation"
+      ],
+      "gcd": 1,
+      "gcdHasted": false
+    },
+    {
+      "id": "gut00adv",
+      "name": "Gut",
+      "description": "A finisher that makes the target bleed, more for each setup point.",
+      "icon": "bleeding-wound",
+      "level": 16,
+      "target": "enemy",
+      "range": "melee",
+      "school": "physical",
+      "cost": [
+        {
+          "resource": "energy",
+          "amount": 30
+        },
+        {
+          "resource": "setup",
+          "amount": 1,
+          "all": true
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "target",
+          "status": "sgut0adv"
+        }
+      ],
+      "animation": "stab",
+      "tags": [
+        "finisher",
+        "rotation"
+      ],
+      "gcd": 1,
+      "gcdHasted": false
+    },
+    {
+      "id": "oi000adv",
+      "name": "Oi",
+      "description": "Makes an enemy attack you.",
+      "icon": "screaming",
+      "level": 10,
+      "target": "enemy",
+      "range": 30,
+      "gcd": 0,
+      "cooldown": 8,
+      "effects": [
+        {
+          "type": "taunt",
+          "affects": "target",
+          "duration": 3
+        }
+      ],
+      "animation": "shout"
+    },
+    {
+      "id": "bracadv0",
+      "name": "Brace",
+      "description": "A finisher that cuts the damage you take, more and for longer for each setup point.",
+      "icon": "shield-impact",
+      "level": 10,
+      "target": "self",
+      "cost": [
+        {
+          "resource": "energy",
+          "amount": 25
+        },
+        {
+          "resource": "setup",
+          "amount": 1,
+          "all": true
+        }
+      ],
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "status": "sbracadv",
+          "durationPerSpent": 2
+        }
+      ],
+      "animation": "castSelf",
+      "tags": [
+        "finisher",
+        "defensive"
+      ],
+      "gcd": 1,
+      "gcdHasted": false
+    },
+    {
+      "id": "diginadv",
+      "name": "Dig In",
+      "description": "Take 40% less damage for 8 s.",
+      "icon": "defensive-wall",
+      "level": 16,
+      "target": "self",
+      "gcd": 0,
+      "cooldown": 180,
+      "effects": [
+        {
+          "type": "status",
+          "affects": "self",
+          "status": "sdigiadv"
+        }
+      ],
+      "animation": "shout",
+      "tags": [
+        "defensive"
+      ]
+    }
+  ],
+  "statuses": [
+    {
+      "id": "spatcadv",
+      "name": "Patched Up",
+      "kind": "buff",
+      "effects": [
+        {
+          "type": "periodic",
+          "every": 2,
+          "does": "heal",
+          "amount": {
+            "maxHealth": 0.02
+          }
+        },
+        {
+          "type": "stat",
+          "stat": "healingDone",
+          "statuses": [
+            "spatcadv"
+          ],
+          "multiply": 0.5,
+          "multiplyPerSpent": 0.5
+        }
+      ],
+      "description": "Healing over time.",
+      "icon": "bandage-roll",
+      "duration": 4,
+      "stacking": "replace"
+    },
+    {
+      "id": "shusladv",
+      "name": "Hustling",
+      "kind": "buff",
+      "effects": [
+        {
+          "type": "stat",
+          "stat": "movementSpeed",
+          "multiply": 1.6,
+          "when": [
+            {
+              "inCombat": false
+            }
+          ]
+        }
+      ],
+      "description": "Moving 60% faster. Taking damage ends it.",
+      "icon": "sprint",
+      "breaksOn": [
+        "damage"
+      ]
+    },
+    {
+      "id": "smomeadv",
+      "name": "Momentum",
+      "kind": "buff",
+      "effects": [
+        {
+          "type": "periodic",
+          "every": 1,
+          "does": "heal",
+          "amount": {
+            "maxHealth": 0.005,
+            "byMastery": 2
+          }
+        },
+        {
+          "type": "stat",
+          "stat": "damageTaken",
+          "multiply": 0.95,
+          "mastery": -0.25
+        },
+        {
+          "type": "stat",
+          "stat": "haste",
+          "add": 5,
+          "mastery": 0.5
+        }
+      ],
+      "description": "A crit keeps you going: a little healing, less damage taken and more haste.",
+      "icon": "strong",
+      "duration": 4,
+      "stacking": "replace"
+    },
+    {
+      "id": "smastadv",
+      "name": "Momentum",
+      "kind": "hidden",
+      "effects": [
+        {
+          "type": "trigger",
+          "on": "crit",
+          "effect": {
+            "type": "status",
+            "affects": "self",
+            "status": "smomeadv"
+          }
+        }
+      ]
+    },
+    {
+      "id": "senrgadv",
+      "name": "Quick Breath",
+      "kind": "hidden",
+      "effects": [
+        {
+          "type": "stat",
+          "stat": "resourceRegen",
+          "resource": "energy",
+          "multiply": 1.1
+        }
+      ],
+      "description": "Energy refills 10% faster."
+    },
+    {
+      "id": "srestadv",
+      "name": "Rest Easy",
+      "kind": "hidden",
+      "effects": [
+        {
+          "type": "periodic",
+          "every": 2,
+          "does": "heal",
+          "amount": {
+            "maxHealth": 0.01
+          },
+          "when": [
+            {
+              "inCombat": false
+            }
+          ]
+        }
+      ],
+      "description": "Out of combat, heal 1% of your health every 2 s."
+    },
+    {
+      "id": "sgobradv",
+      "name": "Going For Broke",
+      "kind": "buff",
+      "effects": [
+        {
+          "type": "stat",
+          "stat": "resourceRegen",
+          "resource": "energy",
+          "multiply": 2
+        },
+        {
+          "type": "stat",
+          "stat": "critDamage",
+          "add": 50
+        }
+      ],
+      "description": "Energy refills twice as fast and crits do 50% more.",
+      "icon": "biceps",
+      "duration": 12
+    },
+    {
+      "id": "sgut0adv",
+      "name": "Gutted",
+      "kind": "debuff",
+      "effects": [
+        {
+          "type": "periodic",
+          "every": 2,
+          "does": "damage",
+          "school": "physical",
+          "category": "bleed",
+          "amount": {
+            "perSpent": {
+              "attackPower": 0.4
+            }
+          }
+        }
+      ],
+      "description": "Bleeding.",
+      "icon": "bleeding-wound",
+      "duration": 12,
+      "stacking": "replace"
+    },
+    {
+      "id": "sbracadv",
+      "name": "Braced",
+      "kind": "buff",
+      "effects": [
+        {
+          "type": "stat",
+          "stat": "damageTaken",
+          "multiply": 1,
+          "multiplyPerSpent": -0.05
+        }
+      ],
+      "description": "Taking less damage.",
+      "icon": "shield-impact",
+      "duration": 2,
+      "stacking": "replace"
+    },
+    {
+      "id": "sdigiadv",
+      "name": "Dug In",
+      "kind": "buff",
+      "effects": [
+        {
+          "type": "stat",
+          "stat": "damageTaken",
+          "multiply": 0.6
+        }
+      ],
+      "description": "You take 40% less damage.",
+      "icon": "defensive-wall",
+      "duration": 8
+    },
+    {
+      "id": "smeanadv",
+      "name": "Mean",
+      "kind": "hidden",
+      "effects": [
+        {
+          "type": "stat",
+          "stat": "critChance",
+          "add": 10
+        }
+      ]
+    },
+    {
+      "id": "stougadv",
+      "name": "Tough",
+      "kind": "hidden",
+      "effects": [
+        {
+          "type": "stat",
+          "stat": "armor",
+          "multiply": 1.5
+        },
+        {
+          "type": "stat",
+          "stat": "threat",
+          "multiply": 2
+        },
+        {
+          "type": "stat",
+          "stat": "threat",
+          "multiply": 2,
+          "abilities": [
+            "jab00adv"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shardadv",
+      "name": "Hard Hitter",
+      "kind": "hidden",
+      "effects": [
+        {
+          "type": "stat",
+          "stat": "damageDone",
+          "multiply": 1.2
+        }
+      ]
+    },
+    {
+      "id": "sthckadv",
+      "name": "Thick Skin",
+      "kind": "hidden",
+      "effects": [
+        {
+          "type": "stat",
+          "stat": "damageTaken",
+          "multiply": 0.8
+        }
+      ]
+    },
+    {
+      "id": "sfleeadv",
+      "name": "Fleet",
+      "kind": "hidden",
+      "effects": [
+        {
+          "type": "stat",
+          "stat": "movementSpeed",
+          "multiply": 1.1
+        }
+      ]
+    },
+    {
+      "id": "sedgeadv",
+      "name": "Edge",
+      "kind": "hidden",
+      "effects": [
+        {
+          "type": "trigger",
+          "on": "crit",
+          "effect": {
+            "type": "resource",
+            "affects": "self",
+            "resource": "setup",
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "sbigfadv",
+      "name": "Big Finish",
+      "kind": "hidden",
+      "effects": [
+        {
+          "type": "stat",
+          "stat": "damageDone",
+          "tag": "finisher",
+          "multiply": 1.5
+        },
+        {
+          "type": "stat",
+          "stat": "damageDone",
+          "statuses": [
+            "sgut0adv"
+          ],
+          "multiply": 1.5
+        },
+        {
+          "type": "stat",
+          "stat": "healingDone",
+          "statuses": [
+            "spatcadv"
+          ],
+          "multiply": 1.5
+        },
+        {
+          "type": "modify",
+          "statuses": [
+            "sbracadv"
+          ],
+          "change": "duration",
+          "multiply": 1.5
+        }
+      ]
+    },
+    {
+      "id": "sbledadv",
+      "name": "Open Wounds",
+      "kind": "hidden",
+      "effects": [
+        {
+          "type": "trigger",
+          "on": "crit",
+          "effect": {
+            "type": "status",
+            "affects": "target",
+            "status": "sopenadv"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sopenadv",
+      "name": "Bleeding",
+      "kind": "debuff",
+      "effects": [
+        {
+          "type": "periodic",
+          "every": 2,
+          "does": "damage",
+          "school": "physical",
+          "category": "bleed",
+          "amount": {
+            "attackPower": 0.1
+          }
+        }
+      ],
+      "description": "Bleeding.",
+      "icon": "open-wound",
+      "duration": 6,
+      "stacking": "refresh"
+    }
+  ]
+}
