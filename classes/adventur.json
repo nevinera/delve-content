@@ -187,7 +187,7 @@
           "type": "damage",
           "affects": "target",
           "amount": {
-            "attackPower": 0.6
+            "attackPower": 0.27
           }
         },
         {
@@ -257,7 +257,7 @@
           "affects": "target",
           "amount": {
             "perSpent": {
-              "attackPower": 0.5
+              "attackPower": 0.225
             }
           }
         }
@@ -330,7 +330,7 @@
           "type": "damage",
           "affects": "target",
           "amount": {
-            "attackPower": 2.5
+            "attackPower": 1.125
           }
         },
         {
@@ -712,7 +712,7 @@
           "type": "damage",
           "affects": "target",
           "amount": {
-            "attackPower": 1.0
+            "attackPower": 0.45
           }
         },
         {
@@ -1173,7 +1173,7 @@
           "category": "bleed",
           "amount": {
             "perSpent": {
-              "attackPower": 0.4
+              "attackPower": 0.18
             }
           }
         }
@@ -1370,7 +1370,7 @@
           "school": "physical",
           "category": "bleed",
           "amount": {
-            "attackPower": 0.1
+            "attackPower": 0.045
           }
         }
       ],

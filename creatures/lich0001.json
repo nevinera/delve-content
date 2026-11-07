@@ -28,5 +28,8 @@
   },
   "tags": [
     "caster"
-  ]
+  ],
+  "health": 0.85,
+  "armor": 0.85,
+  "damage": 0.73
 }
