@@ -1,0 +1,111 @@
+{
+ "version": 1,
+ "regions": [],
+ "placed": [
+  {
+   "id": "gob00001",
+   "creature": "gobl0001",
+   "at": [
+    5556.0,
+    0,
+    -7022.7
+   ],
+   "yaw": 190,
+   "levels": 1,
+   "respawn": 180
+  },
+  {
+   "id": "gob00002",
+   "creature": "gobl0001",
+   "at": [
+    5597.3,
+    0,
+    -7032.6
+   ],
+   "yaw": 235,
+   "levels": [
+    1,
+    2
+   ],
+   "respawn": 180
+  },
+  {
+   "id": "gob00003",
+   "creature": "gobl0001",
+   "at": [
+    5627.0,
+    0,
+    -7080.9
+   ],
+   "yaw": 280,
+   "levels": 2,
+   "respawn": 180
+  },
+  {
+   "id": "gob00004",
+   "creature": "gobl0001",
+   "at": [
+    5573.2,
+    0,
+    -7110.3
+   ],
+   "yaw": 330,
+   "levels": [
+    2,
+    3
+   ],
+   "respawn": 180
+  },
+  {
+   "id": "gob00005",
+   "creature": "gobl0001",
+   "at": [
+    5524.3,
+    0,
+    -7132.8
+   ],
+   "yaw": 20,
+   "levels": 1,
+   "respawn": 180
+  },
+  {
+   "id": "gob00006",
+   "creature": "gobl0001",
+   "at": [
+    5466.6,
+    0,
+    -7105.0
+   ],
+   "yaw": 65,
+   "levels": [
+    1,
+    2
+   ],
+   "respawn": 180
+  },
+  {
+   "id": "gob00007",
+   "creature": "gobl0001",
+   "at": [
+    5496.5,
+    0,
+    -7048.2
+   ],
+   "yaw": 110,
+   "levels": 3,
+   "respawn": 180
+  },
+  {
+   "id": "gob00008",
+   "creature": "gobl0001",
+   "at": [
+    5516.5,
+    0,
+    -6999.0
+   ],
+   "yaw": 155,
+   "levels": 2,
+   "respawn": 180
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "gobl0001",
+  "name": "Goblin",
+  "family": "goblins",
+  "creatureType": "humanoid",
+  "look": { "body": "goblin" },
+  "reaction": "hostile",
+  "attack": { "speed": 2 }
+}
