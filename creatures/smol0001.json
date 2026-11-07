@@ -45,5 +45,9 @@
   ],
   "tags": [
     "melee"
-  ]
+  ],
+  "resists": {
+    "fire": 75,
+    "frost": -25
+  }
 }

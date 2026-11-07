@@ -28,5 +28,10 @@
   ],
   "health": 0.85,
   "damage": 1.05,
-  "armor": 0.3
+  "armor": 0.5,
+  "resists": {
+    "physical": 25,
+    "shadow": 50,
+    "holy": -50
+  }
 }

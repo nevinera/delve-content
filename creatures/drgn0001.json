@@ -18,5 +18,8 @@
   ],
   "tags": [
     "melee"
-  ]
+  ],
+  "resists": {
+    "fire": 25
+  }
 }
