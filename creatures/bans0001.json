@@ -8,7 +8,7 @@
   },
   "reaction": "hostile",
   "attack": {
-    "speed": 2.5,
+    "speed": 2.0,
     "range": 30,
     "school": "shadow"
   },
@@ -25,5 +25,8 @@
   },
   "tags": [
     "caster"
-  ]
+  ],
+  "health": 0.85,
+  "damage": 1.05,
+  "armor": 0.3
 }

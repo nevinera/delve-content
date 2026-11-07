@@ -8,12 +8,15 @@
   },
   "reaction": "hostile",
   "attack": {
-    "speed": 2
+    "speed": 1.6
   },
   "abilities": [
     "beast/bite"
   ],
   "tags": [
     "melee"
-  ]
+  ],
+  "health": 0.7,
+  "damage": 1.1,
+  "armor": 0.6
 }

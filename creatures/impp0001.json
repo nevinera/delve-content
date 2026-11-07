@@ -8,7 +8,7 @@
   },
   "reaction": "hostile",
   "attack": {
-    "speed": 2.5,
+    "speed": 1.6,
     "range": 30,
     "school": "fire"
   },
@@ -17,5 +17,8 @@
   ],
   "tags": [
     "caster"
-  ]
+  ],
+  "health": 0.7,
+  "damage": 1.1,
+  "armor": 0.6
 }

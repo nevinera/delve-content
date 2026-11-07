@@ -24,12 +24,15 @@
   },
   "reaction": "hostile",
   "attack": {
-    "speed": 2
+    "speed": 2.2
   },
   "abilities": [
     "dragonkin/claw"
   ],
   "tags": [
     "melee"
-  ]
+  ],
+  "health": 1.0,
+  "damage": 0.95,
+  "armor": 1.3
 }

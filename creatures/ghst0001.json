@@ -24,12 +24,15 @@
   },
   "reaction": "hostile",
   "attack": {
-    "speed": 2
+    "speed": 2.0
   },
   "abilities": [
     "undead/touch"
   ],
   "tags": [
     "melee"
-  ]
+  ],
+  "health": 0.85,
+  "damage": 1.05,
+  "armor": 0.3
 }
