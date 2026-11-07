@@ -92,7 +92,7 @@
       "id": "tough",
       "name": "Tough",
       "status": "stougadv",
-      "description": "Takes the hits and keeps enemies on it.",
+      "description": "Takes the hits, keeps enemies on it, and has more health.",
       "abilities": [
         "oi000adv",
         "bracadv0",
@@ -1236,6 +1236,11 @@
           "type": "stat",
           "stat": "armor",
           "multiply": 1.5
+        },
+        {
+          "type": "stat",
+          "stat": "maxHealth",
+          "multiply": 1.1
         },
         {
           "type": "stat",
