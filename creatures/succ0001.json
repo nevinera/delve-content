@@ -34,5 +34,9 @@
   ],
   "health": 0.85,
   "damage": 1.15,
-  "armor": 0.85
+  "armor": 0.85,
+  "resists": {
+    "fire": 25,
+    "holy": -25
+  }
 }

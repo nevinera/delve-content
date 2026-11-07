@@ -15,5 +15,9 @@
   ],
   "tags": [
     "melee"
-  ]
+  ],
+  "resists": {
+    "fire": 25,
+    "holy": -25
+  }
 }

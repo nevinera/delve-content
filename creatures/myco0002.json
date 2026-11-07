@@ -45,5 +45,9 @@
   ],
   "health": 0.85,
   "armor": 0.85,
-  "damage": 0.73
+  "damage": 0.73,
+  "resists": {
+    "nature": 25,
+    "fire": -25
+  }
 }

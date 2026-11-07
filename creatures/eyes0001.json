@@ -25,5 +25,9 @@
   },
   "tags": [
     "caster"
-  ]
+  ],
+  "resists": {
+    "fire": 25,
+    "holy": -25
+  }
 }

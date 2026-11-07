@@ -33,5 +33,9 @@
   "tags": [
     "archer"
   ],
-  "armor": 0.92
+  "armor": 0.92,
+  "resists": {
+    "fire": 25,
+    "holy": -25
+  }
 }

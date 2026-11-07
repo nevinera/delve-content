@@ -19,5 +19,9 @@
   ],
   "health": 0.9,
   "damage": 0.95,
-  "armor": 1.7
+  "armor": 1.7,
+  "resists": {
+    "nature": 50,
+    "physical": 10
+  }
 }
