@@ -1,0 +1,20 @@
+{
+  "id": "cind0001",
+  "name": "Cindershaug",
+  "family": "cindershaug",
+  "creatureType": "demon",
+  "look": {
+    "body": "cindershaug"
+  },
+  "classification": "elite",
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "demon/flames"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "pant0001",
+  "name": "Panther",
+  "family": "cats",
+  "creatureType": "beast",
+  "look": {
+    "body": "panther"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/rend"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "tyrs0002",
+  "name": "Tyrshaug Archer",
+  "family": "tyrshaug",
+  "creatureType": "demon",
+  "look": {
+    "body": "tyrshaug",
+    "loadouts": [
+      {
+        "weapon": "bow",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "hands": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30
+  },
+  "abilities": [
+    "shot0001"
+  ],
+  "tags": [
+    "archer"
+  ]
+}

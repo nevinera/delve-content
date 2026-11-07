@@ -1,0 +1,20 @@
+{
+  "id": "gori0001",
+  "name": "Gorilla",
+  "family": "apes",
+  "creatureType": "beast",
+  "look": {
+    "body": "gorilla"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/rend",
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

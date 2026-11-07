@@ -1,0 +1,37 @@
+{
+  "id": "harp0002",
+  "name": "Harpy Windcaller",
+  "family": "harpies",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "harpy",
+    "loadouts": [
+      {
+        "weapon": "none",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "tattered"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "nature"
+  },
+  "abilities": [
+    "ltbl0001"
+  ],
+  "tags": [
+    "caster"
+  ]
+}

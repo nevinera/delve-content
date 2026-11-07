@@ -1,0 +1,35 @@
+{
+  "id": "gnol0002",
+  "name": "Gnoll Spearman",
+  "family": "gnolls",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "gnoll",
+    "loadouts": [
+      {
+        "weapon": "polearm",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

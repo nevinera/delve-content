@@ -1,0 +1,32 @@
+{
+  "id": "lich0001",
+  "name": "Lich",
+  "family": "liches",
+  "creatureType": "undead",
+  "look": {
+    "body": "lich"
+  },
+  "classification": "elite",
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "frost"
+  },
+  "abilities": [
+    "fsbl0001",
+    "undead/bolt",
+    "undead/drain"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "undead/drain",
+      "undead/bolt",
+      "fsbl0001"
+    ]
+  },
+  "tags": [
+    "caster"
+  ]
+}

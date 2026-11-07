@@ -1,0 +1,29 @@
+{
+  "id": "aeri0001",
+  "name": "Aerite",
+  "family": "elementals",
+  "creatureType": "elemental",
+  "look": {
+    "body": "aerite"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "nature"
+  },
+  "abilities": [
+    "ltbl0001",
+    "elemental/pulse"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "elemental/pulse",
+      "ltbl0001"
+    ]
+  },
+  "tags": [
+    "caster"
+  ]
+}

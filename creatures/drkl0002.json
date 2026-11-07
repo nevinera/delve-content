@@ -1,0 +1,35 @@
+{
+  "id": "drkl0002",
+  "name": "Drakel Lancer",
+  "family": "drakel",
+  "creatureType": "dragonkin",
+  "look": {
+    "body": "drakel",
+    "loadouts": [
+      {
+        "weapon": "polearm",
+        "weaponStyle": "fine",
+        "armor": {
+          "chest": {
+            "type": "plate",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "plate",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "dragonkin/claw"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

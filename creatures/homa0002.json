@@ -1,0 +1,21 @@
+{
+  "id": "homa0002",
+  "name": "Homari Tidecaller",
+  "family": "homari",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "homari"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "frost"
+  },
+  "abilities": [
+    "fsbl0001"
+  ],
+  "tags": [
+    "caster"
+  ]
+}

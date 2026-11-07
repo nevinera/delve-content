@@ -1,0 +1,49 @@
+{
+  "id": "taur0001",
+  "name": "Tauros Brave",
+  "family": "tauros",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "tauros",
+    "loadouts": [
+      {
+        "weapon": "greataxe",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      },
+      {
+        "weapon": "maul",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

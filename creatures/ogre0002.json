@@ -1,0 +1,45 @@
+{
+  "id": "ogre0002",
+  "name": "Ogre Mage",
+  "family": "ogres",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "ogre",
+    "loadouts": [
+      {
+        "weapon": "staff",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "tattered"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "fire"
+  },
+  "abilities": [
+    "frbl0001",
+    "fsbl0001"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "fsbl0001",
+      "frbl0001"
+    ]
+  },
+  "tags": [
+    "caster"
+  ]
+}

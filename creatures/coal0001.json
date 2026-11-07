@@ -1,0 +1,19 @@
+{
+  "id": "coal0001",
+  "name": "Coalhound",
+  "family": "coalhounds",
+  "creatureType": "elemental",
+  "look": {
+    "body": "coalhound"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "elemental/pulse"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

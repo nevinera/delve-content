@@ -1,0 +1,53 @@
+{
+  "id": "orcc0001",
+  "name": "Orc Grunt",
+  "family": "orcs",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "orc",
+    "loadouts": [
+      {
+        "weapon": "axe",
+        "weaponStyle": "savage",
+        "offhand": "shield",
+        "offhandStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "plate",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "plate",
+            "style": "savage"
+          }
+        }
+      },
+      {
+        "weapon": "sword",
+        "weaponStyle": "savage",
+        "offhand": "shield",
+        "offhandStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "plate",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "plate",
+            "style": "savage"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

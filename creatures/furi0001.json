@@ -1,0 +1,29 @@
+{
+  "id": "furi0001",
+  "name": "Furite",
+  "family": "elementals",
+  "creatureType": "elemental",
+  "look": {
+    "body": "furite"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "fire"
+  },
+  "abilities": [
+    "elemental/bolt",
+    "elemental/pulse"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "elemental/pulse",
+      "elemental/bolt"
+    ]
+  },
+  "tags": [
+    "caster"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "tigr0001",
+  "name": "Tiger",
+  "family": "cats",
+  "creatureType": "beast",
+  "look": {
+    "body": "tiger"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/rend"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

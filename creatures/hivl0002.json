@@ -1,0 +1,45 @@
+{
+  "id": "hivl0002",
+  "name": "Hivelord Mindcaller",
+  "family": "hive",
+  "creatureType": "aberration",
+  "look": {
+    "body": "hivelord",
+    "loadouts": [
+      {
+        "weapon": "staff",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "savage"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "savage"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "shadow"
+  },
+  "abilities": [
+    "aberration/blast",
+    "aberration/madness"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "aberration/madness",
+      "aberration/blast"
+    ]
+  },
+  "tags": [
+    "caster"
+  ]
+}

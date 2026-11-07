@@ -1,0 +1,29 @@
+{
+  "id": "bans0001",
+  "name": "Banshee",
+  "family": "banshees",
+  "creatureType": "undead",
+  "look": {
+    "body": "banshee"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "shadow"
+  },
+  "abilities": [
+    "undead/bolt",
+    "undead/drain"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "undead/drain",
+      "undead/bolt"
+    ]
+  },
+  "tags": [
+    "caster"
+  ]
+}

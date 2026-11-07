@@ -1,0 +1,19 @@
+{
+  "id": "stng0001",
+  "name": "Stingray",
+  "family": "rays",
+  "creatureType": "beast",
+  "look": {
+    "body": "stingray"
+  },
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

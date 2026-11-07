@@ -1,0 +1,19 @@
+{
+  "id": "homa0001",
+  "name": "Homari",
+  "family": "homari",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "homari"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

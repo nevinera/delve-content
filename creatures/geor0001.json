@@ -1,0 +1,20 @@
+{
+  "id": "geor0001",
+  "name": "Georite",
+  "family": "elementals",
+  "creatureType": "elemental",
+  "look": {
+    "body": "georite"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "elemental/pulse",
+    "elemental/harden"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

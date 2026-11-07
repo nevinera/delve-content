@@ -1,0 +1,51 @@
+{
+  "id": "naga0001",
+  "name": "Naga Myrmidon",
+  "family": "naga",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "naga",
+    "loadouts": [
+      {
+        "weapon": "sword",
+        "weaponStyle": "fine",
+        "offhand": "shield",
+        "offhandStyle": "fine",
+        "armor": {
+          "chest": {
+            "type": "chain",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "chain",
+            "style": "tattered"
+          }
+        }
+      },
+      {
+        "weapon": "polearm",
+        "weaponStyle": "fine",
+        "armor": {
+          "chest": {
+            "type": "chain",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "chain",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

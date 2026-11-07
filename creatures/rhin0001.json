@@ -1,0 +1,19 @@
+{
+  "id": "rhin0001",
+  "name": "Rhino",
+  "family": "pachyderms",
+  "creatureType": "beast",
+  "look": {
+    "body": "rhino"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

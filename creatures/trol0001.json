@@ -1,0 +1,51 @@
+{
+  "id": "trol0001",
+  "name": "Troll Berserker",
+  "family": "trolls",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "troll",
+    "loadouts": [
+      {
+        "weapon": "greataxe",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      },
+      {
+        "weapon": "axe",
+        "weaponStyle": "savage",
+        "offhand": "axe",
+        "offhandStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

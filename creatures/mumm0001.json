@@ -1,0 +1,20 @@
+{
+  "id": "mumm0001",
+  "name": "Mummy",
+  "family": "mummies",
+  "creatureType": "undead",
+  "look": {
+    "body": "mummy"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "undead/touch",
+    "undead/drain"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

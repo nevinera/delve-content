@@ -1,0 +1,36 @@
+{
+  "id": "amph0002",
+  "name": "Amphen Spearthrower",
+  "family": "amphen",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "amphen",
+    "loadouts": [
+      {
+        "weapon": "thrown",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "hands": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30
+  },
+  "abilities": [
+    "thrw0001"
+  ],
+  "tags": [
+    "archer"
+  ]
+}

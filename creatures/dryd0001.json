@@ -1,0 +1,35 @@
+{
+  "id": "dryd0001",
+  "name": "Dryad Warden",
+  "family": "dryads",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "dryad",
+    "loadouts": [
+      {
+        "weapon": "polearm",
+        "weaponStyle": "fine",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

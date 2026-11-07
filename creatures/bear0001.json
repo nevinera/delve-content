@@ -1,0 +1,20 @@
+{
+  "id": "bear0001",
+  "name": "Bear",
+  "family": "bears",
+  "creatureType": "beast",
+  "look": {
+    "body": "bear"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

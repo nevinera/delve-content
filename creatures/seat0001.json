@@ -1,0 +1,19 @@
+{
+  "id": "seat0001",
+  "name": "Sea Turtle",
+  "family": "turtles",
+  "creatureType": "beast",
+  "look": {
+    "body": "seaturtle"
+  },
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

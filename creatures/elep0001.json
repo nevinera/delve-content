@@ -1,0 +1,19 @@
+{
+  "id": "elep0001",
+  "name": "Elephant",
+  "family": "pachyderms",
+  "creatureType": "beast",
+  "look": {
+    "body": "elephant"
+  },
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

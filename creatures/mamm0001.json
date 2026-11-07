@@ -1,0 +1,20 @@
+{
+  "id": "mamm0001",
+  "name": "Mammoth",
+  "family": "pachyderms",
+  "creatureType": "beast",
+  "look": {
+    "body": "mammoth"
+  },
+  "classification": "elite",
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

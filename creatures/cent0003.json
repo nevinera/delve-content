@@ -1,0 +1,36 @@
+{
+  "id": "cent0003",
+  "name": "Centaur Archer",
+  "family": "centaurs",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "centaur",
+    "loadouts": [
+      {
+        "weapon": "bow",
+        "weaponStyle": "fine",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "hands": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30
+  },
+  "abilities": [
+    "humanoid/shoot"
+  ],
+  "tags": [
+    "archer"
+  ]
+}

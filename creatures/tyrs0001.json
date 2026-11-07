@@ -1,0 +1,51 @@
+{
+  "id": "tyrs0001",
+  "name": "Tyrshaug Rogue",
+  "family": "tyrshaug",
+  "creatureType": "demon",
+  "look": {
+    "body": "tyrshaug",
+    "loadouts": [
+      {
+        "weapon": "dagger",
+        "weaponStyle": "savage",
+        "offhand": "dagger",
+        "offhandStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      },
+      {
+        "weapon": "dagger",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "demon/curse"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

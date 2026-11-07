@@ -1,0 +1,20 @@
+{
+  "id": "basl0001",
+  "name": "Basilisk",
+  "family": "basilisks",
+  "creatureType": "beast",
+  "look": {
+    "body": "basilisk"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

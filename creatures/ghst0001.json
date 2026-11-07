@@ -1,0 +1,35 @@
+{
+  "id": "ghst0001",
+  "name": "Ghost",
+  "family": "ghosts",
+  "creatureType": "undead",
+  "look": {
+    "body": "ghost",
+    "loadouts": [
+      {
+        "weapon": "none",
+        "weaponStyle": "fine",
+        "armor": {
+          "chest": {
+            "type": "chain",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "chain",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "undead/touch"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

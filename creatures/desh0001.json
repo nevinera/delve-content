@@ -1,0 +1,19 @@
+{
+  "id": "desh0001",
+  "name": "Deshaug",
+  "family": "deshaug",
+  "creatureType": "demon",
+  "look": {
+    "body": "deshaug"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "demon/flames"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

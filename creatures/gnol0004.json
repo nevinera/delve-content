@@ -1,0 +1,37 @@
+{
+  "id": "gnol0004",
+  "name": "Gnoll Mystic",
+  "family": "gnolls",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "gnoll",
+    "loadouts": [
+      {
+        "weapon": "staff",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "savage"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "savage"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "shadow"
+  },
+  "abilities": [
+    "shbl0001"
+  ],
+  "tags": [
+    "caster"
+  ]
+}

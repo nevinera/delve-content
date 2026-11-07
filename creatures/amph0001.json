@@ -1,0 +1,49 @@
+{
+  "id": "amph0001",
+  "name": "Amphen Hunter",
+  "family": "amphen",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "amphen",
+    "loadouts": [
+      {
+        "weapon": "dagger",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      },
+      {
+        "weapon": "polearm",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

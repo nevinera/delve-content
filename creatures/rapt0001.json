@@ -1,0 +1,20 @@
+{
+  "id": "rapt0001",
+  "name": "Raptor",
+  "family": "raptors",
+  "creatureType": "beast",
+  "look": {
+    "body": "raptor"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/rend"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

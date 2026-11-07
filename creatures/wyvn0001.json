@@ -1,0 +1,20 @@
+{
+  "id": "wyvn0001",
+  "name": "Wyvern",
+  "family": "dragons",
+  "creatureType": "dragonkin",
+  "look": {
+    "body": "wyvern"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "dragonkin/claw",
+    "dragonkin/roar"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

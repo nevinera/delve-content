@@ -1,0 +1,21 @@
+{
+  "id": "impp0001",
+  "name": "Imp",
+  "family": "imps",
+  "creatureType": "demon",
+  "look": {
+    "body": "imp"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "fire"
+  },
+  "abilities": [
+    "demon/bolt"
+  ],
+  "tags": [
+    "caster"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "trog0003",
+  "name": "Trog Earthcaller",
+  "family": "trogs",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "trog",
+    "loadouts": [
+      {
+        "weapon": "staff",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "tattered"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "nature"
+  },
+  "abilities": [
+    "thbl0001"
+  ],
+  "tags": [
+    "caster"
+  ]
+}
