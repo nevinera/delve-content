@@ -1,0 +1,20 @@
+{
+  "id": "trea0001",
+  "name": "Treant",
+  "family": "treants",
+  "creatureType": "elemental",
+  "look": {
+    "body": "treant"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "thbl0001",
+    "elemental/harden"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

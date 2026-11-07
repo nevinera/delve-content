@@ -1,0 +1,17 @@
+{
+  "id": "chck0001",
+  "name": "Chicken",
+  "family": "livestock",
+  "creatureType": "critter",
+  "look": {
+    "body": "chicken"
+  },
+  "classification": "trivial",
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2
+  },
+  "tags": [
+    "critter"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "stag0001",
+  "name": "Stag",
+  "family": "deer",
+  "creatureType": "beast",
+  "look": {
+    "body": "stag"
+  },
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

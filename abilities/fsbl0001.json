@@ -1,0 +1,70 @@
+{
+  "id": "fsbl0001",
+  "name": "Frost Bolt",
+  "description": "A shard of ice.",
+  "target": "enemy",
+  "range": 30,
+  "school": "frost",
+  "gcd": 1,
+  "cooldown": 5,
+  "castTime": 2,
+  "speed": 40,
+  "effects": [
+    {
+      "type": "damage",
+      "affects": "target",
+      "amount": 9
+    }
+  ],
+  "animation": "cast",
+  "visuals": [
+    {
+      "effect": "glow",
+      "when": "cast",
+      "colors": [
+        "#5aa8e8",
+        "#e0f4ff"
+      ],
+      "on": "caster",
+      "scale": 0.6,
+      "opacity": 0.5,
+      "duration": "cast"
+    },
+    {
+      "effect": "bolt",
+      "when": "flight",
+      "colors": [
+        "#5aa8e8",
+        "#e0f4ff"
+      ],
+      "scale": 0.6
+    },
+    {
+      "effect": "sparks",
+      "when": "impact",
+      "colors": [
+        "#5aa8e8",
+        "#e0f4ff"
+      ],
+      "count": 10,
+      "scale": 0.4
+    }
+  ],
+  "sounds": [
+    {
+      "sound": "cast",
+      "when": "cast",
+      "volume": 0.15,
+      "pitchVariation": 0.1
+    },
+    {
+      "sound": "impact",
+      "when": "impact",
+      "volume": 0.2,
+      "pitchVariation": 0.1
+    }
+  ],
+  "tags": [
+    "creature"
+  ]
+}

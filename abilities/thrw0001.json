@@ -1,0 +1,48 @@
+{
+  "id": "thrw0001",
+  "name": "Throw",
+  "description": "Throws a spear, axe or rock.",
+  "target": "enemy",
+  "range": 25,
+  "minRange": 8,
+  "school": "physical",
+  "gcd": 1,
+  "cooldown": 6,
+  "speed": 35,
+  "effects": [
+    {
+      "type": "damage",
+      "affects": "target",
+      "amount": 8
+    }
+  ],
+  "animation": "shoot",
+  "visuals": [
+    {
+      "effect": "bolt",
+      "when": "flight",
+      "colors": [
+        "#6a5a48",
+        "#d8c8a8"
+      ],
+      "scale": 0.5
+    }
+  ],
+  "sounds": [
+    {
+      "sound": "whoosh",
+      "when": "cast",
+      "volume": 0.15,
+      "pitchVariation": 0.1
+    },
+    {
+      "sound": "impact",
+      "when": "impact",
+      "volume": 0.2,
+      "pitchVariation": 0.1
+    }
+  ],
+  "tags": [
+    "creature"
+  ]
+}

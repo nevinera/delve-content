@@ -1,0 +1,17 @@
+{
+  "id": "frog0001",
+  "name": "Frog",
+  "family": "critters",
+  "creatureType": "critter",
+  "look": {
+    "body": "frog"
+  },
+  "classification": "trivial",
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2
+  },
+  "tags": [
+    "critter"
+  ]
+}

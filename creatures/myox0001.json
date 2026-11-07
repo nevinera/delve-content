@@ -1,0 +1,19 @@
+{
+  "id": "myox0001",
+  "name": "Myoxa",
+  "family": "mycosi",
+  "creatureType": "beast",
+  "look": {
+    "body": "myoxa"
+  },
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

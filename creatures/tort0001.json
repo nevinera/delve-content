@@ -1,0 +1,19 @@
+{
+  "id": "tort0001",
+  "name": "Giant Tortoise",
+  "family": "turtles",
+  "creatureType": "beast",
+  "look": {
+    "body": "tortoise"
+  },
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

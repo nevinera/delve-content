@@ -1,0 +1,20 @@
+{
+  "id": "lion0001",
+  "name": "Lion",
+  "family": "cats",
+  "creatureType": "beast",
+  "look": {
+    "body": "lion"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/rend"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

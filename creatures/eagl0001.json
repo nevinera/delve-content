@@ -1,0 +1,19 @@
+{
+  "id": "eagl0001",
+  "name": "Eagle",
+  "family": "birds",
+  "creatureType": "beast",
+  "look": {
+    "body": "eagle"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/rend"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

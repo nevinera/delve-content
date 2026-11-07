@@ -1,0 +1,61 @@
+{
+  "id": "naga0002",
+  "name": "Naga Siren",
+  "family": "naga",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "naga",
+    "loadouts": [
+      {
+        "weapon": "staff",
+        "weaponStyle": "fine",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "tattered"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "tattered"
+          }
+        }
+      },
+      {
+        "weapon": "wand",
+        "weaponStyle": "fine",
+        "offhand": "orb",
+        "offhandStyle": "fine",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "tattered"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "frost"
+  },
+  "abilities": [
+    "fsbl0001",
+    "ltbl0001"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "ltbl0001",
+      "fsbl0001"
+    ]
+  },
+  "tags": [
+    "caster"
+  ]
+}

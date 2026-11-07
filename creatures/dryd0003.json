@@ -1,0 +1,46 @@
+{
+  "id": "dryd0003",
+  "name": "Dryad Druid",
+  "family": "dryads",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "dryad",
+    "loadouts": [
+      {
+        "weapon": "staff",
+        "weaponStyle": "fine",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "tattered"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "nature"
+  },
+  "abilities": [
+    "thbl0001",
+    "humanoid/mend"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "humanoid/mend",
+      "thbl0001"
+    ]
+  },
+  "tags": [
+    "caster",
+    "healer"
+  ]
+}

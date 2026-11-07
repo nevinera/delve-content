@@ -1,0 +1,36 @@
+{
+  "id": "skel0002",
+  "name": "Skeleton Archer",
+  "family": "skeletons",
+  "creatureType": "undead",
+  "look": {
+    "body": "skeleton",
+    "loadouts": [
+      {
+        "weapon": "bow",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "hands": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30
+  },
+  "abilities": [
+    "shot0001"
+  ],
+  "tags": [
+    "archer"
+  ]
+}

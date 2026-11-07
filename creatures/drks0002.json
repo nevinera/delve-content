@@ -1,0 +1,45 @@
+{
+  "id": "drks0002",
+  "name": "Drakesh Flamecaller",
+  "family": "drakesh",
+  "creatureType": "dragonkin",
+  "look": {
+    "body": "drakesh",
+    "loadouts": [
+      {
+        "weapon": "staff",
+        "weaponStyle": "fine",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "tattered"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "fire"
+  },
+  "abilities": [
+    "frbl0001",
+    "dragonkin/breath"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "dragonkin/breath",
+      "frbl0001"
+    ]
+  },
+  "tags": [
+    "caster"
+  ]
+}

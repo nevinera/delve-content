@@ -1,0 +1,19 @@
+{
+  "id": "coat0001",
+  "name": "Coatl",
+  "family": "coatls",
+  "creatureType": "beast",
+  "look": {
+    "body": "coatl"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

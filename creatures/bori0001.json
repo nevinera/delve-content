@@ -1,0 +1,49 @@
+{
+  "id": "bori0001",
+  "name": "Boric Brute",
+  "family": "boric",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "boric",
+    "loadouts": [
+      {
+        "weapon": "axe",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      },
+      {
+        "weapon": "polearm",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

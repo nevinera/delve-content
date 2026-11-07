@@ -1,0 +1,53 @@
+{
+  "id": "gobl0003",
+  "name": "Goblin Brawler",
+  "family": "goblins",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "goblin",
+    "loadouts": [
+      {
+        "weapon": "sword",
+        "weaponStyle": "crude",
+        "offhand": "shield",
+        "offhandStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      },
+      {
+        "weapon": "mace",
+        "weaponStyle": "crude",
+        "offhand": "shield",
+        "offhandStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

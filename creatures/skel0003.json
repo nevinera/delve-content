@@ -1,0 +1,45 @@
+{
+  "id": "skel0003",
+  "name": "Skeleton Mage",
+  "family": "skeletons",
+  "creatureType": "undead",
+  "look": {
+    "body": "skeleton",
+    "loadouts": [
+      {
+        "weapon": "staff",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "tattered"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "frost"
+  },
+  "abilities": [
+    "fsbl0001",
+    "undead/bolt"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "undead/bolt",
+      "fsbl0001"
+    ]
+  },
+  "tags": [
+    "caster"
+  ]
+}

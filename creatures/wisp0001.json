@@ -1,0 +1,21 @@
+{
+  "id": "wisp0001",
+  "name": "Wisp",
+  "family": "wisps",
+  "creatureType": "elemental",
+  "look": {
+    "body": "wisp"
+  },
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "nature"
+  },
+  "abilities": [
+    "thbl0001"
+  ],
+  "tags": [
+    "caster"
+  ]
+}

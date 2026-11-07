@@ -1,0 +1,45 @@
+{
+  "id": "tyrs0003",
+  "name": "Tyrshaug Hellcaller",
+  "family": "tyrshaug",
+  "creatureType": "demon",
+  "look": {
+    "body": "tyrshaug",
+    "loadouts": [
+      {
+        "weapon": "staff",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "savage"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "savage"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "fire"
+  },
+  "abilities": [
+    "demon/bolt",
+    "demon/curse"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "demon/curse",
+      "demon/bolt"
+    ]
+  },
+  "tags": [
+    "caster"
+  ]
+}

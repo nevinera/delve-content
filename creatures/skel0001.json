@@ -1,0 +1,51 @@
+{
+  "id": "skel0001",
+  "name": "Skeleton Warrior",
+  "family": "skeletons",
+  "creatureType": "undead",
+  "look": {
+    "body": "skeleton",
+    "loadouts": [
+      {
+        "weapon": "sword",
+        "weaponStyle": "crude",
+        "offhand": "shield",
+        "offhandStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "chain",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "chain",
+            "style": "tattered"
+          }
+        }
+      },
+      {
+        "weapon": "greatsword",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "chain",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "chain",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "undead/touch"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

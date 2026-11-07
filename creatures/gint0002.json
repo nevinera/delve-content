@@ -1,0 +1,44 @@
+{
+  "id": "gint0002",
+  "name": "Giant Boulderhurler",
+  "family": "giants",
+  "creatureType": "giant",
+  "look": {
+    "body": "giant",
+    "loadouts": [
+      {
+        "weapon": "thrown",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "fine"
+          },
+          "hands": {
+            "type": "leather",
+            "style": "fine"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30
+  },
+  "abilities": [
+    "giant/boulder",
+    "giant/stomp"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "giant/stomp",
+      "giant/boulder"
+    ]
+  },
+  "tags": [
+    "archer"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "golm0001",
+  "name": "Stone Golem",
+  "family": "golems",
+  "creatureType": "elemental",
+  "look": {
+    "body": "golem"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "elemental/harden",
+    "elemental/pulse"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

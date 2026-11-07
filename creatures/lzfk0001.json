@@ -1,0 +1,51 @@
+{
+  "id": "lzfk0001",
+  "name": "Lizardfolk Warrior",
+  "family": "lizardfolk",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "lizardfolk",
+    "loadouts": [
+      {
+        "weapon": "mace",
+        "weaponStyle": "crude",
+        "offhand": "shield",
+        "offhandStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      },
+      {
+        "weapon": "polearm",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

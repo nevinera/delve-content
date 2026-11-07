@@ -1,0 +1,36 @@
+{
+  "id": "gnol0003",
+  "name": "Gnoll Archer",
+  "family": "gnolls",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "gnoll",
+    "loadouts": [
+      {
+        "weapon": "bow",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "hands": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30
+  },
+  "abilities": [
+    "humanoid/shoot"
+  ],
+  "tags": [
+    "archer"
+  ]
+}

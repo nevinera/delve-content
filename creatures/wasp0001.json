@@ -1,0 +1,19 @@
+{
+  "id": "wasp0001",
+  "name": "Giant Wasp",
+  "family": "wasps",
+  "creatureType": "beast",
+  "look": {
+    "body": "wasp"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

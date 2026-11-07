@@ -1,0 +1,19 @@
+{
+  "id": "eell0001",
+  "name": "Eel",
+  "family": "eels",
+  "creatureType": "beast",
+  "look": {
+    "body": "eel"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

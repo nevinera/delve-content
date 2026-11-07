@@ -1,0 +1,36 @@
+{
+  "id": "trog0002",
+  "name": "Trog Rockthrower",
+  "family": "trogs",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "trog",
+    "loadouts": [
+      {
+        "weapon": "thrown",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "hands": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30
+  },
+  "abilities": [
+    "thrw0001"
+  ],
+  "tags": [
+    "archer"
+  ]
+}

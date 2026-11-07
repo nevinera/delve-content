@@ -1,0 +1,50 @@
+{
+  "id": "taur0002",
+  "name": "Tauros Hunter",
+  "family": "tauros",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "tauros",
+    "loadouts": [
+      {
+        "weapon": "bow",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "hands": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      },
+      {
+        "weapon": "thrown",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "hands": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30
+  },
+  "abilities": [
+    "humanoid/shoot"
+  ],
+  "tags": [
+    "archer"
+  ]
+}

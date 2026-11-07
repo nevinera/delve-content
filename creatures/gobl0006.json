@@ -1,0 +1,53 @@
+{
+  "id": "gobl0006",
+  "name": "Goblin Firecaller",
+  "family": "goblins",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "goblin",
+    "loadouts": [
+      {
+        "weapon": "staff",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "tattered"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "tattered"
+          }
+        }
+      },
+      {
+        "weapon": "wand",
+        "weaponStyle": "crude",
+        "offhand": "orb",
+        "offhandStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "tattered"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "fire"
+  },
+  "abilities": [
+    "frbl0001"
+  ],
+  "tags": [
+    "caster"
+  ]
+}

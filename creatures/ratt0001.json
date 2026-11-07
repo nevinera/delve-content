@@ -1,0 +1,19 @@
+{
+  "id": "ratt0001",
+  "name": "Giant Rat",
+  "family": "rats",
+  "creatureType": "beast",
+  "look": {
+    "body": "rat"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

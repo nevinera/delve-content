@@ -1,0 +1,36 @@
+{
+  "id": "gint0001",
+  "name": "Hill Giant",
+  "family": "giants",
+  "creatureType": "giant",
+  "look": {
+    "body": "giant",
+    "loadouts": [
+      {
+        "weapon": "maul",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "fine"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "fine"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "giant/smash",
+    "giant/stomp"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

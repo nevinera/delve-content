@@ -1,0 +1,21 @@
+{
+  "id": "tyrn0001",
+  "name": "Tyrant Lizard",
+  "family": "raptors",
+  "creatureType": "beast",
+  "look": {
+    "body": "tyrant"
+  },
+  "classification": "elite",
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/rend"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

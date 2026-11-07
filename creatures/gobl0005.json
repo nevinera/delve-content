@@ -1,0 +1,36 @@
+{
+  "id": "gobl0005",
+  "name": "Goblin Gunner",
+  "family": "goblins",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "goblin",
+    "loadouts": [
+      {
+        "weapon": "gun",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "hands": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30
+  },
+  "abilities": [
+    "humanoid/shoot"
+  ],
+  "tags": [
+    "archer"
+  ]
+}

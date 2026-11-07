@@ -1,0 +1,19 @@
+{
+  "id": "cntp0001",
+  "name": "Giant Centipede",
+  "family": "crawlers",
+  "creatureType": "beast",
+  "look": {
+    "body": "centipede"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

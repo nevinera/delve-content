@@ -1,0 +1,37 @@
+{
+  "id": "amph0003",
+  "name": "Amphen Tidecaller",
+  "family": "amphen",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "amphen",
+    "loadouts": [
+      {
+        "weapon": "staff",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "tattered"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "frost"
+  },
+  "abilities": [
+    "fsbl0001"
+  ],
+  "tags": [
+    "caster"
+  ]
+}

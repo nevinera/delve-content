@@ -1,0 +1,36 @@
+{
+  "id": "ghst0002",
+  "name": "Wraith Knight",
+  "family": "ghosts",
+  "creatureType": "undead",
+  "look": {
+    "body": "ghost",
+    "loadouts": [
+      {
+        "weapon": "sword",
+        "weaponStyle": "fine",
+        "armor": {
+          "chest": {
+            "type": "chain",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "chain",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "undead/touch",
+    "undead/drain"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

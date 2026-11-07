@@ -1,0 +1,35 @@
+{
+  "id": "succ0001",
+  "name": "Succubus",
+  "family": "succubi",
+  "creatureType": "demon",
+  "look": {
+    "body": "succubus",
+    "loadouts": [
+      {
+        "weapon": "dagger",
+        "weaponStyle": "fine",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "demon/curse"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

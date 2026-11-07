@@ -1,0 +1,19 @@
+{
+  "id": "hivr0001",
+  "name": "Hivari",
+  "family": "hive",
+  "creatureType": "aberration",
+  "look": {
+    "body": "hivari"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "aberration/lash"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

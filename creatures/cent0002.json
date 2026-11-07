@@ -1,0 +1,51 @@
+{
+  "id": "cent0002",
+  "name": "Centaur Swordsman",
+  "family": "centaurs",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "centaur",
+    "loadouts": [
+      {
+        "weapon": "sword",
+        "weaponStyle": "fine",
+        "offhand": "shield",
+        "offhandStyle": "fine",
+        "armor": {
+          "chest": {
+            "type": "chain",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "chain",
+            "style": "tattered"
+          }
+        }
+      },
+      {
+        "weapon": "greatsword",
+        "weaponStyle": "fine",
+        "armor": {
+          "chest": {
+            "type": "chain",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "chain",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

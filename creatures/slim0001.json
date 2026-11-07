@@ -1,0 +1,19 @@
+{
+  "id": "slim0001",
+  "name": "Slime",
+  "family": "slimes",
+  "creatureType": "aberration",
+  "look": {
+    "body": "slime"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "aberration/lash"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

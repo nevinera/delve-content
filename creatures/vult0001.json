@@ -1,0 +1,19 @@
+{
+  "id": "vult0001",
+  "name": "Vulture",
+  "family": "birds",
+  "creatureType": "beast",
+  "look": {
+    "body": "vulture"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

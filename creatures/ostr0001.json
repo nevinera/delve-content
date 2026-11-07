@@ -1,0 +1,19 @@
+{
+  "id": "ostr0001",
+  "name": "Ostora",
+  "family": "ostora",
+  "creatureType": "beast",
+  "look": {
+    "body": "ostora"
+  },
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

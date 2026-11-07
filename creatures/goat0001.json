@@ -1,0 +1,19 @@
+{
+  "id": "goat0001",
+  "name": "Mountain Goat",
+  "family": "goats",
+  "creatureType": "beast",
+  "look": {
+    "body": "goat"
+  },
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

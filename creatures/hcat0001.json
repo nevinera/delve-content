@@ -1,0 +1,20 @@
+{
+  "id": "hcat0001",
+  "name": "Cat",
+  "family": "critters",
+  "creatureType": "critter",
+  "look": {
+    "body": "housecat"
+  },
+  "classification": "trivial",
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "critter/nip"
+  ],
+  "tags": [
+    "critter"
+  ]
+}

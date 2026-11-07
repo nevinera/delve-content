@@ -1,0 +1,46 @@
+{
+  "id": "bori0003",
+  "name": "Boric Mystic",
+  "family": "boric",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "boric",
+    "loadouts": [
+      {
+        "weapon": "staff",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "savage"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "savage"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "nature"
+  },
+  "abilities": [
+    "thbl0001",
+    "humanoid/mend"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "humanoid/mend",
+      "thbl0001"
+    ]
+  },
+  "tags": [
+    "caster",
+    "healer"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "aqui0001",
+  "name": "Aquite",
+  "family": "elementals",
+  "creatureType": "elemental",
+  "look": {
+    "body": "aquite"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "frost"
+  },
+  "abilities": [
+    "fsbl0001",
+    "elemental/harden"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "elemental/harden",
+      "fsbl0001"
+    ]
+  },
+  "tags": [
+    "caster"
+  ]
+}

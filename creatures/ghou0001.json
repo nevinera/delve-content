@@ -1,0 +1,19 @@
+{
+  "id": "ghou0001",
+  "name": "Ghoul",
+  "family": "ghouls",
+  "creatureType": "undead",
+  "look": {
+    "body": "ghoul"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "undead/touch"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

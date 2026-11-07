@@ -1,0 +1,22 @@
+{
+  "id": "drgn0001",
+  "name": "Dragon",
+  "family": "dragons",
+  "creatureType": "dragonkin",
+  "look": {
+    "body": "dragon"
+  },
+  "classification": "elite",
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "dragonkin/claw",
+    "dragonkin/breath",
+    "dragonkin/roar"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "squi0001",
+  "name": "Squirrel",
+  "family": "critters",
+  "creatureType": "critter",
+  "look": {
+    "body": "squirrel"
+  },
+  "classification": "trivial",
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "critter/nip"
+  ],
+  "tags": [
+    "critter"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "barr0001",
+  "name": "Barracuda",
+  "family": "fish",
+  "creatureType": "beast",
+  "look": {
+    "body": "barracuda"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

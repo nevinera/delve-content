@@ -1,0 +1,51 @@
+{
+  "id": "kobo0001",
+  "name": "Kobold Skulker",
+  "family": "kobolds",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "kobold",
+    "loadouts": [
+      {
+        "weapon": "dagger",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      },
+      {
+        "weapon": "dagger",
+        "weaponStyle": "crude",
+        "offhand": "dagger",
+        "offhandStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

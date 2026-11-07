@@ -1,0 +1,37 @@
+{
+  "id": "kobo0004",
+  "name": "Kobold Geomancer",
+  "family": "kobolds",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "kobold",
+    "loadouts": [
+      {
+        "weapon": "staff",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "tattered"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "fire"
+  },
+  "abilities": [
+    "frbl0001"
+  ],
+  "tags": [
+    "caster"
+  ]
+}

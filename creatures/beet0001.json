@@ -1,0 +1,20 @@
+{
+  "id": "beet0001",
+  "name": "Giant Beetle",
+  "family": "beetles",
+  "creatureType": "beast",
+  "look": {
+    "body": "beetle"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

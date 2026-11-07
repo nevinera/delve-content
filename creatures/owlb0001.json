@@ -1,0 +1,20 @@
+{
+  "id": "owlb0001",
+  "name": "Owlbear",
+  "family": "owlbears",
+  "creatureType": "beast",
+  "look": {
+    "body": "owlbear"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/rend",
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

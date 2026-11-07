@@ -1,0 +1,70 @@
+{
+  "id": "frbl0001",
+  "name": "Fire Bolt",
+  "description": "A bolt of fire.",
+  "target": "enemy",
+  "range": 30,
+  "school": "fire",
+  "gcd": 1,
+  "cooldown": 5,
+  "castTime": 2,
+  "speed": 40,
+  "effects": [
+    {
+      "type": "damage",
+      "affects": "target",
+      "amount": 10
+    }
+  ],
+  "animation": "cast",
+  "visuals": [
+    {
+      "effect": "glow",
+      "when": "cast",
+      "colors": [
+        "#ff6a1a",
+        "#ffd070"
+      ],
+      "on": "caster",
+      "scale": 0.6,
+      "opacity": 0.5,
+      "duration": "cast"
+    },
+    {
+      "effect": "bolt",
+      "when": "flight",
+      "colors": [
+        "#ff6a1a",
+        "#ffd070"
+      ],
+      "scale": 0.6
+    },
+    {
+      "effect": "sparks",
+      "when": "impact",
+      "colors": [
+        "#ff6a1a",
+        "#ffd070"
+      ],
+      "count": 10,
+      "scale": 0.4
+    }
+  ],
+  "sounds": [
+    {
+      "sound": "cast",
+      "when": "cast",
+      "volume": 0.15,
+      "pitchVariation": 0.1
+    },
+    {
+      "sound": "fire",
+      "when": "impact",
+      "volume": 0.2,
+      "pitchVariation": 0.1
+    }
+  ],
+  "tags": [
+    "creature"
+  ]
+}

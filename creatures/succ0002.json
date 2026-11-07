@@ -1,0 +1,47 @@
+{
+  "id": "succ0002",
+  "name": "Succubus Temptress",
+  "family": "succubi",
+  "creatureType": "demon",
+  "look": {
+    "body": "succubus",
+    "loadouts": [
+      {
+        "weapon": "wand",
+        "weaponStyle": "fine",
+        "offhand": "orb",
+        "offhandStyle": "fine",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "tattered"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.5,
+    "range": 30,
+    "school": "fire"
+  },
+  "abilities": [
+    "demon/bolt",
+    "demon/curse"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "demon/curse",
+      "demon/bolt"
+    ]
+  },
+  "tags": [
+    "caster"
+  ]
+}

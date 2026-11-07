@@ -1,0 +1,19 @@
+{
+  "id": "snak0001",
+  "name": "Snake",
+  "family": "serpents",
+  "creatureType": "beast",
+  "look": {
+    "body": "snake"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

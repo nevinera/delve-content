@@ -1,0 +1,49 @@
+{
+  "id": "hivl0001",
+  "name": "Hivelord Warrior",
+  "family": "hive",
+  "creatureType": "aberration",
+  "look": {
+    "body": "hivelord",
+    "loadouts": [
+      {
+        "weapon": "sword",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "plate",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "plate",
+            "style": "savage"
+          }
+        }
+      },
+      {
+        "weapon": "polearm",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "plate",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "plate",
+            "style": "savage"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "aberration/lash"
+  ],
+  "tags": [
+    "melee"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "trog0001",
+  "name": "Trog Basher",
+  "family": "trogs",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "trog",
+    "loadouts": [
+      {
+        "weapon": "mace",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      },
+      {
+        "weapon": "maul",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ]
+}
