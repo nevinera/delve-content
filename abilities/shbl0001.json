@@ -13,7 +13,7 @@
     {
       "type": "damage",
       "affects": "target",
-      "amount": 11
+      "amount": 24
     }
   ],
   "animation": "cast",
