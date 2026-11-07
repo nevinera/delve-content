@@ -23,6 +23,17 @@
       "color": "#e07040",
       "max": 5,
       "decay": 0.5
+    },
+    {
+      "key": "strain",
+      "name": "Strain",
+      "kind": "points",
+      "color": "#b05a8a",
+      "max": 10,
+      "decay": 5,
+      "specializations": [
+        "kind"
+      ]
     }
   ],
   "armor": [
@@ -97,6 +108,17 @@
         "oi000adv",
         "bracadv0",
         "diginadv"
+      ]
+    },
+    {
+      "id": "kind",
+      "name": "Kind",
+      "status": "skindadv",
+      "description": "Patches up others, though each heal strains it more.",
+      "abilities": [
+        "mendadv0",
+        "qfixadv0",
+        "cybrtadv"
       ]
     }
   ],
@@ -994,6 +1016,209 @@
           "pitch": 0.7
         }
       ]
+    },
+    {
+      "id": "mendadv0",
+      "name": "Mend",
+      "description": "Heal someone for over half your health. Each heal adds a point of Strain.",
+      "icon": "medical-pack",
+      "level": 10,
+      "target": "ally",
+      "range": 40,
+      "school": "nature",
+      "castTime": 3,
+      "cost": [
+        {
+          "resource": "energy",
+          "amount": 20
+        }
+      ],
+      "effects": [
+        {
+          "type": "heal",
+          "affects": "target",
+          "amount": {
+            "shareOf": {
+              "of": "casterMaxHealth",
+              "share": 0.55
+            }
+          }
+        },
+        {
+          "type": "resource",
+          "affects": "self",
+          "resource": "strain",
+          "amount": 1
+        }
+      ],
+      "animation": "cast",
+      "tags": [
+        "heal",
+        "strains"
+      ],
+      "gcd": 1,
+      "gcdHasted": false,
+      "visuals": [
+        {
+          "effect": "glow",
+          "when": "cast",
+          "on": "caster",
+          "colors": [
+            "#5fbf5a",
+            "#e8ffd8"
+          ],
+          "scale": 0.6,
+          "opacity": 0.4,
+          "duration": "cast"
+        },
+        {
+          "effect": "motes",
+          "when": "impact",
+          "on": "target",
+          "colors": [
+            "#5fbf5a",
+            "#e8ffd8"
+          ],
+          "duration": 0.8,
+          "rate": 24,
+          "radius": 1.2,
+          "gravity": -2,
+          "lifetime": 1
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "heal",
+          "when": "impact",
+          "volume": 0.15,
+          "pitchVariation": 0.1
+        }
+      ]
+    },
+    {
+      "id": "qfixadv0",
+      "name": "Quick Fix",
+      "description": "Quickly heal someone for over a third of your health. Each heal adds a point of Strain.",
+      "icon": "healing",
+      "level": 10,
+      "target": "ally",
+      "range": 40,
+      "school": "nature",
+      "castTime": 1.5,
+      "cost": [
+        {
+          "resource": "energy",
+          "amount": 19
+        }
+      ],
+      "effects": [
+        {
+          "type": "heal",
+          "affects": "target",
+          "amount": {
+            "shareOf": {
+              "of": "casterMaxHealth",
+              "share": 0.37
+            }
+          }
+        },
+        {
+          "type": "resource",
+          "affects": "self",
+          "resource": "strain",
+          "amount": 1
+        }
+      ],
+      "animation": "cast",
+      "tags": [
+        "heal",
+        "strains"
+      ],
+      "gcd": 1,
+      "gcdHasted": false,
+      "visuals": [
+        {
+          "effect": "glow",
+          "when": "cast",
+          "on": "caster",
+          "colors": [
+            "#5fbf5a",
+            "#e8ffd8"
+          ],
+          "scale": 0.6,
+          "opacity": 0.4,
+          "duration": "cast"
+        },
+        {
+          "effect": "motes",
+          "when": "impact",
+          "on": "target",
+          "colors": [
+            "#5fbf5a",
+            "#e8ffd8"
+          ],
+          "duration": 0.8,
+          "rate": 24,
+          "radius": 1.2,
+          "gravity": -2,
+          "lifetime": 1
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "heal",
+          "when": "impact",
+          "volume": 0.15,
+          "pitchVariation": 0.1
+        }
+      ]
+    },
+    {
+      "id": "cybrtadv",
+      "name": "Catch Your Breath",
+      "description": "Shake off 5 Strain.",
+      "icon": "wind-slap",
+      "level": 16,
+      "target": "self",
+      "gcd": 0,
+      "cooldown": 60,
+      "effects": [
+        {
+          "type": "resource",
+          "affects": "self",
+          "resource": "strain",
+          "amount": -5
+        }
+      ],
+      "animation": "shout",
+      "tags": [
+        "strain"
+      ],
+      "visuals": [
+        {
+          "effect": "motes",
+          "when": "cast",
+          "on": "caster",
+          "colors": [
+            "#b05a8a",
+            "#ffe0f0"
+          ],
+          "duration": 0.6,
+          "rate": 20,
+          "radius": 1.2,
+          "gravity": -1,
+          "lifetime": 1
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "heal",
+          "when": "cast",
+          "volume": 0.12,
+          "pitchVariation": 0.1,
+          "pitch": 0.8
+        }
+      ]
     }
   ],
   "statuses": [
@@ -1378,6 +1603,28 @@
       "icon": "open-wound",
       "duration": 6,
       "stacking": "refresh"
+    },
+    {
+      "id": "skindadv",
+      "name": "Kind",
+      "kind": "hidden",
+      "effects": [
+        {
+          "type": "modify",
+          "tag": "strains",
+          "change": "cost",
+          "resource": "energy",
+          "add": 8,
+          "perCount": {
+            "resource": "strain"
+          }
+        },
+        {
+          "type": "stat",
+          "stat": "damageDone",
+          "multiply": 0.67
+        }
+      ]
     }
   ]
 }
