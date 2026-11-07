@@ -1398,7 +1398,7 @@
           "category": "bleed",
           "amount": {
             "perSpent": {
-              "attackPower": 0.18
+              "attackPower": 0.045
             }
           }
         }
@@ -1449,6 +1449,11 @@
           "type": "stat",
           "stat": "critChance",
           "add": 10
+        },
+        {
+          "type": "stat",
+          "stat": "damageDone",
+          "multiply": 0.75
         }
       ]
     },
