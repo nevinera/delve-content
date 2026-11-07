@@ -40,12 +40,15 @@
   },
   "reaction": "hostile",
   "attack": {
-    "speed": 2
+    "speed": 1.6
   },
   "abilities": [
     "humanoid/strike"
   ],
   "tags": [
     "melee"
-  ]
+  ],
+  "health": 0.85,
+  "damage": 1.15,
+  "armor": 0.8
 }

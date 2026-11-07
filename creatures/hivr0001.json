@@ -8,12 +8,15 @@
   },
   "reaction": "hostile",
   "attack": {
-    "speed": 2
+    "speed": 2.2
   },
   "abilities": [
     "aberration/lash"
   ],
   "tags": [
     "melee"
-  ]
+  ],
+  "health": 0.9,
+  "damage": 0.95,
+  "armor": 1.7
 }
