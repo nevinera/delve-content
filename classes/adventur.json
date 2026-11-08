@@ -121,6 +121,7 @@
       "abilities": [
         "mendadv0",
         "qfixadv0",
+        "getupadv",
         "cybrtadv"
       ]
     }
@@ -1172,6 +1173,75 @@
           "sound": "heal",
           "when": "impact",
           "volume": 0.15,
+          "pitchVariation": 0.1
+        }
+      ]
+    },
+    {
+      "id": "getupadv",
+      "name": "Get Up",
+      "description": "Haul someone who's fallen back to their feet, with a third of their health. Only out of combat, and they have to accept.",
+      "icon": "ankh",
+      "level": 12,
+      "target": "ally",
+      "range": 40,
+      "school": "nature",
+      "castTime": 10,
+      "cost": [
+        {
+          "resource": "energy",
+          "amount": 40
+        }
+      ],
+      "requires": [
+        {
+          "inCombat": false
+        }
+      ],
+      "effects": [
+        {
+          "type": "resurrect",
+          "affects": "target",
+          "health": 35
+        }
+      ],
+      "animation": "cast",
+      "tags": [
+        "heal"
+      ],
+      "gcd": 1,
+      "gcdHasted": false,
+      "visuals": [
+        {
+          "effect": "glow",
+          "when": "cast",
+          "on": "caster",
+          "colors": [
+            "#5fbf5a",
+            "#e8ffd8"
+          ],
+          "scale": 0.6,
+          "opacity": 0.4,
+          "duration": "cast"
+        },
+        {
+          "effect": "glow",
+          "when": "impact",
+          "on": "target",
+          "colors": [
+            "#fff4c8",
+            "#e8ffd8"
+          ],
+          "scale": 1,
+          "opacity": 0.5,
+          "duration": 1.2
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "heal",
+          "when": "impact",
+          "volume": 0.2,
           "pitchVariation": 0.1
         }
       ]
