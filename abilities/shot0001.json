@@ -8,7 +8,7 @@
   "gcd": 1,
   "cooldown": 4,
   "castTime": 1.5,
-  "speed": 40,
+  "speed": 120,
   "effects": [
     {
       "type": "damage",
