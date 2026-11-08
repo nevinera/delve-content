@@ -1,0 +1,31 @@
+{
+  "id": "wisp0002",
+  "name": "Golden Wisp",
+  "family": "wisps",
+  "creatureType": "elemental",
+  "look": {
+    "body": "wisp",
+    "coloration": "gold",
+    "scale": 1.2
+  },
+  "classification": "rare",
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2.5,
+    "range": 90,
+    "school": "nature"
+  },
+  "abilities": [
+    "thbl0001"
+  ],
+  "tags": [
+    "caster"
+  ],
+  "health": 0.85,
+  "armor": 0.85,
+  "damage": 0.73,
+  "resists": {
+    "arcane": 50
+  },
+  "notes": "Lives in: Enchanted forests at night."
+}

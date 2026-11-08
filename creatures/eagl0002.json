@@ -1,0 +1,24 @@
+{
+  "id": "eagl0002",
+  "name": "Golden Eagle",
+  "family": "birds",
+  "creatureType": "beast",
+  "look": {
+    "body": "eagle",
+    "coloration": "golden"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 1.4
+  },
+  "abilities": [
+    "beast/rend"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.85,
+  "damage": 1.15,
+  "armor": 0.85,
+  "notes": "Lives in: Mountains and high hills."
+}

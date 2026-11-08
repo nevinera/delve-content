@@ -1,0 +1,55 @@
+{
+  "id": "ogre0003",
+  "name": "Ogre Chieftain",
+  "family": "ogres",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "ogre",
+    "loadouts": [
+      {
+        "weapon": "maul",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      },
+      {
+        "weapon": "mace",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      }
+    ],
+    "scale": 1.2
+  },
+  "classification": "elite",
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.8
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 1.25,
+  "damage": 0.9,
+  "armor": 1.0,
+  "notes": "Lives in: Ogre mounds, in charge."
+}

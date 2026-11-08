@@ -1,0 +1,24 @@
+{
+  "id": "lizd0003",
+  "name": "Banded Lizard",
+  "family": "lizards",
+  "creatureType": "beast",
+  "look": {
+    "body": "lizard",
+    "coloration": "banded"
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 1.6
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.85,
+  "damage": 1.15,
+  "armor": 0.8,
+  "notes": "Lives in: Dry scrub and badlands."
+}

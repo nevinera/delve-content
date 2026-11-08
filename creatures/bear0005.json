@@ -1,0 +1,23 @@
+{
+  "id": "bear0005",
+  "name": "Bear Cub",
+  "family": "bears",
+  "creatureType": "critter",
+  "look": {
+    "body": "bear",
+    "coloration": "brown",
+    "scale": 0.5
+  },
+  "classification": "trivial",
+  "reaction": "neutral",
+  "attack": {
+    "speed": 1.6
+  },
+  "abilities": [
+    "critter/nip"
+  ],
+  "tags": [
+    "critter"
+  ],
+  "notes": "Lives in: Forests, near a bear."
+}

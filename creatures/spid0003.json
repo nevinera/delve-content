@@ -1,0 +1,25 @@
+{
+  "id": "spid0003",
+  "name": "Tarantula",
+  "family": "spiders",
+  "creatureType": "beast",
+  "look": {
+    "body": "spider",
+    "coloration": "tarantula",
+    "scale": 1.2
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.2
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.9,
+  "damage": 0.95,
+  "armor": 1.7,
+  "notes": "Lives in: Deserts and dry hills."
+}

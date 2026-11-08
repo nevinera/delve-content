@@ -1,0 +1,25 @@
+{
+  "id": "spid0004",
+  "name": "Cave Spider",
+  "family": "spiders",
+  "creatureType": "beast",
+  "look": {
+    "body": "spider",
+    "coloration": "cave",
+    "scale": 0.7
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 1.6
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.7,
+  "damage": 1.1,
+  "armor": 0.6,
+  "notes": "Lives in: Caves, in numbers."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "tigr0002",
+  "name": "Siberian Tiger",
+  "family": "cats",
+  "creatureType": "beast",
+  "look": {
+    "body": "tiger",
+    "coloration": "siberian",
+    "scale": 1.15
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 1.4
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/rend"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.85,
+  "damage": 1.15,
+  "armor": 0.85,
+  "notes": "Lives in: Cold forests."
+}

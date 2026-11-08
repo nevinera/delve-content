@@ -1,0 +1,25 @@
+{
+  "id": "antt0002",
+  "name": "Fire Ant",
+  "family": "ants",
+  "creatureType": "beast",
+  "look": {
+    "body": "ant",
+    "coloration": "fire",
+    "scale": 0.8
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 1.6
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.7,
+  "damage": 1.1,
+  "armor": 0.6,
+  "notes": "Lives in: Deserts and savanna, in numbers."
+}

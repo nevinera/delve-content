@@ -1,0 +1,26 @@
+{
+  "id": "mamm0002",
+  "name": "Frost Mammoth",
+  "family": "pachyderms",
+  "creatureType": "beast",
+  "look": {
+    "body": "mammoth",
+    "coloration": "frost",
+    "scale": 1.1
+  },
+  "classification": "elite",
+  "reaction": "neutral",
+  "attack": {
+    "speed": 2.8
+  },
+  "abilities": [
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 1.25,
+  "damage": 0.9,
+  "armor": 1.0,
+  "notes": "Lives in: Tundra, in herds."
+}

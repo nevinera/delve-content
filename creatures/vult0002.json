@@ -1,0 +1,25 @@
+{
+  "id": "vult0002",
+  "name": "Black Vulture",
+  "family": "birds",
+  "creatureType": "beast",
+  "look": {
+    "body": "vulture",
+    "coloration": "black",
+    "scale": 0.9
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 1.6
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.7,
+  "damage": 1.1,
+  "armor": 0.6,
+  "notes": "Lives in: Deserts and badlands."
+}

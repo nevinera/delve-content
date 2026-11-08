@@ -1,0 +1,25 @@
+{
+  "id": "wolf0003",
+  "name": "Arctic Wolf",
+  "family": "wolves",
+  "creatureType": "beast",
+  "look": {
+    "body": "wolf",
+    "coloration": "arctic",
+    "scale": 1.1
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 1.4
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.85,
+  "damage": 1.15,
+  "armor": 0.85,
+  "notes": "Lives in: Snowfields and tundra, in packs."
+}

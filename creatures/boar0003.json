@@ -1,0 +1,25 @@
+{
+  "id": "boar0003",
+  "name": "Red Tusker",
+  "family": "boars",
+  "creatureType": "beast",
+  "look": {
+    "body": "boar",
+    "coloration": "red",
+    "scale": 1.25
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.8
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 1.25,
+  "damage": 0.9,
+  "armor": 1.0,
+  "notes": "Lives in: Dry hills and savanna."
+}

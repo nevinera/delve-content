@@ -1,0 +1,26 @@
+{
+  "id": "stag0002",
+  "name": "White Stag",
+  "family": "deer",
+  "creatureType": "beast",
+  "look": {
+    "body": "stag",
+    "coloration": "white",
+    "scale": 1.2
+  },
+  "classification": "rare",
+  "reaction": "neutral",
+  "attack": {
+    "speed": 1.4
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.85,
+  "damage": 1.15,
+  "armor": 0.85,
+  "notes": "Lives in: Old forests, alone and seldom."
+}

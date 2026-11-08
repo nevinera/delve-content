@@ -1,0 +1,27 @@
+{
+  "id": "spid0005",
+  "name": "Brood Mother",
+  "family": "spiders",
+  "creatureType": "beast",
+  "look": {
+    "body": "spider",
+    "coloration": "widow",
+    "scale": 1.6
+  },
+  "classification": "elite",
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.8
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/rend"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 1.25,
+  "damage": 0.9,
+  "armor": 1.0,
+  "notes": "Lives in: The deepest part of a spider-infested cave or wood."
+}

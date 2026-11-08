@@ -1,0 +1,30 @@
+{
+  "id": "trea0002",
+  "name": "Elder Treant",
+  "family": "treants",
+  "creatureType": "elemental",
+  "look": {
+    "body": "treant",
+    "scale": 1.3
+  },
+  "classification": "elite",
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2
+  },
+  "abilities": [
+    "thbl0001",
+    "elemental/harden"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.85,
+  "armor": 0.85,
+  "damage": 0.73,
+  "resists": {
+    "nature": 50,
+    "fire": -50
+  },
+  "notes": "Lives in: Old forests."
+}

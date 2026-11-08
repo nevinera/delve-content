@@ -1,0 +1,26 @@
+{
+  "id": "scor0003",
+  "name": "Red Scorpion",
+  "family": "scorpions",
+  "creatureType": "beast",
+  "look": {
+    "body": "scorpion",
+    "coloration": "red",
+    "scale": 0.6
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 1.6
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/rend"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.7,
+  "damage": 1.1,
+  "armor": 0.6,
+  "notes": "Lives in: Deserts, in numbers."
+}

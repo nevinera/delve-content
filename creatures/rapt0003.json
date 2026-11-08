@@ -1,0 +1,27 @@
+{
+  "id": "rapt0003",
+  "name": "Obsidian Raptor",
+  "family": "raptors",
+  "creatureType": "beast",
+  "look": {
+    "body": "raptor",
+    "coloration": "obsidian",
+    "scale": 1.2
+  },
+  "classification": "rare",
+  "reaction": "hostile",
+  "attack": {
+    "speed": 1.4
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/rend"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.85,
+  "damage": 1.15,
+  "armor": 0.85,
+  "notes": "Lives in: Volcanic land, alone."
+}
