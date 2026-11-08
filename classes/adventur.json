@@ -108,7 +108,6 @@
       "status": "stougadv",
       "description": "Takes the hits, keeps enemies on it, and has more health.",
       "abilities": [
-        "slam0adv",
         "oi000adv",
         "bracadv0",
         "diginadv"
@@ -846,88 +845,6 @@
           "when": "impact",
           "volume": 0.22,
           "pitchVariation": 0.1
-        }
-      ]
-    },
-    {
-      "id": "slam0adv",
-      "name": "Shield Shove",
-      "description": "Shove an enemy with your shield. It builds a setup point and makes the enemy want you more.",
-      "icon": "shield-bash",
-      "level": 10,
-      "target": "enemy",
-      "range": "melee",
-      "school": "physical",
-      "cost": [
-        {
-          "resource": "energy",
-          "amount": 20
-        }
-      ],
-      "cooldown": 6,
-      "requires": [
-        {
-          "wielding": "shield"
-        }
-      ],
-      "effects": [
-        {
-          "type": "damage",
-          "affects": "target",
-          "amount": {
-            "attackPower": 0.3
-          }
-        },
-        {
-          "type": "resource",
-          "affects": "self",
-          "resource": "setup",
-          "amount": 1
-        },
-        {
-          "type": "threat",
-          "affects": "target",
-          "multiply": 1.5
-        }
-      ],
-      "animation": "bigAttack",
-      "tags": [
-        "builder",
-        "rotation"
-      ],
-      "gcd": 1,
-      "gcdHasted": false,
-      "visuals": [
-        {
-          "effect": "shockwave",
-          "when": "impact",
-          "colors": [
-            "#9aa4ad",
-            "#e0c080"
-          ],
-          "at": "chest",
-          "facing": "camera",
-          "sizeEnd": 4,
-          "lifetime": 0.3
-        },
-        {
-          "effect": "shards",
-          "when": "impact",
-          "colors": [
-            "#9aa4ad",
-            "#eef6ff"
-          ],
-          "count": 5,
-          "scale": 0.4
-        }
-      ],
-      "sounds": [
-        {
-          "sound": "block",
-          "when": "impact",
-          "volume": 0.3,
-          "pitchVariation": 0.1,
-          "pitch": 0.8
         }
       ]
     },
