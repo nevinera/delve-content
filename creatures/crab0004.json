@@ -1,0 +1,30 @@
+{
+  "id": "crab0004",
+  "name": "Great Red Crab",
+  "family": "crabs",
+  "creatureType": "beast",
+  "look": {
+    "body": "crab",
+    "coloration": "red",
+    "scale": 1.6
+  },
+  "reaction": "hostile",
+  "levels": [
+    35,
+    55
+  ],
+  "attack": {
+    "speed": 2.2
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.9,
+  "damage": 0.95,
+  "armor": 1.7,
+  "notes": "Lives in: Rocky coasts and reefs."
+}

@@ -7,6 +7,10 @@
     "body": "furite"
   },
   "reaction": "hostile",
+  "levels": [
+    30,
+    50
+  ],
   "attack": {
     "speed": 1.4,
     "range": 90,

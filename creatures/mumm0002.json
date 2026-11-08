@@ -9,6 +9,10 @@
   },
   "classification": "rare",
   "reaction": "hostile",
+  "levels": [
+    44,
+    52
+  ],
   "attack": {
     "speed": 2.6
   },

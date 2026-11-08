@@ -7,6 +7,10 @@
     "body": "georite"
   },
   "reaction": "hostile",
+  "levels": [
+    20,
+    40
+  ],
   "attack": {
     "speed": 2.2
   },

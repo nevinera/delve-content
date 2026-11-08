@@ -1,0 +1,29 @@
+{
+  "id": "boar0005",
+  "name": "Elder Tusker",
+  "family": "boars",
+  "creatureType": "beast",
+  "look": {
+    "body": "boar",
+    "coloration": "black",
+    "scale": 1.5
+  },
+  "reaction": "hostile",
+  "levels": [
+    43,
+    60
+  ],
+  "attack": {
+    "speed": 2.8
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 1.25,
+  "damage": 0.9,
+  "armor": 1.0,
+  "notes": "Lives in: Deep forests."
+}

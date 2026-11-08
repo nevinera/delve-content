@@ -10,6 +10,10 @@
   },
   "classification": "elite",
   "reaction": "neutral",
+  "levels": [
+    50,
+    60
+  ],
   "attack": {
     "speed": 2.8
   },

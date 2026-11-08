@@ -9,6 +9,10 @@
     "scale": 0.9
   },
   "reaction": "neutral",
+  "levels": [
+    1,
+    10
+  ],
   "attack": {
     "speed": 2.8
   },

@@ -1,0 +1,30 @@
+{
+  "id": "beet0004",
+  "name": "Great Ladybird",
+  "family": "beetles",
+  "creatureType": "beast",
+  "look": {
+    "body": "beetle",
+    "coloration": "ladybird",
+    "scale": 1.4
+  },
+  "reaction": "hostile",
+  "levels": [
+    30,
+    45
+  ],
+  "attack": {
+    "speed": 2.2
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.9,
+  "damage": 0.95,
+  "armor": 1.7,
+  "notes": "Lives in: Fungal groves and jungles."
+}

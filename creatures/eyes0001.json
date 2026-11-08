@@ -7,6 +7,10 @@
     "body": "eyeshaug"
   },
   "reaction": "hostile",
+  "levels": [
+    40,
+    56
+  ],
   "attack": {
     "speed": 2.5,
     "range": 90,

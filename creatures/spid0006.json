@@ -1,0 +1,29 @@
+{
+  "id": "spid0006",
+  "name": "Great Widow",
+  "family": "spiders",
+  "creatureType": "beast",
+  "look": {
+    "body": "spider",
+    "coloration": "widow",
+    "scale": 1.4
+  },
+  "reaction": "hostile",
+  "levels": [
+    43,
+    60
+  ],
+  "attack": {
+    "speed": 1.6
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.85,
+  "damage": 1.15,
+  "armor": 0.8,
+  "notes": "Lives in: Dark forests, ruins and deep caves."
+}

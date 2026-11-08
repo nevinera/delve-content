@@ -3,7 +3,15 @@
   "name": "Goblin",
   "family": "goblins",
   "creatureType": "humanoid",
-  "look": { "body": "goblin" },
+  "look": {
+    "body": "goblin"
+  },
   "reaction": "hostile",
-  "attack": { "speed": 2 }
+  "levels": [
+    1,
+    10
+  ],
+  "attack": {
+    "speed": 2
+  }
 }

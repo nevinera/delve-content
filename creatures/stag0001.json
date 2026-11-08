@@ -7,6 +7,10 @@
     "body": "stag"
   },
   "reaction": "neutral",
+  "levels": [
+    1,
+    10
+  ],
   "attack": {
     "speed": 2
   },

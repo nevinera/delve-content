@@ -7,6 +7,10 @@
     "body": "homari"
   },
   "reaction": "hostile",
+  "levels": [
+    24,
+    40
+  ],
   "attack": {
     "speed": 2
   },

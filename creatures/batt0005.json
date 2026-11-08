@@ -1,0 +1,29 @@
+{
+  "id": "batt0005",
+  "name": "Black Bat",
+  "family": "bats",
+  "creatureType": "beast",
+  "look": {
+    "body": "bat",
+    "coloration": "black",
+    "scale": 1.4
+  },
+  "reaction": "hostile",
+  "levels": [
+    40,
+    58
+  ],
+  "attack": {
+    "speed": 1.4
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.85,
+  "damage": 1.15,
+  "armor": 0.85,
+  "notes": "Lives in: Deep caves and haunted ruins."
+}

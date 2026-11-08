@@ -9,6 +9,10 @@
     "scale": 1.3
   },
   "reaction": "hostile",
+  "levels": [
+    20,
+    32
+  ],
   "attack": {
     "speed": 2.2
   },

@@ -7,6 +7,10 @@
     "body": "tortoise"
   },
   "reaction": "neutral",
+  "levels": [
+    20,
+    32
+  ],
   "attack": {
     "speed": 2.2
   },

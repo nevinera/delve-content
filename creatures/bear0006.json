@@ -1,0 +1,30 @@
+{
+  "id": "bear0006",
+  "name": "Great Grizzly",
+  "family": "bears",
+  "creatureType": "beast",
+  "look": {
+    "body": "bear",
+    "coloration": "grizzly",
+    "scale": 1.4
+  },
+  "reaction": "hostile",
+  "levels": [
+    43,
+    60
+  ],
+  "attack": {
+    "speed": 2.8
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 1.25,
+  "damage": 0.9,
+  "armor": 1.0,
+  "notes": "Lives in: Mountains and old forests."
+}

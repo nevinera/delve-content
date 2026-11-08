@@ -52,6 +52,10 @@
   },
   "classification": "elite",
   "reaction": "hostile",
+  "levels": [
+    40,
+    52
+  ],
   "attack": {
     "speed": 2.6
   },

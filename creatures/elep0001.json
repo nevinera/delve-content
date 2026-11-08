@@ -7,6 +7,10 @@
     "body": "elephant"
   },
   "reaction": "neutral",
+  "levels": [
+    30,
+    45
+  ],
   "attack": {
     "speed": 2.8
   },

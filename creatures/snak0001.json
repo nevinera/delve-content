@@ -7,6 +7,10 @@
     "body": "snake"
   },
   "reaction": "hostile",
+  "levels": [
+    5,
+    15
+  ],
   "attack": {
     "speed": 1.4
   },

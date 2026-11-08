@@ -1,0 +1,29 @@
+{
+  "id": "eagl0003",
+  "name": "Storm Eagle",
+  "family": "birds",
+  "creatureType": "beast",
+  "look": {
+    "body": "eagle",
+    "coloration": "sea",
+    "scale": 1.3
+  },
+  "reaction": "hostile",
+  "levels": [
+    30,
+    45
+  ],
+  "attack": {
+    "speed": 1.4
+  },
+  "abilities": [
+    "beast/rend"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.85,
+  "damage": 1.15,
+  "armor": 0.85,
+  "notes": "Lives in: Sea cliffs and high peaks."
+}

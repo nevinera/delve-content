@@ -1,0 +1,29 @@
+{
+  "id": "boar0004",
+  "name": "Bristleback",
+  "family": "boars",
+  "creatureType": "beast",
+  "look": {
+    "body": "boar",
+    "coloration": "wild",
+    "scale": 1.35
+  },
+  "reaction": "hostile",
+  "levels": [
+    30,
+    45
+  ],
+  "attack": {
+    "speed": 2.8
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 1.25,
+  "damage": 0.9,
+  "armor": 1.0,
+  "notes": "Lives in: Hills and badlands."
+}

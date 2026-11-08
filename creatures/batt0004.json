@@ -1,0 +1,29 @@
+{
+  "id": "batt0004",
+  "name": "Grey Bat",
+  "family": "bats",
+  "creatureType": "beast",
+  "look": {
+    "body": "bat",
+    "coloration": "grey",
+    "scale": 1.2
+  },
+  "reaction": "hostile",
+  "levels": [
+    20,
+    32
+  ],
+  "attack": {
+    "speed": 1.4
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.85,
+  "damage": 1.15,
+  "armor": 0.85,
+  "notes": "Lives in: Caves and ruins."
+}

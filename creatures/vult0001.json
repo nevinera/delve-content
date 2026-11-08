@@ -7,6 +7,10 @@
     "body": "vulture"
   },
   "reaction": "hostile",
+  "levels": [
+    1,
+    10
+  ],
   "attack": {
     "speed": 1.6
   },

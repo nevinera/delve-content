@@ -23,6 +23,10 @@
     ]
   },
   "reaction": "hostile",
+  "levels": [
+    4,
+    14
+  ],
   "attack": {
     "speed": 2.5,
     "range": 90,
