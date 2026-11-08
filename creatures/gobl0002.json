@@ -39,6 +39,7 @@
     ]
   },
   "reaction": "hostile",
+  "stealthed": "humanoid/sneak",
   "attack": {
     "speed": 1.6
   },

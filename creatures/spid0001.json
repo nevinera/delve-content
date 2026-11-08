@@ -7,6 +7,7 @@
     "body": "spider"
   },
   "reaction": "hostile",
+  "stealthed": "beast/prowl",
   "attack": {
     "speed": 1.4
   },
