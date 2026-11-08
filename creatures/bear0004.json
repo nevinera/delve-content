@@ -1,0 +1,26 @@
+{
+  "id": "bear0004",
+  "name": "Polar Bear",
+  "family": "bears",
+  "creatureType": "beast",
+  "look": {
+    "body": "bear",
+    "coloration": "polar",
+    "scale": 1.25
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.8
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 1.25,
+  "damage": 0.9,
+  "armor": 1.0,
+  "notes": "Lives in: Snowfields and icy coasts."
+}

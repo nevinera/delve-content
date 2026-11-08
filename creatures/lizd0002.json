@@ -1,0 +1,25 @@
+{
+  "id": "lizd0002",
+  "name": "Desert Lizard",
+  "family": "lizards",
+  "creatureType": "beast",
+  "look": {
+    "body": "lizard",
+    "coloration": "desert",
+    "scale": 0.8
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 1.6
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.7,
+  "damage": 1.1,
+  "armor": 0.6,
+  "notes": "Lives in: Deserts."
+}

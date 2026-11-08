@@ -1,0 +1,26 @@
+{
+  "id": "scor0002",
+  "name": "Black Scorpion",
+  "family": "scorpions",
+  "creatureType": "beast",
+  "look": {
+    "body": "scorpion",
+    "coloration": "black",
+    "scale": 1.15
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.2
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/rend"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.9,
+  "damage": 0.95,
+  "armor": 1.7,
+  "notes": "Lives in: Deserts and badlands."
+}

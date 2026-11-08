@@ -1,0 +1,27 @@
+{
+  "id": "bear0003",
+  "name": "Grizzly",
+  "family": "bears",
+  "creatureType": "beast",
+  "look": {
+    "body": "bear",
+    "coloration": "grizzly",
+    "scale": 1.15
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.8
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/rend",
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 1.25,
+  "damage": 0.9,
+  "armor": 1.0,
+  "notes": "Lives in: Hills, mountains and forest edges."
+}

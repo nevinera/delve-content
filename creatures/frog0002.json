@@ -1,0 +1,22 @@
+{
+  "id": "frog0002",
+  "name": "Giant Toad",
+  "family": "critters",
+  "creatureType": "beast",
+  "look": {
+    "body": "frog",
+    "coloration": "toad",
+    "scale": 2.0
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.6
+  },
+  "tags": [
+    "melee"
+  ],
+  "abilities": [
+    "beast/bite"
+  ],
+  "notes": "Lives in: Swamps and marshes."
+}

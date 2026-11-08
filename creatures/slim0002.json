@@ -1,0 +1,25 @@
+{
+  "id": "slim0002",
+  "name": "Tar Slime",
+  "family": "slimes",
+  "creatureType": "aberration",
+  "look": {
+    "body": "slime",
+    "coloration": "tar",
+    "scale": 1.4
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.6
+  },
+  "abilities": [
+    "aberration/lash"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 1.3,
+  "damage": 0.85,
+  "armor": 0.6,
+  "notes": "Lives in: Tar pits and bogs."
+}

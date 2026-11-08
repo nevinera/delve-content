@@ -1,0 +1,27 @@
+{
+  "id": "gori0002",
+  "name": "Silverback",
+  "family": "apes",
+  "creatureType": "beast",
+  "look": {
+    "body": "gorilla",
+    "coloration": "silverback",
+    "scale": 1.2
+  },
+  "classification": "elite",
+  "reaction": "hostile",
+  "attack": {
+    "speed": 2.8
+  },
+  "abilities": [
+    "beast/rend",
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 1.25,
+  "damage": 0.9,
+  "armor": 1.0,
+  "notes": "Lives in: Jungles, leading a troop."
+}

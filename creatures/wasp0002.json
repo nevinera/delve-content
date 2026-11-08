@@ -1,0 +1,25 @@
+{
+  "id": "wasp0002",
+  "name": "Hornet",
+  "family": "wasps",
+  "creatureType": "beast",
+  "look": {
+    "body": "wasp",
+    "coloration": "hornet",
+    "scale": 0.9
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 1.6
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.7,
+  "damage": 1.1,
+  "armor": 0.6,
+  "notes": "Lives in: Forests and meadows, near a nest."
+}

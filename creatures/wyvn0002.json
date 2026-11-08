@@ -1,0 +1,29 @@
+{
+  "id": "wyvn0002",
+  "name": "Venom Wyvern",
+  "family": "dragons",
+  "creatureType": "dragonkin",
+  "look": {
+    "body": "wyvern",
+    "coloration": "venom",
+    "scale": 1.1
+  },
+  "reaction": "hostile",
+  "attack": {
+    "speed": 1.6
+  },
+  "abilities": [
+    "dragonkin/claw",
+    "dragonkin/roar"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "resists": {
+    "fire": 25
+  },
+  "health": 0.85,
+  "damage": 1.15,
+  "armor": 0.8,
+  "notes": "Lives in: Jungle cliffs."
+}
