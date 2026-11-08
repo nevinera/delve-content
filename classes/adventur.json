@@ -1467,15 +1467,7 @@
         {
           "type": "stat",
           "stat": "threat",
-          "multiply": 2
-        },
-        {
-          "type": "stat",
-          "stat": "threat",
-          "multiply": 2,
-          "abilities": [
-            "jab00adv"
-          ]
+          "multiply": 5
         }
       ]
     },
