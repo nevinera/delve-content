@@ -3,7 +3,7 @@
   "name": "Frost Bolt",
   "description": "A shard of ice.",
   "target": "enemy",
-  "range": 30,
+  "range": 120,
   "school": "frost",
   "gcd": 1,
   "cooldown": 5,

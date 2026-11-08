@@ -3,7 +3,7 @@
   "name": "Shoot",
   "description": "A shot from a bow.",
   "target": "enemy",
-  "range": 35,
+  "range": 120,
   "school": "physical",
   "gcd": 1,
   "cooldown": 4,

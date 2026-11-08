@@ -3,7 +3,7 @@
   "name": "Shadow Bolt",
   "description": "A bolt of shadow.",
   "target": "enemy",
-  "range": 30,
+  "range": 120,
   "school": "shadow",
   "gcd": 1,
   "cooldown": 5,

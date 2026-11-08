@@ -9,7 +9,7 @@
   "reaction": "hostile",
   "attack": {
     "speed": 1.4,
-    "range": 30,
+    "range": 90,
     "school": "fire"
   },
   "abilities": [

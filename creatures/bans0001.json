@@ -9,7 +9,7 @@
   "reaction": "hostile",
   "attack": {
     "speed": 2.0,
-    "range": 30,
+    "range": 90,
     "school": "shadow"
   },
   "abilities": [
