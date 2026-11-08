@@ -1,0 +1,48 @@
+{
+  "id": "mudc0001",
+  "name": "Mud Clod",
+  "description": "Throws a clod of mud.",
+  "target": "enemy",
+  "range": 75,
+  "minRange": 8,
+  "school": "physical",
+  "gcd": 1,
+  "cooldown": 6,
+  "speed": 90,
+  "effects": [
+    {
+      "type": "damage",
+      "affects": "target",
+      "amount": 5
+    }
+  ],
+  "animation": "shoot",
+  "visuals": [
+    {
+      "effect": "bolt",
+      "when": "flight",
+      "colors": [
+        "#4a3a28",
+        "#8a7050"
+      ],
+      "scale": 0.4
+    }
+  ],
+  "sounds": [
+    {
+      "sound": "whoosh",
+      "when": "cast",
+      "volume": 0.15,
+      "pitchVariation": 0.1
+    },
+    {
+      "sound": "hit-soft",
+      "when": "impact",
+      "volume": 0.2,
+      "pitchVariation": 0.1
+    }
+  ],
+  "tags": [
+    "creature"
+  ]
+}
