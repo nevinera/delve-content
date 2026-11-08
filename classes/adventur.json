@@ -56,8 +56,7 @@
     "bow",
     "crossbow",
     "gun",
-    "wand",
-    "thrown"
+    "wand"
   ],
   "offhands": [
     "shield",
