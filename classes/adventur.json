@@ -856,7 +856,7 @@
       "icon": "screaming",
       "level": 10,
       "target": "enemy",
-      "range": 30,
+      "range": 90,
       "gcd": 0,
       "cooldown": 8,
       "effects": [
@@ -1028,7 +1028,7 @@
       "icon": "medical-pack",
       "level": 10,
       "target": "ally",
-      "range": 40,
+      "range": 120,
       "school": "nature",
       "castTime": 3,
       "cost": [
@@ -1106,7 +1106,7 @@
       "icon": "healing",
       "level": 10,
       "target": "ally",
-      "range": 40,
+      "range": 120,
       "school": "nature",
       "castTime": 1.5,
       "cost": [

@@ -3,7 +3,7 @@
   "name": "Thorn Bolt",
   "description": "A spray of thorns.",
   "target": "enemy",
-  "range": 30,
+  "range": 120,
   "school": "nature",
   "gcd": 1,
   "cooldown": 5,

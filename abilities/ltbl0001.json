@@ -3,7 +3,7 @@
   "name": "Lightning Bolt",
   "description": "A crack of lightning.",
   "target": "enemy",
-  "range": 30,
+  "range": 120,
   "school": "nature",
   "gcd": 1,
   "cooldown": 5,

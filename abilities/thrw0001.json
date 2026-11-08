@@ -3,7 +3,7 @@
   "name": "Throw",
   "description": "Throws a spear, axe or rock.",
   "target": "enemy",
-  "range": 25,
+  "range": 90,
   "minRange": 8,
   "school": "physical",
   "gcd": 1,

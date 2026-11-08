@@ -39,7 +39,7 @@
   "reaction": "hostile",
   "attack": {
     "speed": 2.5,
-    "range": 30
+    "range": 90
   },
   "abilities": [
     "humanoid/shoot"
