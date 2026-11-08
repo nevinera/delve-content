@@ -1184,7 +1184,7 @@
       "icon": "ankh",
       "level": 12,
       "target": "ally",
-      "range": 40,
+      "range": 120,
       "school": "nature",
       "castTime": 10,
       "cost": [
