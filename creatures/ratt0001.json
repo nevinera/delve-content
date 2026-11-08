@@ -7,6 +7,10 @@
     "body": "rat"
   },
   "reaction": "hostile",
+  "levels": [
+    3,
+    14
+  ],
   "attack": {
     "speed": 1.6
   },

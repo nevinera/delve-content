@@ -1,0 +1,29 @@
+{
+  "id": "ratt0003",
+  "name": "Plague Rat",
+  "family": "rats",
+  "creatureType": "beast",
+  "look": {
+    "body": "rat",
+    "coloration": "black",
+    "scale": 1.2
+  },
+  "reaction": "hostile",
+  "levels": [
+    20,
+    35
+  ],
+  "attack": {
+    "speed": 1.6
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.85,
+  "damage": 1.15,
+  "armor": 0.8,
+  "notes": "Lives in: Plague villages, sewers and crypts."
+}

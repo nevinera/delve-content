@@ -7,6 +7,10 @@
     "body": "wisp"
   },
   "reaction": "neutral",
+  "levels": [
+    20,
+    32
+  ],
   "attack": {
     "speed": 2.5,
     "range": 90,

@@ -7,6 +7,10 @@
     "body": "gargoyle"
   },
   "reaction": "hostile",
+  "levels": [
+    30,
+    46
+  ],
   "attack": {
     "speed": 2.2
   },

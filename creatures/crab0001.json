@@ -7,6 +7,10 @@
     "body": "crab"
   },
   "reaction": "hostile",
+  "levels": [
+    10,
+    20
+  ],
   "attack": {
     "speed": 2.2
   },

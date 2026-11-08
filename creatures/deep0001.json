@@ -7,6 +7,10 @@
     "body": "deepshaug"
   },
   "reaction": "hostile",
+  "levels": [
+    36,
+    52
+  ],
   "attack": {
     "speed": 2
   },

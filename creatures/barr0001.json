@@ -7,6 +7,10 @@
     "body": "barracuda"
   },
   "reaction": "hostile",
+  "levels": [
+    20,
+    32
+  ],
   "attack": {
     "speed": 1.4
   },

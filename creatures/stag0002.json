@@ -10,6 +10,10 @@
   },
   "classification": "rare",
   "reaction": "neutral",
+  "levels": [
+    20,
+    30
+  ],
   "attack": {
     "speed": 1.4
   },

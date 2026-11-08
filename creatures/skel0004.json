@@ -41,6 +41,10 @@
   },
   "classification": "elite",
   "reaction": "hostile",
+  "levels": [
+    24,
+    34
+  ],
   "attack": {
     "speed": 2.2
   },

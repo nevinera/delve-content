@@ -1,0 +1,44 @@
+{
+  "id": "trol0007",
+  "name": "Troll Headhunter",
+  "family": "trolls",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "troll",
+    "loadouts": [
+      {
+        "weapon": "thrown",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "hands": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      }
+    ],
+    "coloration": "troll 6",
+    "scale": 1.1
+  },
+  "reaction": "hostile",
+  "levels": [
+    35,
+    52
+  ],
+  "attack": {
+    "speed": 2.5,
+    "range": 90
+  },
+  "abilities": [
+    "thrw0001"
+  ],
+  "tags": [
+    "archer"
+  ],
+  "armor": 0.92,
+  "notes": "Lives in: Jungle temples and troll cities."
+}

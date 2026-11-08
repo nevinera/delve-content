@@ -8,6 +8,10 @@
     "coloration": "snow leopard"
   },
   "reaction": "hostile",
+  "levels": [
+    30,
+    45
+  ],
   "attack": {
     "speed": 1.4
   },

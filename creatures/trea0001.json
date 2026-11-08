@@ -7,6 +7,10 @@
     "body": "treant"
   },
   "reaction": "hostile",
+  "levels": [
+    25,
+    42
+  ],
   "attack": {
     "speed": 2
   },

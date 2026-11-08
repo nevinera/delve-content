@@ -7,6 +7,10 @@
     "body": "golem"
   },
   "reaction": "hostile",
+  "levels": [
+    25,
+    40
+  ],
   "attack": {
     "speed": 2.2
   },

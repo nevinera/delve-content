@@ -1,0 +1,44 @@
+{
+  "id": "orcc0008",
+  "name": "Orc Marksman",
+  "family": "orcs",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "orc",
+    "loadouts": [
+      {
+        "weapon": "bow",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "hands": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      }
+    ],
+    "coloration": "orc 7",
+    "scale": 1.1
+  },
+  "reaction": "hostile",
+  "levels": [
+    42,
+    58
+  ],
+  "attack": {
+    "speed": 2.5,
+    "range": 90
+  },
+  "abilities": [
+    "humanoid/shoot"
+  ],
+  "tags": [
+    "archer"
+  ],
+  "armor": 0.92,
+  "notes": "Lives in: Orc strongholds."
+}

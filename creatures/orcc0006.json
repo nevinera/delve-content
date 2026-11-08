@@ -1,0 +1,63 @@
+{
+  "id": "orcc0006",
+  "name": "Orc Veteran",
+  "family": "orcs",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "orc",
+    "loadouts": [
+      {
+        "weapon": "axe",
+        "weaponStyle": "savage",
+        "offhand": "shield",
+        "offhandStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "plate",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "plate",
+            "style": "savage"
+          }
+        }
+      },
+      {
+        "weapon": "sword",
+        "weaponStyle": "savage",
+        "offhand": "shield",
+        "offhandStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "plate",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "plate",
+            "style": "savage"
+          }
+        }
+      }
+    ],
+    "coloration": "orc 7",
+    "scale": 1.1
+  },
+  "reaction": "hostile",
+  "levels": [
+    42,
+    58
+  ],
+  "attack": {
+    "speed": 2.2
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 1.0,
+  "damage": 0.95,
+  "armor": 1.3,
+  "notes": "Lives in: Orc strongholds."
+}

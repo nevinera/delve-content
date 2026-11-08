@@ -7,6 +7,10 @@
     "body": "ghoul"
   },
   "reaction": "hostile",
+  "levels": [
+    15,
+    32
+  ],
   "attack": {
     "speed": 1.4
   },

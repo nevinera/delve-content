@@ -7,6 +7,10 @@
     "body": "aerite"
   },
   "reaction": "hostile",
+  "levels": [
+    34,
+    54
+  ],
   "attack": {
     "speed": 2.5,
     "range": 90,

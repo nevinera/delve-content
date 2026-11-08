@@ -7,6 +7,10 @@
     "body": "coalhound"
   },
   "reaction": "hostile",
+  "levels": [
+    46,
+    60
+  ],
   "attack": {
     "speed": 1.4
   },

@@ -1,0 +1,61 @@
+{
+  "id": "trol0005",
+  "name": "Troll Ravager",
+  "family": "trolls",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "troll",
+    "loadouts": [
+      {
+        "weapon": "greataxe",
+        "weaponStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      },
+      {
+        "weapon": "axe",
+        "weaponStyle": "savage",
+        "offhand": "axe",
+        "offhandStyle": "savage",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "savage"
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "savage"
+          }
+        }
+      }
+    ],
+    "coloration": "troll 6",
+    "scale": 1.1
+  },
+  "reaction": "hostile",
+  "levels": [
+    35,
+    52
+  ],
+  "attack": {
+    "speed": 1.4
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.85,
+  "damage": 1.15,
+  "armor": 0.85,
+  "notes": "Lives in: Jungle temples and troll cities."
+}

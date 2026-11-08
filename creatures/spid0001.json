@@ -7,6 +7,10 @@
     "body": "spider"
   },
   "reaction": "hostile",
+  "levels": [
+    10,
+    20
+  ],
   "stealthed": "beast/prowl",
   "attack": {
     "speed": 1.4

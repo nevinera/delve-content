@@ -39,6 +39,10 @@
     ]
   },
   "reaction": "hostile",
+  "levels": [
+    2,
+    12
+  ],
   "stealthed": "humanoid/sneak",
   "attack": {
     "speed": 1.6

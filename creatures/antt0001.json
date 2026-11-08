@@ -7,6 +7,10 @@
     "body": "ant"
   },
   "reaction": "hostile",
+  "levels": [
+    12,
+    25
+  ],
   "attack": {
     "speed": 2.2
   },

@@ -7,6 +7,10 @@
     "body": "stingray"
   },
   "reaction": "neutral",
+  "levels": [
+    10,
+    20
+  ],
   "attack": {
     "speed": 2
   },

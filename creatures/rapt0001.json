@@ -7,6 +7,10 @@
     "body": "raptor"
   },
   "reaction": "hostile",
+  "levels": [
+    10,
+    20
+  ],
   "attack": {
     "speed": 1.4
   },
