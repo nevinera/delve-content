@@ -35,14 +35,14 @@
     "school": "frost"
   },
   "abilities": [
-    "fsbl0001",
+    "ranged/frostBolt",
     "undead/bolt"
   ],
   "tactics": {
     "type": "priority",
     "abilities": [
       "undead/bolt",
-      "fsbl0001"
+      "ranged/frostBolt"
     ]
   },
   "tags": [

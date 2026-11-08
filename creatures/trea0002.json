@@ -17,7 +17,7 @@
     "speed": 2
   },
   "abilities": [
-    "thbl0001",
+    "ranged/thornBolt",
     "elemental/harden"
   ],
   "tags": [

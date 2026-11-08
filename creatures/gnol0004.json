@@ -33,7 +33,7 @@
     "school": "shadow"
   },
   "abilities": [
-    "shbl0001"
+    "ranged/shadowBolt"
   ],
   "tags": [
     "caster"

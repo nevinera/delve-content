@@ -34,7 +34,7 @@
     "range": 90
   },
   "abilities": [
-    "thrw0001"
+    "ranged/throw"
   ],
   "tags": [
     "archer"

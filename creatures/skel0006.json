@@ -34,7 +34,7 @@
     "range": 90
   },
   "abilities": [
-    "shot0001"
+    "ranged/shoot"
   ],
   "tags": [
     "archer"

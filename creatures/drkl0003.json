@@ -33,14 +33,14 @@
     "school": "fire"
   },
   "abilities": [
-    "frbl0001",
+    "ranged/fireBolt",
     "dragonkin/roar"
   ],
   "tactics": {
     "type": "priority",
     "abilities": [
       "dragonkin/roar",
-      "frbl0001"
+      "ranged/fireBolt"
     ]
   },
   "tags": [

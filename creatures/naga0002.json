@@ -49,14 +49,14 @@
     "school": "frost"
   },
   "abilities": [
-    "fsbl0001",
-    "ltbl0001"
+    "ranged/frostBolt",
+    "ranged/lightningBolt"
   ],
   "tactics": {
     "type": "priority",
     "abilities": [
-      "ltbl0001",
-      "fsbl0001"
+      "ranged/lightningBolt",
+      "ranged/frostBolt"
     ]
   },
   "tags": [

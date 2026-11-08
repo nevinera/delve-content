@@ -17,14 +17,14 @@
     "school": "frost"
   },
   "abilities": [
-    "fsbl0001",
+    "ranged/frostBolt",
     "elemental/harden"
   ],
   "tactics": {
     "type": "priority",
     "abilities": [
       "elemental/harden",
-      "fsbl0001"
+      "ranged/frostBolt"
     ]
   },
   "tags": [

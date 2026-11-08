@@ -35,14 +35,14 @@
     "school": "shadow"
   },
   "abilities": [
-    "shbl0001",
+    "ranged/shadowBolt",
     "humanoid/mend"
   ],
   "tactics": {
     "type": "priority",
     "abilities": [
       "humanoid/mend",
-      "shbl0001"
+      "ranged/shadowBolt"
     ]
   },
   "tags": [

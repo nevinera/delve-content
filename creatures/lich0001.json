@@ -14,7 +14,7 @@
     "school": "frost"
   },
   "abilities": [
-    "fsbl0001",
+    "ranged/frostBolt",
     "undead/bolt",
     "undead/drain"
   ],
@@ -23,7 +23,7 @@
     "abilities": [
       "undead/drain",
       "undead/bolt",
-      "fsbl0001"
+      "ranged/frostBolt"
     ]
   },
   "tags": [

@@ -33,14 +33,14 @@
     "school": "nature"
   },
   "abilities": [
-    "ltbl0001",
+    "ranged/lightningBolt",
     "humanoid/mend"
   ],
   "tactics": {
     "type": "priority",
     "abilities": [
       "humanoid/mend",
-      "ltbl0001"
+      "ranged/lightningBolt"
     ]
   },
   "tags": [

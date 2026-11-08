@@ -33,14 +33,14 @@
     "school": "fire"
   },
   "abilities": [
-    "frbl0001",
-    "fsbl0001"
+    "ranged/fireBolt",
+    "ranged/frostBolt"
   ],
   "tactics": {
     "type": "priority",
     "abilities": [
-      "fsbl0001",
-      "frbl0001"
+      "ranged/frostBolt",
+      "ranged/fireBolt"
     ]
   },
   "tags": [

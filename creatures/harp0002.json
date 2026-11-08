@@ -33,7 +33,7 @@
     "school": "nature"
   },
   "abilities": [
-    "ltbl0001"
+    "ranged/lightningBolt"
   ],
   "tags": [
     "caster"

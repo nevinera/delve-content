@@ -17,14 +17,14 @@
     "school": "nature"
   },
   "abilities": [
-    "ltbl0001",
+    "ranged/lightningBolt",
     "elemental/pulse"
   ],
   "tactics": {
     "type": "priority",
     "abilities": [
       "elemental/pulse",
-      "ltbl0001"
+      "ranged/lightningBolt"
     ]
   },
   "tags": [

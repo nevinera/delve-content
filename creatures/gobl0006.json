@@ -49,7 +49,7 @@
     "school": "fire"
   },
   "abilities": [
-    "frbl0001"
+    "ranged/fireBolt"
   ],
   "tags": [
     "caster"

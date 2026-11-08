@@ -33,7 +33,7 @@
     "school": "frost"
   },
   "abilities": [
-    "fsbl0001"
+    "ranged/frostBolt"
   ],
   "tags": [
     "caster"
