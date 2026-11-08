@@ -8,7 +8,7 @@
   "school": "physical",
   "gcd": 1,
   "cooldown": 6,
-  "speed": 35,
+  "speed": 105,
   "effects": [
     {
       "type": "damage",
