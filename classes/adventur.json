@@ -60,11 +60,6 @@
     "thrown"
   ],
   "offhands": [
-    "sword",
-    "axe",
-    "mace",
-    "dagger",
-    "fist",
     "shield",
     "orb"
   ],
@@ -92,12 +87,20 @@
       "id": "mean",
       "name": "Mean",
       "status": "smeanadv",
-      "description": "Hits hard and crits often.",
+      "description": "Hits hard, and from level 20 fights with a weapon in each hand.",
       "abilities": [
         "gobrkadv",
         "lowbladv",
         "gut00adv"
-      ]
+      ],
+      "offhands": [
+        "sword",
+        "axe",
+        "mace",
+        "dagger",
+        "fist"
+      ],
+      "offhandsLevel": 20
     },
     {
       "id": "tough",
@@ -105,6 +108,7 @@
       "status": "stougadv",
       "description": "Takes the hits, keeps enemies on it, and has more health.",
       "abilities": [
+        "slam0adv",
         "oi000adv",
         "bracadv0",
         "diginadv"
@@ -846,6 +850,88 @@
       ]
     },
     {
+      "id": "slam0adv",
+      "name": "Shield Shove",
+      "description": "Shove an enemy with your shield. It builds a setup point and makes the enemy want you more.",
+      "icon": "shield-bash",
+      "level": 10,
+      "target": "enemy",
+      "range": "melee",
+      "school": "physical",
+      "cost": [
+        {
+          "resource": "energy",
+          "amount": 20
+        }
+      ],
+      "cooldown": 6,
+      "requires": [
+        {
+          "wielding": "shield"
+        }
+      ],
+      "effects": [
+        {
+          "type": "damage",
+          "affects": "target",
+          "amount": {
+            "attackPower": 0.3
+          }
+        },
+        {
+          "type": "resource",
+          "affects": "self",
+          "resource": "setup",
+          "amount": 1
+        },
+        {
+          "type": "threat",
+          "affects": "target",
+          "multiply": 1.5
+        }
+      ],
+      "animation": "bigAttack",
+      "tags": [
+        "builder",
+        "rotation"
+      ],
+      "gcd": 1,
+      "gcdHasted": false,
+      "visuals": [
+        {
+          "effect": "shockwave",
+          "when": "impact",
+          "colors": [
+            "#9aa4ad",
+            "#e0c080"
+          ],
+          "at": "chest",
+          "facing": "camera",
+          "sizeEnd": 4,
+          "lifetime": 0.3
+        },
+        {
+          "effect": "shards",
+          "when": "impact",
+          "colors": [
+            "#9aa4ad",
+            "#eef6ff"
+          ],
+          "count": 5,
+          "scale": 0.4
+        }
+      ],
+      "sounds": [
+        {
+          "sound": "block",
+          "when": "impact",
+          "volume": 0.3,
+          "pitchVariation": 0.1,
+          "pitch": 0.8
+        }
+      ]
+    },
+    {
       "id": "oi000adv",
       "name": "Oi",
       "description": "Makes an enemy attack you.",
@@ -1444,18 +1530,7 @@
       "id": "smeanadv",
       "name": "Mean",
       "kind": "hidden",
-      "effects": [
-        {
-          "type": "stat",
-          "stat": "critChance",
-          "add": 10
-        },
-        {
-          "type": "stat",
-          "stat": "damageDone",
-          "multiply": 0.75
-        }
-      ]
+      "effects": []
     },
     {
       "id": "stougadv",
@@ -1628,11 +1703,6 @@
           "perCount": {
             "resource": "strain"
           }
-        },
-        {
-          "type": "stat",
-          "stat": "damageDone",
-          "multiply": 0.67
         }
       ]
     }
