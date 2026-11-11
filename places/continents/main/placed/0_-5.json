@@ -1,7 +1,8 @@
 {
- "version": 1,
+ "version": 2,
  "objects": [
   {
+   "id": "obj6kxlo",
    "type": "built:bfarm007",
    "at": [
     1697.22,
