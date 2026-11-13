@@ -6,35 +6,5 @@
       "key": "main",
       "name": "Main"
     }
-  ],
-  "dungeons": [],
-  "spawn": {
-    "continent": "main",
-    "at": [
-      4709.4,
-      -8157.3
-    ]
-  },
-  "dummies": [
-    {
-      "id": "dummzo6w",
-      "continent": "main",
-      "at": [
-        4737.7,
-        -8163.2
-      ]
-    }
-  ],
-  "restPoints": [
-    {
-      "id": "restcxqz",
-      "name": "Rest point 1",
-      "continent": "main",
-      "at": [
-        4195.3,
-        -7393.9
-      ],
-      "area": "areag95c"
-    }
   ]
 }
