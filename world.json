@@ -6,5 +6,12 @@
       "key": "main",
       "name": "Main"
     }
-  ]
+  ],
+  "spawn": {
+    "continent": "main",
+    "at": [
+      -11318,
+      -22974.5
+    ]
+  }
 }

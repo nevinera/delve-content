@@ -867,12 +867,151 @@
         -6997.9,
         -28822.7
       ],
-      "elevation": 1500,
-      "locked": true
+      "elevation": 1500
     }
   ],
-  "hubs": [],
+  "hubs": [
+    {
+      "id": "46ncxh02",
+      "name": "Shrine to the Dream",
+      "type": "outpost",
+      "at": [
+        -8235,
+        -22077.2
+      ]
+    },
+    {
+      "id": "5el100xs",
+      "name": "Three Streams",
+      "type": "town",
+      "at": [
+        -9530.9,
+        -21985.9
+      ]
+    },
+    {
+      "id": "h26c3mg2",
+      "name": "Angler's Wharf",
+      "type": "town",
+      "at": [
+        -13248.5,
+        -20371.2
+      ]
+    },
+    {
+      "id": "lybxr4de",
+      "name": "Bootlegger's Cove",
+      "type": "outpost",
+      "at": [
+        -12603.8,
+        -18921.2
+      ]
+    },
+    {
+      "id": "d7pblzz2",
+      "name": "Drenon's Rest",
+      "type": "town",
+      "at": [
+        -11508.1,
+        -23805.7
+      ]
+    },
+    {
+      "id": "b4qcgpur",
+      "name": "Holt's Mill",
+      "type": "town",
+      "at": [
+        -12318,
+        -25883.1
+      ]
+    },
+    {
+      "id": "7lvo8ohg",
+      "name": "Pass of Daggers",
+      "type": "outpost",
+      "at": [
+        -10315.9,
+        -19696.7
+      ]
+    },
+    {
+      "id": "rioqoarq",
+      "name": "East Front",
+      "type": "front",
+      "at": [
+        -8209.2,
+        -18087.9
+      ]
+    }
+  ],
   "dungeons": [],
-  "connections": [],
-  "camps": []
+  "connections": [
+    {
+      "id": "c4d2xm9n",
+      "from": "46ncxh02",
+      "to": "5el100xs",
+      "way": "road",
+      "points": []
+    },
+    {
+      "id": "w9k0ymih",
+      "from": "d7pblzz2",
+      "to": "5el100xs",
+      "way": "road",
+      "points": []
+    },
+    {
+      "id": "kq1eduj6",
+      "from": "d7pblzz2",
+      "to": "h26c3mg2",
+      "way": "road",
+      "points": []
+    },
+    {
+      "id": "06r9x6hb",
+      "from": "h26c3mg2",
+      "to": "lybxr4de",
+      "way": "road",
+      "points": []
+    },
+    {
+      "id": "2eknq1a7",
+      "from": "b4qcgpur",
+      "to": "d7pblzz2",
+      "way": "road",
+      "points": []
+    },
+    {
+      "id": "njkcdbuf",
+      "from": "5el100xs",
+      "to": "7lvo8ohg",
+      "way": "road",
+      "points": []
+    },
+    {
+      "id": "xi43c26z",
+      "from": "7lvo8ohg",
+      "to": "h26c3mg2",
+      "way": "road",
+      "points": []
+    },
+    {
+      "id": "rivwybll",
+      "from": "7lvo8ohg",
+      "to": "rioqoarq",
+      "way": "road",
+      "points": []
+    }
+  ],
+  "camps": [
+    {
+      "id": "bbhe6uq5",
+      "name": "Ruins of Seacrest",
+      "theme": "ruined town, amphen",
+      "at": [
+        -13778.7,
+        -21697.1
+      ]
+    }
+  ]
 }
