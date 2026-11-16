@@ -1,7 +1,7 @@
 ---
 name: Present tensions
 type: topic
-status: draft
+status: canon
 tags: [framework, conflict]
 summary: What's going wrong now, the troubles quests grow from.
 ---

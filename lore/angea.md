@@ -1,7 +1,7 @@
 ---
 name: Angea
 type: place
-status: draft
+status: canon
 tags: [framework, continent]
 summary: The continent where humans rose again, and home of both colonizing powers.
 ---

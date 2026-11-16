@@ -1,7 +1,7 @@
 ---
 name: The overthrow of the Tennelys
 type: event
-status: draft
+status: canon
 tags: [framework, conflict, empire-of-ange]
 summary: The colony's rule was taken from the Tennely family by force; the new rulers haven't kept their promises.
 ---

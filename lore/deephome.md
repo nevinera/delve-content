@@ -1,7 +1,7 @@
 ---
 name: Deephome
 type: place
-status: draft
+status: canon
 tags: [framework, dwarves, city]
 summary: The dwarves' one city, underground, with well-guarded tunnel gates.
 ---

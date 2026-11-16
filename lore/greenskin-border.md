@@ -1,7 +1,7 @@
 ---
 name: The greenskin border
 type: place
-status: draft
+status: canon
 tags: [framework, conflict, war-front]
 summary: The border of Ange's colony that greenskin war parties attack constantly.
 ---

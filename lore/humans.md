@@ -1,7 +1,7 @@
 ---
 name: Humans
 type: people
-status: draft
+status: canon
 tags: [framework, great-power]
 summary: Civilization, colonization and change.
 ---

@@ -1,7 +1,7 @@
 ---
 name: The Kingdom Beneath
 type: faction
-status: draft
+status: canon
 tags: [framework, dwarves]
 summary: The whole dwarven kingdom, cut off since Light's Bane, if it still exists.
 ---

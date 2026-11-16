@@ -1,7 +1,7 @@
 ---
 name: Halflings
 type: people
-status: draft
+status: canon
 tags: [framework, peoples]
 summary: Farmers in a few villages in hidden, safe places.
 ---

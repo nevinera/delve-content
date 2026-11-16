@@ -1,7 +1,7 @@
 ---
 name: Orcs
 type: people
-status: draft
+status: canon
 tags: [framework, great-power, monstrous]
 summary: "Greed, aggression and barbarism: intelligent monsters that eat children."
 ---

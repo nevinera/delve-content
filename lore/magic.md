@@ -1,7 +1,7 @@
 ---
 name: Magic
 type: topic
-status: draft
+status: canon
 tags: [framework, magic]
 summary: A mysterious art from the world and the stars, which shifts over time.
 ---

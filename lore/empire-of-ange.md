@@ -1,7 +1,7 @@
 ---
 name: The Empire of Ange
 type: faction
-status: draft
+status: canon
 tags: [framework, humans, colonists]
 summary: A colonizing human empire from Angea; cordial with the Nordish.
 ---

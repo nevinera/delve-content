@@ -1,7 +1,7 @@
 ---
 name: The simulation
 type: topic
-status: draft
+status: canon
 tags: [framework, secret]
 summary: "SECRET, never confirmed: the world is a distant-future simulation, and the arrivals were uploaded."
 ---

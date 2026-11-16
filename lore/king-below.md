@@ -1,7 +1,7 @@
 ---
 name: The King Below
 type: figure
-status: draft
+status: canon
 tags: [framework, dwarves]
 summary: Ruler of the Kingdom Beneath, who most dwarves insist is digging toward them.
 ---

@@ -1,7 +1,7 @@
 ---
 name: The Age of Myth
 type: event
-status: draft
+status: canon
 tags: [framework, age]
 summary: An age of warlords guarding their own cities and fighting without end.
 when: after the Dawn Times, before the Age of Light

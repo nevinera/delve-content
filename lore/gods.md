@@ -1,7 +1,7 @@
 ---
 name: Gods and powers
 type: belief
-status: draft
+status: canon
 tags: [framework, religion]
 summary: Gods aren't clearly real; many groups believe in one or another.
 ---

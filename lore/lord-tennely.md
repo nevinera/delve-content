@@ -1,7 +1,7 @@
 ---
 name: Lord Tennely
 type: figure
-status: draft
+status: canon
 tags: [framework, empire-of-ange]
 summary: Head of the colony's first noble family, whose rule was taken by force.
 ---

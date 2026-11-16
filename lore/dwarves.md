@@ -1,7 +1,7 @@
 ---
 name: Dwarves
 type: people
-status: draft
+status: canon
 tags: [framework]
 summary: A long-lived people of insular underground claves and one city, Deephome.
 ---

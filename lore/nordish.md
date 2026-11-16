@@ -1,7 +1,7 @@
 ---
 name: The Nordish
 type: people
-status: draft
+status: canon
 tags: [framework, humans, colonists]
 summary: Colonizing northern seafarers from Angea; cordial with the Empire of Ange.
 ---

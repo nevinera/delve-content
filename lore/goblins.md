@@ -1,7 +1,7 @@
 ---
 name: Goblins
 type: people
-status: draft
+status: canon
 tags: [framework, great-power, monstrous]
 summary: Greed, aggression and barbarism, with the orcs.
 ---

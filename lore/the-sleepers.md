@@ -1,7 +1,7 @@
 ---
 name: The Sleepers and the Dream
 type: belief
-status: draft
+status: canon
 tags: [framework, religion, arrivals]
 summary: A cult-like faith around the Wakers, who suddenly appear remembering only a dream.
 ---

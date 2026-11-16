@@ -1,7 +1,7 @@
 ---
 name: The Age of Light
 type: event
-status: draft
+status: canon
 tags: [framework, age]
 summary: The elves' world-spanning civilization, devoted to the Lord of Light, which ended in a cataclysm.
 when: ended about a thousand years ago

@@ -1,7 +1,7 @@
 ---
 name: The Dawn Times
 type: event
-status: draft
+status: canon
 tags: [framework, age]
 summary: A mysterious age, it's said with no magic at all, and a smaller world.
 when: before the Age of Myth

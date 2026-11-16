@@ -1,7 +1,7 @@
 ---
 name: Light's Bane
 type: event
-status: draft
+status: canon
 tags: [framework, age-of-light]
 summary: The technomagical disaster that ended the Age of Light, wrecked much of the world, and cut the dwarves' sea tunnels.
 when: about a thousand years ago

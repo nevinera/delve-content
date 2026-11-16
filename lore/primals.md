@@ -1,7 +1,7 @@
 ---
 name: The Primals
 type: faction
-status: draft
+status: canon
 tags: [framework, great-power, elements]
 summary: "The elemental rulers: power, wrath and catastrophe."
 ---

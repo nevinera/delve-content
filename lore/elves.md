@@ -1,7 +1,7 @@
 ---
 name: Elves
 type: people
-status: draft
+status: canon
 tags: [framework, great-power]
 summary: Stability, nature and song.
 ---

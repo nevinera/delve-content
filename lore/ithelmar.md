@@ -1,7 +1,7 @@
 ---
 name: Ithelmar
 type: place
-status: draft
+status: canon
 tags: [framework, continent, geography]
 summary: The very large island we're building, with a name in each language.
 ---

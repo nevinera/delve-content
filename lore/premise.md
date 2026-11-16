@@ -1,7 +1,7 @@
 ---
 name: The world's premise
 type: topic
-status: draft
+status: canon
 tags: [framework]
 summary: Peaceful lands against war fronts; beautiful magic against demonic corruption.
 ---

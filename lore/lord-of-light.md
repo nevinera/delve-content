@@ -1,7 +1,7 @@
 ---
 name: The Lord of Light
 type: figure
-status: draft
+status: canon
 tags: [framework, age-of-light]
 summary: The immortal god-king the elves of the Age of Light were devoted to.
 ---

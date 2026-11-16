@@ -1,7 +1,7 @@
 ---
 name: The smaller peoples
 type: topic
-status: draft
+status: canon
 tags: [framework, peoples]
 summary: The more sympathetic peoples caught up in the conflicts between humans and elves.
 ---

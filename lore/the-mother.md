@@ -1,7 +1,7 @@
 ---
 name: The Mother
 type: belief
-status: draft
+status: canon
 tags: [framework, religion, empire-of-ange]
 summary: Ange's main faith, which few of its faithful take literally.
 ---

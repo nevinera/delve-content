@@ -1,7 +1,7 @@
 ---
 name: Drakel
 type: people
-status: draft
+status: canon
 tags: [framework, peoples, tribal]
 summary: Dragonfolk; tribal.
 ---

@@ -1,7 +1,7 @@
 ---
 name: The Age of Man
 type: event
-status: draft
+status: canon
 tags: [framework, age]
 summary: The present age, as humans call it; no other people would.
 when: the present

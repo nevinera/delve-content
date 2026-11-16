@@ -1,7 +1,7 @@
 ---
 name: The demons
 type: faction
-status: draft
+status: canon
 tags: [framework, great-power]
 summary: Corruption, horror and destruction.
 ---

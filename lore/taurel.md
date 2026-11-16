@@ -1,7 +1,7 @@
 ---
 name: Taurel
 type: people
-status: draft
+status: canon
 tags: [framework, peoples, tribal]
 summary: Bull-folk; tribal.
 ---

@@ -1,7 +1,7 @@
 ---
 name: The Age of Science
 type: event
-status: draft
+status: canon
 tags: [framework, age, secret]
 summary: "SECRET: the age before magic, which is our real world now."
 when: before the Dawn Times; the real world's present
