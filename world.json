@@ -1,5 +1,14 @@
 {
   "version": 2,
   "name": "Emberwake",
-  "continents": []
+  "continents": [
+    {
+      "key": "ithelmar",
+      "name": "Ithelmar"
+    },
+    {
+      "key": "south",
+      "name": "South"
+    }
+  ]
 }

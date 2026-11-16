@@ -12,3 +12,7 @@ The Primals are the rulers of the elements. They stand for power, wrath and cata
 
 - How many there are, and which elements.
 - What they want, and what wakes their wrath.
+
+## Where
+
+They hold two zones on [[the-south]]: a volcano on the far side of its mountains, and highlands full of waterfalls beside it.
