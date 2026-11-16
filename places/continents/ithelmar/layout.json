@@ -5,10 +5,6 @@
       "id": "4a50vx4n",
       "name": "Abbey heartland",
       "theme": "Nevange's safe heartland round the Abbey, where every Waker starts",
-      "levels": [
-        1,
-        10
-      ],
       "points": [
         [
           -576,
@@ -56,10 +52,6 @@
       "id": "ba2vd96j",
       "name": "Southern heartland",
       "theme": "Nevange's settled farmland, stable and safe, toward the greenskin border",
-      "levels": [
-        10,
-        20
-      ],
       "points": [
         [
           306,
@@ -107,10 +99,6 @@
       "id": "jcglt2kl",
       "name": "Northern frontier",
       "theme": "Nevange's frontier toward Norda, where the two colonies compete for land",
-      "levels": [
-        15,
-        25
-      ],
       "points": [
         [
           -231,
@@ -158,10 +146,6 @@
       "id": "zq1b480m",
       "name": "Logging frontier",
       "theme": "Nevange's frontier into the elves' high forest, logging camps and wary elves",
-      "levels": [
-        20,
-        30
-      ],
       "points": [
         [
           8277,
@@ -209,10 +193,6 @@
       "id": "ec5m6mer",
       "name": "Greenskin border",
       "theme": "the war front: endless greenskin raids that have slowed expansion to a crawl",
-      "levels": [
-        25,
-        35
-      ],
       "points": [
         [
           3563,
@@ -260,10 +240,6 @@
       "id": "rm52a41e",
       "name": "High forest",
       "theme": "the elves' high forest between the two colonies, scarred and regrowing",
-      "levels": [
-        25,
-        35
-      ],
       "points": [
         [
           12016,
@@ -319,10 +295,6 @@
       "id": "tqot3van",
       "name": "Norda landing",
       "theme": "Norda's first settlements on the north coast, in harsh weather",
-      "levels": [
-        30,
-        40
-      ],
       "points": [
         [
           13024,
@@ -370,10 +342,6 @@
       "id": "if1snxh0",
       "name": "Norda north-east",
       "theme": "Norda's cold north-east coast",
-      "levels": [
-        35,
-        45
-      ],
       "points": [
         [
           23581,
@@ -429,10 +397,6 @@
       "id": "9hj8j6r8",
       "name": "Eastern coast",
       "theme": "the east coast below Norda",
-      "levels": [
-        35,
-        45
-      ],
       "points": [
         [
           27913,
@@ -480,10 +444,6 @@
       "id": "87vvwe0l",
       "name": "The mountains",
       "theme": "the curving chain across the middle, with Deephome beneath the second tallest peak",
-      "levels": [
-        45,
-        55
-      ],
       "points": [
         [
           16400,
@@ -547,10 +507,6 @@
       "id": "02m7ua64",
       "name": "Greenskin south",
       "theme": "greenskin tribes' land south of Nevange",
-      "levels": [
-        35,
-        45
-      ],
       "points": [
         [
           481,
@@ -598,10 +554,6 @@
       "id": "o01tqyl9",
       "name": "Greenskin heartland",
       "theme": "the greenskins' own heartland, south-east of Nevange",
-      "levels": [
-        40,
-        50
-      ],
       "points": [
         [
           8730,
@@ -657,10 +609,6 @@
       "id": "3c9nw6c2",
       "name": "Greenskin south-east",
       "theme": "the far greenskin lands below the mountains",
-      "levels": [
-        45,
-        55
-      ],
       "points": [
         [
           20280,
@@ -716,10 +664,6 @@
       "id": "gxlu5n84",
       "name": "Elven isle",
       "theme": "the elves' island off the east coast",
-      "levels": [
-        50,
-        60
-      ],
       "points": [
         [
           40734,

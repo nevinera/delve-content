@@ -5,10 +5,6 @@
       "id": "1tawmxma",
       "name": "Southern landing",
       "theme": "where the ships from Ithelmar put in",
-      "levels": [
-        40,
-        50
-      ],
       "points": [
         [
           7612,
@@ -56,10 +52,6 @@
       "id": "y36pg6xp",
       "name": "South-west coast",
       "theme": "unassigned",
-      "levels": [
-        40,
-        50
-      ],
       "points": [
         [
           1048,
@@ -107,10 +99,6 @@
       "id": "vsvcy1xg",
       "name": "North-east coast",
       "theme": "unassigned",
-      "levels": [
-        45,
-        55
-      ],
       "points": [
         [
           15834,
@@ -158,10 +146,6 @@
       "id": "i4ilh1tb",
       "name": "Eastern reaches",
       "theme": "unassigned",
-      "levels": [
-        45,
-        55
-      ],
       "points": [
         [
           23591,
@@ -201,10 +185,6 @@
       "id": "43cxmd2i",
       "name": "Western reaches",
       "theme": "unassigned",
-      "levels": [
-        45,
-        55
-      ],
       "points": [
         [
           306,
@@ -244,10 +224,6 @@
       "id": "5ih67dcd",
       "name": "The interior",
       "theme": "unassigned",
-      "levels": [
-        50,
-        58
-      ],
       "points": [
         [
           8170,
@@ -287,10 +263,6 @@
       "id": "yknrwuc4",
       "name": "South-west",
       "theme": "unassigned",
-      "levels": [
-        50,
-        58
-      ],
       "points": [
         [
           4582,
@@ -330,10 +302,6 @@
       "id": "kcz5pkh3",
       "name": "Waterfall highlands",
       "theme": "a Primal zone: highlands full of waterfalls, beside the volcano",
-      "levels": [
-        52,
-        58
-      ],
       "points": [
         [
           19270,
@@ -373,10 +341,6 @@
       "id": "nnonwbay",
       "name": "The volcano",
       "theme": "a Primal zone on the far side of the mountains",
-      "levels": [
-        55,
-        60
-      ],
       "points": [
         [
           11943,
@@ -416,10 +380,6 @@
       "id": "qarqe0lv",
       "name": "The dragon's mountain",
       "theme": "the mountain where the dragon lives; a high-level place",
-      "levels": [
-        58,
-        60
-      ],
       "points": [
         [
           15172,

@@ -1,0 +1,629 @@
+{
+  "version": 2,
+  "lines": [
+    {
+      "id": "line310c",
+      "points": [
+        [
+          306,
+          19231
+        ],
+        [
+          297,
+          16810
+        ],
+        [
+          51,
+          12531
+        ],
+        [
+          -576,
+          8097
+        ],
+        [
+          -231,
+          4662
+        ],
+        [
+          3878,
+          4958
+        ],
+        [
+          4834,
+          -886
+        ],
+        [
+          7199,
+          -623
+        ],
+        [
+          13024,
+          -140
+        ],
+        [
+          16838,
+          1057
+        ],
+        [
+          20012,
+          1097
+        ],
+        [
+          23581,
+          -931
+        ],
+        [
+          28219,
+          -1031
+        ],
+        [
+          31334,
+          -203
+        ],
+        [
+          32243,
+          3244
+        ],
+        [
+          34993,
+          4809
+        ],
+        [
+          35590,
+          9009
+        ],
+        [
+          36130,
+          12264
+        ],
+        [
+          36969,
+          16015
+        ],
+        [
+          35849,
+          20485
+        ],
+        [
+          31423,
+          19562
+        ],
+        [
+          31582,
+          23390
+        ],
+        [
+          32668,
+          27425
+        ],
+        [
+          27312,
+          27858
+        ],
+        [
+          28436,
+          31124
+        ],
+        [
+          23608,
+          31634
+        ],
+        [
+          19561,
+          31730
+        ],
+        [
+          16599,
+          30959
+        ],
+        [
+          16152,
+          36517
+        ],
+        [
+          10949,
+          35033
+        ],
+        [
+          8387,
+          37019
+        ],
+        [
+          3452,
+          35904
+        ],
+        [
+          204,
+          35604
+        ],
+        [
+          -299,
+          31588
+        ],
+        [
+          481,
+          28833
+        ],
+        [
+          471,
+          24926
+        ],
+        [
+          306,
+          19231
+        ]
+      ],
+      "color": "gray",
+      "width": 3,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "line7bea",
+      "points": [
+        [
+          44782,
+          11272
+        ],
+        [
+          40734,
+          11865
+        ],
+        [
+          40674,
+          15660
+        ],
+        [
+          40676,
+          20312
+        ],
+        [
+          39304,
+          23513
+        ],
+        [
+          44675,
+          24745
+        ],
+        [
+          44065,
+          19320
+        ],
+        [
+          47395,
+          19166
+        ],
+        [
+          48847,
+          15892
+        ],
+        [
+          47641,
+          12331
+        ],
+        [
+          44782,
+          11272
+        ]
+      ],
+      "color": "gray",
+      "width": 3,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "line9564",
+      "points": [
+        [
+          7471,
+          15416
+        ],
+        [
+          8377,
+          19041
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "line0705",
+      "points": [
+        [
+          4804,
+          27940
+        ],
+        [
+          481,
+          28833
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "line0396",
+      "points": [
+        [
+          8277,
+          7044
+        ],
+        [
+          12016,
+          7749
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "line1206",
+      "points": [
+        [
+          16784,
+          21080
+        ],
+        [
+          16400,
+          16944
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "lined31c",
+      "points": [
+        [
+          16784,
+          21080
+        ],
+        [
+          12377,
+          19259
+        ],
+        [
+          8377,
+          19041
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "linec96e",
+      "points": [
+        [
+          16793,
+          25022
+        ],
+        [
+          16784,
+          21080
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "line3142",
+      "points": [
+        [
+          16793,
+          25022
+        ],
+        [
+          12890,
+          24152
+        ],
+        [
+          12470,
+          27364
+        ],
+        [
+          8730,
+          28162
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "line7cf7",
+      "points": [
+        [
+          8730,
+          28162
+        ],
+        [
+          7317,
+          28082
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "linedac6",
+      "points": [
+        [
+          6217,
+          28020
+        ],
+        [
+          4804,
+          27940
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "line5cf2",
+      "points": [
+        [
+          23803,
+          3232
+        ],
+        [
+          23547,
+          8591
+        ],
+        [
+          24820,
+          10997
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "line3200",
+      "points": [
+        [
+          24820,
+          10997
+        ],
+        [
+          24252,
+          14999
+        ],
+        [
+          20481,
+          15628
+        ],
+        [
+          16400,
+          16944
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "line0ad2",
+      "points": [
+        [
+          24820,
+          10997
+        ],
+        [
+          28317,
+          12210
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "linefe7d",
+      "points": [
+        [
+          31423,
+          19562
+        ],
+        [
+          33051,
+          16046
+        ],
+        [
+          32733,
+          15974
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "line3cd1",
+      "points": [
+        [
+          29548,
+          15252
+        ],
+        [
+          28107,
+          14925
+        ],
+        [
+          28317,
+          12210
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "lineaa1e",
+      "points": [
+        [
+          31423,
+          19562
+        ],
+        [
+          27813,
+          20176
+        ],
+        [
+          26944,
+          24255
+        ],
+        [
+          24291,
+          23032
+        ],
+        [
+          20280,
+          23926
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "lineb106",
+      "points": [
+        [
+          20280,
+          23926
+        ],
+        [
+          19025,
+          24321
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "line8def",
+      "points": [
+        [
+          18048,
+          24627
+        ],
+        [
+          16793,
+          25022
+        ]
+      ],
+      "color": "black",
+      "width": 4,
+      "style": "solid",
+      "mode": "continental"
+    },
+    {
+      "id": "line9a49",
+      "points": [
+        [
+          2000,
+          22400
+        ],
+        [
+          -1500,
+          26000
+        ]
+      ],
+      "color": "white",
+      "width": 2,
+      "style": "dashed",
+      "mode": "continental"
+    },
+    {
+      "id": "line4934",
+      "points": [
+        [
+          37000,
+          16000
+        ],
+        [
+          42500,
+          17000
+        ]
+      ],
+      "color": "white",
+      "width": 2,
+      "style": "dashed",
+      "mode": "continental"
+    }
+  ],
+  "pins": [
+    {
+      "id": "pin14182",
+      "x": 6767,
+      "z": 28051,
+      "color": "bright green",
+      "title": "Pass",
+      "content": "Greenskin border / Greenskin south",
+      "mode": "continental"
+    },
+    {
+      "id": "pin3609a",
+      "x": 31141,
+      "z": 15613,
+      "color": "bright green",
+      "title": "Pass",
+      "content": "Eastern coast / The mountains",
+      "mode": "continental"
+    },
+    {
+      "id": "pin38a5a",
+      "x": 18536,
+      "z": 24474,
+      "color": "bright green",
+      "title": "Pass",
+      "content": "Greenskin heartland / The mountains",
+      "mode": "continental"
+    },
+    {
+      "id": "pin9a490",
+      "x": 2000,
+      "z": 22400,
+      "color": "white",
+      "title": "Ship",
+      "content": "South",
+      "mode": "continental"
+    },
+    {
+      "id": "pin49346",
+      "x": 37000,
+      "z": 16000,
+      "color": "white",
+      "title": "Ship",
+      "content": "Elven isle",
+      "mode": "continental"
+    }
+  ]
+}
