@@ -1,0 +1,9 @@
+---
+name: Deephome
+type: place
+status: draft
+tags: [framework, dwarves, city]
+summary: The dwarves' one city, underground, with well-guarded tunnel gates.
+---
+
+The one city of the [[dwarves]], underground. It isn't joined underground to every clave, and its tunnel gates are well guarded.
