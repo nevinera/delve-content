@@ -12,4 +12,4 @@ The greenskin tribes, [[orcs]] and [[goblins]], constantly send war parties and 
 
 - Which border, and what lies beyond it.
 
-The greenskins hold several zones south and south-east of Ange's colony on [[the-continent]].
+The greenskins hold several zones south and south-east of Ange's colony on [[ithelmar]].

@@ -10,5 +10,5 @@ A kind of immortal god-king. The [[elves]]' civilization in the [[age-of-light]]
 
 ## Open questions
 
-- What became of him in [[the-cataclysm]].
+- What became of him in [[lights-bane]].
 - Whether he was truly a god.
