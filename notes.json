@@ -2,7 +2,7 @@
   "version": 1,
   "leveling": {
     "paths": {
-      "text": "How players level through the world:\n\n- Every player starts at the Abbey, in the starting zone.\n- Right after the starting zone there's a choice, and one choice sends you to the other continent.\n- The leveling paths interweave, and zones don't have matching level ranges.\n- Neither continent covers the whole leveling journey: each has gaps.\n- Quests haul you back and forth between the continents."
+      "text": "How players level through the world, to the level cap of 60:\n\n- Every player starts at the Abbey, in the starting zone.\n- After the starting zone there are two zones to go to next, with quests sending you to each. One of them is across the sea, by ship, on the other continent.\n- The leveling paths interweave, and zones don't have matching level ranges.\n- Neither continent covers the whole leveling journey: each has gaps.\n- Quests haul you back and forth between the continents."
     }
   }
 }
