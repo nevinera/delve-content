@@ -14,3 +14,5 @@ The first age was the Age of Science, and it's the real world of today. The onse
 ## Open questions
 
 - How magic began, and how the Age of Science ended.
+
+It ties to the [[simulation]], the other secret the game only hints at.
