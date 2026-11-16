@@ -10,5 +10,6 @@
       "key": "south",
       "name": "South"
     }
-  ]
+  ],
+  "levelCap": 60
 }
