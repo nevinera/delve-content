@@ -17,3 +17,7 @@ About a thousand years ago the elves' world-spanning civilization of the [[age-o
 ## Toward the colonies
 
 Stand-offish, mostly over the logging and the damage to nature an expanding colony does.
+
+## Where
+
+On [[the-continent]], they hold a high forest between the two human colonies, and an island off its east side.
