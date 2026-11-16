@@ -19,9 +19,5 @@ The continent we're building is really a very large island. It has several large
 
 - **Ithelmar:** the elves' name, from the [[age-of-light]]. The [[dwarves]] use it too: they don't think of the island as a place of its own.
 - **Tennelland:** what Ange called it, until the revolutionaries renamed it. See [[tennely-overthrow]].
-- **The new name:** the revolutionaries', which has mostly stuck.
+- **New Ange, or Nevange:** the revolutionaries' name for the colony and the island. It was shortened to Nevange almost at once, and has mostly stuck.
 - **Sumarid:** "summerland", the [[nordish]] name. They come from somewhere much colder, so even its harsh north seems mild to them.
-
-## Open questions
-
-- The revolutionaries' name for it.
