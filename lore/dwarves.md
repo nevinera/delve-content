@@ -11,3 +11,7 @@ Dwarves live much longer than [[humans]]. They live in a few insular underground
 ## Open questions
 
 - What they stand for, and how they get along with the others.
+
+## Toward the colonies
+
+They trade openly with the [[empire-of-ange]], but rarely come out, and humans don't trust them for it.

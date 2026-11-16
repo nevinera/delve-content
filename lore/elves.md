@@ -13,3 +13,7 @@ Their conflicts with other peoples are with the [[humans]] and the smaller, more
 ## History
 
 About a thousand years ago the elves' world-spanning civilization of the [[age-of-light]] destroyed itself in [[the-cataclysm]]. Elves live to about 600, so it's within a few generations: for some, it's what their mother told them.
+
+## Toward the colonies
+
+Stand-offish, mostly over the logging and the damage to nature an expanding colony does.
