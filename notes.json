@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "leveling": {
+    "paths": {
+      "text": "How players level through the world:\n\n- Every player starts at the Abbey, in the starting zone.\n- Right after the starting zone there's a choice, and one choice sends you to the other continent.\n- The leveling paths interweave, and zones don't have matching level ranges.\n- Neither continent covers the whole leveling journey: each has gaps.\n- Quests haul you back and forth between the continents."
+    }
+  }
+}
