@@ -9,3 +9,7 @@ summary: Greed, aggression and barbarism, with the orcs.
 Goblins, with the [[orcs]], stand for greed, aggression and barbarism.
 
 Like the orcs, they're monsters that eat children, with a culture of their own that the other peoples, fairly, don't count as one. A few small groups are NPCs rather than mobs.
+
+## The demons
+
+Goblins summon [[demons]] for power, and the [[orcs]] came about that way. They still deal with demons, and often manipulate both orcs and demons as their pawns.

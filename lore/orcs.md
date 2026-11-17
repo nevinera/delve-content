@@ -13,3 +13,7 @@ They aren't a sympathetic people. They're horrifying monsters that eat children.
 Most orcs are enemies. A few small groups are NPCs rather than mobs.
 
 They raid the [[greenskin-border]] of Ange's colony without end.
+
+## Origin and the demons
+
+The orc tribes came about when [[goblins]] summoned [[demons]] for power. Orcs don't deal with demons now. They fight them as readily as they fight humans.
