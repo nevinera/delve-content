@@ -44,7 +44,7 @@ Places and people that point to the undercroft before players can go in:
   - Brask's carters stop coming up to collect their pay.
   - Farms near the house hear grinding under their fields at night.
   - Captain Moor and a few Greycoats watch the ruins from the woods.
-  - The Tennelys' old steward, Lowen Ashdown, now a beggar in Sowerby,, gets drunk and says the house sits on "a dead man's money".
+  - The Tennelys' old steward, Lowen Ashdown, now a beggar in Sowerby, gets drunk and says the house sits on "a dead man's money".
 
 ## Open questions
 
