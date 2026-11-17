@@ -8,7 +8,7 @@ summary: Caves behind the cascade, where the Dream seeps into the world, ending 
 
 Behind the cascade that falls from the High forest's plateau, a cave system runs back under the cliff, from the falls pool by Wakewell Abbey south to the pools of the Cascade wood. Its water is cold, it glows faintly, and sound carries strangely in it. People call it the Underfall.
 
-The only way in is in the Cascade wood, through a cleft behind the lowest falls pool, near the rangers' lodge. At the Abbey's end the caves reach the falls pool only through flooded cracks too narrow to pass. Wisps and the Dream's water come through them, but nothing larger does.
+The only way in is in the Cascade wood, through a cleft behind a falls pool about half a mile up the cascade from the lake, by the rangers' lodge. At the Abbey's end the caves reach the falls pool only through flooded cracks too narrow to pass. Wisps and the Dream's water come through them, but nothing larger does.
 
 The Dream seeps into the world here more strongly than anywhere else on [[ithelmar]]. That's why Wakers come to near the falls, and why the Abbey was built where it stands. See [[the-sleepers]].
 
@@ -45,7 +45,7 @@ Places and people that point to the Underfall before players can go in:
 - **The lake:** fishers catch pale, eyeless fish near the falls. They're the Lurker's young.
 - **The kobold diggings:** the deepest tunnel ends at a rockfall with cold, wet air behind it and a faint singing. The Glowmother's glass is the hall's glass. Her kobolds speak of "the Wickfather below".
 - **The cliff warden:** Ithriel, the elven warden at Cliffside camp, warns that the Abbey sits "on the doorstep of a wound".
-- **The Cascade wood:** the rangers' lodge stands by the lowest falls pool, where the cleft into the caves is. Its rangers have started sleepwalking.
+- **The Cascade wood:** the rangers' lodge stands by the falls pool half a mile up the cascade, where the cleft into the caves is. Its rangers have started sleepwalking.
 - **The Southern heartland:** the Sleeper preacher talks about "the dreamers".
 
 ## Open questions
