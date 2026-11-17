@@ -12,4 +12,4 @@ Its relations with the [[nordish]] are cordial, if not cooperative.
 
 Its colony is still shaken by [[tennely-overthrow]], and holds the [[greenskin-border]].
 
-The colony's capital is Haven, a port on [[ithelmar]]'s west coast, south of the heartlands.
+The colony's capital is [[haven]], a port on [[ithelmar]]'s west coast, south of the heartlands.
