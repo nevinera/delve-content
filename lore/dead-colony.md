@@ -8,7 +8,9 @@ summary: A human colony on the southern continent, destroyed 140 years ago, now 
 
 About 140 years ago, a human colony on [[the-south]] was destroyed. Its lands, a whole corner of the continent, are now an undead wasteland ruled by [[the-necromancer]].
 
+It was the [[empire-of-ange]]'s first try at a colony, a century before it came to [[ithelmar]]. Losing it is why Ange still dreads the south.
+
 ## Open questions
 
-- Its name, and which people founded it.
+- Its name.
 - How it fell, and what part the necromancer had in it.
