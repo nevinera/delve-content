@@ -8,6 +8,8 @@ summary: Caves behind the cascade, where the Dream seeps into the world, ending 
 
 Behind the cascade that falls from the High forest's plateau, a cave system runs back under the cliff, from the falls pool by Wakewell Abbey south to the pools of the Cascade wood. Its water is cold, it glows faintly, and sound carries strangely in it. People call it the Underfall.
 
+The only way in is in the Cascade wood, through a cleft behind the lowest falls pool, near the rangers' lodge. At the Abbey's end the caves reach the falls pool only through flooded cracks too narrow to pass. Wisps and the Dream's water come through them, but nothing larger does.
+
 The Dream seeps into the world here more strongly than anywhere else on [[ithelmar]]. That's why Wakers come to near the falls, and why the Abbey was built where it stands. See [[the-sleepers]].
 
 ## The listening hall
@@ -27,9 +29,9 @@ From the top down, as tentative bosses for a dungeon of levels 13 to 18, for a t
 1. **Grubbin Wickfather**, a kobold candle-king. The kobolds who broke in from the cliff diggings follow him. He hoards the hall's glass and fights by its light, putting out lamps to fight in the dark. He's elder to the Glowmother of the diggings outside.
 2. **The Pale Lurker**, a blind cave salamander grown huge on the Dream's water. It hides in the pools, and its young are the eyeless fish the fishers catch.
 3. **Brother Ansel, the Sleepwalker**, an Abbey dream-keeper who walked behind the falls in his sleep thirty years ago and never came back. He's still asleep. He fights in his sleep and calls up copies of whoever he faces, as he dreams them.
-4. **The Unwaking**, the last boss, in the listening hall. A Waker came to inside the caves a century ago instead of at the Abbey, and never woke fully. The Dream pours through it, and it's barely a shape now. Ending it closes the worst of the leak, for a while.
+4. **The Unwaking**, the last boss, in the listening hall. A Waker came to inside the caves a century ago instead of at the Abbey, and never woke fully: a dreamer. The Dream pours through it, and it's barely a shape now. Ending it closes the worst of the leak, for a while.
 
-The Unwaking means not every Waker wakes. Nobody in the world says so outright. The Abbey has no record of it, and the elves won't speak of it.
+The Unwaking means not every Waker wakes. Those who don't are dreamers. A few Sleepers whisper the word, the Abbey keeps no record of any, and the elves won't speak of it.
 
 ## Ahead of time
 
@@ -37,14 +39,14 @@ Places and people that point to the Underfall before players can go in:
 
 - **Wakewell Abbey:**
   - The dream-wisps of the first quests drift from behind the falls.
-  - Keeper Aubin says not every Waker comes to in the dormitory, and won't say more.
+  - Keeper Aubin says not every Waker comes to in the dormitory, and won't say more. He has heard the word "dreamers" and won't use it.
   - The chapel garden has a memorial stone to Brother Ansel, "who walked into the water".
   - The first dream is of water and falling.
 - **The lake:** fishers catch pale, eyeless fish near the falls. They're the Lurker's young.
 - **The kobold diggings:** the deepest tunnel ends at a rockfall with cold, wet air behind it and a faint singing. The Glowmother's glass is the hall's glass. Her kobolds speak of "the Wickfather below".
 - **The cliff warden:** Ithriel, the elven warden at Cliffside camp, warns that the Abbey sits "on the doorstep of a wound".
-- **The Cascade wood:** the rangers' lodge by the falls is where the way in starts, through the falls pools. Its rangers have started sleepwalking.
-- **The Southern heartland:** the Sleeper preacher talks about "the ones who didn't wake".
+- **The Cascade wood:** the rangers' lodge stands by the lowest falls pool, where the cleft into the caves is. Its rangers have started sleepwalking.
+- **The Southern heartland:** the Sleeper preacher talks about "the dreamers".
 
 ## Open questions
 
