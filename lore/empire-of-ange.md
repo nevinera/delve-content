@@ -11,3 +11,5 @@ One of the two human civilizations colonizing the continent, from [[angea]]. Mod
 Its relations with the [[nordish]] are cordial, if not cooperative.
 
 Its colony is still shaken by [[tennely-overthrow]], and holds the [[greenskin-border]].
+
+The colony's capital is Haven, a port on [[ithelmar]]'s west coast, south of the heartlands.
