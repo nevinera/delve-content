@@ -1,0 +1,1765 @@
+{
+  "version": 1,
+  "notes": {
+    "zones": {
+      "3e5710y9": {
+        "name": "Northern heartland",
+        "story": "The human start. New-woken Wakers come to at Wakewell Abbey and find a farming country six years after the Council's revolution: the old Tennely land, its promises half kept, its tithes high and everybody counting. The trouble is people, the Council and the old guard, with kobolds and wildlife as the honest monsters.",
+        "themes": [
+          "Waking: the Abbey, where the Dream touches the world, helps the new-woken onto their feet. Gentle, odd and a little sad.",
+          "The revolution's heartland: the Council took the colony six years ago and promised to break up the Tennely estates, sell the land cheap and set fair tithes. The tithes are higher, the land went to the Council's friends, and the Tennelys' summer house is a Council granary under guard.",
+          "The cliff and the forest above: loggers work the cliff foot, kobolds dig into it, and elves watch from the top and don't come down.",
+          "The north road: Nordish herders and traders drift south along it, friendly and competing."
+        ],
+        "ground": "West, farm lowland down to the coast. East, the plateau's cliff, about 400 ft high with the High forest on top, rising over a band of steep, broken foothills. The Prow, a lower step of the plateau about 200 ft high, juts west from the cliff into the middle of the zone as a steep, rugged ridge. The cascade comes off the plateau south of the Prow and falls in two drops: onto a ledge with a small pool partway down the cliff, then from the ledge's lip into a lake at the cliff foot. A smaller falls drops off the Prow's south face into the lake's north shore, and the Lake river runs west from the lake past Hallam's cross and Brightford to the sea. Wooded hills to the north, with Tennely Hall's valley between them, and a low wooded rise west of Hallam's cross. Crags run along most of the north and south borders, broken only where the roads and the stepping stones go out. The Abbey on a bench above the lake's north-east shore, in the pocket between the Prow, the plateau cliff and the lake, with a spur closing the lake's south-east shore: one way out, west along the north shore.",
+        "neighbours": [
+          "South: Southern heartland (10-20), over the ford at Brightford, and south-east round the lake's south shore. From the cliff foot there, a trail climbs the face to the falls ledge, where the Underfall's cave is.",
+          "North: Northwest coast (18-28), up the north road through Northgate.",
+          "East, up the cliff: High forest (22-32), and the Cascade wood (12-20) above the falls. Seen, never reached from here."
+        ],
+        "progression": "Abbey (1-4), Hallam's cross (4-6), Brightford (5-9), then east to Cliffside camp (6-9) or north to Tennely Hall and Northgate (8-10). You leave south over the ford or south-east round the lake.",
+        "mainThread": "The tithe and the Greycoats: the revolution's promises against the old guard, with no clean side. Heroes fight Slade's band, never the Greycoats or the Council.",
+        "parts": [
+          "The Abbey and the lake: the pocket under the Prow and the plateau cliff, with the lakeshore, the Prow falls and the falls pool under the cascade's lower drop, quiet and odd. Closed by cliffs north and east, the lake south and a spur south-east. Opens west along the north shore, between the Prow and the lake, to Hallam's cross.",
+          "Hallam's farms: open barley and hedges round the crossroads where Hallam brook meets the roads, in the middle of the zone. Opens to every other part.",
+          "Brightford and the river: the town at the ford, the river meadows and the south bank woods. Opens east to Hallam's cross and north up the coast pasture, and out south over the ford.",
+          "The cliff foot: the loggers' valley between the Prow's north face and the eastern hills, with the kobold diggings in the cliff. Opens west down its stream to Hallam brook.",
+          "The northern hills: Tennely Hall's valley, Slade's camp and the burned lodge, wooded and watched. Opens south down Hallam brook past the knoll, and west over a saddle to Northgate.",
+          "The north road: coastal pasture from Brightford up to Northgate, in the gap where Northgate beck comes through the western hills. Opens north up the road out of the zone."
+        ],
+        "barriers": [
+          "The Prow, hard: a lower step of the plateau, a steep, rugged ridge with a cliff on its south face over the Abbey, jutting from the cliff between the Abbey and Cliffside camp. You go round its west end.",
+          "The Lake river, soft: from the lake west to the sea, crossed at Brightford's ford, with stepping stones below Hallam brook's mouth for a short cut.",
+          "The northern hills, soft: wooded hills round Tennely Hall's valley, crossed by the valley's mouth past the knoll, and a saddle west to Northgate.",
+          "The rise, soft: a low wooded ridge west of Hallam's cross, between the farms and the coast pasture, gone round at either end.",
+          "The lake and the spur, hard: the lake and a spur off the plateau at its south-east corner close the Abbey's pocket to the south. The only way in is along the north shore.",
+          "The border crags, hard: steep crags along most of the north and south borders, crossed only by the north road, the ford road, the stepping stones and the south-east road.",
+          "The plateau cliff, hard: about 400 ft of cliff over steep foothills along the whole east side, never climbed from here."
+        ]
+      }
+    },
+    "hubs": {
+      "1zwubmpj": {
+        "name": "Wakewell Abbey",
+        "what": "The spawn. Keepers, a dormitory where Wakers come to, a small chapel, a herb garden, a hen yard and two rowboats on the lake.",
+        "where": "On a bench above the lake's north-east shore, under the Prow and the plateau cliff, looking across the water to the falls.",
+        "mood": "Gentle, odd and a little sad. Short of hands: the Council's levy took the lay brothers for the gap, so the Wakers do the chores.",
+        "people": [
+          "Abbess Corra Lindqvist, the abbess",
+          "Keeper Brannick, the warden",
+          "Keeper Nell Sallow, the herbalist",
+          "Keeper Aubin, the dream-keeper",
+          "Assessor Pell Duvane, the Council's assessor counting the stores"
+        ],
+        "lines": [
+          "The new-woken (1-4): fight, gather and talk; ends with the first dream and a send-off to Hallam's cross",
+          "The glowdiggers (4-8) starts here: kobold sneaks steal candles and drop glowing glass"
+        ],
+        "nearby": [
+          "The falls pool: dream-wisps and dreamroot (the Dream's locus)",
+          "The lakeshore: lamp rushes, foxes at the hen yard",
+          "Kobold sneaks' burrows in the cliff's north end"
+        ],
+        "quests": "About 13.",
+        "site": "Dry, flat ground 15 ft over the lake, with the lake and the Prow falls' stream for water.",
+        "situation": "The falls: where the cascade comes off the plateau into the lake, the Dream's touch on the world."
+      },
+      "9bpi8b84": {
+        "name": "Hallam's cross",
+        "what": "Three farm families round a shrine at a crossroads, behind on their tithe. The militia took the shrine's bell as scrap for the gap.",
+        "where": "Crossroads farms on Hallam brook, in the middle of the zone, where the ways from the Abbey, Brightford, the cliff foot and the hills meet.",
+        "mood": "Proud and worn. They're right that the Council's measure is false.",
+        "people": [
+          "Wenna Hallam, head of the Hallams",
+          "Grandsire Tobin Hallam, the old man who remembers the old lord's day"
+        ],
+        "lines": [
+          "The tithe (4-9) starts here: short sacks against a false measure",
+          "The Greycoats (6-10) is seeded here: grain left on the step by someone in a grey coat"
+        ],
+        "nearby": [
+          "Barns with rats, barley with boars",
+          "Hedge apples for cider, the one thing the Council doesn't count"
+        ],
+        "quests": "About 7.",
+        "site": "Flat farmland on the brook's bank.",
+        "situation": "A crossroads: the zone's ways all meet here, near where the brook joins the river."
+      },
+      "22rxlhzd": {
+        "name": "Brightford",
+        "what": "The zone's town, called Tennelford until the revolution. Inn, vendors, trainers, the reeve's hall, a tithe barn, a militia post with a lock-up, and the Tennelys' statue lying toppled in the square.",
+        "where": "On the north bank of the Lake river at its lowest ford, the way south to the Southern heartland.",
+        "mood": "Busy and careful. The Council's seat here, and the old guard's memories in the same square.",
+        "people": [
+          "Reeve Odile Marchbank, the Council's reeve",
+          "Varn Ostrey, the tithe collector",
+          "Sergeant Ada Pike, the militia",
+          "Moll Abernathy, the innkeeper",
+          "Old Bertil, the old guard veteran",
+          "Jory Venn, a Greycoat in the lock-up",
+          "Hettie Croft, who wants the statue's plaque kept",
+          "a scrap dealer, who wants it sold"
+        ],
+        "lines": [
+          "The tithe (4-9): the reeve's standard, Varn's scales and ledger; Varn is moved, not punished",
+          "The Greycoats (6-10): robbers in grey coats on the north road, and Jory Venn's message"
+        ],
+        "nearby": [
+          "The ford: eels and pike",
+          "South bank woods: wolves",
+          "Farms south of the road, for weighing tithe sacks"
+        ],
+        "forces": "The Council's locus: requisitions out to every farm and the Abbey, grain wagons out to Tennely Hall.",
+        "breadcrumbs": [
+          "To Cliffside camp: the loggers need hands",
+          "To Tennely Hall: the granary needs a guard",
+          "Out south over the ford to the Southern heartland"
+        ],
+        "quests": "About 15.",
+        "site": "A little rise on the north bank, above the river meadows.",
+        "situation": "The lowest ford on the Lake river, where the south road and the north road cross it."
+      },
+      "sjhq3l2g": {
+        "name": "Cliffside camp",
+        "what": "A logging camp with a log chute down from a ledge.",
+        "where": "The cliff foot under the Prow's north face, in the valley between the Prow and the eastern hills.",
+        "mood": "Loud and honest, sick of the Council's quotas and of arrows from above.",
+        "people": [
+          "Foreman Gus Tarrant, the logging foreman",
+          "Ithriel, the elven warden, who comes down to the ledge once"
+        ],
+        "lines": [
+          "The glowdiggers (4-8): kobolds dug into an Age of Light chamber in the cliff and worship its glowing glass; the Glowmother hoards it",
+          "The cliff wardens (7-10): arrows at the chute; the cutting undermines the trees that hold the cliff; ends with a no-cut line"
+        ],
+        "nearby": [
+          "The kobold diggings, outside and in, with the elven chamber deepest",
+          "Cliff-foot spiders",
+          "The ledge"
+        ],
+        "forces": "Kobolds' locus in the cliff foot nearby; the elven wardens' on the cliff top above.",
+        "breadcrumbs": [
+          "South round the lake to the Southern heartland, and the trail up the cliff face to the falls ledge"
+        ],
+        "quests": "About 9.",
+        "site": "Flat valley floor by the camp's stream, with the cliff for the log chute.",
+        "situation": "The edge between the farmland and the forest above: the only place the loggers can bring timber down."
+      },
+      "crgi1c1v": {
+        "name": "Tennely Hall",
+        "what": "The Tennelys' old summer house, now a Council granary with a garrison.",
+        "where": "In the valley between the northern hills, out of sight behind the knoll at its mouth, at the end of the grain road.",
+        "mood": "Rigid and uneasy. Its captain served the Tennelys and serves the Council now.",
+        "people": [
+          "Captain Wystan Hale, the granary's captain"
+        ],
+        "lines": [
+          "The Greycoats (6-10) ends here: Slade's tally, his camp and Slade himself; the Greycoats' captain thanks you at the burned lodge"
+        ],
+        "nearby": [
+          "Hill wolves that spook the wagon horses",
+          "Slade's hill camp",
+          "The burned hunting lodge, the Greycoats' locus, friendly"
+        ],
+        "breadcrumbs": [
+          "South to Tennely House in the Southern heartland, from the letter that names the heir"
+        ],
+        "quests": "About 6.",
+        "site": "The valley floor beside Hallam brook, under the hills.",
+        "situation": "A hidden valley: the Tennelys' summer house, kept out of view of the farms."
+      },
+      "cm4lbatk": {
+        "name": "Northgate",
+        "what": "A palisaded trading post shared with Nordish herders.",
+        "where": "On the north road, in the gap where Northgate beck comes through the western hills, the way north to the Northwest coast.",
+        "mood": "Friendly and competing. Nordish herds push south into Angean pasture.",
+        "people": [
+          "Ottar Haldsson, Nordish trader, genial and slippery",
+          "Sigrun Asa's-daughter, Nordish herder",
+          "a Nordish skald"
+        ],
+        "lines": [
+          "The north road (8-10): the pasture fight, wolves from the hills, and the tithe's skimmed grain in Ottar's wagon"
+        ],
+        "nearby": [
+          "North road wolves",
+          "The hill bear that took a calf"
+        ],
+        "forces": "The Nordish herders' locus.",
+        "breadcrumbs": [
+          "A sideways nod to the Northwest coast (18-28), not a quest to go now"
+        ],
+        "quests": "About 5.",
+        "site": "The beck's bank in the gap, on the flat between the hills.",
+        "situation": "A gap: the north road's only easy way through the western hills."
+      }
+    },
+    "npcs": {
+      "nhcorra1": {
+        "name": "Abbess Corra Lindqvist",
+        "hub": "1zwubmpj",
+        "traits": [
+          "warm",
+          "tired",
+          "dry"
+        ],
+        "voice": "Short, kind sentences, often a joke against herself. Calls every Waker \"love\".",
+        "notes": "Greets the new-woken. Short of hands since the levy took the lay brothers, and won't complain of it in front of the assessor. Tells the story of Brother Ansel, and sends Wakers on to Hallam's cross.",
+        "zone": "3e5710y9"
+      },
+      "nhbranni": {
+        "name": "Keeper Brannick",
+        "hub": "1zwubmpj",
+        "traits": [
+          "gruff",
+          "protective",
+          "restless",
+          "watchful"
+        ],
+        "voice": "Clipped orders, soldier's words. Calls you \"sleeper\" until you've fought something.",
+        "notes": "The Abbey's warden, the only keeper who can fight, and now the only one who can lift a sack. Foxes and the kobold sneaks.",
+        "zone": "3e5710y9"
+      },
+      "nhnell01": {
+        "name": "Keeper Nell Sallow",
+        "hub": "1zwubmpj",
+        "traits": [
+          "brisk",
+          "practical",
+          "cheerful"
+        ],
+        "voice": "Quick, talks while working, names every plant she hands you.",
+        "notes": "The herbalist. Makes rushlights since the candles went missing, and the sleeping draught for the first dream.",
+        "zone": "3e5710y9"
+      },
+      "nhaubin1": {
+        "name": "Keeper Aubin",
+        "hub": "1zwubmpj",
+        "traits": [
+          "gentle",
+          "evasive",
+          "curious",
+          "solemn"
+        ],
+        "voice": "Soft and slow, leaves sentences unfinished, answers a question with a question.",
+        "notes": "The dream-keeper. Studies the wisps and the falls, and sets Wakers to sleep by the water. Says not every Waker comes to in the dormitory, and won't say more; he's heard the word \"dreamers\" and won't use it.",
+        "zone": "3e5710y9"
+      },
+      "nhpell01": {
+        "name": "Assessor Pell Duvane",
+        "hub": "1zwubmpj",
+        "traits": [
+          "exact",
+          "fair-minded",
+          "awkward"
+        ],
+        "voice": "Precise, apologetic, quotes the Council's rules by number.",
+        "notes": "The Council's assessor, counting the Abbey's stores for the tithe. Honest: his count is true, which Hallam's will find isn't so everywhere.",
+        "zone": "3e5710y9"
+      },
+      "nhwenna1": {
+        "name": "Wenna Hallam",
+        "hub": "9bpi8b84",
+        "traits": [
+          "proud",
+          "blunt",
+          "weary"
+        ],
+        "voice": "Plain farm talk, says what she thinks of the Council.",
+        "notes": "Head of the Hallams at Hallam's cross. The Abbey's neighbour, and the first person a new Waker meets outside it.",
+        "zone": "3e5710y9"
+      },
+      "nhtobin1": {
+        "name": "Grandsire Tobin Hallam",
+        "hub": "9bpi8b84",
+        "traits": [
+          "nostalgic",
+          "sly",
+          "stubborn",
+          "talkative"
+        ],
+        "voice": "Long stories that wander off, \"in the old lord's day\", and a wink when he's hiding something.",
+        "notes": "Wenna's grandfather, who remembers the Tennelys fondly and the Council not at all. Brews hedge-apple cider, the one thing the Council doesn't count. Says the old lord's luck \"came out of the ground\". Knows Tennely grey when he sees it, and won't say who's wearing it.",
+        "zone": "3e5710y9"
+      },
+      "nhodile1": {
+        "name": "Reeve Odile Marchbank",
+        "hub": "22rxlhzd",
+        "traits": [
+          "careful",
+          "principled",
+          "tired"
+        ],
+        "voice": "Measured, formal, chooses every word; softens only in private.",
+        "notes": "The Council's reeve at Brightford. Believes in the revolution's promises and is ashamed of how they've gone. Holds the true standard measure, and sets you to check Varn Ostrey's.",
+        "zone": "3e5710y9"
+      },
+      "nhvarn01": {
+        "name": "Varn Ostrey",
+        "hub": "22rxlhzd",
+        "traits": [
+          "nervous",
+          "diligent",
+          "defensive"
+        ],
+        "voice": "Fast and fussy, all figures; apologises before he's accused.",
+        "notes": "The tithe collector. His scales read a tenth light, by order he was given and never questioned. Moved to keep the Abbey's books with Assessor Duvane, not punished.",
+        "zone": "3e5710y9"
+      },
+      "nhpike01": {
+        "name": "Sergeant Ada Pike",
+        "hub": "22rxlhzd",
+        "traits": [
+          "blunt",
+          "dutiful",
+          "overworked"
+        ],
+        "voice": "Barked sentences, militia slang, no patience for \"why\".",
+        "notes": "Runs Brightford's militia post and lock-up with half her men gone to the gap. Takes the grey-coated robbers for Greycoats.",
+        "zone": "3e5710y9"
+      },
+      "nhmoll01": {
+        "name": "Moll Abernathy",
+        "hub": "22rxlhzd",
+        "traits": [
+          "jolly",
+          "nosy",
+          "shrewd"
+        ],
+        "voice": "Loud and fond, gossip in every answer, calls everyone by a pet name.",
+        "notes": "The innkeeper. Hears everything, from the loggers' grumbling to the militia's news.",
+        "zone": "3e5710y9"
+      },
+      "nhberti1": {
+        "name": "Old Bertil",
+        "hub": "22rxlhzd",
+        "traits": [
+          "loyal",
+          "grieving",
+          "proud"
+        ],
+        "voice": "Slow, formal, old soldier's words; stands when he talks of the old lord.",
+        "notes": "An old guard veteran who stayed in town. Visits Jory Venn in the lock-up. Says the old lord never let anyone into the cellars.",
+        "zone": "3e5710y9"
+      },
+      "nhjory01": {
+        "name": "Jory Venn",
+        "hub": "22rxlhzd",
+        "traits": [
+          "defiant",
+          "wry",
+          "honest"
+        ],
+        "voice": "Cheerful insolence through the bars; turns serious about the coat.",
+        "notes": "A Greycoat in Brightford's lock-up, taken for a robbery he didn't do. Knows a false grey coat from a real one.",
+        "zone": "3e5710y9"
+      },
+      "nhhetti1": {
+        "name": "Hettie Croft",
+        "hub": "22rxlhzd",
+        "traits": [
+          "sentimental",
+          "stubborn",
+          "fussy"
+        ],
+        "voice": "Prim, quotes the plaque from memory.",
+        "notes": "Wants the toppled statue's plaque kept, whatever she thinks of the Tennelys: it's the town's history.",
+        "zone": "3e5710y9"
+      },
+      "nhcrake1": {
+        "name": "Ludo Crake",
+        "hub": "22rxlhzd",
+        "traits": [
+          "greedy",
+          "cheerful",
+          "practical"
+        ],
+        "voice": "Haggling patter, prices everything he sees.",
+        "notes": "The scrap dealer. Wants the statue's plaque sold, and has the Hallams' shrine bell, which the militia sold him for the gap.",
+        "zone": "3e5710y9"
+      },
+      "nhtarra1": {
+        "name": "Foreman Gus Tarrant",
+        "hub": "sjhq3l2g",
+        "traits": [
+          "loud",
+          "honest",
+          "harried"
+        ],
+        "voice": "Shouts over saws, swears at the Council, laughs easily.",
+        "notes": "Runs Cliffside camp's loggers. Sick of the Council's quotas and of arrows from the cliff top.",
+        "zone": "3e5710y9"
+      },
+      "nhhale01": {
+        "name": "Captain Wystan Hale",
+        "hub": "crgi1c1v",
+        "traits": [
+          "rigid",
+          "conflicted",
+          "correct"
+        ],
+        "voice": "Clipped and formal, never says what he thinks.",
+        "notes": "The granary's captain. Served the Tennelys and serves the Council now, and guards their old summer house for it.",
+        "zone": "3e5710y9"
+      },
+      "nhithri1": {
+        "name": "Ithriel",
+        "hub": "sjhq3l2g",
+        "traits": [
+          "aloof",
+          "grave",
+          "patient"
+        ],
+        "voice": "Few words, old-fashioned and exact; never uses a name until she's sure of you.",
+        "notes": "An elven warden of the High forest, who comes down to the chute's ledge once, to be heard. Shows that the cutting undermines the trees that hold the cliff. Warns that the Abbey sits \"on the doorstep of a wound\", and won't explain.",
+        "zone": "3e5710y9"
+      },
+      "nhrook01": {
+        "name": "Captain Elsbet Rook",
+        "hub": "crgi1c1v",
+        "traits": [
+          "steady",
+          "courteous",
+          "guarded"
+        ],
+        "voice": "Quiet, plain words, an old officer's courtesy; asks before she tells.",
+        "notes": "The Greycoats' captain, at the burned hunting lodge in the hills above Tennely Hall. Thanks you for Slade with a letter that names the Tennely heir. Served beside Captain Hale once.",
+        "zone": "3e5710y9"
+      },
+      "nhottar1": {
+        "name": "Ottar Haldsson",
+        "hub": "cm4lbatk",
+        "traits": [
+          "genial",
+          "slippery",
+          "shrewd"
+        ],
+        "voice": "Warm, loud and full of jokes; never quite answers what he's asked.",
+        "notes": "Nordish trader at Northgate. Buys grain cheap off the north road and sells it north, and doesn't ask where it came from.",
+        "zone": "3e5710y9"
+      },
+      "nhsigru1": {
+        "name": "Sigrun Asa's-daughter",
+        "hub": "cm4lbatk",
+        "traits": [
+          "blunt",
+          "proud",
+          "fair"
+        ],
+        "voice": "Short and plain; says what her herd needs and expects the same back.",
+        "notes": "Nordish herder at Northgate. Her herd grazes the meadow south of the gap, which the Angean farmers call theirs. Losing calves to the hill wolves and the bear.",
+        "zone": "3e5710y9"
+      },
+      "nharnbj1": {
+        "name": "Arnbjorn the skald",
+        "hub": "cm4lbatk",
+        "traits": [
+          "wry",
+          "curious",
+          "generous"
+        ],
+        "voice": "Speaks in turns of phrase, half of them borrowed from old songs.",
+        "notes": "Nordish skald at Northgate. Knows the old songs of the meadow and the coast to the north-west, and puts new deeds into verse.",
+        "zone": "3e5710y9"
+      }
+    },
+    "quests": {
+      "nhcometo": {
+        "name": "Come to",
+        "summary": "You come to in the dormitory, and the Abbess puts you to work.",
+        "objectives": "Talk to Keeper Brannick in the yard.",
+        "why": "The levy took the lay brothers for the gap, and the Abbey needs hands. Brannick wants to see whether you can hold a stick.",
+        "level": "1",
+        "areas": [
+          "Wakewell Abbey"
+        ],
+        "giver": "Abbess Corra Lindqvist",
+        "handIn": "Keeper Brannick",
+        "chain": "newwoken",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "nhfoxes1": {
+        "name": "Foxes at the hens",
+        "summary": "Foxes come up from the lakeshore for the Abbey's hens.",
+        "objectives": "Kill 6 lakeshore foxes.",
+        "why": "Brannick has nobody to sit up with the hens now the lay brothers are gone, and the Abbey can't spare a bird.",
+        "level": "1",
+        "areas": [
+          "the hen yard",
+          "the lakeshore"
+        ],
+        "giver": "Keeper Brannick",
+        "handIn": "Keeper Brannick",
+        "chain": "newwoken",
+        "after": [
+          "nhcometo"
+        ],
+        "zone": "3e5710y9"
+      },
+      "nhrushes": {
+        "name": "Rushlights",
+        "summary": "The chapel's candles keep going missing, so Nell makes rushlights.",
+        "objectives": "Gather 8 lamp rushes along the lakeshore.",
+        "why": "Rushes dipped in fat burn nearly as well as candles, and nobody steals them. Nell can't leave the herb garden to cut them herself.",
+        "level": "1",
+        "areas": [
+          "the lakeshore"
+        ],
+        "giver": "Keeper Nell Sallow",
+        "handIn": "Keeper Nell Sallow",
+        "chain": "newwoken",
+        "after": [
+          "nhcometo"
+        ],
+        "zone": "3e5710y9"
+      },
+      "nhwisps1": {
+        "name": "Thin wisps",
+        "summary": "Dream-wisps drift from the falls pool, more each year.",
+        "objectives": "Bring 6 wisp-glimmers from dream-wisps at the falls pool.",
+        "why": "Aubin wants to know what the wisps are made of, and why there are more of them. He won't say what he fears.",
+        "level": "2",
+        "areas": [
+          "the falls pool"
+        ],
+        "giver": "Keeper Aubin",
+        "handIn": "Keeper Aubin",
+        "chain": "newwoken",
+        "after": [
+          "nhfoxes1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "nhdroot1": {
+        "name": "Dreamroot",
+        "summary": "Nell's sleeping draught needs dreamroot, which grows only in the falls pool's shallows.",
+        "objectives": "Gather 5 dreamroot in the falls pool's shallows.",
+        "why": "Aubin has asked for a draught for you. Dreamroot only grows where the Dream's water runs, and the wisps make Nell's skin crawl.",
+        "level": "2",
+        "areas": [
+          "the falls pool"
+        ],
+        "giver": "Keeper Nell Sallow",
+        "handIn": "Keeper Nell Sallow",
+        "chain": "newwoken",
+        "after": [
+          "nhrushes"
+        ],
+        "zone": "3e5710y9"
+      },
+      "nhansel1": {
+        "name": "Who walked into the water",
+        "summary": "Before he lets you sleep by the water, Aubin wants you to hear about Brother Ansel.",
+        "objectives": "Ask Abbess Corra about Brother Ansel, at his stone in the chapel garden.",
+        "why": "Aubin won't tell it himself. Ansel was a dream-keeper who walked into the water in his sleep thirty years ago, and the Abbess wants every Waker to know the falls take people.",
+        "level": "2",
+        "areas": [
+          "Wakewell Abbey"
+        ],
+        "giver": "Keeper Aubin",
+        "handIn": "Abbess Corra Lindqvist",
+        "chain": "newwoken",
+        "after": [
+          "nhwisps1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "nhdream1": {
+        "name": "The first dream",
+        "summary": "Aubin sets you to sleep by the falls pool for your first dream.",
+        "objectives": "Drink Nell's draught and sleep on the stone at the falls pool's edge. Tell Aubin what you dreamed.",
+        "why": "Every Waker has a first dream, and Aubin keeps a book of them. Yours is of water and falling, as they all are lately, and he writes it down without a word.",
+        "level": "3",
+        "areas": [
+          "the falls pool"
+        ],
+        "giver": "Keeper Aubin",
+        "handIn": "Keeper Aubin",
+        "chain": "newwoken",
+        "after": [
+          "nhdroot1",
+          "nhansel1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "nhsendof": {
+        "name": "The Abbey's neighbours",
+        "summary": "The Abbess sends you out along the north shore to Hallam's cross.",
+        "objectives": "Take a bundle of Nell's rushlights to Wenna Hallam at Hallam's cross.",
+        "why": "The Hallams are the Abbey's neighbours and are behind on their tithe, and the Abbess owes them for seed barley. She thinks you've done all the Abbey can teach you.",
+        "level": "4",
+        "areas": [
+          "Wakewell Abbey",
+          "the north shore",
+          "Hallam's cross"
+        ],
+        "giver": "Abbess Corra Lindqvist",
+        "handIn": "Wenna Hallam",
+        "chain": "newwoken",
+        "after": [
+          "nhdream1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "nhcandle": {
+        "name": "Missing candles",
+        "summary": "Kobold sneaks from burrows under the cliff steal the chapel's candles.",
+        "objectives": "Kill kobold sneaks at their burrows in the cliff's north end, and bring back 6 stolen candles.",
+        "why": "The candles are the chapel's, bought dear, and the assessor has them on his list. Brannick would rather have them back than explain.",
+        "level": "3",
+        "areas": [
+          "the sneaks' burrows"
+        ],
+        "giver": "Keeper Brannick",
+        "handIn": "Keeper Brannick",
+        "chain": "glowdiggers",
+        "after": [
+          "nhfoxes1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "nhtallow": {
+        "name": "Tallowtooth",
+        "summary": "The sneaks answer to a fat kobold who sits on the candles in the deepest burrow.",
+        "objectives": "Kill Tallowtooth in the deepest of the sneaks' burrows and bring back his glass lantern.",
+        "why": "Brannick says the sneaks won't stop while their chief has a hoard to grow. Take the lantern, so they've nothing to steal for.",
+        "level": "4",
+        "areas": [
+          "the sneaks' burrows"
+        ],
+        "giver": "Keeper Brannick",
+        "handIn": "Keeper Brannick",
+        "chain": "glowdiggers",
+        "after": [
+          "nhfoxes1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "nhglass1": {
+        "name": "Not kobold glass",
+        "summary": "The sneaks drop shards of glass that glow on their own.",
+        "objectives": "Take a glowing shard from the sneaks to Keeper Aubin.",
+        "why": "Brannick has never seen kobolds make anything that fine. Aubin knows old glass when he sees it: elves' work from the Age of Light, carried out from somewhere deep in the cliff.",
+        "level": "4",
+        "areas": [
+          "Wakewell Abbey"
+        ],
+        "giver": "Keeper Brannick",
+        "handIn": "Keeper Aubin",
+        "chain": "glowdiggers",
+        "after": [
+          "nhcandle"
+        ],
+        "zone": "3e5710y9"
+      },
+      "nhcount1": {
+        "name": "The assessor's count",
+        "summary": "The Council's assessor is counting the Abbey's stores, and needs someone to climb.",
+        "objectives": "Count the barrels in the cellar, the sacks in the granary loft and the hams in the smokehouse.",
+        "why": "Pell must count the Abbey's stores for the tithe and has a bad knee for ladders. He wants the count true either way: the Council's rule is a tenth of what's there, not a tenth of a guess.",
+        "level": "2",
+        "areas": [
+          "Wakewell Abbey"
+        ],
+        "giver": "Assessor Pell Duvane",
+        "handIn": "Assessor Pell Duvane",
+        "after": [
+          "nhwisps1",
+          "nhdroot1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "nhsalve1": {
+        "name": "Nell's salve",
+        "summary": "Nell has a salve for the assessor's knee.",
+        "objectives": "Take Nell's salve to Assessor Pell Duvane.",
+        "why": "Nell doesn't like the Council, but she won't let a man limp. She'd rather not be thanked for it.",
+        "level": "2",
+        "areas": [
+          "Wakewell Abbey"
+        ],
+        "giver": "Keeper Nell Sallow",
+        "handIn": "Assessor Pell Duvane",
+        "after": [
+          "nhwisps1",
+          "nhdroot1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "nhpalefi": {
+        "name": "Pale fish",
+        "summary": "Pale, eyeless fish swim in the shallows by the falls, where no fish like them used to be.",
+        "objectives": "Bring 4 pale fish from the eyeless fry in the falls pool's shallows.",
+        "why": "Aubin wants them for his book, beside the first dreams. He doesn't say what made them, or how big the thing is that breeds them.",
+        "level": "3",
+        "areas": [
+          "the falls pool"
+        ],
+        "giver": "Keeper Aubin",
+        "handIn": "Keeper Aubin",
+        "after": [
+          "nhdream1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "hcrats01": {
+        "name": "Rats in the barns",
+        "summary": "Rats in the Hallams' barns eat into the grain they owe.",
+        "objectives": "Kill 8 barn rats in the Hallams' barns.",
+        "why": "Every sack the rats get into is a sack short at the count, and the Hallams are short already. Wenna has no cat that'll face them.",
+        "level": "4",
+        "areas": [
+          "Hallam's barns"
+        ],
+        "giver": "Wenna Hallam",
+        "handIn": "Wenna Hallam",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "hcboars1": {
+        "name": "Boars in the barley",
+        "summary": "Boars come down off the rise at night and root up the barley.",
+        "objectives": "Bring 5 boar hides from the boars in the barley.",
+        "why": "The boars cost the Hallams a row a night, and the cart cover's in rags. Wenna would have both problems gone at once.",
+        "level": "4",
+        "areas": [
+          "the barley fields"
+        ],
+        "giver": "Wenna Hallam",
+        "handIn": "Wenna Hallam",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "hcbristl": {
+        "name": "Old Bristle",
+        "summary": "A big old boar leads the others down, and breaks the hedges to do it.",
+        "objectives": "Kill Old Bristle at the edge of the rise and bring back his tusks.",
+        "why": "The young boars follow him. With him gone they'll keep to the woods, and Tobin wants the tusks over the door.",
+        "level": "5",
+        "areas": [
+          "the barley fields",
+          "the rise"
+        ],
+        "giver": "Wenna Hallam",
+        "handIn": "Wenna Hallam",
+        "after": [
+          "hcboars1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "hcapples": {
+        "name": "Hedge apples",
+        "summary": "Tobin brews cider from the hedge apples, the one thing the Council doesn't count.",
+        "objectives": "Gather 10 hedge apples along the farms' hedges.",
+        "why": "The cider is the Hallams' one thing to sell that the tithe doesn't touch, and Tobin's back won't let him reach the high branches.",
+        "level": "4",
+        "areas": [
+          "the hedges"
+        ],
+        "giver": "Grandsire Tobin Hallam",
+        "handIn": "Grandsire Tobin Hallam",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "hcsacks1": {
+        "name": "Short sacks",
+        "summary": "The Council's collector counted the Hallams' sacks short. Wenna says they're full.",
+        "objectives": "Weigh 3 of the Hallams' tithe sacks on the farm's steelyard.",
+        "why": "Varn Ostrey's scales said the Hallams owe another cart. Wenna wants someone who isn't a Hallam to see the sacks are full, so the reeve can't call it farmers' lying.",
+        "level": "5",
+        "areas": [
+          "Hallam's barns"
+        ],
+        "giver": "Wenna Hallam",
+        "handIn": "Wenna Hallam",
+        "chain": "tithe",
+        "after": [
+          "hcrats01"
+        ],
+        "zone": "3e5710y9"
+      },
+      "hcreeve1": {
+        "name": "To the reeve",
+        "summary": "With the sacks weighed, Wenna sends her complaint to Brightford.",
+        "objectives": "Take the Hallams' complaint and a sealed tithe sack to Reeve Odile Marchbank in Brightford.",
+        "why": "The reeve holds the Council's true measure. Wenna doesn't trust her, but she trusts Varn less, and you saw the sacks weighed.",
+        "level": "5",
+        "areas": [
+          "Hallam's cross",
+          "Brightford"
+        ],
+        "giver": "Wenna Hallam",
+        "handIn": "Reeve Odile Marchbank",
+        "chain": "tithe",
+        "after": [
+          "hcsacks1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "hcgrain1": {
+        "name": "Grain on the step",
+        "summary": "Some mornings there's a sack of grain on the Hallams' step, and nobody saw who left it.",
+        "objectives": "Search the hedge gap behind the shrine, where whoever leaves the grain comes and goes, and bring Tobin what you find.",
+        "why": "Tobin wants to know who's feeding them before the Council asks. You find a torn scrap of grey wool. Tobin knows Tennely grey, says it's \"a kindness from the old days\", and won't say more.",
+        "level": "6",
+        "areas": [
+          "Hallam's cross",
+          "the hedges"
+        ],
+        "giver": "Grandsire Tobin Hallam",
+        "handIn": "Grandsire Tobin Hallam",
+        "chain": "greycoats",
+        "after": [
+          "hcapples"
+        ],
+        "zone": "3e5710y9"
+      },
+      "bfstand1": {
+        "name": "The true measure",
+        "summary": "Farmers up the road say Varn's scales weigh their sacks light, and the reeve means to test it.",
+        "objectives": "Weigh the reeve's standard weight on Varn's scales in the tithe barn.",
+        "why": "Odile holds the Council's true weight and won't accuse anyone on a farmer's word. The scales read a tenth light.",
+        "level": "5",
+        "areas": [
+          "the tithe barn"
+        ],
+        "giver": "Reeve Odile Marchbank",
+        "handIn": "Reeve Odile Marchbank",
+        "chain": "tithe",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "bfsouth1": {
+        "name": "Farms south of the road",
+        "summary": "If Varn's scales are light for the Hallams, they're light for everyone.",
+        "objectives": "Ask the 3 farms south of the road what Varn's scales made of their sacks.",
+        "why": "Odile needs more than one farm before she brings it to the Council. Each farm was counted short by the same tenth.",
+        "level": "6",
+        "areas": [
+          "the farms south of the road"
+        ],
+        "giver": "Reeve Odile Marchbank",
+        "handIn": "Reeve Odile Marchbank",
+        "chain": "tithe",
+        "after": [
+          "bfstand1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "bfledger": {
+        "name": "Varn's ledger",
+        "summary": "A tenth extra from every farm has to go somewhere.",
+        "objectives": "Take Varn's ledger from the tithe barn while he's at the inn.",
+        "why": "Odile wants to see where the extra went before Varn can explain it away. The ledger shows it loaded onto the grain wagons to Tennely Hall, by an order Varn never questioned.",
+        "level": "7",
+        "areas": [
+          "the tithe barn"
+        ],
+        "giver": "Reeve Odile Marchbank",
+        "handIn": "Reeve Odile Marchbank",
+        "chain": "tithe",
+        "after": [
+          "bfsouth1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "bfvarn01": {
+        "name": "Moved, not punished",
+        "summary": "Varn only followed his orders, and Odile won't hang a clerk for them.",
+        "objectives": "Take the reeve's order to Varn Ostrey: he's to keep the Abbey's books with Assessor Duvane.",
+        "why": "Odile thinks the scales were set by someone above Varn, and a frightened clerk out of the way is safer than one in a cell. Where the extra grain went is still open.",
+        "level": "7",
+        "areas": [
+          "Brightford"
+        ],
+        "giver": "Reeve Odile Marchbank",
+        "handIn": "Varn Ostrey",
+        "chain": "tithe",
+        "after": [
+          "bfledger"
+        ],
+        "zone": "3e5710y9"
+      },
+      "bfrobber": {
+        "name": "Grey coats on the north road",
+        "summary": "Robbers in grey coats are stopping carts on the north road.",
+        "objectives": "Kill the grey-coated robbers on the north road and bring back 5 of the notched sticks they carry.",
+        "why": "Pike calls them Greycoats and wants them gone before the grain wagons stop. Every robber carries a stick notched with a tally, and she can't read them.",
+        "level": "6",
+        "areas": [
+          "the north road"
+        ],
+        "giver": "Sergeant Ada Pike",
+        "handIn": "Sergeant Ada Pike",
+        "chain": "greycoats",
+        "after": [
+          "hcgrain1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "bfjory01": {
+        "name": "The man in the lock-up",
+        "summary": "Old Bertil says the north road's robbers aren't Greycoats, and Jory Venn can prove it.",
+        "objectives": "Take a robber's grey coat to Jory Venn in the lock-up.",
+        "why": "Bertil visits Jory, who was taken for a robbery he didn't do. Jory turns the coat in his hands: the dye's wrong, the cut's wrong, it's made to look like Tennely grey.",
+        "level": "7",
+        "areas": [
+          "Brightford"
+        ],
+        "giver": "Old Bertil",
+        "handIn": "Jory Venn",
+        "chain": "greycoats",
+        "after": [
+          "bfrobber"
+        ],
+        "zone": "3e5710y9"
+      },
+      "bfjory02": {
+        "name": "Jory's message",
+        "summary": "Jory has a message for the granary's captain, who wore the grey once.",
+        "objectives": "Take Jory's message to Captain Wystan Hale at Tennely Hall.",
+        "why": "Jory says somebody wants the Greycoats blamed, and the grain wagons to Tennely Hall are what the robbers are after. Hale served the Tennelys, and Jory thinks he'll listen.",
+        "level": "8",
+        "areas": [
+          "Brightford",
+          "Tennely Hall"
+        ],
+        "giver": "Jory Venn",
+        "handIn": "Captain Wystan Hale",
+        "chain": "greycoats",
+        "after": [
+          "bfjory01"
+        ],
+        "zone": "3e5710y9"
+      },
+      "bfeels01": {
+        "name": "Eels at the ford",
+        "summary": "Moll's eel pie is the inn's best, and she's out of eels.",
+        "objectives": "Bring 6 eels from the ford's eels.",
+        "why": "Her eel man went with the levy. Moll will feed you for a week on it.",
+        "level": "5",
+        "areas": [
+          "the ford"
+        ],
+        "giver": "Moll Abernathy",
+        "handIn": "Moll Abernathy",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "bfwolves": {
+        "name": "South bank wolves",
+        "summary": "Wolves in the south bank woods go for travellers at the ford.",
+        "objectives": "Bring 6 wolf pelts from the south bank woods.",
+        "why": "Pike has no men to spare for the ford, so she pays a bounty by the pelt instead.",
+        "level": "6",
+        "areas": [
+          "the south bank woods"
+        ],
+        "giver": "Sergeant Ada Pike",
+        "handIn": "Sergeant Ada Pike",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "bfplaque": {
+        "name": "The old lord's plaque",
+        "summary": "The Tennelys' statue lies toppled in the square, and its plaque is about to be sold for scrap.",
+        "objectives": "Prise the plaque off the toppled statue's plinth before Ludo Crake does.",
+        "why": "Hettie doesn't love the Tennelys, but the plaque is the town's history, and the town was Tennelford for a hundred years.",
+        "level": "6",
+        "areas": [
+          "Brightford's square"
+        ],
+        "giver": "Hettie Croft",
+        "handIn": "Hettie Croft",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "bfbell01": {
+        "name": "Iron for a bell",
+        "summary": "Ludo has the Hallams' shrine bell, bought from the militia for the gap. He'll trade it for its weight in iron.",
+        "objectives": "Gather 6 lots of old iron from the wrecked carts along the north road.",
+        "why": "Ludo sells by weight and can't sell a bell anyone would recognise. He'd sooner have iron, and you'd sooner the Hallams had their bell.",
+        "level": "6",
+        "areas": [
+          "the north road"
+        ],
+        "giver": "Ludo Crake",
+        "handIn": "Ludo Crake",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "bfbell02": {
+        "name": "The shrine's bell",
+        "summary": "With the iron traded, the Hallams' bell can go home.",
+        "objectives": "Take the shrine bell back to Grandsire Tobin at Hallam's cross, on your way east or north.",
+        "why": "Ludo's glad to see it gone. Tobin rang that bell for the old lord's wedding.",
+        "level": "6",
+        "areas": [
+          "Brightford",
+          "Hallam's cross"
+        ],
+        "giver": "Ludo Crake",
+        "handIn": "Grandsire Tobin Hallam",
+        "after": [
+          "bfbell01"
+        ],
+        "zone": "3e5710y9"
+      },
+      "bfcamp01": {
+        "name": "Hands for the camp",
+        "summary": "The loggers drinking at Moll's say Cliffside camp needs hands.",
+        "objectives": "Go east past Hallam's cross to Cliffside camp and talk to Foreman Gus Tarrant.",
+        "why": "The Council's quota is due and the arrows from the cliff top have the loggers scared off the ledge. Moll likes the loggers, and their custom.",
+        "level": "6",
+        "areas": [
+          "Brightford",
+          "Cliffside camp"
+        ],
+        "giver": "Moll Abernathy",
+        "handIn": "Foreman Gus Tarrant",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "bfguard1": {
+        "name": "A guard for the granary",
+        "summary": "Tennely Hall's granary is short of guards with the robbers about.",
+        "objectives": "Go north up the grain road to Tennely Hall and report to Captain Wystan Hale.",
+        "why": "Pike can't spare any of her own, so she sends anyone who can fight.",
+        "level": "8",
+        "areas": [
+          "Brightford",
+          "Tennely Hall"
+        ],
+        "giver": "Sergeant Ada Pike",
+        "handIn": "Captain Wystan Hale",
+        "after": [
+          "bfrobber"
+        ],
+        "zone": "3e5710y9"
+      },
+      "csdig01": {
+        "name": "Kobolds at the diggings",
+        "summary": "Kobolds dig into the cliff foot beside the camp and come out at night for the loggers' lamps and tools.",
+        "objectives": "Kill 8 kobold diggers outside the diggings.",
+        "why": "Tarrant loses a lamp or an axe a night, and the quota won't wait for new ones.",
+        "level": "6",
+        "areas": [
+          "the kobold diggings"
+        ],
+        "giver": "Foreman Gus Tarrant",
+        "handIn": "Foreman Gus Tarrant",
+        "chain": "glowdiggers",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "csglass1": {
+        "name": "Glass in the dark",
+        "summary": "The kobolds inside carry shards of glass that glow on their own, like the ones at the Abbey.",
+        "objectives": "Bring 8 glowing shards from the kobolds inside the diggings.",
+        "why": "Tarrant thinks the glass is what they're digging for, and wants to know how much is in there before the Council does.",
+        "level": "7",
+        "areas": [
+          "the kobold diggings"
+        ],
+        "giver": "Foreman Gus Tarrant",
+        "handIn": "Foreman Gus Tarrant",
+        "chain": "glowdiggers",
+        "after": [
+          "csdig01"
+        ],
+        "zone": "3e5710y9"
+      },
+      "csshrin1": {
+        "name": "The glass shrines",
+        "summary": "Deeper in, the kobolds have built shrines round heaps of the glass and bow to them.",
+        "objectives": "Topple 3 glass shrines in the diggings.",
+        "why": "The kobolds fight hardest round the shrines. Tarrant reckons that without them they'll lose heart and keep to their holes.",
+        "level": "7",
+        "areas": [
+          "the kobold diggings"
+        ],
+        "giver": "Foreman Gus Tarrant",
+        "handIn": "Foreman Gus Tarrant",
+        "chain": "glowdiggers",
+        "after": [
+          "csdig01"
+        ],
+        "zone": "3e5710y9"
+      },
+      "csglowm1": {
+        "name": "The Glowmother",
+        "summary": "The kobolds' Glowmother hoards the glass in a chamber they broke into at the back of the diggings, cut and lined by someone long before them.",
+        "objectives": "Kill the Glowmother in the glass chamber and bring back her glass crown.",
+        "why": "With the shrines down, she's what keeps them digging. Her kobolds speak of \"the Wickfather below\", and Tarrant doesn't like the sound of it.",
+        "level": "8",
+        "areas": [
+          "the kobold diggings",
+          "the glass chamber"
+        ],
+        "giver": "Foreman Gus Tarrant",
+        "handIn": "Foreman Gus Tarrant",
+        "chain": "glowdiggers",
+        "after": [
+          "csshrin1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "csrock01": {
+        "name": "Cold air",
+        "summary": "The deepest tunnel runs on past the glass chamber, and the kobolds were still digging it.",
+        "objectives": "Go to the end of the deepest tunnel and see what the kobolds were digging toward.",
+        "why": "Tarrant won't send a logger down there. It ends at a rockfall with cold, wet air coming through and a faint singing behind it, and he means to wall it up.",
+        "level": "8",
+        "areas": [
+          "the kobold diggings"
+        ],
+        "giver": "Foreman Gus Tarrant",
+        "handIn": "Foreman Gus Tarrant",
+        "chain": "glowdiggers",
+        "after": [
+          "csshrin1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "csarrow1": {
+        "name": "Arrows at the chute",
+        "summary": "Arrows from the cliff top have stopped the log chute.",
+        "objectives": "Climb to the chute's head on the ledge and find what the arrows are aimed at.",
+        "why": "Tarrant's men won't go up while the arrows fly, and the quota's due. The arrows all land in the same stumps, the newest cut, and never in a man.",
+        "level": "7",
+        "areas": [
+          "the chute's ledge"
+        ],
+        "giver": "Foreman Gus Tarrant",
+        "handIn": "Foreman Gus Tarrant",
+        "chain": "wardens",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "csanswe1": {
+        "name": "An answer",
+        "summary": "Tarrant wants the arrows answered, and you'd rather talk than shoot.",
+        "objectives": "Take Tarrant's message to the chute's head and wait for whoever comes down.",
+        "why": "Tarrant would sooner know what they want than lose a man finding out. The elven warden Ithriel comes down to the ledge, once.",
+        "level": "8",
+        "areas": [
+          "the chute's ledge"
+        ],
+        "giver": "Foreman Gus Tarrant",
+        "handIn": "Ithriel",
+        "chain": "wardens",
+        "after": [
+          "csarrow1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "csroots1": {
+        "name": "What holds the cliff",
+        "summary": "Ithriel says the camp is cutting the trees that hold the cliff together.",
+        "objectives": "Look at 3 places along the ledge where the ground has slumped since the cutting began.",
+        "why": "She won't argue with loggers, only show them. The roots go down into the cliff, and where the trees came out, the rock is coming away.",
+        "level": "9",
+        "areas": [
+          "the chute's ledge",
+          "the cliff foot"
+        ],
+        "giver": "Ithriel",
+        "handIn": "Ithriel",
+        "chain": "wardens",
+        "after": [
+          "csanswe1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "csline01": {
+        "name": "A no-cut line",
+        "summary": "Ithriel marks a line the loggers mustn't cut past.",
+        "objectives": "Tell Foreman Tarrant where Ithriel's line runs, and what you saw on the ledge.",
+        "why": "The arrows stop if the line holds. Tarrant swears at the Council's quota and agrees, since a falling cliff costs more than a short year.",
+        "level": "9",
+        "areas": [
+          "Cliffside camp"
+        ],
+        "giver": "Ithriel",
+        "handIn": "Foreman Gus Tarrant",
+        "chain": "wardens",
+        "after": [
+          "csroots1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "csspide1": {
+        "name": "Rope for the chute",
+        "summary": "The chute's ropes rot in the damp, and the cliff-foot spiders spin the best line there is.",
+        "objectives": "Bring 6 coils of silk from the cliff-foot spiders.",
+        "why": "Spider silk holds a log better than hemp and doesn't rot. Nobody at the camp will go near the spiders.",
+        "level": "7",
+        "areas": [
+          "the cliff foot"
+        ],
+        "giver": "Foreman Gus Tarrant",
+        "handIn": "Foreman Gus Tarrant",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "thtally1": {
+        "name": "Slade's tally",
+        "summary": "Robbers in grey coats are taking the grain wagons. Hale has lost two this month.",
+        "objectives": "Kill Slade's tallyman in the hills above the grain road and bring back his tally board.",
+        "why": "Hale won't say what he thinks of the grey coats, but he wants proof of who wears them. The board counts every wagon taken, and marks the way back to a camp in the hills east.",
+        "level": "8",
+        "areas": [
+          "the grain road",
+          "the hills"
+        ],
+        "giver": "Captain Wystan Hale",
+        "handIn": "Captain Wystan Hale",
+        "chain": "greycoats",
+        "after": [
+          "bfjory01"
+        ],
+        "zone": "3e5710y9"
+      },
+      "thcamp01": {
+        "name": "Slade's band",
+        "summary": "Slade's band camps in the hills east of the valley, on a shelf above the steep foot.",
+        "objectives": "Kill 10 of Slade's band at his camp.",
+        "why": "Hale can't take the garrison off the granary. Thin the band, and Slade will have to come out himself.",
+        "level": "9",
+        "areas": [
+          "Slade's camp"
+        ],
+        "giver": "Captain Wystan Hale",
+        "handIn": "Captain Wystan Hale",
+        "chain": "greycoats",
+        "after": [
+          "thtally1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "thslade1": {
+        "name": "Slade",
+        "summary": "Slade keeps the camp's tally in a book, and keeps the book on him.",
+        "objectives": "Kill Slade at his camp and bring back his tally book.",
+        "why": "With Slade gone the band breaks up. The book shows grain taken in grey coats and sold on, and it clears every Greycoat the Council has blamed.",
+        "level": "10",
+        "areas": [
+          "Slade's camp"
+        ],
+        "giver": "Captain Wystan Hale",
+        "handIn": "Captain Wystan Hale",
+        "chain": "greycoats",
+        "after": [
+          "thcamp01"
+        ],
+        "zone": "3e5710y9"
+      },
+      "thlodge1": {
+        "name": "The burned lodge",
+        "summary": "Hale quietly asks you to take Slade's book somewhere he can't be seen going.",
+        "objectives": "Take Slade's tally book to Captain Elsbet Rook at the burned hunting lodge.",
+        "why": "The book clears the Greycoats, and Hale served with Rook before the revolution. Rook thanks you with a letter that names the Tennely heir, and asks you to keep it.",
+        "level": "10",
+        "areas": [
+          "the burned lodge"
+        ],
+        "giver": "Captain Wystan Hale",
+        "handIn": "Captain Elsbet Rook",
+        "chain": "greycoats",
+        "after": [
+          "thslade1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "thcount1": {
+        "name": "The granary's count",
+        "summary": "Varn's ledger says a tenth extra went to Tennely Hall. Hale says it never came.",
+        "objectives": "Count the sacks in the granary's 3 bays against the wagon book.",
+        "why": "Hale keeps his count to the sack, and won't be called a thief. The granary holds what the Council asked, and not a sack more: the extra left Brightford and never got here.",
+        "level": "8",
+        "areas": [
+          "Tennely Hall's granary"
+        ],
+        "giver": "Captain Wystan Hale",
+        "handIn": "Captain Wystan Hale",
+        "chain": "tithe",
+        "after": [
+          "bfvarn01"
+        ],
+        "zone": "3e5710y9"
+      },
+      "thruts01": {
+        "name": "Ruts over the saddle",
+        "summary": "Some wagons come in lighter than they left Brightford, and late.",
+        "objectives": "Follow the wagon ruts that turn off the grain road over the saddle, to where they meet the north road.",
+        "why": "Hale wants to know where his missing sacks go before he writes to the Council. The ruts run west toward Northgate, where the Nordish traders buy grain.",
+        "level": "9",
+        "areas": [
+          "the saddle",
+          "the north road"
+        ],
+        "giver": "Captain Wystan Hale",
+        "handIn": "Captain Wystan Hale",
+        "chain": "tithe",
+        "after": [
+          "thcount1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "thwolve1": {
+        "name": "Spooked horses",
+        "summary": "Hill wolves come down to the grain road and spook the wagon horses.",
+        "objectives": "Kill 8 hill wolves along the valley's edge.",
+        "why": "A bolting team can lose a wagon in the brook. Hale has lost one that way already, and blames the wolves louder than the robbers.",
+        "level": "8",
+        "areas": [
+          "the hills"
+        ],
+        "giver": "Captain Wystan Hale",
+        "handIn": "Captain Wystan Hale",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "ngstone1": {
+        "name": "The boundary stones",
+        "summary": "The Angean farmers say the meadow south of the gap is theirs, and Sigrun's herd has no right to it.",
+        "objectives": "Read the 3 old boundary stones in the north meadow.",
+        "why": "The stones are older than the farms. Their marks name the meadow common grazing, for any herd that keeps the road open.",
+        "level": "8",
+        "areas": [
+          "the north meadow"
+        ],
+        "giver": "Sigrun Asa's-daughter",
+        "handIn": "Sigrun Asa's-daughter",
+        "chain": "northroad",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "ngcalf01": {
+        "name": "Taken calves",
+        "summary": "Hill wolves take calves from both herds, Nordish and Angean, and drag them up into the hills.",
+        "objectives": "Kill north road wolves and bring back 5 calf bells.",
+        "why": "Every bell is a calf lost. Sigrun means to give the Angean ones back to their farmers, to show the wolves don't care whose herd it is.",
+        "level": "8",
+        "areas": [
+          "the north road",
+          "the western hills"
+        ],
+        "giver": "Sigrun Asa's-daughter",
+        "handIn": "Sigrun Asa's-daughter",
+        "chain": "northroad",
+        "after": [
+          "ngstone1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "ngbear01": {
+        "name": "The hill bear",
+        "summary": "A hill bear took a calf from under the palisade, and the wolves follow where it goes.",
+        "objectives": "Kill the hill bear in its den in the western hills and bring back its hide.",
+        "why": "With the bear gone the wolves scatter. Both herds owe the same hunter, and that's a thing to build on.",
+        "level": "9",
+        "areas": [
+          "the bear's den"
+        ],
+        "giver": "Sigrun Asa's-daughter",
+        "handIn": "Sigrun Asa's-daughter",
+        "chain": "northroad",
+        "after": [
+          "ngcalf01"
+        ],
+        "zone": "3e5710y9"
+      },
+      "ngsaga01": {
+        "name": "A verse for the meadow",
+        "summary": "Sigrun wants the meadow shared, and wants it said where both sides will hear.",
+        "objectives": "Tell Arnbjorn the skald about the stones, the calves and the bear.",
+        "why": "A song is how the Nordish keep a promise. Arnbjorn makes the verse, and sings of the coast to the north-west while he's at it, where the old songs came from.",
+        "level": "9",
+        "areas": [
+          "Northgate"
+        ],
+        "giver": "Sigrun Asa's-daughter",
+        "handIn": "Arnbjorn the skald",
+        "chain": "northroad",
+        "after": [
+          "ngbear01"
+        ],
+        "zone": "3e5710y9"
+      },
+      "ngwagon1": {
+        "name": "Ottar's wagon",
+        "summary": "Ottar sells more grain north than any farm round here grows for sale.",
+        "objectives": "Look under the hides in Ottar's wagon.",
+        "why": "Sigrun has wondered for a season. Under the hides are sacks stamped with Brightford's tithe mark.",
+        "level": "9",
+        "areas": [
+          "Northgate"
+        ],
+        "giver": "Sigrun Asa's-daughter",
+        "handIn": "Sigrun Asa's-daughter",
+        "chain": "northroad",
+        "after": [
+          "thruts01"
+        ],
+        "zone": "3e5710y9"
+      },
+      "ngottar1": {
+        "name": "A slippery trader",
+        "summary": "Ottar laughs off most questions, but tithe sacks are hard to laugh off.",
+        "objectives": "Ask Ottar Haldsson where the tithe sacks came from.",
+        "why": "He bought them honestly, he says, from a Council carter who comes over the saddle at night. He has the bill of sale, and he'd rather you had it than the Council found it on him.",
+        "level": "10",
+        "areas": [
+          "Northgate"
+        ],
+        "giver": "Sigrun Asa's-daughter",
+        "handIn": "Ottar Haldsson",
+        "chain": "northroad",
+        "after": [
+          "ngwagon1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "ngbill01": {
+        "name": "The bill of sale",
+        "summary": "Ottar's bill of sale names the carter and the price.",
+        "objectives": "Take Ottar's bill of sale to Captain Hale at Tennely Hall.",
+        "why": "Hale's missing sacks have a seller now, and it isn't the Greycoats. He writes to the Council with the bill, and with Varn's ledger beside it.",
+        "level": "10",
+        "areas": [
+          "Tennely Hall"
+        ],
+        "giver": "Ottar Haldsson",
+        "handIn": "Captain Wystan Hale",
+        "chain": "northroad",
+        "after": [
+          "ngottar1"
+        ],
+        "zone": "3e5710y9"
+      }
+    },
+    "chains": {
+      "newwoken": {
+        "name": "The new-woken (1-4)",
+        "zone": "3e5710y9",
+        "summary": "At Wakewell Abbey the keepers get a new-woken Waker onto their feet with the chores the levy left undone, the hens' foxes, the herb garden and the dream-wisps drifting from the falls pool, until Keeper Aubin sets them to sleep by the water for their first dream, of water and falling, and sends them on to Hallam's cross; against the Dream's leak, its cause found as the falls.",
+        "quests": [
+          "nhcometo",
+          "nhfoxes1",
+          "nhrushes",
+          "nhwisps1",
+          "nhdroot1",
+          "nhansel1",
+          "nhdream1",
+          "nhsendof"
+        ]
+      },
+      "glowdiggers": {
+        "name": "The glowdiggers (4-8)",
+        "zone": "3e5710y9",
+        "summary": "Kobold sneaks steal the Abbey's candles and drop shards of glowing glass, which lead to Cliffside camp and the diggings in the cliff foot, where the kobolds have broken into an Age of Light chamber and worship its glass, until the Glowmother who hoards it is dealt with and the deepest tunnel ends at a rockfall with cold, wet air and singing behind it, the Underfall's upper reaches; against the kobolds, their locus dealt with.",
+        "quests": [
+          "nhcandle",
+          "nhtallow",
+          "nhglass1",
+          "csdig01",
+          "csglass1",
+          "csshrin1",
+          "csglowm1",
+          "csrock01"
+        ]
+      },
+      "tithe": {
+        "name": "The tithe (4-9)",
+        "zone": "3e5710y9",
+        "summary": "Hallam's farms come up short against the Council's measure, and Brightford's reeve sets you to check it, through Varn Ostrey's scales, his ledger and the farms south of the road, until the measure's shown false and Varn is moved, not punished, and the skim found at Northgate is set right; against the Council's tithe, its cause found.",
+        "quests": [
+          "hcsacks1",
+          "hcreeve1",
+          "bfstand1",
+          "bfsouth1",
+          "bfledger",
+          "bfvarn01",
+          "thcount1",
+          "thruts01"
+        ]
+      },
+      "greycoats": {
+        "name": "The Greycoats (6-10)",
+        "zone": "3e5710y9",
+        "summary": "Grain left on Hallam's step by someone in a grey coat, robbers in grey coats on the north road and Jory Venn's message from Brightford's lock-up show two sets of grey coats, and the trail runs north to Tennely Hall, Slade's tally and his hill camp, until Slade is dealt with and the Greycoats' captain thanks you at the burned lodge with a letter that names the heir; against Slade's band, its locus dealt with.",
+        "quests": [
+          "hcgrain1",
+          "bfrobber",
+          "bfjory01",
+          "bfjory02",
+          "thtally1",
+          "thcamp01",
+          "thslade1",
+          "thlodge1"
+        ]
+      },
+      "wardens": {
+        "name": "The cliff wardens (7-10)",
+        "zone": "3e5710y9",
+        "summary": "Arrows from the cliff top stop the log chute at Cliffside camp, and the loggers want them answered, until the elven warden Ithriel comes down to the ledge and shows that the quota's cutting undermines the trees that hold the cliff, and Foreman Tarrant agrees a no-cut line; against the Council's tithe, its quotas' cause found.",
+        "quests": [
+          "csarrow1",
+          "csanswe1",
+          "csroots1",
+          "csline01"
+        ]
+      },
+      "northroad": {
+        "name": "The north road (8-10)",
+        "zone": "3e5710y9",
+        "summary": "At Northgate the Nordish herds push south into Angean pasture and the hill wolves and the bear take calves from both, until the pasture's shared and the grain in Ottar's wagon turns out to be the tithe's skim, sold north; against the Council's tithe, the skim's cause found.",
+        "quests": [
+          "ngstone1",
+          "ngcalf01",
+          "ngbear01",
+          "ngsaga01",
+          "ngwagon1",
+          "ngottar1",
+          "ngbill01"
+        ]
+      }
+    }
+  },
+  "forces": [
+    {
+      "id": "forcq4w4",
+      "name": "The Council's tithe",
+      "color": "#d4a838",
+      "notes": "The Council's reeve and tithe collector at Brightford, counting everybody's grain against a false measure. Requisitions go out to every farm and the Abbey, quotas to the loggers, and grain wagons up to the granary at Tennely Hall. Not an enemy: the heroes take its work, set its measure right and move its collector on, never fight it.",
+      "loci": [
+        [
+          8500,
+          23300
+        ]
+      ],
+      "strokes": [
+        [
+          [
+            8650,
+            23150
+          ],
+          [
+            9700,
+            22200
+          ],
+          [
+            10600,
+            21350
+          ]
+        ],
+        [
+          [
+            8700,
+            23250
+          ],
+          [
+            11000,
+            22400
+          ],
+          [
+            13200,
+            22000
+          ],
+          [
+            14300,
+            21950
+          ]
+        ],
+        [
+          [
+            8550,
+            23100
+          ],
+          [
+            9500,
+            21000
+          ],
+          [
+            10200,
+            19200
+          ],
+          [
+            10380,
+            18150
+          ]
+        ],
+        [
+          [
+            8700,
+            23150
+          ],
+          [
+            11000,
+            21000
+          ],
+          [
+            12500,
+            19900
+          ],
+          [
+            13250,
+            19400
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "forcybpt",
+      "name": "Slade's band",
+      "color": "#c0392b",
+      "notes": "Robbers in grey coats, so the Greycoats take the blame. Slade runs them from a camp in the hills east of Tennely Hall, robbing the north road and the grain wagons and keeping a tally of what he takes. The zone's villains, and the only people the heroes fight.",
+      "loci": [
+        [
+          12600,
+          18050
+        ]
+      ],
+      "strokes": [
+        [
+          [
+            12450,
+            18150
+          ],
+          [
+            11300,
+            18600
+          ],
+          [
+            10700,
+            19400
+          ],
+          [
+            10600,
+            20300
+          ]
+        ],
+        [
+          [
+            12400,
+            18050
+          ],
+          [
+            11200,
+            17900
+          ],
+          [
+            10600,
+            17900
+          ],
+          [
+            9600,
+            18300
+          ],
+          [
+            8600,
+            19000
+          ],
+          [
+            7700,
+            20000
+          ],
+          [
+            7300,
+            20700
+          ]
+        ],
+        [
+          [
+            12550,
+            18200
+          ],
+          [
+            11800,
+            19300
+          ],
+          [
+            11100,
+            20700
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "forcfwmm",
+      "name": "The kobolds",
+      "color": "#8c6a3f",
+      "notes": "Kobolds dug into an Age of Light chamber in the cliff foot above Cliffside camp and worship its glowing glass, under the Glowmother, who hoards it. Their sneaks have burrows in the cliff under the Prow by the Abbey and steal its candles. The honest monsters, with the wildlife.",
+      "loci": [
+        [
+          14300,
+          19050
+        ],
+        [
+          14700,
+          21600
+        ]
+      ],
+      "strokes": [
+        [
+          [
+            14250,
+            19100
+          ],
+          [
+            13850,
+            19200
+          ],
+          [
+            13450,
+            19300
+          ]
+        ],
+        [
+          [
+            14650,
+            21650
+          ],
+          [
+            14550,
+            21800
+          ],
+          [
+            14470,
+            21920
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "forctdq5",
+      "name": "The Dream",
+      "color": "#9b7fe0",
+      "notes": "Where the cascade falls into the lake, the Dream touches the world: dream-wisps and dreamroot at the falls pool, and the Wakers who come to at the Abbey across the water. Odd, not hostile. The Underfall's cave on the falls ledge, just past the border, is its source.",
+      "loci": [
+        [
+          14850,
+          22950
+        ]
+      ],
+      "strokes": [
+        [
+          [
+            14800,
+            22850
+          ],
+          [
+            14650,
+            22450
+          ],
+          [
+            14480,
+            22000
+          ]
+        ]
+      ]
+    }
+  ]
+}
