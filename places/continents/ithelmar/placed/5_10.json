@@ -2345,215 +2345,6 @@
    "road": "roadg6nd"
   },
   {
-   "id": "obj9eujd",
-   "type": "built:broad012",
-   "at": [
-    10683.6,
-    21246.7
-   ],
-   "yaw": 4.7123,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "objco924",
-   "type": "built:broad012",
-   "at": [
-    10681.4,
-    21252.7
-   ],
-   "yaw": 3.4454,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "objegdvr",
-   "type": "built:broad012",
-   "at": [
-    10678.3,
-    21257.1
-   ],
-   "yaw": 1.6456,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "objc9abx",
-   "type": "built:broad012",
-   "at": [
-    10671.8,
-    21256.6
-   ],
-   "yaw": 5.8274,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "objzxvfg",
-   "type": "built:broad012",
-   "at": [
-    10667.1,
-    21258.8
-   ],
-   "yaw": 0.0959,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "objtbmk4",
-   "type": "built:broad012",
-   "at": [
-    10666.2,
-    21265.4
-   ],
-   "yaw": 4.7197,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "obj6rywu",
-   "type": "built:broad012",
-   "at": [
-    10662.4,
-    21268.7
-   ],
-   "yaw": 2.9841,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "objj6o6n",
-   "type": "built:broad012",
-   "at": [
-    10656.5,
-    21269.5
-   ],
-   "yaw": 4.1536,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "objrbd6i",
-   "type": "built:broad012",
-   "at": [
-    10651.6,
-    21271.4
-   ],
-   "yaw": 0.1307,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "objce39h",
-   "type": "built:broad012",
-   "at": [
-    10652,
-    21279.7
-   ],
-   "yaw": 5.8953,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "obj5dqyo",
-   "type": "built:broad012",
-   "at": [
-    10645.5,
-    21279.6
-   ],
-   "yaw": 2.8583,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "objli6es",
-   "type": "built:broad012",
-   "at": [
-    10640.1,
-    21280.8
-   ],
-   "yaw": 1.1269,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "objod1ce",
-   "type": "built:broad012",
-   "at": [
-    10636.7,
-    21284.7
-   ],
-   "yaw": 5.8121,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "obj6dn8a",
-   "type": "built:broad012",
-   "at": [
-    10634.6,
-    21290.1
-   ],
-   "yaw": 3.8217,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "objewzwb",
-   "type": "built:broad012",
-   "at": [
-    10629.5,
-    21291.8
-   ],
-   "yaw": 6.2371,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "obj67uqw",
-   "type": "built:broad012",
-   "at": [
-    10627.1,
-    21296.6
-   ],
-   "yaw": 1.505,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "objsp67i",
-   "type": "built:broad012",
-   "at": [
-    10624.4,
-    21300.9
-   ],
-   "yaw": 5.5911,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "obj42s2q",
-   "type": "built:broad012",
-   "at": [
-    10616.3,
-    21299.8
-   ],
-   "yaw": 5.1235,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
-   "id": "objdpse4",
-   "type": "built:broad012",
-   "at": [
-    10616.8,
-    21307.5
-   ],
-   "yaw": 4.8061,
-   "scale": 1,
-   "road": "roadg6nd"
-  },
-  {
    "id": "objzoskw",
    "type": "built:broad010",
    "at": [
@@ -4343,17 +4134,6 @@
     20507.3
    ],
    "yaw": 5.3606,
-   "scale": 1.4,
-   "road": "roadrbgw"
-  },
-  {
-   "id": "objimb86",
-   "type": "built:broad010",
-   "at": [
-    10441.5,
-    20501.2
-   ],
-   "yaw": 1.793,
    "scale": 1.4,
    "road": "roadrbgw"
   },
@@ -6151,323 +5931,364 @@
    "road": "roadjupb"
   },
   {
-   "id": "objfbncr",
+   "id": "obja9pq1",
+   "type": "built:broad010",
+   "at": [
+    10684.1,
+    21259.7
+   ],
+   "yaw": 3.7232,
+   "scale": 1.4,
+   "road": "roadg6nd",
+   "footprint": {
+    "open": 0.82
+   },
+   "height": 0.84
+  },
+  {
+   "id": "obj9k2gm",
+   "type": "built:broad010",
+   "at": [
+    10674.9,
+    21246.1
+   ],
+   "yaw": 0.5774,
+   "scale": 1.4,
+   "road": "roadg6nd",
+   "footprint": {
+    "open": 0.82
+   },
+   "height": 0.84
+  },
+  {
+   "id": "objwsjc2",
+   "type": "built:broad010",
+   "at": [
+    10667.3,
+    21273.1
+   ],
+   "yaw": 3.889,
+   "scale": 1.4,
+   "road": "roadg6nd",
+   "footprint": {
+    "open": 0.82
+   },
+   "height": 0.84
+  },
+  {
+   "id": "obj5ervo",
+   "type": "built:broad010",
+   "at": [
+    10656.5,
+    21260.7
+   ],
+   "yaw": 0.7615,
+   "scale": 1.4,
+   "road": "roadg6nd",
+   "footprint": {
+    "open": 0.82
+   },
+   "height": 0.84
+  },
+  {
+   "id": "objjk2he",
+   "type": "built:broad010",
+   "at": [
+    10654.9,
+    21283.6
+   ],
+   "yaw": 3.9946,
+   "scale": 1.4,
+   "road": "roadg6nd",
+   "footprint": {
+    "open": 0.82
+   },
+   "height": 0.84
+  },
+  {
+   "id": "objcoj3h",
+   "type": "built:broad010",
+   "at": [
+    10637.4,
+    21297.6
+   ],
+   "yaw": 3.9572,
+   "scale": 1.4,
+   "road": "roadg6nd",
+   "footprint": {
+    "open": 0.82
+   },
+   "height": 0.84
+  },
+  {
+   "id": "obj2hhbd",
+   "type": "built:broad010",
+   "at": [
+    10626.7,
+    21285.1
+   ],
+   "yaw": 0.8541,
+   "scale": 1.4,
+   "road": "roadg6nd",
+   "footprint": {
+    "open": 0.82
+   },
+   "height": 0.84
+  },
+  {
+   "id": "obj3828z",
+   "type": "built:broad010",
+   "at": [
+    10624.5,
+    21309.7
+   ],
+   "yaw": 3.9399,
+   "scale": 1.4,
+   "road": "roadg6nd",
+   "footprint": {
+    "open": 0.82
+   },
+   "height": 0.84
+  },
+  {
+   "id": "objf4x6i",
+   "type": "built:broad010",
+   "at": [
+    10613,
+    21298
+   ],
+   "yaw": 0.7495,
+   "scale": 1.4,
+   "road": "roadg6nd",
+   "footprint": {
+    "open": 0.82
+   },
+   "height": 0.84
+  },
+  {
+   "id": "objotkl7",
    "type": "built:broad012",
    "at": [
-    10476.7,
-    22301.3
+    10647.1,
+    21275.2
+   ],
+   "yaw": 4.7123,
+   "scale": 1,
+   "road": "roadg6nd",
+   "footprint": {
+    "open": 2.7
+   },
+   "height": 0.8
+  },
+  {
+   "id": "objq0vpi",
+   "type": "built:broad012",
+   "at": [
+    10645.6,
+    21281.4
+   ],
+   "yaw": 3.4454,
+   "scale": 1,
+   "road": "roadg6nd",
+   "footprint": {
+    "open": 2.7
+   },
+   "height": 0.8
+  },
+  {
+   "id": "objd1ojh",
+   "type": "built:broad012",
+   "at": [
+    10642.9,
+    21286
+   ],
+   "yaw": 1.6456,
+   "scale": 1,
+   "road": "roadg6nd",
+   "footprint": {
+    "open": 2.7
+   },
+   "height": 0.8
+  },
+  {
+   "id": "objvmik6",
+   "type": "built:broad012",
+   "at": [
+    10481.3,
+    22320.7
    ],
    "yaw": 3.69,
    "scale": 1,
-   "road": "roadjupb"
+   "road": "roadjupb",
+   "footprint": {
+    "open": 2.7
+   },
+   "height": 0.8
   },
   {
-   "id": "objbcqmj",
+   "id": "objeo1ld",
    "type": "built:broad012",
    "at": [
-    10476.8,
-    22306.4
+    10481.5,
+    22325.8
    ],
    "yaw": 5.5165,
    "scale": 1,
-   "road": "roadjupb"
+   "road": "roadjupb",
+   "footprint": {
+    "open": 2.7
+   },
+   "height": 0.8
   },
   {
-   "id": "objp5o5k",
-   "type": "built:broad012",
-   "at": [
-    10478,
-    22311.2
-   ],
-   "yaw": 6.1043,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "objwpz4a",
-   "type": "built:broad012",
-   "at": [
-    10479.5,
-    22316
-   ],
-   "yaw": 2.0614,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "obj881n0",
-   "type": "built:broad012",
-   "at": [
-    10482,
-    22320.5
-   ],
-   "yaw": 1.6702,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "objd7npl",
-   "type": "built:broad012",
-   "at": [
-    10483.1,
-    22325.4
-   ],
-   "yaw": 4.496,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "objg6l1e",
+   "id": "objeptmr",
    "type": "built:broad012",
    "at": [
     10482.9,
     22330.6
    ],
-   "yaw": 1.9588,
+   "yaw": 6.1043,
    "scale": 1,
-   "road": "roadjupb"
+   "road": "roadjupb",
+   "footprint": {
+    "open": 2.7
+   },
+   "height": 0.8
   },
   {
-   "id": "obj0g9fl",
+   "id": "objmf8l7",
    "type": "built:broad012",
    "at": [
-    10485.1,
-    22335.2
+    10484.5,
+    22335.4
    ],
-   "yaw": 0.6487,
+   "yaw": 2.0614,
    "scale": 1,
-   "road": "roadjupb"
+   "road": "roadjupb",
+   "footprint": {
+    "open": 2.7
+   },
+   "height": 0.8
   },
   {
-   "id": "objcsg6v",
+   "id": "objp1g43",
    "type": "built:broad012",
    "at": [
-    10485.8,
-    22340.2
+    10487.1,
+    22339.9
    ],
-   "yaw": 6.0478,
+   "yaw": 1.6702,
    "scale": 1,
-   "road": "roadjupb"
+   "road": "roadjupb",
+   "footprint": {
+    "open": 2.7
+   },
+   "height": 0.8
   },
   {
-   "id": "objtwlke",
+   "id": "objgwsqp",
    "type": "built:broad012",
    "at": [
-    10488.1,
+    10488.2,
     22344.8
    ],
-   "yaw": 3.9858,
+   "yaw": 4.496,
    "scale": 1,
-   "road": "roadjupb"
+   "road": "roadjupb",
+   "footprint": {
+    "open": 2.7
+   },
+   "height": 0.8
   },
   {
-   "id": "obj3tlou",
+   "id": "objogfxd",
    "type": "built:broad012",
    "at": [
-    10488.7,
-    22349.8
+    10488,
+    22350
    ],
-   "yaw": 2.361,
+   "yaw": 1.9588,
    "scale": 1,
-   "road": "roadjupb"
+   "road": "roadjupb",
+   "footprint": {
+    "open": 2.7
+   },
+   "height": 0.8
   },
   {
-   "id": "obji90yg",
+   "id": "objquear",
    "type": "built:broad012",
    "at": [
-    10490.2,
-    22354.6
+    10494.8,
+    22377.1
    ],
-   "yaw": 2.34,
+   "yaw": 3.69,
    "scale": 1,
-   "road": "roadjupb"
+   "road": "roadjupb",
+   "footprint": {
+    "open": 2.7
+   },
+   "height": 0.8
   },
   {
-   "id": "obj1t4yx",
+   "id": "obj29c2c",
    "type": "built:broad012",
    "at": [
-    10491.6,
-    22359.4
+    10494.6,
+    22382.2
    ],
-   "yaw": 3.9234,
+   "yaw": 5.5165,
    "scale": 1,
-   "road": "roadjupb"
+   "road": "roadjupb",
+   "footprint": {
+    "open": 2.7
+   },
+   "height": 0.8
   },
   {
-   "id": "obj7k0ij",
+   "id": "obj5g8t2",
    "type": "built:broad012",
    "at": [
-    10492.1,
-    22364.4
+    10495.6,
+    22387.1
    ],
-   "yaw": 5.1277,
+   "yaw": 6.1043,
    "scale": 1,
-   "road": "roadjupb"
+   "road": "roadjupb",
+   "footprint": {
+    "open": 2.7
+   },
+   "height": 0.8
   },
   {
-   "id": "objzd36n",
+   "id": "objanoq7",
    "type": "built:broad012",
    "at": [
-    10492.3,
-    22369.5
+    10497,
+    22392
    ],
-   "yaw": 5.2164,
+   "yaw": 2.0614,
    "scale": 1,
-   "road": "roadjupb"
+   "road": "roadjupb",
+   "footprint": {
+    "open": 2.7
+   },
+   "height": 0.8
   },
   {
-   "id": "obj908jg",
+   "id": "obj02j9b",
    "type": "built:broad012",
    "at": [
-    10493.6,
-    22374.3
+    10499.4,
+    22396.6
    ],
-   "yaw": 0.1767,
+   "yaw": 1.6702,
    "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "objdigf0",
-   "type": "built:broad012",
-   "at": [
-    10495.2,
-    22379.1
-   ],
-   "yaw": 0.9948,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "objikp9i",
-   "type": "built:broad012",
-   "at": [
-    10496.1,
-    22384
-   ],
-   "yaw": 4.5625,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "objlsanq",
-   "type": "built:broad012",
-   "at": [
-    10496.3,
-    22389
-   ],
-   "yaw": 4.9172,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "obj1iyej",
-   "type": "built:broad012",
-   "at": [
-    10497.4,
-    22393.9
-   ],
-   "yaw": 1.8407,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "objmeuwf",
-   "type": "built:broad012",
-   "at": [
-    10499.3,
-    22398.6
-   ],
-   "yaw": 2.7353,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "objn2yfv",
-   "type": "built:broad012",
-   "at": [
-    10499.8,
-    22403.7
-   ],
-   "yaw": 1.7092,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "objijk9q",
-   "type": "built:broad012",
-   "at": [
-    10500.3,
-    22408.7
-   ],
-   "yaw": 0.9527,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "objtl4b3",
-   "type": "built:broad012",
-   "at": [
-    10499,
-    22413.7
-   ],
-   "yaw": 5.4772,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "obj6i0sk",
-   "type": "built:broad012",
-   "at": [
-    10500.6,
-    22418.6
-   ],
-   "yaw": 0.0734,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "objn0crp",
-   "type": "built:broad012",
-   "at": [
-    10499.9,
-    22423.7
-   ],
-   "yaw": 5.6893,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "objfyj27",
-   "type": "built:broad012",
-   "at": [
-    10499.9,
-    22428.7
-   ],
-   "yaw": 2.8914,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "objv10a6",
-   "type": "built:broad012",
-   "at": [
-    10500.2,
-    22433.7
-   ],
-   "yaw": 2.8744,
-   "scale": 1,
-   "road": "roadjupb"
-  },
-  {
-   "id": "objolwrk",
-   "type": "built:broad012",
-   "at": [
-    10500.6,
-    22438.7
-   ],
-   "yaw": 0.9004,
-   "scale": 1,
-   "road": "roadjupb"
+   "road": "roadjupb",
+   "footprint": {
+    "open": 2.7
+   },
+   "height": 0.8
   }
  ],
  "slabs": []
