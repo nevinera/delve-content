@@ -2463,13 +2463,13 @@
         "zone": "3e5710y9"
       },
       "hcwebs01": {
-        "name": "Webs on the rise",
-        "summary": "Spiders have spun over the rise where the Hallams graze sheep in summer.",
-        "objectives": "Burn 5 web nests on the rise's slopes.",
+        "name": "Webs in the ruin",
+        "summary": "Spiders have spun webs through Crumbling Ruin, at the rise's south-west foot, where the Hallams graze sheep in summer.",
+        "objectives": "Burn 5 web nests in and round Crumbling Ruin.",
         "why": "Tobin lost two ewes there last year, wrapped and hung. He'd go himself if his knees let him.",
         "level": "5",
         "areas": [
-          "the rise"
+          "Crumbling Ruin"
         ],
         "giver": "Grandsire Tobin Hallam",
         "handIn": "Grandsire Tobin Hallam",
