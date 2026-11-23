@@ -1694,66 +1694,6 @@
    "yaw": 0.8438,
    "scale": 1,
    "road": "roadaxnv"
-  },
-  {
-   "id": "objn5ucj",
-   "type": "built:broad012",
-   "at": [
-    8166.6,
-    19176.1
-   ],
-   "yaw": 5.4471,
-   "scale": 1,
-   "road": "roadaxnv",
-   "footprint": {
-    "open": 2.7
-   },
-   "height": 0.8
-  },
-  {
-   "id": "objxah80",
-   "type": "built:broad012",
-   "at": [
-    8166.3,
-    19170.3
-   ],
-   "yaw": 4.6235,
-   "scale": 1,
-   "road": "roadaxnv",
-   "footprint": {
-    "open": 2.7
-   },
-   "height": 0.8
-  },
-  {
-   "id": "objsjg22",
-   "type": "built:broad012",
-   "at": [
-    8172.3,
-    19167.7
-   ],
-   "yaw": 1.9973,
-   "scale": 1,
-   "road": "roadaxnv",
-   "footprint": {
-    "open": 2.7
-   },
-   "height": 0.8
-  },
-  {
-   "id": "objlsyp9",
-   "type": "built:broad012",
-   "at": [
-    8170.2,
-    19161.1
-   ],
-   "yaw": 5.5693,
-   "scale": 1,
-   "road": "roadaxnv",
-   "footprint": {
-    "open": 2.7
-   },
-   "height": 0.8
   }
  ],
  "slabs": []
