@@ -3283,190 +3283,196 @@
   ],
   "locations": [
     {
-      "id": "ayquo7fn",
+      "id": "fyiph459",
       "name": "Wakewell Abbey",
-      "area": "arearf71",
-      "regionArea": "area4hnu"
+      "area": "area49hs",
+      "regionArea": "area2yzr"
     },
     {
-      "id": "7llshmda",
+      "id": "8f6ynerx",
       "name": "the North Shore",
-      "area": "areah0no",
-      "regionArea": "areafu29"
+      "area": "area7a6n",
+      "regionArea": "areat8ge"
     },
     {
-      "id": "xqe3suzh",
+      "id": "kjw0y1nz",
       "name": "Wakewell Mere",
-      "area": "area5lhy",
-      "regionArea": "areaqoca"
+      "area": "area5sxn",
+      "regionArea": "area4zu2"
     },
     {
-      "id": "n8seaqai",
+      "id": "tfhh45vf",
       "name": "the Falls Pool",
-      "area": "areaxbr6",
-      "regionArea": "areaekth"
+      "area": "areakvid",
+      "regionArea": "areax231"
     },
     {
-      "id": "avwdcvkh",
+      "id": "3flvhbsd",
       "name": "the South Shore",
-      "area": "area78j2",
-      "regionArea": "areauz75"
+      "area": "areaih4c",
+      "regionArea": "area81et"
     },
     {
-      "id": "dw1zj56a",
+      "id": "j6zu6jov",
       "name": "Hallam's Cross",
-      "area": "areaypwh",
-      "regionArea": "area2g1t"
+      "area": "areafhh3",
+      "regionArea": "areaocih"
     },
     {
-      "id": "6gwpn36z",
+      "id": "0gje02k6",
       "name": "the Barley Fields",
-      "area": "areaxxgh",
-      "regionArea": "areat702"
+      "area": "areaqq2c",
+      "regionArea": "area1aew"
     },
     {
-      "id": "aa1i0bor",
+      "id": "7lu388g1",
       "name": "Bristle's Wallow",
-      "area": "areafibg",
-      "regionArea": "areaw22f"
+      "area": "areaobno",
+      "regionArea": "areapukd"
     },
     {
-      "id": "2tqfvzbw",
+      "id": "zhk3jpvz",
       "name": "Crumbling Ruin",
-      "area": "areabl2q",
-      "regionArea": "areapk3o"
+      "area": "arealkz0",
+      "regionArea": "areau1xo"
     },
     {
-      "id": "6smtdok0",
+      "id": "4hlq4k7x",
       "name": "the River Meadows",
-      "area": "areau3ak",
-      "regionArea": "area3tqt"
+      "area": "areak89z",
+      "regionArea": "areaqx00"
     },
     {
-      "id": "7kh2mu43",
+      "id": "0cp9on4s",
+      "name": "the South Gap",
+      "area": "area84ip",
+      "regionArea": "areaknh8"
+    },
+    {
+      "id": "xyaxbj2r",
       "name": "Brightford",
-      "area": "areayvc1",
-      "regionArea": "areaj01j"
+      "area": "areamipq",
+      "regionArea": "areabqz2"
     },
     {
-      "id": "3nkk1te6",
+      "id": "7qepymvd",
       "name": "the South Bank Woods",
-      "area": "arealr5p",
-      "regionArea": "areaszza"
+      "area": "arear6hl",
+      "regionArea": "areae5y8"
     },
     {
-      "id": "ruhwdqpj",
+      "id": "cl5bavgl",
       "name": "the Coast Meadows",
-      "area": "areahc3e",
-      "regionArea": "areahmo1"
+      "area": "areaxtxm",
+      "regionArea": "areaxbqr"
     },
     {
-      "id": "md3ic6im",
+      "id": "p95d6gdx",
       "name": "the Coast Pasture",
-      "area": "area3sr5",
-      "regionArea": "areavi38"
+      "area": "areajomz",
+      "regionArea": "area51d6"
     },
     {
-      "id": "jw2eq2i3",
+      "id": "jzyujz9t",
       "name": "Robbers' Bend",
-      "area": "areaupnq",
-      "regionArea": "areap03h"
+      "area": "area1pde",
+      "regionArea": "area9580"
     },
     {
-      "id": "rs240xi1",
+      "id": "gbt8c0wm",
       "name": "the North Meadow",
-      "area": "area1552",
-      "regionArea": "areaskjm"
+      "area": "areae2xg",
+      "regionArea": "areag475"
     },
     {
-      "id": "q2pzcw7t",
+      "id": "u2gfdyn8",
       "name": "Northgate",
-      "area": "areagkq7",
-      "regionArea": "area6ya7"
+      "area": "area4wd9",
+      "regionArea": "areawaqe"
     },
     {
-      "id": "w62c8pm1",
+      "id": "pjs4rvu7",
       "name": "the Western Hills",
-      "area": "areavqem",
-      "regionArea": "area6a01"
+      "area": "area5nog",
+      "regionArea": "aream7n5"
     },
     {
-      "id": "93n94st2",
+      "id": "26n1ziex",
       "name": "the Bear's Den",
-      "area": "areabzd0",
-      "regionArea": "areav14z"
+      "area": "areaq4p6",
+      "regionArea": "areas153"
     },
     {
-      "id": "o9a5r8ws",
+      "id": "bt3pl7aw",
       "name": "the North Coast",
-      "area": "area8of9",
-      "regionArea": "area6fyc"
+      "area": "areay4c6",
+      "regionArea": "areaqr1s"
     },
     {
-      "id": "10wuvfd4",
+      "id": "moyb35z0",
       "name": "Tennely Hall",
-      "area": "areaefrj",
-      "regionArea": "areabinm"
+      "area": "areazshi",
+      "regionArea": "areac7dq"
     },
     {
-      "id": "6wej4jzs",
+      "id": "kkygd0mc",
       "name": "the Burned Lodge",
-      "area": "areaoc1r",
-      "regionArea": "areaseis"
+      "area": "areazvf7",
+      "regionArea": "area16za"
     },
     {
-      "id": "h49uff45",
+      "id": "r2xh6he0",
       "name": "Tennely Valley",
-      "area": "area9z6y",
-      "regionArea": "areacqpe"
+      "area": "areaisn4",
+      "regionArea": "areakd5j"
     },
     {
-      "id": "s0zq7jm3",
+      "id": "5yu0sxkr",
       "name": "Tallyman's Lookout",
-      "area": "areaygba",
-      "regionArea": "areahdxt"
+      "area": "areapvci",
+      "regionArea": "area16xt"
     },
     {
-      "id": "qncgo496",
+      "id": "fn6g5wzt",
       "name": "the Knoll",
-      "area": "areamdxd",
-      "regionArea": "area9mfk"
+      "area": "area1rti",
+      "regionArea": "areaf375"
     },
     {
-      "id": "8oqexi80",
+      "id": "wsufpv90",
       "name": "Slade's Camp",
-      "area": "areasv3b",
-      "regionArea": "areavpeu"
+      "area": "area8o64",
+      "regionArea": "arealkvf"
     },
     {
-      "id": "4v5qk8xv",
+      "id": "83j4g3cx",
       "name": "the Eastern Hills",
-      "area": "areav2ak",
-      "regionArea": "areaeg5c"
+      "area": "areapfdk",
+      "regionArea": "areawo4i"
     },
     {
-      "id": "9ou5y2qs",
+      "id": "voz025oh",
       "name": "Cliffside Camp",
-      "area": "area2lf8",
-      "regionArea": "area07tm"
+      "area": "area3cwt",
+      "regionArea": "area7fj2"
     },
     {
-      "id": "ki8ne44s",
+      "id": "to5twpzr",
       "name": "the Loggers' Valley",
-      "area": "areaqc3q",
-      "regionArea": "area3obv"
+      "area": "area5iyb",
+      "regionArea": "areabamk"
     },
     {
-      "id": "qoxur9qk",
+      "id": "hxfcldnw",
       "name": "the Cliff Foot",
-      "area": "area1hku",
-      "regionArea": "areabfjp"
+      "area": "areaaz93",
+      "regionArea": "areapz3i"
     },
     {
-      "id": "6b993kfl",
+      "id": "qjds6yu0",
       "name": "the Diggings",
-      "area": "areaj4px",
-      "regionArea": "areal889"
+      "area": "areai00n",
+      "regionArea": "area0v6l"
     }
   ],
   "routes": [
