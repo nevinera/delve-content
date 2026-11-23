@@ -1,0 +1,50 @@
+{
+ "version": 2,
+ "objects": [
+  {
+   "id": "objdy5bt",
+   "type": "built:broad010",
+   "at": [
+    8197.5,
+    24582.6
+   ],
+   "yaw": 4.4887,
+   "scale": 1.4,
+   "road": "roadn573"
+  },
+  {
+   "id": "obj8jur2",
+   "type": "built:broad010",
+   "at": [
+    8197.1,
+    24605.7
+   ],
+   "yaw": 4.6472,
+   "scale": 1.4,
+   "road": "roadn573"
+  },
+  {
+   "id": "objgesk7",
+   "type": "built:broad010",
+   "at": [
+    8198,
+    24622.6
+   ],
+   "yaw": 4.8064,
+   "scale": 1.4,
+   "road": "roadn573"
+  },
+  {
+   "id": "objmu0rn",
+   "type": "built:broad010",
+   "at": [
+    8194.1,
+    24648
+   ],
+   "yaw": 4.448,
+   "scale": 1.4,
+   "road": "roadn573"
+  }
+ ],
+ "slabs": []
+}

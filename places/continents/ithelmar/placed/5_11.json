@@ -1,0 +1,266 @@
+{
+ "version": 2,
+ "objects": [
+  {
+   "id": "objh2xj0",
+   "type": "built:broad004",
+   "at": [
+    10504.3,
+    22591.9
+   ],
+   "yaw": 4.7712,
+   "scale": 0.6,
+   "road": "roadjupb"
+  },
+  {
+   "id": "obj9ld0z",
+   "type": "built:broad004",
+   "at": [
+    10496.3,
+    23076.1
+   ],
+   "yaw": 1.4505,
+   "scale": 0.6,
+   "road": "roadjupb"
+  },
+  {
+   "id": "obj4urz3",
+   "type": "built:broad004",
+   "at": [
+    10497,
+    23441.8
+   ],
+   "yaw": 4.6699,
+   "scale": 0.6,
+   "road": "roadjupb"
+  },
+  {
+   "id": "obj3f47v",
+   "type": "built:broad004",
+   "at": [
+    10467.3,
+    23881.1
+   ],
+   "yaw": 1.6846,
+   "scale": 0.6,
+   "road": "roadjupb"
+  },
+  {
+   "id": "obj6ycsy",
+   "type": "built:broad004",
+   "at": [
+    10475.2,
+    24427.9
+   ],
+   "yaw": 4.8324,
+   "scale": 0.6,
+   "road": "roadjupb"
+  }
+ ],
+ "slabs": [
+  {
+   "id": "slab31xw",
+   "at": [
+    10500.07,
+    24.1,
+    23304.42
+   ],
+   "turn": [
+    -3.86,
+    -1.49,
+    0
+   ],
+   "outline": [
+    [
+     -2,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     27
+    ],
+    [
+     -2,
+     27
+    ]
+   ],
+   "thickness": 0.6,
+   "surface": "floorboards",
+   "road": "roadjupb"
+  },
+  {
+   "id": "slab8mhk",
+   "at": [
+    10500.07,
+    24.6,
+    23304.42
+   ],
+   "turn": [
+    -3.86,
+    -1.49,
+    0
+   ],
+   "outline": [
+    [
+     -2,
+     0
+    ],
+    [
+     -1.4,
+     0
+    ],
+    [
+     -1.4,
+     27
+    ],
+    [
+     -2,
+     27
+    ]
+   ],
+   "thickness": 1.3,
+   "surface": "logs",
+   "road": "roadjupb"
+  },
+  {
+   "id": "slab3k3q",
+   "at": [
+    10500.07,
+    24.6,
+    23304.42
+   ],
+   "turn": [
+    -3.86,
+    -1.49,
+    0
+   ],
+   "outline": [
+    [
+     1.4,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     27
+    ],
+    [
+     1.4,
+     27
+    ]
+   ],
+   "thickness": 1.3,
+   "surface": "logs",
+   "road": "roadjupb"
+  },
+  {
+   "id": "slabvcac",
+   "at": [
+    10498.25,
+    24.8,
+    23331.35
+   ],
+   "turn": [
+    -3.86,
+    0.21,
+    0
+   ],
+   "outline": [
+    [
+     -2,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     26.99
+    ],
+    [
+     -2,
+     26.99
+    ]
+   ],
+   "thickness": 0.6,
+   "surface": "floorboards",
+   "road": "roadjupb"
+  },
+  {
+   "id": "slabxoxj",
+   "at": [
+    10498.25,
+    25.3,
+    23331.35
+   ],
+   "turn": [
+    -3.86,
+    0.21,
+    0
+   ],
+   "outline": [
+    [
+     -2,
+     0
+    ],
+    [
+     -1.4,
+     0
+    ],
+    [
+     -1.4,
+     26.99
+    ],
+    [
+     -2,
+     26.99
+    ]
+   ],
+   "thickness": 1.3,
+   "surface": "logs",
+   "road": "roadjupb"
+  },
+  {
+   "id": "slab3c6e",
+   "at": [
+    10498.25,
+    25.3,
+    23331.35
+   ],
+   "turn": [
+    -3.86,
+    0.21,
+    0
+   ],
+   "outline": [
+    [
+     1.4,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     26.99
+    ],
+    [
+     1.4,
+     26.99
+    ]
+   ],
+   "thickness": 1.3,
+   "surface": "logs",
+   "road": "roadjupb"
+  }
+ ]
+}

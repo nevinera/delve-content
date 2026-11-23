@@ -1,0 +1,72 @@
+{
+ "version": 2,
+ "objects": [
+  {
+   "id": "obj14r1x",
+   "type": "built:broad011",
+   "at": [
+    14987.6,
+    24676.1
+   ],
+   "yaw": 2.3182,
+   "scale": 1,
+   "road": "roadk1xp"
+  },
+  {
+   "id": "objjswc8",
+   "type": "built:broad011",
+   "at": [
+    15107.1,
+    24773.9
+   ],
+   "yaw": 5.6548,
+   "scale": 1,
+   "road": "roadk1xp"
+  },
+  {
+   "id": "objodxzy",
+   "type": "built:broad011",
+   "at": [
+    15227.3,
+    24891.3
+   ],
+   "yaw": 2.6294,
+   "scale": 1,
+   "road": "roadk1xp"
+  },
+  {
+   "id": "objswec5",
+   "type": "built:broad011",
+   "at": [
+    15333.7,
+    24956
+   ],
+   "yaw": 0.9386,
+   "scale": 1,
+   "road": "roadk1xp"
+  },
+  {
+   "id": "objhytli",
+   "type": "built:broad011",
+   "at": [
+    15410.2,
+    24817.8
+   ],
+   "yaw": 4.3347,
+   "scale": 1,
+   "road": "roadk1xp"
+  },
+  {
+   "id": "obj2qn7x",
+   "type": "built:broad011",
+   "at": [
+    15440.8,
+    24657.1
+   ],
+   "yaw": 1.3391,
+   "scale": 1,
+   "road": "roadk1xp"
+  }
+ ],
+ "slabs": []
+}
