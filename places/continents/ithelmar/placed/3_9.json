@@ -1694,6 +1694,39 @@
    "yaw": 0.8438,
    "scale": 1,
    "road": "roadaxnv"
+  },
+  {
+   "id": "obj631ns",
+   "type": "built:broad012",
+   "at": [
+    8170.4,
+    19169
+   ],
+   "yaw": 5.4471,
+   "scale": 1,
+   "road": "roadaxnv"
+  },
+  {
+   "id": "objpw9sr",
+   "type": "built:broad012",
+   "at": [
+    8169.8,
+    19163.2
+   ],
+   "yaw": 4.6235,
+   "scale": 1,
+   "road": "roadaxnv"
+  },
+  {
+   "id": "objw74t8",
+   "type": "built:broad012",
+   "at": [
+    8175.8,
+    19160.5
+   ],
+   "yaw": 1.9973,
+   "scale": 1,
+   "road": "roadaxnv"
   }
  ],
  "slabs": []

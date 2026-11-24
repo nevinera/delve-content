@@ -415,7 +415,7 @@ b BAA//A
 s s1 21 77
 w all 1 AIAA
 tile 46
-h z KLUv/WBIEJ0WAFYsTRtQV1oDDPnRCNkypSQnRtNed3d3kfcTbWZeVQ9CAEUAUACdI1ErczuXa4VYjKdr/vf1NtWIc33Or+q/xrNvppv5LMc0LVNZJMt512wTmZmd2arZOYtEsizLq3q7KWEQALAINASu9pFIvhRjdN2rm+C0cgF5NwtMJAKpeDMVWFhQKJtm5oOiAsPOlY4LRT3dkyHfXO1sN1ttuE93tVIHz/UWyar7cJbpvgG6HBmbr6IYf1mWcyYPgqGqYP6XjYyNYlzO0TLGpGdZ0/8omVl8kWhoHMFQ9Kjqa6mupkCU1AUPXyaSlYvI6k8m5+yXqdxXE8FQbeCXRcVCOddpLN1UU9V6Vy1TDaw0e9PUTA80tdVaEfQ61VbT9tI1TVAr88nRRDxjckwJElEt1VRD40R0ycRAKtIDgOWoAS1IRSISJEmSynCgkogIcTpiQCyMJyAKMJxAMsQIoEALMJCZjDIKipIOReRq4zmTvM0TJVj0iFK9m2D0yXKwVhS/oZ6DDO+zZV5ionTwjPRZWlPL83oP0+lAEZJFcouptR1BSRARcF6KsAJhTLumczk/9Ev1ZqvAiC6W7cF8x9OTDJJFvNk9hX5NudgT4BD2xblg9yOSqLQF+P1kegPGZtHjAK1m6neQgykEnMbPOgZAs7C5UmADuSfn6+dOCDa2e8x56Wo9Mr4mABmG7/aiRJgb0yoHsBNvGZNNE4AJPAAggzIeA/xxocQWmbn4SaW06NEZoraE7AZSpwWG2j7Q5B7xPkAKBvFVSH8+BisEBKkYMpBCLVWr0q2tReRkqY9QhWX8Casf0/ocm/u5ynGZwJyQOm3aEfgL47nH7Ofk8bhveqBh4DEgMKKh4SiogPaUJ+7+eIwvj/FrPycpsNRcHCPwDUCRqMiX04n9RG7OH6VhJ6P+pHMZ4Y4J8m0SOBDoItQqiznCJ4KtVgoowpwsxyU0bCMFPN/LBw
+h z KLUv/WBIEGUVAAZsRhhQT5LGD2Y3kUnSIoXAw4cLRJhJR0RVUdVCAEIAQgCS6mo6k3bDkNNLtm23p3coKyuTVsq2v23JUkrZrV6RlZmZUqWlekxjynbJCkJVVVPVXlXKNBozs/1pVx8GAgBGQCHSZSoqGslxpTwiyEgbigqLiqJ6IoJcWRxlLhrTMcHQW61TXf30ThN0q7umVbuqXWG6ql564XRP09gvw1Sqd6tSGg+1KRMjQpPe72rLxey3pLfkBzqOid3e01jMCDmkmyIiSZog295TMcnEod9l6bci34XwNjHeZSjKDsaErisG42Ya+haTpqT06vV1r1of0JZW7WpdNcG6/hc8aXrtWjvp2uBOMdNByM0UieOl73RbUJSyyUFUu61IgOaoIalYRUFKkoKCVBoDkFQgIlTTAUI4QAYngAownEASYgRQYAUpmlGUooKipAOF5mqXOGOt2xMlMvfymN61MJpoe7Hg6/nv5GHrH6qincxuoqx7Rlna2PHIvfwY7Ax9M6v7phtHxuwcJoWijCdWlw75tAhpNkLgrbmcOJonsw3MztVFBECy0aOq2vzJ0NbUkfcpTk6GrDTUjOMxqiXzzG4YjyGLx9nEPJY+Gg2qEbNC8KGgBBTF7VBORvTFUKaii0UTu4q5EeUg/NcEkfgOj04FINMoL4DpJl50e5DhCbCRhmxwACYNRPgI1pIdNU+LIlrugXqB7G7nCj14eGN5jHCAXoY8IqVenXq7SMaF1yoBjnGKByGKpEJRXUy2pTdlWIyVHQpmjs1oouSY29TyQT79HT17MzByqDxvyZcG26gRzzEMGKnAZdwraj9EGZMnQ8bQfBkZjb6XxsrHphypE1zMsOJp92j2S4Yzd9vbc2AgxOR54ECgi2Cr2soRaBHQtqCIEaBlOfjlTAFlvPQDKQ
 b CAAABo3AAARA+AAARA+AAARA+AAARKcAAARGPAAARA9AABRAKAAARAwAACRAKAAARAcAAARAUAAARAIAACRALA
 s s1 22 77
 w AA 1 AIAA
@@ -455,7 +455,7 @@ w Aj 1 AIAA
 w Ak 1 AIAA
 w Al 1 AIAA
 w Am 1 AIAA
-w An 2 AIAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAA
+w An 2 AIAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAAIAA
 w Ao 1 AIAA
 w Ap 1 AIAA
 w Aq 1 AIAA
@@ -480,26 +480,71 @@ w A8 1 AIAA
 w A9 1 AIAA
 w A+ 1 AIAA
 w A/ 1 AIAA
+c Am A0 gB
+c An Ax gGgKgNgOgNgJgC
+c An A+ gBgGgB
+c Ao Av gCgIgNgNgNgOgOgPgOgJgFgC
+c Ao A8 gBgEgIgLgK
+c Ap Au gCgKgNgMgLgIgHgIgLgOgPgNgKgIgIgKgNgPgP
+c Aq At gCgJgMgNgKgGgD
+c Aq A3 gGgMgPgNgMgMgNgQgRgS
+c Ar As gEgJgMgMgKgFgC
+c Ar A4 gBgIgLgMgOgPgRgTgT
+c As AV gBgCgCgB
+c As Ae gBgDgDgDgB
+c As Aq gCgFgJgMgMgJgE
+c As A6 gDgJgLgOgRgTgT
+c At AS gBgGgKgMgMgMgKgIgIgIgIgIgIgJgJgJgKgJgGgDgCgCgEgFgIgKgNgMgJgD
+c At A8 gFgJgNgPgN
+c Au AQ gEgJgMgOgPgOgNgNgNgNgNgMgLgLgKgKgKgKgLgMgMgNgNgMgMgMgNgNgMgJgC
+c Au A+ gCgD
+c Av AQ gHgMgNgMgKgHgGgGgGgIgKgKgJgIgHgHgGgHgHgJgKgNgPgPgQgPgNgLgH
+c Aw AQ gDgJgHgEgB
+c Aw Al gBgEgHgIgHgF
 tile 47
-h z KLUv/WBIEDUOAKZfQRpwS5IOyNpG9t4yyb1Tg41ShfMprHKNAC4YBzMAPwA7APxaHMbnJBomkjREd1xpEmSGhkhozjnvnHP2e5+999nv/XvZ+88+Oef9dt7534EAgEPgIOyiVUepWXA3NCslCLGtu3IImevrynFl0NsqEWOot8qKTQy6ZyWSIL2zhXKttn2OkWDLokzEtmQ00LT+l5wxAre9XYyRGLoMfx2lkwZBRbn6+Zzzee2BDxla4Q/FzTkHQRalyhn61k/itxzMqkSEYCT6toMwaKUUaWYovfd517tdvznnld7NSrliNjDvSjkrgnlXrqqgl5md2Qizfm7FBKvO29tO1qCqUr/K2RRn9STyA3KgsZB1RERkQklhYQ5QTZIsY9sycVLcTjFNklN7DpWNIAhZUN40MpmmFz2mMxng5cEXktwVs8dqs66VRKCymvSNqHIAQI/etgwE02UAcTNHUQhAbwPD4Lev6UxZb0Mx+AY+uRoIAwiASikECcryhRhygYy8Z5MDA5yCIw8qoP4E3VmjKUFttAy0cj8OfhoylMJQNs8/pOWmzKQhKJmKDPkasKWXgczRc2EaqaKpORxRJkpyJkDt2PUO7j75+gE
+h z KLUv/WBIEB0NAGbePRtgTZIOMT5ikd17b5nkJovRcU/1zRBWzBAYrRwtADkANwDVUlsOySHEiGYZ/t+fOeecd845+73P3vvs9/697P1nn5zzfjvv/HcYCAAYgYLEKD+RFbGQebp6yszMi1I6rUqMOUXNuVSSo0yfwhnyEtH8S9TLAimO7heDoarzb+n+sxgss85xkAVvRW1biPIsyKww/+uhZuaWhYHP/+uot//iKKWB3Pi/RZGjXCp6CCH/nnXymRlFKVxRIuHPpzsKvfdp1ntZtzmnXa+6s6symGZ3VnQwzc6IEvpUFXFXnR/VTdCT4D8r55jbPhiVxBwzCP0+2DOnGDdmoKEQliQQEQkTGCSV4WAvKWQ4mzJ1adxOmUqSqT2t2kYQhiypbxqZTCW3MGLayAX3AWSRMKURtG4KY5M0I8ciTVtPCcqUQDPSBQE6EelwA/hxWQf2Ml/x39vxpzbCedrtDdCiI0mjloMKKD5Dd1IoBRCPoIFG5qezT1NGQRlk66kjLQPlTAChy6JgkNeBTUqmMkeAO8NIhaRlUkA5lMR4htJB6h3UrTz7
 b CAAABLOAACRA9AABRdsAAARA2AABRAEAAARA2AADRAEAAARA0AACRADAADRA0AACRABAAFRA4AAGRA5AAFRA6AAERA5AAFRA4AAGRA3AAHRA2AAIRA1AAJRA0AAKRAzAALRAyAAMRAxAAARAEAAHRAwAAARAGAAARABAADRAuAABRAJAAERAsAACRAIAAGRArAACRAIAAHRA1AAJRAzAALR
 s s1 23 77
-w Ag 2 A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IAA~~~~~~~~~~~~~~~~~~~~~IAAIAAIAAIAA~~~~~~~~~~~~IAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAA
-w Ah 2 A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IAA~~~~~~~~~~~~~~~IAAIAA
-w Ai 2 A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IAAIAAIAA~~~~~~~~~IAAIAA
-w Aj 2 A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IAAIAA~~~~~~~~~~~~~~~IAAIAAIAA~~~~~~~~~IAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAA~~~~~~
-w Ak 2 A~~~~~~~~~~~~~~~~~~~~~~~~IAAIAAIAAIAA~~~~~~~~~~~~IAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAA~~~~~~~~~~~~~~~~~~IAAIAA~~~~~~~~~~~~~~~~~~~~~IAA
-w Al 2 A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IAAIAA~~~~~~~~~~~~~~~~~~IAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAA
-w Am 2 A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IAAIAA~~~~~~~~~IAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAA~~~~~~~~~~~~~~~
-w An 2 A~~~~~~~~~~~~~~~~~~IAAIAA~~~~~~IAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAA~~~~~~IAA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-w Ao 2 AIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAAIAA~~~
-w Ap 2 AIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-w Aq 2 AIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-w Ar 2 AIAAIAAIAAIAAIAA~~~~~~~~~IAAIAAIAAIAA~~~~~~~~~~~~IAAIAA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-w At 2 AIAAIAAIAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-w Au 2 AIAAIAA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+w Ag 2 A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IAA~~~~~~~~~~~~~~~~~~~~~
+w Ah 2 A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IAAIAA~~~~~~~~~IAAIAAIAAIAAIAA
+w Ai 2 A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAA~~~~~~~~~~~~
+w Aj 2 A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IAAIAA~~~~~~~~~~~~~~~~~~IAAIAAIAAIAA~~~~~~~~~~~~IAAIAAIAAIAAIAA~~~~~~~~~IAAIAAIAAIAAIAAIAAIAA~~~
+w Ak 2 A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IAA~~~~~~~~~~~~~~~~~~IAAIAA~~~~~~~~~~~~~~~IAAIAAIAA~~~~~~~~~IAAIAAIAAIAAIAA
+w Al 2 A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAA~~~~~~~~~~~~IAAIAA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+w Am 2 A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+w An 2 F~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~IAAIAAIAAIAA~~~~~~~~~~~~IAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAAIAA~~~~~~~~~~~~IAAIAAIAAIAA~~~~~~~~~~~~~~~~~~IAAIAA~~~~~~~~~~~~~~~~~~~~~~~~
+w Ao 2 AIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAAIAAIAAIAA~~~
+w Ap 2 AIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAAIAA~~~~~~~~~IAA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+w Aq 2 AIAAIAA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+w Ar 2 A~~~~~~IAAIAAIAAIAAIAAIAA~~~~~~~~~~~~IAAIAAIAAIAA~~~~~~~~~~~~~~~IAAIAAIAA~~~~~~~~~~~~~~~~~~~~~IAA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+w As 2 AIAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAA~~~~~~IAAIAAIAAIAA~~~~~~~~~~~~IAAIAA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 w Aw 2 AIAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAA~~~
 w A4 2 AIAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAA~~~IAAIAAIAAIAAIAAIAAIAA~~~
+c Ai As gCgCgCgCgBgBgBgBgBgCgEgHgIgIgGgE
+c Aj Ap gEgIgKgLgLgLgKgKgKgKgLgMgOgPgOgNgMgKgJgIgFgB
+c Ak AU gFgKgMgLgHgD
+c Ak An gBgIgLgMgMgMgMgMgMgMgMgNgOgNgNgLgKgJgJgJgJgKgKgJgGgE
+c Al AS gGgNgQgQgQgPgPgNgIgC
+c Al Am gBgJgMgMgLgJgHgGgFgFgGgHgHgFgDgB
+c Al A4 gBgCgEgGgHgKgMgMgM
+c Am AP gCgFgKgOgPgOgMgLgLgNgNgOgLgF
+c Am Al gCgJgNgMgJgFgDgB
+c Am A9 gEgIgLgP
+c An AA gB
+c An AM gCgEgGgIgLgNgNgKgFgDgDgDgEgIgMgNgLgIgEgC
+c An Ak gDgKgOgMgHgC
+c An A/ gBgF
+c Ao AA gKgHgG
+c Ao AF gBgEgHgBgDgFgHgJgJgKgLgLgKgGgB
+c Ao AZ gBgGgKgMgMgKgHgFgEgEgHgMgQgNgF
+c Ap AA gPgMgOgPgJgMgPgVgNgNgNgNgMgLgLgKgIgD
+c Ap Ab gCgIgLgMgLgKgKgMgOgQgNgD
+c Aq AA gSgQgSgXgRgUgVgYgOgNgMgLgKgJgHgE
+c Aq Ad gHgKgMgNgNgPgPgLgB
+c Ar AA gTgTgWgdghgSgRgQgNgDgCgB
+c Ar Ae gCgHgJgKgJgF
+c As AA gTgTgVgYgYgJgGgGgF
+c At AA gNgMgMgKgJ
 tile 48
 h z KLUv/WBIEGUEAMKHCQrgaQ0sDrO6iFK7bdu2bdu2bdu2bbdN27Zt27Zt27Zt24oJQGQETKhwxHcD0FOhOTIYBN8gaAgYBiR4MMEuQQaHRmgLPUutQydTBJd8u3zb7FqTmeeoPRAgD0qtTKOWx8QN67lLE8QgBBYED1Au5/ZHOk4sTOLmvpn9G1IFg05I3j02rjI/f2AK
 b BAA//A
