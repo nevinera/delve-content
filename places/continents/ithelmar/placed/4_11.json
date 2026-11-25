@@ -3696,17 +3696,6 @@
    "yaw": 2.2501,
    "scale": 1,
    "road": "roadaxnv"
-  },
-  {
-   "id": "objgx0us",
-   "type": "built:broad010",
-   "at": [
-    8365.2,
-    23605.2
-   ],
-   "yaw": 1.2366,
-   "scale": 1.4,
-   "road": "roadn573"
   }
  ],
  "slabs": [
