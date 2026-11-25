@@ -1,31 +1,5 @@
 {
-  "version": 3,
-  "bodies": [
-    {
-      "id": "bodya60a",
-      "type": "lake",
-      "level": 32,
-      "points": [
-        [
-          19074,
-          44656
-        ],
-        [
-          21094,
-          44431
-        ],
-        [
-          21318,
-          46226
-        ],
-        [
-          19298,
-          46675
-        ]
-      ],
-      "uncarved": true
-    }
-  ],
+  "version": 4,
   "sources": [
     {
       "id": "srcea8j1",
@@ -104,5 +78,6 @@
       "solid": false,
       "seed": 967
     }
-  ]
+  ],
+  "sinks": []
 }

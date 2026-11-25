@@ -1,55 +1,5 @@
 {
-  "version": 3,
-  "bodies": [
-    {
-      "id": "body09co",
-      "type": "lake",
-      "level": 318,
-      "points": [
-        [
-          26664,
-          26664
-        ],
-        [
-          28512,
-          26400
-        ],
-        [
-          28776,
-          27720
-        ],
-        [
-          26928,
-          27984
-        ]
-      ],
-      "uncarved": true
-    },
-    {
-      "id": "bodyvdep",
-      "type": "lake",
-      "level": 58,
-      "points": [
-        [
-          11880,
-          15048
-        ],
-        [
-          13728,
-          14784
-        ],
-        [
-          13992,
-          16104
-        ],
-        [
-          12144,
-          16368
-        ]
-      ],
-      "uncarved": true
-    }
-  ],
+  "version": 4,
   "sources": [
     {
       "id": "srce9zuk",
@@ -106,5 +56,6 @@
       "solid": false,
       "seed": 941
     }
-  ]
+  ],
+  "sinks": []
 }
