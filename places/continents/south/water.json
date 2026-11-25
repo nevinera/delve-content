@@ -1,1 +1,110 @@
-{"version":2,"bodies":[{"id":"body09co","type":"lake","level":318,"points":[[26664,26664],[28512,26400],[28776,27720],[26928,27984]],"uncarved":true},{"id":"bodyvdep","type":"lake","level":58,"points":[[11880,15048],[13728,14784],[13992,16104],[12144,16368]],"uncarved":true}],"courses":[{"id":"courcnre","type":"stream","points":[[29568,22176,6],[29040,19536,6],[29568,16368,6],[30360,14784,6]],"surface":null,"seed":287,"joins":[],"pools":[],"uncarved":true},{"id":"courvr6o","type":"stream","points":[[22704,22440,6],[21120,19536,6],[19800,17424,6],[17952,14256,6],[16104,10296,6]],"surface":null,"seed":463,"joins":[],"pools":[],"uncarved":true},{"id":"cour5t0r","type":"river","points":[[17424,23232,40],[14256,24024,40],[11616,25872,40],[10032,27984,40],[9240,30096,40]],"surface":null,"seed":150,"joins":[],"pools":[],"uncarved":true},{"id":"courctsi","type":"river","points":[[29568,24816,40],[28512,26400,40],[28248,28248,40],[28512,30888,40]],"surface":null,"seed":293,"joins":[],"pools":[],"uncarved":true},{"id":"courxtl1","type":"stream","points":[[38544,21648,6],[39600,23760,6],[40656,25872,6],[42240,27192,6]],"surface":null,"seed":941,"joins":[],"pools":[],"uncarved":true}],"ripple":true}
+{
+  "version": 3,
+  "bodies": [
+    {
+      "id": "body09co",
+      "type": "lake",
+      "level": 318,
+      "points": [
+        [
+          26664,
+          26664
+        ],
+        [
+          28512,
+          26400
+        ],
+        [
+          28776,
+          27720
+        ],
+        [
+          26928,
+          27984
+        ]
+      ],
+      "uncarved": true
+    },
+    {
+      "id": "bodyvdep",
+      "type": "lake",
+      "level": 58,
+      "points": [
+        [
+          11880,
+          15048
+        ],
+        [
+          13728,
+          14784
+        ],
+        [
+          13992,
+          16104
+        ],
+        [
+          12144,
+          16368
+        ]
+      ],
+      "uncarved": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "srce9zuk",
+      "at": [
+        29568,
+        22176
+      ],
+      "kind": "stream",
+      "flow": 10,
+      "solid": false,
+      "seed": 287
+    },
+    {
+      "id": "srcedpg3",
+      "at": [
+        22704,
+        22440
+      ],
+      "kind": "stream",
+      "flow": 10,
+      "solid": false,
+      "seed": 463
+    },
+    {
+      "id": "srceult7",
+      "at": [
+        17424,
+        23232
+      ],
+      "kind": "river",
+      "flow": 300,
+      "solid": false,
+      "seed": 150
+    },
+    {
+      "id": "srcefuyg",
+      "at": [
+        29568,
+        24816
+      ],
+      "kind": "river",
+      "flow": 300,
+      "solid": false,
+      "seed": 293
+    },
+    {
+      "id": "srcei0ee",
+      "at": [
+        38544,
+        21648
+      ],
+      "kind": "stream",
+      "flow": 10,
+      "solid": false,
+      "seed": 941
+    }
+  ]
+}

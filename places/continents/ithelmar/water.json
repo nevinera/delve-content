@@ -1,1 +1,108 @@
-{"version":2,"bodies":[{"id":"bodya60a","type":"lake","level":32,"points":[[19074,44656],[21094,44431],[21318,46226],[19298,46675]],"uncarved":true}],"courses":[],"sources":[{"id":"srcea8j1","at":[10250,17300],"kind":"stream","flow":10,"solid":false,"seed":187},{"id":"srce1aft","at":[9300,17600],"kind":"spring","flow":1,"solid":false,"seed":283},{"id":"srcesfiz","at":[13600,18700],"kind":"spring","flow":1,"solid":false,"seed":302},{"id":"srceus1h","at":[16507.739248034854,22566.075991321457],"kind":"stream","flow":110,"solid":false,"seed":111},{"id":"srcep5nm","at":[14168.5,21645.6],"kind":"stream","flow":10,"solid":false,"seed":425},{"id":"srce6nbx","at":[16519.3,22560.9],"kind":"stream","flow":100,"solid":false,"seed":818},{"id":"srceuv8x","at":[13804.9,21271.6],"kind":"stream","flow":10,"solid":false,"seed":967}],"ripple":true}
+{
+  "version": 3,
+  "bodies": [
+    {
+      "id": "bodya60a",
+      "type": "lake",
+      "level": 32,
+      "points": [
+        [
+          19074,
+          44656
+        ],
+        [
+          21094,
+          44431
+        ],
+        [
+          21318,
+          46226
+        ],
+        [
+          19298,
+          46675
+        ]
+      ],
+      "uncarved": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "srcea8j1",
+      "at": [
+        10250,
+        17300
+      ],
+      "kind": "stream",
+      "flow": 10,
+      "solid": false,
+      "seed": 187
+    },
+    {
+      "id": "srce1aft",
+      "at": [
+        9300,
+        17600
+      ],
+      "kind": "spring",
+      "flow": 1,
+      "solid": false,
+      "seed": 283
+    },
+    {
+      "id": "srcesfiz",
+      "at": [
+        13600,
+        18700
+      ],
+      "kind": "spring",
+      "flow": 1,
+      "solid": false,
+      "seed": 302
+    },
+    {
+      "id": "srceus1h",
+      "at": [
+        16507.739248034854,
+        22566.075991321457
+      ],
+      "kind": "stream",
+      "flow": 110,
+      "solid": false,
+      "seed": 111
+    },
+    {
+      "id": "srcep5nm",
+      "at": [
+        14168.5,
+        21645.6
+      ],
+      "kind": "stream",
+      "flow": 10,
+      "solid": false,
+      "seed": 425
+    },
+    {
+      "id": "srce6nbx",
+      "at": [
+        16519.3,
+        22560.9
+      ],
+      "kind": "stream",
+      "flow": 100,
+      "solid": false,
+      "seed": 818
+    },
+    {
+      "id": "srceuv8x",
+      "at": [
+        13804.9,
+        21271.6
+      ],
+      "kind": "stream",
+      "flow": 10,
+      "solid": false,
+      "seed": 967
+    }
+  ]
+}
