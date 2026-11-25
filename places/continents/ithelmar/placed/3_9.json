@@ -1696,36 +1696,25 @@
    "road": "roadaxnv"
   },
   {
-   "id": "obj631ns",
-   "type": "built:broad012",
+   "id": "objtrixx",
+   "type": "built:broad010",
    "at": [
-    8170.4,
-    19169
+    8159.5,
+    19168.8
    ],
-   "yaw": 5.4471,
-   "scale": 1,
+   "yaw": 1.1167,
+   "scale": 1.4,
    "road": "roadaxnv"
   },
   {
-   "id": "objpw9sr",
-   "type": "built:broad012",
+   "id": "objnovzh",
+   "type": "built:broad010",
    "at": [
-    8169.8,
-    19163.2
+    8182.5,
+    19159.4
    ],
-   "yaw": 4.6235,
-   "scale": 1,
-   "road": "roadaxnv"
-  },
-  {
-   "id": "objw74t8",
-   "type": "built:broad012",
-   "at": [
-    8175.8,
-    19160.5
-   ],
-   "yaw": 1.9973,
-   "scale": 1,
+   "yaw": 4.4144,
+   "scale": 1.4,
    "road": "roadaxnv"
   }
  ],

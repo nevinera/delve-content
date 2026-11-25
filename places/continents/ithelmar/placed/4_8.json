@@ -2310,39 +2310,6 @@
    "yaw": 0.4006,
    "scale": 1,
    "road": "road6e7k"
-  },
-  {
-   "id": "obj0eut9",
-   "type": "built:broad012",
-   "at": [
-    10154.5,
-    18055.2
-   ],
-   "yaw": 5.3818,
-   "scale": 1,
-   "road": "road6e7k"
-  },
-  {
-   "id": "objpcq2z",
-   "type": "built:broad012",
-   "at": [
-    10149.9,
-    18057.7
-   ],
-   "yaw": 6.1425,
-   "scale": 1,
-   "road": "road6e7k"
-  },
-  {
-   "id": "obju9wof",
-   "type": "built:broad012",
-   "at": [
-    10144.7,
-    18057.4
-   ],
-   "yaw": 4.7502,
-   "scale": 1,
-   "road": "road6e7k"
   }
  ],
  "slabs": []
