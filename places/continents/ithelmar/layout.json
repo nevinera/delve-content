@@ -3509,6 +3509,18 @@
       "name": "the Cliff Foot",
       "area": "areax4n2",
       "regionArea": "areaimze"
+    },
+    {
+      "id": "vnk75x81",
+      "name": "the North Road",
+      "area": "areajmyh",
+      "regionArea": "areadruf"
+    },
+    {
+      "id": "c5h57pk8",
+      "name": "the Old Wood",
+      "area": "areatbgr",
+      "regionArea": "areaj8vu"
     }
   ],
   "routes": [
