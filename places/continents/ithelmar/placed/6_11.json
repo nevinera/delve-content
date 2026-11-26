@@ -2,149 +2,6 @@
  "version": 2,
  "objects": [
   {
-   "id": "objc10a6",
-   "type": "built:broad011",
-   "at": [
-    12409.9,
-    23237.9
-   ],
-   "yaw": 3.2339,
-   "scale": 1,
-   "road": "road025q"
-  },
-  {
-   "id": "objc2y4w",
-   "type": "built:broad011",
-   "at": [
-    12564.3,
-    23208.4
-   ],
-   "yaw": 0.1558,
-   "scale": 1,
-   "road": "road025q"
-  },
-  {
-   "id": "objuw30c",
-   "type": "built:broad011",
-   "at": [
-    12702.7,
-    23216.3
-   ],
-   "yaw": 3.0024,
-   "scale": 1,
-   "road": "road025q"
-  },
-  {
-   "id": "objga7ko",
-   "type": "built:broad011",
-   "at": [
-    12868.2,
-    23205.7
-   ],
-   "yaw": 6.1012,
-   "scale": 1,
-   "road": "road025q"
-  },
-  {
-   "id": "obj2dpnt",
-   "type": "built:broad011",
-   "at": [
-    13026.5,
-    23252.2
-   ],
-   "yaw": 3.0513,
-   "scale": 1,
-   "road": "road025q"
-  },
-  {
-   "id": "objutdyk",
-   "type": "built:broad011",
-   "at": [
-    13181.1,
-    23248.9
-   ],
-   "yaw": 6.0103,
-   "scale": 1,
-   "road": "road025q"
-  },
-  {
-   "id": "obj53xnn",
-   "type": "built:broad011",
-   "at": [
-    13346.4,
-    23288.2
-   ],
-   "yaw": 3.1804,
-   "scale": 1,
-   "road": "road025q"
-  },
-  {
-   "id": "objuo76o",
-   "type": "built:broad011",
-   "at": [
-    13481.7,
-    23307.8
-   ],
-   "yaw": 6.0071,
-   "scale": 1,
-   "road": "road025q"
-  },
-  {
-   "id": "obj45d3w",
-   "type": "built:broad011",
-   "at": [
-    13630.2,
-    23420.2
-   ],
-   "yaw": 2.503,
-   "scale": 1,
-   "road": "road025q"
-  },
-  {
-   "id": "obj2adml",
-   "type": "built:broad011",
-   "at": [
-    13712.1,
-    23544.7
-   ],
-   "yaw": 5.2575,
-   "scale": 1,
-   "road": "road025q"
-  },
-  {
-   "id": "objj99wv",
-   "type": "built:broad011",
-   "at": [
-    13784.2,
-    23668.5
-   ],
-   "yaw": 2.9865,
-   "scale": 1,
-   "road": "road025q"
-  },
-  {
-   "id": "objrsuw1",
-   "type": "built:broad011",
-   "at": [
-    13960.5,
-    23713.4
-   ],
-   "yaw": 5.685,
-   "scale": 1,
-   "road": "road025q"
-  },
-  {
-   "id": "objj1bp4",
-   "type": "built:broad011",
-   "at": [
-    14102.8,
-    23778
-   ],
-   "yaw": 3.0037,
-   "scale": 1,
-   "road": "road025q"
-  },
-  {
    "id": "objpc2qf",
    "type": "built:broad011",
    "at": [
@@ -154,6 +11,149 @@
    "yaw": 0.3804,
    "scale": 1,
    "road": "roadcbhi"
+  },
+  {
+   "id": "objzugj8",
+   "type": "built:broad011",
+   "at": [
+    12412,
+    23238.4
+   ],
+   "yaw": 2.9794,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objph4b3",
+   "type": "built:broad011",
+   "at": [
+    12547.6,
+    23211.1
+   ],
+   "yaw": 0.004,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objdw9sw",
+   "type": "built:broad011",
+   "at": [
+    12717.9,
+    23213.8
+   ],
+   "yaw": 3.3747,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "obj80ggf",
+   "type": "built:broad011",
+   "at": [
+    12866,
+    23205
+   ],
+   "yaw": 5.9774,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "obj1cfa8",
+   "type": "built:broad011",
+   "at": [
+    13046,
+    23257.9
+   ],
+   "yaw": 2.9891,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "obj0uy5a",
+   "type": "built:broad011",
+   "at": [
+    13203.7,
+    23248.4
+   ],
+   "yaw": 0.0427,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objm880f",
+   "type": "built:broad011",
+   "at": [
+    13337.6,
+    23287
+   ],
+   "yaw": 2.7583,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objd35eg",
+   "type": "built:broad011",
+   "at": [
+    13500.2,
+    23320.7
+   ],
+   "yaw": 5.7456,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objwk212",
+   "type": "built:broad011",
+   "at": [
+    13633,
+    23418.1
+   ],
+   "yaw": 2.6719,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objryti6",
+   "type": "built:broad011",
+   "at": [
+    13712.1,
+    23544.1
+   ],
+   "yaw": 4.9357,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objwplsa",
+   "type": "built:broad011",
+   "at": [
+    13805.2,
+    23677.2
+   ],
+   "yaw": 3.0411,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objb3a7p",
+   "type": "built:broad011",
+   "at": [
+    13938.6,
+    23702.3
+   ],
+   "yaw": 6.1826,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "obj135kk",
+   "type": "built:broad011",
+   "at": [
+    14108,
+    23780.3
+   ],
+   "yaw": 2.7771,
+   "scale": 1,
+   "road": "road025q"
   }
  ],
  "slabs": []

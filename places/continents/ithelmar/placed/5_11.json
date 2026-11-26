@@ -2,123 +2,123 @@
  "version": 2,
  "objects": [
   {
-   "id": "objbdw1l",
+   "id": "objklsgc",
    "type": "built:broad011",
    "at": [
-    11984.9,
-    22659.6
+    11987.4,
+    22650.8
    ],
-   "yaw": 1.3685,
+   "yaw": 1.2131,
    "scale": 1,
    "road": "road025q"
   },
   {
-   "id": "objckyk4",
+   "id": "objh8qqr",
    "type": "built:broad011",
    "at": [
-    11990.3,
-    22809.8
+    11987,
+    22819.4
    ],
-   "yaw": 4.7297,
+   "yaw": 4.7573,
    "scale": 1,
    "road": "road025q"
   },
   {
-   "id": "objco96l",
+   "id": "objhuimw",
    "type": "built:broad011",
    "at": [
-    11955.8,
-    22983.6
+    11957.7,
+    22993.4
    ],
-   "yaw": 1.2465,
+   "yaw": 1.5376,
    "scale": 1,
    "road": "road025q"
   },
   {
-   "id": "objf2u5r",
+   "id": "obj6f1g5",
    "type": "built:broad011",
    "at": [
-    11960.9,
-    23120.5
+    11966.8,
+    23142.9
    ],
-   "yaw": 4.7086,
+   "yaw": 5.2006,
    "scale": 1,
    "road": "road025q"
   },
   {
-   "id": "objy5oqm",
+   "id": "objk82jm",
    "type": "built:broad011",
    "at": [
-    12080.1,
-    23223.6
+    12088.7,
+    23230
    ],
-   "yaw": 2.832,
+   "yaw": 2.5671,
    "scale": 1,
    "road": "road025q"
   },
   {
-   "id": "objkkfgb",
+   "id": "objvg709",
    "type": "built:broad011",
    "at": [
-    12222.7,
-    23236
+    12234.9,
+    23233.8
    ],
-   "yaw": 6.2415,
+   "yaw": 0.1941,
    "scale": 1,
    "road": "road025q"
   },
   {
-   "id": "obj0shur",
+   "id": "obji0luz",
    "type": "built:broad004",
    "at": [
     10896.2,
-    22836.7
+    22832.2
    ],
-   "yaw": 1.4945,
+   "yaw": 1.4941,
    "scale": 0.6,
    "road": "roadthfn"
   },
   {
-   "id": "objf47rq",
+   "id": "objnqph4",
    "type": "built:broad004",
    "at": [
-    10751.6,
-    23283.2
+    10753.3,
+    23279
    ],
-   "yaw": 4.2464,
+   "yaw": 4.2451,
    "scale": 0.6,
    "road": "roadthfn"
   },
   {
-   "id": "objzajhi",
+   "id": "obj9bjiy",
    "type": "built:broad004",
    "at": [
-    10574.5,
-    23752.8
+    10575.9,
+    23748.6
    ],
-   "yaw": 1.3103,
+   "yaw": 1.3107,
    "scale": 0.6,
    "road": "roadthfn"
   },
   {
-   "id": "objhokza",
+   "id": "obje1qt6",
    "type": "built:broad004",
    "at": [
-    10471,
-    24181.5
+    10470.6,
+    24177
    ],
-   "yaw": 4.8576,
+   "yaw": 4.862,
    "scale": 0.6,
    "road": "roadthfn"
   },
   {
-   "id": "obje8bgg",
+   "id": "objwjl9w",
    "type": "built:broad004",
    "at": [
-    10493.4,
-    24573
+    10493,
+    24568.6
    ],
-   "yaw": 1.5579,
+   "yaw": 1.559,
    "scale": 0.6,
    "road": "roadthfn"
   }
