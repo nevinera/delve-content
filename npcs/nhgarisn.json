@@ -1,0 +1,56 @@
+{
+  "id": "nhgarisn",
+  "name": "Tennely Hall Guard",
+  "creatureType": "humanoid",
+  "reaction": "friendly",
+  "levels": [
+    12,
+    14
+  ],
+  "says": [
+    "Granary's the Council's. Keep your hands where I can see them.",
+    "Wagons are late again. Wolves, or worse.",
+    "Captain says nothing. Captain always says nothing."
+  ],
+  "look": {
+    "body": "humanoid",
+    "height": [
+      5.8,
+      6.3
+    ],
+    "build": [
+      0.5,
+      0.8
+    ],
+    "hair": [
+      "short",
+      "bald"
+    ],
+    "beard": [
+      "none",
+      "full"
+    ],
+    "colors": {
+      "primary": [
+        "#2e4a6b"
+      ],
+      "secondary": [
+        "#4a4038"
+      ]
+    },
+    "armor": {
+      "chest": {
+        "type": "chain",
+        "style": "plain"
+      },
+      "legs": {
+        "type": "chain",
+        "style": "plain"
+      },
+      "head": {
+        "type": "chain",
+        "style": "plain"
+      }
+    }
+  }
+}

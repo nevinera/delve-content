@@ -1,0 +1,23 @@
+{
+  "id": "thlies01",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "The wards here are older than the Council, and older than the Tennelys too. Shall I show you how they're laid?",
+      "choices": [
+        {
+          "text": "What do you have for sale?",
+          "do": "vendor"
+        },
+        {
+          "text": "Teach me enchanting.",
+          "do": "train"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  }
+}

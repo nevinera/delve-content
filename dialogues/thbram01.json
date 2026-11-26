@@ -1,0 +1,23 @@
+{
+  "id": "thbram01",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Sit, sit. Road dust comes off with ale, I always say.",
+      "choices": [
+        {
+          "text": "What's to eat?",
+          "do": "vendor"
+        },
+        {
+          "text": "I'll take a bed here.",
+          "do": "home"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  }
+}

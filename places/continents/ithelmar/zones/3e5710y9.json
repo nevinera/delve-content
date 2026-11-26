@@ -155,7 +155,10 @@
         "where": "Up the north valley under the northern crags, out of sight of the farms, at the end of the grain road and the foot of the north pass.",
         "mood": "Rigid and uneasy. Its captain served the Tennelys and serves the Council now.",
         "people": [
-          "Captain Wystan Hale, the granary's captain"
+          "Captain Wystan Hale, the granary's captain",
+          "Bram Oakes, the innkeeper",
+          "Rafe Saddler, the quartermaster",
+          "Liesel Fairlie, the enchanter"
         ],
         "lines": [
           "The Greycoats (6-10) ends here: Slade's tally, his camp and Slade himself; the Greycoats' captain thanks you at the burned lodge"
@@ -170,7 +173,8 @@
         ],
         "quests": "About 6.",
         "site": "The valley floor beside the north stream, under the crags.",
-        "situation": "A hidden valley: the Tennelys' summer house, kept out of view of the farms, holding the way up to the north pass."
+        "situation": "A hidden valley: the Tennelys' summer house, kept out of view of the farms, holding the way up to the north pass.",
+        "scene": "The grain road comes up from the farms and the west road from the river both end in the courtyard before the hall, where the Tennelys' sword statue still stands by the well and Council banners hang at the door. The hall, the Tennelys' old summer house, closes the courtyard on the north, its tables now the garrison's and its library Liesel Fairlie's. The granary and the big barn stand on the east side, sacks and supply crates at their doors, where Rafe Saddler counts the grain. The barracks stand west of the hall, with a weapon rack and archery targets by the summer garden, where a gazebo and old statues are left over from the Tennelys. Bram Oakes's inn faces the courtyard from the south-west, where the roads meet, and the stable lies south-east with a trough for the wagon horses. A guard tower watches the way north to the pass, and the graveyard lies east in the meadow, off the road."
       },
       "fx4u6pd9": {
         "name": "Northgate",
@@ -1722,6 +1726,42 @@
         ],
         "voice": "Thinks aloud in gears and pulleys, loses the thread, finds it again.",
         "notes": "The sawwright. Built the camp's crane and the chute, keeps the mill's saws running, and teaches Wakers to make machines.",
+        "zone": "3e5710y9"
+      },
+      "thbram01": {
+        "name": "Bram Oakes",
+        "hub": "d908slex",
+        "traits": [
+          "genial",
+          "watchful",
+          "thrifty"
+        ],
+        "voice": "Easy and warm, and listens to the wagoners more than he talks.",
+        "notes": "Keeps the wagoners' inn by the grain road's end. Was the Tennelys' groom once, and still knows which horses spook at wolves. Rents a bed to any Waker with coin, and some without.",
+        "zone": "3e5710y9"
+      },
+      "thrafe01": {
+        "name": "Rafe Saddler",
+        "hub": "d908slex",
+        "traits": [
+          "brisk",
+          "honest",
+          "tired"
+        ],
+        "voice": "Short sentences, each one a list.",
+        "notes": "The garrison's quartermaster. Counts the grain in and the wagons out, mends the guards' kit, and sells spare gear and supplies to Wakers for coin the Council never sees.",
+        "zone": "3e5710y9"
+      },
+      "thlies01": {
+        "name": "Liesel Fairlie",
+        "hub": "d908slex",
+        "traits": [
+          "precise",
+          "wistful",
+          "sharp"
+        ],
+        "voice": "Soft and exact, as if dictating to a clerk.",
+        "notes": "Kept the Tennelys' books and their warded stores, and stayed on when the Council took the house. Still keeps the old wards on the hall, and teaches Wakers to bind power into cloth and steel.",
         "zone": "3e5710y9"
       }
     },

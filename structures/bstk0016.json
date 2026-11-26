@@ -1,0 +1,643 @@
+{
+  "id": "bstk0016",
+  "version": 1,
+  "name": "Stable",
+  "tags": [
+    "stable",
+    "animals",
+    "town"
+  ],
+  "theme": "cabin",
+  "ground": "ground",
+  "floors": [
+    {
+      "id": "ground",
+      "y": 0,
+      "height": 12,
+      "pieces": [
+        {
+          "op": "add",
+          "rect": [
+            -30,
+            -32,
+            42,
+            0
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "from": [
+            -30,
+            -32
+          ],
+          "to": [
+            42,
+            -32
+          ]
+        },
+        {
+          "from": [
+            42,
+            -32
+          ],
+          "to": [
+            42,
+            0
+          ]
+        },
+        {
+          "from": [
+            42,
+            0
+          ],
+          "to": [
+            -30,
+            0
+          ]
+        },
+        {
+          "from": [
+            -30,
+            0
+          ],
+          "to": [
+            -30,
+            -32
+          ]
+        },
+        {
+          "from": [
+            30,
+            -32
+          ],
+          "to": [
+            30,
+            0
+          ]
+        },
+        {
+          "from": [
+            -18,
+            -32
+          ],
+          "to": [
+            -18,
+            -14
+          ],
+          "low": true
+        },
+        {
+          "from": [
+            -6,
+            -32
+          ],
+          "to": [
+            -6,
+            -14
+          ],
+          "low": true
+        },
+        {
+          "from": [
+            6,
+            -32
+          ],
+          "to": [
+            6,
+            -14
+          ],
+          "low": true
+        },
+        {
+          "from": [
+            18,
+            -32
+          ],
+          "to": [
+            18,
+            -14
+          ],
+          "low": true
+        }
+      ],
+      "rooms": [
+        {
+          "outline": [
+            [
+              -30,
+              -32
+            ],
+            [
+              30,
+              -32
+            ],
+            [
+              30,
+              0
+            ],
+            [
+              -30,
+              0
+            ]
+          ],
+          "name": "Stalls",
+          "theme": "barn"
+        },
+        {
+          "outline": [
+            [
+              30,
+              -32
+            ],
+            [
+              42,
+              -32
+            ],
+            [
+              42,
+              0
+            ],
+            [
+              30,
+              0
+            ]
+          ],
+          "name": "Tack room"
+        }
+      ],
+      "areas": [
+        [
+          [
+            -30,
+            -32
+          ],
+          [
+            42,
+            -32
+          ],
+          [
+            42,
+            0
+          ],
+          [
+            -30,
+            0
+          ]
+        ]
+      ],
+      "walls": [
+        {
+          "from": [
+            -30,
+            -32
+          ],
+          "to": [
+            -18,
+            -32
+          ]
+        },
+        {
+          "from": [
+            -18,
+            -32
+          ],
+          "to": [
+            -6,
+            -32
+          ]
+        },
+        {
+          "from": [
+            -6,
+            -32
+          ],
+          "to": [
+            6,
+            -32
+          ]
+        },
+        {
+          "from": [
+            6,
+            -32
+          ],
+          "to": [
+            18,
+            -32
+          ]
+        },
+        {
+          "from": [
+            18,
+            -32
+          ],
+          "to": [
+            30,
+            -32
+          ]
+        },
+        {
+          "from": [
+            30,
+            -32
+          ],
+          "to": [
+            42,
+            -32
+          ]
+        },
+        {
+          "from": [
+            42,
+            -32
+          ],
+          "to": [
+            42,
+            0
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 4,
+              "height": 6,
+              "glass": true,
+              "along": 14
+            }
+          ]
+        },
+        {
+          "from": [
+            42,
+            0
+          ],
+          "to": [
+            30,
+            0
+          ],
+          "openings": [
+            {
+              "kind": "doorway",
+              "width": 8,
+              "height": 11,
+              "door": {
+                "hinge": "end",
+                "open": 0.5
+              },
+              "along": 2
+            }
+          ]
+        },
+        {
+          "from": [
+            30,
+            0
+          ],
+          "to": [
+            -30,
+            0
+          ],
+          "openings": [
+            {
+              "kind": "gap",
+              "width": 10,
+              "height": 10,
+              "along": 1
+            },
+            {
+              "kind": "gap",
+              "width": 10,
+              "height": 10,
+              "along": 13
+            },
+            {
+              "kind": "gap",
+              "width": 10,
+              "height": 10,
+              "along": 25
+            },
+            {
+              "kind": "gap",
+              "width": 10,
+              "height": 10,
+              "along": 37
+            },
+            {
+              "kind": "gap",
+              "width": 10,
+              "height": 10,
+              "along": 49
+            }
+          ]
+        },
+        {
+          "from": [
+            -30,
+            0
+          ],
+          "to": [
+            -30,
+            -32
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 4,
+              "height": 6,
+              "glass": true,
+              "along": 14
+            }
+          ]
+        },
+        {
+          "from": [
+            30,
+            -32
+          ],
+          "to": [
+            30,
+            0
+          ]
+        },
+        {
+          "from": [
+            -18,
+            -32
+          ],
+          "to": [
+            -18,
+            -14
+          ],
+          "height": 3.5
+        },
+        {
+          "from": [
+            -6,
+            -32
+          ],
+          "to": [
+            -6,
+            -14
+          ],
+          "height": 3.5
+        },
+        {
+          "from": [
+            6,
+            -32
+          ],
+          "to": [
+            6,
+            -14
+          ],
+          "height": 3.5
+        },
+        {
+          "from": [
+            18,
+            -32
+          ],
+          "to": [
+            18,
+            -14
+          ],
+          "height": 3.5
+        }
+      ],
+      "objects": [
+        {
+          "type": "built:b1kk1k67",
+          "at": [
+            -24,
+            -30.4
+          ],
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              5,
+              1.8
+            ]
+          },
+          "height": 1.8
+        },
+        {
+          "type": "built:b1kk1k67",
+          "at": [
+            -12,
+            -30.4
+          ],
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              5,
+              1.8
+            ]
+          },
+          "height": 1.8
+        },
+        {
+          "type": "built:b1kk1k67",
+          "at": [
+            0,
+            -30.4
+          ],
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              5,
+              1.8
+            ]
+          },
+          "height": 1.8
+        },
+        {
+          "type": "built:b1kk1k67",
+          "at": [
+            12,
+            -30.4
+          ],
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              5,
+              1.8
+            ]
+          },
+          "height": 1.8
+        },
+        {
+          "type": "built:b1kk1k67",
+          "at": [
+            24,
+            -30.4
+          ],
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              5,
+              1.8
+            ]
+          },
+          "height": 1.8
+        }
+      ],
+      "doors": [
+        {
+          "type": "door",
+          "at": [
+            32.1,
+            -4.5
+          ],
+          "up": 0,
+          "yaw": 1.571,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              8,
+              0.2
+            ]
+          },
+          "height": 11,
+          "opening": [
+            7,
+            0
+          ]
+        }
+      ],
+      "lights": [
+        {
+          "kind": "lamp",
+          "at": [
+            -22,
+            -27
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -7,
+            -27
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            23,
+            -27
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -22,
+            -16
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -7,
+            -16
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            8,
+            -16
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            23,
+            -16
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -7,
+            -5
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            8,
+            -5
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            23,
+            -5
+          ],
+          "up": 8
+        },
+        {
+          "kind": "candle",
+          "at": [
+            36,
+            -24
+          ],
+          "up": 3
+        },
+        {
+          "kind": "candle",
+          "at": [
+            36,
+            -8
+          ],
+          "up": 3
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "roofs": [
+    {
+      "outline": [
+        [
+          -30,
+          -32
+        ],
+        [
+          42,
+          -32
+        ],
+        [
+          42,
+          0
+        ],
+        [
+          -30,
+          0
+        ]
+      ],
+      "y": 12,
+      "style": "gable",
+      "pitch": 35,
+      "overhang": 2,
+      "ridge": 0
+    }
+  ],
+  "collection": "tf4boiwf"
+}

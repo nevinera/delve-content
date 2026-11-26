@@ -26933,6 +26933,227 @@
         8
       ],
       "respawn": 300
+    },
+    {
+      "id": "nhhale01",
+      "npc": "nhgarisn",
+      "name": "Captain Wystan Hale",
+      "title": "Captain of the Granary",
+      "at": [
+        10222,
+        null,
+        18300
+      ],
+      "yaw": 0,
+      "levels": [
+        14,
+        14
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "thbram01",
+      "npc": "nhtownfk",
+      "name": "Bram Oakes",
+      "title": "Innkeeper",
+      "dialogue": "thbram01",
+      "innkeeper": true,
+      "restArea": "threst01",
+      "vendor": {
+        "sells": [
+          "stock/oat-cake",
+          "stock/smoked-sausage",
+          "stock/roast-fowl",
+          "stock/spiced-venison",
+          "stock/cured-ham",
+          "stock/pepper-steak",
+          "stock/hearty-meat-pie",
+          "stock/well-water",
+          "stock/mint-tea",
+          "stock/honeyed-milk",
+          "stock/mountain-cider",
+          "stock/berry-cordial",
+          "stock/pear-nectar",
+          "stock/glacier-water"
+        ]
+      },
+      "at": [
+        10079.6,
+        61.1,
+        18460.4
+      ],
+      "yaw": 225,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "thrafe01",
+      "npc": "nhgarisn",
+      "name": "Rafe Saddler",
+      "title": "Quartermaster",
+      "vendor": {
+        "sells": [
+          "stock/cloth-pouch",
+          "stock/canvas-satchel",
+          "stock/travelers-haversack",
+          "stock/well-water",
+          "stock/mint-tea",
+          "stock/honeyed-milk",
+          "stock/mountain-cider",
+          "stock/berry-cordial",
+          "stock/pear-nectar",
+          "stock/glacier-water",
+          "stock/mining-pick",
+          "stock/skinning-knife",
+          "stock/smithing-hammer",
+          "stock/fishing-pole",
+          "stock/coarse-thread",
+          "stock/fine-thread",
+          "stock/silken-thread",
+          "stock/heavy-silken-thread",
+          "stock/glass-vial",
+          "stock/leaded-vial",
+          "stock/crystal-vial",
+          "stock/mild-spices",
+          "stock/hot-spices",
+          "stock/salt",
+          "stock/flour",
+          "stock/cooking-oil",
+          "stock/enchanting-vellum",
+          "stock/copper-rod",
+          "stock/coal",
+          "stock/bearded-axe",
+          "stock/stiletto",
+          "stock/brass-knuckles",
+          "stock/flanged-mace",
+          "stock/broadsword",
+          "stock/battle-axe",
+          "stock/claymore",
+          "stock/war-maul",
+          "stock/boar-spear",
+          "stock/quarterstaff",
+          "stock/militia-shield",
+          "stock/chainmail-coif",
+          "stock/chainmail-spaulders",
+          "stock/chainmail-hauberk",
+          "stock/chainmail-bracers",
+          "stock/chainmail-gloves",
+          "stock/chainmail-belt",
+          "stock/chainmail-leggings",
+          "stock/chainmail-boots"
+        ],
+        "repairs": true
+      },
+      "at": [
+        10278,
+        null,
+        18334
+      ],
+      "yaw": 90,
+      "levels": [
+        11,
+        11
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "thlies01",
+      "npc": "nhtownfk",
+      "name": "Liesel Fairlie",
+      "title": "Enchanter",
+      "dialogue": "thlies01",
+      "vendor": {
+        "sells": [
+          "stock/enchanting-vellum",
+          "stock/copper-rod",
+          "stock/silver-rod",
+          "stock/gold-rod",
+          "stock/cobalt-rod",
+          "stock/platinum-rod"
+        ]
+      },
+      "trains": {
+        "profession": "enchanting",
+        "upTo": "Journeyman"
+      },
+      "at": [
+        10186,
+        67.3,
+        18208
+      ],
+      "yaw": 0,
+      "levels": [
+        12,
+        12
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "thgard01",
+      "npc": "nhgarisn",
+      "name": "Tennely Hall Guard",
+      "at": [
+        10192,
+        null,
+        18290
+      ],
+      "yaw": 0,
+      "levels": [
+        12,
+        12
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "thgard02",
+      "npc": "nhgarisn",
+      "name": "Tennely Hall Guard",
+      "at": [
+        10126,
+        null,
+        18270
+      ],
+      "yaw": 270,
+      "levels": [
+        12,
+        12
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "thgard03",
+      "npc": "nhgarisn",
+      "name": "Tennely Hall Guard",
+      "at": [
+        10205,
+        null,
+        18365
+      ],
+      "yaw": 0,
+      "levels": [
+        12,
+        12
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "thgard04",
+      "npc": "nhgarisn",
+      "name": "Tennely Hall Guard",
+      "at": [
+        10335,
+        null,
+        18240
+      ],
+      "yaw": 0,
+      "levels": [
+        12,
+        12
+      ],
+      "respawn": 300
     }
   ]
 }
