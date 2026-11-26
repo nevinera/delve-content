@@ -3281,6 +3281,236 @@
       "shown": false
     }
   ],
+  "locations": [
+    {
+      "id": "g2810ouo",
+      "name": "Wakewell Abbey",
+      "area": "arearl5f",
+      "regionArea": "area9cca"
+    },
+    {
+      "id": "x82mo57l",
+      "name": "Wakewell Mere",
+      "area": "arearl5i",
+      "regionArea": "areazcn9"
+    },
+    {
+      "id": "iv8png3x",
+      "name": "the Falls Pool",
+      "area": "areakgwd",
+      "regionArea": "areawouk"
+    },
+    {
+      "id": "281pqu8r",
+      "name": "the North Shore",
+      "area": "arealys3",
+      "regionArea": "areaym5k"
+    },
+    {
+      "id": "hhl3w2dr",
+      "name": "the South Shore",
+      "area": "areakoto",
+      "regionArea": "area79um"
+    },
+    {
+      "id": "97lbrl66",
+      "name": "the Prow",
+      "area": "areaun6y",
+      "regionArea": "area8b6b"
+    },
+    {
+      "id": "rtlv7ic3",
+      "name": "the Prow Ponds",
+      "area": "area621n",
+      "regionArea": "area7kkm"
+    },
+    {
+      "id": "fi1tct5t",
+      "name": "Hallam's Cross",
+      "area": "areaqm0t",
+      "regionArea": "areaecoh"
+    },
+    {
+      "id": "ydro2vew",
+      "name": "the Barley Fields",
+      "area": "areajui2",
+      "regionArea": "areath9u"
+    },
+    {
+      "id": "tzw03fj8",
+      "name": "Bristle's Wallow",
+      "area": "areayta3",
+      "regionArea": "arealvgj"
+    },
+    {
+      "id": "qjvr9dmm",
+      "name": "the River Meadows",
+      "area": "areadmx0",
+      "regionArea": "areaaqvz"
+    },
+    {
+      "id": "hgi2i4mw",
+      "name": "the South Gap",
+      "area": "area13k9",
+      "regionArea": "areapleb"
+    },
+    {
+      "id": "cuo0vgno",
+      "name": "the Rise",
+      "area": "areay655",
+      "regionArea": "areah4br"
+    },
+    {
+      "id": "bvb9nlsg",
+      "name": "Crumbling Ruin",
+      "area": "areajcum",
+      "regionArea": "area8qa2"
+    },
+    {
+      "id": "lg08pt0m",
+      "name": "Brightford",
+      "area": "areapwlv",
+      "regionArea": "areatl3j"
+    },
+    {
+      "id": "bakilkok",
+      "name": "the South Bank Woods",
+      "area": "areas01k",
+      "regionArea": "areatpt8"
+    },
+    {
+      "id": "vnuutc33",
+      "name": "the South Crags",
+      "area": "areaiyng",
+      "regionArea": "area2q7b"
+    },
+    {
+      "id": "cn1kjzbg",
+      "name": "Brightford Pass",
+      "area": "arean4dv",
+      "regionArea": "areaszq1"
+    },
+    {
+      "id": "a8oa0d8y",
+      "name": "the Coast Meadows",
+      "area": "area8dv0",
+      "regionArea": "arealy5t"
+    },
+    {
+      "id": "9az5tbyb",
+      "name": "the Coast Pasture",
+      "area": "areaewan",
+      "regionArea": "areaii1v"
+    },
+    {
+      "id": "vzoytdwv",
+      "name": "Robbers' Bend",
+      "area": "area05y9",
+      "regionArea": "areaoza0"
+    },
+    {
+      "id": "i7irx9d5",
+      "name": "the North Meadow",
+      "area": "arearctm",
+      "regionArea": "arean8w4"
+    },
+    {
+      "id": "akmmyokt",
+      "name": "Northgate",
+      "area": "area6hpk",
+      "regionArea": "area0xu8"
+    },
+    {
+      "id": "21l2vgq1",
+      "name": "the North Coast",
+      "area": "areaw5zq",
+      "regionArea": "areah0a7"
+    },
+    {
+      "id": "28fp08ad",
+      "name": "the Bear's Den",
+      "area": "areatga4",
+      "regionArea": "areax6g7"
+    },
+    {
+      "id": "2d3cpv6l",
+      "name": "the North-west Crags",
+      "area": "area5kgu",
+      "regionArea": "areau9ai"
+    },
+    {
+      "id": "ujd45zn1",
+      "name": "Tennely Hall",
+      "area": "areaug3q",
+      "regionArea": "areazns4"
+    },
+    {
+      "id": "p4ri6pnk",
+      "name": "Tennely Valley",
+      "area": "areamqaq",
+      "regionArea": "areaf0u6"
+    },
+    {
+      "id": "64p5y2ol",
+      "name": "the North Pass",
+      "area": "area5uhr",
+      "regionArea": "area93id"
+    },
+    {
+      "id": "m1zkhpnc",
+      "name": "the Burned Lodge",
+      "area": "areaj60m",
+      "regionArea": "area4tox"
+    },
+    {
+      "id": "3u7tz8m3",
+      "name": "Slade's Camp",
+      "area": "areafkce",
+      "regionArea": "areantd5"
+    },
+    {
+      "id": "5tgym0t5",
+      "name": "Tallyman's Lookout",
+      "area": "area2hts",
+      "regionArea": "area629r"
+    },
+    {
+      "id": "mvwwi9sa",
+      "name": "the Knoll",
+      "area": "area814n",
+      "regionArea": "areanmv1"
+    },
+    {
+      "id": "p4u7ytlc",
+      "name": "the Eastern Hills",
+      "area": "areag7c5",
+      "regionArea": "areakmdp"
+    },
+    {
+      "id": "r6buwzqk",
+      "name": "Cliffside Camp",
+      "area": "areawf9c",
+      "regionArea": "area02ye"
+    },
+    {
+      "id": "8o4it6rd",
+      "name": "the Loggers' Basin",
+      "area": "areaagx6",
+      "regionArea": "areahu9k"
+    },
+    {
+      "id": "hyaj8jhb",
+      "name": "the Diggings",
+      "area": "areak1q8",
+      "regionArea": "areajsra"
+    },
+    {
+      "id": "abhdih8c",
+      "name": "the Cliff Foot",
+      "area": "areax4n2",
+      "regionArea": "areaimze"
+    }
+  ],
   "routes": [
     {
       "id": "jxkmoe27",
