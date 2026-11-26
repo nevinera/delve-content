@@ -1969,7 +1969,1318 @@
     }
   ],
   "dungeons": [],
-  "camps": [],
+  "camps": [
+    {
+      "id": "d71g810p",
+      "name": "Lakeshore foxes",
+      "theme": "foxes",
+      "at": [
+        13525,
+        21937
+      ],
+      "shown": false
+    },
+    {
+      "id": "g1sfr4l3",
+      "name": "Falls pool wisps",
+      "theme": "dream-wisps",
+      "at": [
+        14916,
+        22770
+      ],
+      "shown": false
+    },
+    {
+      "id": "9ou1pjl3",
+      "name": "Eyeless fry",
+      "theme": "pale fish",
+      "at": [
+        14860,
+        23200
+      ],
+      "shown": false
+    },
+    {
+      "id": "4duygnom",
+      "name": "Sneaks' burrows",
+      "theme": "kobold sneaks",
+      "at": [
+        14690,
+        21581
+      ],
+      "shown": false
+    },
+    {
+      "id": "3fhl1u5w",
+      "name": "Barn rats",
+      "theme": "barn rats",
+      "at": [
+        10950,
+        20950
+      ],
+      "shown": false
+    },
+    {
+      "id": "z7px29sm",
+      "name": "Boars in the barley",
+      "theme": "boars",
+      "at": [
+        11360,
+        21719
+      ],
+      "shown": false
+    },
+    {
+      "id": "0kgnoj78",
+      "name": "Old Bristle's wallow",
+      "theme": "boars",
+      "at": [
+        10150,
+        21550
+      ],
+      "shown": false
+    },
+    {
+      "id": "ox31m55f",
+      "name": "Ford eels",
+      "theme": "eels",
+      "at": [
+        8782,
+        23650
+      ],
+      "shown": false
+    },
+    {
+      "id": "1uy4ocha",
+      "name": "South bank wolves",
+      "theme": "wolves",
+      "at": [
+        7800,
+        24350
+      ],
+      "shown": false
+    },
+    {
+      "id": "mvipq1s8",
+      "name": "Grey-coat robbers",
+      "theme": "bandits",
+      "at": [
+        7350,
+        21400
+      ],
+      "shown": false
+    },
+    {
+      "id": "4fp17dik",
+      "name": "Kobold diggers",
+      "theme": "kobolds",
+      "at": [
+        14050,
+        19434
+      ],
+      "shown": false
+    },
+    {
+      "id": "ehl0lfik",
+      "name": "Cliff-foot spiders",
+      "theme": "spiders",
+      "at": [
+        13900,
+        19750
+      ],
+      "shown": false
+    },
+    {
+      "id": "30bzemc3",
+      "name": "Slade's tallyman",
+      "theme": "bandits",
+      "at": [
+        11450,
+        18450
+      ],
+      "shown": false
+    },
+    {
+      "id": "nk87zuej",
+      "name": "Slade's camp",
+      "theme": "bandits",
+      "at": [
+        12550,
+        18100
+      ],
+      "shown": false
+    },
+    {
+      "id": "1znsr3iz",
+      "name": "Slade's tent",
+      "theme": "bandits",
+      "at": [
+        12733,
+        18074
+      ],
+      "shown": false
+    },
+    {
+      "id": "2s50mx6v",
+      "name": "Valley-edge wolves",
+      "theme": "hill wolves",
+      "at": [
+        11000,
+        18900
+      ],
+      "shown": false
+    },
+    {
+      "id": "71rdpz7g",
+      "name": "North road wolves",
+      "theme": "wolves",
+      "at": [
+        8684,
+        18478
+      ],
+      "shown": false
+    },
+    {
+      "id": "lyinzz6s",
+      "name": "The hill bear",
+      "theme": "bear",
+      "at": [
+        9066,
+        17900
+      ],
+      "shown": false
+    },
+    {
+      "id": "4yrcv9nf",
+      "name": "Crabs, north coast southeast",
+      "theme": "crabs",
+      "at": [
+        6254,
+        18863
+      ],
+      "shown": false
+    },
+    {
+      "id": "yje6s0ls",
+      "name": "Crabs, coast meadows northeast",
+      "theme": "crabs",
+      "at": [
+        7064,
+        22868
+      ],
+      "shown": false
+    },
+    {
+      "id": "h8joju53",
+      "name": "Frogs by coast meadows northeast",
+      "theme": "frogs",
+      "at": [
+        7164,
+        22868
+      ],
+      "shown": false
+    },
+    {
+      "id": "yhv5bi0u",
+      "name": "Toads, river meadows northeast",
+      "theme": "toads",
+      "at": [
+        10799,
+        22800
+      ],
+      "shown": false
+    },
+    {
+      "id": "d9ld8mzw",
+      "name": "Crabs, north coast east",
+      "theme": "crabs",
+      "at": [
+        6682,
+        18542
+      ],
+      "shown": false
+    },
+    {
+      "id": "15785duh",
+      "name": "Wolves, north meadow northeast",
+      "theme": "wolves",
+      "at": [
+        7853,
+        19818
+      ],
+      "shown": false
+    },
+    {
+      "id": "tkupiwkx",
+      "name": "Crabs, north coast southeast 3",
+      "theme": "crabs",
+      "at": [
+        6896,
+        18958
+      ],
+      "shown": false
+    },
+    {
+      "id": "n5s7l2ga",
+      "name": "Frogs by north coast southeast 3",
+      "theme": "frogs",
+      "at": [
+        6890,
+        18859
+      ],
+      "shown": false
+    },
+    {
+      "id": "qnwp62vw",
+      "name": "Hill wolves, knoll northwest",
+      "theme": "hill wolves",
+      "at": [
+        10532,
+        19335
+      ],
+      "shown": false
+    },
+    {
+      "id": "uf2y8mwx",
+      "name": "Kobolds, loggers' valley southwest",
+      "theme": "kobolds",
+      "at": [
+        12325,
+        20436
+      ],
+      "shown": false
+    },
+    {
+      "id": "cbwqb5pw",
+      "name": "Hill wolves, Tennely valley west",
+      "theme": "hill wolves",
+      "at": [
+        10597,
+        18481
+      ],
+      "shown": false
+    },
+    {
+      "id": "5yzk3b3q",
+      "name": "Wolves, coast pasture north",
+      "theme": "wolves",
+      "at": [
+        6470,
+        20201
+      ],
+      "shown": false
+    },
+    {
+      "id": "gmbbsibz",
+      "name": "Boars by coast pasture north",
+      "theme": "boars",
+      "at": [
+        6570,
+        20201
+      ],
+      "shown": false
+    },
+    {
+      "id": "k4gvf57s",
+      "name": "Hill wolves, Tennely valley middle",
+      "theme": "hill wolves",
+      "at": [
+        11032,
+        18168
+      ],
+      "shown": false
+    },
+    {
+      "id": "tphbsbcd",
+      "name": "Kobolds, loggers' valley west",
+      "theme": "kobolds",
+      "at": [
+        11823,
+        19792
+      ],
+      "shown": false
+    },
+    {
+      "id": "se9su0j2",
+      "name": "Spiders, rise west",
+      "theme": "spiders",
+      "at": [
+        8697,
+        21465
+      ],
+      "shown": false
+    },
+    {
+      "id": "fa5xu6wp",
+      "name": "Wolves, coast pasture east",
+      "theme": "wolves",
+      "at": [
+        6665,
+        21144
+      ],
+      "shown": false
+    },
+    {
+      "id": "5to2y3rm",
+      "name": "Boars by coast pasture east",
+      "theme": "boars",
+      "at": [
+        6765,
+        21144
+      ],
+      "shown": false
+    },
+    {
+      "id": "oycvvma8",
+      "name": "Toads, river meadows south",
+      "theme": "toads",
+      "at": [
+        10600,
+        23444
+      ],
+      "shown": false
+    },
+    {
+      "id": "2lya4ha9",
+      "name": "Toads, lake's south shore middle",
+      "theme": "toads",
+      "at": [
+        13561,
+        23738
+      ],
+      "shown": false
+    },
+    {
+      "id": "o8qtb06q",
+      "name": "Kobolds, loggers' valley southeast",
+      "theme": "kobolds",
+      "at": [
+        12985,
+        20055
+      ],
+      "shown": false
+    },
+    {
+      "id": "4zu5p1bm",
+      "name": "Boars, barley north",
+      "theme": "boars",
+      "at": [
+        11864,
+        21381
+      ],
+      "shown": false
+    },
+    {
+      "id": "fa6q6o0i",
+      "name": "Crows by barley north",
+      "theme": "crows",
+      "at": [
+        11964,
+        21381
+      ],
+      "shown": false
+    },
+    {
+      "id": "tfkinm0a",
+      "name": "Kobolds, loggers' valley north",
+      "theme": "kobolds",
+      "at": [
+        12743,
+        19451
+      ],
+      "shown": false
+    },
+    {
+      "id": "ydp915zg",
+      "name": "Spiders, rise south",
+      "theme": "spiders",
+      "at": [
+        9481,
+        21939
+      ],
+      "shown": false
+    },
+    {
+      "id": "oui9ixau",
+      "name": "Toads, river meadows northwest",
+      "theme": "toads",
+      "at": [
+        9813,
+        22804
+      ],
+      "shown": false
+    },
+    {
+      "id": "posv0ngi",
+      "name": "Foxes, lake's north shore southwest",
+      "theme": "foxes",
+      "at": [
+        12912,
+        22364
+      ],
+      "shown": false
+    },
+    {
+      "id": "xb5pkal8",
+      "name": "Crows by lake's north shore southwest",
+      "theme": "crows",
+      "at": [
+        12963,
+        22280
+      ],
+      "shown": false
+    },
+    {
+      "id": "t81n9k5u",
+      "name": "Wolves, coast pasture northeast",
+      "theme": "wolves",
+      "at": [
+        7183,
+        20365
+      ],
+      "shown": false
+    },
+    {
+      "id": "t6san6t1",
+      "name": "Wolves, coast pasture southeast",
+      "theme": "wolves",
+      "at": [
+        6873,
+        21894
+      ],
+      "shown": false
+    },
+    {
+      "id": "dcl7m4ry",
+      "name": "Crows, farms east middle",
+      "theme": "crows",
+      "at": [
+        12714,
+        21394
+      ],
+      "shown": false
+    },
+    {
+      "id": "cesoz7lc",
+      "name": "Boars, barley south",
+      "theme": "boars",
+      "at": [
+        11663,
+        22382
+      ],
+      "shown": false
+    },
+    {
+      "id": "x5u8voau",
+      "name": "Crows by barley south",
+      "theme": "crows",
+      "at": [
+        11763,
+        22382
+      ],
+      "shown": false
+    },
+    {
+      "id": "4sak4vjp",
+      "name": "Spiders, rise north",
+      "theme": "spiders",
+      "at": [
+        9560,
+        20313
+      ],
+      "shown": false
+    },
+    {
+      "id": "upmbkry8",
+      "name": "Wolves, south bank woods north",
+      "theme": "wolves",
+      "at": [
+        7801,
+        23946
+      ],
+      "shown": false
+    },
+    {
+      "id": "wkvocqpa",
+      "name": "Bandits, eastern hills south",
+      "theme": "bandits",
+      "at": [
+        12891,
+        18730
+      ],
+      "shown": false
+    },
+    {
+      "id": "bbkwgixr",
+      "name": "Toads, river meadows west",
+      "theme": "toads",
+      "at": [
+        9682,
+        23412
+      ],
+      "shown": false
+    },
+    {
+      "id": "0t6hvecy",
+      "name": "Frogs by river meadows west",
+      "theme": "frogs",
+      "at": [
+        9782,
+        23412
+      ],
+      "shown": false
+    },
+    {
+      "id": "dxxwe3rd",
+      "name": "Crabs, coast meadows southeast",
+      "theme": "crabs",
+      "at": [
+        6965,
+        24049
+      ],
+      "shown": false
+    },
+    {
+      "id": "kcsq6vt7",
+      "name": "Spiders, rise northwest",
+      "theme": "spiders",
+      "at": [
+        9044,
+        20848
+      ],
+      "shown": false
+    },
+    {
+      "id": "jth34gji",
+      "name": "Bandits, eastern hills northeast",
+      "theme": "bandits",
+      "at": [
+        13030,
+        17529
+      ],
+      "shown": false
+    },
+    {
+      "id": "9uq1x189",
+      "name": "Wolves, north meadow northwest",
+      "theme": "wolves",
+      "at": [
+        7246,
+        19706
+      ],
+      "shown": false
+    },
+    {
+      "id": "ym298acj",
+      "name": "Boars by north meadow northwest",
+      "theme": "boars",
+      "at": [
+        7346,
+        19706
+      ],
+      "shown": false
+    },
+    {
+      "id": "zhu50540",
+      "name": "Wolves, north meadow southeast",
+      "theme": "wolves",
+      "at": [
+        8262,
+        20268
+      ],
+      "shown": false
+    },
+    {
+      "id": "dus2ctqc",
+      "name": "Hill wolves, knoll south",
+      "theme": "hill wolves",
+      "at": [
+        10764,
+        19861
+      ],
+      "shown": false
+    },
+    {
+      "id": "wf6vh3bd",
+      "name": "Crabs, north coast northeast",
+      "theme": "crabs",
+      "at": [
+        6988,
+        17821
+      ],
+      "shown": false
+    },
+    {
+      "id": "k4k06brq",
+      "name": "Wolves, coast pasture east 3",
+      "theme": "wolves",
+      "at": [
+        7540,
+        20784
+      ],
+      "shown": false
+    },
+    {
+      "id": "jozj7967",
+      "name": "Boars by coast pasture east 3",
+      "theme": "boars",
+      "at": [
+        7640,
+        20784
+      ],
+      "shown": false
+    },
+    {
+      "id": "gvo736lz",
+      "name": "Crabs, north coast south",
+      "theme": "crabs",
+      "at": [
+        6262,
+        19499
+      ],
+      "shown": false
+    },
+    {
+      "id": "2txa7j0x",
+      "name": "Crows, farms east southeast",
+      "theme": "crows",
+      "at": [
+        12741,
+        21723
+      ],
+      "shown": false
+    },
+    {
+      "id": "qa8uulqt",
+      "name": "Crabs, coast meadows south",
+      "theme": "crabs",
+      "at": [
+        6073,
+        24112
+      ],
+      "shown": false
+    },
+    {
+      "id": "9zeyopc8",
+      "name": "Bears, western hills northwest",
+      "theme": "bears",
+      "at": [
+        8389,
+        17867
+      ],
+      "shown": false
+    },
+    {
+      "id": "9g1tee4b",
+      "name": "Wolves by western hills northwest",
+      "theme": "wolves",
+      "at": [
+        8489,
+        17867
+      ],
+      "shown": false
+    },
+    {
+      "id": "5qhx287u",
+      "name": "Bears, western hills south",
+      "theme": "bears",
+      "at": [
+        8924,
+        18926
+      ],
+      "shown": false
+    },
+    {
+      "id": "lrmqi509",
+      "name": "Wolves, south bank woods south",
+      "theme": "wolves",
+      "at": [
+        7670,
+        25017
+      ],
+      "shown": false
+    },
+    {
+      "id": "383upsbz",
+      "name": "Toads, river meadows southwest",
+      "theme": "toads",
+      "at": [
+        10086,
+        23984
+      ],
+      "shown": false
+    },
+    {
+      "id": "2ragnsb3",
+      "name": "Crabs, coast meadows southeast 3",
+      "theme": "crabs",
+      "at": [
+        6597,
+        23604
+      ],
+      "shown": false
+    },
+    {
+      "id": "q77h95wz",
+      "name": "Frogs by coast meadows southeast 3",
+      "theme": "frogs",
+      "at": [
+        6697,
+        23604
+      ],
+      "shown": false
+    },
+    {
+      "id": "bnp0u09f",
+      "name": "Spiders, rise north 3",
+      "theme": "spiders",
+      "at": [
+        9328,
+        20938
+      ],
+      "shown": false
+    },
+    {
+      "id": "r3k4g4zt",
+      "name": "Toads, river meadows northeast 3",
+      "theme": "toads",
+      "at": [
+        11209,
+        22802
+      ],
+      "shown": false
+    },
+    {
+      "id": "b9oky1gc",
+      "name": "Bandits, eastern hills west",
+      "theme": "bandits",
+      "at": [
+        12025,
+        17881
+      ],
+      "shown": false
+    },
+    {
+      "id": "8xxr9gyv",
+      "name": "Bandits, eastern hills northwest",
+      "theme": "bandits",
+      "at": [
+        12550,
+        17126
+      ],
+      "shown": false
+    },
+    {
+      "id": "945elwzr",
+      "name": "Wolves by eastern hills northwest",
+      "theme": "wolves",
+      "at": [
+        12634,
+        17098
+      ],
+      "shown": false
+    },
+    {
+      "id": "69urz3t7",
+      "name": "Toads, river meadows north",
+      "theme": "toads",
+      "at": [
+        10425,
+        22315
+      ],
+      "shown": false
+    },
+    {
+      "id": "emyxt8cf",
+      "name": "Bandits, eastern hills southeast",
+      "theme": "bandits",
+      "at": [
+        13431,
+        18717
+      ],
+      "shown": false
+    },
+    {
+      "id": "c38ihbur",
+      "name": "Wolves, south bank woods southwest",
+      "theme": "wolves",
+      "at": [
+        7188,
+        24740
+      ],
+      "shown": false
+    },
+    {
+      "id": "eu6epxnk",
+      "name": "Wolves, north meadow north",
+      "theme": "wolves",
+      "at": [
+        7664,
+        19307
+      ],
+      "shown": false
+    },
+    {
+      "id": "tyesqpi2",
+      "name": "Boars by north meadow north",
+      "theme": "boars",
+      "at": [
+        7764,
+        19307
+      ],
+      "shown": false
+    },
+    {
+      "id": "c7c47pib",
+      "name": "Toads, river meadows east",
+      "theme": "toads",
+      "at": [
+        11156,
+        23460
+      ],
+      "shown": false
+    },
+    {
+      "id": "b04u5a7e",
+      "name": "Boars, barley southeast",
+      "theme": "boars",
+      "at": [
+        12197,
+        22116
+      ],
+      "shown": false
+    },
+    {
+      "id": "xyys71zl",
+      "name": "Hill wolves, Tennely valley northeast",
+      "theme": "hill wolves",
+      "at": [
+        11364,
+        17754
+      ],
+      "shown": false
+    },
+    {
+      "id": "hw1oggsd",
+      "name": "Toads, river meadows south 3",
+      "theme": "toads",
+      "at": [
+        10684,
+        24068
+      ],
+      "shown": false
+    },
+    {
+      "id": "ud9orqm4",
+      "name": "Frogs by river meadows south 3",
+      "theme": "frogs",
+      "at": [
+        10752,
+        24123
+      ],
+      "shown": false
+    },
+    {
+      "id": "muanf6d3",
+      "name": "Crows, Abbey's pocket west",
+      "theme": "crows",
+      "at": [
+        13837,
+        21657
+      ],
+      "shown": false
+    },
+    {
+      "id": "pd91m1ph",
+      "name": "Foxes, lake's north shore north",
+      "theme": "foxes",
+      "at": [
+        13240,
+        21594
+      ],
+      "shown": false
+    },
+    {
+      "id": "66set64w",
+      "name": "Spiders, rise northeast",
+      "theme": "spiders",
+      "at": [
+        9997,
+        20883
+      ],
+      "shown": false
+    },
+    {
+      "id": "3y6uzykm",
+      "name": "Crabs, north coast southeast 4",
+      "theme": "crabs",
+      "at": [
+        6792,
+        19318
+      ],
+      "shown": false
+    },
+    {
+      "id": "rbms20ee",
+      "name": "Frogs by north coast southeast 4",
+      "theme": "frogs",
+      "at": [
+        6892,
+        19318
+      ],
+      "shown": false
+    },
+    {
+      "id": "6wt1qzwa",
+      "name": "Wolves, south bank woods southeast",
+      "theme": "wolves",
+      "at": [
+        8166,
+        24783
+      ],
+      "shown": false
+    },
+    {
+      "id": "cv18zoaz",
+      "name": "Bears, western hills east",
+      "theme": "bears",
+      "at": [
+        9351,
+        18348
+      ],
+      "shown": false
+    },
+    {
+      "id": "ndz2dnke",
+      "name": "Hill wolves, knoll east",
+      "theme": "hill wolves",
+      "at": [
+        11281,
+        19768
+      ],
+      "shown": false
+    },
+    {
+      "id": "exhphnrr",
+      "name": "Crabs, coast meadows east",
+      "theme": "crabs",
+      "at": [
+        7350,
+        23513
+      ],
+      "shown": false
+    },
+    {
+      "id": "2v1nnfc2",
+      "name": "Frogs by coast meadows east",
+      "theme": "frogs",
+      "at": [
+        7466,
+        23421
+      ],
+      "shown": false
+    },
+    {
+      "id": "1rtem1z1",
+      "name": "Toads, lake's south shore northeast",
+      "theme": "toads",
+      "at": [
+        14002,
+        23622
+      ],
+      "shown": false
+    },
+    {
+      "id": "6wfumwes",
+      "name": "Toads, lake's south shore northwest",
+      "theme": "toads",
+      "at": [
+        12828,
+        23465
+      ],
+      "shown": false
+    },
+    {
+      "id": "d1l7ud5r",
+      "name": "Toads, river meadows northwest 3",
+      "theme": "toads",
+      "at": [
+        10257,
+        23066
+      ],
+      "shown": false
+    },
+    {
+      "id": "hdo0t4qx",
+      "name": "Bandits, eastern hills east",
+      "theme": "bandits",
+      "at": [
+        14216,
+        17502
+      ],
+      "shown": false
+    },
+    {
+      "id": "67ifre5m",
+      "name": "Wolves by eastern hills east",
+      "theme": "wolves",
+      "at": [
+        14191,
+        17404
+      ],
+      "shown": false
+    },
+    {
+      "id": "od5kdsk8",
+      "name": "Crows, Abbey's pocket north",
+      "theme": "crows",
+      "at": [
+        14258,
+        21402
+      ],
+      "shown": false
+    },
+    {
+      "id": "wmme0n2l",
+      "name": "Wolves, south bank woods northeast",
+      "theme": "wolves",
+      "at": [
+        8329,
+        24119
+      ],
+      "shown": false
+    },
+    {
+      "id": "13ehbq9r",
+      "name": "Kobolds, loggers' valley northwest",
+      "theme": "kobolds",
+      "at": [
+        12247,
+        19195
+      ],
+      "shown": false
+    },
+    {
+      "id": "9e3ws63x",
+      "name": "Crabs, coast meadows northeast 3",
+      "theme": "crabs",
+      "at": [
+        6731,
+        22418
+      ],
+      "shown": false
+    },
+    {
+      "id": "pqlgiv1p",
+      "name": "Frogs by coast meadows northeast 3",
+      "theme": "frogs",
+      "at": [
+        6831,
+        22418
+      ],
+      "shown": false
+    },
+    {
+      "id": "w559u7sy",
+      "name": "Spiders, cliff foot east",
+      "theme": "spiders",
+      "at": [
+        14444,
+        19500
+      ],
+      "shown": false
+    },
+    {
+      "id": "qgdr9q7j",
+      "name": "Bears, western hills west",
+      "theme": "bears",
+      "at": [
+        8120,
+        18446
+      ],
+      "shown": false
+    },
+    {
+      "id": "7dbfycqm",
+      "name": "Kobolds, loggers' valley west 3",
+      "theme": "kobolds",
+      "at": [
+        12337,
+        19845
+      ],
+      "shown": false
+    },
+    {
+      "id": "wc4llk0k",
+      "name": "Hill wolves, Tennely valley northwest",
+      "theme": "hill wolves",
+      "at": [
+        10747,
+        17708
+      ],
+      "shown": false
+    },
+    {
+      "id": "3cfd7ew6",
+      "name": "Boars by Tennely valley northwest",
+      "theme": "boars",
+      "at": [
+        10847,
+        17708
+      ],
+      "shown": false
+    },
+    {
+      "id": "d20h0hws",
+      "name": "Toads, lake's south shore north",
+      "theme": "toads",
+      "at": [
+        13433,
+        23444
+      ],
+      "shown": false
+    },
+    {
+      "id": "w667t9oc",
+      "name": "Kobolds, loggers' valley southeast 3",
+      "theme": "kobolds",
+      "at": [
+        13465,
+        20243
+      ],
+      "shown": false
+    },
+    {
+      "id": "aqc799z5",
+      "name": "Wolves, north meadow east",
+      "theme": "wolves",
+      "at": [
+        8364,
+        19753
+      ],
+      "shown": false
+    },
+    {
+      "id": "ujrglysl",
+      "name": "Wolves, coast pasture north 3",
+      "theme": "wolves",
+      "at": [
+        6308,
+        20676
+      ],
+      "shown": false
+    },
+    {
+      "id": "a6hey99b",
+      "name": "Boars by coast pasture north 3",
+      "theme": "boars",
+      "at": [
+        6408,
+        20676
+      ],
+      "shown": false
+    },
+    {
+      "id": "c9uhvv6o",
+      "name": "Spiders, rise southwest",
+      "theme": "spiders",
+      "at": [
+        8983,
+        21908
+      ],
+      "shown": false
+    },
+    {
+      "id": "6tiuy0me",
+      "name": "Spiders, rise southwest 3",
+      "theme": "spiders",
+      "at": [
+        9296,
+        21436
+      ],
+      "shown": false
+    },
+    {
+      "id": "x1b3uydm",
+      "name": "Bandits, eastern hills southwest",
+      "theme": "bandits",
+      "at": [
+        12388,
+        18629
+      ],
+      "shown": false
+    },
+    {
+      "id": "nly0j3ws",
+      "name": "Wolves, north meadow south",
+      "theme": "wolves",
+      "at": [
+        7698,
+        20297
+      ],
+      "shown": false
+    },
+    {
+      "id": "eqz255kg",
+      "name": "Boars by north meadow south",
+      "theme": "boars",
+      "at": [
+        7798,
+        20297
+      ],
+      "shown": false
+    },
+    {
+      "id": "unwrbdxu",
+      "name": "Crabs, north coast east 3",
+      "theme": "crabs",
+      "at": [
+        7144,
+        18396
+      ],
+      "shown": false
+    },
+    {
+      "id": "q3m6eqk7",
+      "name": "Hill wolves, knoll west",
+      "theme": "hill wolves",
+      "at": [
+        10252,
+        19781
+      ],
+      "shown": false
+    },
+    {
+      "id": "ersibr9g",
+      "name": "Wolves, coast pasture north 4",
+      "theme": "wolves",
+      "at": [
+        5998,
+        19959
+      ],
+      "shown": false
+    },
+    {
+      "id": "b3klhqty",
+      "name": "Boars, barley northwest",
+      "theme": "boars",
+      "at": [
+        11441,
+        21113
+      ],
+      "shown": false
+    },
+    {
+      "id": "c3453rpg",
+      "name": "Crows by barley northwest",
+      "theme": "crows",
+      "at": [
+        11541,
+        21113
+      ],
+      "shown": false
+    }
+  ],
   "routes": [
     {
       "id": "jxkmoe27",

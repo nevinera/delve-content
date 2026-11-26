@@ -195,7 +195,7 @@
       }
     },
     "camps": {
-      "g2kird4d": {
+      "d71g810p": {
         "name": "Lakeshore foxes",
         "zone": "3e5710y9",
         "levels": "1-2",
@@ -204,7 +204,7 @@
           "nhfoxes1"
         ]
       },
-      "f2d9uipg": {
+      "g1sfr4l3": {
         "name": "Falls pool wisps",
         "zone": "3e5710y9",
         "levels": "2-3",
@@ -213,7 +213,7 @@
           "nhwisps1"
         ]
       },
-      "i36ww3md": {
+      "9ou1pjl3": {
         "name": "Eyeless fry",
         "zone": "3e5710y9",
         "levels": "3",
@@ -222,7 +222,7 @@
           "nhpalefi"
         ]
       },
-      "lnf0n6an": {
+      "4duygnom": {
         "name": "Sneaks' burrows",
         "zone": "3e5710y9",
         "levels": "3-4",
@@ -232,7 +232,7 @@
           "nhglass1"
         ]
       },
-      "tld9ff65": {
+      "3fhl1u5w": {
         "name": "Barn rats",
         "zone": "3e5710y9",
         "levels": "4",
@@ -241,7 +241,7 @@
           "hcrats01"
         ]
       },
-      "1rcfaqdc": {
+      "z7px29sm": {
         "name": "Boars in the barley",
         "zone": "3e5710y9",
         "levels": "4-5",
@@ -250,7 +250,7 @@
           "hcboars1"
         ]
       },
-      "v6hxzaze": {
+      "0kgnoj78": {
         "name": "Old Bristle's wallow",
         "zone": "3e5710y9",
         "levels": "5",
@@ -259,7 +259,7 @@
           "hcbristl"
         ]
       },
-      "timckvix": {
+      "ox31m55f": {
         "name": "Ford eels",
         "zone": "3e5710y9",
         "levels": "5",
@@ -268,7 +268,7 @@
           "bfeels01"
         ]
       },
-      "wns9hk80": {
+      "1uy4ocha": {
         "name": "South bank wolves",
         "zone": "3e5710y9",
         "levels": "6",
@@ -277,7 +277,7 @@
           "bfwolves"
         ]
       },
-      "pioalq6g": {
+      "mvipq1s8": {
         "name": "Grey-coat robbers",
         "zone": "3e5710y9",
         "levels": "6-7",
@@ -286,7 +286,7 @@
           "bfrobber"
         ]
       },
-      "75voih94": {
+      "4fp17dik": {
         "name": "Kobold diggers",
         "zone": "3e5710y9",
         "levels": "6-7",
@@ -295,7 +295,7 @@
           "csdig01"
         ]
       },
-      "qafd31fc": {
+      "ehl0lfik": {
         "name": "Cliff-foot spiders",
         "zone": "3e5710y9",
         "levels": "7",
@@ -304,7 +304,7 @@
           "csspide1"
         ]
       },
-      "sw3xjjsg": {
+      "30bzemc3": {
         "name": "Slade's tallyman",
         "zone": "3e5710y9",
         "levels": "8",
@@ -313,7 +313,7 @@
           "thtally1"
         ]
       },
-      "z28uku7k": {
+      "nk87zuej": {
         "name": "Slade's camp",
         "zone": "3e5710y9",
         "levels": "9-10",
@@ -323,7 +323,7 @@
         ],
         "site": "Slade's camp, with Slade's tent"
       },
-      "26sgs7uk": {
+      "1znsr3iz": {
         "name": "Slade's tent",
         "zone": "3e5710y9",
         "levels": "10",
@@ -333,7 +333,7 @@
         ],
         "site": "Slade's camp, with Slade's tent"
       },
-      "lqzkw73q": {
+      "2s50mx6v": {
         "name": "Valley-edge wolves",
         "zone": "3e5710y9",
         "levels": "8",
@@ -342,7 +342,7 @@
           "thwolve1"
         ]
       },
-      "1dq3cs6l": {
+      "71rdpz7g": {
         "name": "North road wolves",
         "zone": "3e5710y9",
         "levels": "8",
@@ -351,7 +351,7 @@
           "ngcalf01"
         ]
       },
-      "xoi2gpoa": {
+      "lyinzz6s": {
         "name": "The hill bear",
         "zone": "3e5710y9",
         "levels": "9",
@@ -360,7 +360,7 @@
           "ngbear01"
         ]
       },
-      "v9w7kw3u": {
+      "4yrcv9nf": {
         "name": "Crabs, north coast southeast",
         "zone": "3e5710y9",
         "levels": "8-9",
@@ -369,7 +369,7 @@
           "ngdrift1"
         ]
       },
-      "9g6cxw5r": {
+      "yje6s0ls": {
         "name": "Crabs, coast meadows northeast",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -379,14 +379,14 @@
           "bfshell1"
         ]
       },
-      "2cx6854w": {
+      "h8joju53": {
         "name": "Frogs by coast meadows northeast",
         "zone": "3e5710y9",
         "levels": "5-6",
         "why": "Beside Crabs, coast meadows northeast, so the site has two kinds of creature.",
         "site": "Crabs, coast meadows northeast, with Frogs by coast meadows northeast"
       },
-      "xrss7xpr": {
+      "yhv5bi0u": {
         "name": "Toads, river meadows northeast",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -395,7 +395,7 @@
           "bftoads1"
         ]
       },
-      "4fj7rjnt": {
+      "d9ld8mzw": {
         "name": "Crabs, north coast east",
         "zone": "3e5710y9",
         "levels": "8-9",
@@ -404,13 +404,13 @@
           "ngdrift1"
         ]
       },
-      "r2dvfcql": {
+      "15785duh": {
         "name": "Wolves, north meadow northeast",
         "zone": "3e5710y9",
         "levels": "8",
         "why": "Filler in the north meadow, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "s061j6u7": {
+      "tkupiwkx": {
         "name": "Crabs, north coast southeast 3",
         "zone": "3e5710y9",
         "levels": "8-9",
@@ -420,7 +420,7 @@
           "ngdrift1"
         ]
       },
-      "r8ldufrb": {
+      "n5s7l2ga": {
         "name": "Frogs by north coast southeast 3",
         "zone": "3e5710y9",
         "levels": "8-9",
@@ -430,13 +430,13 @@
           "ngdrift1"
         ]
       },
-      "hyy5zat4": {
+      "qnwp62vw": {
         "name": "Hill wolves, knoll northwest",
         "zone": "3e5710y9",
         "levels": "7-8",
         "why": "Filler in the knoll, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "lwallkxn": {
+      "uf2y8mwx": {
         "name": "Kobolds, loggers' valley southwest",
         "zone": "3e5710y9",
         "levels": "6-7",
@@ -445,33 +445,33 @@
           "cschalk1"
         ]
       },
-      "p4yi82vr": {
+      "cbwqb5pw": {
         "name": "Hill wolves, Tennely valley west",
         "zone": "3e5710y9",
         "levels": "8-9",
         "why": "Filler in Tennely valley, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "vweqr22u": {
+      "5yzk3b3q": {
         "name": "Wolves, coast pasture north",
         "zone": "3e5710y9",
         "levels": "6-8",
         "why": "Filler in the coast pasture, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub.",
         "site": "Wolves, coast pasture north, with Boars by coast pasture north"
       },
-      "burmey75": {
+      "gmbbsibz": {
         "name": "Boars by coast pasture north",
         "zone": "3e5710y9",
         "levels": "6-8",
         "why": "Beside Wolves, coast pasture north, so the site has two kinds of creature.",
         "site": "Wolves, coast pasture north, with Boars by coast pasture north"
       },
-      "ghcqm4i0": {
+      "k4gvf57s": {
         "name": "Hill wolves, Tennely valley middle",
         "zone": "3e5710y9",
         "levels": "8-9",
         "why": "Filler in Tennely valley, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "p6wt0pqx": {
+      "tphbsbcd": {
         "name": "Kobolds, loggers' valley west",
         "zone": "3e5710y9",
         "levels": "6-7",
@@ -480,7 +480,7 @@
           "cschalk1"
         ]
       },
-      "tzw5z073": {
+      "se9su0j2": {
         "name": "Spiders, rise west",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -489,21 +489,21 @@
           "hcwebs01"
         ]
       },
-      "qu8nj4b1": {
+      "fa5xu6wp": {
         "name": "Wolves, coast pasture east",
         "zone": "3e5710y9",
         "levels": "6-8",
         "why": "Filler in the coast pasture, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub.",
         "site": "Wolves, coast pasture east, with Boars by coast pasture east"
       },
-      "20rnotro": {
+      "5to2y3rm": {
         "name": "Boars by coast pasture east",
         "zone": "3e5710y9",
         "levels": "6-8",
         "why": "Beside Wolves, coast pasture east, so the site has two kinds of creature.",
         "site": "Wolves, coast pasture east, with Boars by coast pasture east"
       },
-      "yapa6c56": {
+      "oycvvma8": {
         "name": "Toads, river meadows south",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -512,13 +512,13 @@
           "bftoads1"
         ]
       },
-      "nn82co93": {
+      "2lya4ha9": {
         "name": "Toads, lake's south shore middle",
         "zone": "3e5710y9",
         "levels": "6-7",
         "why": "Filler in the lake's south shore, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "6s63jg3x": {
+      "o8qtb06q": {
         "name": "Kobolds, loggers' valley southeast",
         "zone": "3e5710y9",
         "levels": "6-7",
@@ -527,21 +527,21 @@
           "cschalk1"
         ]
       },
-      "lo90y7zc": {
+      "4zu5p1bm": {
         "name": "Boars, barley north",
         "zone": "3e5710y9",
         "levels": "4-5",
         "why": "Filler in the barley, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub.",
         "site": "Boars, barley north, with Crows by barley north"
       },
-      "g8wg3g5w": {
+      "fa6q6o0i": {
         "name": "Crows by barley north",
         "zone": "3e5710y9",
         "levels": "4-5",
         "why": "Beside Boars, barley north, so the site has two kinds of creature.",
         "site": "Boars, barley north, with Crows by barley north"
       },
-      "2l9jkqvo": {
+      "tfkinm0a": {
         "name": "Kobolds, loggers' valley north",
         "zone": "3e5710y9",
         "levels": "6-7",
@@ -550,7 +550,7 @@
           "cschalk1"
         ]
       },
-      "jr1p2mbm": {
+      "ydp915zg": {
         "name": "Spiders, rise south",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -559,7 +559,7 @@
           "hcwebs01"
         ]
       },
-      "c6ajbblh": {
+      "oui9ixau": {
         "name": "Toads, river meadows northwest",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -568,53 +568,53 @@
           "bftoads1"
         ]
       },
-      "0hcaxmcx": {
+      "posv0ngi": {
         "name": "Foxes, lake's north shore southwest",
         "zone": "3e5710y9",
         "levels": "1-3",
         "why": "Filler in the lake's north shore, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub.",
         "site": "Foxes, lake's north shore southwest, with Crows by lake's north shore southwest"
       },
-      "ftydz3zv": {
+      "xb5pkal8": {
         "name": "Crows by lake's north shore southwest",
         "zone": "3e5710y9",
         "levels": "1-3",
         "why": "Beside Foxes, lake's north shore southwest, so the site has two kinds of creature.",
         "site": "Foxes, lake's north shore southwest, with Crows by lake's north shore southwest"
       },
-      "v5s7ocg5": {
+      "t81n9k5u": {
         "name": "Wolves, coast pasture northeast",
         "zone": "3e5710y9",
         "levels": "6-8",
         "why": "Filler in the coast pasture, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "z9o1r26b": {
+      "t6san6t1": {
         "name": "Wolves, coast pasture southeast",
         "zone": "3e5710y9",
         "levels": "6-8",
         "why": "Filler in the coast pasture, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "bwcv1yw5": {
+      "dcl7m4ry": {
         "name": "Crows, farms east middle",
         "zone": "3e5710y9",
         "levels": "4-5",
         "why": "Filler in the farms east, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "4rx49aey": {
+      "cesoz7lc": {
         "name": "Boars, barley south",
         "zone": "3e5710y9",
         "levels": "4-5",
         "why": "Filler in the barley, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub.",
         "site": "Boars, barley south, with Crows by barley south"
       },
-      "hr4y15ad": {
+      "x5u8voau": {
         "name": "Crows by barley south",
         "zone": "3e5710y9",
         "levels": "4-5",
         "why": "Beside Boars, barley south, so the site has two kinds of creature.",
         "site": "Boars, barley south, with Crows by barley south"
       },
-      "dgr67clt": {
+      "4sak4vjp": {
         "name": "Spiders, rise north",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -623,19 +623,19 @@
           "hcwebs01"
         ]
       },
-      "tt74wqbg": {
+      "upmbkry8": {
         "name": "Wolves, south bank woods north",
         "zone": "3e5710y9",
         "levels": "6-7",
         "why": "Filler in the south bank woods, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "hnyu3eo8": {
+      "wkvocqpa": {
         "name": "Bandits, eastern hills south",
         "zone": "3e5710y9",
         "levels": "9-10",
         "why": "Filler in the eastern hills, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "tiu58czm": {
+      "bbkwgixr": {
         "name": "Toads, river meadows west",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -645,14 +645,14 @@
           "bftoads1"
         ]
       },
-      "dfb4iwjq": {
+      "0t6hvecy": {
         "name": "Frogs by river meadows west",
         "zone": "3e5710y9",
         "levels": "5-6",
         "why": "Beside Toads, river meadows west, so the site has two kinds of creature.",
         "site": "Toads, river meadows west, with Frogs by river meadows west"
       },
-      "l1x5npzf": {
+      "dxxwe3rd": {
         "name": "Crabs, coast meadows southeast",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -661,7 +661,7 @@
           "bfshell1"
         ]
       },
-      "oz48meq7": {
+      "kcsq6vt7": {
         "name": "Spiders, rise northwest",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -670,39 +670,39 @@
           "hcwebs01"
         ]
       },
-      "8mfj9a3p": {
+      "jth34gji": {
         "name": "Bandits, eastern hills northeast",
         "zone": "3e5710y9",
         "levels": "9-10",
         "why": "Filler in the eastern hills, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "g4698wkp": {
+      "9uq1x189": {
         "name": "Wolves, north meadow northwest",
         "zone": "3e5710y9",
         "levels": "8",
         "why": "Filler in the north meadow, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub.",
         "site": "Wolves, north meadow northwest, with Boars by north meadow northwest"
       },
-      "2z65v16z": {
+      "ym298acj": {
         "name": "Boars by north meadow northwest",
         "zone": "3e5710y9",
         "levels": "8",
         "why": "Beside Wolves, north meadow northwest, so the site has two kinds of creature.",
         "site": "Wolves, north meadow northwest, with Boars by north meadow northwest"
       },
-      "ngkhlpgc": {
+      "zhu50540": {
         "name": "Wolves, north meadow southeast",
         "zone": "3e5710y9",
         "levels": "8",
         "why": "Filler in the north meadow, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "t9rz2qe5": {
+      "dus2ctqc": {
         "name": "Hill wolves, knoll south",
         "zone": "3e5710y9",
         "levels": "7-8",
         "why": "Filler in the knoll, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "nwl40wsi": {
+      "wf6vh3bd": {
         "name": "Crabs, north coast northeast",
         "zone": "3e5710y9",
         "levels": "8-9",
@@ -711,21 +711,21 @@
           "ngdrift1"
         ]
       },
-      "332pk22v": {
+      "k4k06brq": {
         "name": "Wolves, coast pasture east 3",
         "zone": "3e5710y9",
         "levels": "6-8",
         "why": "Filler in the coast pasture, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub.",
         "site": "Wolves, coast pasture east 3, with Boars by coast pasture east 3"
       },
-      "ru3i7jm8": {
+      "jozj7967": {
         "name": "Boars by coast pasture east 3",
         "zone": "3e5710y9",
         "levels": "6-8",
         "why": "Beside Wolves, coast pasture east 3, so the site has two kinds of creature.",
         "site": "Wolves, coast pasture east 3, with Boars by coast pasture east 3"
       },
-      "2e3knb7o": {
+      "gvo736lz": {
         "name": "Crabs, north coast south",
         "zone": "3e5710y9",
         "levels": "8-9",
@@ -734,13 +734,13 @@
           "ngdrift1"
         ]
       },
-      "b96xog4m": {
+      "2txa7j0x": {
         "name": "Crows, farms east southeast",
         "zone": "3e5710y9",
         "levels": "4-5",
         "why": "Filler in the farms east, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "5c7dnwav": {
+      "qa8uulqt": {
         "name": "Crabs, coast meadows south",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -749,7 +749,7 @@
           "bfshell1"
         ]
       },
-      "rc2cga7o": {
+      "9zeyopc8": {
         "name": "Bears, western hills northwest",
         "zone": "3e5710y9",
         "levels": "9-10",
@@ -759,14 +759,14 @@
           "ngfat001"
         ]
       },
-      "5zxgof2r": {
+      "9g1tee4b": {
         "name": "Wolves by western hills northwest",
         "zone": "3e5710y9",
         "levels": "9-10",
         "why": "Beside Bears, western hills northwest, so the site has two kinds of creature.",
         "site": "Bears, western hills northwest, with Wolves by western hills northwest"
       },
-      "bbnl8g8q": {
+      "5qhx287u": {
         "name": "Bears, western hills south",
         "zone": "3e5710y9",
         "levels": "9-10",
@@ -775,13 +775,13 @@
           "ngfat001"
         ]
       },
-      "i9lwtas6": {
+      "lrmqi509": {
         "name": "Wolves, south bank woods south",
         "zone": "3e5710y9",
         "levels": "6-7",
         "why": "Filler in the south bank woods, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "ys2q4rbj": {
+      "383upsbz": {
         "name": "Toads, river meadows southwest",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -790,7 +790,7 @@
           "bftoads1"
         ]
       },
-      "o110xiyo": {
+      "2ragnsb3": {
         "name": "Crabs, coast meadows southeast 3",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -800,14 +800,14 @@
           "bfshell1"
         ]
       },
-      "uihpwc9r": {
+      "q77h95wz": {
         "name": "Frogs by coast meadows southeast 3",
         "zone": "3e5710y9",
         "levels": "5-6",
         "why": "Beside Crabs, coast meadows southeast 3, so the site has two kinds of creature.",
         "site": "Crabs, coast meadows southeast 3, with Frogs by coast meadows southeast 3"
       },
-      "x3ijifsg": {
+      "bnp0u09f": {
         "name": "Spiders, rise north 3",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -816,7 +816,7 @@
           "hcwebs01"
         ]
       },
-      "orabh7o6": {
+      "r3k4g4zt": {
         "name": "Toads, river meadows northeast 3",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -825,27 +825,27 @@
           "bftoads1"
         ]
       },
-      "xut9zm0f": {
+      "b9oky1gc": {
         "name": "Bandits, eastern hills west",
         "zone": "3e5710y9",
         "levels": "9-10",
         "why": "Filler in the eastern hills, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "o7qunasq": {
+      "8xxr9gyv": {
         "name": "Bandits, eastern hills northwest",
         "zone": "3e5710y9",
         "levels": "9-10",
         "why": "Filler in the eastern hills, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub.",
         "site": "Bandits, eastern hills northwest, with Wolves by eastern hills northwest"
       },
-      "67uynvyc": {
+      "945elwzr": {
         "name": "Wolves by eastern hills northwest",
         "zone": "3e5710y9",
         "levels": "9-10",
         "why": "Beside Bandits, eastern hills northwest, so the site has two kinds of creature.",
         "site": "Bandits, eastern hills northwest, with Wolves by eastern hills northwest"
       },
-      "qu4ft92q": {
+      "69urz3t7": {
         "name": "Toads, river meadows north",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -854,33 +854,33 @@
           "bftoads1"
         ]
       },
-      "0aef73f8": {
+      "emyxt8cf": {
         "name": "Bandits, eastern hills southeast",
         "zone": "3e5710y9",
         "levels": "9-10",
         "why": "Filler in the eastern hills, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "etm7xjk7": {
+      "c38ihbur": {
         "name": "Wolves, south bank woods southwest",
         "zone": "3e5710y9",
         "levels": "6-7",
         "why": "Filler in the south bank woods, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "abudjikj": {
+      "eu6epxnk": {
         "name": "Wolves, north meadow north",
         "zone": "3e5710y9",
         "levels": "8",
         "why": "Filler in the north meadow, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub.",
         "site": "Wolves, north meadow north, with Boars by north meadow north"
       },
-      "13q0egrr": {
+      "tyesqpi2": {
         "name": "Boars by north meadow north",
         "zone": "3e5710y9",
         "levels": "8",
         "why": "Beside Wolves, north meadow north, so the site has two kinds of creature.",
         "site": "Wolves, north meadow north, with Boars by north meadow north"
       },
-      "oskukn9b": {
+      "c7c47pib": {
         "name": "Toads, river meadows east",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -889,19 +889,19 @@
           "bftoads1"
         ]
       },
-      "pod44ncg": {
+      "b04u5a7e": {
         "name": "Boars, barley southeast",
         "zone": "3e5710y9",
         "levels": "4-5",
         "why": "Filler in the barley, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "9jg2xmit": {
+      "xyys71zl": {
         "name": "Hill wolves, Tennely valley northeast",
         "zone": "3e5710y9",
         "levels": "8-9",
         "why": "Filler in Tennely valley, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "is8s8296": {
+      "hw1oggsd": {
         "name": "Toads, river meadows south 3",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -911,26 +911,26 @@
           "bftoads1"
         ]
       },
-      "w6nhqwfl": {
+      "ud9orqm4": {
         "name": "Frogs by river meadows south 3",
         "zone": "3e5710y9",
         "levels": "5-6",
         "why": "Beside Toads, river meadows south 3, so the site has two kinds of creature.",
         "site": "Toads, river meadows south 3, with Frogs by river meadows south 3"
       },
-      "uk514484": {
+      "muanf6d3": {
         "name": "Crows, Abbey's pocket west",
         "zone": "3e5710y9",
         "levels": "1-2",
         "why": "Filler in the Abbey's pocket, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "ylzi0mkx": {
+      "pd91m1ph": {
         "name": "Foxes, lake's north shore north",
         "zone": "3e5710y9",
         "levels": "1-3",
         "why": "Filler in the lake's north shore, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "vgpfr4n1": {
+      "66set64w": {
         "name": "Spiders, rise northeast",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -939,7 +939,7 @@
           "hcwebs01"
         ]
       },
-      "izof3ps2": {
+      "3y6uzykm": {
         "name": "Crabs, north coast southeast 4",
         "zone": "3e5710y9",
         "levels": "8-9",
@@ -949,7 +949,7 @@
           "ngdrift1"
         ]
       },
-      "jyuqq6ba": {
+      "rbms20ee": {
         "name": "Frogs by north coast southeast 4",
         "zone": "3e5710y9",
         "levels": "8-9",
@@ -959,13 +959,13 @@
           "ngdrift1"
         ]
       },
-      "6msl1gyo": {
+      "6wt1qzwa": {
         "name": "Wolves, south bank woods southeast",
         "zone": "3e5710y9",
         "levels": "6-7",
         "why": "Filler in the south bank woods, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "bwt0p8jz": {
+      "cv18zoaz": {
         "name": "Bears, western hills east",
         "zone": "3e5710y9",
         "levels": "9-10",
@@ -974,13 +974,13 @@
           "ngfat001"
         ]
       },
-      "vsszd02x": {
+      "ndz2dnke": {
         "name": "Hill wolves, knoll east",
         "zone": "3e5710y9",
         "levels": "7-8",
         "why": "Filler in the knoll, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "xvsf3yfq": {
+      "exhphnrr": {
         "name": "Crabs, coast meadows east",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -990,26 +990,26 @@
           "bfshell1"
         ]
       },
-      "0zc80697": {
+      "2v1nnfc2": {
         "name": "Frogs by coast meadows east",
         "zone": "3e5710y9",
         "levels": "5-6",
         "why": "Beside Crabs, coast meadows east, so the site has two kinds of creature.",
         "site": "Crabs, coast meadows east, with Frogs by coast meadows east"
       },
-      "zhj53ct1": {
+      "1rtem1z1": {
         "name": "Toads, lake's south shore northeast",
         "zone": "3e5710y9",
         "levels": "6-7",
         "why": "Filler in the lake's south shore, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "unscgloa": {
+      "6wfumwes": {
         "name": "Toads, lake's south shore northwest",
         "zone": "3e5710y9",
         "levels": "6-7",
         "why": "Filler in the lake's south shore, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "pqlrhzav": {
+      "d1l7ud5r": {
         "name": "Toads, river meadows northwest 3",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -1018,33 +1018,33 @@
           "bftoads1"
         ]
       },
-      "kufrrwgn": {
+      "hdo0t4qx": {
         "name": "Bandits, eastern hills east",
         "zone": "3e5710y9",
         "levels": "9-10",
         "why": "Filler in the eastern hills, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub.",
         "site": "Bandits, eastern hills east, with Wolves by eastern hills east"
       },
-      "r1x2u6tn": {
+      "67ifre5m": {
         "name": "Wolves by eastern hills east",
         "zone": "3e5710y9",
         "levels": "9-10",
         "why": "Beside Bandits, eastern hills east, so the site has two kinds of creature.",
         "site": "Bandits, eastern hills east, with Wolves by eastern hills east"
       },
-      "ixjuu6hl": {
+      "od5kdsk8": {
         "name": "Crows, Abbey's pocket north",
         "zone": "3e5710y9",
         "levels": "1-2",
         "why": "Filler in the Abbey's pocket, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "kun4398v": {
+      "wmme0n2l": {
         "name": "Wolves, south bank woods northeast",
         "zone": "3e5710y9",
         "levels": "6-7",
         "why": "Filler in the south bank woods, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "rtb42d1b": {
+      "13ehbq9r": {
         "name": "Kobolds, loggers' valley northwest",
         "zone": "3e5710y9",
         "levels": "6-7",
@@ -1053,7 +1053,7 @@
           "cschalk1"
         ]
       },
-      "3tydtj1p": {
+      "9e3ws63x": {
         "name": "Crabs, coast meadows northeast 3",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -1063,20 +1063,20 @@
           "bfshell1"
         ]
       },
-      "17s84oad": {
+      "pqlgiv1p": {
         "name": "Frogs by coast meadows northeast 3",
         "zone": "3e5710y9",
         "levels": "5-6",
         "why": "Beside Crabs, coast meadows northeast 3, so the site has two kinds of creature.",
         "site": "Crabs, coast meadows northeast 3, with Frogs by coast meadows northeast 3"
       },
-      "fbgzdyx4": {
+      "w559u7sy": {
         "name": "Spiders, cliff foot east",
         "zone": "3e5710y9",
         "levels": "7-8",
         "why": "Filler in the cliff foot, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "pffr2vdg": {
+      "qgdr9q7j": {
         "name": "Bears, western hills west",
         "zone": "3e5710y9",
         "levels": "9-10",
@@ -1085,7 +1085,7 @@
           "ngfat001"
         ]
       },
-      "345qmroc": {
+      "7dbfycqm": {
         "name": "Kobolds, loggers' valley west 3",
         "zone": "3e5710y9",
         "levels": "6-7",
@@ -1094,27 +1094,27 @@
           "cschalk1"
         ]
       },
-      "8x5puvx5": {
+      "wc4llk0k": {
         "name": "Hill wolves, Tennely valley northwest",
         "zone": "3e5710y9",
         "levels": "8-9",
         "why": "Filler in Tennely valley, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub.",
         "site": "Hill wolves, Tennely valley northwest, with Boars by Tennely valley northwest"
       },
-      "44urs5av": {
+      "3cfd7ew6": {
         "name": "Boars by Tennely valley northwest",
         "zone": "3e5710y9",
         "levels": "8-9",
         "why": "Beside Hill wolves, Tennely valley northwest, so the site has two kinds of creature.",
         "site": "Hill wolves, Tennely valley northwest, with Boars by Tennely valley northwest"
       },
-      "tg0nr529": {
+      "d20h0hws": {
         "name": "Toads, lake's south shore north",
         "zone": "3e5710y9",
         "levels": "6-7",
         "why": "Filler in the lake's south shore, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "bpibk30u": {
+      "w667t9oc": {
         "name": "Kobolds, loggers' valley southeast 3",
         "zone": "3e5710y9",
         "levels": "6-7",
@@ -1123,27 +1123,27 @@
           "cschalk1"
         ]
       },
-      "8coz48af": {
+      "aqc799z5": {
         "name": "Wolves, north meadow east",
         "zone": "3e5710y9",
         "levels": "8",
         "why": "Filler in the north meadow, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "elz097sk": {
+      "ujrglysl": {
         "name": "Wolves, coast pasture north 3",
         "zone": "3e5710y9",
         "levels": "6-8",
         "why": "Filler in the coast pasture, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub.",
         "site": "Wolves, coast pasture north 3, with Boars by coast pasture north 3"
       },
-      "6lvzdtif": {
+      "a6hey99b": {
         "name": "Boars by coast pasture north 3",
         "zone": "3e5710y9",
         "levels": "6-8",
         "why": "Beside Wolves, coast pasture north 3, so the site has two kinds of creature.",
         "site": "Wolves, coast pasture north 3, with Boars by coast pasture north 3"
       },
-      "ysb264q8": {
+      "c9uhvv6o": {
         "name": "Spiders, rise southwest",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -1152,7 +1152,7 @@
           "hcwebs01"
         ]
       },
-      "7i0y2jwx": {
+      "6tiuy0me": {
         "name": "Spiders, rise southwest 3",
         "zone": "3e5710y9",
         "levels": "5-6",
@@ -1161,27 +1161,27 @@
           "hcwebs01"
         ]
       },
-      "frmbynyp": {
+      "x1b3uydm": {
         "name": "Bandits, eastern hills southwest",
         "zone": "3e5710y9",
         "levels": "9-10",
         "why": "Filler in the eastern hills, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "kfh0kpcs": {
+      "nly0j3ws": {
         "name": "Wolves, north meadow south",
         "zone": "3e5710y9",
         "levels": "8",
         "why": "Filler in the north meadow, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub.",
         "site": "Wolves, north meadow south, with Boars by north meadow south"
       },
-      "3q3ycv19": {
+      "eqz255kg": {
         "name": "Boars by north meadow south",
         "zone": "3e5710y9",
         "levels": "8",
         "why": "Beside Wolves, north meadow south, so the site has two kinds of creature.",
         "site": "Wolves, north meadow south, with Boars by north meadow south"
       },
-      "e0ioosco": {
+      "unwrbdxu": {
         "name": "Crabs, north coast east 3",
         "zone": "3e5710y9",
         "levels": "8-9",
@@ -1190,26 +1190,26 @@
           "ngdrift1"
         ]
       },
-      "oa3hyxnl": {
+      "q3m6eqk7": {
         "name": "Hill wolves, knoll west",
         "zone": "3e5710y9",
         "levels": "7-8",
         "why": "Filler in the knoll, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "x2jbtccu": {
+      "ersibr9g": {
         "name": "Wolves, coast pasture north 4",
         "zone": "3e5710y9",
         "levels": "6-8",
         "why": "Filler in the coast pasture, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
-      "y70wl900": {
+      "b3klhqty": {
         "name": "Boars, barley northwest",
         "zone": "3e5710y9",
         "levels": "4-5",
         "why": "Filler in the barley, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub.",
         "site": "Boars, barley northwest, with Crows by barley northwest"
       },
-      "hgoj5cpi": {
+      "c3453rpg": {
         "name": "Crows by barley northwest",
         "zone": "3e5710y9",
         "levels": "4-5",
