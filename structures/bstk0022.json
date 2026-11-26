@@ -1,0 +1,1115 @@
+{
+  "id": "bstk0022",
+  "version": 1,
+  "name": "Big barn",
+  "tags": [
+    "barn",
+    "animals",
+    "farm",
+    "large"
+  ],
+  "theme": "cabin",
+  "ground": "ground",
+  "floors": [
+    {
+      "id": "ground",
+      "y": 0,
+      "height": 22,
+      "pieces": [
+        {
+          "op": "add",
+          "rect": [
+            -30,
+            -90,
+            30,
+            0
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "from": [
+            -30,
+            -90
+          ],
+          "to": [
+            30,
+            -90
+          ]
+        },
+        {
+          "from": [
+            30,
+            -90
+          ],
+          "to": [
+            30,
+            0
+          ]
+        },
+        {
+          "from": [
+            30,
+            0
+          ],
+          "to": [
+            -30,
+            0
+          ]
+        },
+        {
+          "from": [
+            -30,
+            0
+          ],
+          "to": [
+            -30,
+            -90
+          ]
+        },
+        {
+          "from": [
+            14,
+            -12
+          ],
+          "to": [
+            30,
+            -12
+          ],
+          "low": true
+        },
+        {
+          "from": [
+            14,
+            -24
+          ],
+          "to": [
+            30,
+            -24
+          ],
+          "low": true
+        },
+        {
+          "from": [
+            14,
+            -36
+          ],
+          "to": [
+            30,
+            -36
+          ],
+          "low": true
+        },
+        {
+          "from": [
+            14,
+            -48
+          ],
+          "to": [
+            30,
+            -48
+          ],
+          "low": true
+        },
+        {
+          "from": [
+            14,
+            -60
+          ],
+          "to": [
+            30,
+            -60
+          ],
+          "low": true
+        },
+        {
+          "from": [
+            14,
+            -72
+          ],
+          "to": [
+            30,
+            -72
+          ],
+          "low": true
+        },
+        {
+          "from": [
+            14,
+            -84
+          ],
+          "to": [
+            30,
+            -84
+          ],
+          "low": true
+        }
+      ],
+      "rooms": [
+        {
+          "outline": [
+            [
+              -30,
+              -90
+            ],
+            [
+              30,
+              -90
+            ],
+            [
+              30,
+              0
+            ],
+            [
+              -30,
+              0
+            ]
+          ],
+          "name": "Barn",
+          "theme": "barn"
+        }
+      ],
+      "areas": [
+        [
+          [
+            -30,
+            -90
+          ],
+          [
+            30,
+            -90
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            -30,
+            0
+          ]
+        ]
+      ],
+      "walls": [
+        {
+          "from": [
+            -30,
+            -90
+          ],
+          "to": [
+            30,
+            -90
+          ],
+          "openings": [
+            {
+              "kind": "doorway",
+              "width": 16,
+              "height": 18,
+              "style": "doubleDoors",
+              "along": 22
+            }
+          ],
+          "paint": {
+            "left": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            },
+            "right": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            }
+          }
+        },
+        {
+          "from": [
+            30,
+            -90
+          ],
+          "to": [
+            30,
+            -84
+          ],
+          "paint": {
+            "left": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            },
+            "right": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            }
+          }
+        },
+        {
+          "from": [
+            30,
+            -84
+          ],
+          "to": [
+            30,
+            -72
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 6,
+              "height": 4,
+              "glass": false,
+              "along": 4
+            }
+          ],
+          "paint": {
+            "left": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            },
+            "right": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            }
+          }
+        },
+        {
+          "from": [
+            30,
+            -72
+          ],
+          "to": [
+            30,
+            -60
+          ],
+          "paint": {
+            "left": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            },
+            "right": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            }
+          }
+        },
+        {
+          "from": [
+            30,
+            -60
+          ],
+          "to": [
+            30,
+            -48
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 6,
+              "height": 4,
+              "glass": false,
+              "along": 4
+            }
+          ],
+          "paint": {
+            "left": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            },
+            "right": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            }
+          }
+        },
+        {
+          "from": [
+            30,
+            -48
+          ],
+          "to": [
+            30,
+            -36
+          ],
+          "paint": {
+            "left": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            },
+            "right": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            }
+          }
+        },
+        {
+          "from": [
+            30,
+            -36
+          ],
+          "to": [
+            30,
+            -24
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 6,
+              "height": 4,
+              "glass": false,
+              "along": 4
+            }
+          ],
+          "paint": {
+            "left": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            },
+            "right": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            }
+          }
+        },
+        {
+          "from": [
+            30,
+            -24
+          ],
+          "to": [
+            30,
+            -12
+          ],
+          "paint": {
+            "left": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            },
+            "right": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            }
+          }
+        },
+        {
+          "from": [
+            30,
+            -12
+          ],
+          "to": [
+            30,
+            0
+          ],
+          "paint": {
+            "left": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            },
+            "right": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            }
+          }
+        },
+        {
+          "from": [
+            30,
+            0
+          ],
+          "to": [
+            -30,
+            0
+          ],
+          "openings": [
+            {
+              "kind": "doorway",
+              "width": 16,
+              "height": 18,
+              "style": "doubleDoors",
+              "along": 22
+            }
+          ],
+          "paint": {
+            "left": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            },
+            "right": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            }
+          }
+        },
+        {
+          "from": [
+            -30,
+            0
+          ],
+          "to": [
+            -30,
+            -90
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 4,
+              "height": 6,
+              "glass": true,
+              "along": 38
+            },
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 4,
+              "height": 6,
+              "glass": true,
+              "along": 62
+            }
+          ],
+          "paint": {
+            "left": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            },
+            "right": {
+              "color": "#8a3a30",
+              "preset": "woodgrain"
+            }
+          }
+        },
+        {
+          "from": [
+            14,
+            -12
+          ],
+          "to": [
+            30,
+            -12
+          ],
+          "height": 3.5
+        },
+        {
+          "from": [
+            14,
+            -24
+          ],
+          "to": [
+            30,
+            -24
+          ],
+          "height": 3.5
+        },
+        {
+          "from": [
+            14,
+            -36
+          ],
+          "to": [
+            30,
+            -36
+          ],
+          "height": 3.5
+        },
+        {
+          "from": [
+            14,
+            -48
+          ],
+          "to": [
+            30,
+            -48
+          ],
+          "height": 3.5
+        },
+        {
+          "from": [
+            14,
+            -60
+          ],
+          "to": [
+            30,
+            -60
+          ],
+          "height": 3.5
+        },
+        {
+          "from": [
+            14,
+            -72
+          ],
+          "to": [
+            30,
+            -72
+          ],
+          "height": 3.5
+        },
+        {
+          "from": [
+            14,
+            -84
+          ],
+          "to": [
+            30,
+            -84
+          ],
+          "height": 3.5
+        }
+      ],
+      "objects": [
+        {
+          "type": "built:b1kk1k67",
+          "at": [
+            27.5,
+            -18
+          ],
+          "yaw": -1.571,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              5,
+              1.8
+            ]
+          },
+          "height": 1.8
+        },
+        {
+          "type": "built:b1kk1k67",
+          "at": [
+            27.5,
+            -30
+          ],
+          "yaw": -1.571,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              5,
+              1.8
+            ]
+          },
+          "height": 1.8
+        },
+        {
+          "type": "built:b1kk1k67",
+          "at": [
+            27.5,
+            -42
+          ],
+          "yaw": -1.571,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              5,
+              1.8
+            ]
+          },
+          "height": 1.8
+        },
+        {
+          "type": "built:b1kk1k67",
+          "at": [
+            27.5,
+            -54
+          ],
+          "yaw": -1.571,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              5,
+              1.8
+            ]
+          },
+          "height": 1.8
+        },
+        {
+          "type": "built:b1kk1k67",
+          "at": [
+            27.5,
+            -66
+          ],
+          "yaw": -1.571,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              5,
+              1.8
+            ]
+          },
+          "height": 1.8
+        },
+        {
+          "type": "built:b1kk1k67",
+          "at": [
+            27.5,
+            -78
+          ],
+          "yaw": -1.571,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              5,
+              1.8
+            ]
+          },
+          "height": 1.8
+        }
+      ],
+      "doors": [
+        {
+          "type": "door",
+          "at": [
+            -12,
+            -89.4
+          ],
+          "up": 0,
+          "yaw": -3.142,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              8,
+              0.2
+            ]
+          },
+          "height": 18,
+          "opening": [
+            0,
+            0
+          ]
+        },
+        {
+          "type": "door",
+          "at": [
+            12,
+            -89.4
+          ],
+          "up": 0,
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              8,
+              0.2
+            ]
+          },
+          "height": 18,
+          "opening": [
+            0,
+            0
+          ]
+        },
+        {
+          "type": "door",
+          "at": [
+            12,
+            -0.6
+          ],
+          "up": 0,
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              8,
+              0.2
+            ]
+          },
+          "height": 18,
+          "opening": [
+            9,
+            0
+          ]
+        },
+        {
+          "type": "door",
+          "at": [
+            -12,
+            -0.6
+          ],
+          "up": 0,
+          "yaw": 3.142,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              8,
+              0.2
+            ]
+          },
+          "height": 18,
+          "opening": [
+            9,
+            0
+          ]
+        }
+      ],
+      "lights": [
+        {
+          "kind": "lamp",
+          "at": [
+            -22,
+            -84
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -7,
+            -84
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            8,
+            -84
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            23,
+            -84
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -22,
+            -71
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -7,
+            -71
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            8,
+            -71
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            23,
+            -71
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -22,
+            -58
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -7,
+            -58
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            8,
+            -58
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            23,
+            -58
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -22,
+            -45
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            8,
+            -45
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            23,
+            -45
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -22,
+            -32
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -7,
+            -32
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            8,
+            -32
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            23,
+            -32
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -22,
+            -19
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -7,
+            -19
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            8,
+            -19
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            23,
+            -19
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -22,
+            -6
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -7,
+            -6
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            8,
+            -6
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            23,
+            -6
+          ],
+          "up": 8
+        }
+      ]
+    },
+    {
+      "id": "loft",
+      "y": 14,
+      "thickness": 1,
+      "height": 8,
+      "pieces": [
+        {
+          "op": "add",
+          "rect": [
+            -29,
+            -89,
+            -10,
+            -20
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "from": [
+            -10,
+            -89
+          ],
+          "to": [
+            -10,
+            -20
+          ],
+          "rail": true
+        },
+        {
+          "from": [
+            -10,
+            -20
+          ],
+          "to": [
+            -24,
+            -20
+          ],
+          "rail": true
+        }
+      ],
+      "rooms": [
+        {
+          "outline": [
+            [
+              -29,
+              -89
+            ],
+            [
+              -10,
+              -89
+            ],
+            [
+              -10,
+              -20
+            ],
+            [
+              -29,
+              -20
+            ]
+          ],
+          "name": "Hayloft",
+          "theme": "deck"
+        }
+      ],
+      "areas": [
+        [
+          [
+            -29,
+            -89
+          ],
+          [
+            -10,
+            -89
+          ],
+          [
+            -10,
+            -20
+          ],
+          [
+            -29,
+            -20
+          ]
+        ]
+      ],
+      "walls": [
+        {
+          "from": [
+            -10,
+            -89
+          ],
+          "to": [
+            -10,
+            -20
+          ],
+          "rail": true
+        },
+        {
+          "from": [
+            -10,
+            -20
+          ],
+          "to": [
+            -24,
+            -20
+          ],
+          "rail": true
+        }
+      ],
+      "lights": []
+    }
+  ],
+  "connections": [
+    {
+      "kind": "stairs",
+      "lower": "ground",
+      "upper": "loft",
+      "foot": [
+        -26,
+        -4
+      ],
+      "head": [
+        -26,
+        -20
+      ],
+      "width": 4
+    }
+  ],
+  "roofs": [
+    {
+      "outline": [
+        [
+          -30,
+          -90
+        ],
+        [
+          30,
+          -90
+        ],
+        [
+          30,
+          0
+        ],
+        [
+          -30,
+          0
+        ]
+      ],
+      "y": 22,
+      "style": "gable",
+      "pitch": 38,
+      "overhang": 2,
+      "ridge": 90
+    }
+  ],
+  "collection": "q520f8mo"
+}

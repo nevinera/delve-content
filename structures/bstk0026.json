@@ -1,0 +1,670 @@
+{
+  "id": "bstk0026",
+  "version": 1,
+  "name": "Pig shed",
+  "tags": [
+    "animals",
+    "farm"
+  ],
+  "theme": "stone",
+  "ground": "ground",
+  "floors": [
+    {
+      "id": "ground",
+      "y": 0,
+      "height": 8,
+      "pieces": [
+        {
+          "op": "add",
+          "rect": [
+            -24,
+            -44,
+            24,
+            0
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "from": [
+            -24,
+            -44
+          ],
+          "to": [
+            24,
+            -44
+          ]
+        },
+        {
+          "from": [
+            24,
+            -44
+          ],
+          "to": [
+            24,
+            -24
+          ]
+        },
+        {
+          "from": [
+            24,
+            -24
+          ],
+          "to": [
+            -24,
+            -24
+          ]
+        },
+        {
+          "from": [
+            -24,
+            -24
+          ],
+          "to": [
+            -24,
+            -44
+          ]
+        },
+        {
+          "from": [
+            -8,
+            -44
+          ],
+          "to": [
+            -8,
+            -24
+          ]
+        },
+        {
+          "from": [
+            8,
+            -44
+          ],
+          "to": [
+            8,
+            -24
+          ]
+        },
+        {
+          "from": [
+            -24,
+            -24
+          ],
+          "to": [
+            -24,
+            0
+          ],
+          "low": true
+        },
+        {
+          "from": [
+            -24,
+            0
+          ],
+          "to": [
+            24,
+            0
+          ],
+          "low": true
+        },
+        {
+          "from": [
+            24,
+            0
+          ],
+          "to": [
+            24,
+            -24
+          ],
+          "low": true
+        },
+        {
+          "from": [
+            -8,
+            -24
+          ],
+          "to": [
+            -8,
+            0
+          ],
+          "low": true
+        },
+        {
+          "from": [
+            8,
+            -24
+          ],
+          "to": [
+            8,
+            0
+          ],
+          "low": true
+        }
+      ],
+      "rooms": [
+        {
+          "outline": [
+            [
+              -24,
+              -44
+            ],
+            [
+              24,
+              -44
+            ],
+            [
+              24,
+              -24
+            ],
+            [
+              -24,
+              -24
+            ]
+          ],
+          "name": "Sties",
+          "theme": "barn"
+        },
+        {
+          "outline": [
+            [
+              -24,
+              -24
+            ],
+            [
+              24,
+              -24
+            ],
+            [
+              24,
+              0
+            ],
+            [
+              -24,
+              0
+            ]
+          ],
+          "name": "Pens",
+          "theme": "yard"
+        }
+      ],
+      "areas": [
+        [
+          [
+            -24,
+            -44
+          ],
+          [
+            24,
+            -44
+          ],
+          [
+            24,
+            0
+          ],
+          [
+            -24,
+            0
+          ]
+        ]
+      ],
+      "walls": [
+        {
+          "from": [
+            -24,
+            -44
+          ],
+          "to": [
+            -8,
+            -44
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 3,
+              "sill": 5,
+              "height": 2,
+              "glass": false,
+              "along": 6.5
+            }
+          ],
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            -8,
+            -44
+          ],
+          "to": [
+            8,
+            -44
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 3,
+              "sill": 5,
+              "height": 2,
+              "glass": false,
+              "along": 6.5
+            }
+          ],
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            8,
+            -44
+          ],
+          "to": [
+            24,
+            -44
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 3,
+              "sill": 5,
+              "height": 2,
+              "glass": false,
+              "along": 6.5
+            }
+          ],
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            24,
+            -44
+          ],
+          "to": [
+            24,
+            -24
+          ],
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            24,
+            -24
+          ],
+          "to": [
+            8,
+            -24
+          ],
+          "openings": [
+            {
+              "kind": "doorway",
+              "width": 6,
+              "height": 7,
+              "style": "plain",
+              "along": 5
+            }
+          ],
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            8,
+            -24
+          ],
+          "to": [
+            -8,
+            -24
+          ],
+          "openings": [
+            {
+              "kind": "doorway",
+              "width": 6,
+              "height": 7,
+              "style": "plain",
+              "along": 5
+            }
+          ],
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            -8,
+            -24
+          ],
+          "to": [
+            -24,
+            -24
+          ],
+          "openings": [
+            {
+              "kind": "doorway",
+              "width": 6,
+              "height": 7,
+              "style": "plain",
+              "along": 5
+            }
+          ],
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            -24,
+            -24
+          ],
+          "to": [
+            -24,
+            -44
+          ],
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            -8,
+            -44
+          ],
+          "to": [
+            -8,
+            -24
+          ],
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            8,
+            -44
+          ],
+          "to": [
+            8,
+            -24
+          ],
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            -24,
+            -24
+          ],
+          "to": [
+            -24,
+            0
+          ],
+          "height": 3.5,
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            -24,
+            0
+          ],
+          "to": [
+            -8,
+            0
+          ],
+          "height": 3.5,
+          "openings": [
+            {
+              "kind": "gap",
+              "width": 4,
+              "height": 3.5,
+              "along": 6
+            }
+          ],
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            -8,
+            0
+          ],
+          "to": [
+            8,
+            0
+          ],
+          "height": 3.5,
+          "openings": [
+            {
+              "kind": "gap",
+              "width": 4,
+              "height": 3.5,
+              "along": 6
+            }
+          ],
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            8,
+            0
+          ],
+          "to": [
+            24,
+            0
+          ],
+          "height": 3.5,
+          "openings": [
+            {
+              "kind": "gap",
+              "width": 4,
+              "height": 3.5,
+              "along": 6
+            }
+          ],
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            24,
+            0
+          ],
+          "to": [
+            24,
+            -24
+          ],
+          "height": 3.5,
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            -8,
+            -24
+          ],
+          "to": [
+            -8,
+            0
+          ],
+          "height": 3.5,
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        },
+        {
+          "from": [
+            8,
+            -24
+          ],
+          "to": [
+            8,
+            0
+          ],
+          "height": 3.5,
+          "paint": {
+            "left": "stoneBlocks",
+            "right": "stoneBlocks"
+          }
+        }
+      ],
+      "objects": [
+        {
+          "type": "built:b1kk1k67",
+          "at": [
+            -9.5,
+            -12
+          ],
+          "yaw": -1.571,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              5,
+              1.8
+            ]
+          },
+          "height": 1.8
+        },
+        {
+          "type": "built:b1kk1k67",
+          "at": [
+            6.5,
+            -12
+          ],
+          "yaw": -1.571,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              5,
+              1.8
+            ]
+          },
+          "height": 1.8
+        },
+        {
+          "type": "built:b1kk1k67",
+          "at": [
+            22.5,
+            -12
+          ],
+          "yaw": -1.571,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              5,
+              1.8
+            ]
+          },
+          "height": 1.8
+        }
+      ],
+      "lights": [
+        {
+          "kind": "lamp",
+          "at": [
+            -16,
+            -39
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -16,
+            -29
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            0,
+            -39
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            0,
+            -29
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            16,
+            -39
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            16,
+            -29
+          ],
+          "up": 8
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "roofs": [
+    {
+      "outline": [
+        [
+          -24,
+          -44
+        ],
+        [
+          24,
+          -44
+        ],
+        [
+          24,
+          -24
+        ],
+        [
+          -24,
+          -24
+        ]
+      ],
+      "y": 8,
+      "style": "gable",
+      "pitch": 28,
+      "overhang": 2,
+      "ridge": 0,
+      "surface": "thatch"
+    }
+  ],
+  "collection": "q520f8mo"
+}

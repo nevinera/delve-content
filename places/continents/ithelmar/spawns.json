@@ -25889,7 +25889,7 @@
     {
       "id": "nhwenna1",
       "npc": "wkkeeper",
-      "name": "Keeper Wenna Holt",
+      "name": "Keeper Hilde Ashby",
       "title": "Hosteller",
       "dialogue": "nhwenna1",
       "innkeeper": true,
@@ -25950,6 +25950,154 @@
       "levels": [
         10,
         10
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "hxama001",
+      "npc": "nhfarmer",
+      "name": "Ama Rusk",
+      "title": "Innkeeper",
+      "dialogue": "hxama001",
+      "innkeeper": true,
+      "restArea": "hxrest01",
+      "vendor": {
+        "sells": [
+          "stock/oat-cake",
+          "stock/smoked-sausage",
+          "stock/roast-fowl",
+          "stock/spiced-venison",
+          "stock/cured-ham",
+          "stock/pepper-steak",
+          "stock/hearty-meat-pie",
+          "stock/well-water",
+          "stock/mint-tea",
+          "stock/honeyed-milk",
+          "stock/mountain-cider",
+          "stock/berry-cordial",
+          "stock/pear-nectar",
+          "stock/glacier-water"
+        ]
+      },
+      "at": [
+        10528.8,
+        38.5,
+        21531.2
+      ],
+      "yaw": 45,
+      "levels": [
+        6,
+        6
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "hxwenna1",
+      "npc": "nhfarmer",
+      "name": "Wenna Hallam",
+      "title": "Head of the Hallams",
+      "at": [
+        10771.4,
+        null,
+        21299.9
+      ],
+      "yaw": 225,
+      "levels": [
+        7,
+        7
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nhtobin1",
+      "npc": "nhfarmer",
+      "name": "Grandsire Tobin Hallam",
+      "title": "Cider-maker",
+      "trains": {
+        "profession": "cooking",
+        "upTo": "Journeyman"
+      },
+      "at": [
+        10795,
+        null,
+        21326
+      ],
+      "yaw": 250,
+      "levels": [
+        6,
+        6
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "hxdunst1",
+      "npc": "nhfarmer",
+      "name": "Dunstan Cobb",
+      "title": "Wheelwright",
+      "vendor": {
+        "sells": [
+          "stock/cloth-pouch",
+          "stock/canvas-satchel",
+          "stock/travelers-haversack",
+          "stock/well-water",
+          "stock/mint-tea",
+          "stock/honeyed-milk",
+          "stock/mountain-cider",
+          "stock/berry-cordial",
+          "stock/pear-nectar",
+          "stock/glacier-water",
+          "stock/mining-pick",
+          "stock/skinning-knife",
+          "stock/smithing-hammer",
+          "stock/fishing-pole",
+          "stock/coarse-thread",
+          "stock/fine-thread",
+          "stock/silken-thread",
+          "stock/heavy-silken-thread",
+          "stock/glass-vial",
+          "stock/leaded-vial",
+          "stock/crystal-vial",
+          "stock/mild-spices",
+          "stock/hot-spices",
+          "stock/salt",
+          "stock/flour",
+          "stock/cooking-oil",
+          "stock/enchanting-vellum",
+          "stock/copper-rod",
+          "stock/coal"
+        ],
+        "repairs": true
+      },
+      "at": [
+        10525.7,
+        null,
+        21225.7
+      ],
+      "yaw": 135,
+      "levels": [
+        7,
+        7
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "hxorla01",
+      "npc": "nhfarmer",
+      "name": "Orla Cobb",
+      "title": "Hunter",
+      "trains": {
+        "profession": "skinning",
+        "upTo": "Journeyman"
+      },
+      "at": [
+        10432,
+        null,
+        21262
+      ],
+      "yaw": 120,
+      "levels": [
+        7,
+        7
       ],
       "respawn": 300
     }

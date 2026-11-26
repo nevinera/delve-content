@@ -1,0 +1,23 @@
+{
+  "id": "hxama001",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "A Waker! Come in, sit, there's stew. Where did you wake, then? The Abbey? Who's keeping the door these days?",
+      "choices": [
+        {
+          "text": "What have you got to eat?",
+          "do": "vendor"
+        },
+        {
+          "text": "I'd like a bed here.",
+          "do": "home"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  }
+}

@@ -84,7 +84,8 @@
         ],
         "quests": "About 7.",
         "site": "Low farmland between the streams that come down from the north valley and the Prow's ponds, with a brook at the door.",
-        "situation": "A crossroads: the zone's ways all meet here, above where the streams gather and run down to the river."
+        "situation": "A crossroads: the zone's ways all meet here, above where the streams gather and run down to the river.",
+        "scene": "Five ways meet at the shrine, a wayside shrine with a bench and bluebells, its bell gone to the militia. The Hallams farm the north-east wedge: their farmhouse faces the cross, with the hen house, a big barn, a haystack and the hedge-apple trees where Tobin keeps his cider barrels. The windmill stands in the north wedge. The Cobbs hold the north-west, toward the stream: a farmhouse, Dunstan's smithy, where he mends carts and gear, and a woodshed where Orla hangs her game. The Rusks hold the south-west: the farmhouse they let to travellers, the inn, with a pig shed, a granary and barley rows with a scarecrow. The crossroads graveyard lies in the south-east wedge, off the road."
       },
       "e5uogbb6": {
         "name": "Brightford",
@@ -1302,7 +1303,7 @@
         "zone": "3e5710y9"
       },
       "nhwenna1": {
-        "name": "Keeper Wenna Holt",
+        "name": "Keeper Hilde Ashby",
         "hub": "yrm6ylej",
         "traits": [
           "fussy",
@@ -1538,6 +1539,54 @@
         ],
         "voice": "Bookish, sure he's cleverer than the village.",
         "notes": "A weak necromancer, Marra's grandson. Raises the drowned dead from the old wreck, from the chamber in the sea-cave. A hostile NPC, the chain's end.",
+        "zone": "3e5710y9"
+      },
+      "hxwenna1": {
+        "name": "Wenna Hallam",
+        "hub": "aesl88uw",
+        "traits": [
+          "proud",
+          "stubborn",
+          "fair"
+        ],
+        "voice": "Measured and level, every word weighed like grain. Never raises her voice; never needs to.",
+        "notes": "Head of the Hallams, and so of the crossroads. Knows the Council's measure is false and can't prove it yet. Starts the tithe.",
+        "zone": "3e5710y9"
+      },
+      "hxama001": {
+        "name": "Ama Rusk",
+        "hub": "aesl88uw",
+        "traits": [
+          "warm",
+          "nosy",
+          "shrewd"
+        ],
+        "voice": "Asks two questions for every one she answers.",
+        "notes": "The Rusks take in travellers since the tithe took the harvest. Feeds Wakers, beds them, and hears all the gossip of the crossroads.",
+        "zone": "3e5710y9"
+      },
+      "hxdunst1": {
+        "name": "Dunstan Cobb",
+        "hub": "aesl88uw",
+        "traits": [
+          "quiet",
+          "patient",
+          "dour"
+        ],
+        "voice": "Few words, most of them about wood.",
+        "notes": "Wheelwright and smith of the Cobbs. Mends carts, ploughs and Wakers' gear, and sells what a traveller needs.",
+        "zone": "3e5710y9"
+      },
+      "hxorla01": {
+        "name": "Orla Cobb",
+        "hub": "aesl88uw",
+        "traits": [
+          "sharp",
+          "restless",
+          "dry"
+        ],
+        "voice": "Short and wry, always looking past you at the tree line.",
+        "notes": "Dunstan's sister, who hunts the hills for the pot. Teaches Wakers to skin what they kill.",
         "zone": "3e5710y9"
       }
     },
