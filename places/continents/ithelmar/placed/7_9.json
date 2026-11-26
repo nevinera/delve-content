@@ -1,0 +1,328 @@
+{
+ "version": 2,
+ "objects": [
+  {
+   "id": "objviu49",
+   "type": "built:bcave019",
+   "at": [
+    14978,
+    19036
+   ],
+   "yaw": 1.5708,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     1.4,
+     1.2
+    ]
+   },
+   "height": 8.6
+  },
+  {
+   "id": "obju1zu7",
+   "type": "built:bcave019",
+   "at": [
+    14978,
+    19066
+   ],
+   "yaw": 1.5708,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     1.4,
+     1.2
+    ]
+   },
+   "height": 8.6
+  },
+  {
+   "id": "objaredr",
+   "type": "built:bcave015",
+   "at": [
+    14972,
+    19032
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     4.1,
+     0.9
+    ]
+   },
+   "height": 7
+  },
+  {
+   "id": "obj8vsxz",
+   "type": "built:bcave009",
+   "at": [
+    14962,
+    19052
+   ],
+   "yaw": 1.5708,
+   "scale": 1,
+   "footprint": {
+    "open": 4.21
+   },
+   "height": 0.6
+  },
+  {
+   "id": "obj8c02k",
+   "type": "built:bcave009",
+   "at": [
+    14954,
+    19052
+   ],
+   "yaw": 1.5708,
+   "scale": 1,
+   "footprint": {
+    "open": 4.21
+   },
+   "height": 0.6
+  },
+  {
+   "id": "objb5r0p",
+   "type": "built:bcave008",
+   "at": [
+    14956,
+    19052
+   ],
+   "yaw": 1.5708,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     4.1,
+     2.7
+    ]
+   },
+   "height": 3.9
+  },
+  {
+   "id": "obj99uug",
+   "type": "built:bcave017",
+   "at": [
+    14930,
+    19032
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     7,
+     6
+    ]
+   },
+   "height": 3.1
+  },
+  {
+   "id": "objfypwz",
+   "type": "built:bcave017",
+   "at": [
+    14922,
+    19046
+   ],
+   "yaw": 1.0472,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     7,
+     6
+    ]
+   },
+   "height": 3.1
+  },
+  {
+   "id": "obji94rh",
+   "type": "built:bcave017",
+   "at": [
+    14936,
+    19080
+   ],
+   "yaw": 2.0944,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     7,
+     6
+    ]
+   },
+   "height": 3.1
+  },
+  {
+   "id": "objpsyo5",
+   "type": "built:bcave012",
+   "at": [
+    14944,
+    19070
+   ],
+   "yaw": 0.5236,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     4.2,
+     2.6
+    ]
+   },
+   "height": 1.4
+  },
+  {
+   "id": "objb4b5u",
+   "type": "built:bcave011",
+   "at": [
+    14948,
+    19036
+   ],
+   "yaw": 0.7854,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     3.7,
+     2.4
+    ]
+   },
+   "height": 0.3
+  },
+  {
+   "id": "obj1aq3a",
+   "type": "built:bcave018",
+   "at": [
+    14962,
+    19074
+   ],
+   "yaw": 0.1745,
+   "scale": 1,
+   "footprint": {
+    "outlines": [
+     [
+      [
+       -1.36,
+       -0.05
+      ],
+      [
+       -0.77,
+       -0.1
+      ],
+      [
+       0.77,
+       -0.1
+      ],
+      [
+       0.77,
+       0.1
+      ],
+      [
+       -0.77,
+       0.1
+      ],
+      [
+       -1.36,
+       0.05
+      ]
+     ],
+     [
+      [
+       0.65,
+       0.25
+      ],
+      [
+       2.65,
+       0.25
+      ],
+      [
+       2.65,
+       0.55
+      ],
+      [
+       0.65,
+       0.55
+      ]
+     ]
+    ]
+   },
+   "height": 4.32
+  },
+  {
+   "id": "obj0ozp6",
+   "type": "built:bcave016",
+   "at": [
+    14966,
+    19082
+   ],
+   "yaw": 0.3491,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     4.75,
+     2.95
+    ]
+   },
+   "height": 3.8
+  },
+  {
+   "id": "objo9mwc",
+   "type": "built:bcave014",
+   "at": [
+    14912,
+    19072
+   ],
+   "yaw": 1.7453,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     7,
+     7
+    ]
+   },
+   "height": 7.47
+  },
+  {
+   "id": "obj2htzn",
+   "type": "built:bcave026",
+   "at": [
+    14906,
+    19060
+   ],
+   "yaw": 0.6981,
+   "scale": 1,
+   "footprint": {
+    "open": 3.02
+   },
+   "height": 1.15
+  },
+  {
+   "id": "obj6txwt",
+   "type": "built:bcave005",
+   "at": [
+    14940,
+    19020
+   ],
+   "yaw": 4.7124,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     3.7,
+     1.4
+    ]
+   },
+   "height": 9.11
+  },
+  {
+   "id": "objq2gtp",
+   "type": "built:bcave015",
+   "at": [
+    14930,
+    19064
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     4.1,
+     0.9
+    ]
+   },
+   "height": 7
+  }
+ ],
+ "slabs": []
+}

@@ -261,7 +261,8 @@
         "quests": [
           "nhcandle",
           "nhglass1"
-        ]
+        ],
+        "scene": "Round the burrows' mouth at 14860,21602: stolen candles burning on rocks and in clusters, a candlestick and a candle dish taken from the Abbey, hide bedding, rubble and a crude totem."
       },
       "3fhl1u5w": {
         "name": "Barn rats",
@@ -325,7 +326,8 @@
         "why": "Kobold diggers outside the diggings' mouth.",
         "quests": [
           "csdig01"
-        ]
+        ],
+        "scene": "Round the diggings' mouth at 14990,19050, on the slope below it: timber props either side of the mouth, rails and an ore cart coming out, three spoil heaps, ore lumps, tools, crates, two mine lanterns, a hide shelter with bedding and a crude totem. The camp's marker sits about 1,000 ft west of the mouth; its diggers belong round the mouth."
       },
       "ehl0lfik": {
         "name": "Cliff-foot spiders",
