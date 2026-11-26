@@ -342,7 +342,8 @@
         "why": "Slade's tallyman and his watchers above the grain road.",
         "quests": [
           "thtally1"
-        ]
+        ],
+        "scene": "A watch post on the hillside above the grain road at 11450,18450: a bandit lookout looking west over the valley, with a lean-to, a campfire, two bedrolls and a few crates and sacks behind it."
       },
       "nk87zuej": {
         "name": "Slade's camp",
