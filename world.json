@@ -36,5 +36,19 @@
         21882
       ]
     }
+  ],
+  "origins": [
+    {
+      "origin": "stock/human",
+      "spawns": [
+        {
+          "continent": "ithelmar",
+          "at": [
+            14784,
+            22045
+          ]
+        }
+      ]
+    }
   ]
 }
