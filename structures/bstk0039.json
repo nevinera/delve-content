@@ -1,0 +1,258 @@
+{
+  "id": "bstk0039",
+  "version": 1,
+  "name": "Bandit lodge",
+  "tags": [
+    "bandit",
+    "camp",
+    "home",
+    "small"
+  ],
+  "theme": "cabin",
+  "ground": "ground",
+  "floors": [
+    {
+      "id": "ground",
+      "y": 0,
+      "height": 11,
+      "pieces": [
+        {
+          "op": "add",
+          "rect": [
+            -12,
+            -18,
+            12,
+            0
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "from": [
+            -12,
+            -18
+          ],
+          "to": [
+            12,
+            -18
+          ]
+        },
+        {
+          "from": [
+            12,
+            -18
+          ],
+          "to": [
+            12,
+            0
+          ]
+        },
+        {
+          "from": [
+            12,
+            0
+          ],
+          "to": [
+            -12,
+            0
+          ]
+        },
+        {
+          "from": [
+            -12,
+            0
+          ],
+          "to": [
+            -12,
+            -18
+          ]
+        }
+      ],
+      "areas": [
+        [
+          [
+            -12,
+            -18
+          ],
+          [
+            12,
+            -18
+          ],
+          [
+            12,
+            0
+          ],
+          [
+            -12,
+            0
+          ]
+        ]
+      ],
+      "walls": [
+        {
+          "from": [
+            -12,
+            -18
+          ],
+          "to": [
+            12,
+            -18
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 3,
+              "sill": 5,
+              "height": 3,
+              "glass": true,
+              "along": 14.5
+            }
+          ]
+        },
+        {
+          "from": [
+            12,
+            -18
+          ],
+          "to": [
+            12,
+            0
+          ]
+        },
+        {
+          "from": [
+            12,
+            0
+          ],
+          "to": [
+            -12,
+            0
+          ],
+          "openings": [
+            {
+              "kind": "doorway",
+              "width": 6,
+              "height": 9,
+              "along": 9
+            },
+            {
+              "kind": "window",
+              "width": 3,
+              "sill": 5,
+              "height": 3,
+              "glass": true,
+              "along": 17.5
+            }
+          ]
+        },
+        {
+          "from": [
+            -12,
+            0
+          ],
+          "to": [
+            -12,
+            -18
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 3,
+              "sill": 5,
+              "height": 3,
+              "glass": true,
+              "along": 7.5
+            }
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "type": "built:b1b2tcrz",
+          "at": [
+            9.5,
+            -9
+          ],
+          "yaw": -1.571,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              4,
+              3
+            ]
+          },
+          "height": 4.3
+        }
+      ],
+      "doors": [
+        {
+          "type": "door",
+          "at": [
+            6,
+            -0.6
+          ],
+          "up": 0,
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              6,
+              0.2
+            ]
+          },
+          "height": 9,
+          "opening": [
+            2,
+            0
+          ]
+        }
+      ],
+      "lights": [
+        {
+          "kind": "candle",
+          "at": [
+            -6,
+            -9
+          ],
+          "up": 3
+        },
+        {
+          "kind": "candle",
+          "at": [
+            6,
+            -9
+          ],
+          "up": 3
+        }
+      ]
+    }
+  ],
+  "roofs": [
+    {
+      "outline": [
+        [
+          -12,
+          -18
+        ],
+        [
+          12,
+          -18
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          -12,
+          0
+        ]
+      ],
+      "y": 11,
+      "style": "shed",
+      "pitch": 15,
+      "overhang": 2,
+      "ridge": 0
+    }
+  ],
+  "collection": "tcoroy5e"
+}

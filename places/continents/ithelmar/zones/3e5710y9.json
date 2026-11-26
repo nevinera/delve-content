@@ -352,7 +352,8 @@
         "quests": [
           "thcamp01"
         ],
-        "site": "Slade's camp, with Slade's tent"
+        "site": "Slade's camp, with Slade's tent",
+        "scene": "The stock bandit camp on a shelf cut into the hillside at 12620,18110, its floor at 336 ft, with a rock face behind it to the north-east: a palisade round a lodge, a lookout, tents, a fire and stores. The way up is the open slope below it, from the south and west."
       },
       "1znsr3iz": {
         "name": "Slade's tent",
@@ -362,7 +363,8 @@
         "quests": [
           "thslade1"
         ],
-        "site": "Slade's camp, with Slade's tent"
+        "site": "Slade's camp, with Slade's tent",
+        "scene": "Slade's round command tent at the shelf's east end, beside the palisade, with a brazier, a weapon rack, supply crates and two piles of grain sacks taken off the wagons."
       },
       "2s50mx6v": {
         "name": "Valley-edge wolves",
