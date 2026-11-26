@@ -1,0 +1,31 @@
+{
+  "id": "nhfox001",
+  "name": "Fox",
+  "family": "foxes",
+  "skinnable": true,
+  "creatureType": "beast",
+  "look": {
+    "body": "wolf",
+    "coloration": "timber",
+    "scale": 0.5
+  },
+  "variants": 3,
+  "reaction": "hostile",
+  "levels": [
+    1,
+    4
+  ],
+  "attack": {
+    "speed": 1.6
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.7,
+  "damage": 1.1,
+  "armor": 0.6,
+  "notes": "Lives in: lakeshores and scrub near farms. A stand-in look, on a wolf's body, till there's a fox's."
+}
