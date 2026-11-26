@@ -1,0 +1,160 @@
+{
+ "version": 2,
+ "objects": [
+  {
+   "id": "objc10a6",
+   "type": "built:broad011",
+   "at": [
+    12409.9,
+    23237.9
+   ],
+   "yaw": 3.2339,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objc2y4w",
+   "type": "built:broad011",
+   "at": [
+    12564.3,
+    23208.4
+   ],
+   "yaw": 0.1558,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objuw30c",
+   "type": "built:broad011",
+   "at": [
+    12702.7,
+    23216.3
+   ],
+   "yaw": 3.0024,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objga7ko",
+   "type": "built:broad011",
+   "at": [
+    12868.2,
+    23205.7
+   ],
+   "yaw": 6.1012,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "obj2dpnt",
+   "type": "built:broad011",
+   "at": [
+    13026.5,
+    23252.2
+   ],
+   "yaw": 3.0513,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objutdyk",
+   "type": "built:broad011",
+   "at": [
+    13181.1,
+    23248.9
+   ],
+   "yaw": 6.0103,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "obj53xnn",
+   "type": "built:broad011",
+   "at": [
+    13346.4,
+    23288.2
+   ],
+   "yaw": 3.1804,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objuo76o",
+   "type": "built:broad011",
+   "at": [
+    13481.7,
+    23307.8
+   ],
+   "yaw": 6.0071,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "obj45d3w",
+   "type": "built:broad011",
+   "at": [
+    13630.2,
+    23420.2
+   ],
+   "yaw": 2.503,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "obj2adml",
+   "type": "built:broad011",
+   "at": [
+    13712.1,
+    23544.7
+   ],
+   "yaw": 5.2575,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objj99wv",
+   "type": "built:broad011",
+   "at": [
+    13784.2,
+    23668.5
+   ],
+   "yaw": 2.9865,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objrsuw1",
+   "type": "built:broad011",
+   "at": [
+    13960.5,
+    23713.4
+   ],
+   "yaw": 5.685,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objj1bp4",
+   "type": "built:broad011",
+   "at": [
+    14102.8,
+    23778
+   ],
+   "yaw": 3.0037,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objpc2qf",
+   "type": "built:broad011",
+   "at": [
+    14263.2,
+    23779.7
+   ],
+   "yaw": 0.3804,
+   "scale": 1,
+   "road": "roadcbhi"
+  }
+ ],
+ "slabs": []
+}

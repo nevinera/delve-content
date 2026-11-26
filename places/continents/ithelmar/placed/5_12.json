@@ -1,0 +1,17 @@
+{
+ "version": 2,
+ "objects": [
+  {
+   "id": "objzf0fw",
+   "type": "built:broad004",
+   "at": [
+    10558.6,
+    25050.8
+   ],
+   "yaw": 4.5702,
+   "scale": 0.6,
+   "road": "roadthfn"
+  }
+ ],
+ "slabs": []
+}

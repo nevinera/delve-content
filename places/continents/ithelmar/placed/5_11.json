@@ -1,0 +1,127 @@
+{
+ "version": 2,
+ "objects": [
+  {
+   "id": "objbdw1l",
+   "type": "built:broad011",
+   "at": [
+    11984.9,
+    22659.6
+   ],
+   "yaw": 1.3685,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objckyk4",
+   "type": "built:broad011",
+   "at": [
+    11990.3,
+    22809.8
+   ],
+   "yaw": 4.7297,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objco96l",
+   "type": "built:broad011",
+   "at": [
+    11955.8,
+    22983.6
+   ],
+   "yaw": 1.2465,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objf2u5r",
+   "type": "built:broad011",
+   "at": [
+    11960.9,
+    23120.5
+   ],
+   "yaw": 4.7086,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objy5oqm",
+   "type": "built:broad011",
+   "at": [
+    12080.1,
+    23223.6
+   ],
+   "yaw": 2.832,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "objkkfgb",
+   "type": "built:broad011",
+   "at": [
+    12222.7,
+    23236
+   ],
+   "yaw": 6.2415,
+   "scale": 1,
+   "road": "road025q"
+  },
+  {
+   "id": "obj0shur",
+   "type": "built:broad004",
+   "at": [
+    10896.2,
+    22836.7
+   ],
+   "yaw": 1.4945,
+   "scale": 0.6,
+   "road": "roadthfn"
+  },
+  {
+   "id": "objf47rq",
+   "type": "built:broad004",
+   "at": [
+    10751.6,
+    23283.2
+   ],
+   "yaw": 4.2464,
+   "scale": 0.6,
+   "road": "roadthfn"
+  },
+  {
+   "id": "objzajhi",
+   "type": "built:broad004",
+   "at": [
+    10574.5,
+    23752.8
+   ],
+   "yaw": 1.3103,
+   "scale": 0.6,
+   "road": "roadthfn"
+  },
+  {
+   "id": "objhokza",
+   "type": "built:broad004",
+   "at": [
+    10471,
+    24181.5
+   ],
+   "yaw": 4.8576,
+   "scale": 0.6,
+   "road": "roadthfn"
+  },
+  {
+   "id": "obje8bgg",
+   "type": "built:broad004",
+   "at": [
+    10493.4,
+    24573
+   ],
+   "yaw": 1.5579,
+   "scale": 0.6,
+   "road": "roadthfn"
+  }
+ ],
+ "slabs": []
+}
