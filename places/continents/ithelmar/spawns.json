@@ -26603,6 +26603,48 @@
         12
       ],
       "respawn": 300
+    },
+    {
+      "id": "hxbryn01",
+      "npc": "nhfarmer",
+      "name": "Bryn Cobb",
+      "title": "Miner",
+      "trains": {
+        "profession": "mining",
+        "upTo": "Journeyman"
+      },
+      "at": [
+        10505,
+        null,
+        21248
+      ],
+      "yaw": 300,
+      "levels": [
+        8,
+        8
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "hxmaud01",
+      "npc": "nhfarmer",
+      "name": "Gran Maud Rusk",
+      "title": "Herbalist",
+      "trains": {
+        "profession": "herbalism",
+        "upTo": "Journeyman"
+      },
+      "at": [
+        10585,
+        null,
+        21548
+      ],
+      "yaw": 200,
+      "levels": [
+        9,
+        9
+      ],
+      "respawn": 300
     }
   ]
 }

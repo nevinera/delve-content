@@ -1649,6 +1649,30 @@
         "voice": "Calls her prices across the square like a challenge.",
         "notes": "Keeps a market stall of leather jerkins, boots and bows, most of it her brother's work from the hills.",
         "zone": "3e5710y9"
+      },
+      "hxbryn01": {
+        "name": "Bryn Cobb",
+        "hub": "aesl88uw",
+        "traits": [
+          "cheerful",
+          "strong",
+          "slow"
+        ],
+        "voice": "Slow and easy, laughs at his own jokes before the end.",
+        "notes": "The youngest Cobb. Digs the stone and iron out of the bank by the stream for Dunstan's forge, and shows Wakers how to swing a pick.",
+        "zone": "3e5710y9"
+      },
+      "hxmaud01": {
+        "name": "Gran Maud Rusk",
+        "hub": "aesl88uw",
+        "traits": [
+          "wise",
+          "sharp-tongued",
+          "kindly"
+        ],
+        "voice": "Scolds and doctors in the same breath.",
+        "notes": "Ama's mother. Gathers herbs along the hedges and field edges for the farm's ills, and teaches Wakers what to pick and what to leave.",
+        "zone": "3e5710y9"
       }
     },
     "quests": {
