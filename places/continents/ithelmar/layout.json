@@ -1876,7 +1876,112 @@
       ]
     }
   ],
-  "hubs": [],
+  "hubs": [
+    {
+      "id": "yrm6ylej",
+      "name": "Wakewell Abbey",
+      "type": "outpost",
+      "at": [
+        14690,
+        22160
+      ],
+      "goal": 2.5,
+      "levels": [
+        1,
+        4
+      ],
+      "shown": true
+    },
+    {
+      "id": "aesl88uw",
+      "name": "Hallam's cross",
+      "type": "dwelling",
+      "at": [
+        10660,
+        21390
+      ],
+      "goal": 1,
+      "levels": [
+        4,
+        6
+      ],
+      "shown": true
+    },
+    {
+      "id": "e5uogbb6",
+      "name": "Brightford",
+      "type": "town",
+      "at": [
+        8150,
+        23750
+      ],
+      "goal": 2,
+      "levels": [
+        5,
+        9
+      ],
+      "shown": true
+    },
+    {
+      "id": "r322s8fi",
+      "name": "Cliffside camp",
+      "type": "outpost",
+      "at": [
+        14050,
+        19030
+      ],
+      "goal": 1.2,
+      "levels": [
+        6,
+        9
+      ],
+      "shown": true
+    },
+    {
+      "id": "d908slex",
+      "name": "Tennely Hall",
+      "type": "front",
+      "at": [
+        10210,
+        18350
+      ],
+      "goal": 0.8,
+      "levels": [
+        8,
+        10
+      ],
+      "shown": true
+    },
+    {
+      "id": "fx4u6pd9",
+      "name": "Northgate",
+      "type": "outpost",
+      "at": [
+        7300,
+        18950
+      ],
+      "goal": 0.7,
+      "levels": [
+        8,
+        10
+      ],
+      "shown": true
+    }
+  ],
   "dungeons": [],
-  "camps": []
+  "camps": [],
+  "routes": [
+    {
+      "id": "jxkmoe27",
+      "zone": "3e5710y9",
+      "hubs": [
+        "yrm6ylej",
+        "aesl88uw",
+        "e5uogbb6",
+        "r322s8fi",
+        "d908slex",
+        "fx4u6pd9"
+      ]
+    }
+  ]
 }

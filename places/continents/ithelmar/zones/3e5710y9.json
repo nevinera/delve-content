@@ -39,10 +39,10 @@
       }
     },
     "hubs": {
-      "1zwubmpj": {
+      "yrm6ylej": {
         "name": "Wakewell Abbey",
         "what": "The spawn. Keepers, a dormitory where Wakers come to, a small chapel, a herb garden, a hen yard and two rowboats on the lake.",
-        "where": "On a bench above the lake's north-east shore, under the Prow and the plateau cliff, looking across the water to the falls.",
+        "where": "On a bench above the lake's north-east shore, under the plateau cliff, looking across the water to the falls.",
         "mood": "Gentle, odd and a little sad. Short of hands: the Council's levy took the lay brothers for the gap, so the Wakers do the chores.",
         "people": [
           "Abbess Corra Lindqvist, the abbess",
@@ -61,13 +61,13 @@
           "Kobold sneaks' burrows in the cliff's north end"
         ],
         "quests": "About 13.",
-        "site": "Dry, flat ground 15 ft over the lake, with the lake and the Prow falls' stream for water.",
+        "site": "Dry ground on a bench some 45 ft over the lake, sloping gently to the shore, with the lake for water.",
         "situation": "The falls: where the cascade comes off the plateau into the lake, the Dream's touch on the world."
       },
-      "9bpi8b84": {
+      "aesl88uw": {
         "name": "Hallam's cross",
         "what": "Three farm families round a shrine at a crossroads, behind on their tithe. The militia took the shrine's bell as scrap for the gap.",
-        "where": "Crossroads farms on Hallam brook, in the middle of the zone, where the ways from the Abbey, Brightford, the cliff foot and the hills meet.",
+        "where": "Crossroads farms between the middle valley's streams, in the middle of the zone, where the ways from the Abbey, Brightford, the cliff foot and the hills meet.",
         "mood": "Proud and worn. They're right that the Council's measure is false.",
         "people": [
           "Wenna Hallam, head of the Hallams",
@@ -82,13 +82,13 @@
           "Hedge apples for cider, the one thing the Council doesn't count"
         ],
         "quests": "About 7.",
-        "site": "Flat farmland on the brook's bank.",
-        "situation": "A crossroads: the zone's ways all meet here, near where the brook joins the river."
+        "site": "Low farmland between the streams that come down from the north valley and the Prow's ponds, with a brook at the door.",
+        "situation": "A crossroads: the zone's ways all meet here, above where the streams gather and run down to the river."
       },
-      "22rxlhzd": {
+      "e5uogbb6": {
         "name": "Brightford",
         "what": "The zone's town, called Tennelford until the revolution. Inn, vendors, trainers, the reeve's hall, a tithe barn, a militia post with a lock-up, and the Tennelys' statue lying toppled in the square.",
-        "where": "On the north bank of the Lake river at its lowest ford, the way south to the Southern heartland.",
+        "where": "On the south bank of the Lake river at its lowest ford, the way south through the crags to the Southern heartland.",
         "mood": "Busy and careful. The Council's seat here, and the old guard's memories in the same square.",
         "people": [
           "Reeve Odile Marchbank, the Council's reeve",
@@ -116,13 +116,13 @@
           "Out south over the ford to the Southern heartland"
         ],
         "quests": "About 15.",
-        "site": "A little rise on the north bank, above the river meadows.",
-        "situation": "The lowest ford on the Lake river, where the south road and the north road cross it."
+        "site": "Low meadow on the south bank, a few feet over the river, with the south crags behind it.",
+        "situation": "The lowest ford on the Lake river, where the south road over the crags meets the river road to the coast and the way north to the farms."
       },
-      "sjhq3l2g": {
+      "r322s8fi": {
         "name": "Cliffside camp",
         "what": "A logging camp with a log chute down from a ledge.",
-        "where": "The cliff foot under the Prow's north face, in the valley between the Prow and the eastern hills.",
+        "where": "On the north-east basin's floor by the cliff brook, under the plateau cliff, between the farmland and the forest above.",
         "mood": "Loud and honest, sick of the Council's quotas and of arrows from above.",
         "people": [
           "Foreman Gus Tarrant, the logging foreman",
@@ -142,13 +142,13 @@
           "South round the lake to the Southern heartland, and the trail up the cliff face to the falls ledge"
         ],
         "quests": "About 9.",
-        "site": "Flat valley floor by the camp's stream, with the cliff for the log chute.",
+        "site": "Flat basin floor by the brook that runs west from the cliff foot, with the cliff for the log chute.",
         "situation": "The edge between the farmland and the forest above: the only place the loggers can bring timber down."
       },
-      "crgi1c1v": {
+      "d908slex": {
         "name": "Tennely Hall",
         "what": "The Tennelys' old summer house, now a Council granary with a garrison.",
-        "where": "In the valley between the northern hills, out of sight behind the knoll at its mouth, at the end of the grain road.",
+        "where": "Up the north valley under the northern crags, out of sight of the farms, at the end of the grain road and the foot of the north pass.",
         "mood": "Rigid and uneasy. Its captain served the Tennelys and serves the Council now.",
         "people": [
           "Captain Wystan Hale, the granary's captain"
@@ -165,13 +165,13 @@
           "South to Tennely House in the Southern heartland, from the letter that names the heir"
         ],
         "quests": "About 6.",
-        "site": "The valley floor beside Hallam brook, under the hills.",
-        "situation": "A hidden valley: the Tennelys' summer house, kept out of view of the farms."
+        "site": "The valley floor beside the north stream, under the crags.",
+        "situation": "A hidden valley: the Tennelys' summer house, kept out of view of the farms, holding the way up to the north pass."
       },
-      "cm4lbatk": {
+      "fx4u6pd9": {
         "name": "Northgate",
         "what": "A palisaded trading post shared with Nordish herders.",
-        "where": "On the north road, in the gap where Northgate beck comes through the western hills, the way north to the Northwest coast.",
+        "where": "On the coast plain under the north-west crags, where Northgate beck comes down to the north stream, on the north road up the coast to the Northwest coast.",
         "mood": "Friendly and competing. Nordish herds push south into Angean pasture.",
         "people": [
           "Ottar Haldsson, Nordish trader, genial and slippery",
@@ -190,8 +190,8 @@
           "A sideways nod to the Northwest coast (18-28), not a quest to go now"
         ],
         "quests": "About 5.",
-        "site": "The beck's bank in the gap, on the flat between the hills.",
-        "situation": "A gap: the north road's only easy way through the western hills."
+        "site": "The beck's bank on the flat below the crags, a short walk from the sea.",
+        "situation": "A gap: the north road's only easy way between the crags and the sea."
       }
     },
     "camps": {
@@ -1220,7 +1220,7 @@
     "npcs": {
       "nhcorra1": {
         "name": "Abbess Corra Lindqvist",
-        "hub": "1zwubmpj",
+        "hub": "yrm6ylej",
         "traits": [
           "warm",
           "tired",
@@ -1232,7 +1232,7 @@
       },
       "nhbranni": {
         "name": "Keeper Brannick",
-        "hub": "1zwubmpj",
+        "hub": "yrm6ylej",
         "traits": [
           "gruff",
           "protective",
@@ -1245,7 +1245,7 @@
       },
       "nhnell01": {
         "name": "Keeper Nell Sallow",
-        "hub": "1zwubmpj",
+        "hub": "yrm6ylej",
         "traits": [
           "brisk",
           "practical",
@@ -1257,7 +1257,7 @@
       },
       "nhaubin1": {
         "name": "Keeper Aubin",
-        "hub": "1zwubmpj",
+        "hub": "yrm6ylej",
         "traits": [
           "gentle",
           "evasive",
@@ -1270,7 +1270,7 @@
       },
       "nhpell01": {
         "name": "Assessor Pell Duvane",
-        "hub": "1zwubmpj",
+        "hub": "yrm6ylej",
         "traits": [
           "exact",
           "fair-minded",
@@ -1282,7 +1282,7 @@
       },
       "nhwenna1": {
         "name": "Wenna Hallam",
-        "hub": "9bpi8b84",
+        "hub": "aesl88uw",
         "traits": [
           "proud",
           "blunt",
@@ -1294,7 +1294,7 @@
       },
       "nhtobin1": {
         "name": "Grandsire Tobin Hallam",
-        "hub": "9bpi8b84",
+        "hub": "aesl88uw",
         "traits": [
           "nostalgic",
           "sly",
@@ -1307,7 +1307,7 @@
       },
       "nhodile1": {
         "name": "Reeve Odile Marchbank",
-        "hub": "22rxlhzd",
+        "hub": "e5uogbb6",
         "traits": [
           "careful",
           "principled",
@@ -1319,7 +1319,7 @@
       },
       "nhvarn01": {
         "name": "Varn Ostrey",
-        "hub": "22rxlhzd",
+        "hub": "e5uogbb6",
         "traits": [
           "nervous",
           "diligent",
@@ -1331,7 +1331,7 @@
       },
       "nhpike01": {
         "name": "Sergeant Ada Pike",
-        "hub": "22rxlhzd",
+        "hub": "e5uogbb6",
         "traits": [
           "blunt",
           "dutiful",
@@ -1343,7 +1343,7 @@
       },
       "nhmoll01": {
         "name": "Moll Abernathy",
-        "hub": "22rxlhzd",
+        "hub": "e5uogbb6",
         "traits": [
           "jolly",
           "nosy",
@@ -1355,7 +1355,7 @@
       },
       "nhberti1": {
         "name": "Old Bertil",
-        "hub": "22rxlhzd",
+        "hub": "e5uogbb6",
         "traits": [
           "loyal",
           "grieving",
@@ -1367,7 +1367,7 @@
       },
       "nhjory01": {
         "name": "Jory Venn",
-        "hub": "22rxlhzd",
+        "hub": "e5uogbb6",
         "traits": [
           "defiant",
           "wry",
@@ -1379,7 +1379,7 @@
       },
       "nhhetti1": {
         "name": "Hettie Croft",
-        "hub": "22rxlhzd",
+        "hub": "e5uogbb6",
         "traits": [
           "sentimental",
           "stubborn",
@@ -1391,7 +1391,7 @@
       },
       "nhcrake1": {
         "name": "Ludo Crake",
-        "hub": "22rxlhzd",
+        "hub": "e5uogbb6",
         "traits": [
           "greedy",
           "cheerful",
@@ -1403,7 +1403,7 @@
       },
       "nhtarra1": {
         "name": "Foreman Gus Tarrant",
-        "hub": "sjhq3l2g",
+        "hub": "r322s8fi",
         "traits": [
           "loud",
           "honest",
@@ -1415,7 +1415,7 @@
       },
       "nhhale01": {
         "name": "Captain Wystan Hale",
-        "hub": "crgi1c1v",
+        "hub": "d908slex",
         "traits": [
           "rigid",
           "conflicted",
@@ -1427,7 +1427,7 @@
       },
       "nhithri1": {
         "name": "Ithriel",
-        "hub": "sjhq3l2g",
+        "hub": "r322s8fi",
         "traits": [
           "aloof",
           "grave",
@@ -1439,7 +1439,7 @@
       },
       "nhrook01": {
         "name": "Captain Elsbet Rook",
-        "hub": "crgi1c1v",
+        "hub": "d908slex",
         "traits": [
           "steady",
           "courteous",
@@ -1451,7 +1451,7 @@
       },
       "nhottar1": {
         "name": "Ottar Haldsson",
-        "hub": "cm4lbatk",
+        "hub": "fx4u6pd9",
         "traits": [
           "genial",
           "slippery",
@@ -1463,7 +1463,7 @@
       },
       "nhsigru1": {
         "name": "Sigrun Asa's-daughter",
-        "hub": "cm4lbatk",
+        "hub": "fx4u6pd9",
         "traits": [
           "blunt",
           "proud",
@@ -1475,7 +1475,7 @@
       },
       "nharnbj1": {
         "name": "Arnbjorn the skald",
-        "hub": "cm4lbatk",
+        "hub": "fx4u6pd9",
         "traits": [
           "wry",
           "curious",
