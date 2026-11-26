@@ -1966,6 +1966,21 @@
         10
       ],
       "shown": true
+    },
+    {
+      "id": "ytkenc47",
+      "name": "Wrackholm",
+      "type": "dwelling",
+      "at": [
+        6830,
+        21620
+      ],
+      "goal": 0.8,
+      "levels": [
+        6,
+        8
+      ],
+      "shown": true
     }
   ],
   "dungeons": [],
@@ -2442,11 +2457,11 @@
     },
     {
       "id": "t6san6t1",
-      "name": "Wolves, coast pasture southeast",
-      "theme": "wolves",
+      "name": "Drowned dead, the cove",
+      "theme": "zombies",
       "at": [
-        6873,
-        21894
+        6700,
+        21800
       ],
       "shown": false
     },
@@ -3062,21 +3077,21 @@
     },
     {
       "id": "9e3ws63x",
-      "name": "Crabs, coast meadows northeast 3",
-      "theme": "crabs",
+      "name": "Drowned dead, Gull Head south shore",
+      "theme": "skeletons",
       "at": [
-        6731,
-        22418
+        6750,
+        22650
       ],
       "shown": false
     },
     {
       "id": "pqlgiv1p",
-      "name": "Frogs by coast meadows northeast 3",
+      "name": "Frogs by Gull Head",
       "theme": "frogs",
       "at": [
-        6831,
-        22418
+        7350,
+        22700
       ],
       "shown": false
     },
@@ -3521,6 +3536,24 @@
       "name": "the Old Wood",
       "area": "areatbgr",
       "regionArea": "areaj8vu"
+    },
+    {
+      "id": "gw1l9hqa",
+      "name": "Wrackholm",
+      "area": "areabdj9",
+      "regionArea": "areagx4p"
+    },
+    {
+      "id": "khavhjjz",
+      "name": "Gull Head",
+      "area": "arearfx6",
+      "regionArea": "areagnya"
+    },
+    {
+      "id": "0yzoxila",
+      "name": "the Old Wreck",
+      "area": "area4qqz",
+      "regionArea": "areay2ik"
     }
   ],
   "routes": [
@@ -3531,6 +3564,7 @@
         "yrm6ylej",
         "aesl88uw",
         "e5uogbb6",
+        "ytkenc47",
         "r322s8fi",
         "d908slex",
         "fx4u6pd9"

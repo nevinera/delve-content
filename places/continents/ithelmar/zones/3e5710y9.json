@@ -2901,6 +2901,66 @@
           ]
         ]
       ]
+    },
+    {
+      "id": "forc0hds",
+      "name": "The drowned dead",
+      "color": "#5fa8a0",
+      "notes": "An old rotten wreck lies off Gull Head, and the dead walk up out of it onto the shore. A weak necromancer raises them from a sea-cave in the headland's cliff, over the cove. He came from Wrackholm, the fishing village they pester.",
+      "loci": [
+        [
+          6040,
+          22330
+        ],
+        [
+          6550,
+          22150
+        ]
+      ],
+      "strokes": [
+        [
+          [
+            6100,
+            22220
+          ],
+          [
+            6350,
+            21950
+          ],
+          [
+            6750,
+            21700
+          ]
+        ],
+        [
+          [
+            6600,
+            22050
+          ],
+          [
+            6700,
+            21850
+          ],
+          [
+            6820,
+            21700
+          ]
+        ],
+        [
+          [
+            6120,
+            22400
+          ],
+          [
+            6450,
+            22550
+          ],
+          [
+            6900,
+            22850
+          ]
+        ]
+      ]
     }
   ]
 }
