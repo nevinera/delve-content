@@ -2651,7 +2651,7 @@
         "name": "The diggings",
         "zone": "3e5710y9",
         "levels": "6-8",
-        "what": "A kobold mine into the cliff east of Cliffside. A gallery splits: the south side gallery holds the glass shrines; the main way goes on to the glass chamber, where the Glowmother is, and past it the deepest tunnel, cold air at its end.",
+        "what": "A kobold mine into the cliff foot east of Cliffside, up the basin from the camp. A gallery splits: the north side gallery holds the glass shrines; the main way goes on to the glass chamber, where the Glowmother is, and past it the deepest tunnel, cold air at its end.",
         "quests": [
           "csdig01",
           "csglass1",
@@ -2665,7 +2665,7 @@
         "name": "The hill bear's den",
         "zone": "3e5710y9",
         "levels": "9",
-        "what": "One chamber in the western hills above Northgate's north road, where the hill bear sleeps.",
+        "what": "One chamber in the north-west crags above the north road, between Northgate and Tennely Hall's valley, where the hill bear sleeps.",
         "quests": [
           "ngbear01"
         ],
