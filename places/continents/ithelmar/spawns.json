@@ -27154,6 +27154,202 @@
         12
       ],
       "respawn": 300
+    },
+    {
+      "id": "nhottar1",
+      "npc": "nhnordic",
+      "name": "Ottar Haldsson",
+      "title": "Trader",
+      "dialogue": "nhottar1",
+      "vendor": {
+        "sells": [
+          "stock/cloth-pouch",
+          "stock/canvas-satchel",
+          "stock/travelers-haversack",
+          "stock/well-water",
+          "stock/mint-tea",
+          "stock/honeyed-milk",
+          "stock/mountain-cider",
+          "stock/berry-cordial",
+          "stock/pear-nectar",
+          "stock/glacier-water",
+          "stock/mining-pick",
+          "stock/skinning-knife",
+          "stock/smithing-hammer",
+          "stock/fishing-pole",
+          "stock/coarse-thread",
+          "stock/fine-thread",
+          "stock/silken-thread",
+          "stock/heavy-silken-thread",
+          "stock/glass-vial",
+          "stock/leaded-vial",
+          "stock/crystal-vial",
+          "stock/mild-spices",
+          "stock/hot-spices",
+          "stock/salt",
+          "stock/flour",
+          "stock/cooking-oil",
+          "stock/enchanting-vellum",
+          "stock/copper-rod",
+          "stock/coal",
+          "stock/merchants-pack",
+          "stock/yew-wand",
+          "stock/polished-orb",
+          "stock/homespun-hood",
+          "stock/homespun-mantle",
+          "stock/travelers-cloak",
+          "stock/homespun-robe",
+          "stock/homespun-cuffs",
+          "stock/homespun-gloves",
+          "stock/homespun-sash",
+          "stock/homespun-trousers",
+          "stock/homespun-shoes"
+        ]
+      },
+      "at": [
+        7304,
+        null,
+        18584
+      ],
+      "yaw": 270,
+      "levels": [
+        12,
+        12
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nhsigru1",
+      "npc": "nhnordic",
+      "name": "Sigrun Asa's-daughter",
+      "title": "Herder",
+      "vendor": {
+        "sells": [
+          "stock/tanned-cap",
+          "stock/tanned-shoulderpads",
+          "stock/travelers-cloak",
+          "stock/tanned-jerkin",
+          "stock/tanned-bracers",
+          "stock/tanned-gloves",
+          "stock/tanned-belt",
+          "stock/tanned-leggings",
+          "stock/tanned-boots"
+        ]
+      },
+      "at": [
+        7352,
+        null,
+        18524
+      ],
+      "yaw": 300,
+      "levels": [
+        11,
+        11
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nharnbj1",
+      "npc": "nhnordic",
+      "name": "Arnbjorn",
+      "title": "Skald",
+      "at": [
+        7270,
+        3.5,
+        18512
+      ],
+      "yaw": 90,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nghild01",
+      "npc": "nhnordic",
+      "name": "Hild Gunnar's-daughter",
+      "title": "Alewife",
+      "dialogue": "nghild01",
+      "innkeeper": true,
+      "restArea": "ngrest01",
+      "vendor": {
+        "sells": [
+          "stock/oat-cake",
+          "stock/smoked-sausage",
+          "stock/roast-fowl",
+          "stock/spiced-venison",
+          "stock/cured-ham",
+          "stock/pepper-steak",
+          "stock/hearty-meat-pie",
+          "stock/well-water",
+          "stock/mint-tea",
+          "stock/honeyed-milk",
+          "stock/mountain-cider",
+          "stock/berry-cordial",
+          "stock/pear-nectar",
+          "stock/glacier-water"
+        ]
+      },
+      "at": [
+        7241,
+        3.5,
+        18522
+      ],
+      "yaw": 270,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "ngherd01",
+      "npc": "nhnordic",
+      "name": "Nordish Herder",
+      "at": [
+        7375,
+        null,
+        18540
+      ],
+      "yaw": 30,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "ngherd02",
+      "npc": "nhnordic",
+      "name": "Nordish Herder",
+      "at": [
+        7368,
+        null,
+        18590
+      ],
+      "yaw": 0,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "ngherd03",
+      "npc": "nhnordic",
+      "name": "Nordish Herder",
+      "at": [
+        7340,
+        null,
+        18498
+      ],
+      "yaw": 200,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 300
     }
   ]
 }

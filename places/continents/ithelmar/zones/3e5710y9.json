@@ -184,7 +184,8 @@
         "people": [
           "Ottar Haldsson, Nordish trader, genial and slippery",
           "Sigrun Asa's-daughter, Nordish herder",
-          "a Nordish skald"
+          "Arnbjorn the skald",
+          "Hild Gunnar's-daughter, the alewife"
         ],
         "lines": [
           "The north road (8-10): the pasture fight, wolves from the hills, and the tithe's skimmed grain in Ottar's wagon"
@@ -199,7 +200,8 @@
         ],
         "quests": "About 5.",
         "site": "The beck's bank on the flat below the crags, a short walk from the sea.",
-        "situation": "A gap: the north road's only easy way between the crags and the sea."
+        "situation": "A gap: the north road's only easy way between the crags and the sea.",
+        "scene": "A log palisade on the beck's bank below the crags, with gates on the north road, the south road from the farms and the river road from the east, and towers at its north-east and south-west corners. Inside, the roads meet by a rune stone the Nordish raised at the north gate. Hild Gunnar's-daughter's alehouse stands on the west side, where Arnbjorn the skald sings for his drink, and Ottar Haldsson's trading hall south of it, with barrels, sacks and his handcart in the yard. The Nordish herders camp in the north-east corner in big tents round a fire, with Sigrun Asa's-daughter, and their calves are penned in the south-east corner by a trough and a haystack. A well stands between. The graveyard lies outside the west wall, toward the sea, off the road."
       },
       "ytkenc47": {
         "name": "Wrackholm",
@@ -1762,6 +1764,18 @@
         ],
         "voice": "Soft and exact, as if dictating to a clerk.",
         "notes": "Kept the Tennelys' books and their warded stores, and stayed on when the Council took the house. Still keeps the old wards on the hall, and teaches Wakers to bind power into cloth and steel.",
+        "zone": "3e5710y9"
+      },
+      "nghild01": {
+        "name": "Hild Gunnar's-daughter",
+        "hub": "fx4u6pd9",
+        "traits": [
+          "hearty",
+          "blunt",
+          "generous"
+        ],
+        "voice": "Laughs from the belly, and tells you what you owe in the same breath.",
+        "notes": "Keeps Northgate's alehouse, where Nordish herders and Angean drovers drink at the same tables. Brews her own mead, and gives any Waker a bench by the fire for the night.",
         "zone": "3e5710y9"
       }
     },

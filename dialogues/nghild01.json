@@ -1,0 +1,23 @@
+{
+  "id": "nghild01",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Sit! Mead or ale, they're both mine and they're both good.",
+      "choices": [
+        {
+          "text": "What's to eat?",
+          "do": "vendor"
+        },
+        {
+          "text": "I'll take a bench for the night.",
+          "do": "home"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  }
+}

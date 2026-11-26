@@ -1,0 +1,19 @@
+{
+  "id": "nhottar1",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Friend! You have the look of someone who needs things. I have things. Funny how that works.",
+      "choices": [
+        {
+          "text": "Show me your things.",
+          "do": "vendor"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  }
+}

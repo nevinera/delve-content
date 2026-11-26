@@ -1,0 +1,14058 @@
+{
+ "version": 2,
+ "objects": [
+  {
+   "id": "obj729rt",
+   "type": "built:bfort008",
+   "at": [
+    7397,
+    18487
+   ],
+   "y": 15.95,
+   "yaw": 0,
+   "scale": 1,
+   "template": "bstru080",
+   "footprint": {
+    "rect": [
+     1.66,
+     1.66
+    ]
+   },
+   "height": 4.9
+  },
+  {
+   "id": "obj1z42j",
+   "type": "built:bvill003",
+   "at": [
+    7405,
+    18487
+   ],
+   "y": 15.95,
+   "yaw": 0,
+   "scale": 1,
+   "template": "bstru080",
+   "footprint": {
+    "rect": [
+     2.08,
+     2.08
+    ]
+   },
+   "height": 2
+  },
+  {
+   "id": "objh1u1h",
+   "type": "built:bfort008",
+   "at": [
+    7235,
+    18633
+   ],
+   "y": 15.52,
+   "yaw": 3.1416,
+   "scale": 1,
+   "template": "bstru080",
+   "footprint": {
+    "rect": [
+     1.66,
+     1.66
+    ]
+   },
+   "height": 4.9
+  },
+  {
+   "id": "obj5736h",
+   "type": "built:bvill003",
+   "at": [
+    7227,
+    18633
+   ],
+   "y": 15.52,
+   "yaw": 3.1416,
+   "scale": 1,
+   "template": "bstru080",
+   "footprint": {
+    "rect": [
+     2.08,
+     2.08
+    ]
+   },
+   "height": 2
+  },
+  {
+   "id": "objz4y78",
+   "type": "built:b0ux0hq5",
+   "at": [
+    7301,
+    18487
+   ],
+   "y": 3.63,
+   "yaw": 0,
+   "scale": 1,
+   "template": "bstru078",
+   "footprint": {
+    "rect": [
+     0.6,
+     0.6
+    ]
+   },
+   "height": 7.4
+  },
+  {
+   "id": "objthc5w",
+   "type": "built:b0ux0hq5",
+   "at": [
+    7323,
+    18487
+   ],
+   "y": 3.63,
+   "yaw": 0,
+   "scale": 1,
+   "template": "bstru078",
+   "footprint": {
+    "rect": [
+     0.6,
+     0.6
+    ]
+   },
+   "height": 7.4
+  },
+  {
+   "id": "obj1ykc1",
+   "type": "built:b0ux0hq5",
+   "at": [
+    7331,
+    18633
+   ],
+   "y": 6.19,
+   "yaw": 3.1416,
+   "scale": 1,
+   "template": "bstru078",
+   "footprint": {
+    "rect": [
+     0.6,
+     0.6
+    ]
+   },
+   "height": 7.4
+  },
+  {
+   "id": "objxansm",
+   "type": "built:b0ux0hq5",
+   "at": [
+    7309,
+    18633
+   ],
+   "y": 6.19,
+   "yaw": 3.1416,
+   "scale": 1,
+   "template": "bstru078",
+   "footprint": {
+    "rect": [
+     0.6,
+     0.6
+    ]
+   },
+   "height": 7.4
+  },
+  {
+   "id": "objrx0nl",
+   "type": "built:b0ux0hq5",
+   "at": [
+    7405,
+    18569
+   ],
+   "y": 6.67,
+   "yaw": 4.7124,
+   "scale": 1,
+   "template": "bstru078",
+   "footprint": {
+    "rect": [
+     0.6,
+     0.6
+    ]
+   },
+   "height": 7.4
+  },
+  {
+   "id": "objtyfvy",
+   "type": "built:b0ux0hq5",
+   "at": [
+    7405,
+    18591
+   ],
+   "y": 6.67,
+   "yaw": 4.7124,
+   "scale": 1,
+   "template": "bstru078",
+   "footprint": {
+    "rect": [
+     0.6,
+     0.6
+    ]
+   },
+   "height": 7.4
+  },
+  {
+   "id": "obj3xwnp",
+   "type": "built:b1drxgoo",
+   "at": [
+    7244,
+    18522
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     10.4,
+     2.4
+    ]
+   },
+   "height": 3.4
+  },
+  {
+   "id": "objjmf0m",
+   "type": "built:b18mtih7",
+   "at": [
+    7237.7,
+    18532
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     6,
+     1.4
+    ]
+   },
+   "height": 7.2
+  },
+  {
+   "id": "objhj1c6",
+   "type": "built:b001devo",
+   "at": [
+    7238.5,
+    18526
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     3.62,
+     2.2
+    ]
+   },
+   "height": 3.06
+  },
+  {
+   "id": "objeu2dd",
+   "type": "built:b19r3nl7",
+   "at": [
+    7238.5,
+    18516
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     6.3,
+     2.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "obj60r1a",
+   "type": "built:b1emjghy",
+   "at": [
+    7272,
+    18538
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     4.6,
+     4.6
+    ]
+   },
+   "height": 2.85
+  },
+  {
+   "id": "obj7shfa",
+   "type": "built:b0ypqb48",
+   "at": [
+    7272,
+    18541.3
+   ],
+   "y": 3.45,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objt7w5j",
+   "type": "built:b0ypqb48",
+   "at": [
+    7272,
+    18534.7
+   ],
+   "y": 3.45,
+   "yaw": 6.283,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objzg8xq",
+   "type": "built:b0ypqb48",
+   "at": [
+    7268.7,
+    18538
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "obj1s7d3",
+   "type": "built:b0ypqb48",
+   "at": [
+    7275.3,
+    18538
+   ],
+   "y": 3.45,
+   "yaw": 4.7128,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objlnnsc",
+   "type": "built:b1emjghy",
+   "at": [
+    7258,
+    18538
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     4.6,
+     4.6
+    ]
+   },
+   "height": 2.85
+  },
+  {
+   "id": "objq07nx",
+   "type": "built:b0ypqb48",
+   "at": [
+    7258,
+    18541.3
+   ],
+   "y": 3.45,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objbpjfg",
+   "type": "built:b0ypqb48",
+   "at": [
+    7258,
+    18534.7
+   ],
+   "y": 3.45,
+   "yaw": 6.283,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objromf1",
+   "type": "built:b0ypqb48",
+   "at": [
+    7254.7,
+    18538
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objujetp",
+   "type": "built:b0ypqb48",
+   "at": [
+    7261.3,
+    18538
+   ],
+   "y": 3.45,
+   "yaw": 4.7128,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objjn9p5",
+   "type": "built:b1emjghy",
+   "at": [
+    7260,
+    18526
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     4.6,
+     4.6
+    ]
+   },
+   "height": 2.85
+  },
+  {
+   "id": "objt6nl3",
+   "type": "built:b0ypqb48",
+   "at": [
+    7260,
+    18529.3
+   ],
+   "y": 3.45,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objj2shn",
+   "type": "built:b0ypqb48",
+   "at": [
+    7260,
+    18522.7
+   ],
+   "y": 3.45,
+   "yaw": 6.283,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "obj65nkv",
+   "type": "built:b0ypqb48",
+   "at": [
+    7256.7,
+    18526
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objowemi",
+   "type": "built:b0ypqb48",
+   "at": [
+    7263.3,
+    18526
+   ],
+   "y": 3.45,
+   "yaw": 4.7128,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objli2i0",
+   "type": "built:b1emjghy",
+   "at": [
+    7258,
+    18512
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     4.6,
+     4.6
+    ]
+   },
+   "height": 2.85
+  },
+  {
+   "id": "obj1pq2j",
+   "type": "built:b0ypqb48",
+   "at": [
+    7258,
+    18515.3
+   ],
+   "y": 3.45,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objyh1nc",
+   "type": "built:b0ypqb48",
+   "at": [
+    7258,
+    18508.7
+   ],
+   "y": 3.45,
+   "yaw": 6.283,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "obji2n2r",
+   "type": "built:b0ypqb48",
+   "at": [
+    7254.7,
+    18512
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objfpb5j",
+   "type": "built:b0ypqb48",
+   "at": [
+    7261.3,
+    18512
+   ],
+   "y": 3.45,
+   "yaw": 4.7128,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "obj0lk5p",
+   "type": "built:b1emjghy",
+   "at": [
+    7258,
+    18502
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     4.6,
+     4.6
+    ]
+   },
+   "height": 2.85
+  },
+  {
+   "id": "objh5vbr",
+   "type": "built:b0ypqb48",
+   "at": [
+    7258,
+    18505.3
+   ],
+   "y": 3.45,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objq8ixs",
+   "type": "built:b0ypqb48",
+   "at": [
+    7258,
+    18498.7
+   ],
+   "y": 3.45,
+   "yaw": 6.283,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objtwfvv",
+   "type": "built:b0ypqb48",
+   "at": [
+    7254.7,
+    18502
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objuro0u",
+   "type": "built:b0ypqb48",
+   "at": [
+    7261.3,
+    18502
+   ],
+   "y": 3.45,
+   "yaw": 4.7128,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.5,
+     1.5
+    ]
+   },
+   "height": 3.5
+  },
+  {
+   "id": "objjurt3",
+   "type": "built:b0pvyeh8",
+   "at": [
+    7274,
+    18504
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     12,
+     3.4
+    ]
+   },
+   "height": 2.8
+  },
+  {
+   "id": "obj4w4h4",
+   "type": "built:bvill008",
+   "at": [
+    7276.6,
+    18507.2
+   ],
+   "y": 3.45,
+   "yaw": 4.7128,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     6,
+     1.3
+    ]
+   },
+   "height": 1.75
+  },
+  {
+   "id": "obj94ddr",
+   "type": "built:bvill008",
+   "at": [
+    7271.4,
+    18507.2
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     6,
+     1.3
+    ]
+   },
+   "height": 1.75
+  },
+  {
+   "id": "objty5vb",
+   "type": "built:bvill008",
+   "at": [
+    7276.6,
+    18500.8
+   ],
+   "y": 3.45,
+   "yaw": 4.7128,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     6,
+     1.3
+    ]
+   },
+   "height": 1.75
+  },
+  {
+   "id": "obj1ul3g",
+   "type": "built:bvill008",
+   "at": [
+    7271.4,
+    18500.8
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     6,
+     1.3
+    ]
+   },
+   "height": 1.75
+  },
+  {
+   "id": "obj9g3qg",
+   "type": "built:b04jzoww",
+   "at": [
+    7282,
+    18528
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     1.34,
+     1.34
+    ]
+   },
+   "height": 5.6
+  },
+  {
+   "id": "objytqgy",
+   "type": "built:b0687l8q",
+   "at": [
+    7245,
+    18492
+   ],
+   "y": 3.45,
+   "yaw": 6.283,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     4.43,
+     3.21
+    ]
+   },
+   "height": 2.55
+  },
+  {
+   "id": "objjbvzu",
+   "type": "built:bvill001",
+   "at": [
+    7238.5,
+    18492.4
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     2.25,
+     2.25
+    ]
+   },
+   "height": 3
+  },
+  {
+   "id": "obj0140x",
+   "type": "built:bvill003",
+   "at": [
+    7247.8,
+    18507.5
+   ],
+   "y": 3.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     2.08,
+     2.08
+    ]
+   },
+   "height": 2
+  },
+  {
+   "id": "objg3efx",
+   "type": "built:b0vej6yg",
+   "at": [
+    7273,
+    18539.7
+   ],
+   "y": 19.45,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     5.4,
+     7.25
+    ]
+   },
+   "height": 3
+  },
+  {
+   "id": "obj38yi1",
+   "type": "built:b1oprcgf",
+   "at": [
+    7282.2,
+    18529.5
+   ],
+   "y": 19.45,
+   "yaw": 4.7128,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     3.4,
+     2.3
+    ]
+   },
+   "height": 2.85
+  },
+  {
+   "id": "objxa5j2",
+   "type": "built:b0vej6yg",
+   "at": [
+    7245,
+    18539.7
+   ],
+   "y": 19.45,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     5.4,
+     7.25
+    ]
+   },
+   "height": 3
+  },
+  {
+   "id": "obj5coy8",
+   "type": "built:b1oprcgf",
+   "at": [
+    7237.8,
+    18529.5
+   ],
+   "y": 19.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     3.4,
+     2.3
+    ]
+   },
+   "height": 2.85
+  },
+  {
+   "id": "obj1ywst",
+   "type": "built:b0vej6yg",
+   "at": [
+    7273,
+    18521.7
+   ],
+   "y": 19.45,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     5.4,
+     7.25
+    ]
+   },
+   "height": 3
+  },
+  {
+   "id": "objv6wfd",
+   "type": "built:b1oprcgf",
+   "at": [
+    7282.2,
+    18511.5
+   ],
+   "y": 19.45,
+   "yaw": 4.7128,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     3.4,
+     2.3
+    ]
+   },
+   "height": 2.85
+  },
+  {
+   "id": "obj4lv4n",
+   "type": "built:b0vej6yg",
+   "at": [
+    7245,
+    18521.7
+   ],
+   "y": 19.45,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     5.4,
+     7.25
+    ]
+   },
+   "height": 3
+  },
+  {
+   "id": "objsegw7",
+   "type": "built:b1oprcgf",
+   "at": [
+    7237.8,
+    18511.5
+   ],
+   "y": 19.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     3.4,
+     2.3
+    ]
+   },
+   "height": 2.85
+  },
+  {
+   "id": "obj4w0m8",
+   "type": "built:b0vej6yg",
+   "at": [
+    7273,
+    18503.7
+   ],
+   "y": 19.45,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     5.4,
+     7.25
+    ]
+   },
+   "height": 3
+  },
+  {
+   "id": "objydd9x",
+   "type": "built:b1oprcgf",
+   "at": [
+    7282.2,
+    18493.5
+   ],
+   "y": 19.45,
+   "yaw": 4.7128,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     3.4,
+     2.3
+    ]
+   },
+   "height": 2.85
+  },
+  {
+   "id": "objyg2j9",
+   "type": "built:b0vej6yg",
+   "at": [
+    7245,
+    18503.7
+   ],
+   "y": 19.45,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     5.4,
+     7.25
+    ]
+   },
+   "height": 3
+  },
+  {
+   "id": "obj4w0aw",
+   "type": "built:b1oprcgf",
+   "at": [
+    7237.8,
+    18493.5
+   ],
+   "y": 19.45,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0028",
+   "footprint": {
+    "rect": [
+     3.4,
+     2.3
+    ]
+   },
+   "height": 2.85
+  },
+  {
+   "id": "objt4bkw",
+   "type": "built:bvill009",
+   "at": [
+    7280,
+    18610
+   ],
+   "y": 4.85,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0020",
+   "footprint": {
+    "rect": [
+     6,
+     3
+    ]
+   },
+   "height": 2.75
+  },
+  {
+   "id": "objgwvne",
+   "type": "built:bvill009",
+   "at": [
+    7268,
+    18610
+   ],
+   "y": 4.85,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0020",
+   "footprint": {
+    "rect": [
+     6,
+     3
+    ]
+   },
+   "height": 2.75
+  },
+  {
+   "id": "obja1jmv",
+   "type": "built:bvill009",
+   "at": [
+    7280,
+    18594
+   ],
+   "y": 4.85,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0020",
+   "footprint": {
+    "rect": [
+     6,
+     3
+    ]
+   },
+   "height": 2.75
+  },
+  {
+   "id": "objyms3t",
+   "type": "built:bvill009",
+   "at": [
+    7268,
+    18594
+   ],
+   "y": 4.85,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0020",
+   "footprint": {
+    "rect": [
+     6,
+     3
+    ]
+   },
+   "height": 2.75
+  },
+  {
+   "id": "obju5ryl",
+   "type": "built:bvill009",
+   "at": [
+    7280,
+    18578
+   ],
+   "y": 4.85,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0020",
+   "footprint": {
+    "rect": [
+     6,
+     3
+    ]
+   },
+   "height": 2.75
+  },
+  {
+   "id": "objhxk43",
+   "type": "built:bvill009",
+   "at": [
+    7268,
+    18578
+   ],
+   "y": 4.85,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0020",
+   "footprint": {
+    "rect": [
+     6,
+     3
+    ]
+   },
+   "height": 2.75
+  },
+  {
+   "id": "objnn43p",
+   "type": "built:bband002",
+   "at": [
+    7345,
+    18496
+   ],
+   "yaw": 3.4907,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     16,
+     16
+    ]
+   },
+   "height": 12
+  },
+  {
+   "id": "objr94m2",
+   "type": "built:bband002",
+   "at": [
+    7395,
+    18525
+   ],
+   "yaw": 4.3633,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     16,
+     16
+    ]
+   },
+   "height": 12
+  },
+  {
+   "id": "objhmt5x",
+   "type": "built:b0dky7yc",
+   "at": [
+    7368,
+    18515
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     15,
+     15
+    ]
+   },
+   "height": 15
+  },
+  {
+   "id": "objcur2z",
+   "type": "built:bband004",
+   "at": [
+    7342,
+    18512
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "outlines": [
+     [
+      [
+       1.32,
+       -0.4
+      ],
+      [
+       2.28,
+       -0.4
+      ],
+      [
+       2.28,
+       0.4
+      ],
+      [
+       1.32,
+       0.4
+      ]
+     ],
+     [
+      [
+       0.75,
+       1.15
+      ],
+      [
+       1.27,
+       0.54
+      ],
+      [
+       2,
+       1.16
+      ],
+      [
+       1.49,
+       1.77
+      ]
+     ],
+     [
+      [
+       -0.16,
+       1.37
+      ],
+      [
+       0.62,
+       1.23
+      ],
+      [
+       0.79,
+       2.18
+      ],
+      [
+       0,
+       2.31
+      ]
+     ],
+     [
+      [
+       -1.49,
+       1.77
+      ],
+      [
+       -1.01,
+       0.94
+      ],
+      [
+       -0.31,
+       1.34
+      ],
+      [
+       -0.79,
+       2.17
+      ]
+     ],
+     [
+      [
+       -2.28,
+       0.4
+      ],
+      [
+       -1.38,
+       0.08
+      ],
+      [
+       -1.1,
+       0.83
+      ],
+      [
+       -2.01,
+       1.16
+      ]
+     ],
+     [
+      [
+       -2.28,
+       -0.4
+      ],
+      [
+       -2.01,
+       -1.16
+      ],
+      [
+       -1.1,
+       -0.83
+      ],
+      [
+       -1.38,
+       -0.08
+      ]
+     ],
+     [
+      [
+       -1.49,
+       -1.77
+      ],
+      [
+       -0.79,
+       -2.17
+      ],
+      [
+       -0.31,
+       -1.34
+      ],
+      [
+       -1.01,
+       -0.94
+      ]
+     ],
+     [
+      [
+       -0.16,
+       -1.37
+      ],
+      [
+       0,
+       -2.31
+      ],
+      [
+       0.79,
+       -2.18
+      ],
+      [
+       0.62,
+       -1.23
+      ]
+     ],
+     [
+      [
+       0.75,
+       -1.15
+      ],
+      [
+       1.49,
+       -1.77
+      ],
+      [
+       2,
+       -1.16
+      ],
+      [
+       1.27,
+       -0.54
+      ]
+     ],
+     [
+      [
+       -1.3,
+       -0.2
+      ],
+      [
+       -0.82,
+       -1.03
+      ],
+      [
+       -0.48,
+       -1.23
+      ],
+      [
+       0.48,
+       -1.23
+      ],
+      [
+       0.82,
+       -1.03
+      ],
+      [
+       1.3,
+       -0.2
+      ],
+      [
+       1.3,
+       0.2
+      ],
+      [
+       0.82,
+       1.03
+      ],
+      [
+       0.48,
+       1.23
+      ],
+      [
+       -0.48,
+       1.23
+      ],
+      [
+       -0.82,
+       1.03
+      ],
+      [
+       -1.3,
+       0.2
+      ]
+     ]
+    ]
+   },
+   "height": 2.4
+  },
+  {
+   "id": "objoyoky",
+   "type": "built:bfarm011",
+   "at": [
+    7350,
+    18597
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.6,
+     0.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "objz0wib",
+   "type": "built:bfarm011",
+   "at": [
+    7350,
+    18628
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.6,
+     0.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "objusmm0",
+   "type": "built:bfarm011",
+   "at": [
+    7358.6,
+    18597
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.6,
+     0.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "obj8mp8d",
+   "type": "built:bfarm011",
+   "at": [
+    7358.6,
+    18628
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.6,
+     0.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "objub4od",
+   "type": "built:bfarm011",
+   "at": [
+    7367.2,
+    18597
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.6,
+     0.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "obja9yq4",
+   "type": "built:bfarm011",
+   "at": [
+    7367.2,
+    18628
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.6,
+     0.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "objytrjj",
+   "type": "built:bfarm011",
+   "at": [
+    7375.8,
+    18597
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.6,
+     0.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "obj87zdr",
+   "type": "built:bfarm011",
+   "at": [
+    7375.8,
+    18628
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.6,
+     0.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "obj386ue",
+   "type": "built:bfarm011",
+   "at": [
+    7384.4,
+    18597
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.6,
+     0.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "obj815ao",
+   "type": "built:bfarm011",
+   "at": [
+    7384.4,
+    18628
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.6,
+     0.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "objq9avw",
+   "type": "built:bfarm011",
+   "at": [
+    7393,
+    18601
+   ],
+   "yaw": 1.5708,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.6,
+     0.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "objrrcc8",
+   "type": "built:bfarm011",
+   "at": [
+    7393,
+    18610
+   ],
+   "yaw": 1.5708,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.6,
+     0.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "objars1g",
+   "type": "built:bfarm011",
+   "at": [
+    7393,
+    18619
+   ],
+   "yaw": 1.5708,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.6,
+     0.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "objvtbo8",
+   "type": "built:bfarm011",
+   "at": [
+    7346,
+    18601
+   ],
+   "yaw": 1.5708,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.6,
+     0.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "obj0ok2f",
+   "type": "built:bfarm011",
+   "at": [
+    7346,
+    18619
+   ],
+   "yaw": 1.5708,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.6,
+     0.4
+    ]
+   },
+   "height": 4
+  },
+  {
+   "id": "objqml2v",
+   "type": "built:bfarm013",
+   "at": [
+    7346,
+    18610
+   ],
+   "yaw": 1.5708,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     5.3,
+     0.5
+    ]
+   },
+   "height": 4.4
+  },
+  {
+   "id": "obja5gus",
+   "type": "built:bfarm008",
+   "at": [
+    7370,
+    18612
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     6,
+     2
+    ]
+   },
+   "height": 1.6
+  },
+  {
+   "id": "objc8523",
+   "type": "built:bfarm003",
+   "at": [
+    7337,
+    18628
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     8.4,
+     8.4
+    ]
+   },
+   "height": 10
+  },
+  {
+   "id": "objbm37s",
+   "type": "built:bvill002",
+   "at": [
+    7300,
+    18575
+   ],
+   "yaw": 0.5236,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     4.55,
+     2.65
+    ]
+   },
+   "height": 6
+  },
+  {
+   "id": "objcivxc",
+   "type": "built:bvill002",
+   "at": [
+    7302,
+    18615
+   ],
+   "yaw": 0.5236,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     4.55,
+     2.65
+    ]
+   },
+   "height": 6
+  },
+  {
+   "id": "obj9y4ix",
+   "type": "built:bvill011",
+   "at": [
+    7302,
+    18596
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "outlines": [
+     [
+      [
+       -2.28,
+       -1.5
+      ],
+      [
+       -2.25,
+       -1.52
+      ],
+      [
+       2.25,
+       -1.52
+      ],
+      [
+       5.99,
+       -1.1
+      ],
+      [
+       5.99,
+       1.1
+      ],
+      [
+       2.25,
+       1.53
+      ],
+      [
+       -2.25,
+       1.53
+      ],
+      [
+       -2.28,
+       1.5
+      ]
+     ],
+     [
+      [
+       -1.1,
+       -1.82
+      ],
+      [
+       1.9,
+       -1.82
+      ],
+      [
+       1.9,
+       -1.57
+      ],
+      [
+       -1.1,
+       -1.57
+      ]
+     ],
+     [
+      [
+       -1.1,
+       1.58
+      ],
+      [
+       1.9,
+       1.58
+      ],
+      [
+       1.9,
+       1.83
+      ],
+      [
+       -1.1,
+       1.83
+      ]
+     ]
+    ]
+   },
+   "height": 3.05
+  },
+  {
+   "id": "objys3v7",
+   "type": "built:bvill007",
+   "at": [
+    7298,
+    18560
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     5.06,
+     3.2
+    ]
+   },
+   "height": 3.65
+  },
+  {
+   "id": "objzhsnc",
+   "type": "built:bvill005",
+   "at": [
+    7299,
+    18628
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     5.73,
+     3.22
+    ]
+   },
+   "height": 4.6
+  },
+  {
+   "id": "objhj3n6",
+   "type": "built:bfarm009",
+   "at": [
+    7334,
+    18562
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     5.6,
+     5
+    ]
+   },
+   "height": 7.6
+  },
+  {
+   "id": "objt95j3",
+   "type": "built:bques006",
+   "at": [
+    7292,
+    18500
+   ],
+   "yaw": 0.3491,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     3.41,
+     1.72
+    ]
+   },
+   "height": 9.1
+  },
+  {
+   "id": "objzs6wi",
+   "type": "built:b0ti43n0",
+   "at": [
+    7074,
+    18596
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.92,
+     1.92
+    ]
+   },
+   "height": 3.28
+  },
+  {
+   "id": "objnqyun",
+   "type": "built:b0u23b0y",
+   "at": [
+    7074,
+    18584
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.68,
+     1.68
+    ]
+   },
+   "height": 2.89
+  },
+  {
+   "id": "objlaqnx",
+   "type": "built:bcave001",
+   "at": [
+    7082,
+    18594
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.6,
+     1.6
+    ]
+   },
+   "height": 1.58
+  },
+  {
+   "id": "objfqvqa",
+   "type": "built:bcave001",
+   "at": [
+    7082,
+    18586
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.6,
+     1.6
+    ]
+   },
+   "height": 1.58
+  },
+  {
+   "id": "obj8f9xn",
+   "type": "built:b0ulqiop",
+   "at": [
+    7095,
+    18597.5
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "outlines": [
+     [
+      [
+       -0.46,
+       0.05
+      ],
+      [
+       0.22,
+       -0.74
+      ],
+      [
+       0.82,
+       -0.74
+      ],
+      [
+       1.33,
+       -0.48
+      ],
+      [
+       1.33,
+       0.22
+      ],
+      [
+       0.56,
+       1.16
+      ],
+      [
+       0.46,
+       1.19
+      ],
+      [
+       0.06,
+       1.19
+      ],
+      [
+       -0.04,
+       1.16
+      ],
+      [
+       -0.46,
+       0.75
+      ]
+     ],
+     [
+      [
+       -0.42,
+       -1.31
+      ],
+      [
+       0.18,
+       -1.31
+      ],
+      [
+       0.18,
+       -0.61
+      ],
+      [
+       0.08,
+       -0.58
+      ],
+      [
+       -0.32,
+       -0.58
+      ],
+      [
+       -0.42,
+       -0.61
+      ]
+     ]
+    ]
+   },
+   "height": 1.5
+  },
+  {
+   "id": "obj0e3dg",
+   "type": "built:b0trrpls",
+   "at": [
+    7095,
+    18582.5
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.04,
+     2.93
+    ]
+   },
+   "height": 1.5
+  },
+  {
+   "id": "obj5jbdy",
+   "type": "built:b1ctjudl",
+   "at": [
+    7151.6,
+    18590
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "outlines": [
+     [
+      [
+       -5.25,
+       -2.65
+      ],
+      [
+       -3.95,
+       -2.65
+      ],
+      [
+       -3.95,
+       -1.35
+      ],
+      [
+       -5.25,
+       -1.35
+      ]
+     ],
+     [
+      [
+       -5.25,
+       1.35
+      ],
+      [
+       -3.95,
+       1.35
+      ],
+      [
+       -3.95,
+       2.65
+      ],
+      [
+       -5.25,
+       2.65
+      ]
+     ],
+     [
+      [
+       3.95,
+       -2.65
+      ],
+      [
+       5.25,
+       -2.65
+      ],
+      [
+       5.25,
+       -1.35
+      ],
+      [
+       3.95,
+       -1.35
+      ]
+     ],
+     [
+      [
+       3.95,
+       1.35
+      ],
+      [
+       5.25,
+       1.35
+      ],
+      [
+       5.25,
+       2.65
+      ],
+      [
+       3.95,
+       2.65
+      ]
+     ]
+    ]
+   },
+   "height": 12.8
+  },
+  {
+   "id": "obj9jir0",
+   "type": "built:b18p1e9b",
+   "at": [
+    7068.4,
+    18631.6
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objwdomt",
+   "type": "built:b18p1e9b",
+   "at": [
+    7068.4,
+    18621.2
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objg8lda",
+   "type": "built:b18p1e9b",
+   "at": [
+    7068.4,
+    18610.8
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objk4jwx",
+   "type": "built:b18p1e9b",
+   "at": [
+    7068.4,
+    18600.4
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objhcd0y",
+   "type": "built:b18p1e9b",
+   "at": [
+    7068.4,
+    18590
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objns90v",
+   "type": "built:b18p1e9b",
+   "at": [
+    7068.4,
+    18579.6
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objexy3o",
+   "type": "built:b18p1e9b",
+   "at": [
+    7068.4,
+    18569.2
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "obj2esof",
+   "type": "built:b18p1e9b",
+   "at": [
+    7068.4,
+    18558.8
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objbmmhj",
+   "type": "built:b18p1e9b",
+   "at": [
+    7068.4,
+    18548.4
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objiqzkl",
+   "type": "built:b18p1e9b",
+   "at": [
+    7151.6,
+    18631.6
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objjzzdw",
+   "type": "built:b18p1e9b",
+   "at": [
+    7151.6,
+    18621.2
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objrsjh2",
+   "type": "built:b18p1e9b",
+   "at": [
+    7151.6,
+    18610.8
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objmlfzm",
+   "type": "built:b18p1e9b",
+   "at": [
+    7151.6,
+    18600.4
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "obj8oxka",
+   "type": "built:b18p1e9b",
+   "at": [
+    7151.6,
+    18579.6
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objdtaj3",
+   "type": "built:b18p1e9b",
+   "at": [
+    7151.6,
+    18569.2
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objxlxsj",
+   "type": "built:b18p1e9b",
+   "at": [
+    7151.6,
+    18558.8
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objpi2t8",
+   "type": "built:b18p1e9b",
+   "at": [
+    7151.6,
+    18548.4
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "obj1z6bi",
+   "type": "built:b18p1e9b",
+   "at": [
+    7073.6,
+    18636.8
+   ],
+   "y": 3.02,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objb0y40",
+   "type": "built:b18p1e9b",
+   "at": [
+    7073.6,
+    18543.2
+   ],
+   "y": 3.02,
+   "yaw": 6.283,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objeykqv",
+   "type": "built:b18p1e9b",
+   "at": [
+    7084,
+    18636.8
+   ],
+   "y": 3.02,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objv5ahf",
+   "type": "built:b18p1e9b",
+   "at": [
+    7084,
+    18543.2
+   ],
+   "y": 3.02,
+   "yaw": 6.283,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objpz02x",
+   "type": "built:b18p1e9b",
+   "at": [
+    7094.4,
+    18636.8
+   ],
+   "y": 3.02,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objsoi4r",
+   "type": "built:b18p1e9b",
+   "at": [
+    7094.4,
+    18543.2
+   ],
+   "y": 3.02,
+   "yaw": 6.283,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objik25p",
+   "type": "built:b18p1e9b",
+   "at": [
+    7104.8,
+    18636.8
+   ],
+   "y": 3.02,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objhgzqn",
+   "type": "built:b18p1e9b",
+   "at": [
+    7104.8,
+    18543.2
+   ],
+   "y": 3.02,
+   "yaw": 6.283,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objxe9ym",
+   "type": "built:b18p1e9b",
+   "at": [
+    7115.2,
+    18636.8
+   ],
+   "y": 3.02,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "obji2h9u",
+   "type": "built:b18p1e9b",
+   "at": [
+    7115.2,
+    18543.2
+   ],
+   "y": 3.02,
+   "yaw": 6.283,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objxrwk1",
+   "type": "built:b18p1e9b",
+   "at": [
+    7125.6,
+    18636.8
+   ],
+   "y": 3.02,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objh7o7s",
+   "type": "built:b18p1e9b",
+   "at": [
+    7125.6,
+    18543.2
+   ],
+   "y": 3.02,
+   "yaw": 6.283,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objp0gd2",
+   "type": "built:b18p1e9b",
+   "at": [
+    7136,
+    18636.8
+   ],
+   "y": 3.02,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "obj96cre",
+   "type": "built:b18p1e9b",
+   "at": [
+    7136,
+    18543.2
+   ],
+   "y": 3.02,
+   "yaw": 6.283,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objxnuct",
+   "type": "built:b18p1e9b",
+   "at": [
+    7146.4,
+    18636.8
+   ],
+   "y": 3.02,
+   "yaw": 3.1418,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objmj502",
+   "type": "built:b18p1e9b",
+   "at": [
+    7146.4,
+    18543.2
+   ],
+   "y": 3.02,
+   "yaw": 6.283,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     10.3,
+     0.3
+    ]
+   },
+   "height": 5.2
+  },
+  {
+   "id": "objgfy4w",
+   "type": "built:b00n876n",
+   "at": [
+    7101,
+    18596
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     3.68,
+     3
+    ]
+   },
+   "height": 9.6
+  },
+  {
+   "id": "objxwrso",
+   "type": "built:bruin009",
+   "at": [
+    7076,
+    18630
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     9.38,
+     3.17
+    ]
+   },
+   "height": 12.66
+  },
+  {
+   "id": "objx5ktk",
+   "type": "built:bruin009",
+   "at": [
+    7122,
+    18550
+   ],
+   "y": 3.02,
+   "yaw": 3.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     9.38,
+     3.17
+    ]
+   },
+   "height": 12.66
+  },
+  {
+   "id": "obj46xzu",
+   "type": "built:b15u1wc9",
+   "at": [
+    7078,
+    18627
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.02,
+     1
+    ]
+   },
+   "height": 3.93
+  },
+  {
+   "id": "obj1cdjp",
+   "type": "built:b04bn5my",
+   "at": [
+    7082,
+    18627
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "obj2i91i",
+   "type": "built:bruin002",
+   "at": [
+    7078,
+    18620
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.8,
+     0.8
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "objv84wx",
+   "type": "built:b04bn5my",
+   "at": [
+    7082,
+    18620
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objc33hp",
+   "type": "built:b098869k",
+   "at": [
+    7078,
+    18613
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "outlines": [
+     [
+      [
+       -1.1,
+       0.01
+      ],
+      [
+       -1.05,
+       -0.38
+      ],
+      [
+       0.9,
+       -0.19
+      ],
+      [
+       1.1,
+       -0.01
+      ],
+      [
+       1.05,
+       0.38
+      ],
+      [
+       -0.9,
+       0.19
+      ]
+     ],
+     [
+      [
+       -1.95,
+       1.4
+      ],
+      [
+       -0.21,
+       0.96
+      ],
+      [
+       0.09,
+       2.16
+      ],
+      [
+       -1.65,
+       2.6
+      ]
+     ]
+    ]
+   },
+   "height": 1.26
+  },
+  {
+   "id": "obju0sx4",
+   "type": "built:b013491z",
+   "at": [
+    7082,
+    18606
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     4.5,
+     8.5
+    ]
+   },
+   "height": 2.95
+  },
+  {
+   "id": "obj6tta1",
+   "type": "built:b17qg8bu",
+   "at": [
+    7078,
+    18574
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.63,
+     0.54
+    ]
+   },
+   "height": 3.31
+  },
+  {
+   "id": "objw7wrh",
+   "type": "built:b04bn5my",
+   "at": [
+    7082,
+    18574
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objc4xrl",
+   "type": "built:b16whf8x",
+   "at": [
+    7078,
+    18567
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.63,
+     0.37
+    ]
+   },
+   "height": 3.31
+  },
+  {
+   "id": "objsdu7j",
+   "type": "built:b04bn5my",
+   "at": [
+    7082,
+    18567
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objp5gr6",
+   "type": "built:b162im60",
+   "at": [
+    7078,
+    18553
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.62,
+     0.61
+    ]
+   },
+   "height": 3.31
+  },
+  {
+   "id": "objek1d0",
+   "type": "built:b04bn5my",
+   "at": [
+    7082,
+    18553
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "obj4ogy8",
+   "type": "built:b1vy6ubx",
+   "at": [
+    7090,
+    18627
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.94,
+     0.82
+    ]
+   },
+   "height": 2.58
+  },
+  {
+   "id": "obj1qhgz",
+   "type": "built:b04bn5my",
+   "at": [
+    7094,
+    18627
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "obj565p8",
+   "type": "built:b0b65e4d",
+   "at": [
+    7090,
+    18620
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.22,
+     4.18
+    ]
+   },
+   "height": 1.26
+  },
+  {
+   "id": "objnna36",
+   "type": "built:b013491z",
+   "at": [
+    7094,
+    18613
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     4.5,
+     8.5
+    ]
+   },
+   "height": 2.95
+  },
+  {
+   "id": "objskh47",
+   "type": "built:b1uu8fk1",
+   "at": [
+    7090,
+    18606
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.23,
+     0.52
+    ]
+   },
+   "height": 3.15
+  },
+  {
+   "id": "objzxr1m",
+   "type": "built:b04bn5my",
+   "at": [
+    7094,
+    18606
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "obj730yd",
+   "type": "built:b1v48190",
+   "at": [
+    7090,
+    18574
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.08,
+     0.67
+    ]
+   },
+   "height": 3.75
+  },
+  {
+   "id": "objw0ki6",
+   "type": "built:b04bn5my",
+   "at": [
+    7094,
+    18574
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objcn99d",
+   "type": "built:b0g4ukku",
+   "at": [
+    7094,
+    18567
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     4.8,
+     8.4
+    ]
+   },
+   "height": 3.7
+  },
+  {
+   "id": "objrlbkn",
+   "type": "built:b0g4ukku",
+   "at": [
+    7094,
+    18560
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     4.8,
+     8.4
+    ]
+   },
+   "height": 3.7
+  },
+  {
+   "id": "objdwnvm",
+   "type": "built:b1u09mh4",
+   "at": [
+    7090,
+    18553
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.09,
+     0.79
+    ]
+   },
+   "height": 2.64
+  },
+  {
+   "id": "obj2igdd",
+   "type": "built:b04bn5my",
+   "at": [
+    7094,
+    18553
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objmdtyo",
+   "type": "built:b0b65e4d",
+   "at": [
+    7114,
+    18627
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.22,
+     4.18
+    ]
+   },
+   "height": 1.26
+  },
+  {
+   "id": "objeqgxl",
+   "type": "built:b013491z",
+   "at": [
+    7118,
+    18620
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     4.5,
+     8.5
+    ]
+   },
+   "height": 2.95
+  },
+  {
+   "id": "objq8d6v",
+   "type": "built:b09s7dni",
+   "at": [
+    7114,
+    18613
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "outlines": [
+     [
+      [
+       -1.03,
+       0.18
+      ],
+      [
+       -1,
+       -0.22
+      ],
+      [
+       -0.96,
+       -0.36
+      ],
+      [
+       1.03,
+       -0.18
+      ],
+      [
+       1,
+       0.22
+      ],
+      [
+       0.96,
+       0.36
+      ]
+     ],
+     [
+      [
+       -0.95,
+       1.97
+      ],
+      [
+       -0.44,
+       0.85
+      ],
+      [
+       1.2,
+       1.59
+      ],
+      [
+       0.69,
+       2.71
+      ]
+     ]
+    ]
+   },
+   "height": 1.33
+  },
+  {
+   "id": "objgvgs2",
+   "type": "built:b1v48190",
+   "at": [
+    7114,
+    18606
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.08,
+     0.67
+    ]
+   },
+   "height": 3.75
+  },
+  {
+   "id": "obj3t17h",
+   "type": "built:b04bn5my",
+   "at": [
+    7118,
+    18606
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objwm0wt",
+   "type": "built:b09i7ryj",
+   "at": [
+    7114,
+    18599
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.49,
+     4.42
+    ]
+   },
+   "height": 1.12
+  },
+  {
+   "id": "obju9gq4",
+   "type": "built:bruin001",
+   "at": [
+    7114,
+    18581
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.8,
+     0.4
+    ]
+   },
+   "height": 3.3
+  },
+  {
+   "id": "objwf2xx",
+   "type": "built:b04bn5my",
+   "at": [
+    7118,
+    18581
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objo2jb5",
+   "type": "built:bruin001",
+   "at": [
+    7114,
+    18574
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.8,
+     0.4
+    ]
+   },
+   "height": 3.3
+  },
+  {
+   "id": "objnr7za",
+   "type": "built:b04bn5my",
+   "at": [
+    7118,
+    18574
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objl8vdy",
+   "type": "built:b15u1wc9",
+   "at": [
+    7114,
+    18567
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.02,
+     1
+    ]
+   },
+   "height": 3.93
+  },
+  {
+   "id": "objeh4y8",
+   "type": "built:b04bn5my",
+   "at": [
+    7118,
+    18567
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objv5k6u",
+   "type": "built:b1uu8fk1",
+   "at": [
+    7114,
+    18560
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.23,
+     0.52
+    ]
+   },
+   "height": 3.15
+  },
+  {
+   "id": "objx891n",
+   "type": "built:b04bn5my",
+   "at": [
+    7118,
+    18560
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objcvy21",
+   "type": "built:b1ve7mxz",
+   "at": [
+    7114,
+    18553
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.76,
+     0.71
+    ]
+   },
+   "height": 2.52
+  },
+  {
+   "id": "objy9a2k",
+   "type": "built:b04bn5my",
+   "at": [
+    7118,
+    18553
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "obj47xgf",
+   "type": "built:b013491z",
+   "at": [
+    7130,
+    18627
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     4.5,
+     8.5
+    ]
+   },
+   "height": 2.95
+  },
+  {
+   "id": "obj12qbz",
+   "type": "built:b1u09mh4",
+   "at": [
+    7126,
+    18620
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.09,
+     0.79
+    ]
+   },
+   "height": 2.64
+  },
+  {
+   "id": "objqa9j3",
+   "type": "built:b04bn5my",
+   "at": [
+    7130,
+    18620
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objvofwh",
+   "type": "built:b15u1wc9",
+   "at": [
+    7126,
+    18613
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.02,
+     1
+    ]
+   },
+   "height": 3.93
+  },
+  {
+   "id": "objbug0k",
+   "type": "built:b04bn5my",
+   "at": [
+    7130,
+    18613
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objz6u4m",
+   "type": "built:b15u1wc9",
+   "at": [
+    7126,
+    18606
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.02,
+     1
+    ]
+   },
+   "height": 3.93
+  },
+  {
+   "id": "obj9kqoi",
+   "type": "built:b04bn5my",
+   "at": [
+    7130,
+    18606
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objkh656",
+   "type": "built:b1uu8fk1",
+   "at": [
+    7126,
+    18599
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.23,
+     0.52
+    ]
+   },
+   "height": 3.15
+  },
+  {
+   "id": "obj5bbc8",
+   "type": "built:b04bn5my",
+   "at": [
+    7130,
+    18599
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objsny2x",
+   "type": "built:b15k2ana",
+   "at": [
+    7126,
+    18581
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.02,
+     1
+    ]
+   },
+   "height": 4.15
+  },
+  {
+   "id": "objhox7b",
+   "type": "built:b04bn5my",
+   "at": [
+    7130,
+    18581
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objng9j3",
+   "type": "built:b1uk8tv2",
+   "at": [
+    7126,
+    18574
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.49,
+     0.6
+    ]
+   },
+   "height": 3.65
+  },
+  {
+   "id": "obj49tas",
+   "type": "built:b04bn5my",
+   "at": [
+    7130,
+    18574
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objwzu0y",
+   "type": "built:b0vo264j",
+   "at": [
+    7130,
+    18567
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "outlines": [
+     [
+      [
+       -1.8,
+       -3.8
+      ],
+      [
+       1.8,
+       -3.8
+      ],
+      [
+       1.8,
+       3.8
+      ],
+      [
+       -1.8,
+       3.8
+      ]
+     ],
+     [
+      [
+       1.9,
+       -1
+      ],
+      [
+       4.1,
+       -1
+      ],
+      [
+       4.1,
+       2
+      ],
+      [
+       1.9,
+       2
+      ]
+     ],
+     [
+      [
+       2.55,
+       -2.15
+      ],
+      [
+       2.65,
+       -2.15
+      ],
+      [
+       2.65,
+       -1.85
+      ],
+      [
+       2.55,
+       -1.85
+      ]
+     ]
+    ]
+   },
+   "height": 4.1
+  },
+  {
+   "id": "objkt973",
+   "type": "built:b09s7dni",
+   "at": [
+    7126,
+    18560
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "outlines": [
+     [
+      [
+       -1.03,
+       0.18
+      ],
+      [
+       -1,
+       -0.22
+      ],
+      [
+       -0.96,
+       -0.36
+      ],
+      [
+       1.03,
+       -0.18
+      ],
+      [
+       1,
+       0.22
+      ],
+      [
+       0.96,
+       0.36
+      ]
+     ],
+     [
+      [
+       -0.95,
+       1.97
+      ],
+      [
+       -0.44,
+       0.85
+      ],
+      [
+       1.2,
+       1.59
+      ],
+      [
+       0.69,
+       2.71
+      ]
+     ]
+    ]
+   },
+   "height": 1.33
+  },
+  {
+   "id": "objvfl8l",
+   "type": "built:bruin001",
+   "at": [
+    7126,
+    18553
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.8,
+     0.4
+    ]
+   },
+   "height": 3.3
+  },
+  {
+   "id": "objgmbtf",
+   "type": "built:b04bn5my",
+   "at": [
+    7130,
+    18553
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objt4isq",
+   "type": "built:b16e13q7",
+   "at": [
+    7138,
+    18627
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.06,
+     1
+    ]
+   },
+   "height": 4.39
+  },
+  {
+   "id": "obj9fujd",
+   "type": "built:b04bn5my",
+   "at": [
+    7142,
+    18627
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "obj3kcxx",
+   "type": "built:b1uk8tv2",
+   "at": [
+    7138,
+    18613
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.49,
+     0.6
+    ]
+   },
+   "height": 3.65
+  },
+  {
+   "id": "obj2237k",
+   "type": "built:b04bn5my",
+   "at": [
+    7142,
+    18613
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objkxrri",
+   "type": "built:b1u09mh4",
+   "at": [
+    7138,
+    18606
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.09,
+     0.79
+    ]
+   },
+   "height": 2.64
+  },
+  {
+   "id": "objyl1jl",
+   "type": "built:b04bn5my",
+   "at": [
+    7142,
+    18606
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "obj4trdu",
+   "type": "built:b09s7dni",
+   "at": [
+    7138,
+    18599
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "outlines": [
+     [
+      [
+       -1.03,
+       0.18
+      ],
+      [
+       -1,
+       -0.22
+      ],
+      [
+       -0.96,
+       -0.36
+      ],
+      [
+       1.03,
+       -0.18
+      ],
+      [
+       1,
+       0.22
+      ],
+      [
+       0.96,
+       0.36
+      ]
+     ],
+     [
+      [
+       -0.95,
+       1.97
+      ],
+      [
+       -0.44,
+       0.85
+      ],
+      [
+       1.2,
+       1.59
+      ],
+      [
+       0.69,
+       2.71
+      ]
+     ]
+    ]
+   },
+   "height": 1.33
+  },
+  {
+   "id": "obj94ba8",
+   "type": "built:b1uu8fk1",
+   "at": [
+    7138,
+    18581
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.23,
+     0.52
+    ]
+   },
+   "height": 3.15
+  },
+  {
+   "id": "objswxqi",
+   "type": "built:b04bn5my",
+   "at": [
+    7142,
+    18581
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objd2a8z",
+   "type": "built:b1ve7mxz",
+   "at": [
+    7138,
+    18574
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.76,
+     0.71
+    ]
+   },
+   "height": 2.52
+  },
+  {
+   "id": "objsgpr4",
+   "type": "built:b04bn5my",
+   "at": [
+    7142,
+    18574
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "obj14vov",
+   "type": "built:b0b65e4d",
+   "at": [
+    7138,
+    18567
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.22,
+     4.18
+    ]
+   },
+   "height": 1.26
+  },
+  {
+   "id": "objgvwbi",
+   "type": "built:b1ve7mxz",
+   "at": [
+    7138,
+    18560
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.76,
+     0.71
+    ]
+   },
+   "height": 2.52
+  },
+  {
+   "id": "objb14sj",
+   "type": "built:b04bn5my",
+   "at": [
+    7142,
+    18560
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  },
+  {
+   "id": "objs46d4",
+   "type": "built:b15u1wc9",
+   "at": [
+    7138,
+    18553
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     2.02,
+     1
+    ]
+   },
+   "height": 3.93
+  },
+  {
+   "id": "objo2kyq",
+   "type": "built:b04bn5my",
+   "at": [
+    7142,
+    18553
+   ],
+   "y": 3.02,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bfur0050",
+   "footprint": {
+    "open": 3.81
+   },
+   "height": 0.4
+  }
+ ],
+ "slabs": [
+  {
+   "id": "slabz5s0",
+   "at": [
+    7223.25,
+    1.75,
+    18492
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru075"
+  },
+  {
+   "id": "slab8c6u",
+   "at": [
+    7224,
+    1.75,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru075"
+  },
+  {
+   "id": "slabd56m",
+   "at": [
+    7222.8,
+    1.75,
+    18485.2
+   ],
+   "turn": [
+    90,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     2.4,
+     0
+    ],
+    [
+     2.4,
+     16
+    ],
+    [
+     0,
+     16
+    ]
+   ],
+   "thickness": 2.4,
+   "surface": "logs",
+   "template": "bstru075"
+  },
+  {
+   "id": "slabi320",
+   "at": [
+    7392,
+    3.95,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru080"
+  },
+  {
+   "id": "slab16eq",
+   "at": [
+    7400,
+    3.95,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru080"
+  },
+  {
+   "id": "slab0eap",
+   "at": [
+    7408.75,
+    3.95,
+    18484
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru080"
+  },
+  {
+   "id": "slabp5sz",
+   "at": [
+    7408.75,
+    3.95,
+    18492
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru080"
+  },
+  {
+   "id": "slabalph",
+   "at": [
+    7406.8,
+    3.95,
+    18482.8
+   ],
+   "turn": [
+    0,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     2.4,
+     0
+    ],
+    [
+     2.4,
+     16
+    ],
+    [
+     0,
+     16
+    ]
+   ],
+   "thickness": 2.4,
+   "surface": "logs",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabi3ja",
+   "at": [
+    7395,
+    3.95,
+    18485
+   ],
+   "turn": [
+    0,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     21.5
+    ],
+    [
+     0,
+     21.5
+    ]
+   ],
+   "thickness": 1,
+   "surface": "logs",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabyo1r",
+   "at": [
+    7406,
+    3.95,
+    18485
+   ],
+   "turn": [
+    0,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     21.5
+    ],
+    [
+     0,
+     21.5
+    ]
+   ],
+   "thickness": 1,
+   "surface": "logs",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabzsds",
+   "at": [
+    7395,
+    3.95,
+    18496
+   ],
+   "turn": [
+    0,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     21.5
+    ],
+    [
+     0,
+     21.5
+    ]
+   ],
+   "thickness": 1,
+   "surface": "logs",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabn22u",
+   "at": [
+    7406,
+    3.95,
+    18496
+   ],
+   "turn": [
+    0,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     21.5
+    ],
+    [
+     0,
+     21.5
+    ]
+   ],
+   "thickness": 1,
+   "surface": "logs",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabsaur",
+   "at": [
+    7395,
+    15.95,
+    18485
+   ],
+   "turn": [
+    0,
+    0,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     12
+    ],
+    [
+     0,
+     12
+    ]
+   ],
+   "thickness": 1,
+   "surface": "woodgrain",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabu05v",
+   "kind": "stairs",
+   "at": [
+    7403,
+    4.95,
+    18509
+   ],
+   "turn": [
+    -180,
+    -42.51,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     16.28
+    ],
+    [
+     0,
+     16.28
+    ]
+   ],
+   "thickness": 1,
+   "surface": "woodgrain",
+   "steps": 18,
+   "template": "bstru080"
+  },
+  {
+   "id": "slab5gmj",
+   "at": [
+    7395,
+    15.95,
+    18497
+   ],
+   "turn": [
+    90,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     3
+    ],
+    [
+     0,
+     3
+    ]
+   ],
+   "thickness": 0.4,
+   "surface": "woodgrain",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabmm15",
+   "at": [
+    7407,
+    15.95,
+    18497
+   ],
+   "turn": [
+    -180,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     0,
+     3
+    ]
+   ],
+   "thickness": 0.4,
+   "surface": "woodgrain",
+   "template": "bstru080"
+  },
+  {
+   "id": "slablws6",
+   "at": [
+    7399,
+    15.95,
+    18497
+   ],
+   "turn": [
+    -180,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     0,
+     3
+    ]
+   ],
+   "thickness": 0.4,
+   "surface": "woodgrain",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabs3xv",
+   "at": [
+    7393.5,
+    25.16,
+    18483.5
+   ],
+   "turn": [
+    0,
+    -30,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     15,
+     0
+    ],
+    [
+     7.5,
+     8.66
+    ]
+   ],
+   "thickness": 0.5,
+   "surface": "shingles",
+   "template": "bstru080"
+  },
+  {
+   "id": "slab1t48",
+   "at": [
+    7393.5,
+    25.16,
+    18498.5
+   ],
+   "turn": [
+    180,
+    -30,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     -7.5,
+     8.66
+    ],
+    [
+     -15,
+     0
+    ]
+   ],
+   "thickness": 0.5,
+   "surface": "shingles",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabbjcl",
+   "at": [
+    7393.5,
+    25.16,
+    18483.5
+   ],
+   "turn": [
+    90,
+    -30,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     -7.5,
+     8.66
+    ],
+    [
+     -15,
+     0
+    ]
+   ],
+   "thickness": 0.5,
+   "surface": "shingles",
+   "template": "bstru080"
+  },
+  {
+   "id": "slaburni",
+   "at": [
+    7408.5,
+    25.16,
+    18483.5
+   ],
+   "turn": [
+    -90,
+    -30,
+    0
+   ],
+   "outline": [
+    [
+     7.5,
+     8.66
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     15,
+     0
+    ]
+   ],
+   "thickness": 0.5,
+   "surface": "shingles",
+   "template": "bstru080"
+  },
+  {
+   "id": "slaboydm",
+   "at": [
+    7408.75,
+    6.88,
+    18628
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru075"
+  },
+  {
+   "id": "slabbum2",
+   "at": [
+    7408,
+    6.88,
+    18636.75
+   ],
+   "turn": [
+    -90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru075"
+  },
+  {
+   "id": "slabs2hr",
+   "at": [
+    7409.2,
+    6.88,
+    18634.8
+   ],
+   "turn": [
+    -90,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     2.4,
+     0
+    ],
+    [
+     2.4,
+     16
+    ],
+    [
+     0,
+     16
+    ]
+   ],
+   "thickness": 2.4,
+   "surface": "logs",
+   "template": "bstru075"
+  },
+  {
+   "id": "slab96le",
+   "at": [
+    7240,
+    3.52,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru080"
+  },
+  {
+   "id": "slabnrg1",
+   "at": [
+    7232,
+    3.52,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru080"
+  },
+  {
+   "id": "slab9j2m",
+   "at": [
+    7223.25,
+    3.52,
+    18636
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru080"
+  },
+  {
+   "id": "slablgv7",
+   "at": [
+    7223.25,
+    3.52,
+    18628
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru080"
+  },
+  {
+   "id": "slabe4a3",
+   "at": [
+    7225.2,
+    3.52,
+    18637.2
+   ],
+   "turn": [
+    180,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     2.4,
+     0
+    ],
+    [
+     2.4,
+     16
+    ],
+    [
+     0,
+     16
+    ]
+   ],
+   "thickness": 2.4,
+   "surface": "logs",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabjrbh",
+   "at": [
+    7237,
+    3.52,
+    18635
+   ],
+   "turn": [
+    180,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     21.5
+    ],
+    [
+     0,
+     21.5
+    ]
+   ],
+   "thickness": 1,
+   "surface": "logs",
+   "template": "bstru080"
+  },
+  {
+   "id": "slab60sc",
+   "at": [
+    7226,
+    3.52,
+    18635
+   ],
+   "turn": [
+    180,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     21.5
+    ],
+    [
+     0,
+     21.5
+    ]
+   ],
+   "thickness": 1,
+   "surface": "logs",
+   "template": "bstru080"
+  },
+  {
+   "id": "slab24rc",
+   "at": [
+    7237,
+    3.52,
+    18624
+   ],
+   "turn": [
+    180,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     21.5
+    ],
+    [
+     0,
+     21.5
+    ]
+   ],
+   "thickness": 1,
+   "surface": "logs",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabv8r9",
+   "at": [
+    7226,
+    3.52,
+    18624
+   ],
+   "turn": [
+    180,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     21.5
+    ],
+    [
+     0,
+     21.5
+    ]
+   ],
+   "thickness": 1,
+   "surface": "logs",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabfnh4",
+   "at": [
+    7237,
+    15.52,
+    18635
+   ],
+   "turn": [
+    180,
+    0,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     12
+    ],
+    [
+     0,
+     12
+    ]
+   ],
+   "thickness": 1,
+   "surface": "woodgrain",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabief4",
+   "kind": "stairs",
+   "at": [
+    7229,
+    4.52,
+    18611
+   ],
+   "turn": [
+    0,
+    -42.51,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     16.28
+    ],
+    [
+     0,
+     16.28
+    ]
+   ],
+   "thickness": 1,
+   "surface": "woodgrain",
+   "steps": 18,
+   "template": "bstru080"
+  },
+  {
+   "id": "slabils1",
+   "at": [
+    7237,
+    15.52,
+    18623
+   ],
+   "turn": [
+    270,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     3
+    ],
+    [
+     0,
+     3
+    ]
+   ],
+   "thickness": 0.4,
+   "surface": "woodgrain",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabaltw",
+   "at": [
+    7225,
+    15.52,
+    18623
+   ],
+   "turn": [
+    0,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     0,
+     3
+    ]
+   ],
+   "thickness": 0.4,
+   "surface": "woodgrain",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabkw8y",
+   "at": [
+    7233,
+    15.52,
+    18623
+   ],
+   "turn": [
+    0,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     0,
+     3
+    ]
+   ],
+   "thickness": 0.4,
+   "surface": "woodgrain",
+   "template": "bstru080"
+  },
+  {
+   "id": "slablxsj",
+   "at": [
+    7238.5,
+    24.73,
+    18636.5
+   ],
+   "turn": [
+    180,
+    -30,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     15,
+     0
+    ],
+    [
+     7.5,
+     8.66
+    ]
+   ],
+   "thickness": 0.5,
+   "surface": "shingles",
+   "template": "bstru080"
+  },
+  {
+   "id": "slab9bov",
+   "at": [
+    7238.5,
+    24.73,
+    18621.5
+   ],
+   "turn": [
+    360,
+    -30,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     -7.5,
+     8.66
+    ],
+    [
+     -15,
+     0
+    ]
+   ],
+   "thickness": 0.5,
+   "surface": "shingles",
+   "template": "bstru080"
+  },
+  {
+   "id": "slab7hik",
+   "at": [
+    7238.5,
+    24.73,
+    18636.5
+   ],
+   "turn": [
+    270,
+    -30,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     -7.5,
+     8.66
+    ],
+    [
+     -15,
+     0
+    ]
+   ],
+   "thickness": 0.5,
+   "surface": "shingles",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabbnew",
+   "at": [
+    7223.5,
+    24.73,
+    18636.5
+   ],
+   "turn": [
+    90,
+    -30,
+    0
+   ],
+   "outline": [
+    [
+     7.5,
+     8.66
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     15,
+     0
+    ]
+   ],
+   "thickness": 0.5,
+   "surface": "shingles",
+   "template": "bstru080"
+  },
+  {
+   "id": "slabdvb1",
+   "at": [
+    7232,
+    2,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabqxnw",
+   "at": [
+    7240,
+    2,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabc0ts",
+   "at": [
+    7248,
+    2,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab8za7",
+   "at": [
+    7256,
+    2,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabxh3z",
+   "at": [
+    7264,
+    2.25,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab1e1r",
+   "at": [
+    7272,
+    2.25,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabxt6x",
+   "at": [
+    7280,
+    2.25,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabpaw5",
+   "at": [
+    7288,
+    2.25,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab41eq",
+   "at": [
+    7296,
+    2.63,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru078"
+  },
+  {
+   "id": "slabbj67",
+   "at": [
+    7320,
+    2.63,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru078"
+  },
+  {
+   "id": "slab4vv0",
+   "at": [
+    7302.8,
+    2.63,
+    18482.8
+   ],
+   "turn": [
+    0,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     2.4,
+     0
+    ],
+    [
+     2.4,
+     18
+    ],
+    [
+     0,
+     18
+    ]
+   ],
+   "thickness": 2.4,
+   "surface": "logs",
+   "template": "bstru078"
+  },
+  {
+   "id": "slab3hr5",
+   "at": [
+    7318.8,
+    2.63,
+    18482.8
+   ],
+   "turn": [
+    0,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     2.4,
+     0
+    ],
+    [
+     2.4,
+     18
+    ],
+    [
+     0,
+     18
+    ]
+   ],
+   "thickness": 2.4,
+   "surface": "logs",
+   "template": "bstru078"
+  },
+  {
+   "id": "slabovbf",
+   "at": [
+    7302.5,
+    18.63,
+    18483
+   ],
+   "turn": [
+    0,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     19,
+     0
+    ],
+    [
+     19,
+     1.5
+    ],
+    [
+     0,
+     1.5
+    ]
+   ],
+   "thickness": 2,
+   "surface": "logs",
+   "template": "bstru078"
+  },
+  {
+   "id": "slabeyqu",
+   "at": [
+    7305.69,
+    2.63,
+    18485.09
+   ],
+   "turn": [
+    12.7,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     -12,
+     7
+    ],
+    [
+     -13.4,
+     6.5
+    ],
+    [
+     -12,
+     6
+    ],
+    [
+     -13.4,
+     5.5
+    ],
+    [
+     -12,
+     5
+    ],
+    [
+     -13.4,
+     4.5
+    ],
+    [
+     -12,
+     4
+    ],
+    [
+     -13.4,
+     3.5
+    ],
+    [
+     -12,
+     3
+    ],
+    [
+     -13.4,
+     2.5
+    ],
+    [
+     -12,
+     2
+    ],
+    [
+     -13.4,
+     1.5
+    ],
+    [
+     -12,
+     1
+    ],
+    [
+     -13.4,
+     0.5
+    ],
+    [
+     -12,
+     0
+    ]
+   ],
+   "thickness": 1,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru078"
+  },
+  {
+   "id": "slabqwot",
+   "at": [
+    7319.29,
+    2.63,
+    18485.31
+   ],
+   "turn": [
+    -12.7,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     -12,
+     7
+    ],
+    [
+     -13.4,
+     6.5
+    ],
+    [
+     -12,
+     6
+    ],
+    [
+     -13.4,
+     5.5
+    ],
+    [
+     -12,
+     5
+    ],
+    [
+     -13.4,
+     4.5
+    ],
+    [
+     -12,
+     4
+    ],
+    [
+     -13.4,
+     3.5
+    ],
+    [
+     -12,
+     3
+    ],
+    [
+     -13.4,
+     2.5
+    ],
+    [
+     -12,
+     2
+    ],
+    [
+     -13.4,
+     1.5
+    ],
+    [
+     -12,
+     1
+    ],
+    [
+     -13.4,
+     0.5
+    ],
+    [
+     -12,
+     0
+    ]
+   ],
+   "thickness": 1,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru078"
+  },
+  {
+   "id": "slabsw0o",
+   "at": [
+    7328,
+    2.94,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabegms",
+   "at": [
+    7336,
+    2.94,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabzomp",
+   "at": [
+    7344,
+    2.94,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabyzl6",
+   "at": [
+    7352,
+    2.94,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabajka",
+   "at": [
+    7360,
+    3.38,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabada6",
+   "at": [
+    7368,
+    3.38,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabod7s",
+   "at": [
+    7376,
+    3.38,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabi0pi",
+   "at": [
+    7384,
+    3.38,
+    18483.25
+   ],
+   "turn": [
+    90,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabms11",
+   "at": [
+    7272,
+    4.13,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab8wzc",
+   "at": [
+    7264,
+    4.13,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab9kj1",
+   "at": [
+    7256,
+    4.13,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab7q6l",
+   "at": [
+    7248,
+    4.13,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab0fv4",
+   "at": [
+    7304,
+    4.69,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabemof",
+   "at": [
+    7296,
+    4.69,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slablcu1",
+   "at": [
+    7288,
+    4.69,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabii1v",
+   "at": [
+    7280,
+    4.69,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab1wo4",
+   "at": [
+    7336,
+    5.19,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru078"
+  },
+  {
+   "id": "slabrakq",
+   "at": [
+    7312,
+    5.19,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru078"
+  },
+  {
+   "id": "slablh4g",
+   "at": [
+    7329.2,
+    5.19,
+    18637.2
+   ],
+   "turn": [
+    180,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     2.4,
+     0
+    ],
+    [
+     2.4,
+     18
+    ],
+    [
+     0,
+     18
+    ]
+   ],
+   "thickness": 2.4,
+   "surface": "logs",
+   "template": "bstru078"
+  },
+  {
+   "id": "slabbmqc",
+   "at": [
+    7313.2,
+    5.19,
+    18637.2
+   ],
+   "turn": [
+    180,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     2.4,
+     0
+    ],
+    [
+     2.4,
+     18
+    ],
+    [
+     0,
+     18
+    ]
+   ],
+   "thickness": 2.4,
+   "surface": "logs",
+   "template": "bstru078"
+  },
+  {
+   "id": "slab0f60",
+   "at": [
+    7329.5,
+    21.19,
+    18637
+   ],
+   "turn": [
+    180,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     19,
+     0
+    ],
+    [
+     19,
+     1.5
+    ],
+    [
+     0,
+     1.5
+    ]
+   ],
+   "thickness": 2,
+   "surface": "logs",
+   "template": "bstru078"
+  },
+  {
+   "id": "slabwo1p",
+   "at": [
+    7326.31,
+    5.19,
+    18634.91
+   ],
+   "turn": [
+    192.7,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     -12,
+     7
+    ],
+    [
+     -13.4,
+     6.5
+    ],
+    [
+     -12,
+     6
+    ],
+    [
+     -13.4,
+     5.5
+    ],
+    [
+     -12,
+     5
+    ],
+    [
+     -13.4,
+     4.5
+    ],
+    [
+     -12,
+     4
+    ],
+    [
+     -13.4,
+     3.5
+    ],
+    [
+     -12,
+     3
+    ],
+    [
+     -13.4,
+     2.5
+    ],
+    [
+     -12,
+     2
+    ],
+    [
+     -13.4,
+     1.5
+    ],
+    [
+     -12,
+     1
+    ],
+    [
+     -13.4,
+     0.5
+    ],
+    [
+     -12,
+     0
+    ]
+   ],
+   "thickness": 1,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru078"
+  },
+  {
+   "id": "slabm0hu",
+   "at": [
+    7312.71,
+    5.19,
+    18634.69
+   ],
+   "turn": [
+    167.3,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     -12,
+     7
+    ],
+    [
+     -13.4,
+     6.5
+    ],
+    [
+     -12,
+     6
+    ],
+    [
+     -13.4,
+     5.5
+    ],
+    [
+     -12,
+     5
+    ],
+    [
+     -13.4,
+     4.5
+    ],
+    [
+     -12,
+     4
+    ],
+    [
+     -13.4,
+     3.5
+    ],
+    [
+     -12,
+     3
+    ],
+    [
+     -13.4,
+     2.5
+    ],
+    [
+     -12,
+     2
+    ],
+    [
+     -13.4,
+     1.5
+    ],
+    [
+     -12,
+     1
+    ],
+    [
+     -13.4,
+     0.5
+    ],
+    [
+     -12,
+     0
+    ]
+   ],
+   "thickness": 1,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru078"
+  },
+  {
+   "id": "slabnpdn",
+   "at": [
+    7368,
+    5.88,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabxp0x",
+   "at": [
+    7360,
+    5.88,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab19ku",
+   "at": [
+    7352,
+    5.88,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabalc8",
+   "at": [
+    7344,
+    5.88,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabyu3r",
+   "at": [
+    7400,
+    6.5,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab5ftm",
+   "at": [
+    7392,
+    6.5,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabjnwf",
+   "at": [
+    7384,
+    6.5,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabkuga",
+   "at": [
+    7376,
+    6.5,
+    18636.75
+   ],
+   "turn": [
+    270,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabferj",
+   "at": [
+    7223.25,
+    2,
+    18524
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabnoxf",
+   "at": [
+    7223.25,
+    2,
+    18516
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabkgek",
+   "at": [
+    7223.25,
+    2,
+    18508
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab29rb",
+   "at": [
+    7223.25,
+    2,
+    18500
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab503f",
+   "at": [
+    7223.25,
+    2.43,
+    18556
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabdj8n",
+   "at": [
+    7223.25,
+    2.43,
+    18548
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabxgeg",
+   "at": [
+    7223.25,
+    2.43,
+    18540
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabu87i",
+   "at": [
+    7223.25,
+    2.43,
+    18532
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabndk0",
+   "at": [
+    7223.25,
+    2.83,
+    18588
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabubs7",
+   "at": [
+    7223.25,
+    2.83,
+    18580
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabyds4",
+   "at": [
+    7223.25,
+    2.83,
+    18572
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabtgwt",
+   "at": [
+    7223.25,
+    2.83,
+    18564
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab6hkx",
+   "at": [
+    7223.25,
+    3.22,
+    18620
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabefas",
+   "at": [
+    7223.25,
+    3.22,
+    18612
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabl1td",
+   "at": [
+    7223.25,
+    3.22,
+    18604
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabmb1x",
+   "at": [
+    7223.25,
+    3.22,
+    18596
+   ],
+   "turn": [
+    180,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slaboz09",
+   "at": [
+    7408.75,
+    4.38,
+    18500
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabtom0",
+   "at": [
+    7408.75,
+    4.38,
+    18508
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabefhe",
+   "at": [
+    7408.75,
+    4.38,
+    18516
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabtcxi",
+   "at": [
+    7408.75,
+    4.38,
+    18524
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabbvrf",
+   "at": [
+    7408.75,
+    5.03,
+    18532
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab9ul1",
+   "at": [
+    7408.75,
+    5.03,
+    18540
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab8mcj",
+   "at": [
+    7408.75,
+    5.03,
+    18548
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabwczx",
+   "at": [
+    7408.75,
+    5.03,
+    18556
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab4wox",
+   "at": [
+    7408.75,
+    5.67,
+    18564
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru078"
+  },
+  {
+   "id": "slabm6ew",
+   "at": [
+    7408.75,
+    5.67,
+    18588
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru078"
+  },
+  {
+   "id": "slab6pkp",
+   "at": [
+    7409.2,
+    5.67,
+    18570.8
+   ],
+   "turn": [
+    -90,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     2.4,
+     0
+    ],
+    [
+     2.4,
+     18
+    ],
+    [
+     0,
+     18
+    ]
+   ],
+   "thickness": 2.4,
+   "surface": "logs",
+   "template": "bstru078"
+  },
+  {
+   "id": "slab6ulu",
+   "at": [
+    7409.2,
+    5.67,
+    18586.8
+   ],
+   "turn": [
+    -90,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     2.4,
+     0
+    ],
+    [
+     2.4,
+     18
+    ],
+    [
+     0,
+     18
+    ]
+   ],
+   "thickness": 2.4,
+   "surface": "logs",
+   "template": "bstru078"
+  },
+  {
+   "id": "slabnz01",
+   "at": [
+    7409,
+    21.67,
+    18570.5
+   ],
+   "turn": [
+    -90,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     19,
+     0
+    ],
+    [
+     19,
+     1.5
+    ],
+    [
+     0,
+     1.5
+    ]
+   ],
+   "thickness": 2,
+   "surface": "logs",
+   "template": "bstru078"
+  },
+  {
+   "id": "slabp27e",
+   "at": [
+    7406.91,
+    5.67,
+    18573.69
+   ],
+   "turn": [
+    -77.3,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     -12,
+     7
+    ],
+    [
+     -13.4,
+     6.5
+    ],
+    [
+     -12,
+     6
+    ],
+    [
+     -13.4,
+     5.5
+    ],
+    [
+     -12,
+     5
+    ],
+    [
+     -13.4,
+     4.5
+    ],
+    [
+     -12,
+     4
+    ],
+    [
+     -13.4,
+     3.5
+    ],
+    [
+     -12,
+     3
+    ],
+    [
+     -13.4,
+     2.5
+    ],
+    [
+     -12,
+     2
+    ],
+    [
+     -13.4,
+     1.5
+    ],
+    [
+     -12,
+     1
+    ],
+    [
+     -13.4,
+     0.5
+    ],
+    [
+     -12,
+     0
+    ]
+   ],
+   "thickness": 1,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru078"
+  },
+  {
+   "id": "slabrmka",
+   "at": [
+    7406.69,
+    5.67,
+    18587.29
+   ],
+   "turn": [
+    -102.7,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     -12,
+     7
+    ],
+    [
+     -13.4,
+     6.5
+    ],
+    [
+     -12,
+     6
+    ],
+    [
+     -13.4,
+     5.5
+    ],
+    [
+     -12,
+     5
+    ],
+    [
+     -13.4,
+     4.5
+    ],
+    [
+     -12,
+     4
+    ],
+    [
+     -13.4,
+     3.5
+    ],
+    [
+     -12,
+     3
+    ],
+    [
+     -13.4,
+     2.5
+    ],
+    [
+     -12,
+     2
+    ],
+    [
+     -13.4,
+     1.5
+    ],
+    [
+     -12,
+     1
+    ],
+    [
+     -13.4,
+     0.5
+    ],
+    [
+     -12,
+     0
+    ]
+   ],
+   "thickness": 1,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru078"
+  },
+  {
+   "id": "slab6zpj",
+   "at": [
+    7408.75,
+    6.45,
+    18596
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabam1p",
+   "at": [
+    7408.75,
+    6.45,
+    18604
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabvxud",
+   "at": [
+    7408.75,
+    6.45,
+    18612
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slabji5q",
+   "at": [
+    7408.75,
+    6.45,
+    18620
+   ],
+   "turn": [
+    0,
+    0,
+    -90
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -14,
+     8
+    ],
+    [
+     -15.4,
+     7.5
+    ],
+    [
+     -14,
+     7
+    ],
+    [
+     -15.4,
+     6.5
+    ],
+    [
+     -14,
+     6
+    ],
+    [
+     -15.4,
+     5.5
+    ],
+    [
+     -14,
+     5
+    ],
+    [
+     -15.4,
+     4.5
+    ],
+    [
+     -14,
+     4
+    ],
+    [
+     -15.4,
+     3.5
+    ],
+    [
+     -14,
+     3
+    ],
+    [
+     -15.4,
+     2.5
+    ],
+    [
+     -14,
+     2
+    ],
+    [
+     -15.4,
+     1.5
+    ],
+    [
+     -14,
+     1
+    ],
+    [
+     -15.4,
+     0.5
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6b4a2e",
+    "preset": "logs"
+   },
+   "template": "bstru073"
+  },
+  {
+   "id": "slab61jp",
+   "at": [
+    7098,
+    3.12,
+    18593
+   ],
+   "turn": [
+    90,
+    0,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     53.6
+    ],
+    [
+     0,
+     53.6
+    ]
+   ],
+   "thickness": 0.2,
+   "surface": "flagstones",
+   "template": "bfur0050"
+  },
+  {
+   "id": "slabohv8",
+   "at": [
+    7104,
+    3.12,
+    18620
+   ],
+   "turn": [
+    90,
+    0,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     27,
+     0
+    ],
+    [
+     27,
+     6
+    ],
+    [
+     0,
+     6
+    ]
+   ],
+   "thickness": 0.2,
+   "surface": "flagstones",
+   "template": "bfur0050"
+  },
+  {
+   "id": "slabsxh5",
+   "at": [
+    7104,
+    3.12,
+    18587
+   ],
+   "turn": [
+    90,
+    0,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     27,
+     0
+    ],
+    [
+     27,
+     6
+    ],
+    [
+     0,
+     6
+    ]
+   ],
+   "thickness": 0.2,
+   "surface": "flagstones",
+   "template": "bfur0050"
+  }
+ ],
+ "structures": [
+  {
+   "id": "strcbzie",
+   "structure": "bstk0028",
+   "at": [
+    7284,
+    3.45,
+    18522
+   ],
+   "turn": 270,
+   "template": "bfur0028",
+   "tiles": [
+    [
+     28,
+     72
+    ]
+   ]
+  },
+  {
+   "id": "strcbq0s",
+   "structure": "bstk0036",
+   "at": [
+    7098,
+    3.02,
+    18590
+   ],
+   "turn": 270,
+   "template": "bfur0050",
+   "tiles": [
+    [
+     27,
+     72
+    ]
+   ]
+  },
+  {
+   "id": "strcudrg",
+   "structure": "bstk0020",
+   "at": [
+    7292,
+    4.85,
+    18594
+   ],
+   "turn": 270,
+   "template": "bfur0020",
+   "tiles": [
+    [
+     28,
+     72
+    ]
+   ]
+  }
+ ]
+}

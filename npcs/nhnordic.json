@@ -1,0 +1,60 @@
+{
+  "id": "nhnordic",
+  "name": "Nordish Herder",
+  "creatureType": "humanoid",
+  "reaction": "friendly",
+  "levels": [
+    9,
+    11
+  ],
+  "says": [
+    "The grass doesn't know whose it is.",
+    "Wolves again last night. Two calves.",
+    "Sing it louder, skald, the cows like it."
+  ],
+  "look": {
+    "body": "humanoid",
+    "height": [
+      5.8,
+      6.5
+    ],
+    "build": [
+      0.5,
+      0.9
+    ],
+    "hair": [
+      "long",
+      "braids"
+    ],
+    "beard": [
+      "full",
+      "full",
+      "none"
+    ],
+    "colors": {
+      "primary": [
+        "#8a3a2a",
+        "#3a5a4a",
+        "#6a5a3a"
+      ],
+      "secondary": [
+        "#4a3a2a",
+        "#2a2a22"
+      ]
+    },
+    "armor": {
+      "chest": {
+        "type": "leather",
+        "style": "plain"
+      },
+      "legs": {
+        "type": "leather",
+        "style": "plain"
+      },
+      "feet": {
+        "type": "leather",
+        "style": "plain"
+      }
+    }
+  }
+}
