@@ -1,0 +1,23 @@
+{
+  "id": "wrjory01",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Fish don't care who's dead. Want to learn, or buy?",
+      "choices": [
+        {
+          "text": "What do you sell?",
+          "do": "vendor"
+        },
+        {
+          "text": "Teach me to fish.",
+          "do": "train"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "nhfisher",
+  "name": "Wrackholm Fisherfolk",
+  "creatureType": "humanoid",
+  "reaction": "friendly",
+  "levels": [
+    6,
+    9
+  ],
+  "says": [
+    "Bar the door after dark.",
+    "Nets come up torn, and not by fish.",
+    "We're not leaving the boats. Not for them, not for anyone."
+  ],
+  "look": {
+    "body": "humanoid",
+    "height": [
+      5.5,
+      6.2
+    ],
+    "build": [
+      0.4,
+      0.8
+    ],
+    "hair": [
+      "short",
+      "long",
+      "braids",
+      "bald"
+    ],
+    "beard": [
+      "none",
+      "full",
+      "goatee"
+    ],
+    "colors": {
+      "primary": [
+        "#4a5a6a",
+        "#5a5a4a",
+        "#6a5a4a"
+      ],
+      "secondary": [
+        "#3a3028"
+      ]
+    },
+    "armor": {
+      "chest": {
+        "type": "leather",
+        "style": "plain"
+      },
+      "legs": {
+        "type": "cloth",
+        "style": "plain"
+      },
+      "feet": {
+        "type": "leather",
+        "style": "plain"
+      }
+    }
+  }
+}

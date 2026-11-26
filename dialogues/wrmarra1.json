@@ -1,0 +1,23 @@
+{
+  "id": "wrmarra1",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "You'll want a bed and a bowl. Door's barred at dark, mind.",
+      "choices": [
+        {
+          "text": "What have you got to eat?",
+          "do": "vendor"
+        },
+        {
+          "text": "I'll stay here.",
+          "do": "home"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  }
+}

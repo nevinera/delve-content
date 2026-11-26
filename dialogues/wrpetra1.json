@@ -1,0 +1,23 @@
+{
+  "id": "wrpetra1",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Smells, doesn't it? Good leather always does.",
+      "choices": [
+        {
+          "text": "What are you selling?",
+          "do": "vendor"
+        },
+        {
+          "text": "Teach me leatherwork.",
+          "do": "train"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  }
+}

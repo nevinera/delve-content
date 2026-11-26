@@ -203,7 +203,7 @@
         "mood": "Scared and stubborn. The dead come up the beach at night, and nobody will leave the boats.",
         "people": [
           "Marra Tidwell, the net-mender who speaks for the village",
-          "Jory Fenn, a fisherman"
+          "Tam Fenn, a fisherman"
         ],
         "lines": [
           "The drowned dead (6-8): the dead from the old wreck, and the necromancer in the sea-cave"
@@ -214,7 +214,8 @@
         ],
         "quests": "About 4.",
         "site": "Low beach ground on the cove, out of sight of the other hubs behind Gull Head and the hill north of it.",
-        "situation": "Off the coast road by a short lane, between Brightford and Northgate."
+        "situation": "Off the coast road by a short lane, between Brightford and Northgate.",
+        "scene": "The lane from the coast road ends above the beach, at three thatched cottages round a well on the low ground of the cove. Marra Tidwell's cottage, where travellers sleep behind a barred door, faces the beach; Tam Fenn's stands north of it, with a woodshed behind, and Petra Skerry tans hides outside the third, to the south-east. Fish drying racks, net racks and crates line the beach, with beached and upturned boats and crab pots, and a short dock runs out into the cove. The village dead lie in a small fenced plot of grave mounds and cairns up the rise to the north-east, off the lane."
       }
     },
     "camps": {
@@ -1521,14 +1522,14 @@
         "zone": "3e5710y9"
       },
       "wrjory01": {
-        "name": "Jory Fenn",
+        "name": "Tam Fenn",
         "hub": "ytkenc47",
         "traits": [
           "nervous",
           "kind"
         ],
-        "voice": "Talks too fast.",
-        "notes": "A fisherman who saw the dead walk up out of the water by the wreck.",
+        "voice": "Talks fast and low, keeps glancing at the water.",
+        "notes": "A fisherman who saw the dead walk up out of the water by the wreck. Still takes his boat out by day, and teaches Wakers to fish.",
         "zone": "3e5710y9"
       },
       "wrcorwn1": {
@@ -1672,6 +1673,18 @@
         ],
         "voice": "Scolds and doctors in the same breath.",
         "notes": "Ama's mother. Gathers herbs along the hedges and field edges for the farm's ills, and teaches Wakers what to pick and what to leave.",
+        "zone": "3e5710y9"
+      },
+      "wrpetra1": {
+        "name": "Petra Skerry",
+        "hub": "ytkenc47",
+        "traits": [
+          "gruff",
+          "capable",
+          "superstitious"
+        ],
+        "voice": "Spits for luck before she answers.",
+        "notes": "Tans sealskin and fish leather on the racks behind her cottage, sells hides and thread, and teaches Wakers the work.",
         "zone": "3e5710y9"
       }
     },

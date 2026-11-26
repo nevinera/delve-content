@@ -26645,6 +26645,109 @@
         9
       ],
       "respawn": 300
+    },
+    {
+      "id": "wrmarra1",
+      "npc": "nhfisher",
+      "name": "Marra Tidwell",
+      "title": "Net-mender",
+      "dialogue": "wrmarra1",
+      "innkeeper": true,
+      "restArea": "wrrest01",
+      "vendor": {
+        "sells": [
+          "stock/oat-cake",
+          "stock/smoked-sausage",
+          "stock/roast-fowl",
+          "stock/spiced-venison",
+          "stock/cured-ham",
+          "stock/pepper-steak",
+          "stock/hearty-meat-pie",
+          "stock/well-water",
+          "stock/mint-tea",
+          "stock/honeyed-milk",
+          "stock/mountain-cider",
+          "stock/berry-cordial",
+          "stock/pear-nectar",
+          "stock/glacier-water"
+        ]
+      },
+      "at": [
+        6714,
+        2.3,
+        21569.6
+      ],
+      "yaw": 330,
+      "levels": [
+        9,
+        9
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "wrjory01",
+      "npc": "nhfisher",
+      "name": "Tam Fenn",
+      "title": "Fisherman",
+      "dialogue": "wrjory01",
+      "vendor": {
+        "sells": [
+          "stock/fishing-pole",
+          "fishing/sturdy-fishing-pole",
+          "fishing/painted-spoon",
+          "fishing/feathered-spinner",
+          "fishing/glow-lure",
+          "fishing/deepwater-lure"
+        ]
+      },
+      "trains": {
+        "profession": "fishing",
+        "upTo": "Journeyman"
+      },
+      "at": [
+        6660,
+        null,
+        21600
+      ],
+      "yaw": 90,
+      "levels": [
+        8,
+        8
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "wrpetra1",
+      "npc": "nhfisher",
+      "name": "Petra Skerry",
+      "title": "Tanner",
+      "dialogue": "wrpetra1",
+      "vendor": {
+        "sells": [
+          "stock/skinning-knife",
+          "stock/salt",
+          "stock/coarse-thread",
+          "stock/fine-thread",
+          "stock/silken-thread",
+          "stock/heavy-silken-thread",
+          "stock/golden-thread"
+        ]
+      },
+      "trains": {
+        "profession": "leatherworking",
+        "upTo": "Journeyman"
+      },
+      "at": [
+        6786,
+        null,
+        21566.9
+      ],
+      "yaw": 30,
+      "levels": [
+        8,
+        8
+      ],
+      "respawn": 300
     }
   ]
 }
