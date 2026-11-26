@@ -25,5 +25,16 @@
     "engineering": "stock",
     "fishing": "stock",
     "cooking": "stock"
-  }
+  },
+  "graveyards": [
+    {
+      "id": "grav2rlk",
+      "continent": "ithelmar",
+      "name": "Wakewell Abbey",
+      "at": [
+        14775,
+        21882
+      ]
+    }
+  ]
 }

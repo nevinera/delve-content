@@ -1,0 +1,23 @@
+{
+  "id": "nhwenna1",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Come in, come in. There is soup, and there are beds, and you look as if you want both.",
+      "choices": [
+        {
+          "text": "What can you spare?",
+          "do": "vendor"
+        },
+        {
+          "text": "I would like a bed here.",
+          "do": "home"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  }
+}

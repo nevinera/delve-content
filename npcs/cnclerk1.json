@@ -1,0 +1,70 @@
+{
+  "id": "cnclerk1",
+  "name": "Council Assessor",
+  "title": "Assessor",
+  "creatureType": "humanoid",
+  "reaction": "friendly",
+  "levels": [
+    5,
+    15
+  ],
+  "says": [
+    "Every sack is counted. Every one."
+  ],
+  "look": {
+    "body": "humanoid",
+    "height": [
+      5.6,
+      6.2
+    ],
+    "build": [
+      0.3,
+      0.6
+    ],
+    "hair": [
+      "short",
+      "receding",
+      "bun",
+      "bald",
+      "long",
+      "braids"
+    ],
+    "beard": [
+      "none",
+      "none",
+      "full",
+      "goatee"
+    ],
+    "expression": [
+      "neutral",
+      "smile"
+    ],
+    "lips": [
+      "thin",
+      "default"
+    ],
+    "colors": {
+      "primary": [
+        "#3a3a4a",
+        "#4a3a2a"
+      ],
+      "secondary": [
+        "#2a2a2a"
+      ]
+    },
+    "armor": {
+      "chest": {
+        "type": "cloth",
+        "style": "fine"
+      },
+      "legs": {
+        "type": "cloth",
+        "style": "fine"
+      },
+      "feet": {
+        "type": "leather",
+        "style": "plain"
+      }
+    }
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "id": "bstk0025",
+  "version": 1,
+  "name": "Hen house",
+  "tags": [
+    "animals",
+    "farm",
+    "small"
+  ],
+  "theme": "cabin",
+  "ground": "ground",
+  "floors": [
+    {
+      "id": "ground",
+      "y": 0,
+      "height": 10,
+      "pieces": [
+        {
+          "op": "add",
+          "rect": [
+            -12,
+            -32,
+            12,
+            0
+          ]
+        },
+        {
+          "op": "add",
+          "rect": [
+            12,
+            -24,
+            30,
+            0
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "from": [
+            -12,
+            -32
+          ],
+          "to": [
+            12,
+            -32
+          ]
+        },
+        {
+          "from": [
+            12,
+            -32
+          ],
+          "to": [
+            12,
+            0
+          ]
+        },
+        {
+          "from": [
+            12,
+            0
+          ],
+          "to": [
+            -12,
+            0
+          ]
+        },
+        {
+          "from": [
+            -12,
+            0
+          ],
+          "to": [
+            -12,
+            -32
+          ]
+        },
+        {
+          "from": [
+            12,
+            -24
+          ],
+          "to": [
+            30,
+            -24
+          ],
+          "low": true
+        },
+        {
+          "from": [
+            30,
+            -24
+          ],
+          "to": [
+            30,
+            0
+          ],
+          "low": true
+        },
+        {
+          "from": [
+            30,
+            0
+          ],
+          "to": [
+            12,
+            0
+          ],
+          "low": true
+        }
+      ],
+      "rooms": [
+        {
+          "outline": [
+            [
+              -12,
+              -32
+            ],
+            [
+              12,
+              -32
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              -12,
+              0
+            ]
+          ],
+          "name": "Hen house",
+          "theme": "barn"
+        },
+        {
+          "outline": [
+            [
+              12,
+              -24
+            ],
+            [
+              30,
+              -24
+            ],
+            [
+              30,
+              0
+            ],
+            [
+              12,
+              0
+            ]
+          ],
+          "name": "Run",
+          "theme": "yard"
+        }
+      ],
+      "areas": [
+        [
+          [
+            -12,
+            -32
+          ],
+          [
+            12,
+            -32
+          ],
+          [
+            12,
+            -24
+          ],
+          [
+            30,
+            -24
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            -12,
+            0
+          ]
+        ]
+      ],
+      "walls": [
+        {
+          "from": [
+            -12,
+            -32
+          ],
+          "to": [
+            12,
+            -32
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 4,
+              "height": 6,
+              "glass": true,
+              "along": 10
+            }
+          ],
+          "paint": {
+            "left": "logs",
+            "right": "logs"
+          }
+        },
+        {
+          "from": [
+            12,
+            -32
+          ],
+          "to": [
+            12,
+            -24
+          ],
+          "paint": {
+            "left": "logs",
+            "right": "logs"
+          }
+        },
+        {
+          "from": [
+            12,
+            -24
+          ],
+          "to": [
+            12,
+            0
+          ],
+          "openings": [
+            {
+              "kind": "gap",
+              "width": 3,
+              "height": 3,
+              "along": 10.5
+            }
+          ],
+          "paint": {
+            "left": "logs",
+            "right": "logs"
+          }
+        },
+        {
+          "from": [
+            12,
+            0
+          ],
+          "to": [
+            -12,
+            0
+          ],
+          "openings": [
+            {
+              "kind": "doorway",
+              "width": 5,
+              "height": 8,
+              "along": 9.5
+            }
+          ],
+          "paint": {
+            "left": "logs",
+            "right": "logs"
+          }
+        },
+        {
+          "from": [
+            -12,
+            0
+          ],
+          "to": [
+            -12,
+            -32
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 4,
+              "height": 6,
+              "glass": true,
+              "along": 14
+            }
+          ],
+          "paint": {
+            "left": "logs",
+            "right": "logs"
+          }
+        },
+        {
+          "from": [
+            12,
+            -24
+          ],
+          "to": [
+            30,
+            -24
+          ],
+          "height": 3.5,
+          "paint": {
+            "left": "logs",
+            "right": "logs"
+          }
+        },
+        {
+          "from": [
+            30,
+            -24
+          ],
+          "to": [
+            30,
+            0
+          ],
+          "height": 3.5,
+          "paint": {
+            "left": "logs",
+            "right": "logs"
+          }
+        },
+        {
+          "from": [
+            30,
+            0
+          ],
+          "to": [
+            12,
+            0
+          ],
+          "height": 3.5,
+          "openings": [
+            {
+              "kind": "gap",
+              "width": 4,
+              "height": 3.5,
+              "along": 7
+            }
+          ],
+          "paint": {
+            "left": "logs",
+            "right": "logs"
+          }
+        }
+      ],
+      "objects": [
+        {
+          "type": "built:b1r8d2tp",
+          "at": [
+            -6,
+            -30.4
+          ],
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              8,
+              2.05
+            ]
+          },
+          "height": 6.1
+        },
+        {
+          "type": "built:b10z903q",
+          "at": [
+            6,
+            -29.9
+          ],
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "outlines": [
+              [
+                [
+                  -3.3,
+                  2.08
+                ],
+                [
+                  3.3,
+                  2.08
+                ],
+                [
+                  3.3,
+                  2.33
+                ],
+                [
+                  -3.3,
+                  2.33
+                ]
+              ],
+              [
+                [
+                  -3.3,
+                  0.68
+                ],
+                [
+                  3.3,
+                  0.68
+                ],
+                [
+                  3.3,
+                  0.93
+                ],
+                [
+                  -3.3,
+                  0.93
+                ]
+              ],
+              [
+                [
+                  -3.3,
+                  -0.72
+                ],
+                [
+                  3.3,
+                  -0.72
+                ],
+                [
+                  3.3,
+                  -0.47
+                ],
+                [
+                  -3.3,
+                  -0.47
+                ]
+              ]
+            ]
+          },
+          "height": 4.63
+        }
+      ],
+      "doors": [
+        {
+          "type": "door",
+          "at": [
+            5,
+            -0.6
+          ],
+          "up": 0,
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              5,
+              0.2
+            ]
+          },
+          "height": 8,
+          "opening": [
+            3,
+            0
+          ]
+        }
+      ],
+      "lights": [
+        {
+          "kind": "lamp",
+          "at": [
+            -6,
+            -24
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            6,
+            -24
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -6,
+            -8
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            6,
+            -8
+          ],
+          "up": 8
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "roofs": [
+    {
+      "outline": [
+        [
+          -12,
+          -32
+        ],
+        [
+          12,
+          -32
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          -12,
+          0
+        ]
+      ],
+      "y": 10,
+      "style": "gable",
+      "pitch": 35,
+      "overhang": 2,
+      "ridge": 90
+    }
+  ],
+  "collection": "q520f8mo"
+}

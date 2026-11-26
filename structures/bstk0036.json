@@ -1,0 +1,306 @@
+{
+  "id": "bstk0036",
+  "version": 1,
+  "name": "Family crypt",
+  "tags": [
+    "crypt",
+    "tomb",
+    "graveyard",
+    "small"
+  ],
+  "theme": "crypt",
+  "ground": "ground",
+  "floors": [
+    {
+      "id": "ground",
+      "y": 0,
+      "height": 12,
+      "pieces": [
+        {
+          "op": "add",
+          "rect": [
+            -10,
+            -28,
+            10,
+            0
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "from": [
+            -10,
+            -28
+          ],
+          "to": [
+            10,
+            -28
+          ]
+        },
+        {
+          "from": [
+            10,
+            -28
+          ],
+          "to": [
+            10,
+            0
+          ]
+        },
+        {
+          "from": [
+            10,
+            0
+          ],
+          "to": [
+            -10,
+            0
+          ]
+        },
+        {
+          "from": [
+            -10,
+            0
+          ],
+          "to": [
+            -10,
+            -28
+          ]
+        }
+      ],
+      "areas": [
+        [
+          [
+            -10,
+            -28
+          ],
+          [
+            10,
+            -28
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            -10,
+            0
+          ]
+        ]
+      ],
+      "walls": [
+        {
+          "from": [
+            -10,
+            -28
+          ],
+          "to": [
+            10,
+            -28
+          ]
+        },
+        {
+          "from": [
+            10,
+            -28
+          ],
+          "to": [
+            10,
+            0
+          ],
+          "openings": [
+            {
+              "kind": "slit",
+              "width": 1.5,
+              "sill": 4,
+              "height": 7,
+              "along": 7.25
+            },
+            {
+              "kind": "slit",
+              "width": 1.5,
+              "sill": 4,
+              "height": 7,
+              "along": 17.25
+            }
+          ]
+        },
+        {
+          "from": [
+            10,
+            0
+          ],
+          "to": [
+            -10,
+            0
+          ],
+          "openings": [
+            {
+              "kind": "doorway",
+              "width": 6,
+              "height": 9,
+              "along": 7
+            }
+          ]
+        },
+        {
+          "from": [
+            -10,
+            0
+          ],
+          "to": [
+            -10,
+            -28
+          ],
+          "openings": [
+            {
+              "kind": "slit",
+              "width": 1.5,
+              "sill": 4,
+              "height": 7,
+              "along": 9.25
+            },
+            {
+              "kind": "slit",
+              "width": 1.5,
+              "sill": 4,
+              "height": 7,
+              "along": 19.25
+            }
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "type": "built:b0g4ukku",
+          "at": [
+            0,
+            -21
+          ],
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              4.8,
+              8.4
+            ]
+          },
+          "height": 3.7
+        },
+        {
+          "type": "built:b0zqhliq",
+          "at": [
+            -5.5,
+            -11
+          ],
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              3.45,
+              8.05
+            ]
+          },
+          "height": 3.8
+        },
+        {
+          "type": "built:b0zqhliq",
+          "at": [
+            5.5,
+            -11
+          ],
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              3.45,
+              8.05
+            ]
+          },
+          "height": 3.8
+        }
+      ],
+      "doors": [
+        {
+          "type": "door",
+          "at": [
+            6,
+            -1.1
+          ],
+          "up": 0,
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              6,
+              0.2
+            ]
+          },
+          "height": 9,
+          "opening": [
+            2,
+            0
+          ]
+        }
+      ],
+      "lights": [
+        {
+          "kind": "candle",
+          "at": [
+            0,
+            -23
+          ],
+          "up": 3
+        },
+        {
+          "kind": "candle",
+          "at": [
+            0,
+            -14
+          ],
+          "up": 3
+        },
+        {
+          "kind": "candle",
+          "at": [
+            0,
+            -5
+          ],
+          "up": 3
+        }
+      ]
+    }
+  ],
+  "roofs": [
+    {
+      "outline": [
+        [
+          -10,
+          -28
+        ],
+        [
+          10,
+          -28
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          -10,
+          0
+        ]
+      ],
+      "y": 12,
+      "style": "gable",
+      "pitch": 40,
+      "overhang": 1,
+      "ridge": 90,
+      "surface": {
+        "color": "#4a4f57",
+        "preset": "slateTiles"
+      }
+    }
+  ],
+  "collection": "tcoroy5e"
+}

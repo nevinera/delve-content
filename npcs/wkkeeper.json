@@ -1,0 +1,89 @@
+{
+  "id": "wkkeeper",
+  "name": "Wakewell Keeper",
+  "title": "Keeper",
+  "creatureType": "humanoid",
+  "reaction": "friendly",
+  "levels": [
+    5,
+    15
+  ],
+  "says": [
+    "Rest when you need to. The cells are upstairs.",
+    "Mind the foxes by the hen yard.",
+    "You slept a long while. Most do."
+  ],
+  "look": {
+    "body": "humanoid",
+    "height": [
+      5.6,
+      6.2
+    ],
+    "build": [
+      0.3,
+      0.6
+    ],
+    "hair": [
+      "short",
+      "receding",
+      "bun",
+      "bald",
+      "long",
+      "braids"
+    ],
+    "beard": [
+      "none",
+      "none",
+      "full",
+      "goatee"
+    ],
+    "expression": [
+      "neutral",
+      "smile"
+    ],
+    "lips": [
+      "thin",
+      "default"
+    ],
+    "colors": {
+      "primary": [
+        "#c8c0a8",
+        "#e8e0d0",
+        "#8a7a5a"
+      ],
+      "secondary": [
+        "#6b5a3a",
+        "#4a4038"
+      ]
+    },
+    "armor": {
+      "chest": {
+        "type": "cloth",
+        "style": "fine",
+        "colors": [
+          [
+            "#c8c0a8",
+            "#e8e0d0"
+          ],
+          [
+            "#3a6a8a",
+            "#2e4a6b"
+          ]
+        ]
+      },
+      "legs": {
+        "type": "cloth",
+        "style": "fine",
+        "colors": [
+          [
+            "#c8c0a8",
+            "#a08060"
+          ],
+          [
+            "#3a6a8a"
+          ]
+        ]
+      }
+    }
+  }
+}

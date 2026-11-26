@@ -25796,6 +25796,162 @@
       ],
       "respawn": 300,
       "spawnArea": "spwnt8eh"
+    },
+    {
+      "id": "nhcorra1",
+      "npc": "wkkeeper",
+      "name": "Abbess Corra Lindqvist",
+      "title": "Abbess",
+      "at": [
+        14784,
+        64.8,
+        22008
+      ],
+      "yaw": 0,
+      "levels": [
+        12,
+        12
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nhbranni",
+      "npc": "wkwarden",
+      "name": "Keeper Brannick",
+      "title": "Warden",
+      "at": [
+        14760,
+        null,
+        22075
+      ],
+      "yaw": 200,
+      "levels": [
+        14,
+        14
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nhnell01",
+      "npc": "wkkeeper",
+      "name": "Keeper Nell Sallow",
+      "title": "Herbalist",
+      "trains": {
+        "profession": "herbalism",
+        "upTo": "Journeyman"
+      },
+      "at": [
+        14716,
+        null,
+        22092
+      ],
+      "yaw": 160,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nhaubin1",
+      "npc": "wkkeeper",
+      "name": "Keeper Aubin",
+      "title": "Dream-keeper",
+      "at": [
+        14492,
+        null,
+        22262
+      ],
+      "yaw": 250,
+      "levels": [
+        11,
+        11
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nhpell01",
+      "npc": "cnclerk1",
+      "name": "Assessor Pell Duvane",
+      "title": "Assessor",
+      "at": [
+        14722,
+        64.8,
+        21962
+      ],
+      "yaw": 270,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nhwenna1",
+      "npc": "wkkeeper",
+      "name": "Keeper Wenna Holt",
+      "title": "Hosteller",
+      "dialogue": "nhwenna1",
+      "innkeeper": true,
+      "restArea": "nhrest01",
+      "vendor": {
+        "sells": [
+          "stock/oat-cake",
+          "stock/smoked-sausage",
+          "stock/roast-fowl",
+          "stock/spiced-venison",
+          "stock/cured-ham",
+          "stock/pepper-steak",
+          "stock/hearty-meat-pie",
+          "stock/well-water",
+          "stock/mint-tea",
+          "stock/honeyed-milk",
+          "stock/mountain-cider",
+          "stock/berry-cordial",
+          "stock/pear-nectar",
+          "stock/glacier-water",
+          "stock/cloth-pouch",
+          "stock/canvas-satchel",
+          "stock/travelers-haversack",
+          "stock/well-water",
+          "stock/mint-tea",
+          "stock/honeyed-milk",
+          "stock/mountain-cider",
+          "stock/berry-cordial",
+          "stock/pear-nectar",
+          "stock/glacier-water",
+          "stock/mining-pick",
+          "stock/skinning-knife",
+          "stock/smithing-hammer",
+          "stock/fishing-pole",
+          "stock/coarse-thread",
+          "stock/fine-thread",
+          "stock/silken-thread",
+          "stock/heavy-silken-thread",
+          "stock/glass-vial",
+          "stock/leaded-vial",
+          "stock/crystal-vial",
+          "stock/mild-spices",
+          "stock/hot-spices",
+          "stock/salt",
+          "stock/flour",
+          "stock/cooking-oil",
+          "stock/enchanting-vellum",
+          "stock/copper-rod",
+          "stock/coal"
+        ]
+      },
+      "at": [
+        14714,
+        64.8,
+        21978
+      ],
+      "yaw": 180,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 300
     }
   ]
 }

@@ -62,7 +62,8 @@
         ],
         "quests": "About 13.",
         "site": "Dry ground on a bench some 45 ft over the lake, sloping gently to the shore, with the lake for water.",
-        "situation": "The falls: where the cascade comes off the plateau into the lake, the Dream's touch on the world."
+        "situation": "The falls: where the cascade comes off the plateau into the lake, the Dream's touch on the world.",
+        "scene": "The Abbey stands on a bench about 60 ft over the lake, its front door facing south down the road from Hallam's cross. The forecourt has the well house, and Brannick waits on the road. The herb garden lies south-west of the door, with its cabbage and pumpkin rows, drying herbs and a bench, where Nell works. The hen yard is west of the wing, fenced, with the hen house and two coops, facing the fox country on the west shore. The woodshed stands north-west of the wing. The graveyard lies behind the nave, with its crypt and lychgate. Its spirit healer stands between the two. A trail runs down from the forecourt to the dock, which has two rowboats, where Aubin sets Wakers to sleep by the water. Inside, the Abbess greets the new-woken at the nave door. Wenna keeps the refectory, and the cells above are the rest area. Pell counts stores in the refectory."
       },
       "aesl88uw": {
         "name": "Hallam's cross",
@@ -1301,15 +1302,15 @@
         "zone": "3e5710y9"
       },
       "nhwenna1": {
-        "name": "Wenna Hallam",
-        "hub": "aesl88uw",
+        "name": "Keeper Wenna Holt",
+        "hub": "yrm6ylej",
         "traits": [
-          "proud",
-          "blunt",
-          "weary"
+          "fussy",
+          "generous",
+          "talkative"
         ],
-        "voice": "Plain farm talk, says what she thinks of the Council.",
-        "notes": "Head of the Hallams at Hallam's cross. The Abbey's neighbour, and the first person a new Waker meets outside it.",
+        "voice": "Runs on, apologises for running on, runs on again.",
+        "notes": "The hosteller. Keeps the refectory and the cells, feeds and beds the new-woken, and sells what the Abbey can spare. Counts the bread twice since the assessor came.",
         "zone": "3e5710y9"
       },
       "nhtobin1": {

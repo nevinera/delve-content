@@ -1,0 +1,73 @@
+{
+  "id": "wkwarden",
+  "name": "Wakewell Warden",
+  "title": "Warden",
+  "creatureType": "humanoid",
+  "reaction": "friendly",
+  "levels": [
+    10,
+    15
+  ],
+  "says": [
+    "Keep your eyes on the tree line, sleeper."
+  ],
+  "look": {
+    "body": "humanoid",
+    "height": [
+      5.6,
+      6.2
+    ],
+    "build": [
+      0.3,
+      0.6
+    ],
+    "hair": [
+      "short",
+      "receding",
+      "bun",
+      "bald",
+      "long",
+      "braids"
+    ],
+    "beard": [
+      "none",
+      "none",
+      "full",
+      "goatee"
+    ],
+    "expression": [
+      "neutral",
+      "smile"
+    ],
+    "lips": [
+      "thin",
+      "default"
+    ],
+    "colors": {
+      "primary": [
+        "#c8c0a8",
+        "#e8e0d0",
+        "#8a7a5a"
+      ],
+      "secondary": [
+        "#6b5a3a",
+        "#4a4038"
+      ]
+    },
+    "armor": {
+      "chest": {
+        "type": "leather",
+        "style": "plain"
+      },
+      "legs": {
+        "type": "leather",
+        "style": "plain"
+      },
+      "feet": {
+        "type": "leather",
+        "style": "plain"
+      }
+    }
+  },
+  "aggressive": true
+}
