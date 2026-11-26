@@ -315,7 +315,8 @@
         "why": "Robbers in false grey coats on the north road, Slade's.",
         "quests": [
           "bfrobber"
-        ]
+        ],
+        "scene": "An ambush camp in the trees just west of the north road at 7300,21360: two tents, a campfire, bedrolls, a loot pile and a sack. On the road's west verge at 7384,21432, a broken cart they stopped, with its sacks spilled and a wheel off."
       },
       "4fp17dik": {
         "name": "Kobold diggers",
