@@ -11,30 +11,30 @@
           "The cliff and the forest above: loggers work the cliff foot, kobolds dig into it, and elves watch from the top and don't come down.",
           "The north road: Nordish herders and traders drift south along it, friendly and competing."
         ],
-        "ground": "West, farm lowland down to the coast. East, the plateau's cliff, about 400 ft high with the High forest on top, rising over a band of steep, broken foothills. The Prow, a lower step of the plateau about 200 ft high, juts west from the cliff into the middle of the zone as a steep, rugged ridge. The cascade comes off the plateau south of the Prow and falls in two drops: onto a ledge with a small pool partway down the cliff, then from the ledge's lip into a lake at the cliff foot. A smaller falls drops off the Prow's south face into the lake's north shore, and the Lake river runs west from the lake past Hallam's cross and Brightford to the sea. Wooded hills to the north, with Tennely Hall's valley between them, and a low wooded rise west of Hallam's cross. Crags run along most of the north and south borders, broken only where the roads and the stepping stones go out. The Abbey on a bench above the lake's north-east shore, in the pocket between the Prow, the plateau cliff and the lake, with a spur closing the lake's south-east shore: one way out, west along the north shore.",
+        "ground": "West, farm lowland down to the coast, rolling in low swells, never quite flat. East, the plateau's cliff, about 400 ft high with the High forest on top, rising over a band of steep, broken foothills. The Prow, a lower step of the plateau about 200 ft high, juts west from the cliff into the middle of the zone as a steep, rugged ridge, with ponds under its west end and a small falls dropping off it into the biggest. The cascade comes off the plateau south of the Prow and falls in two drops: onto a ledge with a small pool partway down the cliff, then from the ledge's lip into a lake at the cliff foot. The Lake river runs west from the lake, gathers the middle valley's streams below Hallam's cross, and runs past Brightford to the sea. North, crags along the border, with Tennely Hall's valley running up into them to the north pass, and the north stream running from the valley west along their foot to the sea. North-east, a basin under the cliff, drained west by the cliff brook to the Prow's ponds. A low wooded rise runs north to south west of Hallam's cross. Crags run along the south border too, crossed where the south road, the stepping stones and the lake road go out. The Abbey on a bench above the lake's north-east shore, in the pocket between the Prow, the plateau cliff and the lake: one way out, west along the north shore.",
         "neighbours": [
-          "South: Southern heartland (10-20), over the ford at Brightford, and south-east round the lake's south shore. From the cliff foot there, a trail climbs the face to the falls ledge, where the Underfall's cave is.",
-          "North: Northwest coast (18-28), up the north road through Northgate.",
+          "South: Southern heartland (10-20), over the crags from Brightford's ford, and south-east round the lake's south shore. From the cliff foot there, a trail climbs the face to the falls ledge, where the Underfall's cave is.",
+          "North: Northwest coast (18-28), up the north road from Northgate past Tennely Hall and over the north pass.",
           "East, up the cliff: High forest (22-32), and the Cascade wood (12-20) above the falls. Seen, never reached from here."
         ],
-        "progression": "Abbey (1-4), Hallam's cross (4-6), Brightford (5-9), then east to Cliffside camp (6-9) or north to Tennely Hall and Northgate (8-10). You leave south over the ford or south-east round the lake.",
+        "progression": "Abbey (1-4), Hallam's cross (4-6), Brightford (5-9), then north-east to Cliffside camp (6-9) or north to Tennely Hall and Northgate (8-10). You leave south over the crags from Brightford, south-east round the lake, or north over the pass.",
         "mainThread": "The tithe and the Greycoats: the revolution's promises against the old guard, with no clean side. Heroes fight Slade's band, never the Greycoats or the Council.",
         "parts": [
-          "The Abbey and the lake: the pocket under the Prow and the plateau cliff, with the lakeshore, the Prow falls and the falls pool under the cascade's lower drop, quiet and odd. Closed by cliffs north and east, the lake south and a spur south-east. Opens west along the north shore, between the Prow and the lake, to Hallam's cross.",
-          "Hallam's farms: open barley and hedges round the crossroads where Hallam brook meets the roads, in the middle of the zone. Opens to every other part.",
-          "Brightford and the river: the town at the ford, the river meadows and the south bank woods. Opens east to Hallam's cross and north up the coast pasture, and out south over the ford.",
-          "The cliff foot: the loggers' valley between the Prow's north face and the eastern hills, with the kobold diggings in the cliff. Opens west down its stream to Hallam brook.",
-          "The northern hills: Tennely Hall's valley, Slade's camp and the burned lodge, wooded and watched. Opens south down Hallam brook past the knoll, and west over a saddle to Northgate.",
-          "The north road: coastal pasture from Brightford up to Northgate, in the gap where Northgate beck comes through the western hills. Opens north up the road out of the zone."
+          "The Abbey and the lake: the pocket under the Prow and the plateau cliff, with the lakeshore and the falls pool under the cascade's lower drop, quiet and odd. Closed by cliffs north and east and the lake south. Opens west along the north shore, between the Prow and the lake, to Hallam's cross.",
+          "Hallam's farms: open barley and hedges round the crossroads, between the middle valley's streams, in the middle of the zone, with the Prow's ponds to the east. Opens to every other part.",
+          "Brightford and the river: the town at the ford on the river's south bank, the river meadows, the rolling south-west lowland and the south crags behind. Opens east up the river to Hallam's cross, north over the ford up the coast plain, and out south over the crags.",
+          "The cliff foot: the loggers' basin north of the Prow, under the plateau cliff, with the kobold diggings in the cliff. Opens south-west down the cliff brook to the ponds and Hallam's cross.",
+          "The north valley: Tennely Hall's valley running up into the northern crags, with Slade's camp and the burned lodge, watched. Opens south down the valley to Hallam's cross, west along the north stream to Northgate, and north over the pass.",
+          "The north road: the coast plain from Brightford's ford up to Northgate under the north-west crags, where Northgate beck comes down to the north stream. Opens east along the crag foot to Tennely Hall's valley."
         ],
         "barriers": [
-          "The Prow, hard: a lower step of the plateau, a steep, rugged ridge with a cliff on its south face over the Abbey, jutting from the cliff between the Abbey and Cliffside camp. You go round its west end.",
-          "The Lake river, soft: from the lake west to the sea, crossed at Brightford's ford, with stepping stones below Hallam brook's mouth for a short cut.",
-          "The northern hills, soft: wooded hills round Tennely Hall's valley, crossed by the valley's mouth past the knoll, and a saddle west to Northgate.",
-          "The rise, soft: a low wooded ridge west of Hallam's cross, between the farms and the coast pasture, gone round at either end.",
-          "The lake and the spur, hard: the lake and a spur off the plateau at its south-east corner close the Abbey's pocket to the south. The only way in is along the north shore.",
-          "The border crags, hard: steep crags along most of the north and south borders, crossed only by the north road, the ford road, the stepping stones and the south-east road.",
-          "The plateau cliff, hard: about 400 ft of cliff over steep foothills along the whole east side, never climbed from here."
+          "The Prow, hard: a lower step of the plateau, a steep, rugged ridge jutting west from the cliff between the Abbey and Cliffside camp, with ponds under its west end. You go round its west end.",
+          "The Lake river, soft: from the lake west to the sea, crossed at Brightford's ford, by the lake road below the lake, and by the stepping stones below Hallam's cross.",
+          "The northern crags, hard: crags along the north border, crossed only by the north pass at the head of Tennely Hall's valley.",
+          "The rise, soft: a low wooded ridge west of Hallam's cross, between the farms and the coast plain, gone round at either end.",
+          "The lake, hard: the lake and the cliff close the Abbey's pocket to the south and east. The only way in is along the north shore.",
+          "The south crags, hard: steep crags along the south border, crossed only by the south road, the stepping stones and the lake road round the lake's south shore.",
+          "The plateau cliff, hard: about 400 ft of cliff over steep foothills along the whole east side, never climbed from here, except the trail to the falls ledge."
         ]
       }
     },
@@ -2681,77 +2681,81 @@
       "notes": "The Council's reeve and tithe collector at Brightford, counting everybody's grain against a false measure. Requisitions go out to every farm and the Abbey, quotas to the loggers, and grain wagons up to the granary at Tennely Hall. Not an enemy: the heroes take its work, set its measure right and move its collector on, never fight it.",
       "loci": [
         [
-          8500,
-          23300
+          8250,
+          23550
         ]
       ],
       "strokes": [
         [
           [
-            8650,
-            23150
-          ],
-          [
-            9700,
-            22200
-          ],
-          [
-            10600,
-            21350
-          ]
-        ],
-        [
-          [
-            8700,
-            23250
-          ],
-          [
-            11000,
-            22400
-          ],
-          [
-            13200,
-            22000
-          ],
-          [
-            14300,
-            21950
-          ]
-        ],
-        [
-          [
-            8550,
-            23100
+            8300,
+            23450
           ],
           [
             9500,
-            21000
+            23050
           ],
           [
-            10200,
-            19200
+            10000,
+            22500
           ],
           [
-            10380,
-            18150
+            10600,
+            21450
           ]
         ],
         [
           [
-            8700,
-            23150
+            8350,
+            23500
           ],
           [
-            11000,
+            10500,
+            22300
+          ],
+          [
+            12300,
+            22000
+          ],
+          [
+            14600,
+            22100
+          ]
+        ],
+        [
+          [
+            8250,
+            23450
+          ],
+          [
+            9300,
             21000
           ],
           [
-            12500,
-            19900
+            10150,
+            19700
           ],
           [
-            13250,
-            19400
+            10200,
+            18450
+          ]
+        ],
+        [
+          [
+            8350,
+            23450
+          ],
+          [
+            11000,
+            20600
+          ],
+          [
+            12600,
+            19650
+          ],
+          [
+            14000,
+            19050
           ]
         ]
       ]
@@ -2763,71 +2767,63 @@
       "notes": "Robbers in grey coats, so the Greycoats take the blame. Slade runs them from a camp in the hills east of Tennely Hall, robbing the north road and the grain wagons and keeping a tally of what he takes. The zone's villains, and the only people the heroes fight.",
       "loci": [
         [
-          12600,
-          18050
+          11900,
+          17750
         ]
       ],
       "strokes": [
         [
           [
-            12450,
-            18150
+            11800,
+            17800
           ],
           [
-            11300,
-            18600
+            10800,
+            18100
           ],
           [
-            10700,
-            19400
-          ],
-          [
-            10600,
-            20300
-          ]
-        ],
-        [
-          [
-            12400,
-            18050
-          ],
-          [
-            11200,
-            17900
-          ],
-          [
-            10600,
-            17900
-          ],
-          [
-            9600,
+            9800,
             18300
           ],
           [
             8600,
-            19000
+            18950
           ],
           [
-            7700,
-            20000
-          ],
-          [
-            7300,
-            20700
+            7400,
+            18950
           ]
         ],
         [
           [
-            12550,
-            18200
-          ],
-          [
             11800,
-            19300
+            17850
           ],
           [
-            11100,
-            20700
+            10700,
+            18800
+          ],
+          [
+            10300,
+            19700
+          ],
+          [
+            10600,
+            20800
+          ]
+        ],
+        [
+          [
+            11950,
+            17850
+          ],
+          [
+            12300,
+            18700
+          ],
+          [
+            13300,
+            19250
           ]
         ]
       ]
@@ -2839,8 +2835,8 @@
       "notes": "Kobolds dug into an Age of Light chamber in the cliff foot above Cliffside camp and worship its glowing glass, under the Glowmother, who hoards it. Their sneaks have burrows in the cliff under the Prow by the Abbey and steal its candles. The honest monsters, with the wildlife.",
       "loci": [
         [
-          14300,
-          19050
+          14800,
+          19100
         ],
         [
           14700,
@@ -2850,16 +2846,16 @@
       "strokes": [
         [
           [
-            14250,
+            14750,
             19100
           ],
           [
-            13850,
-            19200
+            14400,
+            19050
           ],
           [
-            13450,
-            19300
+            14100,
+            19050
           ]
         ],
         [
@@ -2868,12 +2864,12 @@
             21650
           ],
           [
-            14550,
-            21800
+            14660,
+            21900
           ],
           [
-            14470,
-            21920
+            14680,
+            22100
           ]
         ]
       ]
@@ -2896,12 +2892,12 @@
             22850
           ],
           [
-            14650,
-            22450
+            14750,
+            22500
           ],
           [
-            14480,
-            22000
+            14700,
+            22200
           ]
         ]
       ]
