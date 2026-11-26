@@ -146,7 +146,8 @@
         ],
         "quests": "About 9.",
         "site": "Flat basin floor by the brook that runs west from the cliff foot, with the cliff for the log chute.",
-        "situation": "The edge between the farmland and the forest above: the only place the loggers can bring timber down."
+        "situation": "The edge between the farmland and the forest above: the only place the loggers can bring timber down.",
+        "scene": "The road from the farmland ends at a fire ring on the flat by the cliff brook, with benches round it, where Nan Brewis feeds the camp and Wakers sleep by the fire. Foreman Tarrant's cabin stands to the north-west and the cookhouse to the north-east, with the loggers' big tents between them and west of the fire. North of the camp the log chute runs down the slope from the ledge to the log piles at its foot. The lumber mill stands east by the brook, with Ossie Wrenfield's timber crane, plank stacks, a saw bench and sawdust, and the woodshed sits south-west by the road. Stumps dot the cleared ground all round. The camp's few dead lie in a small fenced plot to the north-west, off the road."
       },
       "d908slex": {
         "name": "Tennely Hall",
@@ -1685,6 +1686,42 @@
         ],
         "voice": "Spits for luck before she answers.",
         "notes": "Tans sealskin and fish leather on the racks behind her cottage, sells hides and thread, and teaches Wakers the work.",
+        "zone": "3e5710y9"
+      },
+      "clnan001": {
+        "name": "Nan Brewis",
+        "hub": "r322s8fi",
+        "traits": [
+          "motherly",
+          "loud",
+          "tireless"
+        ],
+        "voice": "Bellows across the camp, softens over a bowl.",
+        "notes": "The camp's cook. Feeds the loggers from the cookhouse, keeps the fire going all night, and finds a blanket by it for any Waker who needs one.",
+        "zone": "3e5710y9"
+      },
+      "cldell01": {
+        "name": "Dell Marrow",
+        "hub": "r322s8fi",
+        "traits": [
+          "grudging",
+          "fair",
+          "meticulous"
+        ],
+        "voice": "Counts out loud, then counts again.",
+        "notes": "The camp's quartermaster. Hands out rope, sacks and whetstones against the Council's tally, mends the loggers' gear, and will sell to Wakers if they pay in coin.",
+        "zone": "3e5710y9"
+      },
+      "clossie1": {
+        "name": "Ossie Wrenfield",
+        "hub": "r322s8fi",
+        "traits": [
+          "inventive",
+          "distracted",
+          "cheerful"
+        ],
+        "voice": "Thinks aloud in gears and pulleys, loses the thread, finds it again.",
+        "notes": "The sawwright. Built the camp's crane and the chute, keeps the mill's saws running, and teaches Wakers to make machines.",
         "zone": "3e5710y9"
       }
     },

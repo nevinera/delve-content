@@ -1,0 +1,63 @@
+{
+  "id": "nhlogger",
+  "name": "Cliffside Logger",
+  "creatureType": "humanoid",
+  "reaction": "friendly",
+  "levels": [
+    7,
+    9
+  ],
+  "says": [
+    "Quota's up again. Trees aren't.",
+    "Keep your head down near the chute. Arrows.",
+    "Kobolds had my good axe. Glowing eyes, the lot of them."
+  ],
+  "look": {
+    "body": "humanoid",
+    "height": [
+      5.5,
+      6.2
+    ],
+    "build": [
+      0.4,
+      0.8
+    ],
+    "hair": [
+      "short",
+      "long",
+      "bun",
+      "receding"
+    ],
+    "beard": [
+      "none",
+      "none",
+      "full"
+    ],
+    "colors": {
+      "primary": [
+        "#7a6a4a",
+        "#8a7a5a",
+        "#5a6a4a"
+      ],
+      "secondary": [
+        "#4a3a28",
+        "#3a3028"
+      ]
+    },
+    "armor": {
+      "chest": {
+        "type": "cloth",
+        "style": "plain"
+      },
+      "legs": {
+        "type": "cloth",
+        "style": "plain"
+      },
+      "feet": {
+        "type": "leather",
+        "style": "plain"
+      }
+    }
+  },
+  "title": "Logger"
+}

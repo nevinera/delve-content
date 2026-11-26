@@ -1,0 +1,23 @@
+{
+  "id": "clnan001",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Sit by the fire, love, there's stew. There's always stew.",
+      "choices": [
+        {
+          "text": "What's in the pot?",
+          "do": "vendor"
+        },
+        {
+          "text": "I'll bed down here.",
+          "do": "home"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  }
+}

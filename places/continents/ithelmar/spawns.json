@@ -26748,6 +26748,191 @@
         8
       ],
       "respawn": 300
+    },
+    {
+      "id": "nhtarra1",
+      "npc": "nhlogger",
+      "name": "Foreman Gus Tarrant",
+      "title": "Foreman",
+      "at": [
+        14005.7,
+        null,
+        18965.7
+      ],
+      "yaw": 315,
+      "levels": [
+        12,
+        12
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "clnan001",
+      "npc": "nhlogger",
+      "name": "Nan Brewis",
+      "title": "Camp Cook",
+      "dialogue": "clnan001",
+      "innkeeper": true,
+      "restArea": "clrest01",
+      "vendor": {
+        "sells": [
+          "stock/oat-cake",
+          "stock/smoked-sausage",
+          "stock/roast-fowl",
+          "stock/spiced-venison",
+          "stock/cured-ham",
+          "stock/pepper-steak",
+          "stock/hearty-meat-pie",
+          "stock/well-water",
+          "stock/mint-tea",
+          "stock/honeyed-milk",
+          "stock/mountain-cider",
+          "stock/berry-cordial",
+          "stock/pear-nectar",
+          "stock/glacier-water"
+        ]
+      },
+      "at": [
+        14058,
+        null,
+        19016
+      ],
+      "yaw": 210,
+      "levels": [
+        9,
+        9
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "cldell01",
+      "npc": "nhlogger",
+      "name": "Dell Marrow",
+      "title": "Quartermaster",
+      "vendor": {
+        "sells": [
+          "stock/cloth-pouch",
+          "stock/canvas-satchel",
+          "stock/travelers-haversack",
+          "stock/well-water",
+          "stock/mint-tea",
+          "stock/honeyed-milk",
+          "stock/mountain-cider",
+          "stock/berry-cordial",
+          "stock/pear-nectar",
+          "stock/glacier-water",
+          "stock/mining-pick",
+          "stock/skinning-knife",
+          "stock/smithing-hammer",
+          "stock/fishing-pole",
+          "stock/coarse-thread",
+          "stock/fine-thread",
+          "stock/silken-thread",
+          "stock/heavy-silken-thread",
+          "stock/glass-vial",
+          "stock/leaded-vial",
+          "stock/crystal-vial",
+          "stock/mild-spices",
+          "stock/hot-spices",
+          "stock/salt",
+          "stock/flour",
+          "stock/cooking-oil",
+          "stock/enchanting-vellum",
+          "stock/copper-rod",
+          "stock/coal",
+          "stock/merchants-pack"
+        ],
+        "repairs": true
+      },
+      "at": [
+        14103.6,
+        null,
+        18974.9
+      ],
+      "yaw": 45,
+      "levels": [
+        9,
+        9
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "clossie1",
+      "npc": "nhlogger",
+      "name": "Ossie Wrenfield",
+      "title": "Sawwright",
+      "dialogue": "clossie1",
+      "vendor": {
+        "sells": [
+          "stock/spanner",
+          "stock/smithing-hammer",
+          "stock/coarse-thread",
+          "stock/coal"
+        ]
+      },
+      "trains": {
+        "profession": "engineering",
+        "upTo": "Journeyman"
+      },
+      "at": [
+        14130,
+        null,
+        19080
+      ],
+      "yaw": 300,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "cllogr01",
+      "npc": "nhlogger",
+      "name": "Cliffside Logger",
+      "at": [
+        14070,
+        null,
+        18925
+      ],
+      "yaw": 180,
+      "levels": [
+        8,
+        8
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "cllogr02",
+      "npc": "nhlogger",
+      "name": "Cliffside Logger",
+      "at": [
+        14140,
+        null,
+        19000
+      ],
+      "yaw": 90,
+      "levels": [
+        8,
+        8
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "cllogr03",
+      "npc": "nhlogger",
+      "name": "Cliffside Logger",
+      "at": [
+        13965,
+        null,
+        19070
+      ],
+      "yaw": 30,
+      "levels": [
+        8,
+        8
+      ],
+      "respawn": 300
     }
   ]
 }

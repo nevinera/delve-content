@@ -1,0 +1,23 @@
+{
+  "id": "clossie1",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Mind the crane! It only bites sometimes. Want to learn how it works?",
+      "choices": [
+        {
+          "text": "What have you got?",
+          "do": "vendor"
+        },
+        {
+          "text": "Teach me to build.",
+          "do": "train"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  }
+}
