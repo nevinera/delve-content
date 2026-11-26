@@ -11,5 +11,19 @@
       "name": "South"
     }
   ],
-  "levelCap": 60
+  "levelCap": 60,
+  "professions": {
+    "mining": "stock",
+    "blacksmithing": "stock",
+    "herbalism": "stock",
+    "alchemy": "stock",
+    "tailoring": "stock",
+    "first-aid": "stock",
+    "skinning": "stock",
+    "leatherworking": "stock",
+    "enchanting": "stock",
+    "engineering": "stock",
+    "fishing": "stock",
+    "cooking": "stock"
+  }
 }
