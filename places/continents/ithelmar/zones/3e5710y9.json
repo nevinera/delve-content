@@ -17,7 +17,7 @@
           "North: Northwest coast (18-28), up the north road from Northgate past Tennely Hall and over the north pass.",
           "East, up the cliff: High forest (22-32), and the Cascade wood (12-20) above the falls. Seen, never reached from here."
         ],
-        "progression": "Abbey (1-4), Hallam's cross (4-6), Brightford (5-9), then north-east to Cliffside camp (6-9) or north to Tennely Hall and Northgate (8-10). You leave south over the crags from Brightford, south-east round the lake, or north over the pass.",
+        "progression": "Abbey (1-4), Hallam's cross (4-6), Brightford (5-9), Wrackholm (6-8) up the coast from Brightford, then north-east to Cliffside camp (6-9) or north to Tennely Hall and Northgate (8-10). You leave south over the crags from Brightford, south-east round the lake, or north over the pass.",
         "mainThread": "The tithe and the Greycoats: the revolution's promises against the old guard, with no clean side. Heroes fight Slade's band, never the Greycoats or the Council.",
         "parts": [
           "The Abbey and the lake: the pocket under the Prow and the plateau cliff, with the lakeshore and the falls pool under the cascade's lower drop, quiet and odd. Closed by cliffs north and east and the lake south. Opens west along the north shore, between the Prow and the lake, to Hallam's cross.",
@@ -25,7 +25,7 @@
           "Brightford and the river: the town at the ford on the river's south bank, the river meadows, the rolling south-west lowland and the south crags behind. Opens east up the river to Hallam's cross, north over the ford up the coast plain, and out south over the crags.",
           "The cliff foot: the loggers' basin north of the Prow, under the plateau cliff, with the kobold diggings in the cliff. Opens south-west down the cliff brook to the ponds and Hallam's cross.",
           "The north valley: Tennely Hall's valley running up into the northern crags, with Slade's camp and the burned lodge, watched. Opens south down the valley to Hallam's cross, west along the north stream to Northgate, and north over the pass.",
-          "The north road: the coast plain from Brightford's ford up to Northgate under the north-west crags, where Northgate beck comes down to the north stream. Opens east along the crag foot to Tennely Hall's valley."
+          "The north road: the coast plain from Brightford's ford up to Northgate under the north-west crags, with Wrackholm in its cove under Gull Head on the coast, where Northgate beck comes down to the north stream. Opens east along the crag foot to Tennely Hall's valley."
         ],
         "barriers": [
           "The Prow, hard: a lower step of the plateau, a steep, rugged ridge jutting west from the cliff between the Abbey and Cliffside camp, with ponds under its west end. You go round its west end.",
@@ -192,6 +192,26 @@
         "quests": "About 5.",
         "site": "The beck's bank on the flat below the crags, a short walk from the sea.",
         "situation": "A gap: the north road's only easy way between the crags and the sea."
+      },
+      "ytkenc47": {
+        "name": "Wrackholm",
+        "what": "A fishing village of two or three cottages and a drying rack on the cove under Gull Head.",
+        "where": "On the beach of the cove on the west coast, north of Gull Head, up the coast from Brightford.",
+        "mood": "Scared and stubborn. The dead come up the beach at night, and nobody will leave the boats.",
+        "people": [
+          "Marra Tidwell, the net-mender who speaks for the village",
+          "Jory Fenn, a fisherman"
+        ],
+        "lines": [
+          "The drowned dead (6-8): the dead from the old wreck, and the necromancer in the sea-cave"
+        ],
+        "nearby": [
+          "The Old Wreck off Gull Head, where the dead come from",
+          "The sea-cave at the foot of Gull Head's cliff, reached from the beach south of it"
+        ],
+        "quests": "About 4.",
+        "site": "Low beach ground on the cove, out of sight of the other hubs behind Gull Head and the hill north of it.",
+        "situation": "Off the coast road by a short lane, between Brightford and Northgate."
       }
     },
     "camps": {
@@ -1484,6 +1504,40 @@
         "voice": "Speaks in turns of phrase, half of them borrowed from old songs.",
         "notes": "Nordish skald at Northgate. Knows the old songs of the meadow and the coast to the north-west, and puts new deeds into verse.",
         "zone": "3e5710y9"
+      },
+      "wrmarra1": {
+        "name": "Marra Tidwell",
+        "hub": "ytkenc47",
+        "traits": [
+          "blunt",
+          "stubborn",
+          "worried"
+        ],
+        "voice": "Plain and short, mending as she talks.",
+        "notes": "Speaks for the village. Her grandson Corwin went to Brightford to learn his letters and came back strange. She knows it's him in the sea-cave before she says so.",
+        "zone": "3e5710y9"
+      },
+      "wrjory01": {
+        "name": "Jory Fenn",
+        "hub": "ytkenc47",
+        "traits": [
+          "nervous",
+          "kind"
+        ],
+        "voice": "Talks too fast.",
+        "notes": "A fisherman who saw the dead walk up out of the water by the wreck.",
+        "zone": "3e5710y9"
+      },
+      "wrcorwn1": {
+        "name": "Corwin Tidwell",
+        "hub": "ytkenc47",
+        "traits": [
+          "proud",
+          "lonely"
+        ],
+        "voice": "Bookish, sure he's cleverer than the village.",
+        "notes": "A weak necromancer, Marra's grandson. Raises the drowned dead from the old wreck, from the chamber in the sea-cave. A hostile NPC, the chain's end.",
+        "zone": "3e5710y9"
       }
     },
     "quests": {
@@ -2545,6 +2599,74 @@
         "handIn": "Ottar Haldsson",
         "after": [],
         "zone": "3e5710y9"
+      },
+      "wrbeach1": {
+        "name": "Dead on the beach",
+        "summary": "The dead came up the beach again last night.",
+        "objectives": "Kill 6 drowned dead on the cove's beach.",
+        "why": "Marra wants the beach clear so the boats can go out.",
+        "level": "6",
+        "areas": [
+          "Wrackholm",
+          "Gull Head"
+        ],
+        "giver": "Marra Tidwell",
+        "handIn": "Marra Tidwell",
+        "chain": "drowned",
+        "after": [],
+        "zone": "3e5710y9"
+      },
+      "wrwreck1": {
+        "name": "Where they come from",
+        "summary": "Jory saw them walk out of the sea by the old wreck.",
+        "objectives": "Go to the shore by the Old Wreck and see what comes out of it.",
+        "why": "Marra wants to know where they come from. You find the dead walking up out of the water, and fresh footprints going up the beach to Gull Head.",
+        "level": "7",
+        "areas": [
+          "the Old Wreck",
+          "Gull Head"
+        ],
+        "giver": "Marra Tidwell",
+        "handIn": "Marra Tidwell",
+        "chain": "drowned",
+        "after": [
+          "wrbeach1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "wrcave01": {
+        "name": "The sea-cave",
+        "summary": "The footprints go into the sea-cave at the foot of Gull Head.",
+        "objectives": "Go into the sea-cave and find who's raising the dead.",
+        "why": "You find Corwin, Marra's grandson, with a book of the dead. He won't stop.",
+        "level": "7",
+        "areas": [
+          "Gull Head"
+        ],
+        "giver": "Marra Tidwell",
+        "handIn": "Marra Tidwell",
+        "chain": "drowned",
+        "after": [
+          "wrwreck1"
+        ],
+        "zone": "3e5710y9"
+      },
+      "wrcorwn1": {
+        "name": "Marra's grandson",
+        "summary": "Marra knew it was Corwin.",
+        "objectives": "Defeat Corwin Tidwell in the sea-cave and bring Marra his book.",
+        "why": "Marra wants it stopped, and the book burned.",
+        "level": "8",
+        "areas": [
+          "Gull Head"
+        ],
+        "giver": "Marra Tidwell",
+        "handIn": "Marra Tidwell",
+        "chain": "drowned",
+        "after": [
+          "wrcave01"
+        ],
+        "zone": "3e5710y9"
       }
     },
     "chains": {
@@ -2631,6 +2753,17 @@
           "ngwagon1",
           "ngottar1",
           "ngbill01"
+        ]
+      },
+      "drowned": {
+        "name": "The drowned dead (6-8)",
+        "zone": "3e5710y9",
+        "summary": "At Wrackholm the dead walk up out of the sea from an old wreck. The trail leads to the sea-cave under Gull Head, where Marra's grandson Corwin, a weak necromancer, is raising them.",
+        "quests": [
+          "wrbeach1",
+          "wrwreck1",
+          "wrcave01",
+          "wrcorwn1"
         ]
       }
     },
