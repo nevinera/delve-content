@@ -1,0 +1,23 @@
+{
+  "id": "bfgarow1",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Mind the sparks. You buying, mending, or learning?",
+      "choices": [
+        {
+          "text": "Show me your work.",
+          "do": "vendor"
+        },
+        {
+          "text": "Teach me the forge.",
+          "do": "train"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  }
+}

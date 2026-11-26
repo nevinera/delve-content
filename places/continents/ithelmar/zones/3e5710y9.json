@@ -119,7 +119,8 @@
         ],
         "quests": "About 15.",
         "site": "Low meadow on the south bank, a few feet over the river, with the south crags behind it.",
-        "situation": "The lowest ford on the Lake river, where the south road over the crags meets the river road to the coast and the way north to the farms."
+        "situation": "The lowest ford on the Lake river, where the south road over the crags meets the river road to the coast and the way north to the farms.",
+        "scene": "The road comes over the ford from the north-east and turns south past the town. Brightford sits east of the bend round a grass market square, where the Tennelys' statue lies toppled among the stalls: Jessa Thorne's leather and bows, Ludo Crake's scrap, and a well. The reeve's hall closes the square on the east, with the jettied tailor's shop to its north-west, toward the river. Moll Abernathy's inn faces the square from the south, the stone shop stands at its west corner by the road, and town houses, the apothecary's among them, line the lane behind the inn. West of the road the militia post holds the lock-up, with stocks, a banner and a wanted poster out front, and the smithy beside it. The tithe barn stands east of the inn, and the graveyard lies beyond it on the rise, off the road."
       },
       "r322s8fi": {
         "name": "Cliffside camp",
@@ -1587,6 +1588,66 @@
         ],
         "voice": "Short and wry, always looking past you at the tree line.",
         "notes": "Dunstan's sister, who hunts the hills for the pot. Teaches Wakers to skin what they kill.",
+        "zone": "3e5710y9"
+      },
+      "bfgarow1": {
+        "name": "Garrow Fenwick",
+        "hub": "e5uogbb6",
+        "traits": [
+          "gruff",
+          "proud",
+          "generous"
+        ],
+        "voice": "Talks while he hammers, a word a blow.",
+        "notes": "Brightford's smith. Shoes the militia's horses, mends Wakers' arms and armor, and teaches the forge to anyone who'll sweat at it.",
+        "zone": "3e5710y9"
+      },
+      "bftilda1": {
+        "name": "Tilda Brack",
+        "hub": "e5uogbb6",
+        "traits": [
+          "brisk",
+          "practical",
+          "thrifty"
+        ],
+        "voice": "Quick tallies under her breath; never gives credit.",
+        "notes": "Keeps Brightford's stone shop: packs, rope, thread and vials, all a traveller needs. Rather the Council than the Tennelys, as long as it pays.",
+        "zone": "3e5710y9"
+      },
+      "bfedric1": {
+        "name": "Edric Lowe",
+        "hub": "e5uogbb6",
+        "traits": [
+          "fastidious",
+          "kind",
+          "gossipy"
+        ],
+        "voice": "Soft and precise, pins in his mouth.",
+        "notes": "The tailor. Sews for the town and the militia, sells cloth and thread, and teaches the needle.",
+        "zone": "3e5710y9"
+      },
+      "bfwilma1": {
+        "name": "Wilma Rooke",
+        "hub": "e5uogbb6",
+        "traits": [
+          "shrewd",
+          "dry",
+          "curious"
+        ],
+        "voice": "Dry and knowing, sniffs at everything before she answers.",
+        "notes": "The apothecary. Brews for the town's coughs and the militia's wounds, buys herbs off the Abbey, and teaches the still.",
+        "zone": "3e5710y9"
+      },
+      "bfjessa1": {
+        "name": "Jessa Thorne",
+        "hub": "e5uogbb6",
+        "traits": [
+          "cheerful",
+          "blunt",
+          "hardy"
+        ],
+        "voice": "Calls her prices across the square like a challenge.",
+        "notes": "Keeps a market stall of leather jerkins, boots and bows, most of it her brother's work from the hills.",
         "zone": "3e5710y9"
       }
     },

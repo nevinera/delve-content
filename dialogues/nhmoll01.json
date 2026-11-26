@@ -1,0 +1,23 @@
+{
+  "id": "nhmoll01",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Come in, duckling, come in! Sit, eat, and tell me everything.",
+      "choices": [
+        {
+          "text": "What's cooking?",
+          "do": "vendor"
+        },
+        {
+          "text": "I'd like a room here.",
+          "do": "home"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  }
+}

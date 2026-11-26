@@ -26100,6 +26100,509 @@
         7
       ],
       "respawn": 300
+    },
+    {
+      "id": "nhmoll01",
+      "npc": "nhtownfk",
+      "name": "Moll Abernathy",
+      "title": "Innkeeper",
+      "dialogue": "nhmoll01",
+      "innkeeper": true,
+      "restArea": "bfrest01",
+      "vendor": {
+        "sells": [
+          "stock/oat-cake",
+          "stock/smoked-sausage",
+          "stock/roast-fowl",
+          "stock/spiced-venison",
+          "stock/cured-ham",
+          "stock/pepper-steak",
+          "stock/hearty-meat-pie",
+          "stock/well-water",
+          "stock/mint-tea",
+          "stock/honeyed-milk",
+          "stock/mountain-cider",
+          "stock/berry-cordial",
+          "stock/pear-nectar",
+          "stock/glacier-water"
+        ]
+      },
+      "at": [
+        8267,
+        9.3,
+        23827
+      ],
+      "yaw": 180,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nhodile1",
+      "npc": "cnclerk1",
+      "name": "Reeve Odile Marchbank",
+      "title": "Reeve",
+      "at": [
+        8400,
+        11.9,
+        23700
+      ],
+      "yaw": 90,
+      "levels": [
+        12,
+        12
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nhvarn01",
+      "npc": "cnclerk1",
+      "name": "Varn Ostrey",
+      "title": "Tithe Collector",
+      "at": [
+        8438,
+        null,
+        23830
+      ],
+      "yaw": 270,
+      "levels": [
+        9,
+        9
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nhpike01",
+      "npc": "nhmilita",
+      "name": "Sergeant Ada Pike",
+      "title": "Militia Sergeant",
+      "trains": {
+        "profession": "first-aid",
+        "upTo": "Journeyman"
+      },
+      "at": [
+        8045,
+        7.7,
+        23700
+      ],
+      "yaw": 270,
+      "levels": [
+        14,
+        14
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nhjory01",
+      "npc": "nhtownfk",
+      "name": "Jory Venn",
+      "title": "Greycoat",
+      "at": [
+        8020,
+        7.7,
+        23685
+      ],
+      "yaw": 270,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nhberti1",
+      "npc": "nhtownfk",
+      "name": "Old Bertil",
+      "title": "Veteran",
+      "at": [
+        8252,
+        null,
+        23728
+      ],
+      "yaw": 120,
+      "levels": [
+        12,
+        12
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nhhetti1",
+      "npc": "nhtownfk",
+      "name": "Hettie Croft",
+      "at": [
+        8272,
+        null,
+        23704
+      ],
+      "yaw": 300,
+      "levels": [
+        8,
+        8
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "nhcrake1",
+      "npc": "nhtownfk",
+      "name": "Ludo Crake",
+      "title": "Scrap Dealer",
+      "vendor": {
+        "sells": [
+          "stock/cloth-pouch",
+          "stock/canvas-satchel",
+          "stock/travelers-haversack",
+          "stock/well-water",
+          "stock/mint-tea",
+          "stock/honeyed-milk",
+          "stock/mountain-cider",
+          "stock/berry-cordial",
+          "stock/pear-nectar",
+          "stock/glacier-water",
+          "stock/mining-pick",
+          "stock/skinning-knife",
+          "stock/smithing-hammer",
+          "stock/fishing-pole",
+          "stock/coarse-thread",
+          "stock/fine-thread",
+          "stock/silken-thread",
+          "stock/heavy-silken-thread",
+          "stock/glass-vial",
+          "stock/leaded-vial",
+          "stock/crystal-vial",
+          "stock/mild-spices",
+          "stock/hot-spices",
+          "stock/salt",
+          "stock/flour",
+          "stock/cooking-oil",
+          "stock/enchanting-vellum",
+          "stock/copper-rod",
+          "stock/coal",
+          "stock/spanner"
+        ]
+      },
+      "at": [
+        8298,
+        null,
+        23740
+      ],
+      "yaw": 20,
+      "levels": [
+        9,
+        9
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "bfgarow1",
+      "npc": "nhtownfk",
+      "name": "Garrow Fenwick",
+      "title": "Blacksmith",
+      "dialogue": "bfgarow1",
+      "vendor": {
+        "sells": [
+          "stock/worn-hatchet",
+          "stock/iron-hatchet",
+          "stock/worn-dagger",
+          "stock/iron-dagger",
+          "stock/worn-knuckles",
+          "stock/iron-knuckles",
+          "stock/worn-cudgel",
+          "stock/iron-mace",
+          "stock/worn-shortsword",
+          "stock/iron-shortsword",
+          "stock/felling-axe",
+          "stock/woodsmans-axe",
+          "stock/worn-greatsword",
+          "stock/iron-greatsword",
+          "stock/worn-sledge",
+          "stock/iron-maul",
+          "stock/pitchfork",
+          "stock/ash-spear",
+          "stock/walking-staff",
+          "stock/ash-staff",
+          "stock/bearded-axe",
+          "stock/stiletto",
+          "stock/brass-knuckles",
+          "stock/flanged-mace",
+          "stock/broadsword",
+          "stock/battle-axe",
+          "stock/claymore",
+          "stock/war-maul",
+          "stock/boar-spear",
+          "stock/quarterstaff",
+          "stock/plank-buckler",
+          "stock/ringmail-coif",
+          "stock/ringmail-spaulders",
+          "stock/ringmail-vest",
+          "stock/ringmail-bracers",
+          "stock/ringmail-gloves",
+          "stock/ringmail-belt",
+          "stock/ringmail-leggings",
+          "stock/ringmail-boots",
+          "stock/militia-shield",
+          "stock/chainmail-coif",
+          "stock/chainmail-spaulders",
+          "stock/chainmail-hauberk",
+          "stock/chainmail-bracers",
+          "stock/chainmail-gloves",
+          "stock/chainmail-belt",
+          "stock/chainmail-leggings",
+          "stock/chainmail-boots",
+          "stock/battered-helm",
+          "stock/battered-pauldrons",
+          "stock/battered-breastplate",
+          "stock/battered-vambraces",
+          "stock/battered-gauntlets",
+          "stock/battered-girdle",
+          "stock/battered-legplates",
+          "stock/battered-sabatons",
+          "stock/militia-helm",
+          "stock/militia-pauldrons",
+          "stock/militia-breastplate",
+          "stock/militia-vambraces",
+          "stock/militia-gauntlets",
+          "stock/militia-girdle",
+          "stock/militia-legplates",
+          "stock/militia-sabatons",
+          "stock/smithing-hammer",
+          "stock/mining-pick",
+          "stock/coal"
+        ],
+        "repairs": true
+      },
+      "trains": {
+        "profession": "blacksmithing",
+        "upTo": "Journeyman"
+      },
+      "at": [
+        8057.9,
+        7.7,
+        23817
+      ],
+      "yaw": 240,
+      "levels": [
+        11,
+        11
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "bftilda1",
+      "npc": "nhtownfk",
+      "name": "Tilda Brack",
+      "title": "General Goods",
+      "vendor": {
+        "sells": [
+          "stock/cloth-pouch",
+          "stock/canvas-satchel",
+          "stock/travelers-haversack",
+          "stock/well-water",
+          "stock/mint-tea",
+          "stock/honeyed-milk",
+          "stock/mountain-cider",
+          "stock/berry-cordial",
+          "stock/pear-nectar",
+          "stock/glacier-water",
+          "stock/mining-pick",
+          "stock/skinning-knife",
+          "stock/smithing-hammer",
+          "stock/fishing-pole",
+          "stock/coarse-thread",
+          "stock/fine-thread",
+          "stock/silken-thread",
+          "stock/heavy-silken-thread",
+          "stock/glass-vial",
+          "stock/leaded-vial",
+          "stock/crystal-vial",
+          "stock/mild-spices",
+          "stock/hot-spices",
+          "stock/salt",
+          "stock/flour",
+          "stock/cooking-oil",
+          "stock/enchanting-vellum",
+          "stock/copper-rod",
+          "stock/coal",
+          "stock/merchants-pack"
+        ]
+      },
+      "at": [
+        8196.5,
+        8.4,
+        23778.5
+      ],
+      "yaw": 225,
+      "levels": [
+        9,
+        9
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "bfedric1",
+      "npc": "nhtownfk",
+      "name": "Edric Lowe",
+      "title": "Tailor",
+      "dialogue": "bfedric1",
+      "vendor": {
+        "sells": [
+          "stock/oak-wand",
+          "stock/birch-wand",
+          "stock/linen-hood",
+          "stock/linen-mantle",
+          "stock/wool-cloak",
+          "stock/patched-cloak",
+          "stock/linen-robe",
+          "stock/linen-cuffs",
+          "stock/linen-gloves",
+          "stock/linen-sash",
+          "stock/linen-trousers",
+          "stock/linen-shoes",
+          "stock/yew-wand",
+          "stock/polished-orb",
+          "stock/homespun-hood",
+          "stock/homespun-mantle",
+          "stock/travelers-cloak",
+          "stock/homespun-robe",
+          "stock/homespun-cuffs",
+          "stock/homespun-gloves",
+          "stock/homespun-sash",
+          "stock/homespun-trousers",
+          "stock/homespun-shoes",
+          "stock/coarse-thread",
+          "stock/fine-thread",
+          "stock/silken-thread",
+          "stock/heavy-silken-thread",
+          "stock/golden-thread"
+        ]
+      },
+      "trains": {
+        "profession": "tailoring",
+        "upTo": "Journeyman"
+      },
+      "at": [
+        8319,
+        9.5,
+        23660.4
+      ],
+      "yaw": 210,
+      "levels": [
+        9,
+        9
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "bfwilma1",
+      "npc": "nhtownfk",
+      "name": "Wilma Rooke",
+      "title": "Apothecary",
+      "dialogue": "bfwilma1",
+      "vendor": {
+        "sells": [
+          "stock/glass-vial",
+          "stock/leaded-vial",
+          "stock/crystal-vial"
+        ]
+      },
+      "trains": {
+        "profession": "alchemy",
+        "upTo": "Journeyman"
+      },
+      "at": [
+        8236.9,
+        8.9,
+        23911.6
+      ],
+      "yaw": 195,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "bfjessa1",
+      "npc": "nhtownfk",
+      "name": "Jessa Thorne",
+      "title": "Leather and Bows",
+      "vendor": {
+        "sells": [
+          "stock/hide-cap",
+          "stock/hide-shoulderpads",
+          "stock/wool-cloak",
+          "stock/patched-cloak",
+          "stock/hide-jerkin",
+          "stock/hide-bracers",
+          "stock/hide-gloves",
+          "stock/hide-belt",
+          "stock/hide-leggings",
+          "stock/hide-boots",
+          "stock/tanned-cap",
+          "stock/tanned-shoulderpads",
+          "stock/travelers-cloak",
+          "stock/tanned-jerkin",
+          "stock/tanned-bracers",
+          "stock/tanned-gloves",
+          "stock/tanned-belt",
+          "stock/tanned-leggings",
+          "stock/tanned-boots",
+          "stock/short-bow",
+          "stock/hunting-bow",
+          "stock/small-crossbow",
+          "stock/light-crossbow",
+          "stock/pitted-musket",
+          "stock/old-blunderbuss",
+          "stock/longbow",
+          "stock/heavy-crossbow",
+          "stock/fowling-piece"
+        ]
+      },
+      "at": [
+        8238,
+        null,
+        23694
+      ],
+      "yaw": 60,
+      "levels": [
+        9,
+        9
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "bfmili01",
+      "npc": "nhmilita",
+      "name": "Brightford Militia",
+      "at": [
+        8160,
+        null,
+        23728
+      ],
+      "yaw": 30,
+      "levels": [
+        12,
+        12
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "bfmili02",
+      "npc": "nhmilita",
+      "name": "Brightford Militia",
+      "at": [
+        8105,
+        null,
+        23735
+      ],
+      "yaw": 90,
+      "levels": [
+        12,
+        12
+      ],
+      "respawn": 300
     }
   ]
 }

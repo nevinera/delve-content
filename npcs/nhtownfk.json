@@ -1,0 +1,65 @@
+{
+  "id": "nhtownfk",
+  "name": "Brightford Townsfolk",
+  "creatureType": "humanoid",
+  "reaction": "friendly",
+  "levels": [
+    5,
+    10
+  ],
+  "says": [
+    "Market's thin since the tithe went up.",
+    "Don't stand on the statue, the reeve doesn't like it.",
+    "Half the militia's off at the gap."
+  ],
+  "look": {
+    "body": "humanoid",
+    "height": [
+      5.4,
+      6.2
+    ],
+    "build": [
+      0.3,
+      0.7
+    ],
+    "hair": [
+      "short",
+      "long",
+      "bun",
+      "braids",
+      "receding"
+    ],
+    "beard": [
+      "none",
+      "none",
+      "goatee",
+      "full"
+    ],
+    "colors": {
+      "primary": [
+        "#6a4a6a",
+        "#4a5a7a",
+        "#7a5a3a",
+        "#5a6a4a"
+      ],
+      "secondary": [
+        "#3a3028",
+        "#2a2a3a"
+      ]
+    },
+    "armor": {
+      "chest": {
+        "type": "cloth",
+        "style": "fine"
+      },
+      "legs": {
+        "type": "cloth",
+        "style": "plain"
+      },
+      "feet": {
+        "type": "leather",
+        "style": "plain"
+      }
+    }
+  }
+}

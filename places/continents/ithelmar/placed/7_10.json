@@ -8711,23 +8711,6 @@
    ]
   },
   {
-   "id": "strc5i1u",
-   "structure": "bstk0042",
-   "at": [
-    14738,
-    61.35,
-    22090
-   ],
-   "turn": 0,
-   "template": "bfur0042",
-   "tiles": [
-    [
-     57,
-     86
-    ]
-   ]
-  },
-  {
    "id": "strcc54n",
    "structure": "bstk0025",
    "at": [
@@ -8775,6 +8758,23 @@
     [
      57,
      85
+    ]
+   ]
+  },
+  {
+   "id": "strc5i1u",
+   "structure": "bstk0042",
+   "at": [
+    14750,
+    61.35,
+    22118
+   ],
+   "turn": 0,
+   "template": "bfur0042",
+   "tiles": [
+    [
+     57,
+     86
     ]
    ]
   }

@@ -1,0 +1,23 @@
+{
+  "id": "bfedric1",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Mind the hem. What can I do for you?",
+      "choices": [
+        {
+          "text": "Let me see your cloth.",
+          "do": "vendor"
+        },
+        {
+          "text": "Teach me to sew.",
+          "do": "train"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  }
+}

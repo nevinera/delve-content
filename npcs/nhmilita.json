@@ -1,0 +1,56 @@
+{
+  "id": "nhmilita",
+  "name": "Brightford Militia",
+  "creatureType": "humanoid",
+  "reaction": "friendly",
+  "levels": [
+    11,
+    13
+  ],
+  "says": [
+    "Move along.",
+    "Sergeant wants grey coats reported.",
+    "Ford's clear. For now."
+  ],
+  "look": {
+    "body": "humanoid",
+    "height": [
+      5.8,
+      6.3
+    ],
+    "build": [
+      0.5,
+      0.8
+    ],
+    "hair": [
+      "short",
+      "bald"
+    ],
+    "beard": [
+      "none",
+      "full"
+    ],
+    "colors": {
+      "primary": [
+        "#2e4a6b"
+      ],
+      "secondary": [
+        "#4a4038"
+      ]
+    },
+    "armor": {
+      "chest": {
+        "type": "chain",
+        "style": "plain"
+      },
+      "legs": {
+        "type": "chain",
+        "style": "plain"
+      },
+      "head": {
+        "type": "chain",
+        "style": "plain"
+      }
+    }
+  }
+}

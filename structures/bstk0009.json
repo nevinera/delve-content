@@ -1,0 +1,755 @@
+{
+  "id": "bstk0009",
+  "version": 1,
+  "name": "Jettied shop",
+  "tags": [
+    "shop",
+    "town",
+    "two-story"
+  ],
+  "theme": "timber",
+  "ground": "ground",
+  "floors": [
+    {
+      "id": "ground",
+      "name": "shop",
+      "y": 0,
+      "height": 14,
+      "pieces": [
+        {
+          "op": "add",
+          "rect": [
+            -12,
+            -44,
+            24,
+            0
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "from": [
+            -12,
+            -44
+          ],
+          "to": [
+            24,
+            -44
+          ]
+        },
+        {
+          "from": [
+            24,
+            -44
+          ],
+          "to": [
+            24,
+            0
+          ]
+        },
+        {
+          "from": [
+            24,
+            0
+          ],
+          "to": [
+            -12,
+            0
+          ]
+        },
+        {
+          "from": [
+            -12,
+            0
+          ],
+          "to": [
+            -12,
+            -44
+          ]
+        },
+        {
+          "from": [
+            -12,
+            -30
+          ],
+          "to": [
+            24,
+            -30
+          ]
+        }
+      ],
+      "areas": [
+        [
+          [
+            -12,
+            -44
+          ],
+          [
+            24,
+            -44
+          ],
+          [
+            24,
+            0
+          ],
+          [
+            -12,
+            0
+          ]
+        ]
+      ],
+      "walls": [
+        {
+          "from": [
+            -12,
+            -44
+          ],
+          "to": [
+            24,
+            -44
+          ],
+          "openings": [
+            {
+              "kind": "doorway",
+              "width": 8,
+              "height": 11,
+              "door": {
+                "hinge": "end"
+              },
+              "along": 4
+            },
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 4,
+              "height": 6,
+              "glass": true,
+              "along": 24
+            }
+          ]
+        },
+        {
+          "from": [
+            24,
+            -44
+          ],
+          "to": [
+            24,
+            -30
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 4,
+              "height": 6,
+              "glass": true,
+              "along": 4
+            }
+          ]
+        },
+        {
+          "from": [
+            24,
+            -30
+          ],
+          "to": [
+            24,
+            0
+          ]
+        },
+        {
+          "from": [
+            24,
+            0
+          ],
+          "to": [
+            -12,
+            0
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 10,
+              "sill": 3,
+              "height": 7,
+              "glass": true,
+              "along": 5
+            },
+            {
+              "kind": "doorway",
+              "width": 8,
+              "height": 11,
+              "along": 20
+            }
+          ]
+        },
+        {
+          "from": [
+            -12,
+            0
+          ],
+          "to": [
+            -12,
+            -30
+          ]
+        },
+        {
+          "from": [
+            -12,
+            -30
+          ],
+          "to": [
+            -12,
+            -44
+          ]
+        },
+        {
+          "from": [
+            -12,
+            -30
+          ],
+          "to": [
+            24,
+            -30
+          ],
+          "openings": [
+            {
+              "kind": "doorway",
+              "width": 6,
+              "height": 9,
+              "along": 25
+            }
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "type": "built:b06pun0t",
+          "at": [
+            22,
+            -37
+          ],
+          "yaw": -1.571,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              2.6,
+              2.34
+            ]
+          },
+          "height": 8.1
+        }
+      ],
+      "doors": [
+        {
+          "type": "door",
+          "at": [
+            4,
+            -43.4
+          ],
+          "up": 0,
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              8,
+              0.2
+            ]
+          },
+          "height": 11,
+          "opening": [
+            0,
+            0
+          ]
+        },
+        {
+          "type": "door",
+          "at": [
+            8,
+            -0.6
+          ],
+          "up": 0,
+          "yaw": 0,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              8,
+              0.2
+            ]
+          },
+          "height": 11,
+          "opening": [
+            3,
+            1
+          ]
+        },
+        {
+          "type": "door",
+          "at": [
+            10,
+            -30.6
+          ],
+          "up": 0,
+          "yaw": 3.142,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              6,
+              0.2
+            ]
+          },
+          "height": 9,
+          "opening": [
+            6,
+            0
+          ]
+        }
+      ],
+      "lights": [
+        {
+          "kind": "lamp",
+          "at": [
+            -6,
+            -37
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            6,
+            -37
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            18,
+            -37
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -3,
+            -25
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            15,
+            -25
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            15,
+            -15
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -3,
+            -5
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            15,
+            -5
+          ],
+          "up": 8
+        }
+      ]
+    },
+    {
+      "id": "upper",
+      "name": "study and bedroom",
+      "y": 15,
+      "thickness": 1,
+      "height": 13,
+      "pieces": [
+        {
+          "op": "add",
+          "rect": [
+            -12,
+            -44,
+            24,
+            4
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "from": [
+            -12,
+            -44
+          ],
+          "to": [
+            24,
+            -44
+          ]
+        },
+        {
+          "from": [
+            24,
+            -44
+          ],
+          "to": [
+            24,
+            4
+          ]
+        },
+        {
+          "from": [
+            24,
+            4
+          ],
+          "to": [
+            -12,
+            4
+          ]
+        },
+        {
+          "from": [
+            -12,
+            4
+          ],
+          "to": [
+            -12,
+            -44
+          ]
+        },
+        {
+          "from": [
+            -12,
+            -28
+          ],
+          "to": [
+            24,
+            -28
+          ]
+        }
+      ],
+      "areas": [
+        [
+          [
+            -12,
+            -44
+          ],
+          [
+            24,
+            -44
+          ],
+          [
+            24,
+            4
+          ],
+          [
+            -12,
+            4
+          ]
+        ]
+      ],
+      "walls": [
+        {
+          "from": [
+            -12,
+            -44
+          ],
+          "to": [
+            24,
+            -44
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 4,
+              "height": 6,
+              "glass": true,
+              "along": 10
+            },
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 4,
+              "height": 6,
+              "glass": true,
+              "along": 24
+            }
+          ]
+        },
+        {
+          "from": [
+            24,
+            -44
+          ],
+          "to": [
+            24,
+            -28
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 4,
+              "height": 6,
+              "glass": true,
+              "along": 6
+            }
+          ]
+        },
+        {
+          "from": [
+            24,
+            -28
+          ],
+          "to": [
+            24,
+            4
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 4,
+              "height": 6,
+              "glass": true,
+              "along": 16
+            }
+          ]
+        },
+        {
+          "from": [
+            24,
+            4
+          ],
+          "to": [
+            -12,
+            4
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 4,
+              "height": 6,
+              "glass": true,
+              "along": 8
+            },
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 4,
+              "height": 6,
+              "glass": true,
+              "along": 26
+            }
+          ]
+        },
+        {
+          "from": [
+            -12,
+            4
+          ],
+          "to": [
+            -12,
+            -28
+          ]
+        },
+        {
+          "from": [
+            -12,
+            -28
+          ],
+          "to": [
+            -12,
+            -44
+          ],
+          "openings": [
+            {
+              "kind": "window",
+              "width": 4,
+              "sill": 4,
+              "height": 6,
+              "glass": true,
+              "along": 6
+            }
+          ]
+        },
+        {
+          "from": [
+            -12,
+            -28
+          ],
+          "to": [
+            24,
+            -28
+          ],
+          "openings": [
+            {
+              "kind": "doorway",
+              "width": 6,
+              "height": 9,
+              "along": 13
+            }
+          ]
+        }
+      ],
+      "doors": [
+        {
+          "type": "door",
+          "at": [
+            -2,
+            -28.6
+          ],
+          "up": 0,
+          "yaw": 3.142,
+          "scale": 1,
+          "footprint": {
+            "rect": [
+              6,
+              0.2
+            ]
+          },
+          "height": 9,
+          "opening": [
+            6,
+            0
+          ]
+        }
+      ],
+      "lights": [
+        {
+          "kind": "lamp",
+          "at": [
+            -6,
+            -36
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            6,
+            -36
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            18,
+            -36
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -6,
+            -20
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            6,
+            -20
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            18,
+            -20
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            -6,
+            -4
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            6,
+            -4
+          ],
+          "up": 8
+        },
+        {
+          "kind": "lamp",
+          "at": [
+            18,
+            -4
+          ],
+          "up": 8
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "kind": "stairs",
+      "lower": "ground",
+      "upper": "upper",
+      "foot": [
+        -8,
+        -6
+      ],
+      "head": [
+        -8,
+        -24
+      ],
+      "width": 5,
+      "rail": true
+    }
+  ],
+  "roofs": [
+    {
+      "outline": [
+        [
+          -12,
+          -44
+        ],
+        [
+          24,
+          -44
+        ],
+        [
+          24,
+          4
+        ],
+        [
+          -12,
+          4
+        ]
+      ],
+      "y": 28,
+      "style": "gable",
+      "pitch": 48,
+      "overhang": 2,
+      "ridge": 90
+    }
+  ],
+  "collection": "tf4boiwf"
+}

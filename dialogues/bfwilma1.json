@@ -1,0 +1,23 @@
+{
+  "id": "bfwilma1",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Don't touch that. Or that. What do you want?",
+      "choices": [
+        {
+          "text": "What are you selling?",
+          "do": "vendor"
+        },
+        {
+          "text": "Teach me to brew.",
+          "do": "train"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  }
+}
