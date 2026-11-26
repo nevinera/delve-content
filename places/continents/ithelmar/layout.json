@@ -1882,8 +1882,8 @@
       "name": "Wakewell Abbey",
       "type": "outpost",
       "at": [
-        14690,
-        22160
+        14706,
+        22048
       ],
       "goal": 2.5,
       "levels": [
@@ -1957,8 +1957,8 @@
       "name": "Northgate",
       "type": "outpost",
       "at": [
-        7300,
-        18950
+        7316,
+        18518
       ],
       "goal": 0.7,
       "levels": [
@@ -3235,8 +3235,8 @@
       "name": "Crabs, north coast east 3",
       "theme": "crabs",
       "at": [
-        7144,
-        18396
+        6850,
+        18300
       ],
       "shown": false
     },
