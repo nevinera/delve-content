@@ -1,0 +1,37 @@
+{
+  "id": "csdigr01",
+  "name": "Kobold Digger",
+  "family": "kobolds",
+  "creatureType": "humanoid",
+  "reaction": "hostile",
+  "levels": [
+    6,
+    7
+  ],
+  "look": {
+    "body": "kobold",
+    "scale": 1,
+    "loadouts": [
+      {
+        "weapon": "mace",
+        "weaponStyle": "crude",
+        "armor": {
+          "head": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "attack": {
+    "speed": 2.4
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "notes": "Lives in: outside the diggings, by the mouth in the cliff foot east of Cliffside camp. Diggers who come out at night for the loggers' lamps and tools."
+}

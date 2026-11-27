@@ -1,0 +1,62 @@
+{
+  "id": "clwarden",
+  "name": "High Forest Warden",
+  "creatureType": "humanoid",
+  "reaction": "friendly",
+  "levels": [
+    12,
+    12
+  ],
+  "says": [
+    "The cliff remembers every root.",
+    "Go back down."
+  ],
+  "look": {
+    "body": "humanoid",
+    "height": [
+      6.2,
+      6.6
+    ],
+    "build": [
+      0.2,
+      0.4
+    ],
+    "ears": [
+      "leaf"
+    ],
+    "hair": [
+      "long",
+      "braids"
+    ],
+    "beard": [
+      "none"
+    ],
+    "expression": [
+      "neutral"
+    ],
+    "colors": {
+      "primary": [
+        "#3e5a3a",
+        "#4a5a40"
+      ],
+      "secondary": [
+        "#5a4a30"
+      ]
+    },
+    "armor": {
+      "chest": {
+        "type": "leather",
+        "style": "plain"
+      },
+      "legs": {
+        "type": "leather",
+        "style": "plain"
+      },
+      "feet": {
+        "type": "leather",
+        "style": "plain"
+      }
+    },
+    "weapon": "bow"
+  }
+}

@@ -427,6 +427,129 @@
     ]
    },
    "height": 3
+  },
+  {
+   "id": "objp4wrz",
+   "type": "built:b003pf3r",
+   "at": [
+    15371,
+    19142
+   ],
+   "y": 136,
+   "yaw": 4.5728,
+   "scale": 1.6,
+   "footprint": {
+    "rect": [
+     4.928,
+     3.92
+    ]
+   },
+   "height": 4.976
+  },
+  {
+   "id": "objynqrd",
+   "type": "built:b00dp0sq",
+   "at": [
+    15397,
+    19138
+   ],
+   "y": 136,
+   "yaw": 1.4661,
+   "scale": 1.6,
+   "footprint": {
+    "rect": [
+     5.168,
+     4.128
+    ]
+   },
+   "height": 4.64
+  },
+  {
+   "id": "objo37sf",
+   "type": "built:b1y0v2az",
+   "at": [
+    15375,
+    19162
+   ],
+   "y": 136,
+   "yaw": 5.0615,
+   "scale": 1.6,
+   "footprint": {
+    "circle": 2.864
+   },
+   "height": 4.832
+  },
+  {
+   "id": "objb9vda",
+   "type": "built:bcave021",
+   "at": [
+    15401,
+    19158
+   ],
+   "y": 136,
+   "yaw": 1.9548,
+   "scale": 1.6,
+   "footprint": {
+    "rect": [
+     4.16,
+     3.84
+    ]
+   },
+   "height": 5.12
+  },
+  {
+   "id": "objq8m0t",
+   "type": "built:b1yaunzy",
+   "at": [
+    15385,
+    19134
+   ],
+   "y": 136,
+   "yaw": 0,
+   "scale": 1.6,
+   "footprint": {
+    "rect": [
+     5.44,
+     3.84
+    ]
+   },
+   "height": 3.936
+  },
+  {
+   "id": "objij1ix",
+   "type": "built:bcave013",
+   "at": [
+    15641.4,
+    19259.1
+   ],
+   "y": 120.24,
+   "yaw": 0,
+   "scale": 2.4,
+   "footprint": {
+    "rect": [
+     12.48,
+     9.24
+    ]
+   },
+   "height": 3.624
+  },
+  {
+   "id": "obj7ogjb",
+   "type": "built:bcave015",
+   "at": [
+    15093.3,
+    19056
+   ],
+   "y": 152.73,
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     4.1,
+     0.9
+    ]
+   },
+   "height": 7
   }
  ],
  "slabs": []

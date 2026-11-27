@@ -1,0 +1,38 @@
+{
+  "id": "csglowd1",
+  "name": "Glowdigger",
+  "family": "kobolds",
+  "creatureType": "humanoid",
+  "reaction": "hostile",
+  "levels": [
+    7,
+    8
+  ],
+  "look": {
+    "body": "kobold",
+    "scale": 1.05,
+    "coloration": "kobold 6",
+    "loadouts": [
+      {
+        "weapon": "mace",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "attack": {
+    "speed": 2.4
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "notes": "Lives in: the diggings, inside. Kobolds who dig for the glowing glass and carry shards of it."
+}

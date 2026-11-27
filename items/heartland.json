@@ -903,6 +903,271 @@
         "primary": 1,
         "stamina": 1
       }
+    },
+    {
+      "id": "csshard1",
+      "name": "Glowing Shard",
+      "icon": "crystal-shine",
+      "quality": "common",
+      "itemLevel": 35,
+      "kind": "quest",
+      "description": "A splinter of glass that glows faintly on its own, like the old windows at the Abbey.",
+      "stack": 20
+    },
+    {
+      "id": "cscrown1",
+      "name": "The Glowmother's Crown",
+      "icon": "crown",
+      "quality": "common",
+      "itemLevel": 35,
+      "kind": "quest",
+      "description": "A circlet of bent wire set with chips of the glowing glass. It's warm to the touch."
+    },
+    {
+      "id": "csmesg01",
+      "name": "Tarrant's Message",
+      "icon": "tied-scroll",
+      "quality": "common",
+      "itemLevel": 35,
+      "kind": "quest",
+      "description": "A note in big, careful letters: \"Whoever's shooting. Come down and talk. No man of mine will lift a bow. G. Tarrant, foreman.\""
+    },
+    {
+      "id": "csline01",
+      "name": "Ithriel's Marked Cord",
+      "icon": "sewing-string",
+      "quality": "common",
+      "itemLevel": 35,
+      "kind": "quest",
+      "description": "A long cord knotted at even lengths, with a leaf tied in at each knot where the line turns."
+    },
+    {
+      "id": "cssilk01",
+      "name": "Coil of Spider Silk",
+      "icon": "spider-web",
+      "quality": "common",
+      "itemLevel": 35,
+      "kind": "quest",
+      "description": "A coil of grey silk line, stronger than any rope in the camp.",
+      "stack": 20
+    },
+    {
+      "id": "cschlk01",
+      "name": "Chalk Tally",
+      "icon": "wood-pile",
+      "quality": "common",
+      "itemLevel": 35,
+      "kind": "quest",
+      "description": "A flat stick scored with chalk marks, one row for each kind of tree, and a row for the loggers.",
+      "stack": 20
+    },
+    {
+      "id": "csglg001",
+      "name": "Sawdust Trousers",
+      "icon": "trousers",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "legs",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "csglg002",
+      "name": "Bark-stained Leggings",
+      "icon": "leg-armor",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "legs",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "csglg003",
+      "name": "Chute-hand's Legguards",
+      "icon": "leg-armor",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "legs",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "chain"
+    },
+    {
+      "id": "csgwp001",
+      "name": "Glass-chip Wand",
+      "icon": "crystal-wand",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "oneHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "staff",
+      "caster": true
+    },
+    {
+      "id": "csgwp002",
+      "name": "Felling Mace",
+      "icon": "flanged-mace",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "oneHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "mace"
+    },
+    {
+      "id": "csgwp003",
+      "name": "Digger's Pick-knife",
+      "icon": "plain-dagger",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "oneHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "dagger"
+    },
+    {
+      "id": "csgwa001",
+      "name": "Silk-corded Sash",
+      "icon": "belt-buckles",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "waist",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "csgwa002",
+      "name": "Climbing Belt",
+      "icon": "belt-buckles",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "waist",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "csgwa003",
+      "name": "Chain-hook Girdle",
+      "icon": "belt-buckles",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "waist",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "chain"
+    },
+    {
+      "id": "csgbk001",
+      "name": "Logger's Oilcloth",
+      "icon": "cape",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "back",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      }
+    },
+    {
+      "id": "csgbk002",
+      "name": "Tally-keeper's Cloak",
+      "icon": "cape",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "back",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      }
+    },
+    {
+      "id": "csgsh001",
+      "name": "Warden-leaf Mantle",
+      "icon": "shoulder-armor",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "shoulders",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "csgsh002",
+      "name": "Ledge-walker's Spaulders",
+      "icon": "shoulder-armor",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "shoulders",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "csgsh003",
+      "name": "Cliff-root Pauldrons",
+      "icon": "shoulder-armor",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "shoulders",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "plate"
+    },
+    {
+      "id": "csgnk001",
+      "name": "Glass-bead Necklace",
+      "icon": "linked-rings",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "neck",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      }
     }
   ]
 }

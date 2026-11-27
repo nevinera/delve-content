@@ -1,0 +1,47 @@
+{
+  "id": "csglowm1",
+  "name": "The Glowmother",
+  "family": "kobolds",
+  "creatureType": "humanoid",
+  "reaction": "hostile",
+  "levels": [
+    8,
+    8
+  ],
+  "look": {
+    "body": "kobold",
+    "scale": 1.4,
+    "coloration": "kobold 6",
+    "loadouts": [
+      {
+        "weapon": "staff",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "tattered"
+          },
+          "head": {
+            "type": "cloth",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "attack": {
+    "speed": 2.5,
+    "range": 90,
+    "school": "fire"
+  },
+  "abilities": [
+    "ranged/fireBolt"
+  ],
+  "tags": [
+    "caster"
+  ],
+  "health": 1.8,
+  "damage": 1.1,
+  "armor": 0.9,
+  "notes": "Lives in: the diggings, the glass chamber. The glowdiggers' matriarch, who hoards the glass and wears a crown of it. Speaks of \"the Wickfather below\"."
+}

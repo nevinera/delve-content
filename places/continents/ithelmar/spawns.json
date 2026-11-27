@@ -185,27 +185,18 @@
       "notes": "Kobold diggers (camp 4fp17dik)",
       "spawns": [
         {
-          "density": 13.3,
-          "respawn": 300,
-          "creature": "stock/kobold-spearman",
+          "density": 26,
+          "respawn": 240,
+          "creature": "csdigr01",
           "levels": [
             6,
             7
           ]
         },
         {
-          "density": 13.3,
-          "respawn": 300,
+          "density": 8,
+          "respawn": 240,
           "creature": "stock/kobold-slinger",
-          "levels": [
-            6,
-            7
-          ]
-        },
-        {
-          "density": 6.7,
-          "respawn": 300,
-          "creature": "stock/kobold-geomancer",
           "levels": [
             6,
             7
@@ -3876,86 +3867,6 @@
       ],
       "respawn": 300,
       "spawnArea": "spwnspyt"
-    },
-    {
-      "id": "mobv23gs",
-      "creature": "stock/kobold-spearman",
-      "at": [
-        14017.4,
-        null,
-        19510.9
-      ],
-      "yaw": 307,
-      "levels": [
-        6,
-        7
-      ],
-      "respawn": 300,
-      "spawnArea": "spwnysth"
-    },
-    {
-      "id": "mobxeq1f",
-      "creature": "stock/kobold-spearman",
-      "at": [
-        14089,
-        null,
-        19367.7
-      ],
-      "yaw": 189,
-      "levels": [
-        6,
-        7
-      ],
-      "respawn": 300,
-      "spawnArea": "spwnysth"
-    },
-    {
-      "id": "mobnd7ps",
-      "creature": "stock/kobold-slinger",
-      "at": [
-        13963.7,
-        null,
-        19421.4
-      ],
-      "yaw": 311,
-      "levels": [
-        6,
-        7
-      ],
-      "respawn": 300,
-      "spawnArea": "spwnysth"
-    },
-    {
-      "id": "mobbw54x",
-      "creature": "stock/kobold-slinger",
-      "at": [
-        14124.8,
-        null,
-        19457.2
-      ],
-      "yaw": 321,
-      "levels": [
-        6,
-        7
-      ],
-      "respawn": 300,
-      "spawnArea": "spwnysth"
-    },
-    {
-      "id": "mob2y6eb",
-      "creature": "stock/kobold-geomancer",
-      "at": [
-        14035.3,
-        null,
-        19439.3
-      ],
-      "yaw": 96,
-      "levels": [
-        6,
-        7
-      ],
-      "respawn": 300,
-      "spawnArea": "spwnysth"
     },
     {
       "id": "mobjqeo4",
@@ -27463,6 +27374,236 @@
         6
       ],
       "respawn": 300
+    },
+    {
+      "id": "csgd0000",
+      "creature": "csglowd1",
+      "at": [
+        15119.5,
+        151.4,
+        19060
+      ],
+      "yaw": 90,
+      "levels": [
+        7,
+        8
+      ],
+      "respawn": 240
+    },
+    {
+      "id": "csgd0001",
+      "creature": "csglowd1",
+      "at": [
+        15203,
+        146.8,
+        19077.5
+      ],
+      "yaw": 90,
+      "levels": [
+        7,
+        8
+      ],
+      "respawn": 240
+    },
+    {
+      "id": "csgd0002",
+      "creature": "csglowd1",
+      "at": [
+        15269,
+        142.4,
+        19105
+      ],
+      "yaw": 90,
+      "levels": [
+        7,
+        8
+      ],
+      "respawn": 240
+    },
+    {
+      "id": "csgd0003",
+      "creature": "csglowd1",
+      "at": [
+        15209,
+        146.8,
+        19004
+      ],
+      "yaw": 90,
+      "levels": [
+        7,
+        8
+      ],
+      "respawn": 240
+    },
+    {
+      "id": "csgd0004",
+      "creature": "csglowd1",
+      "at": [
+        15245,
+        145,
+        18930
+      ],
+      "yaw": 90,
+      "levels": [
+        7,
+        8
+      ],
+      "respawn": 240
+    },
+    {
+      "id": "csgd0005",
+      "creature": "csglowd1",
+      "at": [
+        15271,
+        144.1,
+        18903
+      ],
+      "yaw": 90,
+      "levels": [
+        7,
+        8
+      ],
+      "respawn": 240
+    },
+    {
+      "id": "csgd0006",
+      "creature": "csglowd1",
+      "at": [
+        15255,
+        144.1,
+        18903
+      ],
+      "yaw": 90,
+      "levels": [
+        7,
+        8
+      ],
+      "respawn": 240
+    },
+    {
+      "id": "csgd0007",
+      "creature": "csglowd1",
+      "at": [
+        15345,
+        138,
+        19135
+      ],
+      "yaw": 90,
+      "levels": [
+        7,
+        8
+      ],
+      "respawn": 240
+    },
+    {
+      "id": "csgd0008",
+      "creature": "csglowd1",
+      "at": [
+        15375,
+        136,
+        19160
+      ],
+      "yaw": 90,
+      "levels": [
+        7,
+        8
+      ],
+      "respawn": 240
+    },
+    {
+      "id": "csgd0009",
+      "creature": "csglowd1",
+      "at": [
+        15395,
+        136,
+        19140
+      ],
+      "yaw": 90,
+      "levels": [
+        7,
+        8
+      ],
+      "respawn": 240
+    },
+    {
+      "id": "csglowmo",
+      "creature": "csglowm1",
+      "at": [
+        15401.8,
+        135,
+        19159.6
+      ],
+      "yaw": 270,
+      "levels": [
+        8,
+        8
+      ],
+      "respawn": 240
+    },
+    {
+      "id": "nhithri1",
+      "npc": "clwarden",
+      "name": "Ithriel",
+      "title": "Warden of the High Forest",
+      "at": [
+        14110,
+        null,
+        18575
+      ],
+      "yaw": 0,
+      "levels": [
+        12,
+        12
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "mobnlh9w",
+      "creature": "csdigr01",
+      "at": [
+        14860.3,
+        null,
+        19054
+      ],
+      "yaw": 154,
+      "levels": [
+        6,
+        7
+      ],
+      "respawn": 240,
+      "spawnArea": "spwnysth"
+    },
+    {
+      "id": "mobxmifv",
+      "creature": "csdigr01",
+      "at": [
+        14932.1,
+        null,
+        19082.7
+      ],
+      "yaw": 297,
+      "levels": [
+        6,
+        7
+      ],
+      "respawn": 240,
+      "spawnArea": "spwnysth"
+    },
+    {
+      "id": "mob4hktt",
+      "creature": "stock/kobold-slinger",
+      "at": [
+        14917.7,
+        null,
+        19010.9
+      ],
+      "yaw": 16,
+      "levels": [
+        6,
+        7
+      ],
+      "respawn": 240,
+      "spawnArea": "spwnysth"
     }
   ]
 }

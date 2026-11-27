@@ -325,7 +325,7 @@
         "levels": "6-7",
         "why": "Kobold diggers outside the diggings' mouth.",
         "quests": [
-          "csdig01"
+          "csdigs01"
         ],
         "scene": "Round the diggings' mouth at 14990,19050, on the slope below it: timber props either side of the mouth, rails and an ore cart coming out, three spoil heaps, ore lumps, tools, crates, two mine lanterns, a hide shelter with bedding and a crude totem. The camp's marker sits about 1,000 ft west of the mouth; its diggers belong round the mouth."
       },
@@ -2366,7 +2366,7 @@
         ],
         "zone": "3e5710y9"
       },
-      "csdig01": {
+      "csdigs01": {
         "name": "Kobolds at the diggings",
         "summary": "Kobolds dig into the cliff foot beside the camp and come out at night for the loggers' lamps and tools.",
         "objectives": "Kill 8 kobold diggers outside the diggings.",
@@ -2394,7 +2394,7 @@
         "handIn": "Foreman Gus Tarrant",
         "chain": "glowdiggers",
         "after": [
-          "csdig01"
+          "csdigs01"
         ],
         "zone": "3e5710y9"
       },
@@ -2411,7 +2411,7 @@
         "handIn": "Foreman Gus Tarrant",
         "chain": "glowdiggers",
         "after": [
-          "csdig01"
+          "csdigs01"
         ],
         "zone": "3e5710y9"
       },
@@ -2944,7 +2944,7 @@
           "nhcandle",
           "nhtallow",
           "nhglass1",
-          "csdig01",
+          "csdigs01",
           "csglass1",
           "csshrin1",
           "csglowm1",
@@ -3037,7 +3037,7 @@
         "levels": "6-8",
         "what": "A kobold mine into the cliff foot east of Cliffside, up the basin from the camp. A gallery splits: the north side gallery holds the glass shrines; the main way goes on to the glass chamber, where the Glowmother is, and past it the deepest tunnel, cold air at its end.",
         "quests": [
-          "csdig01",
+          "csdigs01",
           "csglass1",
           "csshrin1",
           "csglowm1",

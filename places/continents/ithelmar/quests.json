@@ -2046,6 +2046,626 @@
           "count": 8
         }
       ]
+    },
+    {
+      "id": "csdigs01",
+      "zone": "3e5710y9",
+      "hub": "r322s8fi",
+      "name": "Kobolds at the Diggings",
+      "level": 6,
+      "giver": "nhtarra1",
+      "text": {
+        "offer": "See that hole in the cliff foot, east of camp? Kobolds. Dug in last spring, and every night since they come out and take something. A lamp. An axe. A whole barrel of nails once, and what a kobold wants with nails I couldn't tell you. The Council's quota won't wait while I send to Brightford for new axes. Thin them out for me.",
+        "summary": "Kill 8 kobold diggers outside the diggings, in the cliff foot east of Cliffside camp.",
+        "waiting": "They come out round the mouth of the hole. Can't miss it, they've hung our own lamps on posts.",
+        "done": "Eight. That'll keep them in their hole a night or two. Now I've seen what they're carrying, though, I want to know what's in there."
+      },
+      "objectives": [
+        {
+          "id": "diggers",
+          "kill": "csdigr01",
+          "count": 8,
+          "area": "nhca000b"
+        }
+      ]
+    },
+    {
+      "id": "csglass1",
+      "zone": "3e5710y9",
+      "hub": "r322s8fi",
+      "name": "Glass in the Dark",
+      "level": 7,
+      "giver": "nhtarra1",
+      "after": [
+        "csdigs01"
+      ],
+      "text": {
+        "offer": "Dell found one dead by the brook this morning, and it had a shard of glass on a string round its neck. Glowing. On its own. Like the old windows at the Abbey. If that's what they're digging for, there's more of it in that cliff than anyone knows, and the Council will want it before we've hauled another log. I want to know first. Bring me what the ones inside are carrying.",
+        "summary": "Bring 8 glowing shards from the glowdiggers inside the diggings.",
+        "waiting": "Inside, mind. The ones out front only carry what they stole from us.",
+        "done": "Eight shards, and every one glowing. That's not a seam they've struck. That's someone's window, broken up small. Somebody built in that cliff, long before any of us."
+      },
+      "objectives": [
+        {
+          "id": "shards",
+          "bring": "heartland/csshard1",
+          "count": 8,
+          "drops": [
+            {
+              "creature": "csglowd1",
+              "chance": 0.7
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "items": [
+          {
+            "item": "heartland/csgnk001"
+          }
+        ]
+      }
+    },
+    {
+      "id": "csshrin1",
+      "zone": "3e5710y9",
+      "hub": "r322s8fi",
+      "name": "The Glass Shrines",
+      "level": 7,
+      "giver": "nhtarra1",
+      "after": [
+        "csdigs01"
+      ],
+      "text": {
+        "offer": "Ossie went in after a stolen saw. Came out white as flour. Says in the north tunnel they've built little heaps of the glass, with sticks and skulls round them, and they bow to them. Bow! And they fought him hardest right there. Knock those shrines down. Kobolds with nothing to bow to might just lose heart and keep to their holes.",
+        "summary": "Topple 3 glass shrines in the north tunnel of the diggings.",
+        "waiting": "The north tunnel, Ossie says. Left past the first bend.",
+        "done": "All three? Good. Ossie'll be glad. He's been sleeping with a lamp lit."
+      },
+      "objectives": [
+        {
+          "id": "shrines",
+          "use": "pool:shrines",
+          "count": 3,
+          "time": 2,
+          "text": "Glass shrines toppled"
+        }
+      ],
+      "objectPools": [
+        {
+          "id": "shrines",
+          "type": "built:bcave005",
+          "show": 3,
+          "spots": [
+            {
+              "at": [
+                15239,
+                18939
+              ],
+              "yaw": 0,
+              "scale": 1,
+              "y": 145.3
+            },
+            {
+              "at": [
+                15257,
+                18912
+              ],
+              "yaw": 1.7,
+              "scale": 1,
+              "y": 144.4
+            },
+            {
+              "at": [
+                15277,
+                18900
+              ],
+              "yaw": 3.4,
+              "scale": 1,
+              "y": 144
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/csglg001"
+          },
+          {
+            "item": "heartland/csglg002"
+          },
+          {
+            "item": "heartland/csglg003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "csglowm1",
+      "zone": "3e5710y9",
+      "hub": "r322s8fi",
+      "name": "The Glowmother",
+      "level": 8,
+      "giver": "nhtarra1",
+      "after": [
+        "csshrin1"
+      ],
+      "text": {
+        "offer": "Shrines are down, and they're still digging. Ossie heard them, the night he was in there. Chanting a name. The Glowmother. She's at the back, in a chamber they broke into, all cut stone and glass. And there's another name they say, lower: the Wickfather. Below, they say. I don't like the sound of either. Kill her, and bring me her crown so I know it's done.",
+        "summary": "Kill the Glowmother in the glass chamber, at the back of the diggings, and bring Foreman Tarrant her glass crown.",
+        "waiting": "The back of the diggings. Follow the glow.",
+        "done": "That's it, then. Glass and wire. Warm, too. I'll keep this somewhere the Council won't look. Wickfather. You didn't see anything, did you? Below?"
+      },
+      "objectives": [
+        {
+          "id": "crown",
+          "bring": "heartland/cscrown1",
+          "count": 1,
+          "drops": [
+            {
+              "creature": "csglowm1",
+              "chance": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/csgwp001"
+          },
+          {
+            "item": "heartland/csgwp002"
+          },
+          {
+            "item": "heartland/csgwp003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "csrock01",
+      "zone": "3e5710y9",
+      "hub": "r322s8fi",
+      "name": "Cold Air",
+      "level": 8,
+      "giver": "nhtarra1",
+      "after": [
+        "csshrin1"
+      ],
+      "text": {
+        "offer": "One tunnel runs on past where they've been bowing. Past the glass chamber, Ossie says, down and down. They were still digging it. I'll not send a logger down there. Go to the end of it and tell me what they were digging toward.",
+        "summary": "Go to the end of the deepest tunnel in the diggings, past the glass chamber, and tell Foreman Tarrant what you find.",
+        "waiting": "Past the chamber, down to the end. Then come straight back.",
+        "done": "Singing. Right. No. I'll have stone hauled up and it'll be walled shut before the week's out, and nobody goes past the chamber again. Not for glass, not for anything."
+      },
+      "objectives": [
+        {
+          "id": "rockfall",
+          "use": "objij1ix",
+          "time": 3,
+          "text": "The deepest tunnel's end",
+          "doneText": "The tunnel ends at a fall of fresh rock. Cold, wet air comes through the gaps, smelling of deep water. You put your ear to the stones. Far behind them, something is singing, one long low note, and then another."
+        }
+      ]
+    },
+    {
+      "id": "csarrow1",
+      "zone": "3e5710y9",
+      "hub": "r322s8fi",
+      "name": "Arrows at the Chute",
+      "level": 7,
+      "giver": "nhtarra1",
+      "text": {
+        "offer": "Chute's stopped. Every time a man goes up to the head of it, arrows come down off the cliff top. Never hit anyone. Not yet. But no one'll go up, and the quota's due. You go. The chute's head is up the slope, north of camp, under the cliff. See what they're shooting at.",
+        "summary": "Climb to the chute's head, north of Cliffside camp under the cliff, and find what the arrows are aimed at.",
+        "waiting": "Up the slope behind camp. Keep your head down.",
+        "done": "The stumps. Only the stumps, the newest cut, every arrow. Not one in a man, not one in the chute. Somebody up there's telling us something. I wish they'd just say it."
+      },
+      "objectives": [
+        {
+          "id": "stumps",
+          "use": "pool:stumps",
+          "count": 3,
+          "time": 2,
+          "text": "Arrow-struck stumps looked at",
+          "doneText": "Another stump, cut this season, the sap still wet. Three arrows stand in it, fletched with grey feathers, in a tight ring round the heart of the wood."
+        }
+      ],
+      "objectPools": [
+        {
+          "id": "stumps",
+          "type": "built:bmill006",
+          "show": 4,
+          "spots": [
+            {
+              "at": [
+                14030,
+                18615
+              ],
+              "yaw": 0,
+              "scale": 1
+            },
+            {
+              "at": [
+                14055,
+                18640
+              ],
+              "yaw": 1.7,
+              "scale": 1
+            },
+            {
+              "at": [
+                14120,
+                18630
+              ],
+              "yaw": 3.4,
+              "scale": 1
+            },
+            {
+              "at": [
+                14150,
+                18605
+              ],
+              "yaw": 5.1,
+              "scale": 1
+            },
+            {
+              "at": [
+                14010,
+                18590
+              ],
+              "yaw": 0.5199999999999996,
+              "scale": 1
+            },
+            {
+              "at": [
+                14175,
+                18640
+              ],
+              "yaw": 2.2199999999999998,
+              "scale": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "csanswe1",
+      "zone": "3e5710y9",
+      "hub": "r322s8fi",
+      "name": "An Answer",
+      "level": 8,
+      "giver": "nhtarra1",
+      "turnIn": "nhithri1",
+      "after": [
+        "csarrow1"
+      ],
+      "given": [
+        {
+          "item": "heartland/csmesg01"
+        }
+      ],
+      "text": {
+        "offer": "I'd rather know what they want than lose a man finding out. I've written it down. Take it up to the chute's head and wait. If they're watching the stumps, they'll see you.",
+        "summary": "Take Foreman Tarrant's message to the chute's head, north of the camp, and wait for whoever comes down.",
+        "waiting": "Up to the chute's head. Hold it up where they can see it, I suppose.",
+        "done": "\"No man of mine will lift a bow.\" He writes like a man who means it. I am Ithriel. I keep the high forest, and I have watched your foreman's people cut it for two summers. I did not come down to bargain. I came down to show you something."
+      },
+      "objectives": [
+        {
+          "id": "message",
+          "bring": "heartland/csmesg01",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "csroots1",
+      "zone": "3e5710y9",
+      "hub": "r322s8fi",
+      "name": "What Holds the Cliff",
+      "level": 9,
+      "giver": "nhithri1",
+      "after": [
+        "csanswe1"
+      ],
+      "text": {
+        "offer": "The trees on this slope are not standing on the cliff. They are holding it. Their roots go down into every crack, and the rock hangs on them. Where your loggers have cut, the roots die, and the rock lets go. You will not take my word for it. Go and look, along the slope's top, at the ground that has slumped since the cutting began.",
+        "summary": "Look at 3 places along the top of the slope by the chute's head where the ground has slumped.",
+        "waiting": "Along the slope, under the cliff. Look where the stumps are.",
+        "done": "Now you have seen it. Next spring it will be larger, and the spring after, a piece of that cliff will come down on your foreman's camp. I would rather not watch that."
+      },
+      "objectives": [
+        {
+          "id": "slumps",
+          "use": "pool:slumps",
+          "count": 3,
+          "time": 2,
+          "text": "Slumped ground looked at",
+          "doneText": "A lip of earth has broken away and slid, taking stones with it. Dead roots hang out of the scar like cut string, and above them a crack runs up into the cliff."
+        }
+      ],
+      "objectPools": [
+        {
+          "id": "slumps",
+          "type": "built:bcave013",
+          "show": 4,
+          "spots": [
+            {
+              "at": [
+                13960,
+                18575
+              ],
+              "yaw": 0,
+              "scale": 1.6
+            },
+            {
+              "at": [
+                14000,
+                18560
+              ],
+              "yaw": 1.7,
+              "scale": 1.6
+            },
+            {
+              "at": [
+                14215,
+                18585
+              ],
+              "yaw": 3.4,
+              "scale": 1.6
+            },
+            {
+              "at": [
+                14250,
+                18600
+              ],
+              "yaw": 5.1,
+              "scale": 1.6
+            },
+            {
+              "at": [
+                14170,
+                18565
+              ],
+              "yaw": 0.5199999999999996,
+              "scale": 1.6
+            },
+            {
+              "at": [
+                13930,
+                18600
+              ],
+              "yaw": 2.2199999999999998,
+              "scale": 1.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "csline01",
+      "zone": "3e5710y9",
+      "hub": "r322s8fi",
+      "name": "A No-cut Line",
+      "level": 9,
+      "giver": "nhithri1",
+      "turnIn": "nhtarra1",
+      "after": [
+        "csroots1"
+      ],
+      "given": [
+        {
+          "item": "heartland/csline01"
+        }
+      ],
+      "text": {
+        "offer": "This cord is the line. Below it, your foreman may cut what he likes. Above it, not one tree. Where it turns, I have tied a leaf, and I will put my own marks on the trunks tonight. Take it to him. Tell him what you saw. If the line holds, the arrows stop.",
+        "summary": "Take Ithriel's marked cord to Foreman Tarrant, and tell him where her line runs and what you saw on the ledge.",
+        "waiting": "Take it down to him. I will be watching.",
+        "done": "A line. Above it, nothing. Do you know what that does to the quota? The Council will have my hide. ...And a cliff on the cook tent would cost more than a short year. Fine. Fine! Tell her the line holds. Gods, I need a drink."
+      },
+      "objectives": [
+        {
+          "id": "cord",
+          "bring": "heartland/csline01",
+          "count": 1
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/csgsh001"
+          },
+          {
+            "item": "heartland/csgsh002"
+          },
+          {
+            "item": "heartland/csgsh003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "csspide1",
+      "zone": "3e5710y9",
+      "hub": "r322s8fi",
+      "name": "Rope for the Chute",
+      "level": 7,
+      "giver": "nhtarra1",
+      "text": {
+        "offer": "Damp up here rots hemp in a month, and a rope that goes on the chute drops a log on someone. Spider silk doesn't rot. The big spiders at the cliff foot, south of camp, spin it thick as your finger. Nobody here'll go near them. Would you?",
+        "summary": "Bring 6 coils of silk from the spiders at the cliff foot, south of Cliffside camp.",
+        "waiting": "South along the cliff foot. Mind the webs.",
+        "done": "Look at that. You could hang a bull from it. Nan'll braid it into a rope by tonight."
+      },
+      "objectives": [
+        {
+          "id": "silk",
+          "bring": "heartland/cssilk01",
+          "count": 6,
+          "drops": [
+            {
+              "creature": "stock/cave-spider",
+              "area": "nhca000c",
+              "chance": 0.7
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/csgwa001"
+          },
+          {
+            "item": "heartland/csgwa002"
+          },
+          {
+            "item": "heartland/csgwa003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cschalk1",
+      "zone": "3e5710y9",
+      "hub": "r322s8fi",
+      "name": "Chalk Marks",
+      "level": 7,
+      "giver": "nhtarra1",
+      "text": {
+        "offer": "Kobolds in the loggers' valley, west of here, have taken to marking our trees. Chalk, a scratch on every trunk we've felled and every one we haven't. Counting them, Dell says. What does a kobold count trees for? Bring me some of their tallies and let's see.",
+        "summary": "Bring 5 chalk tallies from the kobolds in the loggers' valley, west of Cliffside camp.",
+        "waiting": "They carry their tallies on sticks. West, in the valley.",
+        "done": "One row for pine, one for oak, one for ash... and this one. That's us. A mark for every logger. They're not counting trees. They're counting what we take, and who takes it. Someone taught them that."
+      },
+      "objectives": [
+        {
+          "id": "tallies",
+          "bring": "heartland/cschlk01",
+          "count": 5,
+          "drops": [
+            {
+              "creature": "stock/kobold-spearman",
+              "area": "nhca000s",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-slinger",
+              "area": "nhca000s",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-geomancer",
+              "area": "nhca000s",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-spearman",
+              "area": "nhca000x",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-slinger",
+              "area": "nhca000x",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-geomancer",
+              "area": "nhca000x",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-spearman",
+              "area": "nhca0013",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-slinger",
+              "area": "nhca0013",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-geomancer",
+              "area": "nhca0013",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-spearman",
+              "area": "nhca0016",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-slinger",
+              "area": "nhca0016",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-geomancer",
+              "area": "nhca0016",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-spearman",
+              "area": "nhca0031",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-slinger",
+              "area": "nhca0031",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-geomancer",
+              "area": "nhca0031",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-spearman",
+              "area": "nhca0036",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-slinger",
+              "area": "nhca0036",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-geomancer",
+              "area": "nhca0036",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-spearman",
+              "area": "nhca003a",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-slinger",
+              "area": "nhca003a",
+              "chance": 0.4
+            },
+            {
+              "creature": "stock/kobold-geomancer",
+              "area": "nhca003a",
+              "chance": 0.4
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/csgbk001"
+          },
+          {
+            "item": "heartland/csgbk002"
+          }
+        ]
+      }
     }
   ]
 }
