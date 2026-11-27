@@ -1,0 +1,30 @@
+{
+  "id": "hcbrist1",
+  "name": "Old Bristle",
+  "family": "boars",
+  "skinnable": true,
+  "creatureType": "beast",
+  "look": {
+    "body": "boar",
+    "coloration": "wild",
+    "scale": 1.45
+  },
+  "reaction": "hostile",
+  "levels": [
+    5,
+    5
+  ],
+  "attack": {
+    "speed": 2.8
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 1.6,
+  "damage": 1,
+  "armor": 1,
+  "notes": "Lives in: his wallow at the rise's edge, west of Hallam's cross. A huge old grey-backed boar who breaks the hedges for the young ones to follow him into the barley."
+}

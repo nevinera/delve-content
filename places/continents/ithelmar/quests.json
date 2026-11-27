@@ -682,6 +682,657 @@
           "count": 1
         }
       ]
+    },
+    {
+      "id": "hcrats01",
+      "zone": "3e5710y9",
+      "hub": "aesl88uw",
+      "name": "Rats in the Barn",
+      "level": 4,
+      "giver": "hxwenna1",
+      "text": {
+        "offer": "If the Abbess sent you, you're welcome. If she didn't, you're still welcome, if you'll work. Start in the big barn, behind the house. Rats. Every sack they open is a sack short when the collector comes, and we're short enough. The cat won't go in. Kill eight.",
+        "summary": "Kill 8 barn rats in the Hallams' big barn, behind their farmhouse.",
+        "waiting": "Eight. I can hear them from here.",
+        "done": "Quieter. Good. That's eight sacks I won't have to explain."
+      },
+      "objectives": [
+        {
+          "id": "rats",
+          "kill": "hcrat001",
+          "count": 8,
+          "area": "nhca0005"
+        }
+      ]
+    },
+    {
+      "id": "hcboars1",
+      "zone": "3e5710y9",
+      "hub": "aesl88uw",
+      "name": "Boars in the Barley",
+      "level": 4,
+      "giver": "hxwenna1",
+      "text": {
+        "offer": "Boars come down off the rise at night and root up the barley, east of the cross along the Abbey road. A row a night, near enough. And the cart cover's in rags. Bring me five hides, and I'm rid of both troubles.",
+        "summary": "Bring 5 boar hides from the boars in the barley, east of the cross along the Abbey road.",
+        "waiting": "Five hides. Whole ones, if you can.",
+        "done": "Good hides. Orla will scrape them, and the cart goes covered to Brightford."
+      },
+      "objectives": [
+        {
+          "id": "hides",
+          "bring": "heartland/hchide01",
+          "count": 5,
+          "drops": [
+            {
+              "creature": "stock/boar",
+              "area": "nhca0006",
+              "chance": 0.7
+            },
+            {
+              "creature": "stock/boar",
+              "area": "nhca0014",
+              "chance": 0.7
+            },
+            {
+              "creature": "stock/boar",
+              "area": "nhca003m",
+              "chance": 0.7
+            },
+            {
+              "creature": "stock/boar",
+              "area": "nhca001e",
+              "chance": 0.7
+            },
+            {
+              "creature": "stock/boar",
+              "area": "nhca002g",
+              "chance": 0.7
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/hcgwa001"
+          },
+          {
+            "item": "heartland/hcgwa002"
+          },
+          {
+            "item": "heartland/hcgwa003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hcbristl",
+      "zone": "3e5710y9",
+      "hub": "aesl88uw",
+      "name": "Old Bristle",
+      "level": 5,
+      "giver": "hxwenna1",
+      "after": [
+        "hcboars1"
+      ],
+      "text": {
+        "offer": "The young boars follow an old one. Old Bristle, Grandfather calls him. He breaks the hedges to let them through, and he wallows at the edge of the rise, west of here off the Brightford road. Kill him and the rest will keep to the woods. Grandfather wants the tusks over the door. I want the hedges whole.",
+        "summary": "Kill Old Bristle in his wallow at the edge of the rise, west off the Brightford road, and bring back his tusks.",
+        "waiting": "He's big, and he's old. Old means clever.",
+        "done": "Those are his. Grandfather will tell you how he nearly had him once, in the old lord's day. Let him. It's a long story, but it's mostly true."
+      },
+      "objectives": [
+        {
+          "id": "bristle",
+          "kill": "hcbrist1",
+          "count": 1
+        },
+        {
+          "id": "tusks",
+          "bring": "heartland/hctusk01",
+          "count": 1,
+          "drops": [
+            {
+              "creature": "hcbrist1",
+              "chance": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/hcgwp001"
+          },
+          {
+            "item": "heartland/hcgwp002"
+          },
+          {
+            "item": "heartland/hcgwp003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hcsacks1",
+      "zone": "3e5710y9",
+      "hub": "aesl88uw",
+      "name": "Short Sacks",
+      "level": 5,
+      "giver": "hxwenna1",
+      "after": [
+        "hcrats01"
+      ],
+      "text": {
+        "offer": "Varn Ostrey weighs the tithe at Brightford, for the Council. His scales say we owe another cart. Our sacks are full. I filled them. But a Hallam saying so is farmers' lying, to the reeve. Weigh three of them on our steelyard, in the big barn. You aren't a Hallam. You'll say what you saw.",
+        "summary": "Weigh 3 of the Hallams' tithe sacks on the steelyard in their big barn.",
+        "waiting": "Three sacks. Read the beam, not my face.",
+        "done": "Full. You saw it. Then Varn's scales are wrong, or Varn is. I'd like to know which."
+      },
+      "objectives": [
+        {
+          "id": "weigh",
+          "use": "pool:sacks",
+          "count": 3,
+          "time": 3,
+          "text": "Tithe sacks weighed on the steelyard",
+          "doneText": "Each time, the beam swings, then settles level at the Council's mark, with grain to spare. The sacks are full."
+        }
+      ],
+      "objectPools": [
+        {
+          "id": "sacks",
+          "type": "built:bvill006",
+          "show": 3,
+          "spots": [
+            {
+              "at": [
+                10880,
+                21194
+              ],
+              "yaw": 0,
+              "scale": 1
+            },
+            {
+              "at": [
+                10893,
+                21194
+              ],
+              "yaw": 1.3,
+              "scale": 1
+            },
+            {
+              "at": [
+                10879,
+                21181
+              ],
+              "yaw": 2.6,
+              "scale": 1
+            },
+            {
+              "at": [
+                10893,
+                21181
+              ],
+              "yaw": 3.9000000000000004,
+              "scale": 1
+            },
+            {
+              "at": [
+                10886,
+                21199
+              ],
+              "yaw": 5.2,
+              "scale": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hcreeve1",
+      "zone": "3e5710y9",
+      "hub": "aesl88uw",
+      "name": "To the Reeve",
+      "level": 5,
+      "giver": "hxwenna1",
+      "turnIn": "nhodile1",
+      "after": [
+        "hcsacks1"
+      ],
+      "given": [
+        {
+          "item": "heartland/hcletr01"
+        },
+        {
+          "item": "heartland/hcsack01"
+        }
+      ],
+      "text": {
+        "offer": "The reeve at Brightford keeps the Council's true weight. Odile Marchbank. I don't trust her. I trust Varn less. Take her my letter, and this sack, sealed, so she can weigh it herself. And tell her you saw the others weighed. Brightford's south-west, down the Brightford road, past the rise.",
+        "summary": "Take Wenna's letter and the sealed tithe sack to Reeve Odile Marchbank in Brightford, south-west down the Brightford road.",
+        "waiting": "Down the Brightford road, past the rise. Don't let anyone open that sack.",
+        "done": "A letter from Wenna Hallam. She writes only when she is angry, and she is seldom wrong when she is. You saw her sacks weighed, and they were full? Then I will not take her word, or yours. I will test Varn's scales myself."
+      },
+      "objectives": [
+        {
+          "id": "letter",
+          "bring": "heartland/hcletr01",
+          "count": 1
+        },
+        {
+          "id": "sack",
+          "bring": "heartland/hcsack01",
+          "count": 1
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/hcgsh001"
+          },
+          {
+            "item": "heartland/hcgsh002"
+          },
+          {
+            "item": "heartland/hcgsh003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hcapples",
+      "zone": "3e5710y9",
+      "hub": "aesl88uw",
+      "name": "Hedge Apples",
+      "level": 4,
+      "giver": "nhtobin1",
+      "text": {
+        "offer": "Ah, a strong back! In the old lord's day we'd have had six of you up the hedges by now, and a cask broached by dark, and my cousin Abel singing... Well. Hedge apples. Little hard sour things, wild in the hedges along the roads east of here. Make the best cider there is. And the Council's collector has no column for cider. Never has. Funny, that. Ten, if you would. My back won't do the high branches.",
+        "summary": "Gather 10 hedge apples from the hedges along the roads east and north-east of the cross.",
+        "waiting": "The small sour ones. Sweet apples are for eating, and that's no use to anybody.",
+        "done": "Lovely. Hard as stones and twice as sour. Come spring they'll be the best thing this side of the gap, and not a penny of tithe on them."
+      },
+      "objectives": [
+        {
+          "id": "apples",
+          "bring": "heartland/hcappl01",
+          "count": 10,
+          "drops": [
+            {
+              "pool": "hedge",
+              "chance": 1,
+              "time": 1.5
+            }
+          ]
+        }
+      ],
+      "objectPools": [
+        {
+          "id": "hedge",
+          "type": "built:bwood005",
+          "show": 10,
+          "spots": [
+            {
+              "at": [
+                10810,
+                21426
+              ],
+              "yaw": 0,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                10873,
+                21418
+              ],
+              "yaw": 1.3,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                10913,
+                21466
+              ],
+              "yaw": 2.6,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                10975,
+                21458
+              ],
+              "yaw": 3.9000000000000004,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                11016,
+                21505
+              ],
+              "yaw": 5.2,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                11078,
+                21497
+              ],
+              "yaw": 0.21999999999999975,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                11118,
+                21545
+              ],
+              "yaw": 1.5200000000000005,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                11180,
+                21537
+              ],
+              "yaw": 2.8199999999999994,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                11221,
+                21585
+              ],
+              "yaw": 4.12,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                11283,
+                21577
+              ],
+              "yaw": 5.420000000000001,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                10761,
+                21128
+              ],
+              "yaw": 1.7400000000000002,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                10810,
+                21089
+              ],
+              "yaw": 3.040000000000001,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                10804,
+                21027
+              ],
+              "yaw": 4.340000000000002,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                10853,
+                20988
+              ],
+              "yaw": 5.639999999999999,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                10846,
+                20926
+              ],
+              "yaw": 0.6599999999999993,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                10895,
+                20886
+              ],
+              "yaw": 1.96,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                10889,
+                20824
+              ],
+              "yaw": 3.2600000000000007,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                10938,
+                20785
+              ],
+              "yaw": 4.560000000000001,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                10932,
+                20723
+              ],
+              "yaw": 5.8599999999999985,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                10981,
+                20684
+              ],
+              "yaw": 0.879999999999999,
+              "scale": 1.2
+            },
+            {
+              "at": [
+                10975,
+                20621
+              ],
+              "yaw": 2.1799999999999997,
+              "scale": 1.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hcgrain1",
+      "zone": "3e5710y9",
+      "hub": "aesl88uw",
+      "name": "Grain on the Step",
+      "level": 6,
+      "giver": "nhtobin1",
+      "after": [
+        "hcapples"
+      ],
+      "text": {
+        "offer": "Now, here's a thing. Some mornings there's a sack of grain on our step. Good grain. Nobody sees who leaves it, and Wenna won't hear of asking. But the Council will ask, sooner or later, where a farm that's short finds spare grain. Whoever it is comes and goes by the hedge gap behind the shrine. Have a look there, would you? Bring me whatever you find.",
+        "summary": "Search the hedge gap behind the wayside shrine at the crossroads, and bring Tobin what you find.",
+        "waiting": "Behind the shrine. Where the bluebells are trodden down.",
+        "done": "Grey wool. Close-woven... That's Tennely grey, or I'm a turnip. A kindness from the old days, that's all it is. No, I'll not say more. And neither will you, if you're wise."
+      },
+      "objectives": [
+        {
+          "id": "wool",
+          "bring": "heartland/hcwool01",
+          "count": 1,
+          "drops": [
+            {
+              "pool": "gap",
+              "chance": 1,
+              "time": 2
+            }
+          ]
+        }
+      ],
+      "objectPools": [
+        {
+          "id": "gap",
+          "type": "built:b1f0d7lo",
+          "spots": [
+            {
+              "at": [
+                10633,
+                21340
+              ],
+              "yaw": 0,
+              "scale": 1.4
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "items": [
+          {
+            "item": "heartland/hcgbk001"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hcwebs01",
+      "zone": "3e5710y9",
+      "hub": "aesl88uw",
+      "name": "Webs in the Ruin",
+      "level": 5,
+      "giver": "nhtobin1",
+      "given": [
+        {
+          "item": "heartland/hctorch1"
+        }
+      ],
+      "text": {
+        "offer": "We graze the sheep down by Crumbling Ruin in summer, out west at the rise's south-west foot. Did, I should say. Two ewes last year, wrapped up and hung like hams. Spiders. The ruin's full of their webs. Take this torch and burn out the nests, five of them, and I'll put the flock back. I'd go myself, but my knees have opinions.",
+        "summary": "Burn 5 web nests in and round Crumbling Ruin, west at the rise's south-west foot, with Tobin's torch.",
+        "waiting": "Burn them right through. Half a web's a whole spider.",
+        "done": "All five? Then the sheep go down next week. That ruin was old when I was a boy, you know, and my grandfather never knew what it had been. Something holy, he thought. Holy or not, it's ours to graze."
+      },
+      "objectives": [
+        {
+          "id": "nests",
+          "act": [
+            {
+              "item": "heartland/hctorch1",
+              "pool": "nests"
+            }
+          ],
+          "count": 5,
+          "text": "Web nests burned"
+        }
+      ],
+      "objectPools": [
+        {
+          "id": "nests",
+          "type": "built:bwood013",
+          "show": 5,
+          "spots": [
+            {
+              "at": [
+                8903,
+                22080
+              ],
+              "yaw": 0,
+              "scale": 1
+            },
+            {
+              "at": [
+                8926,
+                22071
+              ],
+              "yaw": 1.3,
+              "scale": 1
+            },
+            {
+              "at": [
+                8880,
+                22068
+              ],
+              "yaw": 2.6,
+              "scale": 1
+            },
+            {
+              "at": [
+                8947,
+                22090
+              ],
+              "yaw": 3.9000000000000004,
+              "scale": 1
+            },
+            {
+              "at": [
+                8905,
+                22117
+              ],
+              "yaw": 5.2,
+              "scale": 1
+            },
+            {
+              "at": [
+                8868,
+                22102
+              ],
+              "yaw": 0.21999999999999975,
+              "scale": 1
+            },
+            {
+              "at": [
+                8955,
+                22072
+              ],
+              "yaw": 1.5200000000000005,
+              "scale": 1
+            },
+            {
+              "at": [
+                8930,
+                22042
+              ],
+              "yaw": 2.8199999999999994,
+              "scale": 1
+            },
+            {
+              "at": [
+                8890,
+                22045
+              ],
+              "yaw": 4.12,
+              "scale": 1
+            },
+            {
+              "at": [
+                8858,
+                22082
+              ],
+              "yaw": 5.420000000000001,
+              "scale": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/hcglg001"
+          },
+          {
+            "item": "heartland/hcglg002"
+          },
+          {
+            "item": "heartland/hcglg003"
+          }
+        ]
+      }
     }
   ]
 }

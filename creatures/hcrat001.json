@@ -1,0 +1,31 @@
+{
+  "id": "hcrat001",
+  "name": "Barn Rat",
+  "family": "rats",
+  "skinnable": true,
+  "creatureType": "beast",
+  "look": {
+    "body": "rat",
+    "coloration": "brown",
+    "scale": 0.6
+  },
+  "variants": 3,
+  "reaction": "hostile",
+  "levels": [
+    4,
+    4
+  ],
+  "attack": {
+    "speed": 1.6
+  },
+  "abilities": [
+    "beast/bite"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 0.7,
+  "damage": 1.1,
+  "armor": 0.6,
+  "notes": "Lives in: barns, granaries and hay lofts. Brown and fat on other folk's grain."
+}

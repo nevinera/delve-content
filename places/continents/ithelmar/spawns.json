@@ -71,9 +71,9 @@
       "notes": "Barn rats (camp 3fhl1u5w)",
       "spawns": [
         {
-          "density": 37.5,
-          "respawn": 300,
-          "creature": "stock/sewer-rat",
+          "density": 160,
+          "respawn": 120,
+          "creature": "hcrat001",
           "levels": [
             4,
             4
@@ -3460,86 +3460,6 @@
       ],
       "respawn": 300,
       "spawnArea": "spwnk1av"
-    },
-    {
-      "id": "mob8wlwm",
-      "creature": "stock/sewer-rat",
-      "at": [
-        11018.8,
-        null,
-        20986.1
-      ],
-      "yaw": 38,
-      "levels": [
-        4,
-        4
-      ],
-      "respawn": 300,
-      "spawnArea": "spwnxcla"
-    },
-    {
-      "id": "mob2e6ot",
-      "creature": "stock/sewer-rat",
-      "at": [
-        10951.4,
-        null,
-        20868.1
-      ],
-      "yaw": 204,
-      "levels": [
-        4,
-        4
-      ],
-      "respawn": 300,
-      "spawnArea": "spwnxcla"
-    },
-    {
-      "id": "mobpjpn7",
-      "creature": "stock/sewer-rat",
-      "at": [
-        10884,
-        null,
-        20969.2
-      ],
-      "yaw": 29,
-      "levels": [
-        4,
-        4
-      ],
-      "respawn": 300,
-      "spawnArea": "spwnxcla"
-    },
-    {
-      "id": "mob6x2ks",
-      "creature": "stock/sewer-rat",
-      "at": [
-        10968.2,
-        null,
-        20935.5
-      ],
-      "yaw": 119,
-      "levels": [
-        4,
-        4
-      ],
-      "respawn": 300,
-      "spawnArea": "spwnxcla"
-    },
-    {
-      "id": "mobrds9h",
-      "creature": "stock/sewer-rat",
-      "at": [
-        10951.4,
-        null,
-        21019.8
-      ],
-      "yaw": 16,
-      "levels": [
-        4,
-        4
-      ],
-      "respawn": 300,
-      "spawnArea": "spwnxcla"
     },
     {
       "id": "mobs1c1z",
@@ -27365,6 +27285,133 @@
       ],
       "respawn": 300,
       "spawnArea": "spwn3ppi"
+    },
+    {
+      "id": "hcoldbr1",
+      "creature": "hcbrist1",
+      "at": [
+        10150,
+        null,
+        21560
+      ],
+      "yaw": 0,
+      "levels": [
+        5,
+        5
+      ],
+      "respawn": 120
+    },
+    {
+      "id": "mobc3ote",
+      "creature": "hcrat001",
+      "at": [
+        10853.7,
+        null,
+        21203
+      ],
+      "yaw": 298,
+      "levels": [
+        4,
+        4
+      ],
+      "respawn": 120,
+      "spawnArea": "spwnxcla"
+    },
+    {
+      "id": "mobhkes7",
+      "creature": "hcrat001",
+      "at": [
+        10910.4,
+        null,
+        21140
+      ],
+      "yaw": 6,
+      "levels": [
+        4,
+        4
+      ],
+      "respawn": 120,
+      "spawnArea": "spwnxcla"
+    },
+    {
+      "id": "mobaxdug",
+      "creature": "hcrat001",
+      "at": [
+        10916.7,
+        null,
+        21184.1
+      ],
+      "yaw": 96,
+      "levels": [
+        4,
+        4
+      ],
+      "respawn": 120,
+      "spawnArea": "spwnxcla"
+    },
+    {
+      "id": "mobo6hbq",
+      "creature": "hcrat001",
+      "at": [
+        10853.7,
+        null,
+        21140
+      ],
+      "yaw": 163,
+      "levels": [
+        4,
+        4
+      ],
+      "respawn": 120,
+      "spawnArea": "spwnxcla"
+    },
+    {
+      "id": "mobz6k6s",
+      "creature": "hcrat001",
+      "at": [
+        10885.2,
+        null,
+        21215.6
+      ],
+      "yaw": 61,
+      "levels": [
+        4,
+        4
+      ],
+      "respawn": 120,
+      "spawnArea": "spwnxcla"
+    },
+    {
+      "id": "mob6gkkc",
+      "creature": "hcrat001",
+      "at": [
+        10916.7,
+        null,
+        21221.9
+      ],
+      "yaw": 12,
+      "levels": [
+        4,
+        4
+      ],
+      "respawn": 120,
+      "spawnArea": "spwnxcla"
+    },
+    {
+      "id": "mob0f6wf",
+      "creature": "hcrat001",
+      "at": [
+        10878.9,
+        null,
+        21165.2
+      ],
+      "yaw": 12,
+      "levels": [
+        4,
+        4
+      ],
+      "respawn": 120,
+      "spawnArea": "spwnxcla"
     }
   ]
 }

@@ -277,6 +277,253 @@
         "primary": 1,
         "stamina": 1
       }
+    },
+    {
+      "id": "hchide01",
+      "name": "Barley Boar Hide",
+      "icon": "animal-hide",
+      "quality": "common",
+      "itemLevel": 25,
+      "kind": "quest",
+      "description": "A bristly hide, still smelling of mud and barley.",
+      "stack": 20
+    },
+    {
+      "id": "hctusk01",
+      "name": "Old Bristle's Tusks",
+      "icon": "broken-bone",
+      "quality": "common",
+      "itemLevel": 25,
+      "kind": "quest",
+      "description": "Two yellow tusks, long as your hand and chipped from years of hedges."
+    },
+    {
+      "id": "hcappl01",
+      "name": "Hedge Apple",
+      "icon": "throwing-ball",
+      "quality": "common",
+      "itemLevel": 25,
+      "kind": "quest",
+      "description": "A small hard apple from the hedgerow, sour enough to make your eyes water.",
+      "stack": 20
+    },
+    {
+      "id": "hcwool01",
+      "name": "Scrap of Grey Wool",
+      "icon": "wool",
+      "quality": "common",
+      "itemLevel": 25,
+      "kind": "quest",
+      "description": "A torn scrap of close-woven grey wool, caught on a hawthorn."
+    },
+    {
+      "id": "hctorch1",
+      "name": "Tobin's Torch",
+      "icon": "torch",
+      "quality": "common",
+      "itemLevel": 25,
+      "kind": "quest",
+      "description": "A pitch-soaked torch from the Hallams' barn."
+    },
+    {
+      "id": "hcletr01",
+      "name": "Wenna's Letter",
+      "icon": "tied-scroll",
+      "quality": "common",
+      "itemLevel": 25,
+      "kind": "quest",
+      "description": "A letter to the reeve in Wenna Hallam's square, careful hand."
+    },
+    {
+      "id": "hcsack01",
+      "name": "Sealed Tithe Sack",
+      "icon": "powder-bag",
+      "quality": "common",
+      "itemLevel": 25,
+      "kind": "quest",
+      "description": "A sack of the Hallams' barley, its neck tied and sealed with wax."
+    },
+    {
+      "id": "hcgwa001",
+      "name": "Hallam Rope Belt",
+      "icon": "belt-buckles",
+      "quality": "uncommon",
+      "itemLevel": 20,
+      "requiredLevel": 3,
+      "slot": "waist",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "hcgwa002",
+      "name": "Hidebound Belt",
+      "icon": "belt-buckles",
+      "quality": "uncommon",
+      "itemLevel": 20,
+      "requiredLevel": 3,
+      "slot": "waist",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "hcgwa003",
+      "name": "Farrier's Belt",
+      "icon": "belt-buckles",
+      "quality": "uncommon",
+      "itemLevel": 20,
+      "requiredLevel": 3,
+      "slot": "waist",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "plate"
+    },
+    {
+      "id": "hcgwp001",
+      "name": "Hedger's Billhook",
+      "icon": "battle-axe",
+      "quality": "uncommon",
+      "itemLevel": 25,
+      "requiredLevel": 4,
+      "slot": "oneHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "axe"
+    },
+    {
+      "id": "hcgwp002",
+      "name": "Boar-spear",
+      "icon": "thrown-spear",
+      "quality": "uncommon",
+      "itemLevel": 25,
+      "requiredLevel": 4,
+      "slot": "twoHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "polearm"
+    },
+    {
+      "id": "hcgwp003",
+      "name": "Hawthorn Wand",
+      "icon": "crystal-wand",
+      "quality": "uncommon",
+      "itemLevel": 25,
+      "requiredLevel": 4,
+      "slot": "oneHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "wand",
+      "caster": true
+    },
+    {
+      "id": "hcglg001",
+      "name": "Shepherd's Leggings",
+      "icon": "trousers",
+      "quality": "uncommon",
+      "itemLevel": 25,
+      "requiredLevel": 4,
+      "slot": "legs",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "hcglg002",
+      "name": "Briar-scored Breeches",
+      "icon": "trousers",
+      "quality": "uncommon",
+      "itemLevel": 25,
+      "requiredLevel": 4,
+      "slot": "legs",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "hcglg003",
+      "name": "Old Ruin Legguards",
+      "icon": "leg-armor",
+      "quality": "uncommon",
+      "itemLevel": 25,
+      "requiredLevel": 4,
+      "slot": "legs",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "chain"
+    },
+    {
+      "id": "hcgsh001",
+      "name": "Reeve's Messenger Mantle",
+      "icon": "shoulder-armor",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "shoulders",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "hcgsh002",
+      "name": "Tithe-road Shoulders",
+      "icon": "shoulder-armor",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "shoulders",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "hcgsh003",
+      "name": "Brightford Pauldrons",
+      "icon": "shoulder-armor",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "shoulders",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "plate"
+    },
+    {
+      "id": "hcgbk001",
+      "name": "Hedge-grey Cloak",
+      "icon": "cape",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "back",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      }
     }
   ]
 }

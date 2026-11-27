@@ -10626,6 +10626,24 @@
    "yaw": 4.5694,
    "scale": 0.6,
    "road": "roadthfn"
+  },
+  {
+   "id": "objw4dmt",
+   "type": "built:bmark005",
+   "at": [
+    10886,
+    21188
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "label": "The Hallams' steelyard",
+   "footprint": {
+    "rect": [
+     4.1,
+     1.2
+    ]
+   },
+   "height": 3.18
   }
  ],
  "slabs": [
