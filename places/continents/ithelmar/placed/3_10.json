@@ -5405,23 +5405,6 @@
    "height": 0.304
   },
   {
-   "id": "objp1axv",
-   "type": "built:bfort002",
-   "at": [
-    6760,
-    21964
-   ],
-   "yaw": 0.2618,
-   "scale": 1.4,
-   "footprint": {
-    "rect": [
-     3.64,
-     3.64
-    ]
-   },
-   "height": 8.4
-  },
-  {
    "id": "objdzrtw",
    "type": "built:bruin014",
    "at": [
@@ -5716,6 +5699,23 @@
     "circle": 1.78
    },
    "height": 4.25
+  },
+  {
+   "id": "objbic1y",
+   "type": "built:bfort015",
+   "at": [
+    6760,
+    21964
+   ],
+   "yaw": 0.2618,
+   "scale": 1.4,
+   "footprint": {
+    "rect": [
+     3.64,
+     3.64
+    ]
+   },
+   "height": 6.818
   }
  ],
  "slabs": [
