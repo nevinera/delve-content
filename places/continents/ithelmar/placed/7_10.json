@@ -3036,25 +3036,6 @@
    "height": 0.4
   },
   {
-   "id": "objyiw1y",
-   "type": "built:bruin002",
-   "at": [
-    14745,
-    21793
-   ],
-   "y": 68.7,
-   "yaw": 0,
-   "scale": 1,
-   "template": "bfur0050",
-   "footprint": {
-    "rect": [
-     1.8,
-     0.8
-    ]
-   },
-   "height": 3.6
-  },
-  {
    "id": "obje10jn",
    "type": "built:b04bn5my",
    "at": [
@@ -6424,6 +6405,28 @@
     ]
    },
    "height": 9.11
+  },
+  {
+   "id": "objyiw1y",
+   "type": "built:bruin002",
+   "at": [
+    14745,
+    21793
+   ],
+   "y": 68.7,
+   "yaw": 0,
+   "scale": 1,
+   "text": "# Brother Ansel\n\nKeeper of dreams.\n\n*Who walked into the water.*",
+   "look": "stone",
+   "label": "Brother Ansel",
+   "template": "bfur0050",
+   "footprint": {
+    "rect": [
+     1.8,
+     0.8
+    ]
+   },
+   "height": 3.6
   }
  ],
  "slabs": [

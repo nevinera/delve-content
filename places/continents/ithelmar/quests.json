@@ -11,7 +11,7 @@
       "turnIn": "nhbranni",
       "next": "nhfoxes1",
       "text": {
-        "offer": "There you are, love. You came to in the dormitory, same as the rest of them, and nobody can tell you why, least of all me. The levy took our lay brothers for the gap, so I'm afraid you're our lay brother now. Keeper Brannick's out on the road. He'll want to see if you can hold a stick.",
+        "offer": "There you are, love. You came to in the dormitory, same as the rest of them, and nobody can tell you why, least of all me. The levy took our lay brothers for the war in the gap, so I'm afraid you're our lay brother now. Keeper Brannick's out on the road. He'll want to see if you can hold a stick.",
         "summary": "Find Keeper Brannick on the road outside the Abbey's front door.",
         "done": "So you're the new one. On your feet, sleeper. Let's see what you're good for."
       },
@@ -196,9 +196,9 @@
         "nhfoxes1"
       ],
       "text": {
-        "offer": "You've seen them? Over the falls pool, drifting... More every year, I think. Or am I counting wrong? Bring me some of their light. Six glimmers. They give them up when they come apart. I'd like to know what they're made of before...",
+        "offer": "Aubin. I keep the Wakers' dreams, and write them down. You've seen the wisps? Over the falls pool, drifting... More every year, I think. Or am I counting wrong? Bring me some of their light. Six glimmers. They give them up when they come apart. I'd like to know what they're made of before...",
         "summary": "Bring 6 wisp-glimmers from the dream-wisps over the falls pool.",
-        "waiting": "Still cold, are they? The glimmers?",
+        "waiting": "Any glimmers yet? They'll be cold. They always are.",
         "done": "Cold. No weight at all. Like something remembered rather than... Never mind. Thank you."
       },
       "objectives": [
@@ -237,7 +237,8 @@
       "level": 2,
       "giver": "nhnell01",
       "after": [
-        "nhrushes"
+        "nhrushes",
+        "nhwisps1"
       ],
       "text": {
         "offer": "Aubin wants a sleeping draught for you, and that means dreamroot. Pale thing, grows in the falls pool's shallows and nowhere else. I'd go myself, but those wisps make my skin crawl. Five roots. Pull them whole.",
@@ -352,7 +353,7 @@
         "nhwisps1"
       ],
       "text": {
-        "offer": "Before you sleep by the water... Have you heard of Brother Ansel? No. Well. The Abbess tells it better than I would. Ask her. She'll be at his stone, I expect, in the chapel garden. She usually is, about now.",
+        "offer": "Soon I'll ask you to sleep by the water, for your first dream. Before I do... Have you heard of Brother Ansel? No. Well. The Abbess tells it better than I would. Ask her, at the nave door. His stone's in the graveyard behind the nave, the one with the cross.",
         "summary": "Ask Abbess Corra about Brother Ansel.",
         "done": "Ansel. He kept the dreams before Aubin, thirty years back. One night he walked into the falls pool in his sleep and didn't come out. We never found him, love. So when Aubin puts you down by that water, you wake up when he says. Promise me."
       },
@@ -375,7 +376,7 @@
         }
       ],
       "text": {
-        "offer": "Every Waker has a first dream. I keep a book of them... Here. Nell's draught. Drink it on the flat stone at the falls pool's edge, and sleep. I'll be close. Then come and tell me what you saw. Will you?",
+        "offer": "Every Waker has a first dream. I keep a book of them... Here. Nell's draught. Drink it on the flat stone at the falls pool's edge, and sleep. Then come and tell me what you saw. Will you?",
         "summary": "Drink Nell's draught on the flat stone at the falls pool's edge, then tell Aubin what you dreamed.",
         "waiting": "The flat stone, at the water's edge. Did you sleep?",
         "done": "You've gone pale. Water, was it? And falling... Yes. They all dream that now, every one this year. Something listening, you say? That's new. I'll write it down."
@@ -474,7 +475,7 @@
         "nhdroot1"
       ],
       "text": {
-        "offer": "Forgive me. Pell Duvane, for the Council. I'm to count the Abbey's stores for the tithe, and the Council's rule, article nine, is a tenth of what is there, not a tenth of what's guessed. My knee won't take the stores today. Would you count the barrels, the crates and the big crate for me? I'd like the count true.",
+        "offer": "Forgive me. Pell Duvane, for the Council, in Haven. I'm to count the Abbey's stores for the tithe, and the Council's rule, article nine, is a tenth of what is there, not a tenth of what's guessed. The stores are up the tower, and my knee won't take the stairs today. Would you count the barrels, the crates and the big crate for me? I'd like the count true.",
         "summary": "Count the barrel stack, the crate stack and the large crate in the Abbey's stores.",
         "waiting": "No rush. Well. Some rush. The Council has a calendar.",
         "done": "Thank you. That matches what the keepers told me, which is more than I can say of some places. A true count. Article nine is satisfied."
@@ -493,7 +494,7 @@
         {
           "id": "big",
           "use": "objh1qre",
-          "text": "Large crate counted"
+          "text": "Large crate counted, up the tower"
         }
       ]
     },
@@ -583,7 +584,7 @@
         "nhfoxes1"
       ],
       "text": {
-        "offer": "The chapel's candles. Kobold sneaks, from burrows in the cliff's north end. They creep in at night and take them. Beeswax, bought dear, and the assessor has every one on his list. Go up there. Kill sneaks. Bring back six candles.",
+        "offer": "The chapel's candles. Kobold sneaks, from burrows in the cliff's north end. They creep in at night and take them. Beeswax, bought dear, and the Council's assessor has every one on his list. Go up there. Kill sneaks. Bring back six candles.",
         "summary": "Kill kobold sneaks at their burrows in the cliff's north end and bring back 6 stolen candles.",
         "waiting": "Watch for them. They hide till they're on you.",
         "done": "Chewed, some of them. Still beeswax. The assessor can count them twice for all I care."
@@ -611,7 +612,7 @@
       "level": 4,
       "giver": "nhbranni",
       "after": [
-        "nhfoxes1"
+        "nhcandle"
       ],
       "text": {
         "offer": "The sneaks answer to a fat one. Tallowtooth, they call him. Sits on the candles in the deepest burrow with a glass lantern. While he's got a hoard to grow, they'll keep stealing for it. Go in. Kill him. Bring me the lantern.",
@@ -669,7 +670,7 @@
         }
       ],
       "text": {
-        "offer": "Found this on one of the sneaks. Glows on its own. Kobolds don't make glass like that. Kobolds don't make glass. Take it to Aubin. He knows old things.",
+        "offer": "This was in with the candles you brought back. Glows on its own. Kobolds don't make glass like that. Kobolds don't make glass. Take it to Aubin. He knows old things.",
         "summary": "Take the glowing shard to Keeper Aubin.",
         "waiting": "Aubin's down by the dock. Usually.",
         "done": "Oh. Oh, this is old. Elves' glass, from the Age of Light... Kobolds didn't make it. They found it. Somewhere deep in the cliff, carried out... Where are they digging?"
