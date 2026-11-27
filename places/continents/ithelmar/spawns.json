@@ -26002,11 +26002,11 @@
       "name": "Varn Ostrey",
       "title": "Tithe Collector",
       "at": [
-        8438,
-        null,
-        23830
+        8289,
+        9,
+        23849
       ],
-      "yaw": 270,
+      "yaw": 180,
       "levels": [
         9,
         9
@@ -27412,6 +27412,57 @@
       ],
       "respawn": 120,
       "spawnArea": "spwnxcla"
+    },
+    {
+      "id": "bffarma1",
+      "npc": "nhfarmer",
+      "name": "Agnes Pellow",
+      "title": "Farmer",
+      "at": [
+        8785,
+        null,
+        23382
+      ],
+      "yaw": 180,
+      "levels": [
+        5,
+        5
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "bffarmb1",
+      "npc": "nhfarmer",
+      "name": "Hob Fairley",
+      "title": "Farmer",
+      "at": [
+        9195,
+        null,
+        23282
+      ],
+      "yaw": 180,
+      "levels": [
+        5,
+        5
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "bffarmc1",
+      "npc": "nhfarmer",
+      "name": "Tamsin Ware",
+      "title": "Farmer",
+      "at": [
+        9615,
+        null,
+        23192
+      ],
+      "yaw": 180,
+      "levels": [
+        6,
+        6
+      ],
+      "respawn": 300
     }
   ]
 }

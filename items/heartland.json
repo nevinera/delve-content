@@ -524,6 +524,385 @@
         "primary": 1,
         "stamina": 1
       }
+    },
+    {
+      "id": "bfweigh1",
+      "name": "The Council's Standard",
+      "icon": "weight",
+      "quality": "common",
+      "itemLevel": 30,
+      "kind": "quest",
+      "description": "A brass weight stamped with the Council's mark: the true measure of a tithe sack."
+    },
+    {
+      "id": "bfledgr1",
+      "name": "Varn's Ledger",
+      "icon": "open-book",
+      "quality": "common",
+      "itemLevel": 30,
+      "kind": "quest",
+      "description": "The tithe ledger, every farm's sacks in Varn Ostrey's small, neat figures."
+    },
+    {
+      "id": "bforder1",
+      "name": "The Reeve's Order",
+      "icon": "scroll-unfurled",
+      "quality": "common",
+      "itemLevel": 30,
+      "kind": "quest",
+      "description": "An order in Reeve Marchbank's hand, sealed with the Council's mark."
+    },
+    {
+      "id": "bfstick1",
+      "name": "Notched Stick",
+      "icon": "wood-pile",
+      "quality": "common",
+      "itemLevel": 30,
+      "kind": "quest",
+      "description": "A hazel stick cut with rows of notches, in groups no one in Brightford can read.",
+      "stack": 20
+    },
+    {
+      "id": "bfcoat01",
+      "name": "Robber's Grey Coat",
+      "icon": "cloak-dagger",
+      "quality": "common",
+      "itemLevel": 30,
+      "kind": "quest",
+      "description": "A grey wool coat, cut long, taken off a robber on the north road."
+    },
+    {
+      "id": "bfmesg01",
+      "name": "Jory's Message",
+      "icon": "tied-scroll",
+      "quality": "common",
+      "itemLevel": 30,
+      "kind": "quest",
+      "description": "A note folded small, in Jory Venn's cramped hand, for Captain Hale's eyes only."
+    },
+    {
+      "id": "bfeel001",
+      "name": "Ford Eel",
+      "icon": "eel",
+      "quality": "common",
+      "itemLevel": 30,
+      "kind": "quest",
+      "description": "A long, slippery eel from the ford, still twisting.",
+      "stack": 20
+    },
+    {
+      "id": "bfpelt01",
+      "name": "Wolf Pelt",
+      "icon": "animal-hide",
+      "quality": "common",
+      "itemLevel": 30,
+      "kind": "quest",
+      "description": "A grey wolf pelt from the south bank woods.",
+      "stack": 20
+    },
+    {
+      "id": "bfplaq01",
+      "name": "The Old Lord's Plaque",
+      "icon": "bordered-shield",
+      "quality": "common",
+      "itemLevel": 30,
+      "kind": "quest",
+      "description": "A bronze plaque, green at the edges: \"Raised by the people of Tennelford, to the Tennelys, who kept this ford.\""
+    },
+    {
+      "id": "bfiron01",
+      "name": "Old Iron",
+      "icon": "anvil-impact",
+      "quality": "common",
+      "itemLevel": 30,
+      "kind": "quest",
+      "description": "Tyres, nails and hinges off a wrecked cart.",
+      "stack": 20
+    },
+    {
+      "id": "bfbell01",
+      "name": "The Hallams' Shrine Bell",
+      "icon": "cooking-pot",
+      "quality": "common",
+      "itemLevel": 30,
+      "kind": "quest",
+      "description": "A small bronze bell, worn bright where the rope rubbed it."
+    },
+    {
+      "id": "bfshel01",
+      "name": "Crab Shell",
+      "icon": "crab-claw",
+      "quality": "common",
+      "itemLevel": 30,
+      "kind": "quest",
+      "description": "An empty crab shell, bleached by the sun.",
+      "stack": 20
+    },
+    {
+      "id": "bfgha001",
+      "name": "Gleaner's Gloves",
+      "icon": "gloves",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "hands",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "bfgha002",
+      "name": "Furrow-worn Gloves",
+      "icon": "gloves",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "hands",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "bfgha003",
+      "name": "Ford Gauntlets",
+      "icon": "gauntlet",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "hands",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "chain"
+    },
+    {
+      "id": "bfgwp001",
+      "name": "Militia Dirk",
+      "icon": "plain-dagger",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "oneHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "dagger"
+    },
+    {
+      "id": "bfgwp002",
+      "name": "Lock-up Cudgel",
+      "icon": "flanged-mace",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "oneHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "mace"
+    },
+    {
+      "id": "bfgwp003",
+      "name": "Ash Quarterstaff",
+      "icon": "wizard-staff",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "twoHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "staff",
+      "caster": true
+    },
+    {
+      "id": "bfgch001",
+      "name": "Undyed Robe",
+      "icon": "robe",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "chest",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "bfgch002",
+      "name": "Greycoat's Jerkin",
+      "icon": "leather-armor",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "chest",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "bfgch003",
+      "name": "Old Guard Breastplate",
+      "icon": "breastplate",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "chest",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "plate"
+    },
+    {
+      "id": "bfgft001",
+      "name": "Fordwalker Shoes",
+      "icon": "boots",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "feet",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "bfgft002",
+      "name": "Wolf-lined Boots",
+      "icon": "boots",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "feet",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "bfgft003",
+      "name": "Riverstone Sabatons",
+      "icon": "boots",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "feet",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "chain"
+    },
+    {
+      "id": "bfgwr001",
+      "name": "Hettie's Cuffs",
+      "icon": "bracer",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "wrists",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "bfgwr002",
+      "name": "Plinth-stone Bracers",
+      "icon": "bracer",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "wrists",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "bfgwr003",
+      "name": "Bronze-clasp Bracers",
+      "icon": "bracer",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "wrists",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "plate"
+    },
+    {
+      "id": "bfghe001",
+      "name": "Belltower Hood",
+      "icon": "hood",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "head",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "bfghe002",
+      "name": "Hedgerow Cap",
+      "icon": "hood",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "head",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "bfghe003",
+      "name": "Scrap-iron Helm",
+      "icon": "visored-helm",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "head",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "plate"
+    },
+    {
+      "id": "bfgfi001",
+      "name": "Reeve's Seal Ring",
+      "icon": "fire-ring",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "finger",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      }
     }
   ]
 }

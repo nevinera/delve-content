@@ -1333,6 +1333,719 @@
           }
         ]
       }
+    },
+    {
+      "id": "bfstand1",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "The True Measure",
+      "level": 5,
+      "giver": "nhodile1",
+      "text": {
+        "offer": "Farmers up the road say the tithe collector's scales weigh their sacks light. Farmers have said so since there were scales. But I will not accuse a man on a farmer's word, nor dismiss one on a collector's. This is the Council's standard, the true weight a sack must match. Varn Ostrey's scales stand in the tithe barn, east of the inn. He takes his supper at Moll's at this hour. Weigh the standard on his scales, and tell me what they read.",
+        "summary": "Weigh the Council's standard on Varn's scales in the tithe barn, east of the inn, and tell the reeve what they read.",
+        "waiting": "The standard, on his scales. Then come back and tell me plainly.",
+        "done": "A tenth light. A tenth, exactly. That is not wear, or damp, or a bent beam. Someone set them so."
+      },
+      "given": [
+        {
+          "item": "heartland/bfweigh1"
+        }
+      ],
+      "objectives": [
+        {
+          "id": "weigh",
+          "act": [
+            {
+              "item": "heartland/bfweigh1",
+              "object": "objb3ap2",
+              "time": 3
+            }
+          ],
+          "text": "The standard weighed on Varn's scales",
+          "doneText": "You set the brass weight in the pan. The beam swings and settles, and the mark reads a tenth short of what the weight is stamped. You try it twice more. A tenth short, each time."
+        }
+      ]
+    },
+    {
+      "id": "bfsouth1",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "Farms South of the Road",
+      "level": 6,
+      "giver": "nhodile1",
+      "after": [
+        "bfstand1"
+      ],
+      "text": {
+        "offer": "Light scales on one farm is a quarrel. Light scales on every farm is a crime, and one I can take to the Council. There are three farms between the road and the river, east of town: the Pellows, the Fairleys and Tamsin Ware. Ask each of them what Varn's scales made of their sacks.",
+        "summary": "Ask the 3 farms between the road and the river, east of Brightford, what Varn's scales made of their sacks.",
+        "waiting": "Three farms, east along the road. Ask, and listen. Don't tell them what you found.",
+        "done": "A tenth, from every one of them. Then it is not a mistake, and it was never only the Hallams."
+      },
+      "objectives": [
+        {
+          "id": "farma",
+          "talk": "bffarma1",
+          "text": "Ask Agnes Pellow",
+          "doneText": "Agnes Pellow wipes her hands on her apron. \"Short? Every year since the Council came. Varn says a tenth for the sacks' weight, and a tenth it is. Twelve sacks, counted as eleven.\""
+        },
+        {
+          "id": "farmb",
+          "talk": "bffarmb1",
+          "text": "Ask Hob Fairley",
+          "doneText": "Hob Fairley spits. \"I told the reeve last spring. Twenty sacks in, eighteen on his ledger. Said I'd packed them loose. I've packed sacks forty years.\""
+        },
+        {
+          "id": "farmc",
+          "talk": "bffarmc1",
+          "text": "Ask Tamsin Ware",
+          "doneText": "Tamsin Ware frowns at her fingers. \"Fifteen I filled, and paid on thirteen and a half. I thought I'd counted wrong. Have I not?\""
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/bfgha001"
+          },
+          {
+            "item": "heartland/bfgha002"
+          },
+          {
+            "item": "heartland/bfgha003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bfledger",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "Varn's Ledger",
+      "level": 7,
+      "giver": "nhodile1",
+      "after": [
+        "bfsouth1"
+      ],
+      "text": {
+        "offer": "A tenth from every farm in the heartland is a great deal of grain. It went somewhere. Varn writes down everything, and he keeps his ledger in his desk in the tithe barn. I could ask him for it, and give him a night to make it say whatever he likes. I would rather you fetched it while he's at Moll's.",
+        "summary": "Take Varn's ledger from his desk in the tithe barn, while he's at the inn.",
+        "waiting": "His desk, at the back of the tithe barn. Quickly.",
+        "done": "Here. Every sack, and the extra tenth in its own column. All of it loaded onto the grain wagons to Tennely Hall, \"by order.\" By whose order, he doesn't say. Varn never asks whose."
+      },
+      "objectives": [
+        {
+          "id": "ledger",
+          "bring": "heartland/bfledgr1",
+          "count": 1,
+          "drops": [
+            {
+              "object": "objjp33w",
+              "chance": 1,
+              "time": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bfvarn01",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "Moved, Not Punished",
+      "level": 7,
+      "giver": "nhodile1",
+      "turnIn": "nhvarn01",
+      "after": [
+        "bfledger"
+      ],
+      "given": [
+        {
+          "item": "heartland/bforder1"
+        }
+      ],
+      "text": {
+        "offer": "I could put Varn in the lock-up. And whoever set his scales would sleep easier for it, because a clerk in a cell is a clerk who's been made to say what he's told. No. He's to keep the Abbey's books, with Assessor Duvane, well away from here. Take him my order. He's at Moll's.",
+        "summary": "Take the reeve's order to Varn Ostrey at Moll's inn: he's to keep the Abbey's books with Assessor Duvane.",
+        "waiting": "He'll be at Moll's, at the corner table. Be kind to him. He'll be frightened.",
+        "done": "The Abbey? I'm... not to be... Oh. Oh, thank you. I didn't, I never, I only set them as I was told. The order came with the scales. I never asked. One doesn't ask. I'll go tonight."
+      },
+      "objectives": [
+        {
+          "id": "order",
+          "bring": "heartland/bforder1",
+          "count": 1
+        }
+      ],
+      "rewards": {
+        "items": [
+          {
+            "item": "heartland/bfgfi001"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bfrobber",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "Grey Coats on the North Road",
+      "level": 6,
+      "giver": "nhpike01",
+      "text": {
+        "offer": "Robbers on the north road. Grey coats. Greycoats, the old lord's men, gone bandit since the revolution. They've stopped two carts this month, and if the grain wagons stop, the town eats bark. Take the left fork north of town. Their camp's in the trees west of the road, a good walk up. Half my lads are at the gap. You're not. Clear them out, and bring me those notched sticks they all carry. Five. I want to know what they're counting.",
+        "summary": "Kill the grey-coated robbers at their camp west of the north road, the left fork north of town,, and bring back 5 of their notched sticks.",
+        "waiting": "North road, camp in the trees. Five sticks.",
+        "done": "Notches. Rows of them. Carts, maybe, or days. Can't read it. Doesn't matter. Fewer robbers is fewer robbers."
+      },
+      "objectives": [
+        {
+          "id": "sticks",
+          "bring": "heartland/bfstick1",
+          "count": 5,
+          "drops": [
+            {
+              "creature": "stock/bandit-raider",
+              "area": "nhca000a",
+              "chance": 0.6
+            },
+            {
+              "creature": "stock/bandit-archer",
+              "area": "nhca000a",
+              "chance": 0.6
+            },
+            {
+              "creature": "stock/bandit-thief",
+              "area": "nhca000a",
+              "chance": 0.6
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/bfgwp001"
+          },
+          {
+            "item": "heartland/bfgwp002"
+          },
+          {
+            "item": "heartland/bfgwp003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bfjory01",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "The Man in the Lock-up",
+      "level": 7,
+      "giver": "nhberti1",
+      "turnIn": "nhjory01",
+      "after": [
+        "bfrobber"
+      ],
+      "text": {
+        "offer": "You fought the robbers on the north road. Then you have seen their coats. I wore the grey for thirty years, for the old lord. Those are not Greycoats. And there is a man in the lock-up, Jory Venn, taken for a robbery he did not do, who can prove it. Bring him one of their coats. He will show you.",
+        "summary": "Take a robber's grey coat from the camp on the north road to Jory Venn in the lock-up, by the militia post.",
+        "waiting": "A coat from one of them. Jory is in the lock-up, by the militia post, west of the road.",
+        "done": "Give it here. Ha. Feel that? Thin. And the grey's wrong, see, too blue. Tennely grey is dyed with alder, it goes brown in the rain. And the cut: ours button left over right. Somebody made this to look like us, from a description. Someone wants the Greycoats blamed."
+      },
+      "objectives": [
+        {
+          "id": "coat",
+          "bring": "heartland/bfcoat01",
+          "count": 1,
+          "drops": [
+            {
+              "creature": "stock/bandit-raider",
+              "area": "nhca000a",
+              "chance": 0.35
+            },
+            {
+              "creature": "stock/bandit-archer",
+              "area": "nhca000a",
+              "chance": 0.35
+            },
+            {
+              "creature": "stock/bandit-thief",
+              "area": "nhca000a",
+              "chance": 0.35
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/bfgch001"
+          },
+          {
+            "item": "heartland/bfgch002"
+          },
+          {
+            "item": "heartland/bfgch003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bfjory02",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "Jory's Message",
+      "level": 8,
+      "giver": "nhjory01",
+      "turnIn": "nhhale01",
+      "after": [
+        "bfjory01"
+      ],
+      "given": [
+        {
+          "item": "heartland/bfmesg01"
+        }
+      ],
+      "text": {
+        "offer": "Those robbers aren't after carts. They're after the grain wagons to Tennely Hall, and they want it pinned on us. The granary's captain, Wystan Hale, wore the grey once. He'll listen, if it comes from me. Take him this. Up the road to Hallam's cross, then north on the grain road, the way the wagons go. And don't read it. I'd know.",
+        "summary": "Take Jory's message to Captain Wystan Hale at Tennely Hall, north of Hallam's cross up the grain road.",
+        "waiting": "Captain Hale, at Tennely Hall. Nobody else.",
+        "done": "Jory Venn. In a cell, and still sending me orders. Hm. False coats, and they want my wagons. Then they'll come here before long. I'm glad you brought this. I'll need you."
+      },
+      "objectives": [
+        {
+          "id": "message",
+          "bring": "heartland/bfmesg01",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "bfguard1",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "A Guard for the Granary",
+      "level": 8,
+      "giver": "nhpike01",
+      "after": [
+        "bfrobber"
+      ],
+      "turnIn": "nhhale01",
+      "text": {
+        "offer": "The granary at Tennely Hall's short of guards, with robbers about. Can't spare mine. You'll do. Up the road to Hallam's cross, then north on the grain road. Report to Captain Hale. Old Greycoat himself, mind. But he keeps the grain safe.",
+        "summary": "Go to Tennely Hall, north of Hallam's cross up the grain road, and report to Captain Wystan Hale.",
+        "waiting": "Hallam's cross, then the grain road north. Captain Hale.",
+        "done": "Pike sent you? Then she's worried, and she's not a worrier. Good. Stay. There's work."
+      },
+      "objectives": [
+        {
+          "id": "hale",
+          "talk": "nhhale01",
+          "text": "Report to Captain Hale"
+        }
+      ]
+    },
+    {
+      "id": "bfeels01",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "Eels at the Ford",
+      "level": 5,
+      "giver": "nhmoll01",
+      "text": {
+        "offer": "Sweetheart, you look hungry, and I've nothing to feed you! My eel pie's the best this side of the gap, and my eel man went with the levy. The ford's full of eels, just east of town where the road crosses. Six, love, and you'll eat like a lord. Well. Like a reeve.",
+        "summary": "Bring Moll 6 eels from the ford, just east of town.",
+        "waiting": "Six eels, my duck. They bite, mind.",
+        "done": "Look at them! Pie tonight, and you'll have the first slice. Don't tell the sergeant, she thinks she gets the first slice."
+      },
+      "objectives": [
+        {
+          "id": "eels",
+          "bring": "heartland/bfeel001",
+          "count": 6,
+          "drops": [
+            {
+              "creature": "stock/eel",
+              "area": "nhca0008",
+              "chance": 0.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bfwolves",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "South Bank Wolves",
+      "level": 6,
+      "giver": "nhpike01",
+      "text": {
+        "offer": "Wolves in the woods south of town. They go for travellers coming over the crags. I've no lads for it. I pay by the pelt. Six.",
+        "summary": "Bring Sergeant Pike 6 wolf pelts from the woods south of town.",
+        "waiting": "Six pelts. South woods.",
+        "done": "Six. Paid. Road's safer. Next."
+      },
+      "objectives": [
+        {
+          "id": "pelts",
+          "bring": "heartland/bfpelt01",
+          "count": 6,
+          "drops": [
+            {
+              "creature": "stock/wolf",
+              "area": "nhca0009",
+              "chance": 0.7
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/bfgft001"
+          },
+          {
+            "item": "heartland/bfgft002"
+          },
+          {
+            "item": "heartland/bfgft003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bfplaque",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "The Old Lord's Plaque",
+      "level": 6,
+      "giver": "nhhetti1",
+      "text": {
+        "offer": "\"Raised by the people of Tennelford, to the Tennelys, who kept this ford.\" That's what it says. I know it by heart. I never loved them, mind. But this town was Tennelford for a hundred years, and Ludo Crake means to sell that plaque for the weight of its bronze. Prise it off the plinth before he does. The statue's there in the square, where they pulled it down.",
+        "summary": "Prise the plaque off the old lord's toppled statue in the square, before Ludo Crake sells it.",
+        "waiting": "Off the plinth, before Ludo gets his crowbar. He's been eyeing it all week.",
+        "done": "There. \"To the Tennelys, who kept this ford.\" They did keep it, whatever else they did. It'll go in the reeve's hall, if Odile will have it. And she will, if I ask her often enough."
+      },
+      "objectives": [
+        {
+          "id": "plaque",
+          "bring": "heartland/bfplaq01",
+          "count": 1,
+          "drops": [
+            {
+              "object": "objrgpch",
+              "chance": 1,
+              "time": 4
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/bfgwr001"
+          },
+          {
+            "item": "heartland/bfgwr002"
+          },
+          {
+            "item": "heartland/bfgwr003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bfbell01",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "Iron for a Bell",
+      "level": 6,
+      "giver": "nhcrake1",
+      "text": {
+        "offer": "See this? A shrine bell, good bronze. The militia sold it me for the war in the gap. Thing is, I sell by weight, and nobody'll buy a bell everybody knows came off the Hallams' shrine. So: I'll trade it for its weight in iron. The robbers have left wrecked carts all down the north road. Tyres, hinges, nails. Six lots. Bargain of the year.",
+        "summary": "Gather 6 lots of old iron from the wrecked carts along the north road, for Ludo's trade.",
+        "waiting": "Six lots of iron, off the carts on the north road. Mind the robbers. Dead customers don't pay.",
+        "done": "Lovely. Good, honest iron that nobody's going to recognise. The bell's yours. Pleasure doing business."
+      },
+      "objectives": [
+        {
+          "id": "iron",
+          "bring": "heartland/bfiron01",
+          "count": 6,
+          "drops": [
+            {
+              "pool": "carts",
+              "chance": 1,
+              "time": 2
+            }
+          ]
+        }
+      ],
+      "objectPools": [
+        {
+          "id": "carts",
+          "type": "built:broad009",
+          "show": 6,
+          "spots": [
+            {
+              "at": [
+                8389,
+                23244
+              ],
+              "yaw": 0,
+              "scale": 1
+            },
+            {
+              "at": [
+                8253,
+                23163
+              ],
+              "yaw": 1.3,
+              "scale": 1
+            },
+            {
+              "at": [
+                8190,
+                23019
+              ],
+              "yaw": 2.6,
+              "scale": 1
+            },
+            {
+              "at": [
+                8055,
+                22938
+              ],
+              "yaw": 3.9000000000000004,
+              "scale": 1
+            },
+            {
+              "at": [
+                7992,
+                22794
+              ],
+              "yaw": 5.2,
+              "scale": 1
+            },
+            {
+              "at": [
+                7856,
+                22714
+              ],
+              "yaw": 0.21999999999999975,
+              "scale": 1
+            },
+            {
+              "at": [
+                7793,
+                22569
+              ],
+              "yaw": 1.5200000000000005,
+              "scale": 1
+            },
+            {
+              "at": [
+                7694,
+                22378
+              ],
+              "yaw": 2.8199999999999994,
+              "scale": 1
+            },
+            {
+              "at": [
+                7611,
+                22244
+              ],
+              "yaw": 4.12,
+              "scale": 1
+            },
+            {
+              "at": [
+                7621,
+                22087
+              ],
+              "yaw": 5.420000000000001,
+              "scale": 1
+            },
+            {
+              "at": [
+                7538,
+                21953
+              ],
+              "yaw": 0.4399999999999995,
+              "scale": 1
+            },
+            {
+              "at": [
+                7549,
+                21796
+              ],
+              "yaw": 1.7400000000000002,
+              "scale": 1
+            },
+            {
+              "at": [
+                7466,
+                21662
+              ],
+              "yaw": 3.040000000000001,
+              "scale": 1
+            },
+            {
+              "at": [
+                7476,
+                21505
+              ],
+              "yaw": 4.340000000000002,
+              "scale": 1
+            },
+            {
+              "at": [
+                7393,
+                21371
+              ],
+              "yaw": 5.639999999999999,
+              "scale": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bfbell02",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "The Shrine's Bell",
+      "level": 6,
+      "giver": "nhcrake1",
+      "turnIn": "nhtobin1",
+      "after": [
+        "bfbell01"
+      ],
+      "given": [
+        {
+          "item": "heartland/bfbell01"
+        }
+      ],
+      "text": {
+        "offer": "Here's your bell. Glad to see the back of it, honestly. Gives me the eye. Take it back to the Hallams, at the cross up the road north-east. The old man, Tobin. He'll know it.",
+        "summary": "Take the shrine bell back to Grandsire Tobin Hallam at Hallam's cross, north-east up the Brightford road.",
+        "waiting": "Hallam's cross, up the road. The old man.",
+        "done": "Well, I never. That's our bell. I rang it for the old lord's wedding, you know, before you were born, before your mother was born. Rang it so hard the rope broke. Back on the shrine it goes, and I'll ring it gently this time."
+      },
+      "objectives": [
+        {
+          "id": "bell",
+          "bring": "heartland/bfbell01",
+          "count": 1
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/bfghe001"
+          },
+          {
+            "item": "heartland/bfghe002"
+          },
+          {
+            "item": "heartland/bfghe003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bfcamp01",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "Hands for the Camp",
+      "level": 6,
+      "giver": "nhmoll01",
+      "turnIn": "nhtarra1",
+      "text": {
+        "offer": "Petal, the loggers drinking in my corner say Cliffside camp needs hands. The Council's timber quota's due, and somebody's shooting arrows at them off the cliff top. They're a good lot, loggers. Drink like fish. Go east past Hallam's cross to the camp under the cliffs, and ask for Gus Tarrant, the foreman.",
+        "summary": "Go east past Hallam's cross to Cliffside camp, under the cliffs, and talk to Foreman Gus Tarrant.",
+        "waiting": "East past the cross, under the cliffs. Gus Tarrant, big fellow, shouts a lot.",
+        "done": "Moll sent you? Bless her. Yes, we need hands. Badly."
+      },
+      "objectives": [
+        {
+          "id": "gus",
+          "talk": "nhtarra1",
+          "text": "Talk to Foreman Gus Tarrant"
+        }
+      ]
+    },
+    {
+      "id": "bfshell1",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "Shells for the Kiln",
+      "level": 6,
+      "giver": "nhhetti1",
+      "text": {
+        "offer": "I burn shells for lime, to whitewash the plaques in the graveyard. Every name in it is going grey. The lad who gathered my shells went with the levy, and since then the crabs have come right up the coast meadows. West of town, along the river road to the sea. Eight shells, please. Whole ones.",
+        "summary": "Bring Hettie 8 crab shells from the crabs on the coast meadows, west of town along the river road.",
+        "waiting": "Eight shells. Whole, mind, not cracked.",
+        "done": "Lovely. The kiln goes on tomorrow. A town that lets its names go grey forgets them."
+      },
+      "objectives": [
+        {
+          "id": "shells",
+          "bring": "heartland/bfshel01",
+          "count": 8,
+          "drops": [
+            {
+              "creature": "stock/sand-crab",
+              "area": "nhca000k",
+              "chance": 0.7
+            },
+            {
+              "creature": "stock/sand-crab",
+              "area": "nhca001l",
+              "chance": 0.7
+            },
+            {
+              "creature": "stock/sand-crab",
+              "area": "nhca001x",
+              "chance": 0.7
+            },
+            {
+              "creature": "stock/sand-crab",
+              "area": "nhca0023",
+              "chance": 0.7
+            },
+            {
+              "creature": "stock/sand-crab",
+              "area": "nhca002s",
+              "chance": 0.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bftoads1",
+      "zone": "3e5710y9",
+      "hub": "e5uogbb6",
+      "name": "Toads in the Cress",
+      "level": 6,
+      "giver": "nhberti1",
+      "text": {
+        "offer": "I cut cress along the river, east of town, in the meadows past the farms. I sell it at the ford. An old soldier must do something. But toads have taken the beds. Great fat ones, big as dogs. Kill eight of them, and an old man will be in your debt.",
+        "summary": "Kill 8 giant toads in the river meadows east of town, past the farms.",
+        "waiting": "Eight toads. In the river meadows, east, past the farms.",
+        "done": "Eight. Then the cress will come back by spring. The old lord had a taste for it, you know. Took it with his eggs."
+      },
+      "objectives": [
+        {
+          "id": "toads",
+          "kill": "stock/giant-toad",
+          "count": 8
+        }
+      ]
     }
   ]
 }
