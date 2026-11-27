@@ -378,7 +378,7 @@
         "offer": "Every Waker has a first dream. I keep a book of them... Here. Nell's draught. Drink it on the flat stone at the falls pool's edge, and sleep. I'll be close. Then come and tell me what you saw. Will you?",
         "summary": "Drink Nell's draught on the flat stone at the falls pool's edge, then tell Aubin what you dreamed.",
         "waiting": "The flat stone, at the water's edge. Did you sleep?",
-        "done": "Water. And falling. Yes... They all dream that now. Every one this year. I'll write it down."
+        "done": "You've gone pale. Water, was it? And falling... Yes. They all dream that now, every one this year. Something listening, you say? That's new. I'll write it down."
       },
       "objectives": [
         {
@@ -390,7 +390,8 @@
             }
           ],
           "count": 1,
-          "text": "Slept on the stone by the falls pool"
+          "text": "Slept on the stone by the falls pool",
+          "doneText": "You lie down on the cold stone and drink. The draught tastes of rain. Water closes over you, and you're falling, slowly, through a dark that glows. Far below, something is listening. Then the falls are loud, and you're awake, wet with spray."
         }
       ],
       "objectPools": [
