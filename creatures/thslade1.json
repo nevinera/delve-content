@@ -1,0 +1,95 @@
+{
+  "id": "thslade1",
+  "name": "Slade",
+  "family": "bandits",
+  "creatureType": "humanoid",
+  "reaction": "hostile",
+  "levels": [
+    10,
+    10
+  ],
+  "attack": {
+    "speed": 1.8
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 2.2,
+  "damage": 1.2,
+  "armor": 1.1,
+  "look": {
+    "body": "humanoid",
+    "height": [
+      6.3,
+      6.3
+    ],
+    "build": [
+      0.75,
+      0.75
+    ],
+    "hair": [
+      "short"
+    ],
+    "beard": [
+      "full"
+    ],
+    "expression": [
+      "frown"
+    ],
+    "colors": {
+      "hair": [
+        "#2a1e16"
+      ]
+    },
+    "loadouts": [
+      {
+        "weapon": "sword",
+        "weaponStyle": "plain",
+        "armor": {
+          "chest": {
+            "type": "chain",
+            "style": "plain",
+            "colors": [
+              [
+                "#6b6b66",
+                "#5e605c",
+                "#74726c"
+              ],
+              [
+                "#6b6b66",
+                "#5e605c",
+                "#74726c"
+              ]
+            ]
+          },
+          "shoulders": {
+            "type": "leather",
+            "style": "plain",
+            "colors": [
+              [
+                "#6b6b66",
+                "#5e605c",
+                "#74726c"
+              ],
+              [
+                "#6b6b66",
+                "#5e605c",
+                "#74726c"
+              ]
+            ]
+          },
+          "legs": {
+            "type": "leather",
+            "style": "plain"
+          }
+        },
+        "offhand": "shield",
+        "offhandStyle": "plain"
+      }
+    ]
+  },
+  "notes": "Lives in: Slade's camp, on the shelf in the hills east of Tennely Hall, by his command tent. Robs the grain wagons in false grey coats, so the Greycoats take the blame, and keeps the take in a tally book."
+}

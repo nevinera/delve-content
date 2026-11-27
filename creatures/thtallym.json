@@ -1,0 +1,73 @@
+{
+  "id": "thtallym",
+  "name": "Slade's Tallyman",
+  "family": "bandits",
+  "creatureType": "humanoid",
+  "reaction": "hostile",
+  "levels": [
+    8,
+    8
+  ],
+  "attack": {
+    "speed": 2.5,
+    "range": 90
+  },
+  "abilities": [
+    "humanoid/shoot"
+  ],
+  "tags": [
+    "archer"
+  ],
+  "health": 1.5,
+  "damage": 1,
+  "armor": 0.9,
+  "look": {
+    "body": "humanoid",
+    "height": [
+      5.5,
+      5.5
+    ],
+    "build": [
+      0.3,
+      0.3
+    ],
+    "hair": [
+      "receding"
+    ],
+    "beard": [
+      "none"
+    ],
+    "expression": [
+      "smirk"
+    ],
+    "loadouts": [
+      {
+        "weapon": "bow",
+        "weaponStyle": "plain",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "plain",
+            "colors": [
+              [
+                "#6b6b66",
+                "#5e605c",
+                "#74726c"
+              ],
+              [
+                "#6b6b66",
+                "#5e605c",
+                "#74726c"
+              ]
+            ]
+          },
+          "legs": {
+            "type": "leather",
+            "style": "plain"
+          }
+        }
+      }
+    ]
+  },
+  "notes": "Lives in: the watch post above the grain road, east of Tennely Hall. Slade's tallyman, who counts every wagon taken on a board and wears a grey coat to do it."
+}

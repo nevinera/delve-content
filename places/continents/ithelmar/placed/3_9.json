@@ -7798,6 +7798,114 @@
    "yaw": 5.7354,
    "scale": 1,
    "road": "roadg7vm"
+  },
+  {
+   "id": "obj7bvi7",
+   "type": "built:broad011",
+   "at": [
+    8147,
+    20390.7
+   ],
+   "yaw": 3.3172,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "objyw1bb",
+   "type": "built:broad011",
+   "at": [
+    7986.1,
+    20388.5
+   ],
+   "yaw": 6.1554,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "objh9y92",
+   "type": "built:broad011",
+   "at": [
+    7807,
+    20403.5
+   ],
+   "yaw": 3.0502,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "objm7ro9",
+   "type": "built:broad011",
+   "at": [
+    7666.4,
+    20395.7
+   ],
+   "yaw": 0.0818,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "objto6hm",
+   "type": "built:broad011",
+   "at": [
+    7485.1,
+    20404.4
+   ],
+   "yaw": 3.0023,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "objz8o0g",
+   "type": "built:bvill007",
+   "at": [
+    7448,
+    20425
+   ],
+   "yaw": 0.1745,
+   "scale": 1,
+   "label": "Sacks under a tarp",
+   "footprint": {
+    "rect": [
+     5.06,
+     3.2
+    ]
+   },
+   "height": 3.65
   }
  ],
  "slabs": [

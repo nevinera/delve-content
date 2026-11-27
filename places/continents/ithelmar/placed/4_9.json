@@ -4297,6 +4297,258 @@
     ]
    },
    "height": 3
+  },
+  {
+   "id": "objqhz2m",
+   "type": "built:broad011",
+   "at": [
+    10200.7,
+    20438.5
+   ],
+   "yaw": 6.2253,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "objbmc28",
+   "type": "built:broad011",
+   "at": [
+    10046.2,
+    20443.3
+   ],
+   "yaw": 2.9034,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "obj4ywqz",
+   "type": "built:broad011",
+   "at": [
+    9900.6,
+    20426
+   ],
+   "yaw": 6.1582,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "objmysqx",
+   "type": "built:broad011",
+   "at": [
+    9736.4,
+    20425
+   ],
+   "yaw": 2.9768,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "objwsi4u",
+   "type": "built:broad011",
+   "at": [
+    9560.5,
+    20416.9
+   ],
+   "yaw": 0.0492,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "obj3nyud",
+   "type": "built:broad011",
+   "at": [
+    9394.4,
+    20423
+   ],
+   "yaw": 3.2353,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "objlw4mp",
+   "type": "built:broad011",
+   "at": [
+    9245,
+    20410.2
+   ],
+   "yaw": 0.2247,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "obj25rbz",
+   "type": "built:broad011",
+   "at": [
+    9079.4,
+    20416.8
+   ],
+   "yaw": 2.9922,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "obj60gt5",
+   "type": "built:broad011",
+   "at": [
+    8947,
+    20403.5
+   ],
+   "yaw": 6.1425,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "obj5v098",
+   "type": "built:broad011",
+   "at": [
+    8776.8,
+    20405.5
+   ],
+   "yaw": 3.1338,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "objdh2b3",
+   "type": "built:broad011",
+   "at": [
+    8622,
+    20391.9
+   ],
+   "yaw": 0.1895,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "obj4jvl7",
+   "type": "built:broad011",
+   "at": [
+    8451,
+    20392.3
+   ],
+   "yaw": 3.0922,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "objh4i45",
+   "type": "built:broad011",
+   "at": [
+    8313,
+    20375.7
+   ],
+   "yaw": 6.0517,
+   "scale": 1,
+   "road": "roadzb5v",
+   "footprint": {
+    "rect": [
+     0.54,
+     0.54
+    ]
+   },
+   "height": 3.6
+  },
+  {
+   "id": "objm7u5b",
+   "type": "built:bvill012",
+   "at": [
+    9050,
+    20428
+   ],
+   "yaw": 1.2217,
+   "scale": 1,
+   "label": "A cast wagon wheel",
+   "footprint": {
+    "rect": [
+     3.6,
+     2.02
+    ]
+   },
+   "height": 3.53
   }
  ],
  "slabs": [
@@ -4572,40 +4824,6 @@
    "road": "roadg7vm"
   },
   {
-   "id": "slabiwmt",
-   "at": [
-    9256.48,
-    14.7,
-    18788.09
-   ],
-   "turn": [
-    0,
-    -90,
-    0
-   ],
-   "outline": [
-    [
-     0,
-     0
-    ],
-    [
-     1,
-     0
-    ],
-    [
-     1,
-     11.45
-    ],
-    [
-     0,
-     11.45
-    ]
-   ],
-   "thickness": 1,
-   "surface": "logs",
-   "road": "roadg7vm"
-  },
-  {
    "id": "slabvham",
    "at": [
     9244.69,
@@ -4633,6 +4851,40 @@
     [
      0,
      11.9
+    ]
+   ],
+   "thickness": 1,
+   "surface": "logs",
+   "road": "roadg7vm"
+  },
+  {
+   "id": "slab01q0",
+   "at": [
+    9256.48,
+    14.72,
+    18788.09
+   ],
+   "turn": [
+    0,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     11.43
+    ],
+    [
+     0,
+     11.43
     ]
    ],
    "thickness": 1,

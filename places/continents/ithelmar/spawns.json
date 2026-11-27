@@ -27604,6 +27604,85 @@
       ],
       "respawn": 240,
       "spawnArea": "spwnysth"
+    },
+    {
+      "id": "thtallym",
+      "creature": "thtallym",
+      "at": [
+        11455,
+        null,
+        18440
+      ],
+      "yaw": 270,
+      "levels": [
+        8,
+        8
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "thslade1",
+      "creature": "thslade1",
+      "at": [
+        12698,
+        null,
+        18150
+      ],
+      "yaw": 250,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 420
+    },
+    {
+      "id": "throok01",
+      "npc": "thgreyco",
+      "name": "Captain Elsbet Rook",
+      "title": "Captain of the Greycoats",
+      "at": [
+        10882,
+        null,
+        19172
+      ],
+      "yaw": 45,
+      "levels": [
+        12,
+        12
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "thgrey01",
+      "npc": "thgreyco",
+      "name": "Greycoat",
+      "at": [
+        10930,
+        null,
+        19128
+      ],
+      "yaw": 135,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 300
+    },
+    {
+      "id": "thgrey02",
+      "npc": "thgreyco",
+      "name": "Greycoat",
+      "at": [
+        10872,
+        null,
+        19192
+      ],
+      "yaw": 200,
+      "levels": [
+        10,
+        10
+      ],
+      "respawn": 300
     }
   ]
 }

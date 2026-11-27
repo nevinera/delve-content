@@ -1,0 +1,67 @@
+{
+  "id": "thgreyco",
+  "name": "Greycoat",
+  "creatureType": "humanoid",
+  "reaction": "friendly",
+  "levels": [
+    10,
+    12
+  ],
+  "says": [
+    "We kept the roads before the Council had a name.",
+    "Grey on the outside. Nothing to hide on the inside.",
+    "Mind the wolves on the way down."
+  ],
+  "look": {
+    "body": "humanoid",
+    "height": [
+      5.6,
+      6.3
+    ],
+    "build": [
+      0.4,
+      0.75
+    ],
+    "hair": [
+      "short",
+      "ponytail",
+      "braids",
+      "receding"
+    ],
+    "beard": [
+      "none",
+      "none",
+      "full"
+    ],
+    "expression": [
+      "neutral",
+      "frown"
+    ],
+    "colors": {
+      "primary": [
+        "#6b6b66",
+        "#5e605c",
+        "#74726c"
+      ],
+      "secondary": [
+        "#4a3a28",
+        "#3a3028"
+      ]
+    },
+    "armor": {
+      "chest": {
+        "type": "leather",
+        "style": "plain"
+      },
+      "legs": {
+        "type": "leather",
+        "style": "plain"
+      },
+      "feet": {
+        "type": "leather",
+        "style": "plain"
+      }
+    },
+    "weapon": "sword"
+  }
+}

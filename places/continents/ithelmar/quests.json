@@ -2666,6 +2666,307 @@
           }
         ]
       }
+    },
+    {
+      "id": "thwolve1",
+      "zone": "3e5710y9",
+      "hub": "d908slex",
+      "name": "Spooked Horses",
+      "level": 8,
+      "giver": "nhhale01",
+      "text": {
+        "offer": "Hill wolves come down off the valley's edge at dusk and the wagon horses smell them a mile off. Last month a team bolted into the brook, wagon and all. Forty sacks, gone downstream. The Council asked me whether the wolves had grey coats on too. Thin them, would you? Along the valley's edge, south of the hall.",
+        "summary": "Kill 8 wolves along the valley's edge, south of Tennely Hall.",
+        "waiting": "South of the hall, along the edge of the trees. They're bold at dusk.",
+        "done": "Eight. The carters will thank you, even if they won't say it. Carters never say it."
+      },
+      "objectives": [
+        {
+          "id": "wolves",
+          "kill": "stock/wolf",
+          "count": 8,
+          "area": "nhca000g"
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/thgft001"
+          },
+          {
+            "item": "heartland/thgft002"
+          },
+          {
+            "item": "heartland/thgft003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thcount1",
+      "zone": "3e5710y9",
+      "hub": "d908slex",
+      "name": "The Granary's Count",
+      "level": 8,
+      "giver": "nhhale01",
+      "after": [
+        "bfvarn01"
+      ],
+      "given": [
+        {
+          "item": "heartland/thwagon1"
+        }
+      ],
+      "text": {
+        "offer": "Varn's ledger says a tenth extra came up the grain road to me. It didn't. I keep my count to the sack, and I'll not be called a thief by a clerk's column. Here's my wagon book. The granary is across the courtyard, three bays. Count them against the book yourself, and then tell me I'm lying.",
+        "summary": "Count the sacks in the granary's 3 bays, across the courtyard, against Captain Hale's wagon book.",
+        "waiting": "Up the steps, three bays. Take your time. I have.",
+        "done": "To the sack. What the Council asked, and not one more. So the tenth left Brightford, and it never got here. Somewhere on that road, it went somewhere else."
+      },
+      "objectives": [
+        {
+          "id": "north",
+          "use": "obj01c4g",
+          "time": 3,
+          "text": "The north bay counted",
+          "doneText": "You count the north bay twice. It matches the wagon book to the sack."
+        },
+        {
+          "id": "middle",
+          "use": "obj62lrc",
+          "time": 3,
+          "text": "The middle bay counted",
+          "doneText": "The middle bay matches the book too, down to a half-sack Hale has noted as \"split, rat\"."
+        },
+        {
+          "id": "south",
+          "use": "objteoal",
+          "time": 3,
+          "text": "The south bay counted",
+          "doneText": "The south bay matches. Every sack the Council asked for is here, and not one more."
+        }
+      ],
+      "rewards": {
+        "items": [
+          {
+            "item": "heartland/thgfi001"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thruts01",
+      "zone": "3e5710y9",
+      "hub": "d908slex",
+      "name": "Ruts over the Saddle",
+      "level": 9,
+      "giver": "nhhale01",
+      "after": [
+        "thcount1"
+      ],
+      "text": {
+        "offer": "Some wagons come in light, and late. Light I can explain: robbers. Late, I can't, not with the robbers working the north road. There are fresh ruts that turn off the grain road a mile south of here, west into the trees, where no road goes. Follow them for me. I want to know where my sacks go before I write to the Council.",
+        "summary": "Follow the wagon ruts that turn west off the grain road, south of Tennely Hall, over the saddle in the rise, to where they meet the north road.",
+        "waiting": "South down the grain road, then west where the ruts go. Over the rise and down.",
+        "done": "The north road. And from there it's a short haul to Northgate, where the Nordish traders pay in silver and ask no questions. So it isn't only Slade. Someone in a Council carter's coat drives my sacks over that saddle at night. I'll write this down. Carefully."
+      },
+      "objectives": [
+        {
+          "id": "sack",
+          "use": "objefiij",
+          "time": 2,
+          "text": "Where the ruts leave the grain road",
+          "doneText": "Fresh wheel ruts turn off the road here, deep under a full load. A sack has split on a stone, and grain is spilled along the ruts into the trees."
+        },
+        {
+          "id": "wheel",
+          "use": "objm7u5b",
+          "time": 2,
+          "text": "The saddle",
+          "doneText": "At the top of the saddle a wagon has cast a wheel and left it. The ruts go on west, down the far side, with one rut shallower than the other."
+        },
+        {
+          "id": "road",
+          "use": "objz8o0g",
+          "time": 2,
+          "text": "Where the ruts meet the north road",
+          "doneText": "The ruts end at the north road, at a heap of sacks under a tarp. The sacks are stamped with the Council's mark, and the road beyond runs north to Northgate."
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/thghe001"
+          },
+          {
+            "item": "heartland/thghe002"
+          },
+          {
+            "item": "heartland/thghe003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thtally1",
+      "zone": "3e5710y9",
+      "hub": "d908slex",
+      "name": "Slade's Tally",
+      "level": 8,
+      "giver": "nhhale01",
+      "after": [
+        "bfjory01"
+      ],
+      "text": {
+        "offer": "Robbers in grey coats have taken two of my wagons this month. Grey coats. The Council says Greycoats, and I've been told to say the same. I'd rather have proof. There's a watch post in the hills east of here, above the grain road, and the man who keeps it counts every wagon that's taken. Kill him and bring me what he counts on.",
+        "summary": "Kill Slade's tallyman at the watch post in the hills east of Tennely Hall, above the grain road, and bring back his tally board.",
+        "waiting": "East, up in the hills over the grain road. Look for the lookout.",
+        "done": "A notch for every wagon. And this, burned in the back: a shelf in the hills, with a tent. Slade. I knew the name. I didn't know where he slept."
+      },
+      "objectives": [
+        {
+          "id": "board",
+          "bring": "heartland/thboard1",
+          "count": 1,
+          "drops": [
+            {
+              "creature": "thtallym",
+              "chance": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/thgha001"
+          },
+          {
+            "item": "heartland/thgha002"
+          },
+          {
+            "item": "heartland/thgha003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thcamp01",
+      "zone": "3e5710y9",
+      "hub": "d908slex",
+      "name": "Slade's Band",
+      "level": 9,
+      "giver": "nhhale01",
+      "after": [
+        "thtally1"
+      ],
+      "text": {
+        "offer": "I can't take the garrison off the granary. The Council would call it desertion before we were through the gate. But you're not the garrison. Slade's band camps on that shelf, east in the hills. Thin it out. Slade will have to come out of his tent himself.",
+        "summary": "Kill 10 of Slade's band at his camp, on the shelf in the hills east of Tennely Hall.",
+        "waiting": "Up on the shelf. They'll see you coming, so don't stop.",
+        "done": "Ten. He'll be out of his tent now, and angry. Good."
+      },
+      "objectives": [
+        {
+          "id": "band",
+          "kill": "stock/bandit-raider",
+          "count": 10,
+          "area": "nhca000e"
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/thgch001"
+          },
+          {
+            "item": "heartland/thgch002"
+          },
+          {
+            "item": "heartland/thgch003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thslade1",
+      "zone": "3e5710y9",
+      "hub": "d908slex",
+      "name": "Slade",
+      "level": 10,
+      "giver": "nhhale01",
+      "after": [
+        "thcamp01"
+      ],
+      "text": {
+        "offer": "Slade keeps his own tally, in a book, and the book on him. Every wagon, every sack, and who bought them. Kill him and bring me that book, and I'll have proof of who's been wearing grey.",
+        "summary": "Kill Slade at his command tent, at the east end of his camp in the hills, and bring Captain Hale his tally book.",
+        "waiting": "His tent's at the east end of the shelf. He'll have guards.",
+        "done": "Every wagon. Every sack. Sold on to Northgate, and to a carter with a Council seal. And not one Greycoat named in it. Not one. They've been blamed for all of it."
+      },
+      "objectives": [
+        {
+          "id": "book",
+          "bring": "heartland/thbook01",
+          "count": 1,
+          "drops": [
+            {
+              "creature": "thslade1",
+              "chance": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/thgwp001"
+          },
+          {
+            "item": "heartland/thgwp002"
+          },
+          {
+            "item": "heartland/thgwp003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thlodge1",
+      "zone": "3e5710y9",
+      "hub": "d908slex",
+      "name": "The Burned Lodge",
+      "level": 10,
+      "giver": "nhhale01",
+      "turnIn": "throok01",
+      "after": [
+        "thslade1"
+      ],
+      "given": [
+        {
+          "item": "heartland/thbook01"
+        }
+      ],
+      "text": {
+        "offer": "If I send this to the Council, it goes in a drawer. If I take it where it belongs myself, I'm hanged. So you'll take it. There's a hunting lodge in the woods south-east of here, off the road. The Tennelys' once. Burned in the revolution. Someone camps there who'll know what to do with this. Tell her Wystan sent it. And don't tell anyone where you went.",
+        "summary": "Take Slade's tally book to Captain Elsbet Rook at the burned hunting lodge, in the woods south-east of Tennely Hall.",
+        "waiting": "South-east, in the trees, off the road. Go quietly.",
+        "done": "Wystan sent this? Then he hasn't forgotten. Every Greycoat cleared, in a robber's own hand. Thank you. I've carried something for a long time that I can't keep any longer. This letter names the Tennelys' heir. The Council would burn it, and whoever holds it. Keep it safe for me. Keep it hidden."
+      },
+      "objectives": [
+        {
+          "id": "book",
+          "bring": "heartland/thbook01",
+          "count": 1
+        }
+      ],
+      "rewards": {
+        "items": [
+          {
+            "item": "heartland/thlettr1"
+          }
+        ]
+      }
     }
   ]
 }

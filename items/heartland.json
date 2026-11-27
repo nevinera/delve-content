@@ -1168,6 +1168,266 @@
         "primary": 1,
         "stamina": 1
       }
+    },
+    {
+      "id": "thwagon1",
+      "name": "Hale's Wagon Book",
+      "icon": "open-book",
+      "quality": "common",
+      "itemLevel": 45,
+      "kind": "quest",
+      "description": "The granary's wagon book: every wagon in from Brightford, its sacks, and the carter's mark, in Captain Hale's square hand."
+    },
+    {
+      "id": "thboard1",
+      "name": "Slade's Tally Board",
+      "icon": "wood-pile",
+      "quality": "common",
+      "itemLevel": 45,
+      "kind": "quest",
+      "description": "A board scored with notches, a row for each wagon taken, and a rough map burned into the back: a shelf in the hills east, marked with a tent."
+    },
+    {
+      "id": "thbook01",
+      "name": "Slade's Tally Book",
+      "icon": "open-book",
+      "quality": "common",
+      "itemLevel": 45,
+      "kind": "quest",
+      "description": "Slade's book: every wagon taken in a grey coat, every sack sold on, and to whom. Not one Greycoat is named in it."
+    },
+    {
+      "id": "thlettr1",
+      "name": "Rook's Letter",
+      "icon": "tied-scroll",
+      "quality": "common",
+      "itemLevel": 45,
+      "kind": "quest",
+      "description": "A letter Captain Rook kept through the revolution, sealed with the Tennelys' sword. It names an heir, and Rook asks you to keep it safe."
+    },
+    {
+      "id": "thgft001",
+      "name": "Wagon-road Slippers",
+      "icon": "boots",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "feet",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "thgft002",
+      "name": "Wolf-hide Boots",
+      "icon": "boots",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "feet",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "thgft003",
+      "name": "Garrison Sabatons",
+      "icon": "boots",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "feet",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "plate"
+    },
+    {
+      "id": "thgha001",
+      "name": "Tally-clerk's Gloves",
+      "icon": "gloves",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "hands",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "thgha002",
+      "name": "Lookout's Gloves",
+      "icon": "gloves",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "hands",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "thgha003",
+      "name": "Granary Gauntlets",
+      "icon": "gauntlet",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "hands",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "chain"
+    },
+    {
+      "id": "thgch001",
+      "name": "Summer-house Robe",
+      "icon": "robe",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "chest",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "thgch002",
+      "name": "Hillside Jerkin",
+      "icon": "leather-armor",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "chest",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "thgch003",
+      "name": "Hale's Spare Hauberk",
+      "icon": "breastplate",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "chest",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "chain"
+    },
+    {
+      "id": "thghe001",
+      "name": "Carter's Hood",
+      "icon": "hood",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "head",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "thghe002",
+      "name": "Saddle-crosser's Cap",
+      "icon": "hood",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "head",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "thghe003",
+      "name": "Tennely Helm",
+      "icon": "visored-helm",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "head",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "plate"
+    },
+    {
+      "id": "thgwp001",
+      "name": "Tallyman's Bow",
+      "icon": "bow-arrow",
+      "quality": "uncommon",
+      "itemLevel": 50,
+      "requiredLevel": 9,
+      "slot": "twoHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "bow"
+    },
+    {
+      "id": "thgwp002",
+      "name": "Slade's Grey Blade",
+      "icon": "broadsword",
+      "quality": "uncommon",
+      "itemLevel": 50,
+      "requiredLevel": 9,
+      "slot": "oneHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "sword"
+    },
+    {
+      "id": "thgwp003",
+      "name": "Liesel's Rowan Staff",
+      "icon": "wizard-staff",
+      "quality": "uncommon",
+      "itemLevel": 50,
+      "requiredLevel": 9,
+      "slot": "twoHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "staff",
+      "caster": true
+    },
+    {
+      "id": "thgfi001",
+      "name": "Granary Seal Ring",
+      "icon": "fire-ring",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "finger",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      }
     }
   ]
 }
