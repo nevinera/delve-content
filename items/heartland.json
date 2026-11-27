@@ -1,0 +1,282 @@
+{
+  "items": [
+    {
+      "id": "nhrush01",
+      "name": "Lamp Rush",
+      "icon": "herbs-bundle",
+      "quality": "common",
+      "itemLevel": 5,
+      "kind": "quest",
+      "description": "A green rush from the lakeshore, peeled for its pith.",
+      "stack": 20
+    },
+    {
+      "id": "nhglim01",
+      "name": "Wisp-glimmer",
+      "icon": "crystal-ball",
+      "quality": "common",
+      "itemLevel": 5,
+      "kind": "quest",
+      "description": "A mote of cold light that won't go out, though it gives no warmth.",
+      "stack": 20
+    },
+    {
+      "id": "nhdrt001",
+      "name": "Dreamroot",
+      "icon": "plant-roots",
+      "quality": "common",
+      "itemLevel": 5,
+      "kind": "quest",
+      "description": "A pale root from the falls pool. It smells of rain on stone.",
+      "stack": 20
+    },
+    {
+      "id": "nhdrau01",
+      "name": "Nell's Sleeping Draught",
+      "icon": "round-bottom-flask",
+      "quality": "common",
+      "itemLevel": 5,
+      "kind": "quest",
+      "description": "Dreamroot, honey and something Nell wouldn't name."
+    },
+    {
+      "id": "nhrlbun1",
+      "name": "Bundle of Rushlights",
+      "icon": "wheat",
+      "quality": "common",
+      "itemLevel": 5,
+      "kind": "quest",
+      "description": "Rushes dipped in mutton fat, tied with Abbey twine."
+    },
+    {
+      "id": "nhsalv01",
+      "name": "Nell's Salve",
+      "icon": "bubbling-flask",
+      "quality": "common",
+      "itemLevel": 5,
+      "kind": "quest",
+      "description": "A tin of green salve that smells of comfrey."
+    },
+    {
+      "id": "nhpfish1",
+      "name": "Pale Fish",
+      "icon": "fish-corpse",
+      "quality": "common",
+      "itemLevel": 5,
+      "kind": "quest",
+      "description": "A small white fish with smooth skin where its eyes should be.",
+      "stack": 20
+    },
+    {
+      "id": "nhcndl01",
+      "name": "Stolen Candle",
+      "icon": "candle-holder",
+      "quality": "common",
+      "itemLevel": 5,
+      "kind": "quest",
+      "description": "A chapel candle of good beeswax, chewed at one end.",
+      "stack": 20
+    },
+    {
+      "id": "nhlant01",
+      "name": "Tallowtooth's Glass Lantern",
+      "icon": "crystal-shine",
+      "quality": "common",
+      "itemLevel": 5,
+      "kind": "quest",
+      "description": "Old glass in a kobold's iron cage. The glass glows a little on its own."
+    },
+    {
+      "id": "nhshrd01",
+      "name": "Glowing Shard",
+      "icon": "crystal-growth",
+      "quality": "common",
+      "itemLevel": 5,
+      "kind": "quest",
+      "description": "A curved shard of glass, finer than any kobold could make, that glows faintly in the dark.",
+      "stack": 20
+    },
+    {
+      "id": "nhgwr001",
+      "name": "Dream-keeper's Cuffs",
+      "icon": "bracer",
+      "quality": "uncommon",
+      "itemLevel": 10,
+      "requiredLevel": 1,
+      "slot": "wrists",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "nhgwr002",
+      "name": "Lakeshore Bracers",
+      "icon": "bracer",
+      "quality": "uncommon",
+      "itemLevel": 10,
+      "requiredLevel": 1,
+      "slot": "wrists",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "nhgwr003",
+      "name": "Warden's Chain Cuffs",
+      "icon": "bracer",
+      "quality": "uncommon",
+      "itemLevel": 10,
+      "requiredLevel": 1,
+      "slot": "wrists",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "chain"
+    },
+    {
+      "id": "nhgha001",
+      "name": "Herb-gatherer's Gloves",
+      "icon": "gloves",
+      "quality": "uncommon",
+      "itemLevel": 15,
+      "requiredLevel": 2,
+      "slot": "hands",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "nhgha002",
+      "name": "Fisher's Grips",
+      "icon": "gloves",
+      "quality": "uncommon",
+      "itemLevel": 15,
+      "requiredLevel": 2,
+      "slot": "hands",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "nhgha003",
+      "name": "Abbey Gauntlets",
+      "icon": "gauntlet",
+      "quality": "uncommon",
+      "itemLevel": 15,
+      "requiredLevel": 2,
+      "slot": "hands",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "plate"
+    },
+    {
+      "id": "nhgft001",
+      "name": "Sleeper's Slippers",
+      "icon": "boots",
+      "quality": "uncommon",
+      "itemLevel": 15,
+      "requiredLevel": 2,
+      "slot": "feet",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "nhgft002",
+      "name": "Falls-wet Boots",
+      "icon": "boots",
+      "quality": "uncommon",
+      "itemLevel": 15,
+      "requiredLevel": 2,
+      "slot": "feet",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "nhgft003",
+      "name": "Keeper's Ringed Boots",
+      "icon": "boots",
+      "quality": "uncommon",
+      "itemLevel": 15,
+      "requiredLevel": 2,
+      "slot": "feet",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "chain"
+    },
+    {
+      "id": "nhgwp001",
+      "name": "Brannick's Old Shortsword",
+      "icon": "broadsword",
+      "quality": "uncommon",
+      "itemLevel": 20,
+      "requiredLevel": 3,
+      "slot": "oneHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "sword"
+    },
+    {
+      "id": "nhgwp002",
+      "name": "Lantern-hook Staff",
+      "icon": "wizard-staff",
+      "quality": "uncommon",
+      "itemLevel": 20,
+      "requiredLevel": 3,
+      "slot": "twoHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "staff",
+      "caster": true
+    },
+    {
+      "id": "nhgwp003",
+      "name": "Sneak-gutter Knife",
+      "icon": "plain-dagger",
+      "quality": "uncommon",
+      "itemLevel": 20,
+      "requiredLevel": 3,
+      "slot": "oneHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "dagger"
+    },
+    {
+      "id": "nhgbk001",
+      "name": "Wakewell Cloak",
+      "icon": "cloak-dagger",
+      "quality": "uncommon",
+      "itemLevel": 20,
+      "requiredLevel": 3,
+      "slot": "back",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      }
+    }
+  ]
+}

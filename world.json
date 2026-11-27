@@ -104,5 +104,8 @@
         }
       ]
     }
-  ]
+  ],
+  "itemCollections": {
+    "heartland": "items/heartland.json"
+  }
 }

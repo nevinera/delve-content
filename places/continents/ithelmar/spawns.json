@@ -41,7 +41,7 @@
         {
           "density": 28.5,
           "respawn": 300,
-          "creature": "stock/piranha",
+          "creature": "nhfry001",
           "levels": [
             3,
             3
@@ -3380,86 +3380,6 @@
       ],
       "respawn": 300,
       "spawnArea": "spwnx7v6"
-    },
-    {
-      "id": "mob8asiq",
-      "creature": "stock/piranha",
-      "at": [
-        14808.6,
-        null,
-        23188.3
-      ],
-      "yaw": 172,
-      "levels": [
-        3,
-        3
-      ],
-      "respawn": 300,
-      "spawnArea": "spwn3ppi"
-    },
-    {
-      "id": "mobj00al",
-      "creature": "stock/piranha",
-      "at": [
-        14932.7,
-        null,
-        23223.8
-      ],
-      "yaw": 158,
-      "levels": [
-        3,
-        3
-      ],
-      "respawn": 300,
-      "spawnArea": "spwn3ppi"
-    },
-    {
-      "id": "mobgk88t",
-      "creature": "stock/piranha",
-      "at": [
-        14755.3,
-        null,
-        23241.5
-      ],
-      "yaw": 289,
-      "levels": [
-        3,
-        3
-      ],
-      "respawn": 300,
-      "spawnArea": "spwn3ppi"
-    },
-    {
-      "id": "mob9u0b2",
-      "creature": "stock/piranha",
-      "at": [
-        14861.8,
-        null,
-        23259.3
-      ],
-      "yaw": 45,
-      "levels": [
-        3,
-        3
-      ],
-      "respawn": 300,
-      "spawnArea": "spwn3ppi"
-    },
-    {
-      "id": "mobsvft3",
-      "creature": "stock/piranha",
-      "at": [
-        14826.3,
-        null,
-        23117.3
-      ],
-      "yaw": 11,
-      "levels": [
-        3,
-        3
-      ],
-      "respawn": 300,
-      "spawnArea": "spwn3ppi"
     },
     {
       "id": "moba5ymq",
@@ -27350,6 +27270,101 @@
         10
       ],
       "respawn": 300
+    },
+    {
+      "id": "nhtallow",
+      "creature": "nhtallo1",
+      "at": [
+        15110,
+        45,
+        21430
+      ],
+      "yaw": 0,
+      "levels": [
+        4,
+        4
+      ],
+      "respawn": 120
+    },
+    {
+      "id": "mobqgtxz",
+      "creature": "nhfry001",
+      "at": [
+        14808.6,
+        null,
+        23135.1
+      ],
+      "yaw": 115,
+      "levels": [
+        3,
+        3
+      ],
+      "respawn": 300,
+      "spawnArea": "spwn3ppi"
+    },
+    {
+      "id": "mobcr9rv",
+      "creature": "nhfry001",
+      "at": [
+        14915,
+        null,
+        23259.3
+      ],
+      "yaw": 221,
+      "levels": [
+        3,
+        3
+      ],
+      "respawn": 300,
+      "spawnArea": "spwn3ppi"
+    },
+    {
+      "id": "mob455ie",
+      "creature": "nhfry001",
+      "at": [
+        14755.3,
+        null,
+        23223.8
+      ],
+      "yaw": 192,
+      "levels": [
+        3,
+        3
+      ],
+      "respawn": 300,
+      "spawnArea": "spwn3ppi"
+    },
+    {
+      "id": "mobbasnz",
+      "creature": "nhfry001",
+      "at": [
+        14826.3,
+        null,
+        23259.3
+      ],
+      "yaw": 229,
+      "levels": [
+        3,
+        3
+      ],
+      "respawn": 300,
+      "spawnArea": "spwn3ppi"
+    },
+    {
+      "id": "mob42ou0",
+      "creature": "nhfry001",
+      "at": [
+        14897.3,
+        null,
+        23188.3
+      ],
+      "yaw": 88,
+      "levels": [
+        3,
+        3
+      ],
+      "respawn": 300,
+      "spawnArea": "spwn3ppi"
     }
   ]
 }

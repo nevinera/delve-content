@@ -1,0 +1,41 @@
+{
+  "id": "nhtallo1",
+  "name": "Tallowtooth",
+  "family": "kobolds",
+  "creatureType": "humanoid",
+  "look": {
+    "body": "kobold",
+    "coloration": "kobold 6",
+    "scale": 1.3,
+    "loadouts": [
+      {
+        "weapon": "mace",
+        "weaponStyle": "crude",
+        "armor": {
+          "chest": {
+            "type": "leather",
+            "style": "tattered"
+          }
+        }
+      }
+    ]
+  },
+  "reaction": "hostile",
+  "levels": [
+    4,
+    4
+  ],
+  "attack": {
+    "speed": 2.8
+  },
+  "abilities": [
+    "humanoid/strike"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 1.6,
+  "damage": 1,
+  "armor": 1,
+  "notes": "Lives in: the sneaks' burrows, the north-east chamber. The kobold sneaks' chief, fat on stolen tallow, sitting on his hoard of candles."
+}

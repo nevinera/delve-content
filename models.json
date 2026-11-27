@@ -1,0 +1,7 @@
+{
+  "colorations": {
+    "piranha": {
+      "colorations": [{ "name": "eyeless", "pattern": "standard", "colors": { "back": "#d8d4cc", "belly": "#efe9e0", "fins": "#c8c0b8", "eyes": "#d8d4cc" } }]
+    }
+  }
+}

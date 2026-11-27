@@ -1,0 +1,685 @@
+{
+  "version": 1,
+  "quests": [
+    {
+      "id": "nhcometo",
+      "zone": "3e5710y9",
+      "hub": "yrm6ylej",
+      "name": "Come To",
+      "level": 1,
+      "giver": "nhcorra1",
+      "turnIn": "nhbranni",
+      "next": "nhfoxes1",
+      "text": {
+        "offer": "There you are, love. You came to in the dormitory, same as the rest of them, and nobody can tell you why, least of all me. The levy took our lay brothers for the gap, so I'm afraid you're our lay brother now. Keeper Brannick's out on the road. He'll want to see if you can hold a stick.",
+        "summary": "Find Keeper Brannick on the road outside the Abbey's front door.",
+        "done": "So you're the new one. On your feet, sleeper. Let's see what you're good for."
+      },
+      "objectives": []
+    },
+    {
+      "id": "nhfoxes1",
+      "zone": "3e5710y9",
+      "hub": "yrm6ylej",
+      "name": "Foxes at the Hens",
+      "level": 1,
+      "giver": "nhbranni",
+      "after": [
+        "nhcometo"
+      ],
+      "text": {
+        "offer": "Foxes. Up from the west shore every night, after the hens. Lay brothers used to sit up with them. No lay brothers now. Go down the shore and kill six. Don't come back with feathers in your teeth.",
+        "summary": "Kill 6 foxes on the lakeshore west of the Abbey.",
+        "waiting": "Six. I'm counting the hens, sleeper.",
+        "done": "Six. Good. You'll do. I'll stop calling you sleeper. Probably."
+      },
+      "objectives": [
+        {
+          "id": "foxes",
+          "kill": "nhfox001",
+          "count": 6,
+          "area": "nhca0001"
+        }
+      ]
+    },
+    {
+      "id": "nhrushes",
+      "zone": "3e5710y9",
+      "hub": "yrm6ylej",
+      "name": "Rushlights",
+      "level": 1,
+      "giver": "nhnell01",
+      "after": [
+        "nhcometo"
+      ],
+      "text": {
+        "offer": "Hold this. No, the other end. The chapel's candles keep walking off, so I make rushlights: lamp rush, peeled, dipped in fat. Burns near as well and nobody wants to steal it. The rushes grow along the shore below us. Eight good ones, the tall green kind, not the brown.",
+        "summary": "Cut 8 lamp rushes along the lakeshore below the Abbey.",
+        "waiting": "Lamp rush. Tall and green. Brown's no use.",
+        "done": "Lovely. These'll keep the chapel lit a week. Now, where did I put the fat."
+      },
+      "objectives": [
+        {
+          "id": "rushes",
+          "bring": "heartland/nhrush01",
+          "count": 8,
+          "drops": [
+            {
+              "pool": "rushes",
+              "chance": 1
+            }
+          ]
+        }
+      ],
+      "objectPools": [
+        {
+          "id": "rushes",
+          "type": "built:b19wwl2i",
+          "show": 6,
+          "spots": [
+            {
+              "at": [
+                14428,
+                22196
+              ],
+              "yaw": 0,
+              "scale": 1
+            },
+            {
+              "at": [
+                14472,
+                22276
+              ],
+              "yaw": 1.3,
+              "scale": 1
+            },
+            {
+              "at": [
+                14348,
+                22152
+              ],
+              "yaw": 2.6,
+              "scale": 1
+            },
+            {
+              "at": [
+                14496,
+                22384
+              ],
+              "yaw": 3.9000000000000004,
+              "scale": 1
+            },
+            {
+              "at": [
+                14472,
+                22308
+              ],
+              "yaw": 5.2,
+              "scale": 1
+            },
+            {
+              "at": [
+                14264,
+                22204
+              ],
+              "yaw": 0.21999999999999975,
+              "scale": 1
+            },
+            {
+              "at": [
+                14404,
+                22172
+              ],
+              "yaw": 1.5200000000000005,
+              "scale": 1
+            },
+            {
+              "at": [
+                14484,
+                22344
+              ],
+              "yaw": 2.8199999999999994,
+              "scale": 1
+            },
+            {
+              "at": [
+                14564,
+                22500
+              ],
+              "yaw": 4.12,
+              "scale": 1
+            },
+            {
+              "at": [
+                14556,
+                22468
+              ],
+              "yaw": 5.420000000000001,
+              "scale": 1
+            },
+            {
+              "at": [
+                14296,
+                22180
+              ],
+              "yaw": 0.4399999999999995,
+              "scale": 1
+            },
+            {
+              "at": [
+                14528,
+                22428
+              ],
+              "yaw": 1.7400000000000002,
+              "scale": 1
+            },
+            {
+              "at": [
+                14460,
+                22236
+              ],
+              "yaw": 3.040000000000001,
+              "scale": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nhwisps1",
+      "zone": "3e5710y9",
+      "hub": "yrm6ylej",
+      "name": "Thin Wisps",
+      "level": 2,
+      "giver": "nhaubin1",
+      "after": [
+        "nhfoxes1"
+      ],
+      "text": {
+        "offer": "You've seen them? Over the falls pool, drifting... More every year, I think. Or am I counting wrong? Bring me some of their light. Six glimmers. They give them up when they come apart. I'd like to know what they're made of before...",
+        "summary": "Bring 6 wisp-glimmers from the dream-wisps over the falls pool.",
+        "waiting": "Still cold, are they? The glimmers?",
+        "done": "Cold. No weight at all. Like something remembered rather than... Never mind. Thank you."
+      },
+      "objectives": [
+        {
+          "id": "glimmers",
+          "bring": "heartland/nhglim01",
+          "count": 6,
+          "drops": [
+            {
+              "creature": "stock/wisp",
+              "area": "nhca0002",
+              "chance": 0.6
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/nhgwr001"
+          },
+          {
+            "item": "heartland/nhgwr002"
+          },
+          {
+            "item": "heartland/nhgwr003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nhdroot1",
+      "zone": "3e5710y9",
+      "hub": "yrm6ylej",
+      "name": "Dreamroot",
+      "level": 2,
+      "giver": "nhnell01",
+      "after": [
+        "nhrushes"
+      ],
+      "text": {
+        "offer": "Aubin wants a sleeping draught for you, and that means dreamroot. Pale thing, grows in the falls pool's shallows and nowhere else. I'd go myself, but those wisps make my skin crawl. Five roots. Pull them whole.",
+        "summary": "Pull 5 dreamroot from the falls pool's shallows.",
+        "waiting": "Whole roots, mind. A broken one's no good to me.",
+        "done": "Five. Smell that? Rain on stone. That's the Dream's water, Aubin says. I just call it dreamroot."
+      },
+      "objectives": [
+        {
+          "id": "roots",
+          "bring": "heartland/nhdrt001",
+          "count": 5,
+          "drops": [
+            {
+              "pool": "dreamroot",
+              "chance": 1
+            }
+          ]
+        }
+      ],
+      "objectPools": [
+        {
+          "id": "dreamroot",
+          "type": "rootTangle",
+          "show": 5,
+          "spots": [
+            {
+              "at": [
+                14976,
+                22792
+              ],
+              "yaw": 0,
+              "scale": 0.6
+            },
+            {
+              "at": [
+                14940,
+                22852
+              ],
+              "yaw": 1.3,
+              "scale": 0.6
+            },
+            {
+              "at": [
+                14864,
+                22884
+              ],
+              "yaw": 2.6,
+              "scale": 0.6
+            },
+            {
+              "at": [
+                15004,
+                22832
+              ],
+              "yaw": 3.9000000000000004,
+              "scale": 0.6
+            },
+            {
+              "at": [
+                14948,
+                22768
+              ],
+              "yaw": 5.2,
+              "scale": 0.6
+            },
+            {
+              "at": [
+                14920,
+                22872
+              ],
+              "yaw": 0.21999999999999975,
+              "scale": 0.6
+            },
+            {
+              "at": [
+                14892,
+                22812
+              ],
+              "yaw": 1.5200000000000005,
+              "scale": 0.6
+            },
+            {
+              "at": [
+                14804,
+                22808
+              ],
+              "yaw": 2.8199999999999994,
+              "scale": 0.6
+            },
+            {
+              "at": [
+                14896,
+                22760
+              ],
+              "yaw": 4.12,
+              "scale": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nhansel1",
+      "zone": "3e5710y9",
+      "hub": "yrm6ylej",
+      "name": "Who Walked into the Water",
+      "level": 2,
+      "giver": "nhaubin1",
+      "turnIn": "nhcorra1",
+      "after": [
+        "nhwisps1"
+      ],
+      "text": {
+        "offer": "Before you sleep by the water... Have you heard of Brother Ansel? No. Well. The Abbess tells it better than I would. Ask her. She'll be at his stone, I expect, in the chapel garden. She usually is, about now.",
+        "summary": "Ask Abbess Corra about Brother Ansel.",
+        "done": "Ansel. He kept the dreams before Aubin, thirty years back. One night he walked into the falls pool in his sleep and didn't come out. We never found him, love. So when Aubin puts you down by that water, you wake up when he says. Promise me."
+      },
+      "objectives": []
+    },
+    {
+      "id": "nhdream1",
+      "zone": "3e5710y9",
+      "hub": "yrm6ylej",
+      "name": "The First Dream",
+      "level": 3,
+      "giver": "nhaubin1",
+      "after": [
+        "nhdroot1",
+        "nhansel1"
+      ],
+      "given": [
+        {
+          "item": "heartland/nhdrau01"
+        }
+      ],
+      "text": {
+        "offer": "Every Waker has a first dream. I keep a book of them... Here. Nell's draught. Drink it on the flat stone at the falls pool's edge, and sleep. I'll be close. Then come and tell me what you saw. Will you?",
+        "summary": "Drink Nell's draught on the flat stone at the falls pool's edge, then tell Aubin what you dreamed.",
+        "waiting": "The flat stone, at the water's edge. Did you sleep?",
+        "done": "Water. And falling. Yes... They all dream that now. Every one this year. I'll write it down."
+      },
+      "objectives": [
+        {
+          "id": "sleep",
+          "act": [
+            {
+              "item": "heartland/nhdrau01",
+              "pool": "stone"
+            }
+          ],
+          "count": 1,
+          "text": "Slept on the stone by the falls pool"
+        }
+      ],
+      "objectPools": [
+        {
+          "id": "stone",
+          "type": "built:b0g8k16y",
+          "show": 1,
+          "spots": [
+            {
+              "at": [
+                14800,
+                22768
+              ],
+              "yaw": 0,
+              "scale": 1.6
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/nhgft001"
+          },
+          {
+            "item": "heartland/nhgft002"
+          },
+          {
+            "item": "heartland/nhgft003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nhsendof",
+      "zone": "3e5710y9",
+      "hub": "yrm6ylej",
+      "name": "The Abbey's Neighbours",
+      "level": 4,
+      "giver": "nhcorra1",
+      "turnIn": "hxwenna1",
+      "after": [
+        "nhdream1"
+      ],
+      "given": [
+        {
+          "item": "heartland/nhrlbun1"
+        }
+      ],
+      "text": {
+        "offer": "You've done everything this old place can teach you, love, and some things it shouldn't have. The Hallams are our neighbours west along the north shore, at Hallam's cross. We owe them for seed barley, and I can't pay in coin. Take Wenna Hallam these rushlights. Tell her they're from me, and that I'm sorry it isn't more.",
+        "summary": "Take the bundle of rushlights to Wenna Hallam at Hallam's cross.",
+        "waiting": "Hallam's cross is west along the shore road. You can't miss the shrine.",
+        "done": "Rushlights from the Abbess. She owes us for barley, and she sends what she has. That's more than some do. Welcome to Hallam's cross."
+      },
+      "objectives": [
+        {
+          "id": "bundle",
+          "bring": "heartland/nhrlbun1",
+          "count": 1
+        }
+      ],
+      "rewards": {
+        "items": [
+          {
+            "item": "heartland/nhgbk001"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nhcount1",
+      "zone": "3e5710y9",
+      "hub": "yrm6ylej",
+      "name": "The Assessor's Count",
+      "level": 2,
+      "giver": "nhpell01",
+      "after": [
+        "nhwisps1",
+        "nhdroot1"
+      ],
+      "text": {
+        "offer": "Forgive me. Pell Duvane, for the Council. I'm to count the Abbey's stores for the tithe, and the Council's rule, article nine, is a tenth of what is there, not a tenth of what's guessed. My knee won't take the stores today. Would you count the barrels, the crates and the big crate for me? I'd like the count true.",
+        "summary": "Count the barrel stack, the crate stack and the large crate in the Abbey's stores.",
+        "waiting": "No rush. Well. Some rush. The Council has a calendar.",
+        "done": "Thank you. That matches what the keepers told me, which is more than I can say of some places. A true count. Article nine is satisfied."
+      },
+      "objectives": [
+        {
+          "id": "barrels",
+          "use": "objc5rgh",
+          "text": "Barrel stack counted"
+        },
+        {
+          "id": "crates",
+          "use": "obj9ly34",
+          "text": "Crate stack counted"
+        },
+        {
+          "id": "big",
+          "use": "objh1qre",
+          "text": "Large crate counted"
+        }
+      ]
+    },
+    {
+      "id": "nhsalve1",
+      "zone": "3e5710y9",
+      "hub": "yrm6ylej",
+      "name": "Nell's Salve",
+      "level": 2,
+      "giver": "nhnell01",
+      "turnIn": "nhpell01",
+      "after": [
+        "nhwisps1",
+        "nhdroot1"
+      ],
+      "given": [
+        {
+          "item": "heartland/nhsalv01"
+        }
+      ],
+      "text": {
+        "offer": "That assessor. Limps like a three-legged dog. I don't care for the Council, but I'll not watch a man hobble. Comfrey and arnica, that tin. Give it him for the knee. And don't say it's from me.",
+        "summary": "Take Nell's salve to Assessor Pell Duvane.",
+        "waiting": "Well? Go on. Before I change my mind.",
+        "done": "For the knee? That's kind. Very kind. Who should I thank? No? Then I'll thank you, and perhaps you'll pass it along."
+      },
+      "objectives": [
+        {
+          "id": "salve",
+          "bring": "heartland/nhsalv01",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "nhpalefi",
+      "zone": "3e5710y9",
+      "hub": "yrm6ylej",
+      "name": "Pale Fish",
+      "level": 3,
+      "giver": "nhaubin1",
+      "after": [
+        "nhdream1"
+      ],
+      "text": {
+        "offer": "There are fish in the falls pool's shallows now. Pale ones, with no eyes. There never were before... were there? I'd like four for the book, beside the first dreams. Mind your fingers. They bite.",
+        "summary": "Bring 4 pale fish from the eyeless fry in the falls pool's shallows.",
+        "waiting": "No eyes at all. Did you notice? What would need eyes, down there?",
+        "done": "Smooth where the eyes should be. Something breeds these. Something in the water. How big, I wonder?"
+      },
+      "objectives": [
+        {
+          "id": "fish",
+          "bring": "heartland/nhpfish1",
+          "count": 4,
+          "drops": [
+            {
+              "creature": "nhfry001",
+              "area": "nhca0003",
+              "chance": 0.8
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/nhgha001"
+          },
+          {
+            "item": "heartland/nhgha002"
+          },
+          {
+            "item": "heartland/nhgha003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nhcandle",
+      "zone": "3e5710y9",
+      "hub": "yrm6ylej",
+      "name": "Missing Candles",
+      "level": 3,
+      "giver": "nhbranni",
+      "after": [
+        "nhfoxes1"
+      ],
+      "text": {
+        "offer": "The chapel's candles. Kobold sneaks, from burrows in the cliff's north end. They creep in at night and take them. Beeswax, bought dear, and the assessor has every one on his list. Go up there. Kill sneaks. Bring back six candles.",
+        "summary": "Kill kobold sneaks at their burrows in the cliff's north end and bring back 6 stolen candles.",
+        "waiting": "Watch for them. They hide till they're on you.",
+        "done": "Chewed, some of them. Still beeswax. The assessor can count them twice for all I care."
+      },
+      "objectives": [
+        {
+          "id": "candles",
+          "bring": "heartland/nhcndl01",
+          "count": 6,
+          "drops": [
+            {
+              "creature": "stock/kobold-skulker",
+              "area": "nhca0004",
+              "chance": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nhtallow",
+      "zone": "3e5710y9",
+      "hub": "yrm6ylej",
+      "name": "Tallowtooth",
+      "level": 4,
+      "giver": "nhbranni",
+      "after": [
+        "nhfoxes1"
+      ],
+      "text": {
+        "offer": "The sneaks answer to a fat one. Tallowtooth, they call him. Sits on the candles in the deepest burrow with a glass lantern. While he's got a hoard to grow, they'll keep stealing for it. Go in. Kill him. Bring me the lantern.",
+        "summary": "Kill Tallowtooth in the deepest of the sneaks' burrows and bring back his glass lantern.",
+        "waiting": "Deepest burrow. Follow the smell of tallow.",
+        "done": "That's the lantern? Huh. Better glass than ours. Keep the sneaks hungry for a while, that will."
+      },
+      "objectives": [
+        {
+          "id": "chief",
+          "kill": "nhtallo1",
+          "count": 1,
+          "area": "nhburrow"
+        },
+        {
+          "id": "lantern",
+          "bring": "heartland/nhlant01",
+          "count": 1,
+          "drops": [
+            {
+              "creature": "nhtallo1",
+              "chance": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/nhgwp001"
+          },
+          {
+            "item": "heartland/nhgwp002"
+          },
+          {
+            "item": "heartland/nhgwp003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nhglass1",
+      "zone": "3e5710y9",
+      "hub": "yrm6ylej",
+      "name": "Not Kobold Glass",
+      "level": 4,
+      "giver": "nhbranni",
+      "turnIn": "nhaubin1",
+      "after": [
+        "nhcandle"
+      ],
+      "given": [
+        {
+          "item": "heartland/nhshrd01"
+        }
+      ],
+      "text": {
+        "offer": "Found this on one of the sneaks. Glows on its own. Kobolds don't make glass like that. Kobolds don't make glass. Take it to Aubin. He knows old things.",
+        "summary": "Take the glowing shard to Keeper Aubin.",
+        "waiting": "Aubin's down by the dock. Usually.",
+        "done": "Oh. Oh, this is old. Elves' glass, from the Age of Light... Kobolds didn't make it. They found it. Somewhere deep in the cliff, carried out... Where are they digging?"
+      },
+      "objectives": [
+        {
+          "id": "shard",
+          "bring": "heartland/nhshrd01",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

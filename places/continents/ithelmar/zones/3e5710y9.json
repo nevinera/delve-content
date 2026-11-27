@@ -1979,7 +1979,7 @@
       "nhcount1": {
         "name": "The assessor's count",
         "summary": "The Council's assessor is counting the Abbey's stores, and needs someone to climb.",
-        "objectives": "Count the barrels in the cellar, the sacks in the granary loft and the hams in the smokehouse.",
+        "objectives": "Count the barrel stack, the crate stack and the large crate in the Abbey stores.",
         "why": "Pell must count the Abbey's stores for the tithe and has a bad knee for ladders. He wants the count true either way: the Council's rule is a tenth of what's there, not a tenth of a guess.",
         "level": "2",
         "areas": [
