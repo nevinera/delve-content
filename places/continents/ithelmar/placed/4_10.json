@@ -1945,7 +1945,1140 @@
     ]
    },
    "height": 3
+  },
+  {
+   "id": "obj5roog",
+   "type": "built:b16e224c",
+   "at": [
+    8431.5,
+    21263
+   ],
+   "y": 13.94,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "rect": [
+     5.94,
+     1.6
+    ]
+   },
+   "height": 9.1
+  },
+  {
+   "id": "obj75a15",
+   "type": "built:b16e224c",
+   "at": [
+    8431.5,
+    21236.5
+   ],
+   "y": 13.94,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "rect": [
+     5.94,
+     1.6
+    ]
+   },
+   "height": 9.1
+  },
+  {
+   "id": "obj728d1",
+   "type": "built:b16e224c",
+   "at": [
+    8468.5,
+    21236.5
+   ],
+   "y": 13.94,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "rect": [
+     5.94,
+     1.6
+    ]
+   },
+   "height": 9.1
+  },
+  {
+   "id": "obj0sme1",
+   "type": "built:b16e224c",
+   "at": [
+    8468.5,
+    21255
+   ],
+   "y": 13.94,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "rect": [
+     5.94,
+     1.6
+    ]
+   },
+   "height": 9.1
+  },
+  {
+   "id": "objy7g7z",
+   "type": "built:b16e224c",
+   "at": [
+    8431.5,
+    21250
+   ],
+   "y": 13.94,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "rect": [
+     5.94,
+     1.6
+    ]
+   },
+   "height": 9.1
+  },
+  {
+   "id": "objedlsi",
+   "type": "built:b1hq7w6l",
+   "at": [
+    8443,
+    21248
+   ],
+   "y": 13.94,
+   "yaw": 1.8708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "outlines": [
+     [
+      [
+       -6.95,
+       -0.4
+      ],
+      [
+       -2.5,
+       -1
+      ],
+      [
+       2.5,
+       -1
+      ],
+      [
+       7.07,
+       -0.8
+      ],
+      [
+       7.07,
+       0
+      ],
+      [
+       6.4,
+       3.75
+      ],
+      [
+       -1.6,
+       3.75
+      ],
+      [
+       -6.48,
+       3.4
+      ],
+      [
+       -6.95,
+       0.4
+      ]
+     ],
+     [
+      [
+       -4.51,
+       -2.66
+      ],
+      [
+       4.35,
+       -4.22
+      ],
+      [
+       4.51,
+       -3.34
+      ],
+      [
+       -4.35,
+       -1.78
+      ]
+     ],
+     [
+      [
+       -2.32,
+       4.34
+      ],
+      [
+       -2.02,
+       3.7
+      ],
+      [
+       4.32,
+       6.66
+      ],
+      [
+       4.02,
+       7.3
+      ]
+     ]
+    ]
+   },
+   "height": 7.58
+  },
+  {
+   "id": "obj78z4t",
+   "type": "built:b1hq7w6l",
+   "at": [
+    8456,
+    21241
+   ],
+   "y": 13.94,
+   "yaw": 0.7708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "outlines": [
+     [
+      [
+       -6.95,
+       -0.4
+      ],
+      [
+       -2.5,
+       -1
+      ],
+      [
+       2.5,
+       -1
+      ],
+      [
+       7.07,
+       -0.8
+      ],
+      [
+       7.07,
+       0
+      ],
+      [
+       6.4,
+       3.75
+      ],
+      [
+       -1.6,
+       3.75
+      ],
+      [
+       -6.48,
+       3.4
+      ],
+      [
+       -6.95,
+       0.4
+      ]
+     ],
+     [
+      [
+       -4.51,
+       -2.66
+      ],
+      [
+       4.35,
+       -4.22
+      ],
+      [
+       4.51,
+       -3.34
+      ],
+      [
+       -4.35,
+       -1.78
+      ]
+     ],
+     [
+      [
+       -2.32,
+       4.34
+      ],
+      [
+       -2.02,
+       3.7
+      ],
+      [
+       4.32,
+       6.66
+      ],
+      [
+       4.02,
+       7.3
+      ]
+     ]
+    ]
+   },
+   "height": 7.58
+  },
+  {
+   "id": "objfgues",
+   "type": "built:b0akm1ql",
+   "at": [
+    8458,
+    21256
+   ],
+   "y": 13.94,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "open": 5.44
+   },
+   "height": 1.28
+  },
+  {
+   "id": "objwgcud",
+   "type": "built:b09qn8no",
+   "at": [
+    8437,
+    21240
+   ],
+   "y": 13.94,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "open": 5.94
+   },
+   "height": 1.16
+  },
+  {
+   "id": "objw18wm",
+   "type": "built:b0a0mucn",
+   "at": [
+    8464,
+    21253
+   ],
+   "y": 13.94,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "open": 6.44
+   },
+   "height": 1.15
+  },
+  {
+   "id": "objil2t4",
+   "type": "built:b18rfy4r",
+   "at": [
+    8438,
+    21258
+   ],
+   "y": 13.94,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "open": 2.27
+   },
+   "height": 0.26
+  },
+  {
+   "id": "objqg3sw",
+   "type": "built:b191fjtq",
+   "at": [
+    8453,
+    21246
+   ],
+   "y": 13.94,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "open": 2.18
+   },
+   "height": 0.29
+  },
+  {
+   "id": "objrdlev",
+   "type": "built:b1rsi7kg",
+   "at": [
+    8450,
+    21251
+   ],
+   "y": 13.96,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "open": 4.24
+   },
+   "height": 0.07
+  },
+  {
+   "id": "objgafzt",
+   "type": "built:b1rsi7kg",
+   "at": [
+    8456,
+    21257
+   ],
+   "y": 13.96,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "open": 4.24
+   },
+   "height": 0.07
+  },
+  {
+   "id": "obj0vp7x",
+   "type": "built:b1pkc5d1",
+   "at": [
+    8450,
+    21257.5
+   ],
+   "y": 13.94,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "rect": [
+     3,
+     3
+    ]
+   },
+   "height": 2.58
+  },
+  {
+   "id": "obj6hq4x",
+   "type": "built:broad009",
+   "at": [
+    8466,
+    21221
+   ],
+   "y": 12.94,
+   "yaw": 2.0708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "rect": [
+     15.72,
+     10.4
+    ]
+   },
+   "height": 3.63
+  },
+  {
+   "id": "objp37nd",
+   "type": "built:bruin009",
+   "at": [
+    8434,
+    21278
+   ],
+   "y": 12.94,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "rect": [
+     9.38,
+     3.17
+    ]
+   },
+   "height": 12.66
+  },
+  {
+   "id": "objf9fap",
+   "type": "built:b1rsi7kg",
+   "at": [
+    8442,
+    21226
+   ],
+   "y": 12.96,
+   "yaw": 1.5708,
+   "scale": 1,
+   "template": "bstru061",
+   "footprint": {
+    "open": 4.24
+   },
+   "height": 0.07
+  },
+  {
+   "id": "obj0d3gb",
+   "type": "built:b0akm1ql",
+   "at": [
+    8500,
+    21310
+   ],
+   "yaw": 0.3491,
+   "scale": 1,
+   "footprint": {
+    "open": 5.44
+   },
+   "height": 1.28
+  },
+  {
+   "id": "objcvgta",
+   "type": "built:b09qn8no",
+   "at": [
+    8512,
+    21322
+   ],
+   "yaw": 1.9199,
+   "scale": 1,
+   "footprint": {
+    "open": 5.94
+   },
+   "height": 1.16
+  },
+  {
+   "id": "objjhmwd",
+   "type": "built:b0a0mucn",
+   "at": [
+    8494,
+    21328
+   ],
+   "yaw": 3.4907,
+   "scale": 1,
+   "footprint": {
+    "open": 6.44
+   },
+   "height": 1.15
+  },
+  {
+   "id": "obj60h3m",
+   "type": "built:b16e224c",
+   "at": [
+    8520,
+    21302
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     5.94,
+     1.6
+    ]
+   },
+   "height": 9.1
+  },
+  {
+   "id": "objp35qz",
+   "type": "built:b16e224c",
+   "at": [
+    8488,
+    21302
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     5.94,
+     1.6
+    ]
+   },
+   "height": 9.1
+  },
+  {
+   "id": "objrstcs",
+   "type": "built:b16e224c",
+   "at": [
+    8520,
+    21338
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     5.94,
+     1.6
+    ]
+   },
+   "height": 9.1
+  },
+  {
+   "id": "objrlez1",
+   "type": "built:b18rfy4r",
+   "at": [
+    8506,
+    21316
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "open": 2.27
+   },
+   "height": 0.26
+  },
+  {
+   "id": "objhfe4z",
+   "type": "built:b191fjtq",
+   "at": [
+    8498,
+    21340
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "open": 2.18
+   },
+   "height": 0.29
+  },
+  {
+   "id": "objbzfp8",
+   "type": "built:b19bf5ip",
+   "at": [
+    8444,
+    21302
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "open": 2.03
+   },
+   "height": 0.22
+  },
+  {
+   "id": "objy5kcn",
+   "type": "built:bfarm008",
+   "at": [
+    8410,
+    21280
+   ],
+   "yaw": 1.5708,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     6,
+     2
+    ]
+   },
+   "height": 1.6
+  },
+  {
+   "id": "objett8g",
+   "type": "built:bfarm012",
+   "at": [
+    8390,
+    21210
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     7.6,
+     0.3
+    ]
+   },
+   "height": 3.2
+  },
+  {
+   "id": "objecdz7",
+   "type": "built:bfarm012",
+   "at": [
+    8390,
+    21226
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     7.6,
+     0.3
+    ]
+   },
+   "height": 3.2
+  },
+  {
+   "id": "objogk22",
+   "type": "built:bfarm012",
+   "at": [
+    8390,
+    21280
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     7.6,
+     0.3
+    ]
+   },
+   "height": 3.2
+  },
+  {
+   "id": "objpqz32",
+   "type": "built:bfarm012",
+   "at": [
+    8390,
+    21296
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     7.6,
+     0.3
+    ]
+   },
+   "height": 3.2
+  },
+  {
+   "id": "obj0d42s",
+   "type": "built:bfarm012",
+   "at": [
+    8404,
+    21312
+   ],
+   "yaw": 1.5708,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     7.6,
+     0.3
+    ]
+   },
+   "height": 3.2
+  },
+  {
+   "id": "obj5fom5",
+   "type": "built:bfarm013",
+   "at": [
+    8390,
+    21254
+   ],
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     5.3,
+     0.5
+    ]
+   },
+   "height": 4.4
+  },
+  {
+   "id": "objogxwe",
+   "type": "built:broad009",
+   "at": [
+    8370,
+    21260
+   ],
+   "yaw": 4.3633,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     15.72,
+     10.4
+    ]
+   },
+   "height": 3.63
   }
  ],
- "slabs": []
+ "slabs": [
+  {
+   "id": "slabd848",
+   "at": [
+    8428,
+    13.94,
+    21268
+   ],
+   "turn": [
+    90,
+    0,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     36,
+     0
+    ],
+    [
+     36,
+     44
+    ],
+    [
+     0,
+     44
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": "stone",
+   "template": "bstru061"
+  },
+  {
+   "id": "slab1g2g",
+   "at": [
+    8428,
+    13.94,
+    21268
+   ],
+   "turn": [
+    90,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     36,
+     0
+    ],
+    [
+     36,
+     2.5
+    ],
+    [
+     21.6,
+     1.5
+    ],
+    [
+     10.8,
+     3
+    ],
+    [
+     0,
+     2
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6a665e",
+    "preset": "stoneBlocks"
+   },
+   "template": "bstru061"
+  },
+  {
+   "id": "slabwkz1",
+   "at": [
+    8429.5,
+    13.94,
+    21232
+   ],
+   "turn": [
+    0,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     41,
+     0
+    ],
+    [
+     41,
+     2
+    ],
+    [
+     20.5,
+     1.2
+    ],
+    [
+     0,
+     2.5
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6a665e",
+    "preset": "stoneBlocks"
+   },
+   "template": "bstru061"
+  },
+  {
+   "id": "slab3a0u",
+   "at": [
+    8472,
+    13.94,
+    21232
+   ],
+   "turn": [
+    -90,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     2.14
+    ],
+    [
+     0,
+     2
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6a665e",
+    "preset": "stoneBlocks"
+   },
+   "template": "bstru061"
+  },
+  {
+   "id": "slab3hoz",
+   "at": [
+    8472,
+    13.94,
+    21232
+   ],
+   "turn": [
+    -90,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     18,
+     0
+    ],
+    [
+     36,
+     0
+    ],
+    [
+     36,
+     2.5
+    ],
+    [
+     18,
+     2.25
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6a665e",
+    "preset": "stoneBlocks"
+   },
+   "template": "bstru061"
+  },
+  {
+   "id": "slabgwiz",
+   "at": [
+    8470.5,
+    13.94,
+    21268
+   ],
+   "turn": [
+    180,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     41,
+     0
+    ],
+    [
+     41,
+     1.8
+    ],
+    [
+     16.4,
+     3
+    ],
+    [
+     0,
+     2.2
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6a665e",
+    "preset": "stoneBlocks"
+   },
+   "template": "bstru061"
+  },
+  {
+   "id": "slab11di",
+   "at": [
+    8446,
+    13.94,
+    21266.5
+   ],
+   "turn": [
+    90,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     30
+    ],
+    [
+     0,
+     30
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6a665e",
+    "preset": "stoneBlocks"
+   },
+   "template": "bstru061"
+  },
+  {
+   "id": "slab1ivm",
+   "at": [
+    8447.5,
+    13.94,
+    21260.5
+   ],
+   "turn": [
+    0,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     0.5,
+     0
+    ],
+    [
+     0.5,
+     4
+    ],
+    [
+     4.5,
+     4
+    ],
+    [
+     4.5,
+     0
+    ],
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     30
+    ],
+    [
+     0,
+     30
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6a665e",
+    "preset": "stoneBlocks"
+   },
+   "template": "bstru061"
+  },
+  {
+   "id": "slab894i",
+   "at": [
+    8454,
+    13.94,
+    21260.5
+   ],
+   "turn": [
+    -90,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     30
+    ],
+    [
+     0,
+     30
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6a665e",
+    "preset": "stoneBlocks"
+   },
+   "template": "bstru061"
+  },
+  {
+   "id": "slabgwr5",
+   "at": [
+    8452.5,
+    13.94,
+    21266.5
+   ],
+   "turn": [
+    180,
+    -90,
+    0
+   ],
+   "outline": [
+    [
+     0,
+     0
+    ],
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     30
+    ],
+    [
+     0,
+     30
+    ]
+   ],
+   "thickness": 1.5,
+   "surface": {
+    "color": "#6a665e",
+    "preset": "stoneBlocks"
+   },
+   "template": "bstru061"
+  }
+ ]
 }
