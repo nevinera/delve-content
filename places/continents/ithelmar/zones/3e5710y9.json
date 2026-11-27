@@ -627,10 +627,14 @@
         "why": "Filler in the coast pasture, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
       },
       "t6san6t1": {
-        "name": "Wolves, coast pasture southeast",
+        "name": "Drowned dead, the cove",
         "zone": "3e5710y9",
         "levels": "6-8",
-        "why": "Filler in the coast pasture, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub."
+        "why": "The drowned dead Corwin raises in the sea-cave, come ashore on the cove's beach below Wrackholm.",
+        "site": "The cove's beach, below Wrackholm",
+        "quests": [
+          "wrbeach1"
+        ]
       },
       "dcl7m4ry": {
         "name": "Crows, farms east middle",
@@ -1092,13 +1096,14 @@
         ]
       },
       "9e3ws63x": {
-        "name": "Crabs, coast meadows northeast 3",
+        "name": "Drowned dead, Gull Head south shore",
         "zone": "3e5710y9",
         "levels": "5-6",
-        "why": "Filler in the coast meadows, so the land between quest places isn't empty. Its kills can feed a side quest at the nearest hub.",
-        "site": "Crabs, coast meadows northeast 3, with Frogs by coast meadows northeast 3",
+        "why": "The drowned dead Corwin raises in the sea-cave, come ashore on Gull Head's south shore.",
+        "site": "Gull Head's south shore, by the Old Wreck",
         "quests": [
-          "bfshell1"
+          "wrbeach1",
+          "wrwreck1"
         ]
       },
       "pqlgiv1p": {
