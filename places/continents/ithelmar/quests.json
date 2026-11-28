@@ -1495,7 +1495,7 @@
       "giver": "nhpike01",
       "text": {
         "offer": "Robbers on the north road. Grey coats. Greycoats, the old lord's men, gone bandit since the revolution. They've stopped two carts this month, and if the grain wagons stop, the town eats bark. Take the left fork north of town. Their camp's in the trees west of the road, a good walk up. Half my lads are at the gap. You're not. Clear them out, and bring me those notched sticks they all carry. Five. I want to know what they're counting.",
-        "summary": "Kill the grey-coated robbers at their camp west of the north road, the left fork north of town,, and bring back 5 of their notched sticks.",
+        "summary": "Clear out the grey-coated robbers at their camp west of the north road, the left fork north of town, and bring back 5 of their notched sticks.",
         "waiting": "North road, camp in the trees. Five sticks.",
         "done": "Notches. Rows of them. Carts, maybe, or days. Can't read it. Doesn't matter. Fewer robbers is fewer robbers."
       },
@@ -2901,10 +2901,10 @@
         "thcamp01"
       ],
       "text": {
-        "offer": "Slade keeps his own tally, in a book, and the book on him. Every wagon, every sack, and who bought them. Kill him and bring me that book, and I'll have proof of who's been wearing grey.",
-        "summary": "Kill Slade at his command tent, at the east end of his camp in the hills, and bring Captain Hale his tally book.",
-        "waiting": "His tent's at the east end of the shelf. He'll have guards.",
-        "done": "Every wagon. Every sack. Sold on to Northgate, and to a carter with a Council seal. And not one Greycoat named in it. Not one. They've been blamed for all of it."
+        "offer": "Slade keeps his own tally, in a book, and the book on him. Every wagon, every sack, and who bought them. Beat him. His sort give up once the fight's out of them, and my men will take him off your hands. Bring me that book, and I'll have proof of who's been wearing grey.",
+        "summary": "Defeat Slade at his command tent, at the east end of his camp in the hills, and bring Captain Hale his tally book.",
+        "waiting": "His tent's at the east end of the shelf. He'll have guards. Bring him down alive if you can.",
+        "done": "My men brought him in on a rope, still swearing. And this. Every wagon. Every sack. Sold on to Northgate, and to a carter with a Council seal. And not one Greycoat named in it. Not one. They've been blamed for all of it."
       },
       "objectives": [
         {

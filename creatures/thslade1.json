@@ -91,5 +91,6 @@
       }
     ]
   },
-  "notes": "Lives in: Slade's camp, on the shelf in the hills east of Tennely Hall, by his command tent. Robs the grain wagons in false grey coats, so the Greycoats take the blame, and keeps the take in a tally book."
+  "notes": "Lives in: Slade's camp, on the shelf in the hills east of Tennely Hall, by his command tent. Robs the grain wagons in false grey coats, so the Greycoats take the blame, and keeps the take in a tally book.",
+  "yields": true
 }
