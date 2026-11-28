@@ -27683,6 +27683,21 @@
         10
       ],
       "respawn": 300
+    },
+    {
+      "id": "mobflqan",
+      "creature": "wrcorwn1",
+      "at": [
+        6708,
+        18,
+        22128
+      ],
+      "yaw": 270,
+      "levels": [
+        8,
+        8
+      ],
+      "respawn": 300
     }
   ]
 }

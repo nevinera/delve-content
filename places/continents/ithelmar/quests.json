@@ -2969,6 +2969,176 @@
           }
         ]
       }
+    },
+    {
+      "id": "wrbeach1",
+      "zone": "3e5710y9",
+      "hub": "ytkenc47",
+      "giver": "wrmarra1",
+      "name": "Dead on the Beach",
+      "level": 6,
+      "text": {
+        "offer": "You'll have seen them on the way in. Don't pretend you didn't, everyone does. Drowned men, up out of the water and walking the beach as if they'd somewhere to be. Three nights now. The boats won't go out past them, and a fishing village that doesn't fish is just a village. Put them back down, would you? Half a dozen, and the rest might take the hint.",
+        "summary": "Put down 6 of the drowned dead on the cove beach, south of Wrackholm.",
+        "waiting": "South along the beach. They're slow. Don't let that fool you.",
+        "done": "Six. And not one of them anyone I knew, thank the tide. They're old dead, these. Old clothes, old boots. Off a ship, not out of the village."
+      },
+      "objectives": [
+        {
+          "id": "dead",
+          "kill": "stock/zombie",
+          "count": 6,
+          "area": "nhca001c"
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/wrgwr001"
+          },
+          {
+            "item": "heartland/wrgwr002"
+          },
+          {
+            "item": "heartland/wrgwr003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wrwreck1",
+      "zone": "3e5710y9",
+      "hub": "ytkenc47",
+      "giver": "wrmarra1",
+      "name": "Where They Come From",
+      "level": 7,
+      "after": [
+        "wrbeach1"
+      ],
+      "text": {
+        "offer": "Jory, the Fenn boy, says he saw them walk up out of the sea by the Old Wreck, on the south shore of Gull Head. Jory says a lot of things. But he said this one white as a sheet. Go and look. If they're coming out of that wreck, I want to know what's bringing them.",
+        "summary": "Go to the Old Wreck on Gull Head's south shore and see what comes out of it.",
+        "waiting": "Over Gull Head, on the south side. You'll see her ribs at low tide.",
+        "done": "Up the shore and into Gull Head. There's a sea-cave under it. My husband used to say it went right through the headland, and I told him that was the ale talking. So something in there is calling them."
+      },
+      "objectives": [
+        {
+          "id": "wreck",
+          "use": "objh0e9h",
+          "time": 2,
+          "text": "The Old Wreck",
+          "doneText": "The wreck's ribs stand out of the water, black with weed. The sand round them is churned, and wet footprints come up out of the sea, a dozen of them, all walking the same way."
+        },
+        {
+          "id": "mast",
+          "use": "objhd6yd",
+          "time": 2,
+          "text": "Where the footprints go",
+          "doneText": "The footprints pass the broken mast and go on north, up the shore and into Gull Head's cliffs, as straight as if someone were calling them."
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/wrgwa001"
+          },
+          {
+            "item": "heartland/wrgwa002"
+          },
+          {
+            "item": "heartland/wrgwa003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wrcave01",
+      "zone": "3e5710y9",
+      "hub": "ytkenc47",
+      "giver": "wrmarra1",
+      "name": "The Sea-Cave",
+      "level": 7,
+      "after": [
+        "wrwreck1"
+      ],
+      "text": {
+        "offer": "A cave, then. I don't like it. Nothing good ever sat in a cave and waited. Go in and find out who's in there, and what they're doing with my beach. Look, don't fight, if you can help it. I want to know what we're dealing with first.",
+        "summary": "Go into the sea-cave under Gull Head, find out who is raising the dead, and tell Marra.",
+        "waiting": "The cave's mouth is on the west side of the headland, over the water. Mind your feet.",
+        "done": "Show me that. No. No, I know this hand. I taught him his letters at my kitchen table. Corwin. My grandson. He went off to the city to study, and he wrote that he was doing well. He wrote that every month."
+      },
+      "objectives": [
+        {
+          "id": "bones",
+          "use": "objbo09s",
+          "time": 2,
+          "text": "Bones in the passage",
+          "doneText": "Bones from the wreck lie in a heap in the passage, sorted, as if someone had been choosing among them."
+        },
+        {
+          "id": "notes",
+          "use": "objl6vev",
+          "time": 3,
+          "text": "Notes on a lectern",
+          "doneText": "Notes in a neat, schoolroom hand: what the drowned can be made to do, what they can't, and how many he managed last night. Each page is signed C. Tidwell. From further in, someone reads aloud, and stumbles, and starts again."
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/wrgle001"
+          },
+          {
+            "item": "heartland/wrgle002"
+          },
+          {
+            "item": "heartland/wrgle003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wrcorwn1",
+      "zone": "3e5710y9",
+      "hub": "ytkenc47",
+      "giver": "wrmarra1",
+      "name": "Marra's Grandson",
+      "level": 8,
+      "after": [
+        "wrcave01"
+      ],
+      "text": {
+        "offer": "He's a boy who read the wrong book and thinks it makes him clever. I don't want him dead. I want him home. But he won't listen to me, he never has, so beat him till he does. Then bring me the book. I'll burn it in my own hearth and he can watch.",
+        "summary": "Defeat Corwin in the far chamber of the sea-cave under Gull Head, and bring Marra his book.",
+        "waiting": "Don't hurt him more than he needs. And don't let him talk you round. He's good at that.",
+        "done": "He'll come home. He'll sulk, and he'll eat, and in a month he'll be mending nets and telling everyone he chose to. Good. Give me that book. There. Let it burn. Thank you. You'll eat here free as long as I keep this inn."
+      },
+      "objectives": [
+        {
+          "id": "book",
+          "bring": "heartland/wrbook01",
+          "count": 1,
+          "drops": [
+            {
+              "creature": "wrcorwn1",
+              "chance": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/wrgwp001"
+          },
+          {
+            "item": "heartland/wrgwp002"
+          },
+          {
+            "item": "heartland/wrgwp003"
+          }
+        ]
+      }
     }
   ]
 }

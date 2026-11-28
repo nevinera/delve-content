@@ -1428,6 +1428,184 @@
         "primary": 1,
         "stamina": 1
       }
+    },
+    {
+      "id": "wrbook01",
+      "name": "Corwin's Book of the Dead",
+      "icon": "evil-book",
+      "quality": "common",
+      "itemLevel": 40,
+      "kind": "quest",
+      "description": "A heavy black book, its pages swollen with sea damp. The margins are full of a neat, schoolroom hand: corrections, underlinings, and \"I can do this\" twice."
+    },
+    {
+      "id": "wrgwr001",
+      "name": "Net-mender's Cuffs",
+      "icon": "bracer",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "wrists",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "wrgwr002",
+      "name": "Gutting Bracers",
+      "icon": "bracer",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "wrists",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "wrgwr003",
+      "name": "Tide-rusted Vambraces",
+      "icon": "bracer",
+      "quality": "uncommon",
+      "itemLevel": 30,
+      "requiredLevel": 5,
+      "slot": "wrists",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "chain"
+    },
+    {
+      "id": "wrgwa001",
+      "name": "Fisher's Rope Belt",
+      "icon": "belt-buckles",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "waist",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "wrgwa002",
+      "name": "Oilskin Belt",
+      "icon": "belt-buckles",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "waist",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "wrgwa003",
+      "name": "Anchor-chain Girdle",
+      "icon": "belt-buckles",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "waist",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "chain"
+    },
+    {
+      "id": "wrgle001",
+      "name": "Salt-stiff Trousers",
+      "icon": "trousers",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "legs",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "wrgle002",
+      "name": "Sealskin Leggings",
+      "icon": "leg-armor",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "legs",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "wrgle003",
+      "name": "Wreck-iron Greaves",
+      "icon": "leg-armor",
+      "quality": "uncommon",
+      "itemLevel": 35,
+      "requiredLevel": 6,
+      "slot": "legs",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "plate"
+    },
+    {
+      "id": "wrgwp001",
+      "name": "Gutting Knife",
+      "icon": "plain-dagger",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "oneHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "dagger"
+    },
+    {
+      "id": "wrgwp002",
+      "name": "Marra's Mallet",
+      "icon": "flanged-mace",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "oneHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "mace"
+    },
+    {
+      "id": "wrgwp003",
+      "name": "Driftwood Staff",
+      "icon": "wizard-staff",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "twoHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "staff",
+      "caster": true
     }
   ]
 }

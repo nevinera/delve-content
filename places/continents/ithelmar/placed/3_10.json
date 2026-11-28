@@ -5716,6 +5716,177 @@
     ]
    },
    "height": 6.818
+  },
+  {
+   "id": "objdvmw2",
+   "type": "built:bcave001",
+   "at": [
+    6618,
+    22052
+   ],
+   "y": 20,
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     1.6,
+     1.6
+    ]
+   },
+   "height": 1.58
+  },
+  {
+   "id": "obj2h28j",
+   "type": "built:b0qpgbfq",
+   "at": [
+    6716,
+    22122
+   ],
+   "y": 18,
+   "yaw": 4.3633,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     5,
+     1.3
+    ]
+   },
+   "height": 4.25
+  },
+  {
+   "id": "objh5bwb",
+   "type": "built:b0ulqiop",
+   "at": [
+    6688,
+    22138
+   ],
+   "y": 18,
+   "yaw": 0.6981,
+   "scale": 1,
+   "footprint": {
+    "outlines": [
+     [
+      [
+       -0.46,
+       0.05
+      ],
+      [
+       0.22,
+       -0.74
+      ],
+      [
+       0.82,
+       -0.74
+      ],
+      [
+       1.33,
+       -0.48
+      ],
+      [
+       1.33,
+       0.22
+      ],
+      [
+       0.56,
+       1.16
+      ],
+      [
+       0.46,
+       1.19
+      ],
+      [
+       0.06,
+       1.19
+      ],
+      [
+       -0.04,
+       1.16
+      ],
+      [
+       -0.46,
+       0.75
+      ]
+     ],
+     [
+      [
+       -0.42,
+       -1.31
+      ],
+      [
+       0.18,
+       -1.31
+      ],
+      [
+       0.18,
+       -0.61
+      ],
+      [
+       0.08,
+       -0.58
+      ],
+      [
+       -0.32,
+       -0.58
+      ],
+      [
+       -0.42,
+       -0.61
+      ]
+     ]
+    ]
+   },
+   "height": 1.5
+  },
+  {
+   "id": "objbo09s",
+   "type": "built:b0x9tw20",
+   "at": [
+    6450,
+    22200
+   ],
+   "y": 17,
+   "yaw": 0.3491,
+   "scale": 1,
+   "label": "Bones from the wreck",
+   "footprint": {
+    "circle": 1.98
+   },
+   "height": 1.34
+  },
+  {
+   "id": "objl6vev",
+   "type": "built:b1ukgv0l",
+   "at": [
+    6622,
+    22056
+   ],
+   "y": 20,
+   "yaw": 3.4907,
+   "scale": 1,
+   "label": "A lectern with notes",
+   "footprint": {
+    "rect": [
+     1.8,
+     1.5
+    ]
+   },
+   "height": 3.96
+  },
+  {
+   "id": "objna9n6",
+   "type": "built:b0gvvwnz",
+   "at": [
+    6698,
+    22130
+   ],
+   "y": 18,
+   "yaw": 0,
+   "scale": 1,
+   "label": "A circle chalked on the rock",
+   "footprint": {
+    "open": 7.78
+   },
+   "height": 0.8
   }
  ],
  "slabs": [

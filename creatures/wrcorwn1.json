@@ -1,0 +1,81 @@
+{
+  "id": "wrcorwn1",
+  "name": "Corwin Tidwell",
+  "family": "drowned-dead",
+  "creatureType": "humanoid",
+  "reaction": "hostile",
+  "levels": [
+    8,
+    8
+  ],
+  "attack": {
+    "speed": 2.5,
+    "range": 90,
+    "school": "shadow"
+  },
+  "abilities": [
+    "ranged/shadowBolt",
+    "undead/drain"
+  ],
+  "tactics": {
+    "type": "priority",
+    "abilities": [
+      "undead/drain",
+      "ranged/shadowBolt"
+    ]
+  },
+  "tags": [
+    "caster"
+  ],
+  "health": 1.6,
+  "damage": 0.9,
+  "armor": 0.85,
+  "yields": true,
+  "notes": "Lives in: the far chamber of the sea-cave under Gull Head, at his chalk circle. Marra Tidwell's grandson, a weak necromancer, proud, lonely and bookish. Raises the drowned dead of the Old Wreck from a book. Yields when beaten, and Marra takes him home.",
+  "look": {
+    "body": "humanoid",
+    "height": [
+      5.8,
+      5.8
+    ],
+    "build": [
+      0.45,
+      0.45
+    ],
+    "hair": [
+      "short"
+    ],
+    "expression": [
+      "frown"
+    ],
+    "colors": {
+      "hair": [
+        "#6b4a2e"
+      ]
+    },
+    "loadouts": [
+      {
+        "weapon": "staff",
+        "weaponStyle": "plain",
+        "armor": {
+          "chest": {
+            "type": "cloth",
+            "style": "plain",
+            "colors": [
+              [
+                "#3a3f4a",
+                "#2f333b",
+                "#454b57"
+              ],
+              [
+                "#3a3f4a",
+                "#2f333b",
+                "#454b57"
+              ]
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
