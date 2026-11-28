@@ -469,16 +469,16 @@
       "hub": "yrm6ylej",
       "name": "The Assessor's Count",
       "level": 2,
-      "giver": "nhpell01",
+      "giver": "nhcorra1",
       "after": [
         "nhwisps1",
         "nhdroot1"
       ],
       "text": {
-        "offer": "Forgive me. Pell Duvane, for the Council, in Haven. I'm to count the Abbey's stores for the tithe, and the Council's rule, article nine, is a tenth of what is there, not a tenth of what's guessed. The stores are up the tower, and my knee won't take the stairs today. Would you count the barrels, the crates and the big crate for me? I'd like the count true.",
-        "summary": "Count the barrel stack, the crate stack and the large crate in the Abbey's stores.",
-        "waiting": "No rush. Well. Some rush. The Council has a calendar.",
-        "done": "Thank you. That matches what the keepers told me, which is more than I can say of some places. A true count. Article nine is satisfied."
+        "offer": "The Council's assessor is here, Pell Duvane, to count our stores for the tithe. He seems an honest man. But the Council's rule is a tenth of what is there, and I would like the Abbey to know what is there before anyone else tells us. Would you count the stores for us? The barrels, the crates and the big crate, up the tower. Then Duvane and I can compare.",
+        "summary": "Count the barrel stack, the crate stack and the large crate in the Abbey's stores, for Abbess Corra.",
+        "waiting": "The barrels, the crates, and the big crate up the tower. Take your time. The assessor's knee is in no hurry.",
+        "done": "Good. That matches what the keepers told me, and I will give it to Duvane myself. If his count differs, we will know which of us to believe."
       },
       "objectives": [
         {
@@ -1428,21 +1428,22 @@
         "bfsouth1"
       ],
       "text": {
-        "offer": "A tenth from every farm in the heartland is a great deal of grain. It went somewhere. Varn writes down everything, and he keeps his ledger in his desk in the tithe barn. I could ask him for it, and give him a night to make it say whatever he likes. I would rather you fetched it while he's at Moll's.",
-        "summary": "Take Varn's ledger from his desk in the tithe barn, while he's at the inn.",
-        "waiting": "His desk, at the back of the tithe barn. Quickly.",
-        "done": "Here. Every sack, and the extra tenth in its own column. All of it loaded onto the grain wagons to Tennely Hall, \"by order.\" By whose order, he doesn't say. Varn never asks whose."
+        "offer": "A tenth from every farm in the heartland is a great deal of grain. It went somewhere. Varn writes down everything, and he keeps his ledger in his desk in the tithe barn. If I ask him for it, I give him a night to make it say whatever he likes, and whoever set his scales a night to warn him. Copy it out for me, every page, while he's at Moll's. Leave it as you found it.",
+        "summary": "Copy Varn's ledger at his desk in the tithe barn, while he's at the inn, and bring the reeve the copy.",
+        "waiting": "His desk, at the back of the tithe barn. Every page, and put it back as it lay.",
+        "done": "Every sack, and the extra tenth in its own column. All of it loaded onto the grain wagons to Tennely Hall, \"by order.\" By whose order, he doesn't say. Varn never asks whose."
       },
       "objectives": [
         {
           "id": "ledger",
           "bring": "heartland/bfledgr1",
           "count": 1,
+          "text": "Varn's ledger copied",
           "drops": [
             {
               "object": "objjp33w",
               "chance": 1,
-              "time": 3
+              "time": 8
             }
           ]
         }
@@ -1723,10 +1724,10 @@
       "level": 6,
       "giver": "nhhetti1",
       "text": {
-        "offer": "\"Raised by the people of Tennelford, to the Tennelys, who kept this ford.\" That's what it says. I know it by heart. I never loved them, mind. But this town was Tennelford for a hundred years, and Ludo Crake means to sell that plaque for the weight of its bronze. Prise it off the plinth before he does. The statue's there in the square, where they pulled it down.",
-        "summary": "Prise the plaque off the old lord's toppled statue in the square, before Ludo Crake sells it.",
-        "waiting": "Off the plinth, before Ludo gets his crowbar. He's been eyeing it all week.",
-        "done": "There. \"To the Tennelys, who kept this ford.\" They did keep it, whatever else they did. It'll go in the reeve's hall, if Odile will have it. And she will, if I ask her often enough."
+        "offer": "\"Raised by the people of Tennelford, to the Tennelys, who kept this ford.\" That's what it says. I know it by heart. I never loved them, mind. But this town was Tennelford for a hundred years, and Ludo Crake means to buy that plaque off the Council for the weight of its bronze. I asked Odile, and she's given leave for it to hang in the reeve's hall instead. Only my hands won't manage a crowbar. Take it down off the plinth for me, before Ludo's offer comes through.",
+        "summary": "Take the plaque down from the old lord's toppled statue in the square, with the reeve's leave, before Ludo Crake can buy it.",
+        "waiting": "Off the plinth, gently. Odile's said yes, and I won't give her the chance to change her mind.",
+        "done": "There. \"To the Tennelys, who kept this ford.\" They did keep it, whatever else they did. It'll hang in the reeve's hall. Ludo can have the statue's toes."
       },
       "objectives": [
         {
@@ -1764,10 +1765,10 @@
       "level": 6,
       "giver": "nhcrake1",
       "text": {
-        "offer": "See this? A shrine bell, good bronze. The militia sold it me for the war in the gap. Thing is, I sell by weight, and nobody'll buy a bell everybody knows came off the Hallams' shrine. So: I'll trade it for its weight in iron. The robbers have left wrecked carts all down the north road. Tyres, hinges, nails. Six lots. Bargain of the year.",
-        "summary": "Gather 6 lots of old iron from the wrecked carts along the north road, for Ludo's trade.",
-        "waiting": "Six lots of iron, off the carts on the north road. Mind the robbers. Dead customers don't pay.",
-        "done": "Lovely. Good, honest iron that nobody's going to recognise. The bell's yours. Pleasure doing business."
+        "offer": "See this? A shrine bell, good bronze. The militia sold it me for the war in the gap. Thing is, I sell by weight, and nobody'll buy a bell everybody knows came off the Hallams' shrine. So: I'll trade it for its weight in iron. The robbers have left wrecked carts all down the north road, and Sergeant Pike's posted them as salvage for whoever clears them off the road. Tyres, hinges, nails. Six lots. Bargain of the year.",
+        "summary": "Clear 6 wrecked carts off the north road, as Sergeant Pike's salvage, and bring Ludo the iron.",
+        "waiting": "Six lots of iron, off the carts on the north road. Pike wants them off the road anyway. Mind the robbers.",
+        "done": "Lovely. Good, honest salvage, and the road's clear besides. Pike owes you a drink. The bell's yours. Pleasure doing business."
       },
       "objectives": [
         {
@@ -2117,10 +2118,10 @@
         "csdigs01"
       ],
       "text": {
-        "offer": "Ossie went in after a stolen saw. Came out white as flour. Says in the north tunnel they've built little heaps of the glass, with sticks and skulls round them, and they bow to them. Bow! And they fought him hardest right there. Knock those shrines down. Kobolds with nothing to bow to might just lose heart and keep to their holes.",
-        "summary": "Topple 3 glass shrines in the north tunnel of the diggings.",
-        "waiting": "The north tunnel, Ossie says. Left past the first bend.",
-        "done": "All three? Good. Ossie'll be glad. He's been sleeping with a lamp lit."
+        "offer": "Ossie went in after a stolen saw. Came out white as flour. Says in the north tunnel they've built little heaps of the glass, with our lamps and axes and saws piled round them, and they bow to them. Bow! To our tools! And they fought him hardest right there. Pull those shrines apart and fetch our gear back. Kobolds with nothing to bow to might just lose heart and keep to their holes.",
+        "summary": "Pull apart 3 shrines in the north tunnel of the diggings, and take back the camp's stolen tools.",
+        "waiting": "The north tunnel, Ossie says. Left past the first bend. Bring the saws if you can carry them.",
+        "done": "My good saw! And Nan's lamp, and three axes I'd written off. Ossie'll be glad. He's been sleeping with a lamp lit."
       },
       "objectives": [
         {
@@ -2128,7 +2129,8 @@
           "use": "pool:shrines",
           "count": 3,
           "time": 2,
-          "text": "Glass shrines toppled"
+          "text": "Shrines pulled apart",
+          "doneText": "You pull the heap apart. Glass shards spill out from among stolen lamps, axe heads and a saw blade, all polished bright."
         }
       ],
       "objectPools": [

@@ -2719,8 +2719,8 @@
       "ngwagon1": {
         "name": "Ottar's wagon",
         "summary": "Ottar sells more grain north than any farm round here grows for sale.",
-        "objectives": "Look under the hides in Ottar's wagon.",
-        "why": "Sigrun has wondered for a season. Under the hides are sacks stamped with Brightford's tithe mark.",
+        "objectives": "Ask Ottar to show you what's under the hides in his wagon.",
+        "why": "Sigrun has wondered for a season. Ottar lets you look, carelessly, and under the hides are sacks stamped with Brightford's tithe mark.",
         "level": "9",
         "areas": [
           "Northgate"

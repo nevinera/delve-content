@@ -536,12 +536,12 @@
     },
     {
       "id": "bfledgr1",
-      "name": "Varn's Ledger",
+      "name": "Copy of Varn's Ledger",
       "icon": "open-book",
       "quality": "common",
       "itemLevel": 30,
       "kind": "quest",
-      "description": "The tithe ledger, every farm's sacks in Varn Ostrey's small, neat figures."
+      "description": "Every page of the tithe ledger, copied out fair: every farm's sacks, in your hand instead of Varn Ostrey's."
     },
     {
       "id": "bforder1",
