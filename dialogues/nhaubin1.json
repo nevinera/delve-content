@@ -1,0 +1,81 @@
+{
+  "id": "nhaubin1",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Ah. A Waker. Are you sleeping well? No one does, at first...",
+      "choices": [
+        {
+          "text": "Does everyone come to in the dormitory?",
+          "next": "dorm"
+        },
+        {
+          "text": "What are the wisps?",
+          "next": "wisps"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    },
+    "dorm": {
+      "text": "Here? Here, yes. Elsewhere... Who told you to ask that? No. It doesn't matter. Not every Waker comes to in a bed, that's all. Some come to... somewhere else.",
+      "choices": [
+        {
+          "text": "Where else?",
+          "next": "hello"
+        }
+      ]
+    },
+    "wisps": {
+      "text": "What are they? I've asked them. They don't answer. They come off the falls like breath on a cold morning... and every year there are more. Would you count them, if you were me?",
+      "choices": [
+        {
+          "text": "Maybe.",
+          "next": "hello"
+        }
+      ]
+    },
+    "dreamed": {
+      "text": "You've dreamed now. Has it come back? The water, the falling... the listening. You'd tell me if it did?",
+      "choices": [
+        {
+          "text": "I'll tell you.",
+          "next": "promise"
+        },
+        {
+          "text": "Does everyone come to in the dormitory?",
+          "next": "dorm"
+        },
+        {
+          "text": "What are the wisps?",
+          "next": "wisps"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    },
+    "promise": {
+      "text": "Good. Good. The book has room. It always has room. That's what worries me.",
+      "choices": [
+        {
+          "text": "Goodbye for now.",
+          "next": "hello"
+        }
+      ]
+    }
+  },
+  "openings": [
+    {
+      "line": "dreamed",
+      "when": {
+        "finished": [
+          "nhdream1"
+        ]
+      }
+    }
+  ]
+}

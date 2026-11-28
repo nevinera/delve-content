@@ -1,0 +1,68 @@
+{
+  "id": "nhbranni",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Sleeper. On your feet. You stand like a sack of meal.",
+      "choices": [
+        {
+          "text": "What needs doing?",
+          "next": "work"
+        },
+        {
+          "text": "What's in the cliff?",
+          "next": "sneaks"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    },
+    "blooded": {
+      "text": "Waker. Good. Hands still on the stick.",
+      "choices": [
+        {
+          "text": "What needs doing?",
+          "next": "work"
+        },
+        {
+          "text": "What's in the cliff?",
+          "next": "sneaks"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    },
+    "work": {
+      "text": "Everything. Wood, water, hens, wall. Three keepers can't fight, I can't be in four places. You can be in one. Start there.",
+      "choices": [
+        {
+          "text": "Right.",
+          "next": "hello"
+        }
+      ]
+    },
+    "sneaks": {
+      "text": "Kobold sneaks. Burrows in the north end. Small, quick, mean, and they steal anything that burns. Don't go in after them alone, until you can.",
+      "choices": [
+        {
+          "text": "Understood.",
+          "next": "hello"
+        }
+      ]
+    }
+  },
+  "openings": [
+    {
+      "line": "blooded",
+      "when": {
+        "finished": [
+          "nhfoxes1"
+        ]
+      }
+    }
+  ]
+}

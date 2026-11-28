@@ -1,0 +1,81 @@
+{
+  "id": "nhcorra1",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Hello, love. Mind the step, it's older than I am. Only just.",
+      "choices": [
+        {
+          "text": "Where am I?",
+          "next": "place"
+        },
+        {
+          "text": "Why don't I remember anything?",
+          "next": "waker"
+        },
+        {
+          "text": "Where did everyone go?",
+          "next": "levy"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    },
+    "place": {
+      "text": "Wakewell Abbey. Keepers, a chapel, some hens and a great deal of washing. The falls are across the lake. Aubin will tell you about them. At length.",
+      "choices": [
+        {
+          "text": "Thank you.",
+          "next": "hello"
+        }
+      ]
+    },
+    "waker": {
+      "text": "Nobody who comes to here remembers, love. A bit of a dream, and then the dormitory ceiling. We call you Wakers. It's not much of an answer. It's the one we've got.",
+      "choices": [
+        {
+          "text": "It'll have to do.",
+          "next": "hello"
+        }
+      ]
+    },
+    "levy": {
+      "text": "The Council's levy took our lay brothers for the gap. I'm sure the war needs them more than my hens do. I'm sure of it most days. Don't tell Duvane I said that.",
+      "choices": [
+        {
+          "text": "I won't.",
+          "next": "hello"
+        }
+      ]
+    },
+    "gone": {
+      "text": "Love! Look at you, all grown up and wandering. Are the Hallams feeding you? Wenna will. She feeds everyone, and then sends them off to work it off.",
+      "choices": [
+        {
+          "text": "Where am I?",
+          "next": "place"
+        },
+        {
+          "text": "Where did everyone go?",
+          "next": "levy"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  },
+  "openings": [
+    {
+      "line": "gone",
+      "when": {
+        "finished": [
+          "nhsendof"
+        ]
+      }
+    }
+  ]
+}

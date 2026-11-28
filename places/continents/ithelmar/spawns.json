@@ -25563,7 +25563,8 @@
         12,
         12
       ],
-      "respawn": 300
+      "respawn": 300,
+      "dialogue": "nhcorra1"
     },
     {
       "id": "nhbranni",
@@ -25580,7 +25581,8 @@
         14,
         14
       ],
-      "respawn": 300
+      "respawn": 300,
+      "dialogue": "nhbranni"
     },
     {
       "id": "nhnell01",
@@ -25601,7 +25603,8 @@
         10,
         10
       ],
-      "respawn": 300
+      "respawn": 300,
+      "dialogue": "nhnell01"
     },
     {
       "id": "nhaubin1",
@@ -25618,7 +25621,8 @@
         11,
         11
       ],
-      "respawn": 300
+      "respawn": 300,
+      "dialogue": "nhaubin1"
     },
     {
       "id": "nhpell01",
@@ -25635,7 +25639,8 @@
         10,
         10
       ],
-      "respawn": 300
+      "respawn": 300,
+      "dialogue": "nhpell01"
     },
     {
       "id": "nhwenna1",

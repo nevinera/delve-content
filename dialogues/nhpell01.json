@@ -1,0 +1,93 @@
+{
+  "id": "nhpell01",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Ah. Forgive me, I'm mid-count. Pell Duvane, assessor, under the Council's Ordinance Nine. You're not a barrel, so you're not on my list. Was there something?",
+      "choices": [
+        {
+          "text": "What are you counting?",
+          "next": "count"
+        },
+        {
+          "text": "Is the tithe fair?",
+          "next": "fair"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    },
+    "count": {
+      "text": "Everything the Abbey keeps against winter. The Council takes a tenth of what is there. Ordinance Nine, article two. Not a tenth of what someone wishes were there. I'm very particular about that part.",
+      "choices": [
+        {
+          "text": "Good to hear.",
+          "next": "hello"
+        }
+      ]
+    },
+    "fair": {
+      "text": "Fair? A tenth is a tenth. Whether the war in the gap is worth a tenth of the Abbey's beans is above my office. I count. I count honestly. I'm afraid that's all I can promise.",
+      "choices": [
+        {
+          "text": "That's something.",
+          "next": "hello"
+        }
+      ]
+    },
+    "salved": {
+      "text": "The knee's much better, thank you. I've made a note. Not of who, since nobody will tell me. Only that someone here was kind to the Council's man. That's not on any list either.",
+      "choices": [
+        {
+          "text": "What are you counting?",
+          "next": "count"
+        },
+        {
+          "text": "Is the tithe fair?",
+          "next": "fair"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    },
+    "counted": {
+      "text": "The Abbess's count and mine agree to the barrel. To the barrel! I'm told that's unusual. It shouldn't be. Ordinance Nine, article two.",
+      "choices": [
+        {
+          "text": "What are you counting?",
+          "next": "count"
+        },
+        {
+          "text": "Is the tithe fair?",
+          "next": "fair"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  },
+  "openings": [
+    {
+      "line": "counted",
+      "when": {
+        "finished": [
+          "nhcount1"
+        ]
+      }
+    },
+    {
+      "line": "salved",
+      "when": {
+        "finished": [
+          "nhsalve1"
+        ]
+      }
+    }
+  ]
+}

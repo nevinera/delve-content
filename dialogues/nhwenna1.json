@@ -3,7 +3,7 @@
   "start": "hello",
   "lines": {
     "hello": {
-      "text": "Come in, come in. There is soup, and there are beds, and you look as if you want both.",
+      "text": "Come in, come in. There is soup, and there are beds, and you look as if you want both. Sorry. I always say that. It's always true, though, isn't it?",
       "choices": [
         {
           "text": "What can you spare?",
@@ -14,8 +14,21 @@
           "do": "home"
         },
         {
+          "text": "How are things?",
+          "next": "bread"
+        },
+        {
           "text": "Goodbye.",
           "do": "close"
+        }
+      ]
+    },
+    "bread": {
+      "text": "Oh, fine, fine. Only I count the bread twice now, since the assessor came. He's a nice man, he never takes a crumb, but I count it anyway. Twice. Sometimes three times. Sorry. Soup?",
+      "choices": [
+        {
+          "text": "Maybe later.",
+          "next": "hello"
         }
       ]
     }

@@ -1,0 +1,68 @@
+{
+  "id": "nhnell01",
+  "start": "hello",
+  "lines": {
+    "hello": {
+      "text": "Mind the comfrey. No, that's tansy, mind it too. Hello! Did you want something, or are you just lost? Everyone's a bit lost here.",
+      "choices": [
+        {
+          "text": "What are you making?",
+          "next": "making"
+        },
+        {
+          "text": "What grows here?",
+          "next": "garden"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    },
+    "making": {
+      "text": "Rushlights. Rush, peel, fat, dip. Then the sleeping draught for Aubin: dreamroot, lemon balm, a pinch of valerian so you don't lie there thinking. Then supper. Then more rushlights.",
+      "choices": [
+        {
+          "text": "Busy.",
+          "next": "hello"
+        }
+      ]
+    },
+    "garden": {
+      "text": "Cabbages, pumpkins, sage, feverfew, and something Aubin planted that nobody can name and nothing eats. I leave it alone. It leaves me alone. We get on.",
+      "choices": [
+        {
+          "text": "Sounds peaceful.",
+          "next": "hello"
+        }
+      ]
+    },
+    "slept": {
+      "text": "You're up! Head clear? The valerian does that, a bit of fog for an hour. Sit on the bench if you like. Not on the chamomile.",
+      "choices": [
+        {
+          "text": "What are you making?",
+          "next": "making"
+        },
+        {
+          "text": "What grows here?",
+          "next": "garden"
+        },
+        {
+          "text": "Goodbye.",
+          "do": "close"
+        }
+      ]
+    }
+  },
+  "openings": [
+    {
+      "line": "slept",
+      "when": {
+        "finished": [
+          "nhdream1"
+        ]
+      }
+    }
+  ]
+}
