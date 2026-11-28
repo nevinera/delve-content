@@ -3019,7 +3019,7 @@
         "offer": "Jory, the Fenn boy, says he saw them walk up out of the sea by the Old Wreck, on the south shore of Gull Head. Jory says a lot of things. But he said this one white as a sheet. Go and look. If they're coming out of that wreck, I want to know what's bringing them.",
         "summary": "Go to the Old Wreck on Gull Head's south shore and see what comes out of it.",
         "waiting": "Over Gull Head, on the south side. You'll see her ribs at low tide.",
-        "done": "Up the shore and into Gull Head. There's a sea-cave under it. My husband used to say it went right through the headland, and I told him that was the ale talking. So something in there is calling them."
+        "done": "Into Gull Head. There's a sea-cave under it. My husband used to say it went right through the headland, and I told him that was the ale talking. So something in there is calling them."
       },
       "objectives": [
         {
@@ -3034,7 +3034,7 @@
           "use": "objhd6yd",
           "time": 2,
           "text": "Where the footprints go",
-          "doneText": "The footprints pass the broken mast and go on north, up the shore and into Gull Head's cliffs, as straight as if someone were calling them."
+          "doneText": "The footprints pass the broken mast and go on north, up the slope of Gull Head to a hole in the turf, as straight as if someone were calling them."
         }
       ],
       "rewards": {
@@ -3063,8 +3063,8 @@
       ],
       "text": {
         "offer": "A cave, then. I don't like it. Nothing good ever sat in a cave and waited. Go in and find out who's in there, and what they're doing with my beach. Look, don't fight, if you can help it. I want to know what we're dealing with first.",
-        "summary": "Go into the sea-cave under Gull Head, find out who is raising the dead, and tell Marra.",
-        "waiting": "The cave's mouth is on the west side of the headland, over the water. Mind your feet.",
+        "summary": "Go into the sea-cave under Gull Head, by the hole on its south slope above the Old Wreck, find out who is raising the dead, and tell Marra.",
+        "waiting": "Follow the footprints up from the wreck. They go in through a hole in the turf, on the south slope of Gull Head.",
         "done": "Show me that. No. No, I know this hand. I taught him his letters at my kitchen table. Corwin. My grandson. He went off to the city to study, and he wrote that he was doing well. He wrote that every month."
       },
       "objectives": [

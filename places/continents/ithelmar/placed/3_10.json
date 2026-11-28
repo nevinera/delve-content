@@ -5718,24 +5718,6 @@
    "height": 6.818
   },
   {
-   "id": "objdvmw2",
-   "type": "built:bcave001",
-   "at": [
-    6618,
-    22052
-   ],
-   "y": 20,
-   "yaw": 0,
-   "scale": 1,
-   "footprint": {
-    "rect": [
-     1.6,
-     1.6
-    ]
-   },
-   "height": 1.58
-  },
-  {
    "id": "obj2h28j",
    "type": "built:b0qpgbfq",
    "at": [
@@ -5838,41 +5820,6 @@
    "height": 1.5
   },
   {
-   "id": "objbo09s",
-   "type": "built:b0x9tw20",
-   "at": [
-    6450,
-    22200
-   ],
-   "y": 17,
-   "yaw": 0.3491,
-   "scale": 1,
-   "label": "Bones from the wreck",
-   "footprint": {
-    "circle": 1.98
-   },
-   "height": 1.34
-  },
-  {
-   "id": "objl6vev",
-   "type": "built:b1ukgv0l",
-   "at": [
-    6622,
-    22056
-   ],
-   "y": 20,
-   "yaw": 3.4907,
-   "scale": 1,
-   "label": "A lectern with notes",
-   "footprint": {
-    "rect": [
-     1.8,
-     1.5
-    ]
-   },
-   "height": 3.96
-  },
-  {
    "id": "objna9n6",
    "type": "built:b0gvvwnz",
    "at": [
@@ -5887,6 +5834,59 @@
     "open": 7.78
    },
    "height": 0.8
+  },
+  {
+   "id": "objbo09s",
+   "type": "built:b0x9tw20",
+   "at": [
+    6694,
+    22378
+   ],
+   "y": 39,
+   "yaw": 0.3491,
+   "scale": 1,
+   "label": "Bones from the wreck",
+   "footprint": {
+    "circle": 1.98
+   },
+   "height": 1.34
+  },
+  {
+   "id": "objl6vev",
+   "type": "built:b1ukgv0l",
+   "at": [
+    6722,
+    22250
+   ],
+   "y": 28,
+   "yaw": 3.4907,
+   "scale": 1,
+   "label": "A lectern with notes",
+   "footprint": {
+    "rect": [
+     1.8,
+     1.5
+    ]
+   },
+   "height": 3.96
+  },
+  {
+   "id": "objdvmw2",
+   "type": "built:bcave001",
+   "at": [
+    6718,
+    22246
+   ],
+   "y": 28,
+   "yaw": 0,
+   "scale": 1,
+   "footprint": {
+    "rect": [
+     1.6,
+     1.6
+    ]
+   },
+   "height": 1.58
   }
  ],
  "slabs": [
