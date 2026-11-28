@@ -27698,6 +27698,21 @@
         8
       ],
       "respawn": 300
+    },
+    {
+      "id": "mobbpi69",
+      "creature": "nghbear1",
+      "at": [
+        8300,
+        79,
+        17866
+      ],
+      "yaw": 0,
+      "levels": [
+        9,
+        9
+      ],
+      "respawn": 300
     }
   ]
 }

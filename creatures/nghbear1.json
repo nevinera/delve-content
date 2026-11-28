@@ -1,0 +1,31 @@
+{
+  "id": "nghbear1",
+  "name": "The Hill Bear",
+  "family": "bears",
+  "skinnable": true,
+  "creatureType": "beast",
+  "reaction": "hostile",
+  "levels": [
+    9,
+    9
+  ],
+  "attack": {
+    "speed": 2.8
+  },
+  "abilities": [
+    "beast/bite",
+    "beast/hide"
+  ],
+  "tags": [
+    "melee"
+  ],
+  "health": 2.4,
+  "damage": 1.2,
+  "armor": 1.1,
+  "look": {
+    "body": "bear",
+    "coloration": "black",
+    "scale": 1.2
+  },
+  "notes": "Lives in: the hill bear's den, one chamber in the north-west crags above the north road. An old, big bear that took a calf from under Northgate's palisade. The hill wolves follow where it goes."
+}

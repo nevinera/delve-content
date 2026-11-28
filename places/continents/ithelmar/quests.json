@@ -3139,6 +3139,470 @@
           }
         ]
       }
+    },
+    {
+      "id": "ngstone1",
+      "zone": "3e5710y9",
+      "hub": "fx4u6pd9",
+      "giver": "nhsigru1",
+      "name": "The Boundary Stones",
+      "level": 8,
+      "text": {
+        "offer": "The Angean farmers say the meadow south of the gap is theirs. My herd has no right to it, they say. There are three old stones in that meadow. Older than their farms. Older than our tents. Go and read them. Then we'll know whose meadow it is.",
+        "summary": "Read the 3 old boundary stones in the north meadow, south of Northgate.",
+        "waiting": "South, out of the gate, in the long grass. Big grey stones. You can't miss them.",
+        "done": "Common grazing. For any herd that keeps the road open. Not theirs. Not ours either. Good. That's harder to argue with than either."
+      },
+      "objectives": [
+        {
+          "id": "west",
+          "use": "objl97eh",
+          "time": 2,
+          "text": "The west stone",
+          "doneText": "The marks are worn almost smooth, but you can make them out: a road, and beasts grazing either side of it."
+        },
+        {
+          "id": "east",
+          "use": "objxjcn2",
+          "time": 2,
+          "text": "The east stone",
+          "doneText": "Under the lichen, an old hand has cut: \"Grass for every herd that keeps the road.\""
+        },
+        {
+          "id": "south",
+          "use": "objwnb7w",
+          "time": 2,
+          "text": "The south stone",
+          "doneText": "The same words again, and below them, the marks of the road's keepers: a gate, and a horn."
+        }
+      ],
+      "rewards": {
+        "items": [
+          {
+            "item": "heartland/ngbac001"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ngcalf01",
+      "zone": "3e5710y9",
+      "hub": "fx4u6pd9",
+      "giver": "nhsigru1",
+      "name": "Taken Calves",
+      "level": 8,
+      "after": [
+        "ngstone1"
+      ],
+      "text": {
+        "offer": "The hill wolves take calves. Ours and the farmers'. They don't care whose. They drag them up into the hills and leave the bells behind. Kill the wolves along the north road and the meadow, and bring me five bells. The Angean ones I'll take back to their farms myself.",
+        "summary": "Kill wolves along the north road, in the north meadow and the western hills, and bring Sigrun 5 calf bells.",
+        "waiting": "Wolves on the road east, and in the meadow. Bells on the wolves, mostly. Don't ask how.",
+        "done": "Five. Two of ours, three of theirs. I'll walk the three down to the farms tomorrow. Let them say the wolves only take Nordish calves now."
+      },
+      "objectives": [
+        {
+          "id": "bells",
+          "bring": "heartland/ngbell01",
+          "count": 5,
+          "drops": [
+            {
+              "creature": "stock/wolf",
+              "area": "nhca000h",
+              "chance": 0.5
+            },
+            {
+              "creature": "stock/wolf",
+              "area": "nhca001z",
+              "chance": 0.5
+            },
+            {
+              "creature": "stock/wolf",
+              "area": "nhca002d",
+              "chance": 0.5
+            },
+            {
+              "creature": "stock/wolf",
+              "area": "nhca001o",
+              "chance": 0.5
+            },
+            {
+              "creature": "stock/wolf",
+              "area": "nhca000o",
+              "chance": 0.5
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/ngsho001"
+          },
+          {
+            "item": "heartland/ngsho002"
+          },
+          {
+            "item": "heartland/ngsho003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ngbear01",
+      "zone": "3e5710y9",
+      "hub": "fx4u6pd9",
+      "giver": "nhsigru1",
+      "name": "The Hill Bear",
+      "level": 9,
+      "after": [
+        "ngcalf01"
+      ],
+      "text": {
+        "offer": "A bear came down out of the crags and took a calf from under the palisade. From under the wall. The wolves follow it, eat what it leaves. Kill the bear and the wolves scatter. Its den is up in the crags north-east, above the north road. Bring me its hide.",
+        "summary": "Kill the hill bear in its den in the crags above the north road, north-east of Northgate, and bring Sigrun its hide.",
+        "waiting": "Up in the crags, above the road. A hole in the rock. You'll smell it first.",
+        "done": "That's him. Grey round the mouth. He's been up there longer than I've been herding. Both herds owe you now. The same hunter. That's a thing to build on."
+      },
+      "objectives": [
+        {
+          "id": "hide",
+          "bring": "heartland/nghide01",
+          "count": 1,
+          "drops": [
+            {
+              "creature": "nghbear1",
+              "chance": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/ngche001"
+          },
+          {
+            "item": "heartland/ngche002"
+          },
+          {
+            "item": "heartland/ngche003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ngsaga01",
+      "zone": "3e5710y9",
+      "hub": "fx4u6pd9",
+      "giver": "nhsigru1",
+      "name": "A Verse for the Meadow",
+      "level": 9,
+      "after": [
+        "ngbear01"
+      ],
+      "turnIn": "nharnbj1",
+      "text": {
+        "offer": "A promise the Nordish make is a song. If Arnbjorn sings that the meadow is shared, it's shared. The farmers come to Hild's to drink. They'll hear it. Go and tell him. The stones, the calves, the bear. All of it.",
+        "summary": "Tell Arnbjorn the skald, in Hild's alehouse, about the boundary stones, the calves and the hill bear.",
+        "waiting": "He's at Hild's. He's always at Hild's.",
+        "done": "Stones older than the farms, bells given back, and a bear that ate from both tables. Oh, that's a verse. That's three. The meadow's shared by the time the cups are empty, friend. And since you've earned an old song, I'll throw it in: the coast to the north-west, where the songs came from, where the sea stands up in cliffs. Go there one day. Not yet. One day."
+      },
+      "rewards": {
+        "items": [
+          {
+            "item": "heartland/ngnec001"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ngwagon1",
+      "zone": "3e5710y9",
+      "hub": "fx4u6pd9",
+      "giver": "nhsigru1",
+      "name": "Ottar's Wagon",
+      "level": 9,
+      "after": [
+        "thruts01"
+      ],
+      "text": {
+        "offer": "Ottar sells more grain north than any farm round here grows to sell. I've wondered all season. You've come from the saddle, you say. Ruts and sacks. Ask him to show you what's under the hides on his cart. He'll let you. He thinks everything's a joke.",
+        "summary": "Ask Ottar for a look under the hides on his handcart, in the yard of his trading hall.",
+        "waiting": "His yard, south of Hild's. The cart with the hides on it.",
+        "done": "Brightford's tithe mark. On sacks in Ottar's yard. So that's where they go. Go and ask him where he got them. He'll laugh. Make him stop laughing."
+      },
+      "objectives": [
+        {
+          "id": "cart",
+          "use": "obj9y4ix",
+          "time": 2,
+          "text": "Under the hides on Ottar's cart",
+          "doneText": "Ottar waves you on, laughing, and you lift the hides. Under them are sacks of grain, every one stamped with Brightford's tithe mark."
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/ngwri001"
+          },
+          {
+            "item": "heartland/ngwri002"
+          },
+          {
+            "item": "heartland/ngwri003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ngottar1",
+      "zone": "3e5710y9",
+      "hub": "fx4u6pd9",
+      "giver": "nhsigru1",
+      "name": "A Slippery Trader",
+      "level": 10,
+      "after": [
+        "ngwagon1"
+      ],
+      "turnIn": "nhottar1",
+      "text": {
+        "offer": "Ask him where the sacks came from. Not what he's selling. Where they came from.",
+        "summary": "Ask Ottar Haldsson where the tithe sacks in his yard came from.",
+        "waiting": "He's in his hall. He'll try to sell you something. Don't buy it.",
+        "done": "Where from? Ha! From a fellow in a Council coat, friend, who drives them over the saddle by night and wants silver for them, and I pay him, honestly, every time. Here. The bill of sale, his mark and mine. Honest trade. And I'd much rather you had it than the Council found it on me."
+      },
+      "rewards": {
+        "items": [
+          {
+            "item": "heartland/ngfin001"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ngbill01",
+      "zone": "3e5710y9",
+      "hub": "fx4u6pd9",
+      "giver": "nhottar1",
+      "name": "The Bill of Sale",
+      "level": 10,
+      "turnIn": "nhhale01",
+      "after": [
+        "ngottar1"
+      ],
+      "given": [
+        {
+          "item": "heartland/ngbill01"
+        }
+      ],
+      "text": {
+        "offer": "Take it to whoever's missing the grain. That captain at Tennely Hall, I'd think, the one who counts sacks for fun. Tell him Ottar trades fair. Tell him twice.",
+        "summary": "Take Ottar's bill of sale to Captain Hale at Tennely Hall.",
+        "waiting": "Off you go, friend. And if anyone asks, you bought that bill off me for a song.",
+        "done": "A carter's mark. A Council stamp. A price. So the tenth that never reached me was sold on at Northgate by one of our own. Not Greycoats. Not robbers. A carter with a seal. I'll write to the Council tonight, with this and Varn's ledger side by side. Carefully."
+      },
+      "objectives": [
+        {
+          "id": "bill",
+          "bring": "heartland/ngbill01",
+          "count": 1
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/ngwea001"
+          },
+          {
+            "item": "heartland/ngwea002"
+          },
+          {
+            "item": "heartland/ngwea003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ngfat001",
+      "zone": "3e5710y9",
+      "hub": "fx4u6pd9",
+      "giver": "nhsigru1",
+      "name": "Fat for the Lamps",
+      "level": 9,
+      "text": {
+        "offer": "Our lamps burn bear fat. The hall's nearly out, and the hunters who'd fetch it are out on the road watching for wolves. There are bears in the hills east of here, past the beck. Bring me six rounds of fat.",
+        "summary": "Bring Sigrun 6 rounds of bear fat from the bears in the western hills, east of Northgate.",
+        "waiting": "East, in the hills. Black bears. Big ones.",
+        "done": "Six. The lamps will burn till spring. Hild will want some for her kitchen. Don't tell her."
+      },
+      "objectives": [
+        {
+          "id": "fat",
+          "bring": "heartland/ngfat001",
+          "count": 6,
+          "drops": [
+            {
+              "creature": "stock/black-bear",
+              "chance": 0.6
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/ngwai001"
+          },
+          {
+            "item": "heartland/ngwai002"
+          },
+          {
+            "item": "heartland/ngwai003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ngdrift1",
+      "zone": "3e5710y9",
+      "hub": "fx4u6pd9",
+      "giver": "nhottar1",
+      "name": "Driftwood",
+      "level": 9,
+      "objectPools": [
+        {
+          "id": "drift",
+          "type": "driftLog",
+          "show": 6,
+          "spots": [
+            {
+              "at": [
+                6242,
+                18640
+              ],
+              "yaw": 2.75,
+              "scale": 7.2
+            },
+            {
+              "at": [
+                6189,
+                18693
+              ],
+              "yaw": 6.14,
+              "scale": 6.6
+            },
+            {
+              "at": [
+                6153,
+                18747
+              ],
+              "yaw": 3.15,
+              "scale": 5.2
+            },
+            {
+              "at": [
+                6148,
+                18800
+              ],
+              "yaw": 1.69,
+              "scale": 6.5
+            },
+            {
+              "at": [
+                6119,
+                18853
+              ],
+              "yaw": 4.27,
+              "scale": 7.4
+            },
+            {
+              "at": [
+                6083,
+                18907
+              ],
+              "yaw": 2.39,
+              "scale": 5.2
+            },
+            {
+              "at": [
+                6086,
+                18960
+              ],
+              "yaw": 1.81,
+              "scale": 7.7
+            },
+            {
+              "at": [
+                6053,
+                19047
+              ],
+              "yaw": 1.34,
+              "scale": 6.4
+            },
+            {
+              "at": [
+                6053,
+                19133
+              ],
+              "yaw": 5.85,
+              "scale": 5.1
+            },
+            {
+              "at": [
+                6020,
+                19220
+              ],
+              "yaw": 3.77,
+              "scale": 7.9
+            },
+            {
+              "at": [
+                5987,
+                19307
+              ],
+              "yaw": 1.45,
+              "scale": 6.6
+            },
+            {
+              "at": [
+                5963,
+                19393
+              ],
+              "yaw": 5.71,
+              "scale": 5.4
+            }
+          ]
+        }
+      ],
+      "text": {
+        "offer": "Friend! You look like someone who walks on beaches. I smoke fish for the road north, and fish want dry wood, and the coast south-west of here is thick with it. Only there are crabs on the tideline the size of shields, and I bruise. Eight bundles. I'll make it worth your while. Probably.",
+        "summary": "Gather 8 bundles of driftwood along the north coast's tideline, south-west of Northgate.",
+        "waiting": "Along the tideline. Watch the crabs. They watch you.",
+        "done": "Dry as a sermon. Lovely. The fish will thank you. I'll thank you too, look, here, with something that isn't fish."
+      },
+      "objectives": [
+        {
+          "id": "drift",
+          "use": "pool:drift",
+          "count": 8,
+          "time": 1.5,
+          "text": "Driftwood gathered"
+        }
+      ],
+      "rewards": {
+        "choice": [
+          {
+            "item": "heartland/nghan001"
+          },
+          {
+            "item": "heartland/nghan002"
+          },
+          {
+            "item": "heartland/nghan003"
+          }
+        ]
+      }
     }
   ]
 }

@@ -1606,6 +1606,334 @@
       },
       "weaponType": "staff",
       "caster": true
+    },
+    {
+      "id": "ngbell01",
+      "name": "Calf Bell",
+      "icon": "sewing-string",
+      "quality": "common",
+      "itemLevel": 45,
+      "kind": "quest",
+      "description": "A small iron bell on a strap of hide, the kind hung on a calf so it can be found in the long grass. This one has been dragged a long way."
+    },
+    {
+      "id": "nghide01",
+      "name": "The Hill Bear's Hide",
+      "icon": "animal-hide",
+      "quality": "common",
+      "itemLevel": 45,
+      "kind": "quest",
+      "description": "A great black hide, grey at the muzzle, scarred across the shoulders by old fights."
+    },
+    {
+      "id": "ngfat001",
+      "name": "Round of Bear Fat",
+      "icon": "meat",
+      "quality": "common",
+      "itemLevel": 45,
+      "kind": "quest",
+      "description": "A pale round of bear fat, wrapped in leaves. Rendered down, it burns clean in a lamp all night."
+    },
+    {
+      "id": "ngbill01",
+      "name": "Ottar's Bill of Sale",
+      "icon": "tied-scroll",
+      "quality": "common",
+      "itemLevel": 45,
+      "kind": "quest",
+      "description": "A bill of sale for forty sacks of grain, paid in silver at the top of the saddle by night. The seller has signed as a Council carter, and stamped it with the tithe mark."
+    },
+    {
+      "id": "ngsho001",
+      "name": "Drover's Mantle",
+      "icon": "shoulder-armor",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "shoulders",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "ngsho002",
+      "name": "Herder's Shoulder-hides",
+      "icon": "shoulder-armor",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "shoulders",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "ngsho003",
+      "name": "Palisade Spaulders",
+      "icon": "shoulder-armor",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "shoulders",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "chain"
+    },
+    {
+      "id": "ngche001",
+      "name": "Skald's Robe",
+      "icon": "robe",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "chest",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "ngche002",
+      "name": "Bear-hunter's Jerkin",
+      "icon": "leather-armor",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "chest",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "ngche003",
+      "name": "Nordish Mail",
+      "icon": "breastplate",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "chest",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "chain"
+    },
+    {
+      "id": "ngwri001",
+      "name": "Trader's Cuffs",
+      "icon": "bracer",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "wrists",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "ngwri002",
+      "name": "Hide-wrapped Bracers",
+      "icon": "bracer",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "wrists",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "ngwri003",
+      "name": "Gate-ward Vambraces",
+      "icon": "bracer",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "wrists",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "plate"
+    },
+    {
+      "id": "ngwai001",
+      "name": "Lamp-keeper's Sash",
+      "icon": "belt-buckles",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "waist",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "ngwai002",
+      "name": "Tallow-stained Belt",
+      "icon": "belt-buckles",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "waist",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "ngwai003",
+      "name": "Hall Guard's Girdle",
+      "icon": "belt-buckles",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "waist",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "chain"
+    },
+    {
+      "id": "nghan001",
+      "name": "Tideline Gloves",
+      "icon": "gloves",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "hands",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "cloth"
+    },
+    {
+      "id": "nghan002",
+      "name": "Crab-shell Grips",
+      "icon": "gloves",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "hands",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "leather"
+    },
+    {
+      "id": "nghan003",
+      "name": "Barnacled Gauntlets",
+      "icon": "gauntlet",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "hands",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "armorType": "plate"
+    },
+    {
+      "id": "ngwea001",
+      "name": "Northgate Spear",
+      "icon": "thrown-spear",
+      "quality": "uncommon",
+      "itemLevel": 50,
+      "requiredLevel": 9,
+      "slot": "twoHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "polearm"
+    },
+    {
+      "id": "ngwea002",
+      "name": "Herder's Axe",
+      "icon": "battle-axe",
+      "quality": "uncommon",
+      "itemLevel": 50,
+      "requiredLevel": 9,
+      "slot": "oneHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "axe"
+    },
+    {
+      "id": "ngwea003",
+      "name": "Rune-cut Staff",
+      "icon": "wizard-staff",
+      "quality": "uncommon",
+      "itemLevel": 50,
+      "requiredLevel": 9,
+      "slot": "twoHand",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      },
+      "weaponType": "staff",
+      "caster": true
+    },
+    {
+      "id": "ngbac001",
+      "name": "Meadow-wool Cloak",
+      "icon": "cape",
+      "quality": "uncommon",
+      "itemLevel": 40,
+      "requiredLevel": 7,
+      "slot": "back",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      }
+    },
+    {
+      "id": "ngnec001",
+      "name": "Skald's Torc",
+      "icon": "linked-rings",
+      "quality": "uncommon",
+      "itemLevel": 45,
+      "requiredLevel": 8,
+      "slot": "neck",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      }
+    },
+    {
+      "id": "ngfin001",
+      "name": "Ottar's Silver Ring",
+      "icon": "fire-ring",
+      "quality": "uncommon",
+      "itemLevel": 50,
+      "requiredLevel": 9,
+      "slot": "finger",
+      "stats": {
+        "primary": 1,
+        "stamina": 1
+      }
     }
   ]
 }
